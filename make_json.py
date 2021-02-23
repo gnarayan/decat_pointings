@@ -12,7 +12,7 @@ def individual(json_outpath,json_prefixs,pointRAs,pointDECs,obss,propids,objects
             json_out.append('\t\t"filter": "%s",'%filt)
             json_out.append('\t\t"exptime": %.1f,'%float(exptime.strip()))
             json_out.append('\t\t"RA": %f,' % round(float(pointRA), 5))
-            json_out.append('\t\t"Dec": %f,' % round(float(pointDEC), 5))
+            json_out.append('\t\t"dec": %f,' % round(float(pointDEC), 5))
             json_out.append('\t\t"object": "%s",'%tobject)
             json_out.append('\t\t"program": "%s",'%program)
             json_out.append('\t\t"expType": "%s",'%exptype)

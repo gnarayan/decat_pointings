@@ -1,0 +1,7 @@
+name ra_h ra_m ra_s dec_d dec_m dec_s equinox a b mag c d comment
+2021dha             	11 31 38.46 +14 04 34.55 2000 mag = 19.37 comment = Phot_Ia_filts;g10,r10,i10,z10;[CCD34]_Phase_-5_{2021A-0275}_PRIORITY2
+2021dev             	10 50 24.15 +00 55 36.92 2000 mag = 18.87 comment = Phot_Ia_filts;g10,r10,i10,z10;[CCD27]_Phase_-8_{2020B-0053}_PRIORITY2
+2021ckc             	11 54 35.69 +25 23 00.38 2000 mag = 17.84 comment = Spec_Ia_filts;g10,r10,i10,z10;[CCD22]_Phase_-4_{2020B-0053}_PRIORITY1
+2021cym             	08 18 12.91 +10 53 24.88 2000 mag = 18.19 comment = Spec_Ia_filts;g10,r10,i10,z10;[CCD29]_Phase_-6_{2020B-0053}_PRIORITY1
+2021clw             	05 51 19.94 -50 34 57.14 2000 mag = 16.70 comment = Spec_Ia_filts;g10,r10,i10,z10;[CCD21]_Phase_-6_{2020B-0053}_PRIORITY1
+2021cyn             	08 13 49.10 -12 06 57.55 2000 mag = 18.56 comment = Phot_Ia_filts;g10,r10,i10,z10;[CCD36]_Phase_-4_{2020B-0053}_PRIORITY2

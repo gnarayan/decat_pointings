@@ -1,7 +1,7 @@
 import numpy as np
 import json as pyjson
 
-readout = 28.
+readout = 29.
 
 #from here http://www.ctio.noao.edu/noao/node/5826
 def slewtime_from_two_coords(ra1,dec1,ra2,dec2):

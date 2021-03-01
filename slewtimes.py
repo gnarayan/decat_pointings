@@ -5,7 +5,8 @@ readout = 28.
 
 #from here http://www.ctio.noao.edu/noao/node/5826
 def slewtime_from_two_coords(ra1,dec1,ra2,dec2):
-    deg_separation = np.sqrt((ra1-ra2)**2+(dec1-dec2)**2)
+    delra = (ra1-ra2)*np.cos(np.mean([dec1,dec2]))
+    deg_separation = np.sqrt((delra)**2+(dec1-dec2)**2)
     return max([0.,20.-readout+220./100.*deg_separation])#subtracted off readout and bounded by zero
 
 def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes):
@@ -24,9 +25,11 @@ def get_ras_decs_exptimes_from_json(json):
     with open(json) as json_file: 
         pointings = pyjson.load(json_file) 
         for pointing in pointings:
-            ras.append(pointing['RA'])
-            decs.append(pointing['Dec'])
-            exptimes.append(pointing['exptime'])
+            ras.append(float(pointing['RA']))
+            decname = np.array(list(pointing.keys()))[np.array([k.lower() == 'dec' for k in pointing.keys()])][0]
+            decs.append(float(pointing[decname]))
+            expname = np.array(list(pointing.keys()))[np.array([k.lower() == 'exptime' for k in pointing.keys()])][0]
+            exptimes.append(float(pointing[expname]))
     return ras,decs,exptimes
 
 def time_for_single_json(json):
@@ -54,4 +57,3 @@ def total_time_from_jsons(jsons):
 #                           '/Users/djbrout/Dropbox/decat_pointings/jsons/20210223/2021dnl_221.762_0.476_PRIORITY2.json',
 #                           '/Users/djbrout/Dropbox/decat_pointings/jsons/20210223/2021dov_134.078_0.442_PRIORITY1.json'])
 #print(t)
-

@@ -17,7 +17,7 @@ def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes):
             slewtime = 0
         else:
             slewtime = slewtime_from_two_coords(ra,dec,ras[i-1],decs[i-1])
-        totaltime += exptime+slewtime
+        totaltime += exptime+slewtime+readout
     return totaltime
         
 def get_ras_decs_exptimes_from_json(json):
@@ -42,10 +42,12 @@ def total_time_from_jsons(jsons):
     #jsons: list of filenames
     ras,decs,exptimes = [],[],[]
     for json in jsons:
+        print(json)
         tras,tdecs,texptimes = get_ras_decs_exptimes_from_json(json)
         ras.extend(tras)
         decs.extend(tdecs)
         exptimes.extend(texptimes)
+        print(np.sum(texptimes)/60)
     totaltime =	time_from_list_of_ras_decs_exptimes(ras,decs,exptimes)
     return totaltime
         

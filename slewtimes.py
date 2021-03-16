@@ -1,5 +1,6 @@
 import numpy as np
 import json as pyjson
+import pandas as pd
 
 readout = 29.
 
@@ -10,14 +11,18 @@ def slewtime_from_two_coords(ra1,dec1,ra2,dec2):
     return max([0.,20.-readout+220./100.*deg_separation])#subtracted off readout and bounded by zero
 
 def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes):
-    ras,decs,exptimes = np.array(ras),np.array(decs),np.array(exptimes) 
+    ras,decs,exptimes = np.array(ras),np.array(decs),np.array(exptimes)
+    df = pd.DataFrame.from_dict({'rra':np.round(ras,-1),'ra':ras,'dec':decs,'exptime':exptimes})
+    df.sort_values(by=['rra', 'dec'],inplace=True)
+    df = df.reset_index(drop=True)
     totaltime = 0.
-    for i,ra,dec,exptime in zip(range(len(ras)),ras,decs,exptimes):
+    for i,row in df.iterrows():
         if i==0:
             slewtime = 0
         else:
-            slewtime = slewtime_from_two_coords(ra,dec,ras[i-1],decs[i-1])
-        totaltime += exptime+slewtime+readout
+            #print(row['ra'],row['dec'])
+            slewtime = slewtime_from_two_coords(row['ra'],row['dec'],df['ra'][i-1],df['dec'][i-1])
+        totaltime += row['exptime']+slewtime+readout
     return totaltime
         
 def get_ras_decs_exptimes_from_json(json):
@@ -38,7 +43,7 @@ def time_for_single_json(json):
     totaltime = time_from_list_of_ras_decs_exptimes(ras,decs,exptimes)
     return totaltime
 
-def total_time_from_jsons(jsons):
+def total_time_from_jsons(jsons,sort=False):
     #jsons: list of filenames
     ras,decs,exptimes = [],[],[]
     for json in jsons:
@@ -47,7 +52,7 @@ def total_time_from_jsons(jsons):
         ras.extend(tras)
         decs.extend(tdecs)
         exptimes.extend(texptimes)
-        print(np.sum(texptimes)/60)
+        #print(np.sum(texptimes)/60)
     totaltime =	time_from_list_of_ras_decs_exptimes(ras,decs,exptimes)
     return totaltime
         

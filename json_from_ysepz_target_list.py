@@ -52,6 +52,7 @@ for infile in infiles:
 
     outfile.write('name ra_h ra_m ra_s dec_d dec_m dec_s equinox a b mag c d comment\n')
     for line in data[1:]:
+        if line[0] == '#': continue
         outfile.write(line)
     outfile.close()
 
@@ -69,5 +70,5 @@ for infile in infiles:
     df[['name','candRA','candDEC','ccd','obs','priority','pointRA','pointDEC']].to_csv(reformatdir+date+'.txt',sep=' ',index=False)
     df[['name','candRA','candDEC']].to_csv(reformatdir+date+'_for_iObserve.txt',index=False,header=False,sep=' ')
 
-    mj.individual(json_outpath,df['name']+'_'+df['candRA'].round(3).astype(str)+'_'+df['candDEC'].round(3).astype(str)+'_PRIORITY'+df['priority'].astype(str),df['pointRA'],df['pointDEC'],df['obs'],df['propid'],df['name'],df['expTypes'],df['programs'])
+    mj.individual(json_outpath,df['name']+'_'+df['candRA'].round(3).astype(str)+'_'+df['candDEC'].round(3).astype(str)+'_PRIORITY'+df['priority'].astype(str),df['pointRA'],df['pointDEC'],df['obs'],df['propid'],df['name']+'_P'+df['priority'].astype(str),df['expTypes'],df['programs'])
 

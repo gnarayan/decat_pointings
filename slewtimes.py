@@ -30,18 +30,27 @@ def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes):
 def get_ras_decs_exptimes_from_json(json):
     ras,decs,exptimes = [],[],[]
     with open(json) as json_file: 
-        pointings = pyjson.load(json_file) 
+        pointings = pyjson.load(json_file)
+        lastra = np.nan
+        lastdec = np.nan
         for pointing in pointings:
-            raname = np.array(list(pointing.keys()))[np.array([k.lower() == 'ra' for k in pointing.keys()])][0]
-            ra = pointing[raname]
-            decname = np.array(list(pointing.keys()))[np.array([k.lower() == 'dec' for k in pointing.keys()])][0]
-            dec = pointing[decname]
+            try:
+                raname = np.array(list(pointing.keys()))[np.array([k.lower() == 'ra' for k in pointing.keys()])][0]
+                ra = pointing[raname]
+                decname = np.array(list(pointing.keys()))[np.array([k.lower() == 'dec' for k in pointing.keys()])][0]
+                dec = pointing[decname]
+            except:
+                print('ra/dec not found, using previous exposure ra/dec')
+                ra = lastra
+                dec = lastdec
             if ":" in str(ra):
                 c = SkyCoord(str(ra)+' '+str(dec), unit=(u.hourangle, u.deg))
                 ra = c.ra.degree
                 dec = c.dec.degree
             ras.append(float(ra))
             decs.append(float(dec))
+            lastra = ra
+            lastdec = dec
             expname = np.array(list(pointing.keys()))[np.array([k.lower() == 'exptime' for k in pointing.keys()])][0]
             exptimes.append(float(pointing[expname]))
     return ras,decs,exptimes

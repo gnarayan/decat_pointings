@@ -1,6 +1,8 @@
 import numpy as np
 import json as pyjson
 import pandas as pd
+from astropy.coordinates import SkyCoord
+from astropy import units as u
 
 readout = 29.
 
@@ -30,9 +32,16 @@ def get_ras_decs_exptimes_from_json(json):
     with open(json) as json_file: 
         pointings = pyjson.load(json_file) 
         for pointing in pointings:
-            ras.append(float(pointing['RA']))
+            raname = np.array(list(pointing.keys()))[np.array([k.lower() == 'ra' for k in pointing.keys()])][0]
+            ra = pointing[raname]
             decname = np.array(list(pointing.keys()))[np.array([k.lower() == 'dec' for k in pointing.keys()])][0]
-            decs.append(float(pointing[decname]))
+            dec = pointing[decname]
+            if ":" in str(ra):
+                c = SkyCoord(str(ra)+' '+str(dec), unit=(u.hourangle, u.deg))
+                ra = c.ra.degree
+                dec = c.dec.degree
+            ras.append(float(ra))
+            decs.append(float(dec))
             expname = np.array(list(pointing.keys()))[np.array([k.lower() == 'exptime' for k in pointing.keys()])][0]
             exptimes.append(float(pointing[expname]))
     return ras,decs,exptimes

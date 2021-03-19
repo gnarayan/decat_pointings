@@ -8,6 +8,10 @@ snids = list(c.ccdmap.keys())
 m = pd.read_csv('fieldmaps.txt',delim_whitespace=True)
 snids.extend(list(m['SNID'].to_numpy()))
 
+ignoref = open('ignore.list','r').readlines()
+ignore = [i.strip() for i in ignoref]
+
+
 os.system('rm obslogs/*~')
 os.system('rm 2021A/*/*~')
 
@@ -73,6 +77,7 @@ for row in df.iterrows():
 
 print('-'*25)
 for k,v in obsdict.items():
+    if k in ignore: continue
     if k in rysedict.keys():
         print('SNID',k,'YSE',rysedict[k])
     else:

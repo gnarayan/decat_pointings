@@ -9,6 +9,7 @@ m = pd.read_csv('fieldmaps.txt',delim_whitespace=True)
 snids.extend(list(m['SNID'].to_numpy()))
 
 os.system('rm obslogs/*~')
+os.system('rm 2021A/*/*~')
 
 ysedict = {}
 ysedict2 = {}
@@ -25,10 +26,22 @@ for row in m.iterrows():
 
     
 dfs = []
-for f in glob('obslogs/*'):
+for f in glob('2021A/*/*inv'):
     date = f.split('/')[-1].split('.')[0]
-    tdf = pd.read_csv(f,names=['expnum','ra','dec','ut','filt','exp','secz','type','object'],delim_whitespace=True,comment='#')
-    tdf['date'] = [date for e in range(len(tdf))]
+    expnums = []
+    objects = []
+    filts = []
+    print(f)
+    for l in open(f,'r').readlines():
+        if l[0] == '#': continue
+        if l.split()[0] == 'MJD': continue
+        #if l.split()[0] == 'ID': continue
+        expnums.append(int(l.split()[0]))
+        objects.append(str(l.split()[-1]))
+        filts.append(str(l.split()[4]))
+        #tdf = pd.read_csv(f,names=['expnum','ra','dec','ut','filt','exp','secz','type','object'],delim_whitespace=True,comment='#')
+    dates = [date for e in range(len(expnums))]
+    tdf = pd.DataFrame.from_dict({'expnum':expnums,'object':objects,'date':dates,'filt':filts})
     dfs.append(tdf)
 
 obsdict = {}

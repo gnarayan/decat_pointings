@@ -12,11 +12,12 @@ def slewtime_from_two_coords(ra1,dec1,ra2,dec2):
     deg_separation = np.sqrt((delra)**2+(dec1-dec2)**2)
     return max([0.,20.-readout+220./100.*deg_separation])#subtracted off readout and bounded by zero
 
-def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes):
+def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes,sort=True):
     ras,decs,exptimes = np.array(ras),np.array(decs),np.array(exptimes)
     df = pd.DataFrame.from_dict({'rra':np.round(ras,-1),'ra':ras,'dec':decs,'exptime':exptimes})
-    df.sort_values(by=['rra', 'dec'],inplace=True)
-    df = df.reset_index(drop=True)
+    if sort:
+        df.sort_values(by=['rra', 'dec'],inplace=True)
+        df = df.reset_index(drop=True)
     totaltime = 0.
     for i,row in df.iterrows():
         if i==0:
@@ -61,7 +62,7 @@ def time_for_single_json(json):
     totaltime = time_from_list_of_ras_decs_exptimes(ras,decs,exptimes)
     return totaltime
 
-def total_time_from_jsons(jsons,sort=False):
+def total_time_from_jsons(jsons,sort=True):
     #jsons: list of filenames
     ras,decs,exptimes = [],[],[]
     for json in jsons:
@@ -71,7 +72,7 @@ def total_time_from_jsons(jsons,sort=False):
         decs.extend(tdecs)
         exptimes.extend(texptimes)
         #print(np.sum(texptimes)/60)
-    totaltime =	time_from_list_of_ras_decs_exptimes(ras,decs,exptimes)
+    totaltime =	time_from_list_of_ras_decs_exptimes(ras,decs,exptimes,sort=sort)
     return totaltime
         
 

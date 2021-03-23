@@ -30,7 +30,7 @@ for row in m.iterrows():
 
     
 dfs = []
-for f in glob('2021A/*/*inv'):
+for f in glob('2021A/*/*nv'):
     date = f.split('/')[-1].split('.')[0]
     expnums = []
     objects = []
@@ -76,6 +76,7 @@ for row in df.iterrows():
         obsdict[snid]['filts'].append(r['filt'])
 
 print('-'*25)
+cnt = 0
 for k,v in obsdict.items():
     if k in ignore: continue
     if k in rysedict.keys():
@@ -83,6 +84,7 @@ for k,v in obsdict.items():
     else:
         print('SNID',k)
 
+    cnt += 1
     for date in np.sort(np.unique(v['dates'])):
         ww = np.array(v['dates']) == date
         filts = np.array(v['filts'])[ww]
@@ -90,3 +92,4 @@ for k,v in obsdict.items():
     print()
     #print('Dates',v['dates'])
     print('-'*25)
+print('Total SNe %d'%cnt)

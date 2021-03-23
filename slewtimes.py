@@ -12,14 +12,15 @@ def slewtime_from_two_coords(ra1,dec1,ra2,dec2):
     deg_separation = np.sqrt((delra)**2+(dec1-dec2)**2)
     return max([0.,20.-readout+220./100.*deg_separation])#subtracted off readout and bounded by zero
 
-def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes,sort=True):
-    ras,decs,exptimes = np.array(ras),np.array(decs),np.array(exptimes)
-    df = pd.DataFrame.from_dict({'rra':np.round(ras,-1),'ra':ras,'dec':decs,'exptime':exptimes})
+def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
+    ids,ras,decs,exptimes = np.array(ids),np.array(ras),np.array(decs),np.array(exptimes)
+    df = pd.DataFrame.from_dict({'ids':ids,'rra':np.round(ras,-1),'ra':ras,'dec':decs,'exptime':exptimes})
     if sort:
         df.sort_values(by=['rra', 'dec'],inplace=True)
         df = df.reset_index(drop=True)
     totaltime = 0.
     for i,row in df.iterrows():
+        print(row['ids'])
         if i==0:
             slewtime = 0
         else:
@@ -29,7 +30,7 @@ def time_from_list_of_ras_decs_exptimes(ras,decs,exptimes,sort=True):
     return totaltime
         
 def get_ras_decs_exptimes_from_json(json):
-    ras,decs,exptimes = [],[],[]
+    ids, ras,decs,exptimes = [],[],[],[]
     with open(json) as json_file: 
         pointings = pyjson.load(json_file)
         lastra = np.nan
@@ -48,31 +49,34 @@ def get_ras_decs_exptimes_from_json(json):
                 c = SkyCoord(str(ra)+' '+str(dec), unit=(u.hourangle, u.deg))
                 ra = c.ra.degree
                 dec = c.dec.degree
+            
+            ids.append(pointing['object'])
             ras.append(float(ra))
             decs.append(float(dec))
             lastra = ra
             lastdec = dec
             expname = np.array(list(pointing.keys()))[np.array([k.lower() == 'exptime' for k in pointing.keys()])][0]
             exptimes.append(float(pointing[expname]))
-    return ras,decs,exptimes
+    return ids,ras,decs,exptimes
 
 def time_for_single_json(json):
     #json: filename
-    ras,decs,exptimes = get_ras_decs_exptimes_from_json(json)
-    totaltime = time_from_list_of_ras_decs_exptimes(ras,decs,exptimes)
+    ids, ras,decs,exptimes = get_ras_decs_exptimes_from_json(json)
+    totaltime = time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes)
     return totaltime
 
 def total_time_from_jsons(jsons,sort=True):
     #jsons: list of filenames
-    ras,decs,exptimes = [],[],[]
+    ids, ras,decs,exptimes = [],[],[],[]
     for json in jsons:
         print(json)
-        tras,tdecs,texptimes = get_ras_decs_exptimes_from_json(json)
+        tids, tras,tdecs,texptimes = get_ras_decs_exptimes_from_json(json)
+        ids.extend(tids)
         ras.extend(tras)
         decs.extend(tdecs)
         exptimes.extend(texptimes)
         #print(np.sum(texptimes)/60)
-    totaltime =	time_from_list_of_ras_decs_exptimes(ras,decs,exptimes,sort=sort)
+    totaltime =	time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=sort)
     return totaltime
         
 

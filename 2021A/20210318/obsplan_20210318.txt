@@ -1,0 +1,37 @@
+March 18, 2021
+Times are local (UTC) for CTIO
+
+Sunset 20:03 (23:03 UTC)
+Evening Twilight Ends 21:16 (00:16 UTC)
+Morning Twilight Begins 06:26 (09:26 UTC)
+Sunrise 07:39 (10:39 UTC)
+LST at Evening Twilight 07:20
+LST at Morning Twilight 16:32
+
+Time between eve and morning twilight: 550 minutes
+Time between sunset and sunrise: 696 minutes
+Time requested from programs: 650.6 minutes
+
+Times below are LOCAL TIME IN CHILE
+
+20:00 Sunset - Skyflats/Setup
+21:00 Can start in twilight: YSE 1658.C.a (2 min), CDF-S (11 min, C3.json), S-CVZ (11 min, S-CVZ.json), COSMOS-DDF-SEQ C (30 min, cosmos_ddf_seq_C.json), STANDARD LTT3864 (LTT3864_std_ugriN662.json, 1 min), YSE/DEBASS (2021clw.json) time: N2997 (25 min, n2997_t34_N662r_600_d07.json)
+22:25 YSE 415.A.a 415.A.b 415.B.a 418.F.a (11 min) DEBASS 21dsi (2min)
+22:40 YSE 525.D.a 525.C.a 525.B.b 525.E.b 525.B.a 525.C.b (14 min)
+22:55 YSE 525.F.a, 525.F.b, 525.E.a, 525.A.a, 525.A.b (14min) DEBASS 21drc (2 min)
+23:15 eFEDS (30 min, eFEDS.json)
+23:45 COSMOS-DDF-SEQ A (30 min, cosmos_ddf_seq_A.json) 
+00:15 COSMOS-DDF-SEQ B (30 min, cosmos_ddf_seq_B.json)
+00:45 DEBASS/YSE 21fxy  (10 min) 
+00:55 Travis' ChAII field (68 min,Trades/cha2_TravisRector.1h.json)
+01:55 DESI 1220, 1242, 1200, 1221, 1201, 1182, 1202, 1222, 1183
+02:55 DESI 1203, 1184, 1166, 1185, 1204, 1167, 1186, 1168, 1151 
+03:55 DESI 1169, 1187, 1152, 1170, 1153, 1138, 1154, 1171, 1139
+04:55 DESI 1155, 1140, 1126
+05:15 DECaPSEast-DDF-A, B (33 min, decapseast_ddf.json)
+05:50 YSE 674.E.a 376.2020esm.a (7 min) DEBASS 21dnl (2min)
+06:00 YSE 477.E.a (5 min, very high priority), 477.F.a 428.B.a (7min) DEBASS 21fqb (2.5min)
+06:15 YSE 632.C.a 632.F.a 632.A.a 632.B.a 632.D.a 632.E.a (16 min)
+06:26 Morning Twilight begins STANDARD LTT6248 (LTT6248_std_ugriN662.json, 1 min)
+07:00 Skyflats
+

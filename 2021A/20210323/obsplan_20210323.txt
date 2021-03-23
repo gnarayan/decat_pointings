@@ -1,5 +1,4 @@
 March 23, 2021
-
 Times are local (UTC) for CTIO
 Sunset 19:57 (22:57 UTC)
 Evening Twilight Ends 21:10 (00:10 UTC)
@@ -7,17 +6,12 @@ Morning Twilight Begins 06:30 (09:30 UTC)
 Sunrise 07:42 (10:42 UTC)
 LST at Evening Twilight 07:33
 LST at Morning Twilight 16:55
-
 Time between eve and morning twilight: 560 minutes
 Time between sunset and sunrise: 705 minutes
 Time requested from programs: XXX minutes
-
 Times below are LOCAL TIME IN CHILE
-
 [] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
-
 19:57 Sunset - Setup
-
 20:31 Twilight begins: 
 MaxVis ra 06:30:00  dec -58:45:00  secz 1.8 [98 -59]
 S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67], 2021clw.json (2.5min) [88 -51], 21gmk.json (2.5min) [92 -45], 21gbk.json (2.5min) [84 -22], CDF-S (8 min + 3 min setup, C3.json) [52 -28], 
@@ -33,7 +27,6 @@ S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67], 2021clw.json (2.5min) [88 -51]
 01:00 577.A.a [196 29], 21dch.json, ###############ONLY VISIBLE FROM 12:50am-1:20am Local Chile Time
 01:05 525.C.b [192 12], 21gcw.json [197 16], 525.D.a [183 12], 525.D.b [185 12], 523.C.a [174 9], 577.B.a [178 25], 474.E.a [186 3], 21ftc.json [217 2] (30 min)
 01:35 376.2020esm.a [212 -8], 21cjb.json, 21fof.json [212 -9], 21foh.json [200 -17] (10 min)
-
 02:00 DESI Block (3h:30m total with setup) 1153 [223 2], 1168 [222 2], 1184 [220 2], 1201 [218 2], 1219 [], 1239 [], 1260 [], 1282 [], 1283 []
 03:00 DESI 1261 [], 1240 [], 1220 [218 0], 1202 [219 0], 1185 [221 0], 1169 [223 0], 1170 [223 -2], 1186 [222 -2], 1203 [220 -2]
 04:00 DESI 1221 [219 -2], 1241 [], 1262, 1284, 1303, 1304, 1285, 1263, 1242

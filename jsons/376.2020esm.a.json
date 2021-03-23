@@ -5,11 +5,11 @@
 		"exptime": 50.0,
 		"RA": 211.316740,
 		"dec": -7.374200,
-		"object": "",
+		"object": "376.2020esm.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "376.2020esm.a",
+		"comment": "376.2020esm.a 2021cjb",
 		"wait": "False",
 		"propid": "2021A-0275"
 	},
@@ -19,11 +19,11 @@
 		"exptime": 50.0,
 		"RA": 211.316740,
 		"dec": -7.374200,
-		"object": "",
+		"object": "376.2020esm.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "376.2020esm.a",
+		"comment": "376.2020esm.a 2021cjb",
 		"wait": "False",
 		"propid": "2021A-0275"
 	}

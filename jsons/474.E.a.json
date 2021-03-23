@@ -5,11 +5,11 @@
 		"exptime": 50.0,
 		"RA": 185.871630,
 		"dec": 3.175670,
-		"object": "",
+		"object": "474.E.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "474.E.a",
+		"comment": "474.E.a 2021dgu",
 		"wait": "False",
 		"propid": "2021A-0275"
 	},
@@ -19,11 +19,11 @@
 		"exptime": 50.0,
 		"RA": 185.871630,
 		"dec": 3.175670,
-		"object": "",
+		"object": "474.E.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "474.E.a",
+		"comment": "474.E.a 2021dgu",
 		"wait": "False",
 		"propid": "2021A-0275"
 	}

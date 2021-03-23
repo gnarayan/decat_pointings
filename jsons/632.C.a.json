@@ -5,11 +5,11 @@
 		"exptime": 50.0,
 		"RA": 241.864310,
 		"dec": 25.745050,
-		"object": "",
+		"object": "632.C.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "632.C.a",
+		"comment": "632.C.a 2021dcu",
 		"wait": "False",
 		"propid": "2021A-0275"
 	},
@@ -19,11 +19,11 @@
 		"exptime": 50.0,
 		"RA": 241.864310,
 		"dec": 25.745050,
-		"object": "",
+		"object": "632.C.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "632.C.a",
+		"comment": "632.C.a 2021dcu",
 		"wait": "False",
 		"propid": "2021A-0275"
 	}

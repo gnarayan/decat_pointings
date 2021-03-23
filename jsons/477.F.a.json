@@ -5,11 +5,11 @@
 		"exptime": 50.0,
 		"RA": 216.522960,
 		"dec": 15.593450,
-		"object": "",
+		"object": "477.F.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "477.F.a",
+		"comment": "477.F.a 2021dam",
 		"wait": "False",
 		"propid": "2021A-0275"
 	},
@@ -19,11 +19,11 @@
 		"exptime": 50.0,
 		"RA": 216.522960,
 		"dec": 15.593450,
-		"object": "",
+		"object": "477.F.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "477.F.a",
+		"comment": "477.F.a 2021dam",
 		"wait": "False",
 		"propid": "2021A-0275"
 	}

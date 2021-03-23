@@ -1,0 +1,32 @@
+March 23, 2021
+
+Times are local (UTC) for CTIO
+Sunset 19:57 (22:57 UTC)
+Evening Twilight Ends 21:10 (00:10 UTC)
+Morning Twilight Begins 06:30 (09:30 UTC)
+Sunrise 07:42 (10:42 UTC)
+LST at Evening Twilight 07:33
+LST at Morning Twilight 16:55
+
+Time between eve and morning twilight: 560 minutes
+Time between sunset and sunrise: 705 minutes
+Time requested from programs: XXX minutes
+
+Times below are LOCAL TIME IN CHILE
+
+19:57 Sunset - Setup
+21:00 Can start in twilight: CDF-S (8 min + 3 min setup, C3.json), S-CVZ (8 min + 3 min setup, S-CVZ.json), COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) 
+22:00 eFEDS (23 min + 7 min setup, eFEDS.json)
+22:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) 
+23:00
+00:00 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json)
+01:00
+02:30 DESI Block (3h:30m total with setup) 1153, 1168, 1184, 1201, 1219, 1239, 1260, 1282, 1283
+03:30 DESI 1261, 1240, 1220, 1202, 1185, 1169, 1170, 1186, 1203
+04:30 DESI 1221, 1241, 1262, 1284, 1303, 1304, 1285, 1263, 1242
+05:30 DESI 1222, 1204, 1187 
+06:00 DECaPSEast-DDF-A  (21 min + 4 min setup, decapseast_ddf_A.json)
+06:25 DECaPSEast-DDF-B  (21 min - repeat of above - no separate setup)
+06:28 Twilight Begins
+06:46
+Can do in twilight:

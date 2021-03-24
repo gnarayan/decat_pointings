@@ -1,0 +1,58 @@
+[
+	{
+		"count": 1,
+		"filter": "g",
+		"exptime": 15.0,
+		"RA": 235.117030,
+		"dec": 6.620960,
+		"object": "2021gwa_P2",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021gwa_235.654_6.855_PRIORITY2",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 15.0,
+		"RA": 235.117030,
+		"dec": 6.620960,
+		"object": "2021gwa_P2",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021gwa_235.654_6.855_PRIORITY2",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 15.0,
+		"RA": 235.117030,
+		"dec": 6.620960,
+		"object": "2021gwa_P2",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021gwa_235.654_6.855_PRIORITY2",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 15.0,
+		"RA": 235.117030,
+		"dec": 6.620960,
+		"object": "2021gwa_P2",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021gwa_235.654_6.855_PRIORITY2",
+		"wait": "False",
+		"propid": "2020B-0053"
+	}
+]

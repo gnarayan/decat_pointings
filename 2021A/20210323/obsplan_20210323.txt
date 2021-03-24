@@ -37,4 +37,4 @@ Times below are LOCAL TIME IN CHILE
 06:00 DECaPSEast-DDF-B  (21 min - repeat of above - no separate setup) 
 06:28 Twilight Begins
 06:46
-Can do in twilight: SDSSJ2300-0000, 21gez.json
+Can do in twilight: SDSSJ2300-0000, 21gez.json (anytime after 2am local time)

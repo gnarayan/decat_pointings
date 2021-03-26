@@ -1,16 +1,12 @@
 March 27, 2021
 Times are local (UTC) for CTIO
-Sunset 19:57 (22:57 UTC)
-Evening Twilight Ends 21:10 (00:10 UTC)
-Morning Twilight Begins 06:30 (09:30 UTC)
-Sunrise 07:42 (10:42 UTC)
-LST at Evening Twilight 07:33
-LST at Morning Twilight 16:55
-Time between eve and morning twilight: 560 minutes
-Time between sunset and sunrise: 705 minutes
+Time between eve and morning twilight: XXX minutes
+Time between sunset and sunrise: XXX minutes
 Time requested from programs: XXX minutes
 Times below are LOCAL TIME IN CHILE
+
 [] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
+
 19:53 Sunset - Setup
 
 20:28 Twilight begins: SDSSJ0843-0000 (3min) S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67], 
@@ -61,5 +57,5 @@ Times below are LOCAL TIME IN CHILE
 
 06:15 21gqc.json [227 -10], 21fqb.json [228 5], 21gwa.json [236 7], 21gez.json [246 21]
 
-06:32 Twilight Begins:  21dcu.json [242 25], 674.E.a [211 28], 21dep.json, SDSSJ1442-0005,
+06:32 Twilight Begins:  21dcu.json [242 25], 674.E.a [211 28], 21dep.json, SDSSJ1442-0005
 

@@ -103,3 +103,18 @@ for k,v in obsdict.items():
     #print('Dates',v['dates'])
     print('-'*25)
 print('Total SNe %d'%cnt)
+
+print('-'*1000)
+allexps = []
+for k,v in obsdict.items():
+    if k in ignore: continue
+    print(v['expnums'])
+    allexps.extend(v['expnums'])
+allexps = np.unique(allexps)
+
+fout = open('debass_allexpnums.txt','w')
+for exp in allexps:
+    fout.write(str(exp)+'\n')
+fout.close()
+
+    

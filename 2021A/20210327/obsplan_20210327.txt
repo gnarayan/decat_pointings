@@ -24,17 +24,17 @@ Times below are LOCAL TIME IN CHILE
 
 20:55 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2] 
 
-21:25 [!!!!!! 30 min gap to fill !!!!!!!]
+21:25 etale.ri.30min.json + 5 min flip since dec < -30
 
-21:55 415.A.b [130 -1], 2021ddh.json, 415.B.a [134 -1], 21dov.json, 415.A.a [123 -12], 21cyn.json [123 -12], 21grd.json [129 -11] (15 min)
+22:00 415.A.b [130 -1], 2021ddh.json, 415.B.a [134 -1], 21dov.json, 415.A.a [123 -12], 21cyn.json [123 -12], 21grd.json [129 -11] (15 min)
 
-22:10 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+22:15 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-22:40 21ghc.json [141 1], 21fna.json [154 -23], 21gwn.json [162 -29]
-22:50 21gkb.json [164 -14], 21fxy.json [198 -20], 418.F.a [162 0], 21dev.json
-23:05 21dha.json, 21drc.json [172 21], 577.B.a [178 25], 575.B.a [179 25]
+22:45 21ghc.json [141 1], 21fna.json [154 -23], 21gwn.json [162 -29]
+22:55 21gkb.json [164 -14], 21fxy.json [198 -20], 418.F.a [162 0], 21dev.json
+23:10 21dha.json, 21drc.json [172 21], 577.B.a [178 25], 575.B.a [179 25]
 
-23:20 [!!!!!! 25 min gap to fill !!!!! Cannot do Virgo or near 525/523/474 - too close to moon ]
+23:25 [!!!!!! 20 min gap to fill !!!!! Cannot do Virgo or near 525/523/474 - too close to moon ]
 
 
 23:45 21gcw.json [197 16], 21ckc.json ###############ONLY VISIBLE FROM 11pm-1am Local Chile Time, 21gyh.json [196, -3]

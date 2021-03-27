@@ -34,11 +34,11 @@ Times below are LOCAL TIME IN CHILE
 22:50 21gkb.json [164 -14], 21fxy.json [198 -20], 418.F.a [162 0], 21dev.json
 23:05 21dha.json, 21drc.json [172 21], 577.B.a [178 25], 575.B.a [179 25]
 
-23:20 [!!!!!! 40 min gap to fill !!!!! Cannot do Virgo or near 525/523/474 - too close to moon ]
+23:20 [!!!!!! 25 min gap to fill !!!!! Cannot do Virgo or near 525/523/474 - too close to moon ]
 
 
-00:00 21gkz.json [179 30] ###############ONLY VISIBLE AT 11:50am to 12:10am Local Chile Time. Can shuffle with obs before and after to optimize.
-00:02 21gcw.json [197 16], 21ckc.json ###############ONLY VISIBLE FROM 11pm-1am Local Chile Time
+23:45 21gcw.json [197 16], 21ckc.json ###############ONLY VISIBLE FROM 11pm-1am Local Chile Time, 21gyh.json [196, -3]
+00:00 21gkz.json [179 30] ###############ONLY VISIBLE AT 11:50am to 12:10am Local Chile Time 
 
 
 00:10 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]

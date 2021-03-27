@@ -35,6 +35,8 @@ for f in glob('2021A/*/*nv'):
     expnums = []
     objects = []
     filts = []
+    ras = []
+    decs = []
     print(f)
     for l in open(f,'r').readlines():
         if l[0] == '#': continue
@@ -43,9 +45,11 @@ for f in glob('2021A/*/*nv'):
         expnums.append(int(l.split()[0]))
         objects.append(str(l.split()[-1]))
         filts.append(str(l.split()[4]))
+        ras.append(float(l.split()[1]))
+        decs.append(float(l.split()[2]))
         #tdf = pd.read_csv(f,names=['expnum','ra','dec','ut','filt','exp','secz','type','object'],delim_whitespace=True,comment='#')
     dates = [date for e in range(len(expnums))]
-    tdf = pd.DataFrame.from_dict({'expnum':expnums,'object':objects,'date':dates,'filt':filts})
+    tdf = pd.DataFrame.from_dict({'expnum':expnums,'object':objects,'date':dates,'filt':filts,'ra':ras,'dec':decs})
     dfs.append(tdf)
 
 obsdict = {}
@@ -54,23 +58,29 @@ for row in df.iterrows():
     r = row[1]
     if str(r['object']).split('_')[0] in snids:
         snid = r['object'].split('_')[0]
+        ra = r['ra']
+        dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec}
         #print(snid,r['date'])
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
     elif str(r['object']) in ysedict.keys():
         snid = ysedict[r['object']]
+        ra = r['ra']
+        dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec}
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
     elif str(r['object']) in ysedict2.keys():
         snid = ysedict2[r['object']]
+        ra = r['ra']
+        dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec}
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
@@ -80,9 +90,9 @@ cnt = 0
 for k,v in obsdict.items():
     if k in ignore: continue
     if k in rysedict.keys():
-        print('SNID',k,'YSE',rysedict[k])
+        print('SNID',k,'YSE',rysedict[k],'RA',v['ra'],'DEC',v['dec'])
     else:
-        print('SNID',k)
+        print('SNID',k,'RA',v['ra'],'DEC',v['dec'])
 
     cnt += 1
     for date in np.sort(np.unique(v['dates'])):
@@ -93,3 +103,18 @@ for k,v in obsdict.items():
     #print('Dates',v['dates'])
     print('-'*25)
 print('Total SNe %d'%cnt)
+
+print('-'*1000)
+allexps = []
+for k,v in obsdict.items():
+    if k in ignore: continue
+    print(v['expnums'])
+    allexps.extend(v['expnums'])
+allexps = np.unique(allexps)
+
+fout = open('debass_allexpnums.txt','w')
+for exp in allexps:
+    fout.write(str(exp)+'\n')
+fout.close()
+
+    

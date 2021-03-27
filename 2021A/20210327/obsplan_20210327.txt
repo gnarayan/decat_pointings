@@ -1,0 +1,61 @@
+March 27, 2021
+Times are local (UTC) for CTIO
+Time between eve and morning twilight: XXX minutes
+Time between sunset and sunrise: XXX minutes
+Time requested from programs: XXX minutes
+Times below are LOCAL TIME IN CHILE
+
+[] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
+
+19:53 Sunset - Setup
+
+20:28 Twilight begins: SDSSJ0843-0000 (3min) S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67], 
+
+20:45 2021clw.json (2.min) [88 -51], 21gmk.json (2.min) [92 -45]
+
+20:55 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2] 
+
+21:25 DECaPSWest (30 min) ??? IS THIS HAPPENING. WHERE IS JSON ????
+
+21:55 415.A.b [130 -1], 2021ddh.json, 415.B.a [134 -1], 21dov.json, 415.A.a [123 -12], 21cyn.json [123 -12], 21grd.json [129 -11] (15 min)
+
+22:10 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+
+22:40 21ghc.json [141 1], 21fna.json [154 -23], 21gwn.json [162 -29]
+22:50 21gkb.json [164 -14], 21fxy.json [198 -20], 418.F.a [162 0], 21dev.json
+23:05 523.D.a [173 14], 21dha.json, 21drc.json [172 21]
+23:15 525.C.a [185 10], 525.F.a [185 6], 525.A.a [186 15], 525.E.a [186 12], 525.B.b [187 10], 525.F.b [188 7] (20 min)
+23:35 525.A.b [189 15], 525.E.b [189 12], 525.B.a [189 10] (10 min)
+23:45 525.C.b [192 12], 21gcw.json [197 16], 525.D.b [185 12] (10 min)
+
+23:55 575.B.a [179 25], 21ckc.json ###############ONLY VISIBLE FROM 11pm-1am Local Chile Time
+00:00 21gkz.json [179 30]          ###############ONLY VISIBLE AT 11:50am to 12:10am Local Chile Time. Can shuffle with obs before and after to optimize.
+
+00:02 577.B.a [178 25], 474.E.a [186 3] (8 min)
+
+00:10 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+
+00:40 DESI Block (3h:30m total with setup) 1153 [223 2], 1168 [222 2], 1184 [220 2], 1201 [218 2], 1219 [], 1239 [], 1260 [], 1282 [], 1283 []
+
+############00:58 577.A.a [196 29], 21dch.json, ###############ONLY VISIBLE FROM 12:50am-1:20am Local Chile Time. Can shuffle.
+
+01:40 DESI 1261 [], 1240 [], 1220 [218 0], 1202 [219 0], 1185 [221 0], 2021dnl.json [221 1] (2min) 1169 [223 0], 428.B.a [223 4], 21dlb.json, 1170 [223 -2], 1186 [222 -2], 1203 [220 -2]
+
+02:40 DESI 1221 [219 -2], 1241 [], 1262, 1284, 1303, 1304, 1285, 1263, 1242
+
+03:40 DESI 1222 [219 -3], 1204 [221 -3], 1187 [223 -3], 
+
+04:10 21fof.json [212 -9], 21foh.json [200 -17] (5 min)
+
+04:15 ALEX DW SCRIPT 01 [239 -14] (30 min) SEEING i-band zenith < 1.2 ONLY. SUBSTITUTE WITH XXXXXXXXXX if necessary.
+
+04:45 ALEX DW SCRIPT 02 [238 -2] (30 min) SEEING i-band zenith < 1.2 ONLY. SUBSTITUTE WITH XXXXXXXXXX if necessary.
+
+05:15 ALEX DW SCRIPT 03 [237 -1] (30 min) SEEING i-band zenith < 1.2 ONLY. SUBSTITUTE WITH XXXXXXXXXX if necessary.
+
+05:45 DECaPSEast-DDF-A  (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+
+06:15 21gqc.json [227 -10], 21fqb.json [228 5], 21gwa.json [236 7], 583.F.a [246 21], 21gez.json [246 21]
+
+06:32 Twilight Begins:  21dcu.json [242 25], 674.E.a [211 28], 21dep.json, SDSSJ1442-0005
+

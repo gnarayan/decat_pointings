@@ -11,7 +11,7 @@
   "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 10,
-  "wait": "autocorrect"
+  "wait": "False"
  }, 
  { "comment": "DECAT DECaPS East DDF", 
   "count": 1,

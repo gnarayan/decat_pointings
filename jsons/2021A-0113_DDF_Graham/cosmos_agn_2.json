@@ -11,7 +11,7 @@
   "dec": 1.75, 
   "seqid": "COSMOS-AGN-1", 
   "expTime": 10,
-  "wait": "autocorrect"
+  "wait": "False"
  }, 
  { "comment": "DECAT COSMOS AGN", 
   "count": 2,

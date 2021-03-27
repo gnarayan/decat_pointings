@@ -69,6 +69,7 @@ for infile in infiles:
     
     df[['name','candRA','candDEC','ccd','obs','priority','pointRA','pointDEC']].to_csv(reformatdir+date+'.txt',sep=' ',index=False)
     df[['name','candRA','candDEC']].to_csv(reformatdir+date+'_for_iObserve.txt',index=False,header=False,sep=' ')
-
+    for i,row in df.iterrows():
+        print(row['name'],'Candidate RA',row['candRA'],'Candidate DEC',row['candDEC'],'Field RA',row['pointRA'],'Field DEC',row['pointDEC'])
     mj.individual(json_outpath,df['name']+'_'+df['candRA'].round(0).astype(str)+'_'+df['candDEC'].round(0).astype(str)+'_PRIORITY'+df['priority'].astype(str),df['pointRA'],df['pointDEC'],df['obs'],df['propid'],df['name']+'_P'+df['priority'].astype(str),df['expTypes'],df['programs'])
 

@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "g",
+		"exptime": 15.0,
+		"RA": 173.270900,
+		"dec": 13.513990,
+		"object": "2021dha_P2",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021dha_173.0_14.0_PRIORITY2",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 15.0,
+		"RA": 173.270900,
+		"dec": 13.513990,
+		"object": "2021dha_P2",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021dha_173.0_14.0_PRIORITY2",
+		"wait": "False",
+		"propid": "2020B-0053"
+	}
+]

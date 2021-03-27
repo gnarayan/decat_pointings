@@ -1,8 +1,5 @@
-
-2021chy
-2021cjb
+20210327:
 2021ckc
-2021clw
 2021cym
 2021cyn
 2021dam
@@ -14,16 +11,13 @@
 2021dgu
 2021dha
 2021dhg
-2021dib
 2021dlb
 2021dov
 2021drc
-2021dur
 2021fna
 2021fof
 2021foh
 2021fqb
-2021ftc
 2021fuf
 2021fxy
 2021gbk
@@ -33,7 +27,15 @@
 2021gkb
 2021gkz
 2021gmk
-2021gno
 2021gqc
 2021grd
 2021gwa
+
+Completed/Dropped:
+2021chy - 525.D.a
+2021cjb - 376.2020esm
+2021clw - DEBASS only
+2021dib - 523.C.a
+2021dur - 477.E.a
+2021ftc - DEBASS only
+2021gno - DEBASS only

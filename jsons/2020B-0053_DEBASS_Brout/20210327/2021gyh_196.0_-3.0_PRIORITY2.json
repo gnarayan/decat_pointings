@@ -16,7 +16,7 @@
 	{
 		"count": 1,
 		"filter": "r",
-		"exptime": 50.0,
+		"exptime": 15.0,
 		"RA": 195.952020,
 		"dec": -2.861630,
 		"object": "2021gyh_P2",
@@ -25,7 +25,7 @@
 		"note": "None",
 		"comment": "2021gyh_196.0_-3.0_PRIORITY2",
 		"wait": "False",
-		"propid": "2021A-0275"
+		"propid": "2020B-0053"
 	},
 	{
 		"count": 1,
@@ -44,7 +44,7 @@
 	{
 		"count": 1,
 		"filter": "z",
-		"exptime": 15.0,
+		"exptime": 50.0,
 		"RA": 195.952020,
 		"dec": -2.861630,
 		"object": "2021gyh_P2",
@@ -53,6 +53,6 @@
 		"note": "None",
 		"comment": "2021gyh_196.0_-3.0_PRIORITY2",
 		"wait": "False",
-		"propid": "2020B-0053"
+		"propid": "2021A-0275"
 	}
 ]

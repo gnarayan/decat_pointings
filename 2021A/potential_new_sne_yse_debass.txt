@@ -1,0 +1,14 @@
+20210327
+21dbg - 525.E - too close to moon
+21fom - 423.C - 17.4 deg from moon - could add - not ideal
+21gmj - non-YSE - +50 deg - too far north - SNII
+21gno - 525.D - too close to moon - SNII
+21gdz - 575.B - SNII +20 - could add
+21gyh - 423.E - in cluster - SNII - 17.9 deg from moon - could add - not ideal
+21hca - 523.B - too close to moon
+21hcz - non-YSE - too far over to pickup - only available at relatively high airmass in/right after evening twilight
+21fxa - non-YSE - +48 deg - too far north - FBOT candidate
+21gjm - non-YSE - fast rise, no spec - could add [115 +12]
+21gft - non-YSE - good rise, no spec - could add [151 -18]
+21ghj - non-YSE - +38 deg - too far north 
+21gma - non-YSE - +57 deg - too far north

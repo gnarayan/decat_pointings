@@ -142,20 +142,3 @@ If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
        SDSSJ1442-0005, any other standards you like
 
 
-Your mission, should you choose to accept it, is to chase a satellite constellation.
-This is part of LSST dark mitigation efforts. 
-The challenge is that the field through which they are passing is at an altitude of 15 deg.
-Yep.  
-You are ALSO going to nearly violate the 23 deg TCS limit AND get very close to the Sunrise limit.
-Alfredo knows about this. Get him. Setup on the field as early as you can without breaking the telescope.
-
-AT PRECISELY
-07:06:30 Starlink-20210331-100630-UTC.json
-
-Stow quickly. Probably while closing mirror covers and dome.
-
-If you choose to accept this twilight mission, you get epic observer bragging rights.
-If you don't, you get slightly more sleep, and Darth Musk wins.
-
-
-

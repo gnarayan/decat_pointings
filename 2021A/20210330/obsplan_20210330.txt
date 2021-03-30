@@ -47,24 +47,25 @@ Times below are LOCAL TIME IN CHILE
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
 23:25 21ghc.json [141 1]
+      21hjc.json [141 -24]
       21fna.json [154 -23]
       21gwn.json [162 -29]
 
-23:35 21gkb.json [164 -14]
+23:40 21gkb.json [164 -14]
       21dev.json [162 0]
       418.F.a 
 
-23:45 21dha.json [172 14]
+23:50 21dha.json [172 14]
       523.D.a [173 14]
       21drc.json [172 21]
 
-23:55 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+00:00 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
-00:25 21dsi.json [179 -2]
+00:30 21dsi.json [179 -2]
 
 ** VIRGO Block ** 
-00:27 525.A.a [186 15]
+00:35 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -84,12 +85,12 @@ Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo
 
 ** VIRGO Block B ***
 If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00:55 then switch to ckc
-01:15 525.B.a [189 10]
+01:20 525.B.a [189 10]
       525.C.b [192 12]
       525.D.a [183 12]
       525.D.b [185 12]
 
-01:25 21gcw.json [197 16]
+01:30 21gcw.json [197 16]
       21gyh.json [196, -3]
       21hiv.json [192, -12]
       21fxy.json [198 -20]
@@ -105,7 +106,7 @@ The DESI fields get very close to the moon - limit is 12 deg - these are not muc
 The -3 deg DESI fields are too close to the moon if we start the block earlier in the night
 So I'm pushing the block back because that's the only way those fields are not within the limit
 
-01:40 DESI 1153, 1168, 1184, 1201
+01:45 DESI 1153, 1168, 1184, 1201
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
 02:00 577.A.a [196 29] ################### +29 careful with slew
@@ -143,7 +144,7 @@ If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
 05:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:50 DECaPSEast-DDF-B (same as above, but no extra setup)
 
-06:15  Can fill with more DDF if still empty
+06:15  Can fill with more DDF if still empty. And can fill with YSE 583
 
 06:34  Astronomical Twilight
        2021hdu.json [319 5], 

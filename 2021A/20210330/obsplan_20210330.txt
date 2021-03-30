@@ -134,9 +134,14 @@ If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
 05:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:50 DECaPSEast-DDF-B (same as above, but no extra setup)
 
-06:11  2021hem.json [245 15], 2021hdu.json [319 5], SDSSJ1442-0005, any other standards you like
 
-06:34 Twilight Begins: What you thought you were done...
+06:34  Astronomical Twilight
+06:50  Morning Twilight
+       2021hem.json [245 15], 
+       2021hdu.json [319 5], 
+       SDSSJ1442-0005, any other standards you like
+
+
 Your mission, should you choose to accept it, is to chase a satellite constellation.
 This is part of LSST dark mitigation efforts. 
 The challenge is that the field through which they are passing is at an altitude of 15 deg.

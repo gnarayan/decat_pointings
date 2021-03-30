@@ -20,7 +20,8 @@ Times below are LOCAL TIME IN CHILE
 
 19:49 Sunset - Setup
 
-20:33 Twilight begins: SDSSJ0843-0000 (3min) 
+20:33 Twilight begins: 2021hcz.json (2 min) [55 -19]
+                       C26202 [55 -27] (3min + 5min dome) 
                        S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67]
                        2021clw.json (2 min) [88 -51]
                        2021gmk.json (2 min) [92 -45] 
@@ -66,6 +67,7 @@ Times below are LOCAL TIME IN CHILE
       525.E.a [186 12] 
       525.F.b [188 7] 
       525.F.a [185 6]
+      21hiz.json [186 7]
       474.E.a [186, 3]
       525.B.b [187 10] 
       525.C.a [185 10]
@@ -73,7 +75,8 @@ Times below are LOCAL TIME IN CHILE
 ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
 Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo
 
-00:55 575.B.a [179 25] ############### +25 deg NORTH 
+00:55 2021ckc.json [179 25]
+      575.B.a [179 25] ############### +25 deg NORTH 
       21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 
 ** VIRGO Block B ***
@@ -85,6 +88,7 @@ If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00
 
 01:15 21gcw.json [197 16]
       21gyh.json [196, -3]
+      21hiv.json [192, -12]
       21fxy.json [198 -20]
       21foh.json [200 -17] (10 min - approaching bright lunar sky CAREFUL)
       !!! SKIPPING 21fof - too close to moon for 03/30
@@ -102,6 +106,7 @@ So I'm pushing the block back because that's the only way those fields are not w
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
 02:00 577.A.a [196 29] ################### +29 careful with slew
+      21dch.json
       21dhg.json [198, 21]
       577.B.a
 
@@ -128,15 +133,16 @@ If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
       21gwa.json [236 7]
       21dcu.json [242 25]
       632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
-      21gez.json [246 21]
-      583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
 
 05:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:50 DECaPSEast-DDF-B (same as above, but no extra setup)
-
+06:15 
 
 06:34  Astronomical Twilight
-06:50  Morning Twilight
+       21gez.json [246 21]
+       583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
+       
+06:52  Morning Twilight
        2021hem.json [245 15], 
        2021hdu.json [319 5], 
        SDSSJ1442-0005, any other standards you like

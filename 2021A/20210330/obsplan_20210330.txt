@@ -22,19 +22,18 @@ Times below are LOCAL TIME IN CHILE
 
 20:33 Twilight begins: SDSSJ0843-0000 (3min) 
                        S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67]
-                       2021clw.json (2.min) [88 -51]
-                       21gmk.json (2.min) [92 -45] 
+                       2021clw.json (2 min) [88 -51]
+                       2021gmk.json (2 min) [92 -45] 
 
 21:00 etale.iz.30min.json [158 -61] (30min total - no extra penalty for dome rotate, since already facing south)
 
 21:30 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
-22:00 415.A.b [130 -1]
+22:00 2021hef.json [107 -23]
+      415.A.b [130 -1]
       2021ddh.json 
       415.B.a [134 -1] 
-      21dov.json
       415.A.a [123 -12]
-      21cyn.json [123 -12]
       21grd.json [129 -11] (15 min)
       (do not change order - these SN are same pointing but different filters/exptime for YSE/DEBASS)
 
@@ -135,7 +134,7 @@ If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
 05:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:50 DECaPSEast-DDF-B (same as above, but no extra setup)
 
-06:11  SDSSJ1442-0005, any other standards you like
+06:11  2021hem.json [245 15], 2021hdu.json [319 5], SDSSJ1442-0005, any other standards you like
 
 06:34 Twilight Begins: What you thought you were done...
 Your mission, should you choose to accept it, is to chase a satellite constellation.

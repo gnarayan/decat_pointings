@@ -57,8 +57,10 @@ Times below are LOCAL TIME IN CHILE
 23:45 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
+00:15 21dsi.json [179 -2]
+
 ** VIRGO Block ** 
-00:15 525.A.a [186 15]
+00:17 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 

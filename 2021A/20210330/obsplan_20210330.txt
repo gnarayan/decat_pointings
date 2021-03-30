@@ -73,8 +73,7 @@ Times below are LOCAL TIME IN CHILE
 ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
 Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo
 
-00:55 21ckc.json [179, 25] ############### +25 deg NORTH 
-      575.B.a [179 25]
+00:55 575.B.a [179 25] ############### +25 deg NORTH 
       21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 
 ** VIRGO Block B ***
@@ -102,8 +101,7 @@ So I'm pushing the block back because that's the only way those fields are not w
 01:30 DESI 1153, 1168, 1184, 1201
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
-02:00 21dch.json [196, 29] ################### +29 careful with slew
-      577.A.a [196 29]
+02:00 577.A.a [196 29] ################### +29 careful with slew
       21dhg.json [198, 21]
       577.B.a
 

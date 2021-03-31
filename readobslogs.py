@@ -103,7 +103,7 @@ for k,v in obsdict.items():
         ww = np.array(v['dates']) == date
         filts = np.array(v['filts'])[ww]
         print(date+':',filts,)
-        outstr = date+':'+str(filts)
+        outstr = date+':'+str(filts)+'\n'
         outtxt.write(outstr)
 
     outtxt.write('\n')

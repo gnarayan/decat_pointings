@@ -94,7 +94,9 @@ for k,v in obsdict.items():
     else:
         print('SNID',k,'RA',v['ra'],'DEC',v['dec'])
 
-    cnt += 1
+    #cnt += 1
+    if len(np.unique(v['dates'])) > 1:
+        cnt += 1
     for date in np.sort(np.unique(v['dates'])):
         ww = np.array(v['dates']) == date
         filts = np.array(v['filts'])[ww]
@@ -108,7 +110,7 @@ print('-'*1000)
 allexps = []
 for k,v in obsdict.items():
     if k in ignore: continue
-    print(v['expnums'])
+    #print(v['expnums'])
     allexps.extend(v['expnums'])
 allexps = np.unique(allexps)
 

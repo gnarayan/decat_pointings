@@ -110,8 +110,8 @@ So I'm pushing the block back because that's the only way those fields are not w
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
 02:00 577.A.a [196 29] ################### +29 careful with slew
-      21dhg.json [198, 21]
-      577.B.a
+      21dch.json 
+      577.B.a [198, 21]
 
 ** RESUME DESI BLOCK
 02:15 1219, 1239, 1260, 1282, 1283, 1261, 1240

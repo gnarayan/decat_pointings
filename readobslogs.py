@@ -32,7 +32,8 @@ for row in m.iterrows():
     
 dfs = []
 for f in glob('2021A/*/*nv'):
-    date = f.split('/')[-1].split('.')[0]
+    datestr = f.split('/')[-1].split('.')[0]
+    date = datestr[:4]+'-'+datestr[4:6]+'-'+datestr[6:8]
     expnums = []
     objects = []
     filts = []

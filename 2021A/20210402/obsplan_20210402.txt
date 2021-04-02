@@ -127,7 +127,13 @@ So I'm pushing the block back because that's the only way those fields are not w
 
 ** RESUME DESI BLOCK
 03:20 1220, 1202, 1185, 1169, 1170, 1186, 1203, 1221, 1241, 1262
-04:20 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 
+04:20 1303, 1304, 
+
+** INTERRUPT DESI BLOCK TO GET A SN (right after 1304)
+21cjb.json [211 -7]
+
+** RESUME DESI BLOCK
+4:25 1285, 1263, 1242, 1222, 1204, 1187 
 
 BACKUPS - if DESI fields too close to moon, do these - in order of priority (highest priority = lowest dec = first)
 Each 6 field block should be ~20 min, so this only buys you 1h total

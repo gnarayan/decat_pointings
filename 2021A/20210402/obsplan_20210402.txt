@@ -38,7 +38,6 @@ BACKUP/FILLER fields are listed at bottom
                        2021hon.json (1.5 min) [89 -32]
                        
 20:55 2021hef.json [107 -23] (1.5min)
-      2021hon.json [89 -32] (1.5 min)
       2021ddh.json [130 -1] (2min)
       415.A.b [130 -1]
       2021hjb.json [134 17]

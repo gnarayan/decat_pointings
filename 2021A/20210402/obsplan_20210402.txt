@@ -23,6 +23,8 @@ Time requested from programs: XXX minutes
 Times below are LOCAL TIME IN CHILE
 [] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
 
+---------------------------- PLAN BEGINS --------------------------------------------------------------------------------
+
 19:45 Sunset - Setup
 
 20:19 Twilight begins: 2021hcz.json (2.5 min) [55 -19] #this one is bright so can do right at the beginning of twilight
@@ -99,10 +101,10 @@ If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00
       21hiv.json [192, -12]
       21fxy.json [198 -20]
       21foh.json [200 -17] (14 min - approaching bright lunar sky CAREFUL)
-      !!! SKIPPING 21fof - too close to moon for 03/30
-      !!! SKIPPING 21dnl - too close to moon for 03/30
-      !!! SKIPPING 21dlb/428.B.a - too close to moon for 03/30
-      !!! SKIPPING 21gqc - too close to moon for 03/30
+      
+      SKIPPING 21dnl - too close to moon for 03/30
+      SKIPPING 21dlb/428.B.a - too close to moon for 03/30
+      SKIPPING 21gqc - too close to moon for 03/30
 
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] !!!! HIGH MOON !!!!
@@ -126,11 +128,18 @@ So I'm pushing the block back because that's the only way those fields are not w
       21hed.json [208 24]
 
 ** RESUME DESI BLOCK
-03:20 1220, 1202, 1185, 1169, 1170, 1186, 1203, 1221, 1241, 1262
+03:20 1220, 1202, 1185,
+
+** INTERRUPT DESI BLOCK TO GET A SN
+21dnl.json [221 0]
+
+** RESUME DESI BLOCK
+03:23 1169, 1170, 1186, 1203, 1221, 1241, 1262
 04:20 1303, 1304, 
 
 ** INTERRUPT DESI BLOCK TO GET A SN (right after 1304)
 21cjb.json [211 -7]
+21fof.json [212 -8]
 
 ** RESUME DESI BLOCK
 4:25 1285, 1263, 1242, 1222, 1204, 1187 

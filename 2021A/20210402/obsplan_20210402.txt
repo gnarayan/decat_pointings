@@ -27,34 +27,33 @@ Times below are LOCAL TIME IN CHILE
 
 20:19 Twilight begins: 2021hcz.json (2.5 min) [55 -19]
                        C26202 [55 -27] (3min + 5min dome) 
+                       2021hon.json (1.5 min) [89 -32]
                        S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67]
-                       2021clw.json (2.5 min) [88 -51]
-                       2021gmk.json (2.5 min) [92 -45] 
-                       2021hfq.json (2.5 min) [119 -67]
-
-21:00 etale.iz.30min.json [158 -61] (30min total - no extra penalty for dome rotate, since already facing south)
-
-21:30 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
-
+                       2021clw.json (1.5 min) [88 -51]
+                       2021gmk.json (2.5 min) [92 -45]
+                       
 22:00 2021hep.json [107 5]
       2021hef.json [107 -23]
+      2021ddh.json [130 -1]
       415.A.b [130 -1]
-      2021ddh.json 
       2021hjb.json [134 17]
       415.B.a [134 -1] 
+      2021dov.json [134 0]
+      21ghc.json [141 1]
       415.A.a [123 -12]
       21grd.json [129 -11] (25 min)
       (do not change order - these SN are same pointing but different filters/exptime for YSE/DEBASS)
 
-22:25 eFEDS.json (30 min) [129, 1] 
+23:25 
+      21hjc.json [141 -24]
+      21fna.json [154 -23]
+      21gwn.json [162 -29]
+
+21:30 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
   
 22:55 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
-23:25 21ghc.json [141 1]
-      21hjc.json [141 -24]
-      21fna.json [154 -23]
-      21gwn.json [162 -29]
 
 23:40 21gkb.json [164 -14]
       21dev.json [162 0]

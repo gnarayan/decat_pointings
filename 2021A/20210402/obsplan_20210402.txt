@@ -23,19 +23,21 @@ Time requested from programs: XXX minutes
 Times below are LOCAL TIME IN CHILE
 [] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
 
----------------------------- PLAN BEGINS --------------------------------------------------------------------------------
+---------------------------- PLAN BEGINS -------------------------------
 
 19:45 Sunset - Setup
 
-20:19 Twilight begins: 2021hcz.json (2.5 min) [55 -19] #this one is bright so can do right at the beginning of twilight
-                       C26202 [55 -27] (3min + 5min dome) 
-                       2021hon.json (1.5 min) [89 -32]
-                       S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67]
+20:19 Twilight begins: 
+                       CDF-S (8 min + 3 min setup, CDF-S.json) [52 -28] # get as early as possible when sky is dark enough - sets soon
+                       C26202 [55 -27] (3min) 
+                       2021hcz.json (2.5 min) [55 -19] 
+                       S-CVZ (8 min + 5 min setup, S-CVZ.json ) [90 -67] # extra long setup because of dome
                        2021clw.json (1.5 min) [88 -51]
                        2021gmk.json (2.5 min) [92 -45]
+                       2021hon.json (1.5 min) [89 -32]
                        
-20:50 2021hep.json [107 5] (1min +5min dome)
-      2021hef.json [107 -23] (1.5min)
+20:55 2021hef.json [107 -23] (1.5min)
+      2021hon.json [89 -32] (1.5 min)
       2021ddh.json [130 -1] (2min)
       415.A.b [130 -1]
       2021hjb.json [134 17]
@@ -44,34 +46,34 @@ Times below are LOCAL TIME IN CHILE
       21ghc.json [141 1]
       415.A.a [123 -12]
       21grd.json [129 -11] (30 min)
-      (do not change order - these SN are same pointing but different filters/exptime for YSE/DEBASS)
+      (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
 
 
-21:20 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+21:25 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
   
-21:50 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+21:55 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
-21:20 
+21:25 
       21hjc.json [141 -24]
       21fna.json [154 -23]
       21gwn.json [162 -29]
 
-22:27 418.F.a 
+22:32 418.F.a 
       21gkb.json [164 -14]
 
-22:33 523.D.a [173 14]
+22:38 523.D.a [173 14]
       21dha.json [172 14]
       21drc.json [172 21]
 
-22:40 21dsi.json [179 -2]
+22:45 21dsi.json [179 -2]
       21hkf.json [176 8]
 
-22:45 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:50 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
 ** VIRGO Block ** 
-00:15 525.A.a [186 15]
+00:20 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -83,9 +85,9 @@ Times below are LOCAL TIME IN CHILE
       525.C.a [185 10]
 
 ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
-Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo
+Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
 
-01:05 21ckc.json [179 25]
+01:00 21ckc.json [179 25]
       575.B.a [179 25] ############### +25 deg NORTH 
       21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 
@@ -96,52 +98,50 @@ If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00
       525.D.a [183 12]
       525.D.b [185 12]
 
-01:15 21gcw.json [197 16]
+01:20 21gcw.json [197 16]
       21gyh.json [196, -3]
       21hiv.json [192, -12]
       21fxy.json [198 -20]
       21foh.json [200 -17] (14 min)
       
+# if the observer is a little behind, don't worry you can catch up around 6 AM
+# just keep executing schedule and only interrupt a sequence where it says interrupt at that time
+# and pick up at the field in the schedule just before the interrupt
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] !!!! HIGH MOON !!!!
 The DESI fields get very close to the moon - limit is 12 deg - these are not much more
 The -3 deg DESI fields are too close to the moon if we start the block earlier in the night
 So I'm pushing the block back because that's the only way those fields are not within the limit
 
-01:30 DESI 1153, DEBASS 21dlb.json, YSE 428.B.a, 1168, 1184, 1201, 1219, 1239, 1260, 1282,
+01:35 DESI 1153, DEBASS 21dlb.json, YSE 428.B.a, 1168, 1184, 1201, 1219, 1239, 1260, 1282,
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
-02:00 577.A.a [196 29] ################### +29 careful with slew
+02:05 577.A.a [196 29] ################### +29 careful with slew
       21dch.json 
       577.B.a [198, 21]
 
 ** RESUME DESI BLOCK
-02:15 1283, 1261, 1240
+02:20 1283, 1261, 1240, 1220
 
 ** INTERRUPT DESI BLOCK TO GET A NORTHEN SNE
 03:00 21dep.json [211, 28] ################## +28 careful with slew
       674.E.a 
       21hed.json [208 24]
+      21dnl.json [221 0]
 
 ** RESUME DESI BLOCK
-03:15 1220, 1202, 1185,
+03:15 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262
 
-** INTERRUPT DESI BLOCK TO GET A SN
-21dnl.json [221 0]
-
-** RESUME DESI BLOCK
-03:20 1169, 1170, 1186, 1203, 1221, 1241, 1262
-04:00 1303, 1304, 
-
-** INTERRUPT DESI BLOCK TO GET SNe (right after 1304)
+** INTERRUPT DESI BLOCK TO GET SNe (right after 1262)
+04:15
 21cjb.json [211 -7]
 21fof.json [212 -8]
 21gqc.json [226 -10]
 
 ** RESUME DESI BLOCK
-4:15 1285, 1263, 1242, 1222, 1204, 1187 
+04:20 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 
 
-#BACKUPS - if DESI fields too close to moon, do these - in order of priority (highest priority = lowest dec = first)
+#BACKUPS - in order of priority (highest priority = lowest dec = first)
 #Each 6 field block should be ~20 min, so this only buys you 1h total
 #If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
 #531.A.a, 531.B.a, 531.C.a, 531.D.a, 531.E.a, 531.F.a
@@ -152,9 +152,9 @@ So I'm pushing the block back because that's the only way those fields are not w
 05:15 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:45 DECaPSEast-DDF-B (same as above, but no extra setup)
 
-06:15 21hku.json [308 -53] (SH0ES CEPHEID CALIBRATOR, GET THIS BEFORE TWILIGHT PLEASE)
+06:07 21hku.json [308 -53] (SH0ES CEPHEID CALIBRATOR, GET THIS BEFORE TWILIGHT PLEASE)
 
-06:20 FILL TIME HERE
+06:20 FILL TIME HERE OR KEEP AS SLOP IN CASE THERE IS A DELAY
 
 06:36  Astronomical Twilight
       632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE

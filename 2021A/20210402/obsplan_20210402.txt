@@ -25,14 +25,14 @@ Times below are LOCAL TIME IN CHILE
 
 19:45 Sunset - Setup
 
-20:19 Twilight begins: 2021hcz.json (2.5 min) [55 -19]
+20:19 Twilight begins: 2021hcz.json (2.5 min) [55 -19] #this one is bright so can do right at the beginning of twilight
                        C26202 [55 -27] (3min + 5min dome) 
                        2021hon.json (1.5 min) [89 -32]
                        S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67]
                        2021clw.json (1.5 min) [88 -51]
                        2021gmk.json (2.5 min) [92 -45]
                        
-22:00 2021hep.json [107 5]
+20:50 2021hep.json [107 5] (+5min dome)
       2021hef.json [107 -23]
       2021ddh.json [130 -1]
       415.A.b [130 -1]
@@ -54,19 +54,19 @@ Times below are LOCAL TIME IN CHILE
 22:55 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
-
-23:40 21gkb.json [164 -14]
-      21dev.json [162 0]
+23:40 21dev.json [162 0]
       418.F.a 
+      21gkb.json [164 -14]
 
-23:50 21dha.json [172 14]
-      523.D.a [173 14]
+23:50 523.D.a [173 14]
+      21dha.json [172 14]
       21drc.json [172 21]
 
 00:00 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
 00:30 21dsi.json [179 -2]
+      21hkf.json [176 8]
 
 ** VIRGO Block ** 
 00:35 525.A.a [186 15]

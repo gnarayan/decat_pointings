@@ -1,26 +1,31 @@
-March 30, 2021
+April 2, 2021
 Times are local (UTC) for CTIO
 
-
-Sunset                   19:49 (22:49 UT)
-Evening Twilight Ends    21:01 (00:01)
-LST Evening Twilight     07:52
-Morning Twilight Begins  06:34 (09:34)
-Sunrise                  07:47 (10:47)
-LST Morning Twilight     17:27
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     19:45 -03  22:45 UT   06:47  102 deg  
+Eve. -10   20:19 -03  23:19 UT   07:22  110 deg  Zeropoint; standards
+Eve. -14   20:38 -03  23:38 UT   07:41  115 deg  Begin obstac
+Eve. -18   20:56 -03  23:56 UT   07:59  120 deg  Last chance standards
+Moonrise   23:41 -03  02:41 UT   10:44  161 deg  
+Midpoint   01:46 -03  04:46 UT   12:49  192 deg  
+Morn -18   06:36 -03  09:36 UT   17:39  265 deg  Begin astronomical twilight
+Morn -14   06:53 -03  09:53 UT   17:56  269 deg  End obstac; begin standards
+Morn -10   07:13 -03  10:13 UT   18:16  274 deg  
+Sunrise    07:48 -03  10:48 UT   18:51  283 deg  
+Moon position (deg): RA 268.7, Dec -24.4 Phase: 0.595
 
 Moon is at ~ 14h -8d [210 -8]
 
-Time between eve and morning twilight: 573 minutes
-Time between sunset and sunrise: 718 minutes
+Time between eve and morning twilight: XXX minutes
+Time between sunset and sunrise: XXX minutes
 Time requested from programs: XXX minutes
 
 Times below are LOCAL TIME IN CHILE
 [] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
 
-19:49 Sunset - Setup
+19:45 Sunset - Setup
 
-20:33 Twilight begins: 2021hcz.json (2.5 min) [55 -19]
+20:19 Twilight begins: 2021hcz.json (2.5 min) [55 -19]
                        C26202 [55 -27] (3min + 5min dome) 
                        S-CVZ (8 min + 3 min setup, S-CVZ.json) [90 -67]
                        2021clw.json (2.5 min) [88 -51]

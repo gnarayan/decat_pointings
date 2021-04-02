@@ -1,0 +1,16 @@
+[
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 25.0,
+		"RA": 162.238810,
+		"dec": 0.364870,
+		"object": "2021dev_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021dev_P1",
+		"wait": "False",
+		"propid": "2020B-0053"
+	}
+]

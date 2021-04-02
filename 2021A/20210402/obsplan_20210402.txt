@@ -108,12 +108,11 @@ If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00
 # just keep executing schedule and only interrupt a sequence where it says interrupt at that time
 # and pick up at the field in the schedule just before the interrupt
 
-** DESI Block (3h:30m total with setup) ** [220, 1] !!!! HIGH MOON !!!!
-The DESI fields get very close to the moon - limit is 12 deg - these are not much more
-The -3 deg DESI fields are too close to the moon if we start the block earlier in the night
-So I'm pushing the block back because that's the only way those fields are not within the limit
+01:35 DEBASS 21dlb.json, YSE 428.B.a
 
-01:35 DESI 1153, DEBASS 21dlb.json, YSE 428.B.a, 1168, 1184, 1201, 1219, 1239, 1260, 1282,
+** DESI Block (3h:30m total with setup) ** [220, 1] 
+01:40 1153, 1168, 1184, 1201, 
+
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
 02:05 577.A.a [196 29] ################### +29 careful with slew
@@ -121,7 +120,7 @@ So I'm pushing the block back because that's the only way those fields are not w
       577.B.a [198, 21]
 
 ** RESUME DESI BLOCK
-02:20 1283, 1261, 1240, 1220
+02:20  1219, 1239, 1260, 1282 1283, 1261, 1240, 1220
 
 ** INTERRUPT DESI BLOCK TO GET A NORTHEN SNE
 03:00 21dep.json [211, 28] ################## +28 careful with slew

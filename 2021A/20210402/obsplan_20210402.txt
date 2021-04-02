@@ -102,17 +102,13 @@ If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00
       21fxy.json [198 -20]
       21foh.json [200 -17] (14 min - approaching bright lunar sky CAREFUL)
       
-      SKIPPING 21dnl - too close to moon for 03/30
-      SKIPPING 21dlb/428.B.a - too close to moon for 03/30
-      SKIPPING 21gqc - too close to moon for 03/30
-
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] !!!! HIGH MOON !!!!
 The DESI fields get very close to the moon - limit is 12 deg - these are not much more
 The -3 deg DESI fields are too close to the moon if we start the block earlier in the night
 So I'm pushing the block back because that's the only way those fields are not within the limit
 
-01:45 DESI 1153, 1168, 1184, 1201
+01:45 DESI 1153, DEBASS 21dlb.json, YSE 428.B.a, 1168, 1184, 1201
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
 02:00 577.A.a [196 29] ################### +29 careful with slew
@@ -137,34 +133,34 @@ So I'm pushing the block back because that's the only way those fields are not w
 03:23 1169, 1170, 1186, 1203, 1221, 1241, 1262
 04:20 1303, 1304, 
 
-** INTERRUPT DESI BLOCK TO GET A SN (right after 1304)
+** INTERRUPT DESI BLOCK TO GET SNe (right after 1304)
 21cjb.json [211 -7]
 21fof.json [212 -8]
+21gqc.json [226 -10]
 
 ** RESUME DESI BLOCK
 4:25 1285, 1263, 1242, 1222, 1204, 1187 
 
-BACKUPS - if DESI fields too close to moon, do these - in order of priority (highest priority = lowest dec = first)
-Each 6 field block should be ~20 min, so this only buys you 1h total
-If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
+#BACKUPS - if DESI fields too close to moon, do these - in order of priority (highest priority = lowest dec = first)
+#Each 6 field block should be ~20 min, so this only buys you 1h total
+#If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
+#531.A.a, 531.B.a, 531.C.a, 531.D.a, 531.E.a, 531.F.a
+#583.A.a, 583.B.a, 583.C.a, 583.D.a, 583.E.a, 583.F.a
+#632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a 
 
-531.A.a, 531.B.a, 531.C.a, 531.D.a, 531.E.a, 531.F.a
-583.A.a, 583.B.a, 583.C.a, 583.D.a, 583.E.a, 583.F.a
-632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a 
-
-05:10 21fqb.json [228 5]
-      21gwa.json [236 7]
-      21dcu.json [242 25]
-      632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
-      2021hem.json [245 15], 
-      21gez.json [246 21]
-      583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
        
 05:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:50 DECaPSEast-DDF-B (same as above, but no extra setup)
 
-06:15  Can fill with more DDF if still empty. And can fill with YSE 583
+06:15 21hk.json [308 -53] (SH0ES CEPHEID CALIBRATOR, GET THIS BEFORE TWILIGHT PLEASE)
 
-06:34  Astronomical Twilight
-       2021hdu.json [319 5], 
-       SDSSJ1442-0005, any other standards you like
+06:36  Astronomical Twilight
+      632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
+      21dcu.json [242 25]
+      583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
+      21gez.json [246 21]
+      2021hem.json [245 15], 
+      21gwa.json [236 7]
+      21fqb.json [228 5]
+      2021hdu.json [319 5], LONG SLEW GIVE 5 minutes cushion to slew!
+      SDSSJ1442-0005, any other standards you like

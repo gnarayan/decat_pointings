@@ -11,6 +11,7 @@ snids.extend(list(m['SNID'].to_numpy()))
 ignoref = open('ignore.list','r').readlines()
 ignore = [i.strip() for i in ignoref]
 
+outtxt = open('debass_sne.txt','w')
 
 os.system('rm obslogs/*~')
 os.system('rm 2021A/*/*~')
@@ -31,7 +32,8 @@ for row in m.iterrows():
     
 dfs = []
 for f in glob('2021A/*/*nv'):
-    date = f.split('/')[-1].split('.')[0]
+    datestr = f.split('/')[-1].split('.')[0]
+    date = datestr[:4]+'-'+datestr[4:6]+'-'+datestr[6:8]
     expnums = []
     objects = []
     filts = []
@@ -90,10 +92,11 @@ cnt = 0
 for k,v in obsdict.items():
     if k in ignore: continue
     if k in rysedict.keys():
-        print('SNID',k,'YSE',rysedict[k],'RA',v['ra'],'DEC',v['dec'])
+        print('SNID',k,'YSE_Field',rysedict[k],'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
+        outtxt.write(' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'CCD',str(c.ccdmap[k]),'\n']))
     else:
-        print('SNID',k,'RA',v['ra'],'DEC',v['dec'])
-
+        print('SNID',k,'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
+        outtxt.write(' '.join(['SNID',str(k),'CCD',str(c.ccdmap[k]),'\n']))
     #cnt += 1
     if len(np.unique(v['dates'])) > 1:
         cnt += 1
@@ -101,9 +104,16 @@ for k,v in obsdict.items():
         ww = np.array(v['dates']) == date
         filts = np.array(v['filts'])[ww]
         print(date+':',filts,)
+        outstr = date+':'+str(filts)+'\n'
+        outtxt.write(outstr)
+
+    outtxt.write('\n')
     print()
     #print('Dates',v['dates'])
     print('-'*25)
+    outtxt.write('-'*25)
+    outtxt.write('\n')
+outtxt.close()
 print('Total SNe %d'%cnt)
 
 print('-'*1000)

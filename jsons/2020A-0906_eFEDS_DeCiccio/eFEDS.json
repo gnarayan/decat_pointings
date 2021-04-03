@@ -250,29 +250,5 @@
   "propid": "2020A-0906", 
   "dec": -1.0, 
   "expTime": 60
- }, 
- {
-  "count": 1, 
-  "proposer": "De Cicco+Shanks", 
-  "ExpType": "object", 
-  "object": "eFEDS16", 
-  "filter": "r", 
-  "program": "Stacked RM of XRQ", 
-  "ra": 143.0, 
-  "propid": "2020A-0906", 
-  "dec": 1.0, 
-  "expTime": 60
- }, 
- {
-  "count": 1, 
-  "proposer": "De Cicco+Shanks", 
-  "ExpType": "object", 
-  "object": "eFEDS8", 
-  "filter": "r", 
-  "program": "Stacked RM of XRQ", 
-  "ra": 143.0, 
-  "propid": "2020A-0906", 
-  "dec": 3.0, 
-  "expTime": 60
  }
 ]

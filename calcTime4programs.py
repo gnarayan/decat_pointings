@@ -11,6 +11,9 @@ from pdastro import pdastroclass,AnotB,AandB
 import pandas as pd
 import numpy as np
 from astropy import time
+from astroplan import Observer
+from astropy import units as u
+ctio = Observer.at_site("CTIO")
 
 programlist = [
 '2019A-0065_Shen1',
@@ -55,11 +58,14 @@ class calcTimeclass(pdastroclass):
         
         self.warnings = []
         
-        self.t = pd.DataFrame(columns=['blockID','assigned_program','program','UTfirst','UTlast','dt_block_h','dt_prevgap_sec','dt_nextgap_sec','dt_gaps_sec','dt_block_full_h'])
+        self.t = pd.DataFrame(columns=['blockID','assigned_program','program','UTfirst','UTlast','dt_block_h','dt_prevgap_sec','dt_nextgap_sec','dt_gaps_sec','dt_block_full_h','twi','dt_charged_h'])
         self.summary = pdastroclass()
         self.summary.t = pd.DataFrame(columns=['assigned_program','t_total'])
         
         self.programcol_formatter='{:<24}'.format
+        
+        self.horizons = [18,15,12]
+        self.twi_charge_fraction = (1.0,2/3,1/3,0.0)
 
     def addwarning(self,warningstring):
         print(warningstring)
@@ -113,19 +119,43 @@ class calcTimeclass(pdastroclass):
         # 'time' is too long for the column width and butts into the secz column,
         # which confuses pandas reading, and it combines the time and secz column.
         # hack: rename time to tim
-        lines[0]=re.sub('time','tim ',lines[0])
+        lines[0]=re.sub('time','xx  ',lines[0])
         
+        # remove any empty lines at the end of the lines
+        while lines[-1]=='':
+            lines.pop(-1)
+            
         # Remove the extra "MJD = ..." line at the end
         if re.search('^MJD',lines[-1]): 
-            lines.pop(-1)
+            m = re.search('^MJD\s*=\s*(\w+)',lines[-1])
+            if m is None:
+                raise RuntimeError('Could not get the MJD from the qcinv file! the last line is %s, but should be something like "MJD = 59146 (Oct 23/Oct 24)"' % (lines[-1]))
+            MJD = int(m.groups()[0])
+            print('MJD: %d' % MJD)
+            
+            # define tonight for CTIO.
+            # Subtract 0.4 from MJD: if the MJD is not *before* the night starts, it tonight
+            # returns as start value the given MJD. Subtracting 0.4 makes sure MJD is before the night starts.
+            self.tonight = ctio.tonight(time.Time(MJD-0.4, scale='utc',format='mjd'))
+            print('Night Start:',self.tonight[0].to_value('isot'))
+            print('Night End  :',self.tonight[1].to_value('isot'))
 
+            self.twi={}
+            for horizon in self.horizons:
+                self.twi[horizon] =  ctio.tonight(time.Time(MJD-0.4, scale='utc',format='mjd'),horizon=-horizon*u.deg)
+                if self.verbose: print('%d deg twilight: %s %s' % (-horizon,self.twi[horizon][0].to_value('isot'),self.twi[horizon][1].to_value('isot')))
+            # Remove line with MJD
+            lines.pop(-1)
+        else:
+            raise RuntimeError('Could not get the MJD from the qcinv file! the last line should be something like "MJD = 59146 (Oct 23/Oct 24)"')
+        
         # parse the qcinv file
         self.qcinv.t = pd.read_fwf(io.StringIO('\n'.join(lines)))
         #self.qcinv.write(indices=range(1,10))
         
         # rename tim to time again...
-        self.qcinv.t.rename(columns={'tim': 'time'},inplace=True)
-        
+        self.qcinv.t.rename(columns={'xx': 'time'},inplace=True)
+       
         #remove dummy line
         self.qcinv.t = self.qcinv.t[1:]
         #self.qcinv.t.drop(index=[0],inplace=True)
@@ -134,6 +164,71 @@ class calcTimeclass(pdastroclass):
             print('file loaded, first 10 lines:')
             self.qcinv.write(indices=range(1,11))
         return(0)
+    
+    def fill_qcinv_table(self):
+        #m = re.compile('^2')
+        
+        # set format of dt_h*.
+        self.qcinv.t['utdate']=None
+        self.qcinv.t['ut_decimal']=np.nan
+        self.qcinv.t['twi']=0
+        self.qcinv.default_formatters['ut_decimal']='{:.4f}'.format
+        
+        ix_all = self.qcinv.getindices()
+                
+        # I just choose a random date. The date itself is not important, it's 
+        # just that all UT times 2?:?? have the date before this random date,
+        # so that the time difference is correct
+        t0 = time.Time('2020-01-02T00:00:00',scale='utc',format='isot')
+        
+        # get just the dates (not hours) for the beginning and end of the night
+        datestart = self.tonight[0].to_value('isot')[:10]
+        dateend = self.tonight[1].to_value('isot')[:10]
+        
+        # reference t 
+        t0 = time.Time(dateend+'T00:00:00.00',scale='utc',format='isot')
+        
+        
+        for ix in ix_all:
+            # first try if the datestart is the correct date to use.
+            tobs = time.Time(datestart+'T'+self.qcinv.t.loc[ix,'ut']+':00', scale='utc')
+            dt = tobs - self.tonight[0]
+            
+            # if it is not after the start of the night, try dateend
+            if dt.to_value('hr')<0.0:
+                tobs = time.Time(dateend+'T'+self.qcinv.t.loc[ix,'ut']+':00', scale='utc')
+                dt = tobs - self.tonight[0]
+                # comething is wrong!!
+                if dt.to_value('hr')<0.0:
+                    raise RuntimeError('dt = %f, could not figure out the UT date for %s that is past the startdate %s' % (dt.to_value('hr'),self.qcinv.t.loc[ix,'ut'],self.tonight[0].to_value('isot')))
+            
+            # Make sure tobs is before the end of the night
+            dt = self.tonight[1] - tobs
+            if dt.to_value('hr')<0.0:
+                raise RuntimeError('dt = %f, could not figure out the UT date for %s that is before the enddate %s' % (dt.to_value('hr'),self.qcinv.t.loc[ix,'ut'],self.tonight[1].to_value('isot')))
+            
+            self.qcinv.t.loc[ix,'utdate']=tobs.to_value('isot')
+            
+            # now get the relative time in decimal hours with respect to t0
+            dt = (tobs-t0)
+            self.qcinv.t.loc[ix,'ut_decimal'] = dt.to_value('hr')
+            
+            # check for twilight!
+            twi_zone = 0
+            for i in range(len(self.horizons)):
+                horizon = self.horizons[i]
+                if (tobs-self.twi[horizon][0]).to_value('hr')<0.0:
+                    twi_zone = i+1
+                #print('vvv',(tobs-self.twi[horizon][1]).to_value('hr'),self.qcinv.t.loc[ix,'time']/3600.0)
+                if (tobs-self.twi[horizon][1]).to_value('hr')+self.qcinv.t.loc[ix,'time']/3600.0>0.0:
+                    twi_zone = i+1
+            self.qcinv.t.loc[ix,'twi'] = twi_zone
+                    
+                
+            #print(dt.to_value('hr'))
+        if self.verbose>2: self.qcinv.write()
+        return(0)
+
     
     def assignPrograms(self):
         self.create_fieldpattern2program()
@@ -160,7 +255,7 @@ class calcTimeclass(pdastroclass):
                     program = self.fieldpattern2program[fieldpattern]['program']
                     if self.verbose>2: print('FOUND! pattern %s matches %s, program %s' % (fieldpattern,self.qcinv.t.loc[ix,'Object'],program))
                     if program=='2020B-0053_DEBASS':
-                        if self.qcinv.t.loc[ix,'time']>15:
+                        if self.qcinv.t.loc[ix,'time']>25:
                             program='2021A-0275_YSE'
 
                     if program in special_programs:
@@ -173,56 +268,33 @@ class calcTimeclass(pdastroclass):
                     foundflag=True
                     break
             if not foundflag:
-                self.addwarning('WARNING: Could not find the program for %s in line %d' % (self.qcinv.t.loc[ix,'Object'],ix))
                 program='UNKNOWN' 
                 m = special_programs[program]['pattern']
                 if i==0 or (not m.search(self.qcinv.t.loc[ixs[i-1],'program'])):
                     special_programs[program]['counter']+=1
                 program += '%d' %  special_programs[program]['counter']
+                self.addwarning('WARNING: Could not find the program for %s in line %d (block %s)' % (self.qcinv.t.loc[ix,'Object'],ix,program))
                 self.qcinv.t.loc[ix,'program']=program
             
-            # if not the first entry AND if different than previous row's program: inc blockID
-            if ix!=ixs[0] and self.qcinv.t.loc[ixs[i-1],'program']!=self.qcinv.t.loc[ix,'program']:
-                blockID+=1
-            self.qcinv.t.loc[ix,'blockID']=blockID
-
-            
-    def calcTimes(self):
-        blockIDs = self.qcinv.t['blockID'].unique()
-        m = re.compile('^2')
+            # New block ID?
+            if i>0: 
+                if self.qcinv.t.loc[ixs[i-1],'twi']!=self.qcinv.t.loc[ix,'twi'] or self.qcinv.t.loc[ixs[i-1],'program']!=self.qcinv.t.loc[ix,'program']:
+                # if not the first entry AND if different than previous row's program: inc blockID
+                #if ix!=ixs[0] and self.qcinv.t.loc[ixs[i-1],'program']!=self.qcinv.t.loc[ix,'program']:
+                    blockID+=1
+            self.qcinv.t.loc[ix,'blockID']=blockID            
         
-        # set format of dt_h*.
-        self.qcinv.t['ut_decimal']=np.nan
-        self.qcinv.default_formatters['ut_decimal']='{:.4f}'.format
-        self.t['dt_block_h']=self.t['dt_prevgap_sec']=self.t['dt_nextgap_sec']=self.t['dt_gaps_sec']=self.t['dt_block_full_h']=np.nan
+    def calcTimes(self):
+        self.t['dt_block_h']=self.t['dt_prevgap_sec']=self.t['dt_nextgap_sec']=self.t['dt_gaps_sec']=self.t['dt_block_full_h']=self.t['dt_charged_h']=np.nan
         self.default_formatters['dt_block_h']='{:.4f}'.format
         self.default_formatters['dt_prevgap_sec']='{:.0f}'.format
         self.default_formatters['dt_nextgap_sec']='{:.0f}'.format
         self.default_formatters['dt_gaps_sec']='{:.0f}'.format
         self.default_formatters['dt_block_full_h']='{:.4f}'.format
         self.default_formatters['assigned_program']=self.programcol_formatter
-        
-        ix_all = self.qcinv.getindices()
-        
+
         re_techsetup_standards = re.compile('^TECHSETUP|^STANDARDS')
-        
-        # I just choose a random date. The date itself is not important, it's 
-        # just that all UT times 2?:?? have the date before this random date,
-        # so that the time difference is correct
-        t0 = time.Time('2020-01-02T00:00:00',scale='utc',format='isot')
-        
-        # get time difference of ut to t0, save it in dt_h in hours
-        for ix in ix_all:
-            # choose date depending on whether the time is before or after UT midnight
-            if m.search(self.qcinv.t.loc[ix,'ut']):
-                s = '2020-01-01T'+self.qcinv.t.loc[ix,'ut']+':00'
-            else:
-                s = '2020-01-02T'+self.qcinv.t.loc[ix,'ut']+':00'
-                
-            t1 = time.Time(s,scale='utc',format='isot')
-            dt = (t1-t0)
-            self.qcinv.t.loc[ix,'ut_decimal'] = dt.to_value('hr')
-        
+        blockIDs = self.qcinv.t['blockID'].unique()
         # get info for each block
         for i in range(len(blockIDs)):
             ixs = self.qcinv.ix_inrange('blockID', blockIDs[i],blockIDs[i])
@@ -231,10 +303,15 @@ class calcTimeclass(pdastroclass):
                 self.addwarning('WARNING: could not find any entries for blockID %d' % blockIDs[i])
                 continue
             
+            twi_zone = self.qcinv.t.loc[ixs,'twi'].unique()
+            if len(twi_zone)!=1:
+                raise RuntimeError('Could not determine twi_zone')
+            
             # first get the difference between last and first UT
             dt_block_h = self.qcinv.t.loc[ixs[-1],'ut_decimal']-self.qcinv.t.loc[ixs[0],'ut_decimal'] 
             
             # exposure time and nominal overhead for last im
+            #self.qcinv.write(indices=ixs)
             lastim_dt = (self.qcinv.t.loc[ixs[-1],'time']+self.minimal_overhead)/3600.0
             
             # now add in exposure time of last ecposure and nominal overhead
@@ -253,7 +330,8 @@ class calcTimeclass(pdastroclass):
                          'UTlast':self.qcinv.t.loc[ixs[-1],'ut'],
                          'dt_block_h':dt_block_h,
                          'dt_prevgap_sec':1.0,                    
-                         'dt_nextgap_sec':dt_nextgap_sec*3600.0                       
+                         'dt_nextgap_sec':dt_nextgap_sec*3600.0,                   
+                         'twi':twi_zone[0]                      
                          })
         
         # assign previous gap times
@@ -286,6 +364,7 @@ class calcTimeclass(pdastroclass):
                 self.t.loc[ixs_blocks[i],'dt_gaps_sec'] = 0.5*(self.t.loc[ixs_blocks[i],'dt_nextgap_sec']+self.t.loc[ixs_blocks[i],'dt_prevgap_sec'])
             
             self.t.loc[ixs_blocks[i],'dt_block_full_h'] = self.t.loc[ixs_blocks[i],'dt_block_h']+self.t.loc[ixs_blocks[i],'dt_gaps_sec']/3600.0
+            self.t.loc[ixs_blocks[i],'dt_charged_h'] = self.t.loc[ixs_blocks[i],'dt_block_full_h'] *  self.twi_charge_fraction[self.t.loc[ixs_blocks[i],'twi']]
                 
         self.t['program']='-'
                 
@@ -302,6 +381,7 @@ class calcTimeclass(pdastroclass):
                 self.t.loc[ixs,'assigned_program']=outprogram
         
     def mkSummary(self):
+        print('################\n### SUMMARY:')
         current_programs = self.t['assigned_program'].unique()
         current_mainprograms = AandB(current_programs,programlist)
         extra_programs = AnotB(current_programs,current_mainprograms)
@@ -311,7 +391,7 @@ class calcTimeclass(pdastroclass):
         programs.extend(extra_programs)
         for program in programs:
             ixs = self.ix_equal('assigned_program',program)
-            t_total = self.t.loc[ixs,'dt_block_full_h'].sum()
+            t_total = self.t.loc[ixs,'dt_charged_h'].sum()
             self.summary.newrow({'assigned_program':program,
                                  't_total':t_total})
         self.summary.default_formatters['assigned_program']=self.programcol_formatter
@@ -342,11 +422,12 @@ if __name__ == "__main__":
     calcTime.verbose=args.verbose
     calcTime.debug=args.debug
 
-    calcTime.readqcinv(args.qcinvfile)    
+    calcTime.readqcinv(args.qcinvfile)  
+    calcTime.fill_qcinv_table()
     calcTime.assignPrograms()
     calcTime.calcTimes()
     calcTime.reassign_programs(args.reassign)
-    if args.verbose:
+    if args.verbose>1:
         calcTime.qcinv.write()
         calcTime.write()
 

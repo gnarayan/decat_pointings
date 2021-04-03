@@ -69,11 +69,13 @@ BACKUP/FILLER fields are listed at bottom
 22:45 21dsi.json [179 -2]
       21hkf.json [176 8]
 
-22:50 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:50 etale.iz.30min.json  
+
+23:20 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
 ** VIRGO Block ** 
-00:20 525.A.a [186 15]
+23:50 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -83,6 +85,10 @@ BACKUP/FILLER fields are listed at bottom
       474.E.a [186, 3]
       525.B.b [187 10] 
       525.C.a [185 10]
+      525.B.a [189 10]
+      525.C.b [192 12]
+      525.D.a [183 12]
+      525.D.b [185 12]
 
 ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
 Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
@@ -91,12 +97,16 @@ Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, 
       575.B.a [179 25] ############### +25 deg NORTH 
       21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 
-** VIRGO Block B ***
-If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00:55 then switch to ckc
-01:05 525.B.a [189 10]
-      525.C.b [192 12]
-      525.D.a [183 12]
-      525.D.b [185 12]
+# if you finish these fields and it's not yet 01:20 
+# then do as many of 
+01:05 531.A.a
+      531.B.a
+      531.C.a
+      531.D.a
+      531.E.a
+      531.F.a
+
+# at 01:20 SWITCH TO THE TARGETS BELOW AND SKIP THE REMAINING 531 fields and proceed with obsplan
 
 01:20 21gcw.json [197 16]
       21gyh.json [196, -3]
@@ -158,6 +168,5 @@ If you get through 525.C.a and it's not yet 00:55, skip to here, and go until 00
 #BACKUPS - in order of priority (highest priority = lowest dec = first)
 #Each 6 field block should be ~20 min, so this only buys you 1h total
 #If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
-#531.A.a, 531.B.a, 531.C.a, 531.D.a, 531.E.a, 531.F.a
 #583.A.a, 583.B.a, 583.C.a, 583.D.a, 583.E.a, 583.F.a
 #632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a 

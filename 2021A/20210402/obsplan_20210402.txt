@@ -92,13 +92,15 @@ BACKUP/FILLER fields are listed at bottom
 
 ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
 Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
+If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
+Start 21ckc at as close to 01:00 local time as possible
 
 01:00 21ckc.json [179 25]
       575.B.a [179 25] ############### +25 deg NORTH 
       21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 
-# if you finish these fields and it's not yet 01:20 
-# then do as many of 
+# if you finish gkz and it's not yet 01:20, first complete Virgo 
+# if you have already completed Virgo, then do as many of 531 as possible until 01:20 
 01:05 531.A.a
       531.B.a
       531.C.a
@@ -124,15 +126,15 @@ Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, 
 01:40 desidot_grz_1.json,  DESI 1153, 1168, 1184, 1201 (20 min)
 
 ** INTERRUPT DESI BLOCK TO GET SOME NORTHEN SNE
-02:05 577.A.a [196 29] ################### +29 careful with slew
+02:00 577.A.a [196 29] ################### +29 careful with slew
       21dch.json 
       577.B.a [198, 21]
 
 ** RESUME DESI BLOCK
-02:20  desidot_grz_2.json, DESI  1219, 1239, 1260, 1282 1283, 1261, 1240, 1220 (40 min)
+02:15  desidot_grz_2.json, DESI  1219, 1239, 1260, 1282 1283, 1261, 1240, 1220 (40 min)
 
 ** INTERRUPT DESI BLOCK TO GET A NORTHEN SNE
-03:00 21dep.json [211, 28] ################## +28 careful with slew
+02:55 21dep.json [211, 28] ################## +28 careful with slew
       674.E.a 
       21hed.json [208 24]
       21dnl.json [221 0]
@@ -141,8 +143,9 @@ Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, 
       21gqc.json [226 -10]
 
 ** RESUME DESI BLOCK
-03:20 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (60 min)
-04:20 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187  (55 min)
+03:15 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (45 min)
+04:00 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
+04:40 desidot_g.json (35 min)
        
 05:15 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:45 DECaPSEast-DDF-B (same as above, but no extra setup)

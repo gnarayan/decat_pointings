@@ -31,13 +31,14 @@ BACKUP/FILLER fields are listed at bottom
 
 18:41 Sunset - Setup
 
-19:34   Twilight begins: Start earlier and do pointing around 19:25 so you do 21hcz at ~19:30
+19:20   Twilight: Start promptly with C26202 so tht 21hcz is at ~19:30
         C26202 [55 -27] (3min) 
         2021hcz.json (2.5 min) [55 -19] 
-        2021hfq.json (4 min) [119 -68]
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
+        2021hfq.json (3 min) [119 -68]
         2021clw.json (1.5 min) [88 -51]
         2021gmk.json (2.5 min) [92 -45]
+        2021htw.json (2.5 min) [88 -35]
 
 20:00   DEROSITAS (Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json) [115 21] (30 min) # YSE/DEBASS trade
         !! only do DEROSITAS IF TEFF >= 0.25 !!
@@ -119,6 +120,7 @@ Start 21ckc at as close to 01:00 local time as possible
       21gyh.json [196, -3]
       21fxy.json [198 -20]
       21foh.json [200 -17] (12 min)
+      21
       
 # if the observer is a little behind, don't worry you can catch up around 5 AM
 # just keep executing schedule and only interrupt a sequence where it says interrupt at that time

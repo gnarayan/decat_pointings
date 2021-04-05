@@ -159,20 +159,18 @@ Start 21ckc at as close to 01:00 local time as possible
 04:45 DECaPSEast-DDF-B (same as above, but no extra setup)
 ### Reset guider exposure time to 600ms
 
-05:07 21hku.json [308 -53] (SH0ES CEPHEID CALIBRATOR, GET THIS BEFORE TWILIGHT PLEASE)
-
-05:20 KEEP AS SLOP IN CASE THERE IS A DELAY
+05:15 KEEP AS SLOP IN CASE THERE IS A DELAY
 
 05:38 CAN START EARLIER Astronomical Twilight
+      21gwa.json [236 7]
+      21fqb.json [228 5]
+      21hem.json [245 15], 
       632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21dcu.json [242 25]
       583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21gez.json [246 21]
       21hji.json [252 22]
       21hqu.json [266 23]
-      2021hem.json [245 15], 
-      21gwa.json [236 7]
-      21fqb.json [228 5]
       2021hdu.json [319 5], LONG SLEW GIVE 5 minutes cushion to slew!
       SDSSJ1442-0005, any other standards you like
 

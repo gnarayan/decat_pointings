@@ -34,10 +34,10 @@ BACKUP/FILLER fields are listed at bottom
 19:34   Twilight begins: Start earlier and do pointing around 19:25 so you do 21hcz at ~19:30
         C26202 [55 -27] (3min) 
         2021hcz.json (2.5 min) [55 -19] 
+        2021hfq.json (4 min) [119 -68]
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021clw.json (1.5 min) [88 -51]
         2021gmk.json (2.5 min) [92 -45]
-        2021hef.json [107 -23]
 
 20:00   DEROSITAS (Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json) [115 21] (30 min) # YSE/DEBASS trade
         !! only do DEROSITAS IF TEFF >= 0.25 !!

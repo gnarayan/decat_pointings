@@ -151,9 +151,11 @@ Start 21ckc at as close to 01:00 local time as possible
 02:15 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (45 min)
 03:00 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
 03:40 desidot_g.json (35 min)
-       
+
+### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 04:15 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 04:45 DECaPSEast-DDF-B (same as above, but no extra setup)
+### Reset guider exposure time to 600ms
 
 05:07 21hku.json [308 -53] (SH0ES CEPHEID CALIBRATOR, GET THIS BEFORE TWILIGHT PLEASE)
 

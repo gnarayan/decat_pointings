@@ -101,8 +101,7 @@ Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, 
 If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
 Start 21ckc at as close to 01:00 local time as possible
 
-00:00 21ckc.json [179 25]
-      575.B.a [179 25] ############### +25 deg NORTH 
+00:00 575.B.a [179 25] ############### +25 deg NORTH 
       21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 
 # if you finish gkz and it's not yet 00:25, first complete Virgo 

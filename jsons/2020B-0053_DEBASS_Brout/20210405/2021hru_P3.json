@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "g",
+		"exptime": 15.0,
+		"RA": 146.722470,
+		"dec": -12.917060,
+		"object": "2021hru_P3",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021hru_P3",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 15.0,
+		"RA": 146.722470,
+		"dec": -12.917060,
+		"object": "2021hru_P3",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021hru_P3",
+		"wait": "False",
+		"propid": "2020B-0053"
+	}
+]

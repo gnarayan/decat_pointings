@@ -112,7 +112,7 @@ for k,v in obsdict.items():
     for date in np.sort(np.unique(v['dates'])):
         ww = np.array(v['dates']) == date
         filts = np.array(v['filts'])[ww]
-        print(date+':',filts,'Avg Teff %.2f'%np.mean(np.array(v['teffs'])[ww]),)
+        print(date+':',filts,'Avg Teff %.2f'%np.nanmean(np.array(v['teffs'])[ww]),)
         outstr = date+':'+str(filts)+'\n'
         outtxt.write(outstr)
 

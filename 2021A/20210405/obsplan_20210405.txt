@@ -163,9 +163,9 @@ Start 21ckc at as close to 01:00 local time as possible
       21gwa.json [236 7]
       21hem.json [245 15], 
       632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
-      21dcu.json [242 25]
+      21dcu.json [242 25] ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
-      21gez.json [246 21]
+      21gez.json [246 21] ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21hji.json [252 22]
       21hqu.json [266 23]
       2021hdu.json [319 5], LONG SLEW GIVE 5 minutes cushion to slew!

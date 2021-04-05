@@ -37,52 +37,51 @@ BACKUP/FILLER fields are listed at bottom
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021clw.json (1.5 min) [88 -51]
         2021gmk.json (2.5 min) [92 -45]
-        2021hon.json (1.5 min) [89 -32]
+        2021hef.json [107 -23]
 
 20:00   DEROSITAS (Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json) [115 21] (30 min) # YSE/DEBASS trade
         !! only do DEROSITAS IF TEFF >= 0.25 !!
 
-# backup targets if DEROSITAS is not possible because of bad teff
-20.00  2021hef.json [107 -23] 
-       2021ddh.json [130 -1] 
+######### backup targets if DEROSITAS is not possible because of bad teff ############
+20.00  21ddh.json [130 -1] 
        415.A.b [130 -1]
-       2021hjb.json [134 17]
+       21hjb.json [134 17]
        415.B.a [134 -1] 
-       2021dov.json [134 0]
-       21ghc.json [141 1]
+       21dov.json [134 0]
        415.A.a [123 -12]
        21grd.json [129 -11] (30 min total)
        (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
+########################################################################################
 
+20:30 21ghc.json [141 1]
 
-20:30 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+20:35 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
   
-21:00  eFEDS.json (30 min) [129, 1] 
+21:05  eFEDS.json (30 min) [129, 1] 
 
-21:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+21:35 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-
-22:00 21hru.json [146 -12]
+22:05 21hru.json [146 -12]
       21hjc.json [141 -24]
       21fna.json [154 -23]
       21gwn.json [162 -29]
 
-22:10 418.F.a [162 0]
+22:15 418.F.a [162 0]
       21hze.json [157 -17]
       21gkb.json [164 -14]
 
-22:18 523.D.a [173 14]
+22:22 523.D.a [173 14]
       21dha.json [172 14]
       21drc.json [172 21]
 
-22:25 21dsi.json [179 -2]
+22:30 21dsi.json [179 -2]
       21hkf.json [176 8]
 
-22:30 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
 ** VIRGO Block ** 
-23:00 525.A.a [186 15]
+23:05 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -106,9 +105,9 @@ Start 21ckc at as close to 01:00 local time as possible
       575.B.a [179 25] ############### +25 deg NORTH 
       21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 
-# if you finish gkz and it's not yet 01:20, first complete Virgo 
+# if you finish gkz and it's not yet 00:25, first complete Virgo 
 # if you have already completed Virgo, then do as many of 531 as possible until 01:20 
-00:05 531.A.a
+00:10 531.A.a
       531.B.a
       531.C.a
       531.D.a
@@ -117,17 +116,16 @@ Start 21ckc at as close to 01:00 local time as possible
 
 # at 01:20 SWITCH TO THE TARGETS BELOW AND SKIP THE REMAINING 531 fields and proceed with obsplan
 
-00:20 21gcw.json [197 16]
+00:25 21gcw.json [197 16]
       21gyh.json [196, -3]
-      21hiv.json [192, -12]
       21fxy.json [198 -20]
-      21foh.json [200 -17] (14 min)
+      21foh.json [200 -17] (12 min)
       
 # if the observer is a little behind, don't worry you can catch up around 5 AM
 # just keep executing schedule and only interrupt a sequence where it says interrupt at that time
 # and pick up at the field in the schedule just before the interrupt
 
-00:35 DEBASS 21dlb.json, YSE 428.B.a
+00:37 DEBASS 21dlb.json, YSE 428.B.a [223 4]
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
 00:40 desidot_grz_1.json,  DESI 1153, 1168, 1184, 1201 (20 min)
@@ -162,8 +160,8 @@ Start 21ckc at as close to 01:00 local time as possible
 05:15 KEEP AS SLOP IN CASE THERE IS A DELAY
 
 05:38 CAN START EARLIER Astronomical Twilight
-      21gwa.json [236 7]
       21fqb.json [228 5]
+      21gwa.json [236 7]
       21hem.json [245 15], 
       632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21dcu.json [242 25]

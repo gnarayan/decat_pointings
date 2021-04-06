@@ -3,20 +3,6 @@ Times are local (UTC) for CTIO
 
 !!! NOTE CHILE SPRUNG FORWARD ON 20210404 - DST CODE 0 !!!
 
-mjd 59310, date 20210405, Site CTIO, UT-offset 4 hr
-Current local time 02:32 -04     UT 06:32     SidTim 14:47
-Event      Local-Time  Greenwich  Sidereal-Time
-Sunset     18:41 -04  22:41 UT   06:56  104 deg
-Eve. -10   19:16 -04  23:16 UT   07:31  113 deg  Zeropoint; standards
-Eve. -14   19:34 -04  23:34 UT   07:49  117 deg  Begin obstac
-Eve. -18   19:53 -04  23:53 UT   08:08  122 deg  Last chance standards
-Midpoint   00:45 -04  04:45 UT   13:00  195 deg
-Moonrise   01:42 -04  05:42 UT   13:56  209 deg
-Morn -18   05:38 -04  09:38 UT   17:53  268 deg  Begin astronomical twilight
-Morn -14   05:55 -04  09:55 UT   18:10  272 deg  End obstac; begin standards
-Morn -10   06:15 -04  10:15 UT   18:30  278 deg
-Sunrise    06:50 -04  10:50 UT   19:05  286 deg
-Moon position (deg): RA 313.0, Dec -21.6 Phase: 0.365
 
 Time between eve and morning twilight (14 deg):  621 minutes
 Time between sunset and sunrise: 729 minutes
@@ -131,7 +117,6 @@ Start 21ckc at as close to 01:00 local time as possible
 ** INTERRUPT DESI BLOCK TO GET A NORTHEN SNE
 01:55 21dep.json [211, 28] ### SKIP ON 04/08
       674.E.a ### SKIP ON 04/08
-      21hed.json [208 24]
       21dnl.json [221 0] ### SKIP ON 04/08
       21fof.json [212 -8]
       21gqc.json [226 -10]
@@ -153,11 +138,9 @@ Start 21ckc at as close to 01:00 local time as possible
       21gwa.json [236 7]
       21hem.json [245 15], 
       632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
-      21dcu.json [242 25] ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21gez.json [246 21] ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21hji.json [252 22]
-      21hqu.json [266 23]
       2021hdu.json [319 5], LONG SLEW GIVE 5 minutes cushion to slew!
       SDSSJ1442-0005, any other standards you like
 

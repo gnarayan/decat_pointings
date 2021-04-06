@@ -79,9 +79,6 @@ BACKUP/FILLER fields are listed at bottom
       21dha.json [172 14]
       21drc.json [172 21]
 
-22:30 21dsi.json [179 -2]
-      21hkf.json [176 8]
-
 22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 

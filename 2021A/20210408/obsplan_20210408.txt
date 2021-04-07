@@ -74,12 +74,14 @@ BACKUP/FILLER fields are listed at bottom
       525.D.a [183 12]
       525.D.b [185 12]
 
-** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
-Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
-If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
-Start 21ckc at as close to 01:00 local time as possible
+######## SKIP BELOW ON 04/08 UNLESS SEEING IS BAD AND CANT DO DEROSITAS/ALEX##################
+###** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
+###Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
+###If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
 
-00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
+###00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
+######## SKIP ABOVE ON 04/08 #################################################
+
 
 # if you finish gkz and it's not yet 00:25, first complete Virgo 
 # if you have already completed Virgo, then do as many of 531 as possible until 01:20 
@@ -96,7 +98,7 @@ Start 21ckc at as close to 01:00 local time as possible
       21gyh.json [196, -3]
       21fxy.json [198 -20]
       21foh.json [200 -17] (12 min)
-      21
+     
       
 # if the observer is a little behind, don't worry you can catch up around 5 AM
 # just keep executing schedule and only interrupt a sequence where it says interrupt at that time
@@ -118,8 +120,8 @@ Start 21ckc at as close to 01:00 local time as possible
       674.E.a ### SKIP ON 04/08
       21ihz.json [228 25]
       21dnl.json [221 0] ### SKIP ON 04/08
-      21fof.json [212 -8]
       21gqc.json [226 -10]
+      21fof.json [212 -8]
 
 ** RESUME DESI BLOCK
 02:15 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (45 min)

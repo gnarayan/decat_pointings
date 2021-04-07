@@ -20,22 +20,21 @@ BACKUP/FILLER fields are listed at bottom
 19:20   Twilight: Start promptly with C26202 so tht 21hcz is at ~19:30
         C26202 [55 -27] (3min) 
         2021hcz.json (2.5 min) [55 -19] 
+        21grd.json [129 -11]
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021hfq.json (3 min) [119 -68]
-        2021hvo.json [200 -40]
         2021gmk.json (2.5 min) [92 -45]
+        2021hvo.json [200 -40] # if there is ~7min before 20:00 DEROSITAS
 
 20:00   DEROSITAS (Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json) [115 21] (30 min) # YSE/DEBASS trade
         !! only do DEROSITAS IF TEFF >= 0.25 !!
 
 ######### backup targets if DEROSITAS is not possible because of bad teff ############
-20.00  2021hvo.json [200 -40] # IF YOU DIDNT ALREADY GET ABOVE
-       21ddh.json [130 -1] ### SKIP ON 04/08
+20.00  21ddh.json [130 -1] ### SKIP ON 04/08
        415.A.b [130 -1] ### SKIP ON 04/08
-       21hjb.json [134 17]
+       21hjb.json [134 17] ### SKIP ON 04/08
        415.B.a [134 -1]  ### SKIP ON 04/08
        21dov.json [134 0] ### SKIP ON 04/08
-       21grd.json [129 -11] (30 min total)
        (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
 ########################################################################################
 

@@ -128,12 +128,20 @@ BACKUP/FILLER fields are listed at bottom
 03:00 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
 03:40 desidot_g.json (35 min)
 
+03:15 ALEX DW SCRIPT 01 [239 -14] (30 min) SEEING i-band zenith < 1.2 ONLY. 
+SUBSTITUTE WITH 428.A.a, 428.B.a, 428.C.a, 428.D.a, 428.E.a, 428.F.a, 531.A.a, 531.B.a if necessary.
+
+03:45 ALEX DW SCRIPT 02 [238 -2] (30 min) SEEING i-band zenith < 1.2 ONLY. 
+SUBSTITUTE WITH 531.C.a, 531.D.a, 531.E.a, 531.F.a, 583.A.a, 583.B.a, 583.C.a, 583.D.a if necessary.
+
+04:15 ALEX DW SCRIPT 03 [237 -1] (30 min) SEEING i-band zenith < 1.2 ONLY. 
+SUBSTITUTE WITH 583.E.a, 583.F.a, 632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a if necessary.
+
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
-04:15 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
-04:45 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:45 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+05:15 DECaPSEast-DDF-B (same as above, but no extra setup)
 ### Reset guider exposure time to 600ms
 
-05:15 KEEP AS SLOP IN CASE THERE IS A DELAY
 
 05:38 CAN START EARLIER Astronomical Twilight
       21fqb.json [228 5]

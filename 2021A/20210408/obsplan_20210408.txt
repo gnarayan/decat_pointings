@@ -56,11 +56,11 @@ BACKUP/FILLER fields are listed at bottom
 22:20 21gkb.json [164 -14] ### SKIP on 04/08
       21drc.json [172 21] ### SKIP ON 04/08
 
-22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:20 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
 
 ** VIRGO Block ** 
-23:05 525.A.a [186 15]
+22:50 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -80,40 +80,32 @@ BACKUP/FILLER fields are listed at bottom
 ###If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
 
 ###00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
-######## SKIP ABOVE ON 04/08 #################################################
-
 
 # if you finish gkz and it's not yet 00:25, first complete Virgo 
 # if you have already completed Virgo, then do as many of 531 as possible until 01:20 
-00:10 531.A.a
+######## SKIP ABOVE ON 04/08 #################################################
+
+
+23:30 531.A.a
       531.B.a
       531.C.a
       531.D.a
       531.E.a
       531.F.a
 
-# at 01:20 SWITCH TO THE TARGETS BELOW AND SKIP THE REMAINING 531 fields and proceed with obsplan
-
-00:25 21gcw.json [197 16]
+23:50 21gcw.json [197 16]
       21gyh.json [196, -3]
       21fxy.json [198 -20]
-      21foh.json [200 -17] (12 min)
-     
-      
-# if the observer is a little behind, don't worry you can catch up around 5 AM
-# just keep executing schedule and only interrupt a sequence where it says interrupt at that time
-# and pick up at the field in the schedule just before the interrupt
+      21foh.json [200 -17] (10 min)
 
-00:37 DEBASS 21dlb.json ### SKIP ON 04/08
+XX:XX DEBASS 21dlb.json [223 4] ### SKIP ON 04/08
       YSE 428.B.a [223 4] ### SKIP ON 04/08
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-00:40 desidot_grz_1.json,  DESI 1153, 1168, 1184, 1201 (20 min)
-
-#### REMOVED NORTHERN SNE IN THIS BLOCK
-
-** RESUME DESI BLOCK
-01:15  desidot_grz_2.json, DESI  1219, 1239, 1260, 1282 1283, 1261, 1240, 1220 (40 min)
+00:00 desidot_grz_1.json,  DESI 1153, 1168, 1184, 1201 (20 min)
+00:20 desidot_grz_2.json, DESI  1219, 1239, 1260, 1282 1283, 1261, 1240, 1220 (40 min)
+01:00 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (45 min)
+01:45 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
 
 ** INTERRUPT DESI BLOCK TO GET A NORTHEN SNE
 01:55 21dep.json [211, 28] ### SKIP ON 04/08
@@ -124,26 +116,24 @@ BACKUP/FILLER fields are listed at bottom
       21fof.json [212 -8]
 
 ** RESUME DESI BLOCK
-02:15 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (45 min)
-03:00 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
-03:40 desidot_g.json (35 min)
+02:35 desidot_g.json (35 min)
 
-03:15 ALEX DW SCRIPT 01 [239 -14] (30 min) SEEING i-band zenith < 1.2 ONLY. 
+03:10 ALEX DW SCRIPT 01 [239 -14] (30 min) SEEING i-band zenith < 1.2 ONLY. 
 SUBSTITUTE WITH 428.A.a, 428.B.a, 428.C.a, 428.D.a, 428.E.a, 428.F.a, 531.A.a, 531.B.a if necessary.
 
-03:45 ALEX DW SCRIPT 02 [238 -2] (30 min) SEEING i-band zenith < 1.2 ONLY. 
+03:40 ALEX DW SCRIPT 02 [238 -2] (30 min) SEEING i-band zenith < 1.2 ONLY. 
 SUBSTITUTE WITH 531.C.a, 531.D.a, 531.E.a, 531.F.a, 583.A.a, 583.B.a, 583.C.a, 583.D.a if necessary.
 
-04:15 ALEX DW SCRIPT 03 [237 -1] (30 min) SEEING i-band zenith < 1.2 ONLY. 
+04:10 ALEX DW SCRIPT 03 [237 -1] (30 min) SEEING i-band zenith < 1.2 ONLY. 
 SUBSTITUTE WITH 583.E.a, 583.F.a, 632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a if necessary.
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
-04:45 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
-05:15 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:40 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+05:10 DECaPSEast-DDF-B (same as above, but no extra setup)
 ### Reset guider exposure time to 600ms
 
 
-05:38 CAN START EARLIER Astronomical Twilight
+05:40 CAN START EARLIER Astronomical Twilight
       21fqb.json [228 5]
       21gwa.json [236 7]
       21hem.json [245 15], 

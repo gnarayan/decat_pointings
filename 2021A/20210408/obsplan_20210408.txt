@@ -39,7 +39,8 @@ BACKUP/FILLER fields are listed at bottom
        (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
 ########################################################################################
 
-20:30 21ghc.json [141 1]
+20:30 21ibo.json [136 8]
+      21ghc.json [141 1]
 
 20:35 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
   

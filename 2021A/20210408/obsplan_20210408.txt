@@ -117,6 +117,7 @@ XX:XX DEBASS 21dlb.json [223 4] ### SKIP ON 04/08
       21dnl.json [221 0] ### SKIP ON 04/08
       21gqc.json [226 -10]
       21fof.json [212 -8]
+      21hwk.json [214 -7]
 
 ** RESUME DESI BLOCK
 02:35 desidot_g.json (35 min)

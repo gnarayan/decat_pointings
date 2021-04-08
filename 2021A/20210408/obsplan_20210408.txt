@@ -51,6 +51,7 @@ BACKUP/FILLER fields are listed at bottom
       21fna.json [154 -23] 
       21gwn.json [162 -29] 
       21hze.json [157 -17]
+      21hup.json [178 -6]
       
 22:20 21gkb.json [164 -14] ### SKIP on 04/08
       21drc.json [172 21] ### SKIP ON 04/08

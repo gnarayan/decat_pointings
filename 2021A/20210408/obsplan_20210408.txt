@@ -30,6 +30,7 @@ BACKUP/FILLER fields are listed at bottom
 
 19:12   Twilight - Start Promptly
         C26202 [55 -27] (3min) 
+        CDF-S (8 min + 3 min setup, CDF-S.json) [52 -28] # get as early as possible when sky is dark enough - sets soon
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021hfq.json (3 min) [119 -68]
         2021gmk.json (2.5 min) [92 -45]
@@ -55,7 +56,7 @@ BACKUP/FILLER fields are listed at bottom
 
 20:35 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
   
-21:05 eFEDS.json (30 min) [129, 1] 
+21:05 etale.g.30min.json (30 min) [160, -60]
 
 21:35 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 

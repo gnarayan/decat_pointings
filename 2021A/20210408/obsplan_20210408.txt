@@ -92,17 +92,19 @@ BACKUP/FILLER fields are listed at bottom
 
 ######## SKIP BELOW ON 04/08 UNLESS SEEING IS BAD AND CANT DO DEROSITAS/ALEX ##################
 ### ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
-### Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
-### If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
+### Stop wherever you are in Virgo, do these at Midnight AM local time, go back to Virgo, pick up where you left off
+### If Virgo is complete before midnight, skip ahead to 531 fields and do as many as you can before starting 21ckc
 
-###00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
-###00:05 21ckc.json [178 25] 
+### 00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
+### 00:05 21ckc.json [178 25] 
 
 # if you finish gkz and it's not yet 00:25, first complete Virgo 
-# if you have already completed Virgo, then do as many of 531 as possible until 01:20 
+# if you have already completed Virgo, then do as many of 531 as possible until 23:50
 ######## SKIP ABOVE ON 04/08 UNLESS BACKUP #################################################
 
-
+# if everything is going smoothly and you executed DEROSITAS, ignore the 21gkz and 21ckc backups
+# after Virgo start 531
+# if you cannot finish 531 before needing to start DESI, it's fine - these fields are also substitutes for Alex D-W's fields later in the night - just don't observe them twice if you get them prior to DESI!
 23:30 531.A.a
       531.B.a
       531.C.a
@@ -110,8 +112,7 @@ BACKUP/FILLER fields are listed at bottom
       531.E.a
       531.F.a
 
-23:50 21gcw.json [197 16] ### SKIP ON 04/08
-      21gyh.json [196, -3]
+23:50 21gyh.json [196, -3]
       21fxy.json [198 -20]
       21foh.json [200 -17] (10 min)
 

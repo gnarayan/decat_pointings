@@ -17,14 +17,13 @@ BACKUP/FILLER fields are listed at bottom
 
 18:41 Sunset - Setup
 
-19:20   Twilight: Start promptly with C26202 so tht 21hcz is at ~19:30
+19:20   Twilight
         C26202 [55 -27] (3min) 
-        2021hcz.json (2.5 min) [55 -19] 
-        21grd.json [129 -11]
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021hfq.json (3 min) [119 -68]
         2021gmk.json (2.5 min) [92 -45]
-        2021hvo.json [200 -40] # if there is ~7min before 20:00 DEROSITAS
+        2021hvo.json [200 -40] # if there is ~10min before 20:00 DEROSITAS
+        21grd.json [129 -11]
 
 20:00   DEROSITAS (Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json) [115 21] (30 min) # YSE/DEBASS trade
         !! only do DEROSITAS IF TEFF >= 0.25 !!
@@ -111,7 +110,7 @@ XX:XX DEBASS 21dlb.json [223 4] ### SKIP ON 04/08
 01:00 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (45 min)
 01:45 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
 
-** INTERRUPT DESI BLOCK TO GET A NORTHEN SNE
+** INTERRUPT DESI BLOCK TO GET SNE
 01:55 21dep.json [211, 28] ### SKIP ON 04/08
       674.E.a ### SKIP ON 04/08
       21ihz.json [228 25]

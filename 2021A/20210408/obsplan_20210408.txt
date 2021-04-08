@@ -47,8 +47,7 @@ BACKUP/FILLER fields are listed at bottom
 
 21:35 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-22:05 21hru.json [146 -12] 
-      21hjc.json [141 -24]
+22:05 21hjc.json [141 -24]
       21fna.json [154 -23] 
       21gwn.json [162 -29] 
       21hze.json [157 -17]
@@ -57,7 +56,7 @@ BACKUP/FILLER fields are listed at bottom
       21drc.json [172 21] ### SKIP ON 04/08
 
 22:20 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
-      (do not move earlier - want ~1h between COSMOS pointings for short timescale variability)
+      (want ~1h between COSMOS pointings for short timescale variability)
 
 ** VIRGO Block ** 
 22:50 525.A.a [186 15]

@@ -17,10 +17,11 @@ BACKUP/FILLER fields are listed at bottom
 
 18:41 Sunset - Setup
 
-19:20   Twilight
+19:20   Twilight - Start Promptly
         C26202 [55 -27] (3min) 
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021hfq.json (3 min) [119 -68]
+        2021clw.json (2min) [87 -50]
         2021gmk.json (2.5 min) [92 -45]
         2021hvo.json [200 -40] # if there is ~10min before 20:00 DEROSITAS
         21grd.json [129 -11]

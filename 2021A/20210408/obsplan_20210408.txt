@@ -1,8 +1,19 @@
-April 5, 2021
+April 8, 2021
 Times are local (UTC) for CTIO
 
-!!! NOTE CHILE SPRUNG FORWARD ON 20210404 - DST CODE 0 !!!
-
+mjd 59313, date 20210408, Site CTIO, UT-offset 4 hr
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     18:38 -04  22:38 UT   07:04  106 deg
+Eve. -10   19:12 -04  23:12 UT   07:39  115 deg  Zeropoint; standards
+Eve. -14   19:31 -04  23:31 UT   07:58  120 deg  Begin obstac
+Eve. -18   19:50 -04  23:50 UT   08:16  124 deg  Last chance standards
+Midpoint   00:45 -04  04:45 UT   13:11  198 deg
+Moonrise   04:39 -04  08:39 UT   17:05  256 deg
+Morn -18   05:40 -04  09:40 UT   18:06  272 deg  Begin astronomical twilight
+Morn -14   05:57 -04  09:57 UT   18:23  276 deg  End obstac; begin standards
+Morn -10   06:17 -04  10:17 UT   18:43  281 deg
+Sunrise    06:52 -04  10:52 UT   19:18  290 deg
+Moon position (deg): RA 350.3, Dec -9.3 Phase: 0.171
 
 Time between eve and morning twilight (14 deg):  621 minutes
 Time between sunset and sunrise: 729 minutes
@@ -17,25 +28,25 @@ BACKUP/FILLER fields are listed at bottom
 
 18:41 Sunset - Setup
 
-19:20   Twilight - Start Promptly
+19:12   Twilight - Start Promptly
         C26202 [55 -27] (3min) 
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021hfq.json (3 min) [119 -68]
-        2021clw.json (2min) [87 -50]
         2021gmk.json (2.5 min) [92 -45]
-        2021hvo.json [200 -40] # if there is ~10min before 20:00 DEROSITAS
-        21grd.json [129 -11]
+        2021hvo.json [200 -40] 
+        21grd.json [129 -11] # drop to start DEROSITAS at 19:45 if you have to
 
-20:00   DEROSITAS (Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json) [115 21] (30 min) # YSE/DEBASS trade
-        !! only do DEROSITAS IF TEFF >= 0.25 !!
+19:45   DEROSITAS (Trades/2021A-0149_DEROSITAS_Zenteno/20210408.json) [115 21] (42 min) # YSE/DEBASS trade
+        !! only do DEROSITAS IF TEFF >= 0.2 !!
 
 ######### backup targets if DEROSITAS is not possible because of bad teff ############
-20.00  21ddh.json [130 -1] 
+19.45  2021clw.json (1.5 min) [88 -51]
+       21ddh.json [130 -1] 
        415.A.b [130 -1] 
        415.B.a [134 -1] 
        21dov.json [134 0] 
        (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
-#### YOU WILL GET A LITTLE AHEAD OF SCHEDULE BUT THERE ARE MORE BACKUP TARGETS #########
+###### YOU WILL GET AHEAD OF SCHEDULE BUT THERE ARE MORE BACKUP TARGETS LATER  #########
 ########################################################################################
 
 20:30 21hjb.json [134 17] 
@@ -79,16 +90,16 @@ BACKUP/FILLER fields are listed at bottom
       525.D.b [185 12]
 
 ######## SKIP BELOW ON 04/08 UNLESS SEEING IS BAD AND CANT DO DEROSITAS/ALEX ##################
-###** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
-###Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
-###If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
+### ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
+### Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
+### If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
 
 ###00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
 ###00:05 21ckc.json [178 25] 
 
 # if you finish gkz and it's not yet 00:25, first complete Virgo 
 # if you have already completed Virgo, then do as many of 531 as possible until 01:20 
-######## SKIP ABOVE ON 04/08 #################################################
+######## SKIP ABOVE ON 04/08 UNLESS BACKUP #################################################
 
 
 23:30 531.A.a
@@ -103,9 +114,6 @@ BACKUP/FILLER fields are listed at bottom
       21fxy.json [198 -20]
       21foh.json [200 -17] (10 min)
 
-XX:XX DEBASS 21dlb.json [223 4] ### SKIP ON 04/08
-      YSE 428.B.a [223 4] ### SKIP ON 04/08
-
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
 00:00 desidot_grz_1.json,  DESI 1153, 1168, 1184, 1201 (20 min)
 00:20 desidot_grz_2.json, DESI  1219, 1239, 1260, 1282 1283, 1261, 1240, 1220 (40 min)
@@ -113,10 +121,7 @@ XX:XX DEBASS 21dlb.json [223 4] ### SKIP ON 04/08
 01:45 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
 
 ** INTERRUPT DESI BLOCK TO GET SNE
-01:55 21dep.json [211, 28] ### SKIP ON 04/08
-      674.E.a ### SKIP ON 04/08
-      21ihz.json [228 25]
-      21dnl.json [221 0] ### SKIP ON 04/08
+01:55 21ihz.json [228 25]
       21gqc.json [226 -10]
       21fof.json [212 -8]
       21hwk.json [214 -7]
@@ -134,6 +139,7 @@ SUBSTITUTE WITH 531.C.a, 531.D.a, 531.E.a, 531.F.a, 583.A.a, 583.B.a, 583.C.a, 5
 SUBSTITUTE WITH 583.E.a, 583.F.a, 632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a if necessary.
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
+### ONLY ADJUST for DECaPS - not earlier!!!
 04:40 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 05:10 DECaPSEast-DDF-B (same as above, but no extra setup)
 ### Reset guider exposure time to 600ms

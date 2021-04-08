@@ -32,15 +32,15 @@ BACKUP/FILLER fields are listed at bottom
 ######### backup targets if DEROSITAS is not possible because of bad teff ############
 20.00  21ddh.json [130 -1] 
        415.A.b [130 -1] 
-       21hjb.json [134 17] 
        415.B.a [134 -1] 
        21dov.json [134 0] 
        (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
 #### YOU WILL GET A LITTLE AHEAD OF SCHEDULE BUT THERE ARE MORE BACKUP TARGETS #########
 ########################################################################################
 
-20:30 21ibo.json [136 8]
-      21ghc.json [141 1] ### SKIP ON 04/08
+20:30 21hjb.json [134 17] 
+      21ibo.json [136 8]
+      21ghc.json [141 1] 
 
 20:35 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
   
@@ -145,7 +145,6 @@ SUBSTITUTE WITH 583.E.a, 583.F.a, 632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 6
       583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21gez.json [246 21] ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21hji.json [252 22]
-      2021hdu.json [319 5], LONG SLEW GIVE 5 minutes cushion to slew!
       SDSSJ1442-0005, any other standards you like
 
 

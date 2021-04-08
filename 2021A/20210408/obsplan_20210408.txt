@@ -30,12 +30,13 @@ BACKUP/FILLER fields are listed at bottom
         !! only do DEROSITAS IF TEFF >= 0.25 !!
 
 ######### backup targets if DEROSITAS is not possible because of bad teff ############
-20.00  21ddh.json [130 -1] ### SKIP ON 04/08
-       415.A.b [130 -1] ### SKIP ON 04/08
-       21hjb.json [134 17] ### SKIP ON 04/08
-       415.B.a [134 -1]  ### SKIP ON 04/08
-       21dov.json [134 0] ### SKIP ON 04/08
+20.00  21ddh.json [130 -1] 
+       415.A.b [130 -1] 
+       21hjb.json [134 17] 
+       415.B.a [134 -1] 
+       21dov.json [134 0] 
        (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
+#### YOU WILL GET A LITTLE AHEAD OF SCHEDULE BUT THERE ARE MORE BACKUP TARGETS #########
 ########################################################################################
 
 20:30 21ibo.json [136 8]
@@ -51,10 +52,13 @@ BACKUP/FILLER fields are listed at bottom
       21fna.json [154 -23] 
       21gwn.json [162 -29] 
       21hze.json [157 -17]
-      21hup.json [178 -6]
       
-22:20 21gkb.json [164 -14] ### SKIP on 04/08
-      21drc.json [172 21] ### SKIP ON 04/08
+######### more backup targets if you didnt do DEROSITAS ############       
+22:20 21hup.json [178 -6]
+      21gkb.json [164 -14]
+      21drc.json [172 21]
+####################################################################
+
 
 22:20 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)

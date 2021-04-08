@@ -67,6 +67,7 @@ BACKUP/FILLER fields are listed at bottom
       
 ######### more backup targets if you didnt do DEROSITAS ############       
 22:20 21hup.json [178 -6]
+      21ipf.json [174 -7]
       21gkb.json [164 -14]
       21drc.json [172 21]
 ####################################################################
@@ -155,6 +156,7 @@ SUBSTITUTE WITH 583.E.a, 583.F.a, 632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 6
       583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21gez.json [246 21] ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
       21hji.json [252 22]
+      21ipb.json [241 14]
       SDSSJ1442-0005, any other standards you like
 
 

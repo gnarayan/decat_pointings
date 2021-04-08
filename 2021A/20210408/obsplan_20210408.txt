@@ -78,12 +78,13 @@ BACKUP/FILLER fields are listed at bottom
       525.D.a [183 12]
       525.D.b [185 12]
 
-######## SKIP BELOW ON 04/08 UNLESS SEEING IS BAD AND CANT DO DEROSITAS/ALEX##################
+######## SKIP BELOW ON 04/08 UNLESS SEEING IS BAD AND CANT DO DEROSITAS/ALEX ##################
 ###** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
 ###Stop wherever you are in Virgo, do these at ~1 AM local time, go back to Virgo, pick up where you left off
 ###If Virgo is complete before 01:00, skip to 531 fields and do as many as you can before starting 21ckc
 
 ###00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
+###00:05 21ckc.json [178 25] 
 
 # if you finish gkz and it's not yet 00:25, first complete Virgo 
 # if you have already completed Virgo, then do as many of 531 as possible until 01:20 

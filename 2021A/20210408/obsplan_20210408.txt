@@ -51,7 +51,6 @@ BACKUP/FILLER fields are listed at bottom
       21fna.json [154 -23] 
       21hvq.json [165 -34]
       21gwn.json [162 -29] 
-      21hze.json [157 -17]
       
 ######### more backup targets if you didnt do DEROSITAS ############       
 22:20 21hup.json [178 -6]
@@ -97,7 +96,7 @@ BACKUP/FILLER fields are listed at bottom
       531.E.a
       531.F.a
 
-23:50 21gcw.json [197 16]
+23:50 21gcw.json [197 16] ### SKIP ON 04/08
       21gyh.json [196, -3]
       21fxy.json [198 -20]
       21foh.json [200 -17] (10 min)

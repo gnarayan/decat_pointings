@@ -33,50 +33,38 @@ BACKUP/FILLER fields are listed at bottom
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         2021hfq.json (3 min) [119 -68]
         2021gmk.json (2.5 min) [92 -45]
-        ###2021clw.json (1.5 min) [88 -51] ###SKIP ON 04/11
         2021hvo.json [200 -40] 
         21grd.json [129 -11] 
-        ###21ddh.json [130 -1] ###SKIP ON 04/11
-        415.A.b [130 -1] 
-        415.B.a [134 -1]
-        ###21dov.json [134 0] ###SKIP ON 04/11
+        21hjb.json [134 17] 
+        21ibo.json [136 8]
+        21ghc.json [141 1] 
 
         (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
 
-      
-###### YOU WILL GET AHEAD OF SCHEDULE BUT THERE ARE MORE BACKUP TARGETS LATER  #########
-########################################################################################
-
-20:30 21hjb.json [134 17] 
-      21ibo.json [136 8]
-      21ghc.json [141 1] 
-
-20:35 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+19:40 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
   
-21:05 etale.g.30min.json (30 min) [160, -60] ?? ARE WE DOING THIS ???
+20:10 eFEDS.json (30 min) [129, 1] 
 
-21:05  eFEDS.json (30 min) [129, 1] 
+20:40 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-
-21:35 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
-
-22:05 21hjc.json [141 -24]
+21:10 21hjc.json [141 -24]
       21fna.json [154 -23] 
       21hvq.json [165 -34]
       21gwn.json [162 -29] 
-      
-22:20 21hup.json [178 -6]
+      (15 min)
+
+21:25 21hup.json [178 -6]
       21ipf.json [174 -7]
       21gkb.json [164 -14]
       21ipk.json [184 -14]
       21drc.json [172 21]
+      (20 min)
 
-
-22:20 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+21:45 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)
 
 ** VIRGO Block ** 
-22:50 525.A.a [186 15]
+22:15 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -89,75 +77,61 @@ BACKUP/FILLER fields are listed at bottom
       525.C.b [192 12]
       525.D.a [183 12]
       525.D.b [185 12]
+      (40 min)
 
-######## SKIP BELOW ON 04/11 ##################
-### ** INTERRUPT VIRGO TO DO NORTHERN TARGETS **
-### Stop wherever you are in Virgo, do these at Midnight AM local time, go back to Virgo, pick up where you left off
-### If Virgo is complete before midnight, skip ahead to 531 fields and do as many as you can before starting 21ckc
-
-### 00:00 21gkz.json [179 30] ############### +30 deg NORTH - careful with slew - gets near limit
-### 00:05 21ckc.json [178 25] 
-
-# if you finish gkz and it's not yet 00:25, first complete Virgo 
-# if you have already completed Virgo, then do as many of 531 as possible until 23:50
-######## SKIP ABOVE ON 04/11 #################################################
-
-# if everything is going smoothly and you executed DEROSITAS, ignore the 21gkz and 21ckc backups
-# after Virgo start 531
-# if you cannot finish 531 before needing to start DESI, it's fine - these fields are also substitutes for Alex D-W's fields later in the night - just don't observe them twice if you get them prior to DESI!
-23:30 531.A.a
+22:55 531.A.a
       531.B.a
       531.C.a
       531.D.a
       531.E.a
       531.F.a
+      (20 min)
 
-23:50 
-      21igt.json [191 21]
+23:15 21igt.json [191 21]
       21gyh.json [196, -3]
       21fxy.json [198 -20]
       21foh.json [200 -17] (10 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-00:00 desidot_grz_1.json,  DESI 1153, 1168, 1184, 1201 (20 min)
-00:20 desidot_grz_2.json, DESI  1219, 1239, 1260, 1282 1283, 1261, 1240, 1220 (40 min)
-01:00 desidot_grz_3.json, DESI 1202, 1185 1169, 1170, 1186, 1203, 1221, 1241, 1262 (45 min)
-01:45 desidot_grz_4.json, DESI 1303, 1304, 1285, 1263, 1242, 1222, 1204, 1187 (40 min)
+23:25 desidot_grz_1.json
+23:47 desidot_grz_2.json
+00:32 desidot_grz_3.json
 
 ** INTERRUPT DESI BLOCK TO GET SNE
-01:55 21ihz.json [228 25]
+01:25  21ihz.json [228 25]
       21dnl.json [221 0]
       21gqc.json [226 -10]
       21fof.json [212 -8]
       21hwk.json [214 -7]
 
 ** RESUME DESI BLOCK
-02:35 desidot_g.json (35 min)
+01:45 desidot_grz_4.json
+02:35 desidot_g.json (40 min)
 
-03:10 ALEX DW SCRIPT 03 [237 -1] (30 min) SEEING i-band zenith < 1.2 ONLY. 
-SUBSTITUTE WITH 428.A.a, 428.B.a, 428.C.a, 428.D.a, 428.E.a, 428.F.a, 531.A.a, 531.B.a if necessary.
+03:15 ALEX DW SCRIPT 03 [237 -1] (30 min) SEEING i-band zenith < 1.2 ONLY. 
+SUBSTITUTE WITH 428.A.a, 428.B.a, 428.C.a, 428.D.a, 428.E.a, 428.F.a, 583A.a, 583.B.a if necessary.
 
-03:40 ALEX DW SCRIPT 04 xxx
-SUBSTITUTE WITH 531.C.a, 531.D.a, 531.E.a, 531.F.a, 583.A.a, 583.B.a, 583.C.a, 583.D.a if necessary.
+04:45 ALEX DW SCRIPT 04 [225 -10] (30 min)
+SUBSTITUTE WITH 583.C.a, 583.D.a, 583.E.a, 583.F.a,  632.A.a, 632.B.a, 632.C.a, 21gez.json, 632.D.a if necessary.
 
-04:10 ALEX DW SCRIPT 05 xxx
-SUBSTITUTE WITH 583.E.a, 583.F.a, 632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a if necessary.
+04:15 ALEX DW SCRIPT 05 (8 min)
+SUBSTITUTE WITH 632.E.a, 632.F.a if necessary
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
-04:40 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
-05:10 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+04:55 DECaPSEast-DDF-B (same as above, but no extra setup)
 ### Reset guider exposure time to 600ms
 
+05:20 [FILL 20 MIN HERE]
 
 05:40 CAN START EARLIER Astronomical Twilight
       21fqb.json [228 5]
       21gwa.json [236 7]
       21inj.json [241 3]
       21hem.json [245 15], 
-      632.C.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
-      583.F.a ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
-      21gez.json [246 21] ### IF YOU GOT THIS AS A BACKUP FOR DESI THEN SKIP HERE
+      21gez.json [246 21] ### IF YOU GOT THIS AS A BACKUP FOR ALEX DW THEN SKIP HERE
+      632.C.a.json [246, 21] ### IF YOU GOT THIS AS A BACKUP FOR ALEX DW THEN SKIP HERE
       21hji.json [252 22]
       21ipb.json [241 14]
       SDSSJ1442-0005, any other standards you like
@@ -165,8 +139,3 @@ SUBSTITUTE WITH 583.E.a, 583.F.a, 632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 6
 
 ---------------------------- PLAN ENDS -------------------------------
 
-#BACKUPS - in order of priority (highest priority = lowest dec = first)
-#Each 6 field block should be ~20 min, so this only buys you 1h total
-#If you do 583.F.a, or 632.C.a also do 21dcu.json and 21gez.json respectively
-#583.A.a, 583.B.a, 583.C.a, 583.D.a, 583.E.a, 583.F.a
-#632.A.a, 632.B.a, 632.C.a, 632.D.a, 632.E.a, 632.F.a

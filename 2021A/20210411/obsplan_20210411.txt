@@ -1,22 +1,22 @@
-April 8, 2021
+April 11, 2021
 Times are local (UTC) for CTIO
 
 mjd 59316, date 20210411, Site CTIO, UT-offset 4 hr
-Current local time 21:37 -04     UT 01:37     SidTim 10:16
+Current local time 22:20 -04     UT 02:20     SidTim 10:58
 Event      Local-Time  Greenwich  Sidereal-Time
-Sunset     18:34 -04  22:34 UT   07:13  108 deg  
+Sunset     18:34 -04  22:34 UT   07:13  108 deg
 Eve. -10   19:09 -04  23:09 UT   07:48  117 deg  Zeropoint; standards
 Eve. -14   19:28 -04  23:28 UT   08:06  122 deg  Begin obstac
 Eve. -18   19:46 -04  23:46 UT   08:25  126 deg  Last chance standards
-Midpoint   00:44 -04  04:44 UT   13:22  200 deg  
+Midpoint   00:44 -04  04:44 UT   13:22  200 deg
 Morn -18   05:41 -04  09:41 UT   18:20  275 deg  Begin astronomical twilight
 Morn -14   05:59 -04  09:59 UT   18:37  279 deg  End obstac; begin standards
-Morn -10   06:19 -04  10:19 UT   18:57  284 deg  
-Sunrise    06:54 -04  10:54 UT   19:32  293 deg  
+Morn -10   06:19 -04  10:19 UT   18:57  284 deg
+Sunrise    06:54 -04  10:54 UT   19:32  293 deg
 Moon position (deg): RA 23.1, Dec 5.9 Phase: 0.002
 
-Time between eve and morning twilight (14 deg):  621 minutes
-Time between sunset and sunrise: 729 minutes
+Time between eve and morning twilight (14 deg):  631 minutes
+Time between sunset and sunrise: 740 minutes
 Time requested from programs: XXX minutes
 
 Times below are LOCAL TIME IN CHILE

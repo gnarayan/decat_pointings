@@ -56,6 +56,20 @@
         "comment": "DESI-DOT G15"
     },
     {
+        "object": "TILEID: 1200",
+        "expTime": 50,
+        "RA": 217.76099999999997,
+        "dec": 3.212,
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    },
+    {
         "object": "TILEID: 1201",
         "expTime": 50,
         "RA": 218.544,

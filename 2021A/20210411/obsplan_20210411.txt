@@ -31,9 +31,9 @@ BACKUP/FILLER fields are listed at bottom
 19:09   Twilight - Start Promptly
         C26202 [55 -27] (3min) 
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
-        2021hfq.json (3 min) [119 -68]
-        2021gmk.json (2.5 min) [92 -45]
-        2021hvo.json [200 -40] 
+        21hfq.json (3 min) [119 -68]
+        21gmk.json (2.5 min) [92 -45]
+        21hvo.json [200 -40] 
         21grd.json [129 -11] 
         21hjb.json [134 17] 
         21ibo.json [136 8]
@@ -48,6 +48,7 @@ BACKUP/FILLER fields are listed at bottom
 20:40 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
 21:10 21hjc.json [141 -24]
+      21ill.json [140 -31]
       21fna.json [154 -23] 
       21hvq.json [165 -34]
       21gwn.json [162 -29] 
@@ -89,7 +90,7 @@ BACKUP/FILLER fields are listed at bottom
 
 23:15 21igt.json [191 21]
       21gyh.json [196, -3]
-      21fxy.json [198 -20]
+      21fxy.json [198 -20]      
       21foh.json [200 -17] (10 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
@@ -134,6 +135,7 @@ SUBSTITUTE WITH 632.E.a, 632.F.a if necessary
       632.C.a.json [246, 21] ### IF YOU GOT THIS AS A BACKUP FOR ALEX DW THEN SKIP HERE
       21hji.json [252 22]
       21ipb.json [241 14]
+      21ify.json [262 13]
       SDSSJ1442-0005, any other standards you like
 
 

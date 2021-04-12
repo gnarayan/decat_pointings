@@ -19,9 +19,7 @@
 2021fof
 2021foh
 2021fqb
-2021fuf
 2021fxy
-2021gbk
 2021gcw
 2021gez
 2021ghc
@@ -35,19 +33,14 @@
 2021gyh
 2021hcz
 2021hdu
-2021hed
 2021hef
 2021hem
-2021hep
 2021hfq
-2021hiv
 2021hiz
 2021hjb
 2021hjc
 2021hji
-2021hkf
 2021hku
-2021hon
 2021hru
 2021htw
 2021hup
@@ -72,4 +65,11 @@ Completed/Dropped:
 2021dib - 523.C.a
 2021dur - 477.E.a
 2021ftc - DEBASS only
-2021gno - DEBASS only
+2021fuf - drop - Ia but may not be rising 
+2021gbk - DEBASS only 
+2021gno - DEBASS only - still in 525.D.a 
+2021hed - unconfirmed beyond peak - drop
+2021hep - probably not useful for cosmo - drop 
+2021hkf - type II - drop for DEBASS 
+2021hiv - type II dropped - no YSE
+2021hon - DEBASS only

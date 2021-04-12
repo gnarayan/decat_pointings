@@ -1,7 +1,7 @@
 [
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 245.381540,
 		"dec": 20.496170,
@@ -9,13 +9,13 @@
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "583.F.a",
+		"comment": "583.F.a 2021gez",
 		"wait": "False",
 		"propid": "2021A-0275"
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 245.381540,
 		"dec": 20.496170,
@@ -23,7 +23,7 @@
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "583.F.a",
+		"comment": "583.F.a 2021gez",
 		"wait": "False",
 		"propid": "2021A-0275"
 	}

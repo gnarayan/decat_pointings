@@ -1,5 +1,8 @@
-Not done - schedule in 30 min/1h chunks starting 03/27 - check sky brightness/verify schedule with Alex D-W
 
+delve_1, delve_2 done on 20210408
+delve_3, delve_4, delve_5 done on 20210411
+
+Not done - schedule in 30 min/1h chunks starting 03/27 - check sky brightness/verify schedule with Alex D-W
 
 Notes from Alex D-W
 30 minute chunks that can be started between 06:30 UTC and 09:00 UTC. 

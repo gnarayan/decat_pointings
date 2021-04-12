@@ -15,6 +15,11 @@ from astroplan import Observer
 from astropy import units as u
 ctio = Observer.at_site("CTIO")
 
+from mk_semester_summary import semesterinfoclass
+
+"""
+This is now defined in mk_semester_summary in class semesterinfoclass!
+
 programlist = [
 '2019A-0065_Shen1',
 '2019B-0304_Martini',
@@ -44,7 +49,7 @@ program2fieldpattern = {
 'STANDARDS':             ['^E','^SDSS','^LTT','C26202'],
 'TECHSETUP':               ['^pointing','^MaxVis']
     }
-
+"""
 
 class calcTimeclass(pdastroclass):
     def __init__(self):
@@ -59,13 +64,22 @@ class calcTimeclass(pdastroclass):
         self.warnings = []
         
         self.t = pd.DataFrame(columns=['blockID','assigned_program','program','UTfirst','UTlast','dt_block_h','dt_prevgap_sec','dt_nextgap_sec','dt_gaps_sec','dt_block_full_h','twi','dt_charged_h'])
-        self.summary = pdastroclass()
-        self.summary.t = pd.DataFrame(columns=['assigned_program','t_total'])
-        
+        self.nightsummary = pdastroclass()
+        self.nightsummary.t = pd.DataFrame(columns=['assigned_program','t_dark','t_twi','t_downtime'])
+        self.nightsummary.default_formatters= {'t_dark':'{:.4f}'.format,
+                                          't_twi':'{:.4f}'.format,
+                                          't_downtime':'{:.4f}'.format
+                                          }
+
         self.programcol_formatter='{:<24}'.format
         
         self.horizons = [18,15,12]
-        self.twi_charge_fraction = (1.0,2/3,1/3,0.0)
+        #self.twi_charge_fraction = (1.0,2/3,1/3,0.0)
+        self.twi_charge_fraction = (1.0,1.0,1.0,1.0)
+         
+        self.downtime_reassign = []
+        
+        self.semesterinfo = semesterinfoclass()
 
     def addwarning(self,warningstring):
         print(warningstring)
@@ -81,7 +95,9 @@ class calcTimeclass(pdastroclass):
 
         parser.add_argument('-s','--save', nargs='*', help="Save the tables. if no argument is specified, then the input name is used as basename")
         parser.add_argument('-r','--reassign', nargs=2, action="append", help="reassign one program block to another program")
-            
+        parser.add_argument('--downtime', nargs='+', action="append", help="specify downtime: Last_exp_ID program1 time1 program2 time2 ...")
+        parser.add_argument('--semester', default='21A', help='Specify the semester (default=%(default)s)')
+             
         parser.add_argument('-v', '--verbose', action='count', default=0)
         parser.add_argument('-d', '--debug', action='count', default=0)
 
@@ -90,8 +106,8 @@ class calcTimeclass(pdastroclass):
     def create_fieldpattern2program(self):
         self.fieldpattern2program ={}
         self.fieldpatterns=[]
-        for program in program2fieldpattern:
-            for fieldpattern in program2fieldpattern[program]:
+        for program in self.semesterinfo.program2fieldpattern:
+            for fieldpattern in self.semesterinfo.program2fieldpattern[program]:
                 self.fieldpatterns.append(fieldpattern)
                 self.fieldpattern2program[fieldpattern]={}
                 self.fieldpattern2program[fieldpattern]['program']=program
@@ -165,21 +181,158 @@ class calcTimeclass(pdastroclass):
             self.qcinv.write(indices=range(1,11))
         return(0)
     
-    def fill_qcinv_table(self):
-        #m = re.compile('^2')
-        
-        # set format of dt_h*.
-        self.qcinv.t['utdate']=None
-        self.qcinv.t['ut_decimal']=np.nan
-        self.qcinv.t['twi']=0
-        self.qcinv.default_formatters['ut_decimal']='{:.4f}'.format
-        
-        ix_all = self.qcinv.getindices()
+    def downtime2qcinv(self,downtimelist):
+        """
+        Go through the list of Downtimes, and add rows to qcinv list accordingly.
+        The downtimes are automatically enumerated.
+
+        Parameters
+        ----------
+        downtimelist : TYPE
+            1st entry is expID after which downtime will be added.
+            The next entries are are pairs of program+downtime. 
+
+        Returns
+        -------
+        None.
+
+        """
+        if args.downtime is None:
+            return(0)
+        counter_downtime = 1
+        downtimerows = pdastroclass(columns=['expid','time','Object','utdate','twi'])
+
+        for downtime in downtimelist:
+            print('\n############\n###DOWNTIME: ',downtime)
+            # The first entry of the downtime list is the expID after which the downtime should be added
+            expID = int(downtime[0])
+            
+            # if expID = 0, then downtime is starting at -18 deg twilight
+            # in this block, we determine utdown and utdownmax: the UT range of the downtime.
+            if expID == 0 or expID == 'None':
+                utdown = self.twi[18][0]
+                print('Downtime starting at evening -18 deg twilight: %s' % utdown.to_value('isot'))
+                ix = None
                 
-        # I just choose a random date. The date itself is not important, it's 
-        # just that all UT times 2?:?? have the date before this random date,
-        # so that the time difference is correct
-        t0 = time.Time('2020-01-02T00:00:00',scale='utc',format='isot')
+                if len(self.qcinv.t.index.values)>0:
+                    ix_next = self.qcinv.t.index.values[0]
+                else: 
+                    ix_next = None
+            else:
+                print('Downtime starting after expid %d' % expID)
+                ixs = self.qcinv.ix_equal('expid',expID)
+                if len(ixs)==0:
+                    raise RuntimeError('could not find expid %d' % expID)
+                elif len(ixs)>1:
+                    raise RuntimeError('more than one expid %d' % expID)
+                    
+                # ix and ix_next are the two indices that sandwich the downtime.
+                ix=ixs[0]
+                # get the indix of the next row, None if last row
+                if ix<len(self.qcinv.t.index.values)-1:
+                    ix_next = ix+1
+                else:
+                    ix_next = None
+                
+                utdown = time.Time(self.qcinv.t.loc[ix,'utdate']) + (self.qcinv.t.loc[ix,'time']+self.minimal_overhead) * u.s
+                #print('VVVV',(self.qcinv.t.loc[ix,'time']+self.minimal_overhead),self.qcinv.t.loc[ix,'utdate'],utdown.to_value('isot'))
+
+            if ix_next is None:
+                # morning -18 deg twilight
+                utdownmax = self.twi[18][1]
+            else:
+                utdownmax = time.Time(self.qcinv.t.loc[ix_next,'utdate'])
+            
+            print('UT range: %s  -  %s' % (utdown.to_value('isot'),utdownmax.to_value('isot')))
+            
+            # Now loop through all entries of downtime for this downtime block 
+            for i in range(1,len(downtime),2):
+                print('\n# Downtime entry %d: ' % i,downtime[i],downtime[i+1])
+                if utdown.to_value('isot')>utdownmax.to_value('isot'):
+                    raise RuntimeError('downtime UT %s is later than the maximum %s!' % (utdown.to_value('isot'),utdownmax.to_value('isot')))
+                
+                downtimename = 'DOWNTIME%02d' % counter_downtime
+                program=downtime[i]
+                self.downtime_reassign.append((downtimename,program))
+                
+                t = downtime[i+1]
+                if re.search('^[0-9\.]+$',t) is None:
+                    (t,unit) = re.search('(^[0-9\.]+)([a-zA-Z]+$)',t).groups()
+                else:
+                    unit='sec'
+                print('downtime: assigning %s the time of %s %s' % (program,t,unit))
+
+                if unit.lower() in ['sec','s']:
+                    tsec=float(t)
+                elif unit.lower() in ['m','min','minutes','minute']:
+                    tsec=float(t)*60.0
+                elif unit.lower() in ['h','hour','hours']:
+                    tsec=float(t)*3600.0
+                else:
+                    raise RuntimeError('Could not understand time unit of %s, only sec,min,hour allowed!')
+                
+                downtimerows.newrow({'expid':0,'twi':0,'utdate':utdown,'time':tsec,'program':downtimename,'Object':'DOWNTIME'})
+                
+                utdown = utdown + tsec*u.s
+                if utdown.to_value('isot')>utdownmax.to_value('isot'):
+                    raise RuntimeError('downtime UT %s (ut start + downtime) is later than the maximum %s!' % (utdown.to_value('isot'),utdownmax.to_value('isot')))
+                
+                #reset_index
+                    
+                #unit = downtime[i+2]
+                counter_downtime += 1
+
+        # Any downtime?
+        if len(downtimerows.t)>0:
+            
+            if self.verbose:
+                print('Downtime table:')
+                downtimerows.write()
+            # append the downtime table to qcinv table!
+            self.qcinv.t = pd.concat([self.qcinv.t,downtimerows.t],ignore_index=True)        
+             
+            # only fill the new rows!
+            ix_down = self.qcinv.ix_equal('Object','DOWNTIME')
+            self.fill_qcinv_table(qcinv_indices = ix_down)
+     
+            #reset the index of the qcinv table, sorted by utdate!
+            ixs = self.qcinv.ix_sort_by_cols(['utdate'])
+            #self.qcinv.t.loc[ixs].reset_index(inplace=True)
+            self.qcinv.t = self.qcinv.t.loc[ixs].reset_index(drop=True)
+            
+            if self.verbose:
+                print('new qcinv table with Downtimes added!')
+                self.qcinv.write()
+        else:
+            raise RuntimeError('Bug? there should be some downtime?')
+        
+        return(0)
+        
+
+    def fill_qcinv_table(self, qcinv_indices=None):
+        """
+        Fill out utdate, ut_decimal, and twi columns
+
+        Parameters
+        ----------
+        qcinv_indices : TYPE, optional
+            if specified, only passed indices are filled. The default is None.
+
+        Returns
+        -------
+        None.
+
+        """        
+
+        if qcinv_indices is None:
+            self.qcinv.t['utdate']=None
+            self.qcinv.t['ut_decimal']=np.nan
+            self.qcinv.t['twi']=0
+            self.qcinv.default_formatters['ut_decimal']='{:.4f}'.format
+            self.qcinv.t['program']=None
+            self.qcinv.t['blockID']=0
+           
+        ix_all = self.qcinv.getindices(indices=qcinv_indices)
         
         # get just the dates (not hours) for the beginning and end of the night
         datestart = self.tonight[0].to_value('isot')[:10]
@@ -190,24 +343,27 @@ class calcTimeclass(pdastroclass):
         
         
         for ix in ix_all:
-            # first try if the datestart is the correct date to use.
-            tobs = time.Time(datestart+'T'+self.qcinv.t.loc[ix,'ut']+':00', scale='utc')
-            dt = tobs - self.tonight[0]
-            
-            # if it is not after the start of the night, try dateend
-            if dt.to_value('hr')<0.0:
-                tobs = time.Time(dateend+'T'+self.qcinv.t.loc[ix,'ut']+':00', scale='utc')
+            if self.qcinv.t.loc[ix,'utdate'] is None:
+                # first try if the datestart is the correct date to use.
+                tobs = time.Time(datestart+'T'+self.qcinv.t.loc[ix,'ut']+':00', scale='utc')
                 dt = tobs - self.tonight[0]
-                # comething is wrong!!
+                
+                # if it is not after the start of the night, try dateend
                 if dt.to_value('hr')<0.0:
-                    raise RuntimeError('dt = %f, could not figure out the UT date for %s that is past the startdate %s' % (dt.to_value('hr'),self.qcinv.t.loc[ix,'ut'],self.tonight[0].to_value('isot')))
+                    tobs = time.Time(dateend+'T'+self.qcinv.t.loc[ix,'ut']+':00', scale='utc')
+                    dt = tobs - self.tonight[0]
+                    # comething is wrong!!
+                    if dt.to_value('hr')<0.0:
+                        raise RuntimeError('dt = %f, could not figure out the UT date for %s that is past the startdate %s' % (dt.to_value('hr'),self.qcinv.t.loc[ix,'ut'],self.tonight[0].to_value('isot')))
             
-            # Make sure tobs is before the end of the night
-            dt = self.tonight[1] - tobs
-            if dt.to_value('hr')<0.0:
-                raise RuntimeError('dt = %f, could not figure out the UT date for %s that is before the enddate %s' % (dt.to_value('hr'),self.qcinv.t.loc[ix,'ut'],self.tonight[1].to_value('isot')))
-            
-            self.qcinv.t.loc[ix,'utdate']=tobs.to_value('isot')
+                # Make sure tobs is before the end of the night
+                dt = self.tonight[1] - tobs
+                if dt.to_value('hr')<0.0:
+                    raise RuntimeError('dt = %f, could not figure out the UT date for %s that is before the enddate %s' % (dt.to_value('hr'),self.qcinv.t.loc[ix,'ut'],self.tonight[1].to_value('isot')))
+                
+                self.qcinv.t.loc[ix,'utdate']=tobs.to_value('isot')
+            else:
+                tobs = time.Time(self.qcinv.t.loc[ix,'utdate'], scale='utc')
             
             # now get the relative time in decimal hours with respect to t0
             dt = (tobs-t0)
@@ -232,8 +388,6 @@ class calcTimeclass(pdastroclass):
     
     def assignPrograms(self):
         self.create_fieldpattern2program()
-        self.qcinv.t['program']=None
-        self.qcinv.t['blockID']=0
         
         ixs = self.qcinv.getindices()
         
@@ -248,41 +402,54 @@ class calcTimeclass(pdastroclass):
         for i in range(len(ixs)):
             ix = ixs[i]
 
-            foundflag=False
-            for fieldpattern in self.fieldpattern2program:
-                m = self.fieldpattern2program[fieldpattern]['compiled']
-                if m.search(self.qcinv.t.loc[ix,'Object']):
-                    program = self.fieldpattern2program[fieldpattern]['program']
-                    if self.verbose>2: print('FOUND! pattern %s matches %s, program %s' % (fieldpattern,self.qcinv.t.loc[ix,'Object'],program))
-                    if program=='2020B-0053_DEBASS':
-                        if self.qcinv.t.loc[ix,'time']>25:
-                            program='2021A-0275_YSE'
-
-                    if program in special_programs:
+            # check for DOWNTIME, already prefilled!
+            if (self.qcinv.t.loc[ix,'program'] is not None): 
+                if re.search('^DOWNTIME',self.qcinv.t.loc[ix,'program']):
+                    # all good!! Downtime!
+                    pass
+                else:
+                    raise RuntimeError('Program preset to %s, but not DOWNTIME???' % self.qcinv.t.loc[ix,'program'])
+            else:
+                # found the program: check the search patterns for each Object
+                foundflag=False
+                for fieldpattern in self.fieldpattern2program:
+                    m = self.fieldpattern2program[fieldpattern]['compiled']
+                    if m.search(self.qcinv.t.loc[ix,'Object']):
+                        program = self.fieldpattern2program[fieldpattern]['program']
+                        if self.verbose>2: print('FOUND! pattern %s matches %s, program %s' % (fieldpattern,self.qcinv.t.loc[ix,'Object'],program))
+                        if program=='2020B-0053_DEBASS':
+                            if self.qcinv.t.loc[ix,'time']>25:
+                                program='2021A-0275_YSE'
+    
+                        if program in special_programs:
+                            m = special_programs[program]['pattern']
+                            if i==0 or (not m.search(self.qcinv.t.loc[ixs[i-1],'program'])):
+                                special_programs[program]['counter']+=1
+                            program += '%d' %  special_programs[program]['counter']
+     
+                        self.qcinv.t.loc[ix,'program']=program
+                        foundflag=True
+                        break
+                # Program not found? Assign to UNKNOWNX
+                if (not foundflag): 
+                    if (self.qcinv.t.loc[ix,'program'] is  None): 
+                        program='UNKNOWN' 
                         m = special_programs[program]['pattern']
                         if i==0 or (not m.search(self.qcinv.t.loc[ixs[i-1],'program'])):
                             special_programs[program]['counter']+=1
                         program += '%d' %  special_programs[program]['counter']
- 
-                    self.qcinv.t.loc[ix,'program']=program
-                    foundflag=True
-                    break
-            if not foundflag:
-                program='UNKNOWN' 
-                m = special_programs[program]['pattern']
-                if i==0 or (not m.search(self.qcinv.t.loc[ixs[i-1],'program'])):
-                    special_programs[program]['counter']+=1
-                program += '%d' %  special_programs[program]['counter']
-                self.addwarning('WARNING: Could not find the program for %s in line %d (block %s)' % (self.qcinv.t.loc[ix,'Object'],ix,program))
-                self.qcinv.t.loc[ix,'program']=program
-            
+                        self.addwarning('WARNING: Could not find the program for %s in line %d (block %s)' % (self.qcinv.t.loc[ix,'Object'],ix,program))
+                        self.qcinv.t.loc[ix,'program']=program
+             
             # New block ID?
             if i>0: 
                 if self.qcinv.t.loc[ixs[i-1],'twi']!=self.qcinv.t.loc[ix,'twi'] or self.qcinv.t.loc[ixs[i-1],'program']!=self.qcinv.t.loc[ix,'program']:
                 # if not the first entry AND if different than previous row's program: inc blockID
                 #if ix!=ixs[0] and self.qcinv.t.loc[ixs[i-1],'program']!=self.qcinv.t.loc[ix,'program']:
                     blockID+=1
-            self.qcinv.t.loc[ix,'blockID']=blockID            
+            self.qcinv.t.loc[ix,'blockID']=blockID     
+        #sys.exit(0)
+        return(0)
         
     def calcTimes(self):
         self.t['dt_block_h']=self.t['dt_prevgap_sec']=self.t['dt_nextgap_sec']=self.t['dt_gaps_sec']=self.t['dt_block_full_h']=self.t['dt_charged_h']=np.nan
@@ -383,7 +550,7 @@ class calcTimeclass(pdastroclass):
     def mkSummary(self):
         print('################\n### SUMMARY:')
         current_programs = self.t['assigned_program'].unique()
-        current_mainprograms = AandB(current_programs,programlist)
+        current_mainprograms = AandB(current_programs,self.semesterinfo.programlist)
         extra_programs = AnotB(current_programs,current_mainprograms)
         extra_programs.sort()
         current_mainprograms.sort()
@@ -391,11 +558,24 @@ class calcTimeclass(pdastroclass):
         programs.extend(extra_programs)
         for program in programs:
             ixs = self.ix_equal('assigned_program',program)
-            t_total = self.t.loc[ixs,'dt_charged_h'].sum()
-            self.summary.newrow({'assigned_program':program,
-                                 't_total':t_total})
-        self.summary.default_formatters['assigned_program']=self.programcol_formatter
-        self.summary.write()
+            ixs_dark = self.ix_equal('twi',0,indices=ixs)
+            ixs_twi  = self.ix_inrange('twi',1,None,indices=ixs)
+            ixs_downtime  = self.ix_inrange('program','DOWNTIME0','DOWNTIME9999',indices=ixs)
+            
+            t_dark = self.t.loc[ixs_dark,'dt_charged_h'].sum()
+            t_twi = self.t.loc[ixs_twi,'dt_charged_h'].sum()
+            t_downtime  = self.t.loc[ixs_downtime,'dt_charged_h'].sum()
+            self.nightsummary.newrow({'assigned_program':program,
+                                 't_dark':t_dark,
+                                 't_twi':t_twi,
+                                 't_downtime':t_downtime,
+                                 })
+        self.nightsummary.default_formatters['assigned_program']=self.programcol_formatter
+        self.nightsummary.write()
+        
+        t_dark_tot = self.nightsummary.t['t_dark'].sum()
+        t_dark_theo = (self.twi[18][1]-self.twi[18][0]).to_value('sec')/3600.0
+        print('Total dark time assigned : %.4f hours,\nTotal dark time available: %.4f hours\nDifference(available-assigned)=%.1f seconds' % (t_dark_tot,t_dark_theo,(t_dark_theo-t_dark_tot)*3600.0))
         
     def savetables(self,basename=None):
         if basename is not None:
@@ -408,7 +588,7 @@ class calcTimeclass(pdastroclass):
             print('Saving tables with basename',basename)
             self.qcinv.write(basename+'.times.txt',verbose=2)
             self.write(basename+'.blocks.txt',verbose=2)
-            self.summary.write(basename+'.summary.txt',verbose=2)
+            self.nightsummary.write(basename+'.nightsummary.txt',verbose=2)
             
             
         return(0)
@@ -422,11 +602,15 @@ if __name__ == "__main__":
     calcTime.verbose=args.verbose
     calcTime.debug=args.debug
 
+    calcTime.semesterinfo.setsemester(args.semester)
+
     calcTime.readqcinv(args.qcinvfile)  
     calcTime.fill_qcinv_table()
+    calcTime.downtime2qcinv(args.downtime)
     calcTime.assignPrograms()
     calcTime.calcTimes()
     calcTime.reassign_programs(args.reassign)
+    calcTime.reassign_programs(calcTime.downtime_reassign)
     if args.verbose>1:
         calcTime.qcinv.write()
         calcTime.write()

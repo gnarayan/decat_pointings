@@ -1,6 +1,6 @@
 # 20210411
 
-2021ckc
+2021ckc     575.B.a     
 2021cyn
 2021dch
 2021dcu
@@ -26,6 +26,7 @@
 2021gkb
 2021gkz
 2021gmk
+2021gno     525.D.a     
 2021gqc
 2021grd
 2021gwa
@@ -67,7 +68,6 @@ Completed/Dropped:
 2021ftc - DEBASS only
 2021fuf - drop - Ia but may not be rising 
 2021gbk - DEBASS only 
-2021gno - DEBASS only - still in 525.D.a 
 2021hed - unconfirmed beyond peak - drop
 2021hep - probably not useful for cosmo - drop 
 2021hkf - type II - drop for DEBASS 

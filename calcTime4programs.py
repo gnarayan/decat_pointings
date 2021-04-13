@@ -15,41 +15,9 @@ from astroplan import Observer
 from astropy import units as u
 ctio = Observer.at_site("CTIO")
 
-from mk_semester_summary import semesterinfoclass
+from mk_semester_summary import semester_summary_class
+from semesterinfo import semesterinfoclass,default_semester
 
-"""
-This is now defined in mk_semester_summary in class semesterinfoclass!
-
-programlist = [
-'2019A-0065_Shen1',
-'2019B-0304_Martini',
-'2020A-0906_eFEDS',
-'2021A-0037_Shen2',
-'2021A-0275_YSE',
-'2020B-0053_DEBASS',
-'2021A-0113_DDF',
-'2021A-0148_DESI',
-'2020A-0415_EtaCar'
-]
-
-program2fieldpattern = {
-'2019A-0065_Shen1':      ['^SN\-C3','^S\-CVZ','SN\-X\d'],
-'2019B-0304_Martini':   ['E1','E3'],
-'2020A-0906_eFEDS':     ['^eFEDS'],
-'2021A-0037_Shen2':      ['^CO\d$'],
-'2021A-0275_YSE':       ['^\d\d\d\.\w+\.[abcde]'],
-'2020B-0053_DEBASS':    ['^2021\w+'],
-'2021A-0113_DDF':       ['^COSMOS','^DECaPS.*'],
-'2021A-0148_DESI':      ['^TILEID\:\s+\d+'], 
-'2020A-0415_EtaCar':    ['^ec\d\d\d\d'],
-'2019A-0305_Drlica_TRADE':['^DELVE'],
-'2021A-0244_Miller_TRADE':['^n2997'],
-'2021A-0010_Rector_TRADE':['^Cha'],
-'2021A-0149_Zenteno_TRADE':['^BLA'],
-'STANDARDS':             ['^E','^SDSS','^LTT','C26202'],
-'TECHSETUP':               ['^pointing','^MaxVis']
-    }
-"""
 
 class calcTimeclass(pdastroclass):
     def __init__(self):
@@ -64,12 +32,16 @@ class calcTimeclass(pdastroclass):
         self.warnings = []
         
         self.t = pd.DataFrame(columns=['blockID','assigned_program','program','UTfirst','UTlast','dt_block_h','dt_prevgap_sec','dt_nextgap_sec','dt_gaps_sec','dt_block_full_h','twi','dt_charged_h'])
-        self.nightsummary = pdastroclass()
-        self.nightsummary.t = pd.DataFrame(columns=['assigned_program','t_dark','t_twi','t_downtime'])
+        self.nightsummary = pdastroclass(columns=['assigned_program','t_dark','t_twi','t_downtime'])
+        #self.nightsummary.t = pd.DataFrame(columns=['assigned_program','t_dark','t_twi','t_downtime'])
         self.nightsummary.default_formatters= {'t_dark':'{:.4f}'.format,
-                                          't_twi':'{:.4f}'.format,
-                                          't_downtime':'{:.4f}'.format
-                                          }
+                                               't_twi':'{:.4f}'.format,
+                                               't_downtime':'{:.4f}'.format
+                                               }
+        
+        self.semestersummary = semester_summary_class()
+        
+        
 
         self.programcol_formatter='{:<24}'.format
         
@@ -96,8 +68,9 @@ class calcTimeclass(pdastroclass):
         parser.add_argument('-s','--save', nargs='*', help="Save the tables. if no argument is specified, then the input name is used as basename")
         parser.add_argument('-r','--reassign', nargs=2, action="append", help="reassign one program block to another program")
         parser.add_argument('--downtime', nargs='+', action="append", help="specify downtime: Last_exp_ID program1 time1 program2 time2 ...")
-        parser.add_argument('--semester', default='21A', help='Specify the semester (default=%(default)s)')
-             
+        parser.add_argument('--semester', default=default_semester, help='Specify the semester (default=%(default)s)')
+        parser.add_argument('--semester_summaryfile', default=None, help='Specify the filename for the semester summary. If not specified, it will be <semester>/hours_summary.txt (default=%(default)s)')
+        parser.add_argument('-a','--add2semestersummary', default=False,action='store_true',help='Save the hours into the semester summary')
         parser.add_argument('-v', '--verbose', action='count', default=0)
         parser.add_argument('-d', '--debug', action='count', default=0)
 
@@ -116,9 +89,16 @@ class calcTimeclass(pdastroclass):
         return(0)            
     
     def readqcinv(self,filename):
+        print('filename argument:',filename)
+        if not os.path.isfile(filename) and re.search('^\d+$',filename):
+            newfilename = '%s/%s/%s.qcinv' % (self.semesterinfo.semester,filename,filename)
+            if not os.path.isfile(newfilename):
+                raise RuntimeError('filename argument %s extended to filename %s, but doesn\'t exist!' % (filename,newfilename))
+            filename=newfilename
+        
         # load the qcinv file and fix it: remove \n and remove extra headers
         if self.verbose: print('loading ',filename)
-        self.filename = filename
+        self.qcinv.filename = filename
         lines = open(filename,'r').readlines()
         for i in range(len(lines)-1,-1,-1):
             lines[i] = re.sub('\\n$','',lines[i])
@@ -256,20 +236,23 @@ class calcTimeclass(pdastroclass):
                 self.downtime_reassign.append((downtimename,program))
                 
                 t = downtime[i+1]
-                if re.search('^[0-9\.]+$',t) is None:
-                    (t,unit) = re.search('(^[0-9\.]+)([a-zA-Z]+$)',t).groups()
+                if t.lower() == 'rest':
+                    tsec = (utdownmax - utdown).to_value('sec')
                 else:
-                    unit='sec'
-                print('downtime: assigning %s the time of %s %s' % (program,t,unit))
-
-                if unit.lower() in ['sec','s']:
-                    tsec=float(t)
-                elif unit.lower() in ['m','min','minutes','minute']:
-                    tsec=float(t)*60.0
-                elif unit.lower() in ['h','hour','hours']:
-                    tsec=float(t)*3600.0
-                else:
-                    raise RuntimeError('Could not understand time unit of %s, only sec,min,hour allowed!')
+                    if re.search('^[0-9\.]+$',t) is None:
+                        (t,unit) = re.search('(^[0-9\.]+)([a-zA-Z]+$)',t).groups()
+                    else:
+                        unit='sec'
+                    print('downtime: assigning %s the time of %s %s' % (program,t,unit))
+    
+                    if unit.lower() in ['sec','s']:
+                        tsec=float(t)
+                    elif unit.lower() in ['m','min','minutes','minute']:
+                        tsec=float(t)*60.0
+                    elif unit.lower() in ['h','hour','hours']:
+                        tsec=float(t)*3600.0
+                    else:
+                        raise RuntimeError('Could not understand time unit of %s, only sec,min,hour allowed!')
                 
                 downtimerows.newrow({'expid':0,'twi':0,'utdate':utdown,'time':tsec,'program':downtimename,'Object':'DOWNTIME'})
                 
@@ -460,7 +443,8 @@ class calcTimeclass(pdastroclass):
         self.default_formatters['dt_block_full_h']='{:.4f}'.format
         self.default_formatters['assigned_program']=self.programcol_formatter
 
-        re_techsetup_standards = re.compile('^TECHSETUP|^STANDARDS')
+        re_techsetup_standards_downtime = re.compile('^TECHSETUP|^STANDARDS|^DOWNTIME')
+        re_downtime = re.compile('^DOWNTIME')
         blockIDs = self.qcinv.t['blockID'].unique()
         # get info for each block
         for i in range(len(blockIDs)):
@@ -517,15 +501,19 @@ class calcTimeclass(pdastroclass):
         
         # If TECHSETUP and STANDARDS is block: eat all the time, so set nextgap from previous block and prevgap from next block to 0.0 !
         for i in range(len(ixs_blocks)-1):
-            if re_techsetup_standards.search(self.t.loc[ixs_blocks[i],'assigned_program']):
+            if re_downtime.search(self.t.loc[ixs_blocks[i],'assigned_program']):
+                self.t.loc[ixs_blocks[i],'dt_nextgap_sec']=0.0
+                self.t.loc[ixs_blocks[i],'dt_prevgap_sec']=0.0
+            if re_techsetup_standards_downtime.search(self.t.loc[ixs_blocks[i],'assigned_program']):
                 if i>0: self.t.loc[ixs_blocks[i-1],'dt_nextgap_sec']=0.0
                 if i<len(ixs_blocks)-1: self.t.loc[ixs_blocks[i+1],'dt_prevgap_sec']=0.0
+ 
         
         # Add up block time and gap time:
         # TECHSETUP, STANDARDS: eat all gap time
         # all other programs: eat half of each gap time (previous and next)
         for i in range(len(ixs_blocks)):
-            if re_techsetup_standards.search(self.t.loc[ixs_blocks[i],'assigned_program']):
+            if re_techsetup_standards_downtime.search(self.t.loc[ixs_blocks[i],'assigned_program']):
                 self.t.loc[ixs_blocks[i],'dt_gaps_sec'] = 1.0*(self.t.loc[ixs_blocks[i],'dt_nextgap_sec']+self.t.loc[ixs_blocks[i],'dt_prevgap_sec'])
             else:
                 self.t.loc[ixs_blocks[i],'dt_gaps_sec'] = 0.5*(self.t.loc[ixs_blocks[i],'dt_nextgap_sec']+self.t.loc[ixs_blocks[i],'dt_prevgap_sec'])
@@ -550,7 +538,8 @@ class calcTimeclass(pdastroclass):
     def mkSummary(self):
         print('################\n### SUMMARY:')
         current_programs = self.t['assigned_program'].unique()
-        current_mainprograms = AandB(current_programs,self.semesterinfo.programlist)
+        allmainprograms = list(self.semesterinfo.programlist.keys())
+        current_mainprograms = AandB(current_programs,allmainprograms)
         extra_programs = AnotB(current_programs,current_mainprograms)
         extra_programs.sort()
         current_mainprograms.sort()
@@ -559,16 +548,22 @@ class calcTimeclass(pdastroclass):
         for program in programs:
             ixs = self.ix_equal('assigned_program',program)
             ixs_dark = self.ix_equal('twi',0,indices=ixs)
-            ixs_twi  = self.ix_inrange('twi',1,None,indices=ixs)
+            ixs_twi1  = self.ix_inrange('twi',1,1,indices=ixs)
+            ixs_twi2  = self.ix_inrange('twi',2,2,indices=ixs)
+            ixs_twi3  = self.ix_inrange('twi',3,None,indices=ixs)
             ixs_downtime  = self.ix_inrange('program','DOWNTIME0','DOWNTIME9999',indices=ixs)
             
             t_dark = self.t.loc[ixs_dark,'dt_charged_h'].sum()
-            t_twi = self.t.loc[ixs_twi,'dt_charged_h'].sum()
+            t_twi1 = self.t.loc[ixs_twi1,'dt_charged_h'].sum()
+            t_twi2 = self.t.loc[ixs_twi2,'dt_charged_h'].sum()
+            t_twi3 = self.t.loc[ixs_twi3,'dt_charged_h'].sum()
             t_downtime  = self.t.loc[ixs_downtime,'dt_charged_h'].sum()
             self.nightsummary.newrow({'assigned_program':program,
                                  't_dark':t_dark,
-                                 't_twi':t_twi,
-                                 't_downtime':t_downtime,
+                                 't_twi1':t_twi1,
+                                 't_twi2':t_twi2,
+                                 't_twi3':t_twi3,
+                                 't_down':t_downtime,
                                  })
         self.nightsummary.default_formatters['assigned_program']=self.programcol_formatter
         self.nightsummary.write()
@@ -580,7 +575,7 @@ class calcTimeclass(pdastroclass):
     def savetables(self,basename=None):
         if basename is not None:
             if len(basename)==0:
-                basename=self.filename
+                basename=self.qcinv.filename
             elif len(basename)==1:
                 basename=basename[0]
             else:
@@ -592,6 +587,58 @@ class calcTimeclass(pdastroclass):
             
             
         return(0)
+    
+    def setsemester(self,semester,semester_summaryfile=None):
+        self.semesterinfo.setsemester(semester)
+        self.semestersummary.semesterinfo = self.semesterinfo
+        self.semester_summaryfile = self.semestersummary.get_semester_summary_filename(semester_summaryfile)
+        self.semestersummary.initcols()
+        if self.verbose>2: 
+            print('Semester summary file:',self.semester_summaryfile)
+        
+    def load_semestersummary(self,filename=None):
+        if filename is None:
+            if self.semester_summaryfile is None:
+                raise RuntimeError('Semester summary filename is not specified for loading!')
+            filename = self.semester_summaryfile
+        if os.path.isfile(filename):
+            print('Loading',filename)
+            self.semestersummary.load_spacesep(filename)
+        else:
+            print('WARNING! semester summary file %s does not exist yet!' % filename)
+            return(1)
+        return(0)
+
+    def write_semestersummary(self,filename=None):
+        if filename is None:
+            if self.semester_summaryfile is None:
+                raise RuntimeError('Semester summary filename is not specified for writing!')
+            filename = self.semester_summaryfile
+        print('Saving',filename)
+        self.semestersummary.write(filename,overwrite=True)
+        return(0)
+            
+            
+    def add2semestersummary(self,semester_summaryfile=None):
+        self.semester_summaryfile = self.semestersummary.get_semester_summary_filename(semester_summaryfile)
+        print('BBB',semester_summaryfile,self.semester_summaryfile)
+        self.load_semestersummary(self.semester_summaryfile)
+        
+        # get the date for the semester summary entry
+        date = re.sub('\.qcinv','',os.path.basename(self.qcinv.filename))
+        print('Date:',date)
+        if not re.search('^\d+$',date):
+            raise RuntimeError('Could not determine the date from %s!' % self.qcinv.filename)
+        
+        # Add the results of this date to the semester summary
+        self.semestersummary.add2summary(self.nightsummary,date)
+        if self.verbose:
+            print('### SEMESTER SUMMARY:')
+            self.semestersummary.write()
+            
+        # save it!
+        self.write_semestersummary(semester_summaryfile)
+    
 
 if __name__ == "__main__":
     calcTime = calcTimeclass()
@@ -602,7 +649,7 @@ if __name__ == "__main__":
     calcTime.verbose=args.verbose
     calcTime.debug=args.debug
 
-    calcTime.semesterinfo.setsemester(args.semester)
+    calcTime.setsemester(args.semester,args.semester_summaryfile)
 
     calcTime.readqcinv(args.qcinvfile)  
     calcTime.fill_qcinv_table()
@@ -618,6 +665,8 @@ if __name__ == "__main__":
     calcTime.mkSummary()
     
     calcTime.savetables(basename=args.save)
+    if args.add2semestersummary:
+        calcTime.add2semestersummary(args.semester_summaryfile)
     
     if len(calcTime.warnings)>0:
         print('THERE WERE WARNINGS!!!')

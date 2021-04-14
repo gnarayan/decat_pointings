@@ -1,23 +1,23 @@
-April 11, 2021
+April 14, 2021
 Times are local (UTC) for CTIO
 
-mjd 59316, date 20210411, Site CTIO, UT-offset 4 hr
-Current local time 22:20 -04     UT 02:20     SidTim 10:58
+mjd 59319, date 20210414, Site CTIO, UT-offset 4 hr
+Current local time 23:29 -04     UT 03:29     SidTim 12:20
 Event      Local-Time  Greenwich  Sidereal-Time
-Sunset     18:34 -04  22:34 UT   07:13  108 deg
-Eve. -10   19:09 -04  23:09 UT   07:48  117 deg  Zeropoint; standards
-Eve. -14   19:28 -04  23:28 UT   08:06  122 deg  Begin obstac
-Eve. -18   19:46 -04  23:46 UT   08:25  126 deg  Last chance standards
-Midpoint   00:44 -04  04:44 UT   13:22  200 deg
-Morn -18   05:41 -04  09:41 UT   18:20  275 deg  Begin astronomical twilight
-Morn -14   05:59 -04  09:59 UT   18:37  279 deg  End obstac; begin standards
-Morn -10   06:19 -04  10:19 UT   18:57  284 deg
-Sunrise    06:54 -04  10:54 UT   19:32  293 deg
-Moon position (deg): RA 23.1, Dec 5.9 Phase: 0.002
+Sunset     18:31 -04  22:31 UT   07:21  110 deg
+Eve. -10   19:06 -04  23:06 UT   07:56  119 deg  Zeropoint; standards
+Eve. -14   19:24 -04  23:24 UT   08:15  124 deg  Begin obstac
+Eve. -18   19:43 -04  23:43 UT   08:33  128 deg  Last chance standards
+Moonset    20:03 -04  00:03 UT   08:54  134 deg
+Midpoint   00:43 -04  04:43 UT   13:33  203 deg
+Morn -18   05:43 -04  09:43 UT   18:33  278 deg  Begin astronomical twilight
+Morn -14   06:00 -04  10:00 UT   18:51  283 deg  End obstac; begin standards
+Morn -10   06:20 -04  10:20 UT   19:11  288 deg
+Sunrise    06:55 -04  10:55 UT   19:46  296 deg
+Moon position (deg): RA 56.7, Dec 19.1 Phase: 0.170
 
-Time between eve and morning twilight (14 deg):  631 minutes
-Time between sunset and sunrise: 740 minutes
-Time requested from programs: XXX minutes
+Time between eve and morning twilight (14 deg):  636 minutes
+Time between sunset and sunrise: 744 minutes
 
 Times below are LOCAL TIME IN CHILE
 [] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
@@ -26,11 +26,14 @@ BACKUP/FILLER fields are listed at bottom
 
 ---------------------------- PLAN BEGINS -------------------------------
 
-18:34 Sunset - Setup
+18:31 Sunset - Setup
 
-19:09   Twilight - Start Promptly
+19:06   Twilight - Start Promptly
         C26202 [55 -27] (3min) 
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
+
+
+
         21hfq.json (3 min) [119 -68]
         21gmk.json (2.5 min) [92 -45]
         21hvo.json [200 -40] 

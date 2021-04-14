@@ -24,51 +24,53 @@ Times below are LOCAL TIME IN CHILE
 
 BACKUP/FILLER fields are listed at bottom
 
+
+FOR STANDARDS GET ugriz!!
+Can start standards around 19:15 
+
 ---------------------------- PLAN BEGINS -------------------------------
 
 18:31 Sunset - Setup
 
 19:06   Twilight - Start Promptly
-        C26202 [55 -27] (3min) 
-        S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
-
-
-
-        21hfq.json (3 min) [119 -68]
+        C26202 [55 -27] (3 min) 
+        257.B.a [82 -21] (5 min)
+        Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json (42 min)
+        021clw.json (1.5 min) [88 -51]
         21gmk.json (2.5 min) [92 -45]
-        21hvo.json [200 -40] 
+        S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
+        21hfq.json (3 min) [119 -68]
         21grd.json [129 -11] 
+        21ddh.json [130 -1]
+        415.A.b.json [130 -1]
+        415.B.a.json [134 -1]
+        21dov.json [134 0]
         21hjb.json [134 17] 
         21ibo.json [136 8]
         21ghc.json [141 1] 
 
-        (do not change order of YSE and SN fields - these SN are same pointing but different filters/exptime for YSE/DEBASS)
+21:00 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+21:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-19:40 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
-  
-20:10 eFEDS.json (30 min) [129, 1] 
-
-20:40 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
-
-21:10 21hjc.json [141 -24]
+22:00 21hjc.json [141 -24]
       21ill.json [140 -31]
       21fna.json [154 -23] 
       21hvq.json [165 -34]
       21gwn.json [162 -29] 
       (15 min)
 
-21:25 21hup.json [178 -6]
+22:15 21hup.json [178 -6]
       21ipf.json [174 -7]
       21gkb.json [164 -14]
       21ipk.json [184 -14]
       21drc.json [172 21]
       (20 min)
 
-21:45 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)
 
 ** VIRGO Block ** 
-22:15 525.A.a [186 15]
+23:05 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -83,59 +85,63 @@ BACKUP/FILLER fields are listed at bottom
       525.D.b [185 12]
       (40 min)
 
-22:55 531.A.a
-      531.B.a
-      531.C.a
-      531.D.a
-      531.E.a
-      531.F.a
-      (20 min)
-
-23:15 21igt.json [191 21]
+23:45 21igt.json [191 21]
+      577.A.21inl_21dch [195 28] ### CHECK YOUR POINTING ACCURACY - TRYING TO GET 2 SNe ON SILICON AT SAME TIME!
       21gyh.json [196, -3]
       21fxy.json [198 -20]      
       21foh.json [200 -17] (10 min)
+      21hvo.json [200 -40] 
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-23:25 desidot_grz_1.json
-23:47 desidot_grz_2.json
-00:32 desidot_grz_3.json
+00:00 desidot_grz_1.json
+      desidot_grz_2.json
+      desidot_grz_3.json
+      desidot_grz_4.json
+      desidot_g.json 
 
 ** INTERRUPT DESI BLOCK TO GET SNE
 01:25  21ihz.json [228 25]
-      21dnl.json [221 0]
-      21gqc.json [226 -10]
-      21fof.json [212 -8]
-      21hwk.json [214 -7]
+       21dnl.json [221 0]
+       21gqc.json [226 -10]
+       21fof.json [212 -8]
+       21hwk.json [214 -7] (20 min block)
 
-** RESUME DESI BLOCK
-01:45 desidot_grz_4.json
-02:35 desidot_g.json (40 min)
+** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
 
-03:15 ALEX DW SCRIPT 03 [237 -1] (30 min) SEEING i-band zenith < 1.2 ONLY. 
-SUBSTITUTE WITH 428.A.a, 428.B.a, 428.C.a, 428.D.a, 428.E.a, 428.F.a, 583A.a, 583.B.a if necessary.
+# you should be done wit DESI + SNe around 03:55
 
-04:45 ALEX DW SCRIPT 04 [225 -10] (30 min)
-SUBSTITUTE WITH 583.C.a, 583.D.a, 583.E.a, 583.F.a,  632.A.a, 632.B.a, 632.C.a, 21gez.json, 632.D.a if necessary.
+03:55  583.A.a
+       583.B.a
+       583.C.a
+       583.E.a
+       583.F.a
 
-04:15 ALEX DW SCRIPT 05 (8 min)
-SUBSTITUTE WITH 632.E.a, 632.F.a if necessary
+04:10  531.A.a
+       531.B.a
+       531.C.a
+       531.D.a
+       531.E.a
+       531.F.a
+
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
+
 04:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+
 04:55 DECaPSEast-DDF-B (same as above, but no extra setup)
+
 ### Reset guider exposure time to 600ms
 
-05:20 [FILL 20 MIN HERE]
+05:20 
 
 05:40 CAN START EARLIER Astronomical Twilight
       21fqb.json [228 5]
       21gwa.json [236 7]
       21inj.json [241 3]
-      21hem.json [245 15], 
-      21gez.json [246 21] ### IF YOU GOT THIS AS A BACKUP FOR ALEX DW THEN SKIP HERE
-      632.C.a.json [246, 21] ### IF YOU GOT THIS AS A BACKUP FOR ALEX DW THEN SKIP HERE
+      21hem.json [245 15] 
+      21gez.json [246 21] 
+      632.C.a.json [246, 21] 
       21hji.json [252 22]
       21ipb.json [241 14]
       21ify.json [262 13]

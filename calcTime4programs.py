@@ -32,11 +32,13 @@ class calcTimeclass(pdastroclass):
         self.warnings = []
         
         self.t = pd.DataFrame(columns=['blockID','assigned_program','program','UTfirst','UTlast','dt_block_h','dt_prevgap_sec','dt_nextgap_sec','dt_gaps_sec','dt_block_full_h','twi','dt_charged_h'])
-        self.nightsummary = pdastroclass(columns=['assigned_program','t_dark','t_twi','t_downtime'])
+        self.nightsummary = pdastroclass(columns=['assigned_program','t_dark','t_twi1','t_twi2','t_twi3','t_down'])
         #self.nightsummary.t = pd.DataFrame(columns=['assigned_program','t_dark','t_twi','t_downtime'])
-        self.nightsummary.default_formatters= {'t_dark':'{:.4f}'.format,
-                                               't_twi':'{:.4f}'.format,
-                                               't_downtime':'{:.4f}'.format
+        self.nightsummary.default_formatters = {'t_dark':'{:.4f}'.format,
+                                                't_twi1':'{:.4f}'.format,
+                                               't_twi2':'{:.4f}'.format,
+                                               't_twi3':'{:.4f}'.format,
+                                               't_down':'{:.4f}'.format
                                                }
         
         self.semestersummary = semester_summary_class()
@@ -550,7 +552,7 @@ class calcTimeclass(pdastroclass):
             ixs_dark = self.ix_equal('twi',0,indices=ixs)
             ixs_twi1  = self.ix_inrange('twi',1,1,indices=ixs)
             ixs_twi2  = self.ix_inrange('twi',2,2,indices=ixs)
-            ixs_twi3  = self.ix_inrange('twi',3,None,indices=ixs)
+            ixs_twi3  = self.ix_inrange('twi',3,3,indices=ixs)
             ixs_downtime  = self.ix_inrange('program','DOWNTIME0','DOWNTIME9999',indices=ixs)
             
             t_dark = self.t.loc[ixs_dark,'dt_charged_h'].sum()
@@ -566,11 +568,21 @@ class calcTimeclass(pdastroclass):
                                  't_down':t_downtime,
                                  })
         self.nightsummary.default_formatters['assigned_program']=self.programcol_formatter
-        self.nightsummary.write()
+        ixs_all = self.nightsummary.getindices()
         
-        t_dark_tot = self.nightsummary.t['t_dark'].sum()
-        t_dark_theo = (self.twi[18][1]-self.twi[18][0]).to_value('sec')/3600.0
-        print('Total dark time assigned : %.4f hours,\nTotal dark time available: %.4f hours\nDifference(available-assigned)=%.1f seconds' % (t_dark_tot,t_dark_theo,(t_dark_theo-t_dark_tot)*3600.0))
+    
+        ix_used = self.nightsummary.newrow({'assigned_program':'total time used (hr)'})
+        ix_available = self.nightsummary.newrow({'assigned_program':'total time avail. (hr)'})
+        for timecol in ['t_dark','t_twi1','t_twi2','t_twi3','t_down']:
+            ix_notnull = self.nightsummary.ix_remove_null(timecol,indices=ixs_all)
+            self.nightsummary.t.loc[ix_used,timecol]=self.nightsummary.t.loc[ix_notnull,timecol].sum()
+        
+        self.nightsummary.t.loc[ix_available,'t_dark']=(self.twi[18][1]-self.twi[18][0]).to_value('sec')/3600.0
+        self.nightsummary.t.loc[ix_available,'t_twi1']=((self.twi[18][0]-self.twi[15][0]).to_value('sec') + (self.twi[15][1]-self.twi[18][1]).to_value('sec'))/3600.0
+        self.nightsummary.t.loc[ix_available,'t_twi2']=((self.twi[15][0]-self.twi[12][0]).to_value('sec') + (self.twi[12][1]-self.twi[15][1]).to_value('sec'))/3600.0
+
+        self.nightsummary.write()
+        print('Total dark time assigned : %.4f hours,\nTotal dark time available: %.4f hours\nDifference(available-assigned)=%.1f seconds' % (self.nightsummary.t.loc[ix_used,'t_dark'],self.nightsummary.t.loc[ix_available,'t_dark'],(self.nightsummary.t.loc[ix_available,'t_dark']-self.nightsummary.t.loc[ix_used,'t_dark'])*3600.0))
         
     def savetables(self,basename=None):
         if basename is not None:
@@ -615,13 +627,14 @@ class calcTimeclass(pdastroclass):
                 raise RuntimeError('Semester summary filename is not specified for writing!')
             filename = self.semester_summaryfile
         print('Saving',filename)
-        self.semestersummary.write(filename,overwrite=True)
+        self.semestersummary.t['date']=self.semestersummary.t['date'].astype('int')
+        ixs = self.semestersummary.ix_sort_by_cols(['date'])
+        self.semestersummary.write(filename, indices=ixs, overwrite=True)
         return(0)
             
             
     def add2semestersummary(self,semester_summaryfile=None):
         self.semester_summaryfile = self.semestersummary.get_semester_summary_filename(semester_summaryfile)
-        print('BBB',semester_summaryfile,self.semester_summaryfile)
         self.load_semestersummary(self.semester_summaryfile)
         
         # get the date for the semester summary entry
@@ -638,7 +651,7 @@ class calcTimeclass(pdastroclass):
             
         # save it!
         self.write_semestersummary(semester_summaryfile)
-    
+            
 
 if __name__ == "__main__":
     calcTime = calcTimeclass()
@@ -667,6 +680,8 @@ if __name__ == "__main__":
     calcTime.savetables(basename=args.save)
     if args.add2semestersummary:
         calcTime.add2semestersummary(args.semester_summaryfile)
+        calcTime.semestersummary.summarystatistics()
+        calcTime.semestersummary.showtables()
     
     if len(calcTime.warnings)>0:
         print('THERE WERE WARNINGS!!!')

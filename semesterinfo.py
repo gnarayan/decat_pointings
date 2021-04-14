@@ -22,15 +22,22 @@ class semesterinfoclass:
         
         if semester=='2021A':
             # main programs and assigned night hours
+            # YSE to Eta Car: 0.1468+0.6389+1.4861+0.1333+0.6472+1.6667 = 4.71 hours
+            # Shen to YSE: 0.6389+0.6472-0.5 = 0.7861 hours
+            # DEBASS to YSE: 0.1468+0.1333+0.0535+0.1039+0.0785+0.0344+0.2104+0.1771=0.9379 hours
+            YSE2EtaCar = 4.71
+            Shen2YSE = 0.7861
+            DEBASS2YSE = 0.9379
+
             self.programlist = {
-                'Shen':7.2+8.233+1.33,
+                'Shen':7.2+8.233+1.33 -  Shen2YSE,
                 'Martini':1.867,
                 'eFEDS':8.75,
-                'YSE':70.0,
-                'DEBASS':29.0,
+                'YSE':70.0 - YSE2EtaCar + Shen2YSE + DEBASS2YSE,
+                'DEBASS':29.0 - DEBASS2YSE,
                 'DDF':58.0,
                 'DESI':97.0,
-                'EtaCar':17.0
+                'EtaCar':17.0 + YSE2EtaCar
 
 #                '2019A-0065_Shen':7.2+8.233+1.33,
 #                '2019B-0304_Martini':1.867,
@@ -48,7 +55,7 @@ class semesterinfoclass:
                 'Shen':     ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
                 'Martini':   ['E1','E3'],
                 'eFEDS':     ['^eFEDS'],
-                'YSE':       ['^\d\d\d\.\w+\.[abcde]'],
+                'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$'],
                 'DEBASS':    ['^2021\w+'],
                 'DDF':       ['^COSMOS','^DECaPS.*'],
                 'DESI':      ['^TILEID\:\s+\d+'], 
@@ -80,7 +87,7 @@ class semesterinfoclass:
                 '20210318':1,
                 '20210321':1,
                 '20210323':1,
-                '20210324':1,
+#                '20210324':1,
                 '20210327':1,
                 '20210330':1,
                 '20210402':1,

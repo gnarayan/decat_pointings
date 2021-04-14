@@ -100,6 +100,15 @@ print('-'*25)
 cnt = 0
 for k,v in obsdict.items():
     if k in ignore: continue
+
+    if c.ccdmap.get(k, None) is None:
+        if not m['SNID'].str.contains(k).any():
+            continue
+        else:
+            ind = m['SNID'].str.contains(k)
+            fixccd = m['candCCD'].values[ind][0]
+            c.ccdmap[k] = fixccd
+
     if k in rysedict.keys():
         print('SNID',k,'YSE_Field',rysedict[k],'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
         outtxt.write(' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'CCD',str(c.ccdmap[k]),'\n']))

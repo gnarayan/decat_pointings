@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 snids = list(c.ccdmap.keys())
-m = pd.read_csv('yse/fieldmaps.txt',delim_whitespace=True)
+m = pd.read_csv('yse/fieldmaps.txt',delim_whitespace=True, comment='#')
 snids.extend(list(m['SNID'].to_numpy()))
 
 ignoref = open('debass/ignore.list','r').readlines()

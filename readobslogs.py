@@ -5,13 +5,13 @@ import numpy as np
 import os
 
 snids = list(c.ccdmap.keys())
-m = pd.read_csv('fieldmaps.txt',delim_whitespace=True)
+m = pd.read_csv('yse/fieldmaps.txt',delim_whitespace=True, comment='#')
 snids.extend(list(m['SNID'].to_numpy()))
 
-ignoref = open('ignore.list','r').readlines()
+ignoref = open('debass/ignore.list','r').readlines()
 ignore = [i.strip() for i in ignoref]
 
-outtxt = open('debass_sne.txt','w')
+outtxt = open('debass/debass_sne.txt','w')
 
 os.system('rm obslogs/*~')
 os.system('rm 2021A/*/*~')
@@ -29,7 +29,7 @@ for row in m.iterrows():
     rysedict[str(row[1]['SNID'])] = str(row[1]['YSEID'])
 
 
-    
+
 dfs = []
 for f in glob('2021A/*/*nv'):
     datestr = f.split('/')[-1].split('.')[0]
@@ -100,6 +100,15 @@ print('-'*25)
 cnt = 0
 for k,v in obsdict.items():
     if k in ignore: continue
+
+    if c.ccdmap.get(k, None) is None:
+        if not m['SNID'].str.contains(k).any():
+            continue
+        else:
+            ind = m['SNID'].str.contains(k)
+            fixccd = m['candCCD'].values[ind][0]
+            c.ccdmap[k] = fixccd
+
     if k in rysedict.keys():
         print('SNID',k,'YSE_Field',rysedict[k],'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
         outtxt.write(' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'CCD',str(c.ccdmap[k]),'\n']))
@@ -133,9 +142,9 @@ for k,v in obsdict.items():
     allexps.extend(v['expnums'])
 allexps = np.unique(allexps)
 
-fout = open('debass_allexpnums.txt','w')
+fout = open('debass/debass_allexpnums.txt','w')
 for exp in allexps:
     fout.write(str(exp)+'\n')
 fout.close()
 
-    
+

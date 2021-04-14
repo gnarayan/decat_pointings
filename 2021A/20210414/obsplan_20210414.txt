@@ -34,10 +34,10 @@ Can start standards around 19:15
 
 19:06   Twilight - Start Promptly
         C26202 [55 -27] (3 min) 
-        257.B.a [82 -21] (5 min)
-        Trades/2021A-0149_DEROSITAS_Zenteno/20210408_Alfredo_43minutes_can_start_at_-14.json.json (43 min)
-        021clw.json (1.5 min) [88 -51]
+        21jad.json [82 -21] (5 min)
+        21clw.json (1.5 min) [88 -51]
         21gmk.json (2.5 min) [92 -45]
+        Trades/2021A-0149_DEROSITAS_Zenteno/20210408_Alfredo_43minutes_can_start_at_-14.json.json (43 min)
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         21hfq.json (3 min) [119 -68]
         21grd.json [129 -11] 
@@ -52,18 +52,19 @@ Can start standards around 19:15
 21:00 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 21:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-22:00 21hjc.json [141 -24]
+22:00 21iov.json [142 -7]
+      21hjc.json [141 -24]
       21ill.json [140 -31]
       21fna.json [154 -23] 
       21hvq.json [165 -34]
       21gwn.json [162 -29] 
+      21jap.json [164 -9]
       (15 min)
 
 22:15 21hup.json [178 -6]
       21ipf.json [174 -7]
       21gkb.json [164 -14]
       21ipk.json [184 -14]
-      21drc.json [172 21]
       (20 min)
 
 22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
@@ -101,7 +102,6 @@ Can start standards around 19:15
 
 ** INTERRUPT DESI BLOCK TO GET SNE
 01:25  21ihz.json [228 25]
-       21dnl.json [221 0]
        21gqc.json [226 -10]
        21fof.json [212 -8]
        21hwk.json [214 -7] (20 min block)

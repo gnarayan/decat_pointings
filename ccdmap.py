@@ -83,4 +83,6 @@ ccdmap = {
     '2021jad':36,#CEPHEID CALIBRATOR
     '2021ixi':11,
     '2021iov':34,
+    '2021iuk':43,
+    '2021jap':6,
 }

@@ -35,7 +35,7 @@ Can start standards around 19:15
 19:06   Twilight - Start Promptly
         C26202 [55 -27] (3 min) 
         257.B.a [82 -21] (5 min)
-        Trades/2021A-0149_DEROSITAS_Zenteno/20210405.json (42 min)
+        Trades/2021A-0149_DEROSITAS_Zenteno/20210408_Alfredo_43minutes_can_start_at_-14.json.json (43 min)
         021clw.json (1.5 min) [88 -51]
         21gmk.json (2.5 min) [92 -45]
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]

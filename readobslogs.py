@@ -34,11 +34,13 @@ dfs = []
 for f in glob('2021A/*/*nv'):
     datestr = f.split('/')[-1].split('.')[0]
     date = datestr[:4]+'-'+datestr[4:6]+'-'+datestr[6:8]
+    datestrf = int(datestr)
     expnums = []
     objects = []
     filts = []
     ras = []
     decs = []
+    datestrfs = []
     teffs = []
     print(f)
     for l in open(f,'r').readlines():
@@ -57,7 +59,8 @@ for f in glob('2021A/*/*nv'):
         decs.append(float(l.split()[2]))
         #tdf = pd.read_csv(f,names=['expnum','ra','dec','ut','filt','exp','secz','type','object'],delim_whitespace=True,comment='#')
     dates = [date for e in range(len(expnums))]
-    tdf = pd.DataFrame.from_dict({'expnum':expnums,'object':objects,'date':dates,'filt':filts,'ra':ras,'dec':decs,'teff':teffs})
+    datestrfs = [datestrf for e in range(len(expnums))]
+    tdf = pd.DataFrame.from_dict({'expnum':expnums,'object':objects,'date':dates,'filt':filts,'ra':ras,'dec':decs,'teff':teffs,'datestrf':datestrfs})
     dfs.append(tdf)
 
 obsdict = {}
@@ -69,36 +72,47 @@ for row in df.iterrows():
         ra = r['ra']
         dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'teffs':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
         #print(snid,r['date'])
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
         obsdict[snid]['teffs'].append(r['teff'])
+        obsdict[snid]['datestrfs'].append(r['datestrf'])
     elif str(r['object']) in ysedict.keys():
         snid = ysedict[r['object']]
         ra = r['ra']
         dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'teffs':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
         obsdict[snid]['teffs'].append(r['teff'])
+        obsdict[snid]['datestrfs'].append(r['datestrf'])
     elif str(r['object']) in ysedict2.keys():
         snid = ysedict2[r['object']]
         ra = r['ra']
         dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'teffs':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
         obsdict[snid]['teffs'].append(r['teff'])
+        obsdict[snid]['datestrfs'].append(r['datestrf'])
 
 print('-'*25)
 cnt = 0
-for k,v in obsdict.items():
+keys = obsdict.keys()
+values = obsdict.values()
+datestrfs = [min(v['datestrfs']) for v in values]
+print(np.array(list(keys)))
+print(datestrfs)
+ss = np.argsort(datestrfs)
+for k in np.array(list(keys))[ss]:
+    #for k,v in zip(keys[ss],values[ss]):
+    v = obsdict[k]
     if k in ignore: continue
 
     if c.ccdmap.get(k, None) is None:

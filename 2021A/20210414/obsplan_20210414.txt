@@ -132,7 +132,14 @@ Can start standards around 19:15
 
 ### Reset guider exposure time to 600ms
 
-05:20 
+05:20 Extra slop time to catch up
+      If you do not need to catch up do as many of:
+      632.A.a
+      632.B.a
+      632.D.a
+      632.E.a
+      632.F.a
+      as possible before switching to 21fqb at 05:40
 
 05:40 CAN START EARLIER Astronomical Twilight
       21fqb.json [228 5]

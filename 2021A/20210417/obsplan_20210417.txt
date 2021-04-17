@@ -46,7 +46,10 @@ Can start standards around 19:10
         21ibo.json [136 8]
         21ghc.json [141 1] 
 
-21:00 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+20:30 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+
+21:00 eFEDS.json (30 min) [129, 1] 
+
 21:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
 22:00 21iov.json [142 -7]

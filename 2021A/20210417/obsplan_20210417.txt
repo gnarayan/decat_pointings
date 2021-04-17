@@ -39,7 +39,6 @@ Can start standards around 19:10
         21gmk.json (2.5 min) [92 -45]
         S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
         21hfq.json (3 min) [119 -68]
-        21grd.json [129 -11] 
         415.A.b.json [130 -1]
         415.B.a.json [134 -1]
         21hjb.json [134 17] 
@@ -51,17 +50,16 @@ Can start standards around 19:10
 21:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
 22:00 21iov.json [142 -7]
-      21hjc.json [141 -24]
       21ill.json [140 -31]
       21fna.json [154 -23] 
       21gwn.json [162 -29] 
       21jap.json [164 -9]
-      (15 min)
+      (12 min)
 
 22:15 21hup.json [178 -6]
       21ipf.json [174 -7]
       21gkb.json [164 -14]
-      21ipk.json [184 -14]
+      21ipk.json [184 -14] *** MAYBE, IDK YET...
       (10 min)
 
 22:25 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
@@ -105,7 +103,7 @@ Can start standards around 19:10
        21gqc.json [226 -10]
        21fof.json [212 -8]
        21hwk.json [214 -7] 
-       (15 min)
+       (10 min)
 
 ** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
 
@@ -162,7 +160,7 @@ Can start standards around 19:10
       21ify.json [262 13]
       21juw.json [296 -20]
       21jvf.json [311 -20]
-      21jva.json [318 -22]
+      21jva.json [318 -22] 
       SDSSJ1442-0005, any other standards you like
 
 

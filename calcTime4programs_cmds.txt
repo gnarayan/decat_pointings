@@ -1,3 +1,70 @@
-calcTime4programs.py 2021A/20210330/20210330.qcInv -vs 
-calcTime4programs.py 2021A/20210327/20210327.qcInv -vs -r 2019A-0305_Drlica_TRADE 2021A-0275_YSE 
-calcTime4programs.py 2021A/20210323/20210323.qcInv -vs -r 2021A-0010_Rector_TRADE 2021A-0275_YSE -r UNKNOWN1 2021A-0275_YSE
+
+
+calcTime4programs.py 20210411 -vvs -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210408 -vvs  -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210405 -vvs -a
+calcTime4programs.py 20210402 -vvs -a
+calcTime4programs.py 20210330 -vvs -a
+calcTime4programs.py 20210327 -vvs -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210323 -vvs -r Rector_TRADE YSE -r UNKNOWN1 YSE -a
+is UNKNOWN Drlica?
+calcTime4programs.py 20210321 -vvs -r Rector_TRADE YSE -a
+
+calcTime4programs.py 20210318 -vvs -r Miller_TRADE YSE -r STANDARDS1 DEBASS --downtime 974998 DDF 1.1hours DESI 3.51hours YSE 1320sec DEBASS 870sec -a
+30 min still missing to assign.
+
+calcTime4programs.py test1.qcinv -r 2021A-0010_Rector_TRADE 2021A-0275_YSE -r UNKNOWN1 2021A-0275_YSE -vv --downtime 976549 2020B-0053_DEBASS 90sec 2021A-0275_YSE rest --downtime 976582 2021A-0113_DDF 5min
+
+
+calcTime4programs.py 20210323 -vvs -r 2021A-0010_Rector_TRADE 2021A-0275_YSE -r UNKNOWN1 2021A-0275_YSE
+
+calcTime4programs.py  2021A/20210323/test1.qcinv -r 2021A-0010_Rector_TRADE 2021A-0275_YSE -r UNKNOWN1 2021A-0275_YSE -vv --downtime 976549 2020B-0053_DEBASS 90sec 2021A-0275_YSE rest --downtime 976582 2021A-0113_DDF 5min 
+
+
+Trades:
+calcTime4programs.py 20210219 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1468    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ Shen                     0.6389    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      1.4861    NaN         NaN 0.0000 0.0000 0.1106 0.0000
+YSE pays 15 min = 0.25h of Shen
+
+calcTime4programs.py 20210223 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1333    NaN         NaN 0.0000 0.0000 0.0535 0.0000
+ Shen                     0.6472    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      1.6667    NaN         NaN 0.0000 0.2917 0.1632 0.0525
+YSE pays 15 min = 0.25h of Shen
+
+#calcTime4programs.py 20210226 -vvs
+#calcTime4programs.py 20210228 -vvs
+
+
+calcTime4programs.py 20210304 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1039    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      0.2937    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+
+calcTime4programs.py 20210307 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ YSE                      0.2236    NaN         NaN 0.0000 0.0000 0.2132 0.0000
+
+
+calcTime4programs.py 20210309 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.0785    NaN         NaN 0.0000 0.0344 0.0000 0.0000
+ YSE                      0.8188    NaN         NaN 0.0000 0.0667 0.0000 0.0000
+
+calcTime4programs.py 20210313 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.2104    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      0.8674    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+
+calcTime4programs.py 20210316 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1771    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      0.8590    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+
+YSE to Eta Car: 0.1468+0.6389+1.4861+0.1333+0.6472+1.6667 = 4.71 hours
+Shen to YSE: 0.6389+0.6472-0.5 = 0.7861 hours
+DEBASS to YSE: 0.1468+0.1333+0.0535+0.1039+0.0785+0.0344+0.2104+0.1771=0.9379 hours

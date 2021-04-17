@@ -127,7 +127,7 @@ Can start standards around 19:10
        531.F.a
 
 04:25 21fqb.json [228 5]
-      428.F.?  [232 0] ***<<< WHAT SHOULD THIS BE PLEASE CONFIRM?
+      428.F.a    [232 0] 
       21jkd.json [232 0]
       21jwl.json [233 5]
 

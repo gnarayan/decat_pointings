@@ -153,8 +153,13 @@ Can start standards around 19:10 or earlier if telops allows
       544.F.a
       (15 min)
 
-05:15  DAVE - ADD ONE YSE FIELD SET HERE
-
+05:15 440.A.a [314 -4]
+      440.B.a
+      440.C.a
+      440.D.a
+      440.E.a
+      440.F.a
+      (15 min)
 
 05:30 # DILLON - can add a few targets to twilight here 
 

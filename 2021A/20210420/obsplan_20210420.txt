@@ -35,12 +35,12 @@ Can start standards around 19:10 or earlier if telops allows
         C26202 [55 -27] (3 min) 
         21jad.json [82 -21] (5 min)
         21gmk.json (2.5 min) [92 -45] (4 min)
-        S-CVZ (8 min + 3 min setup + extra 2 min dome, S-CVZ.json ) [90 -67]
+        S-CVZ (8 min + 3 min setup, S-CVZ.json ) [90 -67]
         21hfq.json (3 min) [119 -68] (5 min)
         21hjc.json [141 -25] (3 min) 
         21ghc.json [141 1] (3 min) 
+        21jys.json [135 10] (3 min)
         21jtk.json [151 14] (4 min)
-        # DILLON -  should be time for at least 1-2 more twilight SNe if we start around 19:10
 
 20:00 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
@@ -48,7 +48,9 @@ Can start standards around 19:10 or earlier if telops allows
 
 21:00 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-21:30 21iov.json [142 -7]
+21:30 418.A [154 -3]
+      21jze.json [154 -3]
+      21iov.json [142 -7]
       21hjc.json [141 -24]
       21ill.json [140 -31]
       21fna.json [154 -23] 
@@ -103,6 +105,7 @@ Can start standards around 19:10 or earlier if telops allows
 01:30  21gqc.json [226 -10]
        21fof.json [212 -8]
        21hwk.json [214 -7] 
+       21jvs.json [224 6]
        21ihz.json [228 25]
        (20 min block)
 

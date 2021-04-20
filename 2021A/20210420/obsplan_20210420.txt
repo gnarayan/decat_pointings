@@ -86,8 +86,9 @@ Can start standards around 19:10 or earlier if telops allows
 
 23:15 21igt.json [191 21]
       577.A.21inl_21dch [195 28] ### CHECK YOUR POINTING ACCURACY - TRYING TO GET 2 SNe ON SILICON AT SAME TIME!
-      21gyh.json [196, -3]
-      423.C.a.json [196, -3] ### ALSO TWO SNE IN THE SAME JSON
+      21gyh.json [196 -3]
+      423.C.a.json [196 -3] ### ALSO TWO SNE IN THE SAME JSON
+      423.B.a.json [192 -1]
       21fxy.json [198 -20]      
       423.E.a.21fxy.json [198 -20]
       21foh.json [200 -17] 
@@ -95,7 +96,7 @@ Can start standards around 19:10 or earlier if telops allows
       (25 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-23:40 desidot_grz_1.json
+23:45 desidot_grz_1.json
       desidot_grz_2.json
       desidot_grz_3.json
       desidot_grz_4.json

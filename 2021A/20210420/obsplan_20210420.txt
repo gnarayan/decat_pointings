@@ -119,9 +119,9 @@ Can start standards around 19:10 or earlier if telops allows
 ** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
 # you should be done with DESI + SNe + 632 around 03:50
 
-03:50  583.A.a [240 20]  ### DAVE/GAUTHAM - ADJUST 583.A.a pointing to get 21hem 
+03:50  583.A.a [245 14] 
        21hem.json 
-       583.B.a
+       583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a

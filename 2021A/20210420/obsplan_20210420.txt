@@ -165,16 +165,23 @@ Can start standards around 19:10 or earlier if telops allows
       (15 min)
 
 05:30 # DILLON - can add a few targets to twilight here 
-
-# ten minutes slop - filler targets are
-
-05:40 CAN START EARLIER Astronomical Twilight
+      21ker.json [303 -12]
       21fqb.json [228 5]
       21gwa.json [236 7]
+
+#FILL WITH YSE 474 until morning twilight if havent already gotten there.
+
+05:45 Astronomical Twilight - Can Start Early
       21inj.json [241 3]
+      21hem.json [245 15] 
+      21gez.json [246 21] 
+      632.C.a.json [246, 21] 
       21hji.json [252 22]
       21ipb.json [241 14]
       21ify.json [262 13]
+      21juw.json [296 -20]
+      21jvf.json [311 -20]
+      21jva.json [318 -22] 
       SDSSJ1442-0005, any other standards you like
 
 

@@ -106,6 +106,7 @@ Can start standards around 19:10 or earlier if telops allows
 01:30  21gqc.json [226 -10]
        21fof.json [212 -8]
        21hwk.json [214 -7] 
+       477.D.a    [219 12]
        21jvs.json [224 6]
        21ihz.json [228 25]
        (20 min block)
@@ -121,9 +122,9 @@ Can start standards around 19:10 or earlier if telops allows
        632.F.a
 
 ** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
-# you should be done with DESI + SNe + 632 around 03:50
+# you should be done with DESI + SNe + 632 around 04:00
 
-03:50  583.A.a [245 14] 
+04:00  583.A.a [245 14] 
        21hem.json 
        583.B.a [240 20]
        583.C.a
@@ -132,7 +133,7 @@ Can start standards around 19:10 or earlier if telops allows
        21gez.json
        (20 min)
 
-04:10  531.A.a [230 10]
+04:20  531.A.a [230 10]
        531.B.a
        531.C.a
        531.D.a
@@ -143,13 +144,13 @@ Can start standards around 19:10 or earlier if telops allows
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
 
-04:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:45 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:55 DECaPSEast-DDF-B (same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
-05:00 544.A.a ## DAVE - need pointings for 544
+05:10 544.A.a ## DAVE - need pointings for 544
       544.B.a
       544.C.a
       544.D.a
@@ -157,7 +158,7 @@ Can start standards around 19:10 or earlier if telops allows
       544.F.a
       (15 min)
 
-05:15 440.A.a [314 -4]
+05:25 440.A.a [314 -4]
       440.B.a
       440.C.a
       440.D.a
@@ -165,12 +166,12 @@ Can start standards around 19:10 or earlier if telops allows
       440.F.a
       (15 min)
 
-05:30 # DILLON - can add a few targets to twilight here 
+05:40 # DILLON - can add a few targets to twilight here 
       21ker.json [303 -12]
       21fqb.json [228 5]
       21gwa.json [236 7]
 
-#FILL WITH YSE 474 until morning twilight if havent already gotten there.
+# FILL WITH YSE 474 until morning twilight if havent already gotten there.
 
 05:45 Astronomical Twilight - Can Start Early
       21inj.json [241 3]

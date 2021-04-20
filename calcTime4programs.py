@@ -399,6 +399,7 @@ class calcTimeclass(pdastroclass):
                 foundflag=False
                 for fieldpattern in self.fieldpattern2program:
                     m = self.fieldpattern2program[fieldpattern]['compiled']
+                    #print('ccc',self.qcinv.t.loc[ix,'Object'])
                     if m.search(self.qcinv.t.loc[ix,'Object']):
                         program = self.fieldpattern2program[fieldpattern]['program']
                         if self.verbose>2: print('FOUND! pattern %s matches %s, program %s' % (fieldpattern,self.qcinv.t.loc[ix,'Object'],program))

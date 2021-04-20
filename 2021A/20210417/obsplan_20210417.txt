@@ -46,7 +46,10 @@ Can start standards around 19:10
         21ibo.json [136 8]
         21ghc.json [141 1] 
 
-21:00 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+20:30 COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+
+21:00 eFEDS.json (30 min) [129, 1] 
+
 21:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
 22:00 21iov.json [142 -7]
@@ -115,31 +118,30 @@ Can start standards around 19:10
        583.E.a
        583.F.a
 
-04:10  531.A.a
+04:10  21jvs.json [224 7]
+       531.A.a
        531.B.a
        531.C.a
        531.D.a
        531.E.a
        531.F.a
 
-05:20 ***<<< ADD YSE FIELD FOR 21jvs here??????
-      21jvs.json [224 7]
-      21fqb.json [228 5]
-      428.F.?  [232 0] ***<<< WHAT SHOULD THIS BE PLEASE CONFIRM?
+04:25 21fqb.json [228 5]
+      428.F.a    [232 0] 
       21jkd.json [232 0]
       21jwl.json [233 5]
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
 
-04:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:55 DECaPSEast-DDF-B (same as above, but no extra setup)
+05:00 DECaPSEast-DDF-B (same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
 
-05:20 Extra slop time to catch up
+05:25 Extra slop time to catch up
       If you do not need to catch up do as many of:
       632.A.a
       632.B.a

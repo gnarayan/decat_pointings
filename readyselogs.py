@@ -77,7 +77,7 @@ def main():
     ysefieldfile = np.array(ysefieldfiles)[np.argsort(fielddates)][::-1][0]
 
     data = at.Table.read(ysefieldfile,format='ascii')
-
+    fieldids = np.loadtxt('fields.txt',unpack=True,usecols=[0],dtype=str)
 
     ysedict = {}
     mjddict = {}
@@ -93,13 +93,22 @@ def main():
                 else:
                     ysedict[y] = [f"{qc['date'][0]}: {','.join(qc['filt'][qc['object'] == y])}"]
                     mjddict[y] = [date_to_mjd(qc['date'][0])]
+        for y in fieldids:
+            if y in qc['object'].values:
+                if y in ysedict.keys():
+                    ysedict[y] += [f"{qc['date'][0]}: {','.join(qc['filt'][qc['object'] == y])}"]
+                    mjddict[y] += [date_to_mjd(qc['date'][0])]
+                else:
+                    ysedict[y] = [f"{qc['date'][0]}: {','.join(qc['filt'][qc['object'] == y])}"]
+                    mjddict[y] = [date_to_mjd(qc['date'][0])]
                     
     #now lets get the time since first obs
     datedict = {}
     
     for y in ysedict.keys():
         print('')
-        print(f"{y} {data['SNID'][data['ID'] == y][0]}")
+        try: print(f"{y} {data['SNID'][data['ID'] == y][0]}")
+        except: print(f"{y} None")
         print(f"time since first obs: {date_to_mjd(datetime.datetime.utcnow())-np.min(mjddict[y]):.0f} days")
         print(f"drop date: {mjd_to_date(np.min(mjddict[y])+40).split('T')[0]}")
         print(f"days until drop: {(np.min(mjddict[y])+40)-date_to_mjd(datetime.datetime.utcnow()):.0f}")

@@ -26,6 +26,7 @@ Times below are LOCAL TIME IN CHILE
 BACKUP/FILLER fields are listed at bottom
 
 FOR STANDARDS GET ugriz!!
+
 Can start standards around 19:10 or earlier if telops allows
 
 ---------------------------- PLAN BEGINS -------------------------------
@@ -36,7 +37,7 @@ Can start standards around 19:10 or earlier if telops allows
         C26202 [55 -27] (3 min) 
         21jad.json [82 -21] (4 min)
         S-CVZ (8 min + 3 min setup, S-CVZ.json ) [90 -67]
-        21hfq.json (3 min) [119 -68] (5 min)
+        21hfq.json [119 -68] (5 min)
         21hjc.json [141 -25] (3 min) 
         21ghc.json [141 1] (3 min) 
         21ibo.json [136 8] (3 min)
@@ -55,32 +56,21 @@ Can start standards around 19:10 or earlier if telops allows
 
 22:00 418.A [154 -3]
       21jap.json [164 -9]
-      (3 min)
+      (5 min)
 
 22:05 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)
 
-** VIRGO Block ** 
-22:35 525.A.a [186 15]
-      525.A.b [189 15] 
-      525.E.b [189 12]
-      525.E.a [186 12] 
-      525.F.b [188 7] 
-      525.F.a [185 6]
-      21iuk_21hiz.json [186 7] # TWO SNE IN THE SAME JSON
-      525.B.b [187 10] 
-      525.C.a [185 10]
-      525.B.a [189 10]
-      525.C.b [192 12]
-      525.D.a [183 12]
-      525.D.b [185 12]
+22:35 
+
+
       (40 min)
 
-23:15 577.A.21inl_21dch [195 28] ### CHECK YOUR POINTING ACCURACY - TRYING TO GET 2 SNe ON SILICON AT SAME TIME!
-      423.C.a.json [196 -3] ### ALSO TWO SNE IN THE SAME JSON
-      423.B.a.json [192 -1]
+23:15 577.A.21inl_21dch.json [195 28] ### CHECK YOUR POINTING ACCURACY - TRYING TO GET 2 SNe ON SILICON AT SAME TIME!
       423.E.a.21fxy.json [198 -20]
-      (14 min)
+      (10 min)
+
+23:25
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
 23:30 desidot_grz_1.json
@@ -91,8 +81,10 @@ Can start standards around 19:10 or earlier if telops allows
 
 ** INTERRUPT DESI BLOCK TO GET SNE
 01:30  477.D.a    [219 12]
+       477.E.a
+       477.F.a
        21jvs.json [224 6]
-       (6 min block)
+       (10 min block)
 
 ** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
 
@@ -104,18 +96,19 @@ Can start standards around 19:10 or earlier if telops allows
        632.E.a
        632.F.a
        2021gez.json [245 20]
+       (24 min)
 
 ** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
-# you should be done with DESI + SNe + 632 around 04:00
+# you should be done with DESI + SNe + 632 around 03:35
 
-04:00  583.A.a [245 14] 
+03:35  583.A.a [245 14] 
        583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a
        (20 min)
 
-04:20  21fqb.json [228 5]
+03:55  21fqb.json [228 5]
        21jkd.json [232 0]
        531.A.a [230 10]
        531.B.a
@@ -127,6 +120,10 @@ Can start standards around 19:10 or earlier if telops allows
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
+04:10
+
+(25 min block)
+
 
 04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
@@ -134,7 +131,7 @@ Can start standards around 19:10 or earlier if telops allows
 
 ### Reset guider exposure time to 600ms
 
-05:10 544.A.a ## DAVE - need pointings for 544
+05:10 544.A.a [320 9]
       544.B.a
       544.C.a
       544.D.a
@@ -149,8 +146,6 @@ Can start standards around 19:10 or earlier if telops allows
       440.E.a
       440.F.a
       (15 min)
-
-THERE IS PROBABLY A LOT OF SLOP IN THIS PLAN. TOOK OUT A BUNCH OF DEBASS POINTINGS
 
 05:45 START AFTER SUN ANGLE -18 - Astronomical Twilight
       21inj.json [241 3]

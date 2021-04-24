@@ -96,19 +96,19 @@ Can start standards around 19:10 or earlier if telops allows
        632.E.a
        632.F.a
        2021gez.json [245 20]
-       (24 min)
+       (20 min)
 
 ** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
-# you should be done with DESI + SNe + 632 around 03:35
+# you should be done with DESI + SNe + 632 around 03:30
 
-03:35  583.A.a [245 14] 
+03:30  583.A.a [245 14] 
        583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a
-       (20 min)
+       (15 min)
 
-03:55  21fqb.json [228 5]
+03:45  21fqb.json [228 5]
        21jkd.json [232 0]
        531.A.a [230 10]
        531.B.a
@@ -116,13 +116,21 @@ Can start standards around 19:10 or earlier if telops allows
        531.D.a
        531.E.a
        531.F.a
-       (15 min)
+       (20 min)
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
-04:10
+04:05 428.A.a [230 -3]
+      428.B.a 
+      428.C.a
+      428.D.a
+      428.E.a
+      428.F.a
+      (15 min)
 
-(25 min block)
+(15 min block)
+
+04:20 
 
 
 04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
@@ -147,8 +155,7 @@ Can start standards around 19:10 or earlier if telops allows
       440.F.a
       (15 min)
 
-05:45 START AFTER SUN ANGLE -18 - Astronomical Twilight
-      21inj.json [241 3]
+05:40 21inj.json [241 3]
       21hem.json [245 15] 
       21hji.json [252 22]
       21ipb.json [241 14]

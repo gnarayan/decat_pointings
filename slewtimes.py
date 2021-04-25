@@ -19,18 +19,24 @@ def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
         df.sort_values(by=['rra', 'dec'],inplace=True)
         df = df.reset_index(drop=True)
     totaltime = 0.
+    lastid=''
     for i,row in df.iterrows():
-        print(row['ids'])
+        #print(row['ids'])
+
         if i==0:
             slewtime = 0
         else:
             #print(row['ra'],row['dec'])
+            if row['ids'] != lastid:
+                print('%s\t\t%.5f\t%.5f'%(row['ids'],row['ra'],row['dec']))
+                lastid=row['ids']
             slewtime = slewtime_from_two_coords(row['ra'],row['dec'],df['ra'][i-1],df['dec'][i-1])
         totaltime += row['exptime']+slewtime+readout
+        
     return totaltime
         
 def get_ras_decs_exptimes_from_json(json):
-    ids, ras,decs,exptimes = [],[],[],[]
+    ids,fns, ras,decs,exptimes = [],[],[],[],[]
     with open(json) as json_file: 
         pointings = pyjson.load(json_file)
         lastra = np.nan
@@ -53,11 +59,12 @@ def get_ras_decs_exptimes_from_json(json):
             ids.append(pointing['object'])
             ras.append(float(ra))
             decs.append(float(dec))
+            fns.append(json.split('/')[-1].split('.')[0])
             lastra = ra
             lastdec = dec
             expname = np.array(list(pointing.keys()))[np.array([k.lower() == 'exptime' for k in pointing.keys()])][0]
             exptimes.append(float(pointing[expname]))
-    return ids,ras,decs,exptimes
+    return fns,ras,decs,exptimes
 
 def time_for_single_json(json):
     #json: filename
@@ -69,13 +76,14 @@ def total_time_from_jsons(jsons,sort=True):
     #jsons: list of filenames
     ids, ras,decs,exptimes = [],[],[],[]
     for json in jsons:
-        print(json)
+        #print(json)
         tids, tras,tdecs,texptimes = get_ras_decs_exptimes_from_json(json)
         ids.extend(tids)
         ras.extend(tras)
         decs.extend(tdecs)
         exptimes.extend(texptimes)
         #print(np.sum(texptimes)/60)
+        print(tids[0],tras[0],tdecs[0])
     totaltime =	time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=sort)
     return totaltime
         

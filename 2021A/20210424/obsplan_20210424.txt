@@ -1,0 +1,170 @@
+April 24, 2021
+Times are local (UTC) for CTIO
+
+mjd 59329, date 20210424, Site CTIO, UT-offset 4 hr
+Current local time 01:56 -04     UT 05:56     SidTim 15:26
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     18:21 -04  22:21 UT   07:50  118 deg  
+Eve. -10   18:56 -04  22:56 UT   08:26  126 deg  Zeropoint; standards
+Eve. -14   19:15 -04  23:15 UT   08:44  131 deg  Begin obstac
+Eve. -18   19:33 -04  23:33 UT   09:03  136 deg  Last chance standards
+Midpoint   00:41 -04  04:41 UT   14:11  213 deg  
+Moonset    05:13 -04  09:13 UT   18:43  281 deg  
+Morn -18   05:49 -04  09:49 UT   19:18  290 deg  Begin astronomical twilight
+Morn -14   06:06 -04  10:06 UT   19:36  294 deg  End obstac; begin standards
+Morn -10   06:26 -04  10:26 UT   19:56  299 deg  
+Sunrise    07:02 -04  11:02 UT   20:31  308 deg  
+Moon position (deg): RA 188.6, Dec 1.7 Phase: 0.857
+
+
+Time between eve and morning twilight (14 deg):  646 minutes
+Time between sunset and sunrise: 755 minutes
+
+Times below are LOCAL TIME IN CHILE
+[] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
+
+BACKUP/FILLER fields are listed at bottom
+
+FOR STANDARDS GET ugriz!!
+
+Can start standards around 19:10 or earlier if telops allows
+
+---------------------------- PLAN BEGINS -------------------------------
+
+18:21 Sunset - Setup
+
+18:56   Twilight - Start Promptly
+        C26202 [55 -27] (3 min) 
+        21jad.json [82 -21] (4 min)
+        S-CVZ (8 min + 3 min setup, S-CVZ.json ) [90 -67]
+        21hfq.json [119 -68] (5 min)
+        21hjc.json [141 -25] (3 min) 
+        21ghc.json [141 1] (3 min) 
+        21ibo.json [136 8] (3 min)
+        21jys.json [135 10] (3 min)
+        21hjb.json [133 16] (3 min)
+        21jtk.json [151 14] (4 min)
+
+20:00 # CAN START AS EARLY AS -18 sun angle
+      COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
+
+20:30 eFEDS.json (30 min) [129, 1] 
+
+21:00 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+
+21:30 etale.ri.30min.json [160, -60]
+
+22:00 418.A [154 -3]
+      21jap.json [164 -9]
+      (5 min)
+
+22:05 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+      (want ~1h between COSMOS pointings for short timescale variability)
+
+22:35 
+
+
+      (40 min)
+
+23:15 577.A.21inl_21dch.json [195 28] ### CHECK YOUR POINTING ACCURACY - TRYING TO GET 2 SNe ON SILICON AT SAME TIME!
+      423.E.a.21fxy.json [198 -20]
+      (10 min)
+
+23:25
+
+** DESI Block (3h:30m total with setup) ** [220, 1] 
+23:30 desidot_grz_1.json
+      desidot_grz_2.json
+      desidot_grz_3.json
+      desidot_grz_4.json
+      desidot_g.json 
+
+** INTERRUPT DESI BLOCK TO GET SNE
+01:30  477.D.a    [219 12]
+       477.E.a
+       477.F.a
+       21jvs.json [224 6]
+       (10 min block)
+
+** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
+
+** INTERRUPT DESI BLOCK TO GET SNE
+02:40  632.A.a  [241 25]
+       632.B.a
+       632.C.a
+       632.D.a
+       632.E.a
+       632.F.a
+       2021gez.json [245 20]
+       (20 min)
+
+** RESUME DESI BLOCK WHEREVER YOU LEFT OFF
+# you should be done with DESI + SNe + 632 around 03:30
+
+03:30  583.A.a [245 14] 
+       583.B.a [240 20]
+       583.C.a
+       583.E_1.a
+       583.F.a
+       (15 min)
+
+03:45  21fqb.json [228 5]
+       21jkd.json [232 0]
+       531.A.a [230 10]
+       531.B.a
+       531.C.a
+       531.D.a
+       531.E.a
+       531.F.a
+       (20 min)
+
+### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
+### ONLY ADJUST for DECaPS - not earlier!!!
+04:05 428.A.a [230 -3]
+      428.B.a 
+      428.C.a
+      428.D.a
+      428.E.a
+      428.F.a
+      (15 min)
+
+(15 min block)
+
+04:20 
+
+
+04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+
+04:55 DECaPSEast-DDF-B (same as above, but no extra setup)
+
+### Reset guider exposure time to 600ms
+
+05:10 544.A.a [320 9]
+      544.B.a
+      544.C.a
+      544.D.a
+      544.E.a
+      544.F.a
+      (15 min)
+
+05:25 440.A.a [314 -4]
+      440.B.a
+      440.C.a
+      440.D.a
+      440.E.a
+      440.F.a
+      (15 min)
+
+05:40 21inj.json [241 3]
+      21hem.json [245 15] 
+      21hji.json [252 22]
+      21ipb.json [241 14]
+      21ify.json [262 13]
+      21juw.json [296 -20]
+      21ker.json [303 -12]
+      21jva.json [318 -22] 
+      SDSSJ1442-0005, any other standards you like
+
+
+---------------------------- PLAN ENDS -------------------------------
+

@@ -1,15 +1,15 @@
 [
 	{
 		"count": 1,
-		"filter": "g",
+		"filter": "r",
 		"exptime": 50.0,
-		"RA": 245.855700,
-		"dec": 14.812740,
+		"RA": 236.409580,
+		"dec": 17.393600,
 		"object": "583.A.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "583.A.a 21hem",
+		"comment": "583.A.a",
 		"wait": "False",
 		"propid": "2021A-0275"
 	},
@@ -17,13 +17,13 @@
 		"count": 1,
 		"filter": "i",
 		"exptime": 50.0,
-		"RA": 245.855700,
-		"dec": 14.812740,
+		"RA": 236.409580,
+		"dec": 17.393600,
 		"object": "583.A.a",
 		"program": "",
 		"expType": "object",
 		"note": "None",
-		"comment": "583.A.a 21hem",
+		"comment": "583.A.a",
 		"wait": "False",
 		"propid": "2021A-0275"
 	}

@@ -16,7 +16,6 @@ Morn -10   06:26 -04  10:26 UT   19:56  299 deg
 Sunrise    07:02 -04  11:02 UT   20:31  308 deg  
 Moon position (deg): RA 188.6, Dec 1.7 Phase: 0.857
 
-
 Time between eve and morning twilight (14 deg):  646 minutes
 Time between sunset and sunrise: 755 minutes
 
@@ -35,15 +34,15 @@ Can start standards around 19:10 or earlier if telops allows
 
 18:56   Twilight - Start Promptly
         C26202 [55 -27] (3 min) 
-        21jad.json [82 -21] (4 min)
-        S-CVZ (8 min + 3 min setup, S-CVZ.json ) [90 -67]
+        21jad.json [82 -21]  (4 min)
+        S-CVZ.json [90 -67]  (8 min + 3 min setup)
         21hfq.json [119 -68] (5 min)
         21hjc.json [141 -25] (3 min) 
-        21ghc.json [141 1] (3 min) 
-        21ibo.json [136 8] (3 min)
-        21jys.json [135 10] (3 min)
-        21hjb.json [133 16] (3 min)
-        21jtk.json [151 14] (4 min)
+        21ghc.json [141 1]   (3 min) 
+        21ibo.json [136 8]   (3 min)
+        21jys.json [135 10]  (3 min)
+        21hjb.json [133 16]  (3 min)
+        21jtk.json [151 14]  (4 min)
 
 20:00 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
@@ -52,25 +51,24 @@ Can start standards around 19:10 or earlier if telops allows
 
 21:00 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-21:30 etale.ri.30min.json [160, -60]
+21:30 etale.ri.30min.json [160 -60]
 
-22:00 418.A [154 -3]
+### ETA CAR REVIST - DO AS MUCH AS YOU CAN UNTIL 22:45 LOCAL TIME
+### LET GAUTHAM AND ARMIN KNOW WHICH FIELD YOU STOPPED AT 
+### (we can get from qcinv as well, but good to have redundant ways to keep track of this)
+22:00 etale.i.all.bestslew.json [160 -60]
+      (45 min)
+
+22:45 418.A [154 -3]
       21jap.json [164 -9]
       (5 min)
 
-22:05 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:50 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)
 
-22:35 
-
-
-      (40 min)
-
-23:15 577.A.21inl_21dch.json [195 28] ### CHECK YOUR POINTING ACCURACY - TRYING TO GET 2 SNe ON SILICON AT SAME TIME!
+23:20 577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
       423.E.a.21fxy.json [198 -20]
       (10 min)
-
-23:25
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
 23:30 desidot_grz_1.json
@@ -80,7 +78,7 @@ Can start standards around 19:10 or earlier if telops allows
       desidot_g.json 
 
 ** INTERRUPT DESI BLOCK TO GET SNE
-01:30  477.D.a    [219 12]
+01:30  477.D.a [219 12]
        477.E.a
        477.F.a
        21jvs.json [224 6]
@@ -120,7 +118,16 @@ Can start standards around 19:10 or earlier if telops allows
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
-04:05 428.A.a [230 -3]
+
+04:05 376.2020esm.a
+      376.B.a
+      376.C.a
+      376.D.a
+      376.E.a
+      376.F.a
+      (15 min)
+
+04:20 428.A.a [230 -3]
       428.B.a 
       428.C.a
       428.D.a
@@ -128,12 +135,8 @@ Can start standards around 19:10 or earlier if telops allows
       428.F.a
       (15 min)
 
-(15 min block)
-
-04:20 
-
-
-04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+--> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
 04:55 DECaPSEast-DDF-B (same as above, but no extra setup)
 

@@ -158,6 +158,7 @@ Can start standards around 19:10 or earlier if telops allows
       21juw.json [296 -20]
       21ker.json [303 -12]
       21jva.json [318 -22] 
+      2021kmz.json [346 -7]
 
 E12.json 
 

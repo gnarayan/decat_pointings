@@ -97,8 +97,11 @@ Can start standards around 19:10 or earlier if telops allows
       desidot_r_G12.json
       desidot_riz_VVDS.json
       desidot_r_VVDS.json
-      desidot_riz_G15.json
-      desidot_r_G15.json
+
+      # BEFORE STARTING G15 MAKE SURE YOU INFORM ALFREDO
+      # He is going to scale exposure times on the fly
+      desidot_iz_G15.json
+      desidot_iz_G15.json (not a typo - repeat again)
 
 # interrupt DESI block to do 477
 
@@ -189,6 +192,25 @@ Can start standards around 19:10 or earlier if telops allows
 ---------------------------- PLAN ENDS -------------------------------
 
 Backup/Filler
+These are in Trades/ - execute if you have a gap - the RA range is indicated
+ 'delve-z-20210426/delve_z_ra240_dec-10_t1.json' '28'
+ 'delve-z-20210426/delve_z_ra240_dec-15_t1.json' '28'
+ 'delve-z-20210426/delve_z_ra240_dec-20_t1.json' '28'
+ 'delve-z-20210426/delve_z_ra255_dec-10_t1.json' '22'
+ 'delve-z-20210426/delve_z_ra255_dec-15_t1.json' '19'
+ 'delve-z-20210426/delve_z_ra255_dec-20_t1.json' '11'
+ 'delve-z-20210426/delve_z_ra280_dec-20_t1.json' '18'
+ 'delve-z-20210426/delve_z_ra280_dec-25_t1.json' '21'
+ 'delve-z-20210426/delve_z_ra280_dec-30_t1.json' '25'
+ 'delve-z-20210426/delve_z_ra295_dec-20_t1.json' '28'
+ 'delve-z-20210426/delve_z_ra295_dec-25_t1.json' '26'
+ 'delve-z-20210426/delve_z_ra295_dec-30_t1.json' '27'
+ 'delve-z-20210426/delve_z_ra310_dec-20_t1.json' '27'
+ 'delve-z-20210426/delve_z_ra310_dec-25_t1.json' '29'
+ 'delve-z-20210426/delve_z_ra310_dec-30_t1.json' '25'
+ 'delve-z-20210426/delve_z_ra325_dec-20_t1.json' '28'
+ 'delve-z-20210426/delve_z_ra325_dec-25_t1.json' '28'
+ 'delve-z-20210426/delve_z_ra325_dec-30_t1.json' '27'
 
 494.A.a [331 6]
 494.B.a

@@ -40,5 +40,19 @@
 		"comment": "2021hfq_P1",
 		"wait": "False",
 		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 15.0,
+		"RA": 119.115110,
+		"dec": -67.827590,
+		"object": "2021hfq_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021hfq_P1",
+		"wait": "False",
+		"propid": "2020B-0053"
 	}
 ]

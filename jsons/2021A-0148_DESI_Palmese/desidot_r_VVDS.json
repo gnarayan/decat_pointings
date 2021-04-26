@@ -1,0 +1,58 @@
+[
+    {
+        "object": "TILEID: 33042",
+        "expTime": 70,
+        "RA": 208.46900000000005,
+        "dec": 6.104,
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    },
+    {
+        "object": "TILEID: 33023",
+        "expTime": 70,
+        "RA": 210.164,
+        "dec": 6.147,
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    },
+    {
+        "object": "TILEID: 33024",
+        "expTime": 70,
+        "RA": 210.95600000000002,
+        "dec": 4.598,
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    },
+    {
+        "object": "TILEID: 33043",
+        "expTime": 70,
+        "RA": 209.27199999999993,
+        "dec": 4.566,
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    }
+]

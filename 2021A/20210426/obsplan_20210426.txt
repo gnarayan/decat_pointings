@@ -88,7 +88,13 @@ Can start standards around 19:10 or earlier if telops allows
 
 # DESI Block
 23:30 desidot_riz_G12.json 
+      desidot_r_G12.json
+      desidot_riz_VVDS.json
+      desidot_r_VVDS.json
+      desidot_riz_G15.json
+      desidot_r_G15.json
 
+# interrupt DESI block to do 477
 
 01:30  477.D.a [219 12]
        477.E.a
@@ -96,8 +102,10 @@ Can start standards around 19:10 or earlier if telops allows
        21jvs.json [224 6]
        (10 min block)
 
-01:40
+# resume DESI block wherever you left off
 
+
+# interrupt DESI block to do 632
 02:40  632.A.a  [241 25]
        632.B.a
        632.C.a
@@ -106,9 +114,11 @@ Can start standards around 19:10 or earlier if telops allows
        632.F.a
        2021gez.json [245 20]
        (20 min)
+# resume DESI block wherever you left off
 
+# DESI Block + 477 + 632 should end around 03:00
 03:00
-
+    (30 min block)
 
 03:30  583.A.a [245 14] 
        583.B.a [240 20]
@@ -127,24 +137,17 @@ Can start standards around 19:10 or earlier if telops allows
        531.F.a
        (20 min)
 
-
-04:05 
-      (15 min)
-
-04:20 
-      (15 min)
-
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
 
-04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+04:05 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:55 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:30 DECaPSEast-DDF-B (same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
-05:10 544.A.a [320 9]
+04:50 544.A.a [320 9]
       544.B.a
       544.C.a
       544.D.a
@@ -152,7 +155,7 @@ Can start standards around 19:10 or earlier if telops allows
       544.F.a
       (15 min)
 
-05:25 440.A.a [314 -4]
+05:05 440.A.a [314 -4]
       440.B.a
       440.C.a
       440.D.a
@@ -160,18 +163,16 @@ Can start standards around 19:10 or earlier if telops allows
       440.F.a
       (15 min)
 
+05:20 E12.json 
+
 05:40 21inj.json [241 3]
       21hem.json [245 15] 
       21hji.json [252 22]
       21ipb.json [241 14]
       21ify.json [262 13]
       21juw.json [296 -20]
-      21ker.json [303 -12]
       21jva.json [318 -22] 
-      2021kjw.json [334 -13]
       2021kmz.json [346 -7]
-
-E12.json 
 
 
 ---------------------------- PLAN ENDS -------------------------------

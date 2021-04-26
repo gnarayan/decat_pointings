@@ -80,6 +80,11 @@ Can start standards around 19:10 or earlier if telops allows
 
 # DESI Block
 23:30 desidot_riz_G12.json 
+      desidot_r_G12.json
+      desidot_riz_VVDS.json
+      desidot_r_VVDS.json
+      desidot_riz_G15.json
+      desidot_r_G15.json
 
 
 01:30  477.D.a [219 12]
@@ -88,7 +93,6 @@ Can start standards around 19:10 or earlier if telops allows
        21jvs.json [224 6]
        (10 min block)
 
-01:40
 
 02:40  632.A.a  [241 25]
        632.B.a
@@ -99,8 +103,10 @@ Can start standards around 19:10 or earlier if telops allows
        2021gez.json [245 20]
        (20 min)
 
-03:00
+# DESI Block + 477 + 632 should end around 03:00
 
+03:00 
+    (30 min block)
 
 03:30  583.A.a [245 14] 
        583.B.a [240 20]

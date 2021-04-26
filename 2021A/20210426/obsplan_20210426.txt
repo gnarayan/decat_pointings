@@ -37,6 +37,7 @@ Can start standards around 19:10 or earlier if telops allows
         S-CVZ.json [90 -67]  (8 min + 3 min setup)
         21hfq.json [119 -68] (5 min)
         21hjc.json [141 -25] (3 min) 
+        21iov.json [142 -7] (2 min)
         21ghc.json [141 1]   (3 min) 
         21ibo.json [136 8]   (3 min)
         21jys.json [135 10]  (3 min)

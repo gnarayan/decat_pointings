@@ -47,21 +47,27 @@ Can start standards around 19:10 or earlier if telops allows
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
 20:30 DEBASS FILLERS
-      21ghc.json [141 1]   (3 min) 
-      21grd.json 
-      21gwn.json
-      21hup.json
-      21ibo.json
-      21ipf.json 
-      21jap.json 
-      21jze.json
-      GO UNTIL 21:00 AND THEN SKIP TO COSMOS
+      21grd.json [129 -12]
+      21ibo.json [136 8]
+      21ghc.json [141 1]   
+      21jze.json [155 -4]
+      21gwn.json [162 -29]
+      21jap.json [164 -9]
+      21ipf.json [175 -7]
+      21hup.json [179 -7]
+      GO UNTIL 21:00 AND THEN SKIP TO COSMOS. IF YOU SKIPPED SOME AT END OF TWILIGHT, CAN GRAB THOSE TOO IF TIME...
       
 21:00 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-21:30 etale.iz.30min.json [160 -60]
+21:30 474.A.a
+      474.B_1.a
+      474.C.a
+      474.D.a
+      474.E.a
+      474.F.a
+      (20 min)
 
-22:00 525.A.a [186 15]
+21:50 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -76,18 +82,18 @@ Can start standards around 19:10 or earlier if telops allows
       525.D.b [185 12]
       (45 min)
 
-22:45 418.A [154 -3]
+22:35 418.A [154 -3]
       (3 min)
 
-22:50 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:40 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)
 
-23:20 577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+23:10 577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
       423.E.a.21fxy.json [198 -20]
       (10 min)
 
 # DESI Block
-23:30 desidot_riz_G12.json 
+23:20 desidot_riz_G12.json 
       desidot_r_G12.json
       desidot_riz_VVDS.json
       desidot_r_VVDS.json
@@ -100,10 +106,13 @@ Can start standards around 19:10 or earlier if telops allows
        477.E.a
        477.F.a
        21jvs.json [224 6]
-       (10 min block)
+       21fof.json [221 -9]
+       21foh.json [200 -16]
+       21jwl.json [234 5]
+       (20 min block)
+
 
 # resume DESI block wherever you left off
-
 
 # interrupt DESI block to do 632
 02:40  632.A.a  [241 25]
@@ -117,8 +126,9 @@ Can start standards around 19:10 or earlier if telops allows
 # resume DESI block wherever you left off
 
 # DESI Block + 477 + 632 should end around 03:00
-03:00
-    (30 min block)
+
+03:10
+    (20 min block)
 
 03:30  583.A.a [245 14] 
        583.B.a [240 20]
@@ -164,8 +174,9 @@ Can start standards around 19:10 or earlier if telops allows
       (15 min)
 
 05:20 E12.json 
+      (10 min)
 
-05:40 21inj.json [241 3]
+05:30 21inj.json [241 3]
       21hem.json [245 15] 
       21hji.json [252 22]
       21ipb.json [241 14]
@@ -177,7 +188,7 @@ Can start standards around 19:10 or earlier if telops allows
 
 ---------------------------- PLAN ENDS -------------------------------
 
-Backup/Fillter
+Backup/Filler
 
 494.A.a [331 6]
 494.B.a

@@ -33,22 +33,30 @@ Can start standards around 19:10 or earlier if telops allows
 
 18:54   Twilight - Start Promptly
         C26202 [55 -27] (3 min) 
-        21jad.json [82 -21]  (4 min)
+        21jad.json [82 -21]  (5 min)
         S-CVZ.json [90 -67]  (8 min + 3 min setup)
         21hfq.json [119 -68] (5 min)
+        21ill.json [139 -31] (3 min)
+        21fna.json [134 -24] (3 min)
         21hjc.json [141 -25] (3 min) 
-        21iov.json [142 -7] (2 min)
-        21ghc.json [141 1]   (3 min) 
-        21ibo.json [136 8]   (3 min)
+        21iov.json [142 -7]  (2 min)
         21jys.json [135 10]  (3 min)
         21hjb.json [133 16]  (3 min)
-        21jtk.json [151 14]  (4 min)
 
 20:00 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
-20:30 
-
+20:30 DEBASS FILLERS
+      21ghc.json [141 1]   (3 min) 
+      21grd.json 
+      21gwn.json
+      21hup.json
+      21ibo.json
+      21ipf.json 
+      21jap.json 
+      21jze.json
+      GO UNTIL 21:00 AND THEN SKIP TO COSMOS
+      
 21:00 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
 21:30 etale.iz.30min.json [160 -60]
@@ -80,11 +88,6 @@ Can start standards around 19:10 or earlier if telops allows
 
 # DESI Block
 23:30 desidot_riz_G12.json 
-      desidot_r_G12.json
-      desidot_riz_VVDS.json
-      desidot_r_VVDS.json
-      desidot_riz_G15.json
-      desidot_r_G15.json
 
 
 01:30  477.D.a [219 12]
@@ -93,6 +96,7 @@ Can start standards around 19:10 or earlier if telops allows
        21jvs.json [224 6]
        (10 min block)
 
+01:40
 
 02:40  632.A.a  [241 25]
        632.B.a
@@ -103,10 +107,8 @@ Can start standards around 19:10 or earlier if telops allows
        2021gez.json [245 20]
        (20 min)
 
-# DESI Block + 477 + 632 should end around 03:00
+03:00
 
-03:00 
-    (30 min block)
 
 03:30  583.A.a [245 14] 
        583.B.a [240 20]

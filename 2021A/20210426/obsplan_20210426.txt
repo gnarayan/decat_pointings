@@ -78,7 +78,9 @@ Can start standards around 19:10 or earlier if telops allows
       423.E.a.21fxy.json [198 -20]
       (10 min)
 
-23:30
+# DESI Block
+23:30 desidot_riz_G12.json 
+
 
 01:30  477.D.a [219 12]
        477.E.a

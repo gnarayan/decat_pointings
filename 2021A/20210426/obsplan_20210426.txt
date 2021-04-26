@@ -69,8 +69,7 @@ Can start standards around 19:10 or earlier if telops allows
       (45 min)
 
 22:45 418.A [154 -3]
-      21jap.json [164 -9]
-      (5 min)
+      (3 min)
 
 22:50 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)

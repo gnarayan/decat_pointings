@@ -5,13 +5,13 @@ import numpy as np
 import os
 
 snids = list(c.ccdmap.keys())
-m = pd.read_csv('fieldmaps.txt',delim_whitespace=True)
+m = pd.read_csv('yse/fieldmaps.txt',delim_whitespace=True, comment='#')
 snids.extend(list(m['SNID'].to_numpy()))
 
-ignoref = open('ignore.list','r').readlines()
+ignoref = open('debass/ignore.list','r').readlines()
 ignore = [i.strip() for i in ignoref]
 
-outtxt = open('debass_sne.txt','w')
+outtxt = open('debass/debass_sne.txt','w')
 
 os.system('rm obslogs/*~')
 os.system('rm 2021A/*/*~')
@@ -29,16 +29,18 @@ for row in m.iterrows():
     rysedict[str(row[1]['SNID'])] = str(row[1]['YSEID'])
 
 
-    
+
 dfs = []
 for f in glob('2021A/*/*nv'):
     datestr = f.split('/')[-1].split('.')[0]
     date = datestr[:4]+'-'+datestr[4:6]+'-'+datestr[6:8]
+    datestrf = int(datestr)
     expnums = []
     objects = []
     filts = []
     ras = []
     decs = []
+    datestrfs = []
     teffs = []
     print(f)
     for l in open(f,'r').readlines():
@@ -57,7 +59,8 @@ for f in glob('2021A/*/*nv'):
         decs.append(float(l.split()[2]))
         #tdf = pd.read_csv(f,names=['expnum','ra','dec','ut','filt','exp','secz','type','object'],delim_whitespace=True,comment='#')
     dates = [date for e in range(len(expnums))]
-    tdf = pd.DataFrame.from_dict({'expnum':expnums,'object':objects,'date':dates,'filt':filts,'ra':ras,'dec':decs,'teff':teffs})
+    datestrfs = [datestrf for e in range(len(expnums))]
+    tdf = pd.DataFrame.from_dict({'expnum':expnums,'object':objects,'date':dates,'filt':filts,'ra':ras,'dec':decs,'teff':teffs,'datestrf':datestrfs})
     dfs.append(tdf)
 
 obsdict = {}
@@ -69,37 +72,57 @@ for row in df.iterrows():
         ra = r['ra']
         dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'teffs':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
         #print(snid,r['date'])
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
         obsdict[snid]['teffs'].append(r['teff'])
+        obsdict[snid]['datestrfs'].append(r['datestrf'])
     elif str(r['object']) in ysedict.keys():
         snid = ysedict[r['object']]
         ra = r['ra']
         dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'teffs':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
         obsdict[snid]['teffs'].append(r['teff'])
+        obsdict[snid]['datestrfs'].append(r['datestrf'])
     elif str(r['object']) in ysedict2.keys():
         snid = ysedict2[r['object']]
         ra = r['ra']
         dec = r['dec']
         if not snid in obsdict.keys():
-            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'teffs':[]}
+            obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
         obsdict[snid]['dates'].append(r['date'])
         obsdict[snid]['expnums'].append(r['expnum'])
         obsdict[snid]['filts'].append(r['filt'])
         obsdict[snid]['teffs'].append(r['teff'])
+        obsdict[snid]['datestrfs'].append(r['datestrf'])
 
 print('-'*25)
 cnt = 0
-for k,v in obsdict.items():
+keys = obsdict.keys()
+values = obsdict.values()
+datestrfs = [min(v['datestrfs']) for v in values]
+print(np.array(list(keys)))
+print(datestrfs)
+ss = np.argsort(datestrfs)
+for k in np.array(list(keys))[ss]:
+    #for k,v in zip(keys[ss],values[ss]):
+    v = obsdict[k]
     if k in ignore: continue
+
+    if c.ccdmap.get(k, None) is None:
+        if not m['SNID'].str.contains(k).any():
+            continue
+        else:
+            ind = m['SNID'].str.contains(k)
+            fixccd = m['candCCD'].values[ind][0]
+            c.ccdmap[k] = fixccd
+
     if k in rysedict.keys():
         print('SNID',k,'YSE_Field',rysedict[k],'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
         outtxt.write(' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'CCD',str(c.ccdmap[k]),'\n']))
@@ -133,9 +156,9 @@ for k,v in obsdict.items():
     allexps.extend(v['expnums'])
 allexps = np.unique(allexps)
 
-fout = open('debass_allexpnums.txt','w')
+fout = open('debass/debass_allexpnums.txt','w')
 for exp in allexps:
     fout.write(str(exp)+'\n')
 fout.close()
 
-    
+

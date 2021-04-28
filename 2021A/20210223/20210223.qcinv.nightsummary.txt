@@ -1,0 +1,8 @@
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1333    NaN         NaN 0.0000 0.0000 0.0535 0.0000
+ EtaCar                   1.6181    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ Shen                     0.6472    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      1.6667    NaN         NaN 0.0000 0.2917 0.1632 0.0525
+ TECHSETUP1               0.0000    NaN         NaN 0.0000 0.0000 0.0000 0.1333
+ UNKNOWN1                 4.1958    NaN         NaN 0.0000 0.2697 0.2167 0.0467
+ UNKNOWN2                 0.0500    NaN         NaN 0.0000 0.0000 0.0000 0.0000

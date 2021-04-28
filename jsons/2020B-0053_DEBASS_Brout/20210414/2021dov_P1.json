@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 25.0,
+		"RA": 133.742090,
+		"dec": 0.345990,
+		"object": "2021dov_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021dov_P1",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 25.0,
+		"RA": 133.742090,
+		"dec": 0.345990,
+		"object": "2021dov_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021dov_P1",
+		"wait": "False",
+		"propid": "2020B-0053"
+	}
+]

@@ -97,7 +97,6 @@ Can start standards around 19:10 or earlier if telops allows
 01:00  477.D.a [219 12]
        477.E.a
        477.F.a
-       21jvs.json [224 6]
        21foh.json [200 -16]
        21gqc.json [226 -10]
        (15 min block)
@@ -141,7 +140,8 @@ Can start standards around 19:10 or earlier if telops allows
        583.F.a
        (15 min)
 
-03:40  531.A.a [230 10]
+03:40  21jvs.json [224 6]
+       531.A.a [230 10]
        531.B.a
        531.C.a
        531.D.a

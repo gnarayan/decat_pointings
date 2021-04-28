@@ -39,7 +39,8 @@ Can start standards around 19:10 or earlier if telops allows
 19:10   S-CVZ.json [90 -67]  (12 min)
         21hfq.json [119 -68] 
         21ill.json [139 -31] 
-        21koj.json [125 -13] (2 min) YSE POINTING HERE??????
+        21koj.json [125 -13] 
+        415.A.2021koj.json 
 
 19:30 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  

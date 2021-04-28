@@ -39,7 +39,8 @@ Can start standards around 19:10 or earlier if telops allows
 19:10   S-CVZ.json [90 -67]  (12 min)
         21hfq.json [119 -68] 
         21ill.json [139 -31] 
-        21koj.json [125 -13] (2 min) YSE POINTING HERE??????
+        21koj.json [125 -13] 
+        415.A.2021koj.json 
 
 19:30 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
@@ -85,18 +86,18 @@ Can start standards around 19:10 or earlier if telops allows
       (10 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-22:50 desidot_grz_1.json
-      desidot_grz_2.json
-      desidot_grz_3.json
-      desidot_grz_4.json
-      desidot_g.json 
+22:50 desidot_rz_VVDS.json
+      desidot_grz_short_1.json
+      desidot_grz_short_2.json
+      desidot_grz_short_3.json
+      desidot_grz_short_4.json
+      desidot_g.json
 
 # interrupt DESI block to do 477 + SN + 376
 
 01:00  477.D.a [219 12]
        477.E.a
        477.F.a
-       21jvs.json [224 6]
        21foh.json [200 -16]
        21gqc.json [226 -10]
        (15 min block)
@@ -140,7 +141,8 @@ Can start standards around 19:10 or earlier if telops allows
        583.F.a
        (15 min)
 
-03:40  531.A.a [230 10]
+03:40  21jvs.json [224 6]
+       531.A.a [230 10]
        531.B.a
        531.C.a
        531.D.a
@@ -152,13 +154,12 @@ Can start standards around 19:10 or earlier if telops allows
        21hji.json [252 22]
        (25 min)
 
-### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
-### ONLY ADJUST for DECaPS - not earlier!!!
+# DISABLE GUIDING FOR DECAPS
 
-04:05 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+04:05 DECaPSEast-DDF-A MOON (21 min + 4 min setup, decapseast_ddf_A_MOON.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:30 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:30 DECaPSEast-DDF-B MOON (decapseast_ddf_B_MOON.json, same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 

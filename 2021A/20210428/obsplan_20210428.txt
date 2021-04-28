@@ -1,4 +1,4 @@
-April 26, 2021
+April 28, 2021
 Times are local (UTC) for CTIO
 
 mjd 59333, date 20210428, Site CTIO, UT-offset 4 hr
@@ -82,7 +82,7 @@ Can start standards around 19:10 or earlier if telops allows
 22:40 577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
       423.E.a.21fxy.json [198 -20]
       2021hvo.json [200 -41]
-      (15 min)
+      (10 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
 22:50 desidot_grz_1.json
@@ -91,7 +91,7 @@ Can start standards around 19:10 or earlier if telops allows
       desidot_grz_4.json
       desidot_g.json 
 
-# interrupt DESI block to do 477
+# interrupt DESI block to do 477 + SN + 376
 
 01:00  477.D.a [219 12]
        477.E.a
@@ -99,35 +99,48 @@ Can start standards around 19:10 or earlier if telops allows
        21jvs.json [224 6]
        21foh.json [200 -16]
        21gqc.json [226 -10]
-       21jwl.json [234 5]
-       (20 min block)
+       (15 min block)
 
+       376.2020esm.a [220 -8]
+       376.B.a
+       376.C.a
+       376.D.a
+       376.E.a
+       376.F.a
+       (15 min)
 
 # resume DESI block wherever you left off
 
-# interrupt DESI block to do 632
-02:10  632.A.a  [241 25]
+# interrupt DESI block to do 632 + 428
+02:00  632.A.a  [241 25]
        632.B.a
        632.C.a
        632.D.a
        632.E.a
        632.F.a
        21ihz.json [229 26]
+       21jwl.json [234 5]
        (20 min)
+
+       428.A.a [230 -3]
+       428.B.a 
+       428.C.a
+       428.D.a
+       428.E.a
+       428.F.a
+       (15 min)
 # resume DESI block wherever you left off
-
-# DESI Block + 477 + 632 should end around 02:30
-
-02:30 30 min slop!!!
     
-03:00  583.A.a [245 14] 
+# DESI Block + 477 + 632 + 376 should end around 03:25
+
+03:25  583.A.a [245 14] 
        583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a
        (15 min)
 
-03:15  531.A.a [230 10]
+03:40  531.A.a [230 10]
        531.B.a
        531.C.a
        531.D.a
@@ -137,20 +150,19 @@ Can start standards around 19:10 or earlier if telops allows
        21gwa.json [235 7]
        21jkd.json [232 0]
        21hji.json [252 22]
-
        (25 min)
 
 ### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
 ### ONLY ADJUST for DECaPS - not earlier!!!
 
-03:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+04:05 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:00 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:30 DECaPSEast-DDF-B (same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
-04:25 440.A.a [314 -4]
+04:50 440.A.a [314 -4]
       440.B.a
       440.C.a
       440.D.a
@@ -158,7 +170,7 @@ Can start standards around 19:10 or earlier if telops allows
       440.F.a
       (15 min)
 
-04:40 544.A.a [320 9]
+05:05 544.A.a [320 9]
       544.B.a
       544.C.a
       544.D.a
@@ -166,7 +178,7 @@ Can start standards around 19:10 or earlier if telops allows
       544.F.a
       (15 min)
 
-05:00 40 min Slop!!
+05:20 20 min Slop!!
 
 05:41 START NO EARLIER THAN THIS TIME
       E12.json 

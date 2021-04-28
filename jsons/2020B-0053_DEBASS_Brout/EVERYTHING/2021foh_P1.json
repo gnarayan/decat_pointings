@@ -1,20 +1,6 @@
 [
 	{
 		"count": 1,
-		"filter": "g",
-		"exptime": 15.0,
-		"RA": 200.359210,
-		"dec": -16.848240,
-		"object": "2021foh_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021foh_P1",
-		"wait": "False",
-		"propid": "2020B-0053"
-	},
-	{
-		"count": 1,
 		"filter": "r",
 		"exptime": 15.0,
 		"RA": 200.359210,
@@ -30,20 +16,6 @@
 	{
 		"count": 1,
 		"filter": "i",
-		"exptime": 15.0,
-		"RA": 200.359210,
-		"dec": -16.848240,
-		"object": "2021foh_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021foh_P1",
-		"wait": "False",
-		"propid": "2020B-0053"
-	},
-	{
-		"count": 1,
-		"filter": "z",
 		"exptime": 15.0,
 		"RA": 200.359210,
 		"dec": -16.848240,

@@ -86,11 +86,12 @@ Can start standards around 19:10 or earlier if telops allows
       (10 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-22:50 desidot_grz_1.json
-      desidot_grz_2.json
-      desidot_grz_3.json
-      desidot_grz_4.json
-      desidot_g.json 
+22:50 desidot_rz_VVDS.json
+      desidot_grz_short_1.json
+      desidot_grz_short_2.json
+      desidot_grz_short_3.json
+      desidot_grz_short_4.json
+      desidot_g.json
 
 # interrupt DESI block to do 477 + SN + 376
 
@@ -153,13 +154,12 @@ Can start standards around 19:10 or earlier if telops allows
        21hji.json [252 22]
        (25 min)
 
-### NOTE FOR DECaPS - adjust guider exposure time to 100ms so it doesn't fail
-### ONLY ADJUST for DECaPS - not earlier!!!
+# DISABLE GUIDING FOR DECAPS
 
-04:05 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+04:05 DECaPSEast-DDF-A MOON (21 min + 4 min setup, decapseast_ddf_A_MOON.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:30 DECaPSEast-DDF-B (same as above, but no extra setup)
+04:30 DECaPSEast-DDF-B MOON (decapseast_ddf_B_MOON.json, same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 

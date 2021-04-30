@@ -129,11 +129,11 @@ def run(verbose=True):
         if k in rysedict.keys():
             if verbose: print('SNID',k,'YSE_Field',rysedict[k],'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
             outtxt.write(' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'CCD',str(c.ccdmap[k]),'\n']))
-            returndict[k] = ' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'RA',str(v['ra']),'DEC',str(v['dec']),'\n'])
+            returndict[k] = ' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'RA',str(v['ra']),'DEC',str(v['dec']),'\n\n'])
         else:
             if verbose: print('SNID',k,'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
             outtxt.write(' '.join(['SNID',str(k),'CCD',str(c.ccdmap[k]),'\n']))
-            returndict[k] = ' '.join(['SNID',str(k),'RA',str(v['ra']),'DEC',str(v['dec']),'\n'])
+            returndict[k] = ' '.join(['SNID',str(k),'RA',str(v['ra']),'DEC',str(v['dec']),'\n\n'])
         #cnt += 1
         if len(np.unique(v['dates'])) > 1:
             cnt += 1
@@ -143,7 +143,7 @@ def run(verbose=True):
             if verbose: print(date+':',filts,'Avg Teff %.2f'%np.nanmean(np.array(v['teffs'])[ww]),)
             outstr = date+':'+str(filts)+'\n'
             outtxt.write(outstr)
-            returndict[k] += outstr
+            returndict[k] += date+': ' + str(filts) + ' Avg Teff %.2f'%np.nanmean(np.array(v['teffs'])[ww])+'\n'
 
         outtxt.write('\n')
         if verbose: print()

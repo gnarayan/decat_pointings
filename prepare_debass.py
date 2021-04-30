@@ -8,6 +8,7 @@ from datetime import datetime
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 import matplotlib.pyplot as plt
+import os
 
 def split(word):
     return [char for char in word]
@@ -43,8 +44,12 @@ for i,row in df.iterrows():
     if 'LOST' in row['Following?']:  continue
     if '91' in row['TNS class']:  continue
     if ('ia' in row['TNS class'].lower()) | ('?' in row['TNS class']):
+        os.system('clear')
         print(obsdict[row['snid']])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
         priority = input('Please enter a priority for this object (ie 1 2 3)\n')
-        filters = split(input('Please enter a priority for this object (ie griz)\n'))
+        filters = split(input('Please enter filters for this object (ie griz)\n'))
+        for f in filters:
+            exptime = input(f'Enter Exptime {f} (default 15)\n')
+            if exptime == '': exptime = '15'
         plt.clf()

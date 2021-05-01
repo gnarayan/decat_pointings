@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import readobslogs as ro
 import makeobservabilityplot as mop
 from datetime import datetime
@@ -14,24 +12,9 @@ import editjson as ej
 def split(word):
     return [char for char in word]
 
-scope = ['https://spreadsheets.google.com/feeds',
-         'https://www.googleapis.com/auth/drive']
 
-creds = ServiceAccountCredentials.from_json_keyfile_name('.gclient.json', scope)
-client = gspread.authorize(creds)
+df = pd.read_csv('debass_sample.csv')
 
-sheet = client.open("DEBASS Sample").sheet1
-
-list_of_lists = sheet.get_all_values()
-
-goodcollist = ['snid','Following?','TNS class','RA','DEC']
-colnames = list_of_lists[0]
-dict = {}
-for i,col in enumerate(colnames):
-    if col in goodcollist:
-        dict[col] = sheet.col_values(i+1)[1:]
-
-df = pd.DataFrame.from_dict(dict)
 
 from datetime import datetime
 currdate=datetime.today().strftime('%Y-%m-%d')
@@ -40,7 +23,8 @@ if datestr == '': datestr=currdate
 obsdict = ro.run(verbose=False)
 
 
-skiprows = 60
+#skiprows = 60
+skiprows = 0
 for i,row in df.iterrows():
     if i < skiprows: continue
     if 'FINISHED' in row['Following?']: continue
@@ -52,7 +36,15 @@ for i,row in df.iterrows():
         print(obsdict[row['snid']])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
         priority = input('Please enter a priority for this object (ie 1 2 3)\n')
-        filters = split(input('Please enter filters for this object (ie griz)\n'))
+        if not priority in ['1','2','3']:
+            priority = input('Please enter a valid priority for this object (1 2 3)\n')
+            if not priority in ['1','2','3']:
+                priority = input('Please enter a valid priority for this object (1 2 3)\n')
+        filters = input('Please enter filters for this object (default: griz)\n')
+        if filters == '':
+            filters = ['g','r','i','z']
+        else:
+            filters = split(filters)
         exptimes = []
         for f in filters:
             exptime = input(f'Enter Exptime {f} (default 15)\n')

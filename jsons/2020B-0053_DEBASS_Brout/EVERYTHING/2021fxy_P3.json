@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 5.0,
+        "exptime": 15.0,
         "RA": 198.5923,
         "dec": -19.44426,
         "object": "2021fxy_P3",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 5.0,
+        "exptime": 15.0,
         "RA": 198.5923,
         "dec": -19.44426,
         "object": "2021fxy_P3",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 5.0,
+        "exptime": 15.0,
         "RA": 198.5923,
         "dec": -19.44426,
         "object": "2021fxy_P3",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 5.0,
+        "exptime": 15.0,
         "RA": 198.5923,
         "dec": -19.44426,
         "object": "2021fxy_P3",

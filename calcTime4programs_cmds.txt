@@ -1,5 +1,9 @@
 
 
+./calcTime4programs.py 20210427 -vvs -a
+./calcTime4programs.py 20210424 -vvs -a
+calcTime4programs.py 20210417 -vvs  -a
+calcTime4programs.py 20210414 -vvs -r UNKNOWN1 YSE -a
 calcTime4programs.py 20210411 -vvs -r Drlica_TRADE YSE -a
 calcTime4programs.py 20210408 -vvs  -r Drlica_TRADE YSE -a
 calcTime4programs.py 20210405 -vvs -a

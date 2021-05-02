@@ -52,6 +52,11 @@ class semester_summary_class(pdastroclass):
 #        parser.add_argument('--hours_summaryfile', default=default_hours_summaryfile, help='Specify the filename for the hours summary (default=%(default)s)')
 
         return(parser)
+    
+    def initsummaryttable(self,nights):
+        for night in nights:
+            print(night)
+        
 
     def add2summary(self,nightsummary,date):
         # get the indices of the night summary of the main programs 

@@ -618,8 +618,8 @@ class calcTimeclass(pdastroclass):
             print('Loading',filename)
             self.semestersummary.load_spacesep(filename)
         else:
-            print('WARNING! semester summary file %s does not exist yet!' % filename)
-            return(1)
+            print('semester summary file %s does not exist yet! initializing it...' % filename)
+            self.semestersummary.initsummaryttable(self.semesterinfo.nights)
         return(0)
 
     def write_semestersummary(self,filename=None):

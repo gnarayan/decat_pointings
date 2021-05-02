@@ -53,7 +53,7 @@ class semesterinfoclass:
             # patterns to assign Objects 
             self.program2fieldpattern = {
                 'Shen':     ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
-                'Martini':   ['E1','E3'],
+                'Martini':   ['E1','E3','E2'],
                 'eFEDS':     ['^eFEDS'],
                 'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$'],
                 'DEBASS':    ['^2021\w+'],

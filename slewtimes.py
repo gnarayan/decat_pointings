@@ -28,7 +28,7 @@ def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
         else:
             #print(row['ra'],row['dec'])
             if row['ids'] != lastid:
-                print('%s\t\t%.5f\t%.5f'%(row['ids'],row['ra'],row['dec']))
+                print('%s\t\t%d\t%d'%(row['ids'],row['ra'],row['dec']))
                 lastid=row['ids']
             slewtime = slewtime_from_two_coords(row['ra'],row['dec'],df['ra'][i-1],df['dec'][i-1])
         totaltime += row['exptime']+slewtime+readout
@@ -59,7 +59,7 @@ def get_ras_decs_exptimes_from_json(json):
             ids.append(pointing['object'])
             ras.append(float(ra))
             decs.append(float(dec))
-            fns.append(json.split('/')[-1].split('.')[0])
+            fns.append(json.split('/')[-1].split('.json')[0])
             lastra = ra
             lastdec = dec
             expname = np.array(list(pointing.keys()))[np.array([k.lower() == 'exptime' for k in pointing.keys()])][0]
@@ -83,7 +83,7 @@ def total_time_from_jsons(jsons,sort=True):
         decs.extend(tdecs)
         exptimes.extend(texptimes)
         #print(np.sum(texptimes)/60)
-        print(tids[0],tras[0],tdecs[0])
+        #print(tids[0],tras[0],tdecs[0])
     totaltime =	time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=sort)
     return totaltime
         

@@ -153,14 +153,19 @@ class decat_download(object):
             ref_file = outdir+os.path.basename(row['archive_filename'])
             url = row['url']
             if os.path.exists(ref_file) and not clobber:
+                print(f'WARNING: {ref_file} exists and clobber=False')
                 return(ref_file)
 
             try:
                 dat = download_file(url, cache=False, show_progress=True,
                     timeout=30)
             except urllib.error.HTTPError as e:
-                msg = e.msg
+                msg = str(e)
                 print(f'WARNING: for file {ref_file}: {msg}')
+                return(None)
+            except urllib.error.URLError as e:
+                msg = str(e)
+                print(f'ERROR: for file {ref_file}: {msg}')
                 return(None)
 
             return(shutil.move(dat, ref_file))

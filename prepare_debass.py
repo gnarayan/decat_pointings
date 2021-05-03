@@ -39,7 +39,7 @@ for i,row in df.iterrows():
         except:
             print('NO OBSERVATIONS YET')
         print('SPEC CLASS: %s'%row['TNS class'])
-        if row['YSE Field'] != '': print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
+        if (row['YSE Field'] != '') & (row['YSE Field'] != '?'):print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
         priority = input('Please enter a priority for this object (1 2 3 TCTM)\n')
         if not priority in ['1','2','3','TCTM']:
@@ -51,10 +51,11 @@ for i,row in df.iterrows():
             filters = ['g','r','i','z']
         else:
             filters = split(filters)
+        default_exptimes = ej.getfiltersexptimes('jsons/2020B-0053_DEBASS_Brout/BASE/%s.json'%row['snid'])
         exptimes = []
         for f in filters:
-            exptime = input(f'Enter Exptime {f} (default 15)\n')
-            if exptime == '': exptime = '15'
+            exptime = input(f'Enter Exptime {f} (default {default_exptimes[f]})\n')
+            if exptime == '': exptime = str(default_exptimes[f])
             exptimes.append(exptime)
         plt.clf()
         if os.path.exists('jsons/2020B-0053_DEBASS_Brout/BASE/%s.json'%row['snid']):

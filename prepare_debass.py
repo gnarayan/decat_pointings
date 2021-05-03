@@ -30,16 +30,22 @@ for i,row in df.iterrows():
     if 'FINISHED' in row['Following?']: continue
     if 'ABANDON' in row['Following?']:	continue
     if 'LOST' in row['Following?']:  continue
+    if 'NON IA YSE' in row['Following?']:  continue
     if '91' in row['TNS class']:  continue
     if ('ia' in row['TNS class'].lower()) | ('?' in row['TNS class']):
         os.system('clear')
-        print(obsdict[row['snid']])
+        try:
+            print(obsdict[row['snid']])
+        except:
+            print('NO OBSERVATIONS YET')
+        print('SPEC CLASS: %s'%row['TNS class'])
+        if row['YSE Field'] != '': print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
-        priority = input('Please enter a priority for this object (ie 1 2 3)\n')
-        if not priority in ['1','2','3']:
-            priority = input('Please enter a valid priority for this object (1 2 3)\n')
-            if not priority in ['1','2','3']:
-                priority = input('Please enter a valid priority for this object (1 2 3)\n')
+        priority = input('Please enter a priority for this object (1 2 3 TCTM)\n')
+        if not priority in ['1','2','3','TCTM']:
+            priority = input('Please enter a valid priority for this object (1 2 3 TCTM)\n')
+            if not priority in ['1','2','3','TCTM']:
+                priority = input('Please enter a valid priority for this object (1 2 3 TCTM)\n')
         filters = input('Please enter filters for this object (default: griz)\n')
         if filters == '':
             filters = ['g','r','i','z']

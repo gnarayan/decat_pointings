@@ -86,14 +86,18 @@ Can start standards around 19:10 or earlier if telops allows
 22:15 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)
 
-22:45 577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
-      423.E.a.21fxy.json [198 -20]
-      2021hvo_P1  [200 -41]
+!!! DONE !!!!
+22:45 577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE! DONE
+      423.E.a.21fxy.json [198 -20] DONE
+      2021hvo_P1  [200 -41] DONE
       (10 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-22:55 desidot_rz_VVDS.json
-      desidot_grz_short_1.json
+22:55 
+DONE  desidot_rz_VVDS.json
+DONE  desidot_grz_short_1.json
+DONE  477
+DONE  376
       desidot_grz_short_2.json
       desidot_grz_short_3.json
       desidot_grz_short_4.json
@@ -101,18 +105,19 @@ Can start standards around 19:10 or earlier if telops allows
 
 # interrupt DESI block to do 477 + SN + 376
 
-00:30  477.D.a [219 12]
+!!! DONE !!!!
+00:30  477.D.a [219 12] DONE
        477.E.a
        477.F.a
        (10 min block)
 
-       376.2020esm.a [220 -8]
+       376.2020esm.a [220 -8]  DONE
        376.B.a
        376.C.a
        376.D.a
        376.E.a
        376.F.a
-       2021hwk_P1  [214 -7]
+       2021hwk_P1  [214 -7] DONE
        (15 min)
 
 # resume DESI block wherever you left off

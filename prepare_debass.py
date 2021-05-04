@@ -24,7 +24,7 @@ obsdict = ro.run(verbose=False)
 
 
 #skiprows = 60
-skiprows = 0
+skiprows =47
 for i,row in df.iterrows():
     if i < skiprows: continue
     if 'FINISHED' in row['Following?']: continue

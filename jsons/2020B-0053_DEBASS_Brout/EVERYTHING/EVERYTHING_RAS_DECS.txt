@@ -1,7 +1,6 @@
 2021jad_long		83	-21
 2021gmk_P1		91	-45
 2021hfq_P1		119	-67
-2021koj_P2		125	-12
 2021grd_P3		129	-11
 2021jys_P1		134	10
 2021hjb_P1		133	16
@@ -46,4 +45,4 @@
 2021ify_P1		262	13
 2021koq_P2		273	6
 2021kmz_P2		346	-5
-EVERYTHING	160.3 minutes
+EVERYTHING	159.6 minutes

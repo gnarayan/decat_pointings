@@ -24,7 +24,7 @@ obsdict = ro.run(verbose=False)
 
 
 #skiprows = 60
-skiprows =47
+skiprows = 0
 for i,row in df.iterrows():
     if i < skiprows: continue
     if 'FINISHED' in row['Following?']: continue
@@ -39,9 +39,10 @@ for i,row in df.iterrows():
         except:
             print('NO OBSERVATIONS YET')
         print('SPEC CLASS: %s'%row['TNS class'])
-        if (row['YSE Field'] != '') & (row['YSE Field'] != '?'):print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
+        print('Redshift: %s'%row['Redshift'])
+        if (row['YSE Field'] != '') & (row['YSE Field'] != '?') & (len(row['YSE Field'])>1): print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
-        priority = input('Please enter a priority for this object (1 2 3 TCTM)\n')
+        priority = input('\nPlease enter a priority for this object (1 2 3 TCTM)\n')
         if not priority in ['1','2','3','TCTM']:
             priority = input('Please enter a valid priority for this object (1 2 3 TCTM)\n')
             if not priority in ['1','2','3','TCTM']:

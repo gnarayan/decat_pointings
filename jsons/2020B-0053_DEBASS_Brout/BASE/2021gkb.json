@@ -2,7 +2,7 @@
 	{
 		"count": 1,
 		"filter": "g",
-		"exptime": 50.0,
+		"exptime": 25.0,
 		"RA": 164.669880,
 		"dec": -13.365050,
 		"object": "2021gkb_P1",
@@ -16,7 +16,7 @@
 	{
 		"count": 1,
 		"filter": "r",
-		"exptime": 50.0,
+		"exptime": 25.0,
 		"RA": 164.669880,
 		"dec": -13.365050,
 		"object": "2021gkb_P1",
@@ -30,7 +30,7 @@
 	{
 		"count": 1,
 		"filter": "i",
-		"exptime": 50.0,
+		"exptime": 25.0,
 		"RA": 164.669880,
 		"dec": -13.365050,
 		"object": "2021gkb_P1",
@@ -41,10 +41,10 @@
 		"wait": "False",
 		"propid": "2020B-0053"
 	},
-            {
+    {
                 "count": 1,
                 "filter": "z",
-                "exptime": 50.0,
+                "exptime": 25.0,
                 "RA": 164.669880,
                 "dec": -13.365050,
                 "object": "2021gkb_P1",
@@ -54,6 +54,6 @@
                 "comment": "2021gkb_P1",
                 "wait": "False",
                 "propid": "2020B-0053"
-        }
+    }
 
 ]

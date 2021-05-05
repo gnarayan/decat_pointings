@@ -38,6 +38,7 @@ for i,row in df.iterrows():
             continue
     if i < skiprows: continue
     if row['snid'] == '': continue
+    print(row)
     if 'FINISHED' in row['Following?']: continue
     if 'ABANDON' in row['Following?']:	continue
     if 'LOST' in row['Following?']:  continue

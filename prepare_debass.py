@@ -37,7 +37,8 @@ for i,row in df.iterrows():
         else:
             continue
     if i < skiprows: continue
-    if np.isnan(row['snid']): continue
+    if str(row['snid']) == 'nan': continue
+    if str(row['snid']) == 'NaN': continue
     if 'FINISHED' in row['Following?']: continue
     if 'ABANDON' in row['Following?']:	continue
     if 'LOST' in row['Following?']:  continue

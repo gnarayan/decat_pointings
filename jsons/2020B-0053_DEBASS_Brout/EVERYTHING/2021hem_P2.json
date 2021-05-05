@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 245.8557,
+        "dec": 14.81274,
+        "object": "2021hem_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021hem_P2",
+        "wait": "False",
+        "propid": "2021A-0275"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 245.8557,
+        "dec": 14.81274,
+        "object": "2021hem_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021hem_P2",
+        "wait": "False",
+        "propid": "2021A-0275"
+    }
+]

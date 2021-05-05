@@ -42,15 +42,17 @@ Can start standards around 19:10 or earlier if telops allows
         415.A.2021koj.json 
         2021kly_P1 [125 14]
         2021jys_P1 [134 10]
-        (25 min total)
+        2021law_P1 [140 4]
+        2021iov_P1 [142 -6]
+        (30 min total)
 
-19:35 eFEDS.json [136 1]
+19:40 eFEDS.json [136 1]
       (30 min)
 
-20:05 # CAN START AS EARLY AS -18 sun angle
+20:10 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
-20:35 474.A.a [190 6]
+20:40 474.A.a [190 6]
       474.B_1.a
       474.C.a
       474.D.a
@@ -58,7 +60,7 @@ Can start standards around 19:10 or earlier if telops allows
       474.F.a
       (20 min)
 
-20:55 525.A.a [186 15]
+21:00 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -74,18 +76,15 @@ Can start standards around 19:10 or earlier if telops allows
       2021ksm_P1  [173 20]
       (45 min)
 
-21:40 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+21:45 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-22:10 2021law_P1 [140 4]
-      2021iov_P1 [142 -6]
-      418.A [154 -3]
+22:15 418.A [154 -3]
       2021kom_P1 [155 3]
       2021kut_P1 [158 6]
       2021ipf_P1 [174 -6]
       2021khn_P1  [195 -5]
       2021kxf_P1 [204 2]
-     
-      (25 min)
+      (20 min)
 
 22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)

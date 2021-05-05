@@ -80,4 +80,4 @@ for infile in infiles:
         if not row['name'] in alreadyprinted:
             print("OR (power(power(t.ra - %s,2)+power(t.dec - %s,2),.5)<.1 AND t.name != '%s')"%(row['candRA'],row['candDEC'],row['name']))
             alreadyprinted.append(row['name'])
-    mj.individual(json_outpath,df['name']+'_P'+df['priority'].astype(str),df['pointRA'],df['pointDEC'],df['obs'],df['propid'],df['name']+'_P'+df['priority'].astype(str),df['expTypes'],df['programs'])
+    mj.individual(json_outpath,df['name'],df['pointRA'],df['pointDEC'],df['obs'],df['propid'],df['name']+'_P'+df['priority'].astype(str),df['expTypes'],df['programs'])

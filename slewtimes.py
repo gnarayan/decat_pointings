@@ -19,6 +19,7 @@ def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
         df.sort_values(by=['rra', 'dec'],inplace=True)
         df = df.reset_index(drop=True)
     totaltime = 0.
+    totaltime_p1 = 0
     lastid=''
     for i,row in df.iterrows():
         #print(row['ids'])
@@ -28,12 +29,14 @@ def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
         else:
             #print(row['ra'],row['dec'])
             if row['ids'] != lastid:
-                print('%s %d %d'%(row['ids'],row['ra'],row['dec']))
+                print('%s %d.0 %d.0'%(row['ids'],row['ra'],row['dec']))
                 lastid=row['ids']
             slewtime = slewtime_from_two_coords(row['ra'],row['dec'],df['ra'][i-1],df['dec'][i-1])
         totaltime += row['exptime']+slewtime+readout
-        
-    return totaltime
+        if '_P1' in row['ids']:
+            totaltime_p1 += row['exptime']+slewtime+readout
+            
+    return totaltime,totaltime_p1
         
 def get_ras_decs_exptimes_from_json(json):
     ids,fns, ras,decs,exptimes = [],[],[],[],[]

@@ -66,6 +66,8 @@ for i,row in df.iterrows():
         default_exptimes = ej.getfiltersexptimes('jsons/2020B-0053_DEBASS_Brout/BASE/%s.json'%row['snid'])
         exptimes = []
         for f in filters:
+            if not f in default_exptimes.keys():
+                default_exptimes[f] = 15
             exptime = input(f'Enter Exptime {f} (default {default_exptimes[f]})\n')
             if exptime == '': exptime = str(default_exptimes[f])
             exptimes.append(exptime)

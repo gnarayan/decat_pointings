@@ -118,3 +118,4 @@ class semesterinfoclass:
         else:
             raise RuntimeError('%s IS NOT A VALID SEMESTER! ' % semester)
         return(0)
+    

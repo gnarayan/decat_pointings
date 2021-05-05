@@ -96,12 +96,19 @@ Can start standards around 19:10 or earlier if telops allows
 22:55 
 DONE  desidot_rz_VVDS.json
 DONE  desidot_grz_short_1.json
+DONE  2021hwk_P1
 DONE  477
 DONE  376
-      desidot_grz_short_2.json
+DONE  desidot_grz_short_2.json
       desidot_grz_short_3.json
+      21jwl
+      21kpu
+      2am!! 21ihz
+
       desidot_grz_short_4.json
-      desidot_g.json
+      desidot_g.json      
+      632
+      428
 
 # interrupt DESI block to do 477 + SN + 376
 

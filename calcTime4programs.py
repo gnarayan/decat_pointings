@@ -47,7 +47,7 @@ class calcTimeclass(pdastroclass):
 
         self.programcol_formatter='{:<24}'.format
         
-        self.horizons = [18,15,12]
+        self.horizons = [14,12,10]
         #self.twi_charge_fraction = (1.0,2/3,1/3,0.0)
         self.twi_charge_fraction = (1.0,1.0,1.0,1.0)
          
@@ -192,8 +192,8 @@ class calcTimeclass(pdastroclass):
             # if expID = 0, then downtime is starting at -18 deg twilight
             # in this block, we determine utdown and utdownmax: the UT range of the downtime.
             if expID == 0 or expID == 'None':
-                utdown = self.twi[18][0]
-                print('Downtime starting at evening -18 deg twilight: %s' % utdown.to_value('isot'))
+                utdown = self.twi[self.horizons[0]][0]
+                print('Downtime starting at evening -%d deg twilight: %s' % (self.horizons[0],utdown.to_value('isot')))
                 ix = None
                 
                 if len(self.qcinv.t.index.values)>0:
@@ -221,7 +221,7 @@ class calcTimeclass(pdastroclass):
 
             if ix_next is None:
                 # morning -18 deg twilight
-                utdownmax = self.twi[18][1]
+                utdownmax = self.twi[self.horizons[0]][1]
             else:
                 utdownmax = time.Time(self.qcinv.t.loc[ix_next,'utdate'])
             
@@ -578,9 +578,9 @@ class calcTimeclass(pdastroclass):
             ix_notnull = self.nightsummary.ix_remove_null(timecol,indices=ixs_all)
             self.nightsummary.t.loc[ix_used,timecol]=self.nightsummary.t.loc[ix_notnull,timecol].sum()
         
-        self.nightsummary.t.loc[ix_available,'t_dark']=(self.twi[18][1]-self.twi[18][0]).to_value('sec')/3600.0
-        self.nightsummary.t.loc[ix_available,'t_twi1']=((self.twi[18][0]-self.twi[15][0]).to_value('sec') + (self.twi[15][1]-self.twi[18][1]).to_value('sec'))/3600.0
-        self.nightsummary.t.loc[ix_available,'t_twi2']=((self.twi[15][0]-self.twi[12][0]).to_value('sec') + (self.twi[12][1]-self.twi[15][1]).to_value('sec'))/3600.0
+        self.nightsummary.t.loc[ix_available,'t_dark']=(self.twi[self.horizons[0]][1]-self.twi[self.horizons[0]][0]).to_value('sec')/3600.0
+        self.nightsummary.t.loc[ix_available,'t_twi1']=((self.twi[self.horizons[0]][0]-self.twi[self.horizons[1]][0]).to_value('sec') + (self.twi[self.horizons[1]][1]-self.twi[self.horizons[0]][1]).to_value('sec'))/3600.0
+        self.nightsummary.t.loc[ix_available,'t_twi2']=((self.twi[self.horizons[1]][0]-self.twi[self.horizons[2]][0]).to_value('sec') + (self.twi[self.horizons[2]][1]-self.twi[self.horizons[1]][1]).to_value('sec'))/3600.0
 
         self.nightsummary.write()
         print('Total dark time assigned : %.4f hours,\nTotal dark time available: %.4f hours\nDifference(available-assigned)=%.1f seconds' % (self.nightsummary.t.loc[ix_used,'t_dark'],self.nightsummary.t.loc[ix_available,'t_dark'],(self.nightsummary.t.loc[ix_available,'t_dark']-self.nightsummary.t.loc[ix_used,'t_dark'])*3600.0))
@@ -617,9 +617,10 @@ class calcTimeclass(pdastroclass):
         if os.path.isfile(filename):
             print('Loading',filename)
             self.semestersummary.load_spacesep(filename)
+            self.semestersummary.t['night']=self.semestersummary.t['night'].astype('string')
         else:
             print('semester summary file %s does not exist yet! initializing it...' % filename)
-            self.semestersummary.initsummaryttable(self.semesterinfo.nights)
+            self.semestersummary.initnights(self.semesterinfo.nights)
         return(0)
 
     def write_semestersummary(self,filename=None):
@@ -628,8 +629,8 @@ class calcTimeclass(pdastroclass):
                 raise RuntimeError('Semester summary filename is not specified for writing!')
             filename = self.semester_summaryfile
         print('Saving',filename)
-        self.semestersummary.t['date']=self.semestersummary.t['date'].astype('int')
-        ixs = self.semestersummary.ix_sort_by_cols(['date'])
+        self.semestersummary.t['night']=self.semestersummary.t['night'].astype('string')
+        ixs = self.semestersummary.ix_sort_by_cols(['night'])
         self.semestersummary.write(filename, indices=ixs, overwrite=True)
         return(0)
             

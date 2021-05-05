@@ -113,17 +113,20 @@ Can start standards around 19:10 or earlier if telops allows
        376.F.a
        (15 min)
 
+       2021jvs_P1 [223 6]
+       2021jwl_P1  [234 5]
+       2021fqb_P1  [227 5]
+       583.2021kpu.a.json
        2021kpu_P1  [231 22]
        2021kbj_P1 [237 24]
-       2021kpu_P1 [231 22]
        2021ipb_P1 [241 13]
        2021hji_P1 [252 22]
-       583.2021kpu.a.json
        583.A.a [245 14] 
        583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a
+       2021inj_P1 [241 2]
        (30 min)
 # resume DESI block wherever you left off
 
@@ -136,14 +139,12 @@ Can start standards around 19:10 or earlier if telops allows
        428.F.a
        (15 min)
 
-       2021jvs_P1 [223 6]
        632.A.a  [241 25]
        632.B.a
        632.C.a
        632.D.a
        632.E.a
        632.F.a
-       2021jwl_P1  [234 5]
        (20 min)
 # resume DESI block wherever you left off
     
@@ -155,8 +156,6 @@ Can start standards around 19:10 or earlier if telops allows
        531.D.a
        531.E.a
        531.F.a
-       2021fqb_P1  [227 5]
-       2021inj_P1 [241 2]
        (20 min)
 
 # DISABLE GUIDING FOR DECAPS

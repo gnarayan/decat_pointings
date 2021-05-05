@@ -8,6 +8,7 @@ register_matplotlib_converters()
 import matplotlib.pyplot as plt
 import os
 import editjson as ej
+import sys
 
 def split(word):
     return [char for char in word]
@@ -22,10 +23,19 @@ datestr = input(f'Please Enter Observing Date in the following format (YYYY-MM-D
 if datestr == '': datestr=currdate
 obsdict = ro.run(verbose=False)
 
-
+try:
+    startsn = sys.argv[1]
+    keepskipping = True
+except:
+    keepskipping = False
 #skiprows = 60
 skiprows = 0
 for i,row in df.iterrows():
+    if keepskipping:
+        if row['snid'] == startsn:
+            keepskipping = False
+        else:
+            continue
     if i < skiprows: continue
     if 'FINISHED' in row['Following?']: continue
     if 'ABANDON' in row['Following?']:	continue

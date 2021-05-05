@@ -26,19 +26,5 @@
         "comment": "2021ksm_P1",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "i",
-        "exptime": 15.0,
-        "RA": 173.74497,
-        "dec": 20.63678,
-        "object": "2021ksm_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2021ksm_P1",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

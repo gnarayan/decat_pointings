@@ -5,11 +5,11 @@
         "exptime": 15.0,
         "RA": 161.63858,
         "dec": -28.96034,
-        "object": "2021gwn_P3",
+        "object": "2021gwn_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2021gwn_P3",
+        "comment": "2021gwn_P2",
         "wait": "False",
         "propid": "2020B-0053"
     },
@@ -19,11 +19,11 @@
         "exptime": 15.0,
         "RA": 161.63858,
         "dec": -28.96034,
-        "object": "2021gwn_P3",
+        "object": "2021gwn_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2021gwn_P3",
+        "comment": "2021gwn_P2",
         "wait": "False",
         "propid": "2020B-0053"
     }

@@ -41,6 +41,7 @@ for i,row in df.iterrows():
     if 'ABANDON' in row['Following?']:	continue
     if 'LOST' in row['Following?']:  continue
     if 'NON IA YSE' in row['Following?']:  continue
+    if 'YSE' in row['Following?']:  continue
     if '91' in row['TNS class']:  continue
     if ('ia' in row['TNS class'].lower()) | ('?' in row['TNS class']):
         os.system('clear')

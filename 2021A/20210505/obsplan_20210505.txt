@@ -42,15 +42,17 @@ Can start standards around 19:10 or earlier if telops allows
         415.A.2021koj.json 
         2021kly_P1 [125 14]
         2021jys_P1 [134 10]
-        (25 min total)
+        2021law_P1 [140 4]
+        2021iov_P1 [142 -6]
+        (30 min total)
 
-19:35 eFEDS.json [136 1]
+19:40 eFEDS.json [136 1]
       (30 min)
 
-20:05 # CAN START AS EARLY AS -18 sun angle
+20:10 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
-20:35 474.A.a [190 6]
+20:40 474.A.a [190 6]
       474.B_1.a
       474.C.a
       474.D.a
@@ -58,7 +60,7 @@ Can start standards around 19:10 or earlier if telops allows
       474.F.a
       (20 min)
 
-20:55 525.A.a [186 15]
+21:00 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -74,18 +76,16 @@ Can start standards around 19:10 or earlier if telops allows
       2021ksm_P1  [173 20]
       (45 min)
 
-21:40 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+21:45 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-22:10 2021law_P1 [140 4]
-      2021iov_P1 [142 -6]
-      418.A [154 -3]
+22:15 418.A [154 -3]
       2021kom_P1 [155 3]
       2021kut_P1 [158 6]
+      468.F.2021kut.json
       2021ipf_P1 [174 -6]
       2021khn_P1  [195 -5]
       2021kxf_P1 [204 2]
-     
-      (25 min)
+      (20 min)
 
 22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (want ~1h between COSMOS pointings for short timescale variability)
@@ -105,11 +105,6 @@ Can start standards around 19:10 or earlier if telops allows
 # interrupt DESI block to do 477 + SN + 376
 
 00:30  2021kre_P1 [206 -7]
-       477.D.a [219 12] 
-       477.E.a
-       477.F.a
-       (15 min block)
-
        376.2020esm.a [220 -8] 
        376.B.a
        376.C.a
@@ -118,6 +113,21 @@ Can start standards around 19:10 or earlier if telops allows
        376.F.a
        (15 min)
 
+       2021jvs_P1 [223 6]
+       2021jwl_P1  [234 5]
+       2021fqb_P1  [227 5]
+       583.2021kpu.a.json
+       2021kpu_P1  [231 22]
+       2021kbj_P1 [237 24]
+       2021ipb_P1 [241 13]
+       2021hji_P1 [252 22]
+       583.A.a [245 14] 
+       583.B.a [240 20]
+       583.C.a
+       583.E_1.a
+       583.F.a
+       2021inj_P1 [241 2]
+       (30 min)
 # resume DESI block wherever you left off
 
 # interrupt DESI block to do 632 + 428
@@ -129,52 +139,35 @@ Can start standards around 19:10 or earlier if telops allows
        428.F.a
        (15 min)
 
-       2021jvs_P1 [223 6]
        632.A.a  [241 25]
        632.B.a
        632.C.a
        632.D.a
        632.E.a
        632.F.a
-       2021jwl_P1  [234 5]
-       (25 min)
+       (20 min)
 # resume DESI block wherever you left off
     
-# DESI Block + 477 + 632 + 428 + 376 should end around 03:45
+# DESI Block + 477 + 632 + 428 + 376 should end around 04:05
 
-03:55  2021kpu_P1  [231 22]
-       583.2021kpu.a.json
-       583.A.a [245 14] 
-       583.B.a [240 20]
-       583.C.a
-       583.E_1.a
-       583.F.a
-       (20 min)
-
-04:15  531.A.a [230 10]
+04:05  531.A.a [230 10]
        531.B.a
        531.C.a
        531.D.a
        531.E.a
        531.F.a
-       2021fqb_P1  [227 5]
-       2021kbj_P1 [237 24]
-       2021kpu_P1 [231 22]
-       2021inj_P1 [241 2]
-       2021ipb_P1 [241 13]
-       2021hji_P1 [252 22]
-       (30 min)
+       (20 min)
 
 # DISABLE GUIDING FOR DECAPS
 
-04:45 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+04:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-05:10 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
+04:50 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
-05:35 440.A.a [314 -4]
+05:15 440.A.a [314 -4]
       440.B.a
       440.C.a
       440.D.a
@@ -182,7 +175,7 @@ Can start standards around 19:10 or earlier if telops allows
       440.F.a
       (15 min)
 
-05:50 544.A.a [320 9]
+05:30 544.A.a [320 9]
       544.B.a
       544.C.a
       544.D.a
@@ -190,7 +183,8 @@ Can start standards around 19:10 or earlier if telops allows
       544.F.a
       (15 min)
 
-06:05 2021ify_P1  [262 13]
+      #IF YOU ARE RUNNING BEHIND, PLEASE STOP 544 FIELDS AT 6:08AM AND JUMP TO THESE SNE BELOW.
+05:45 2021ify_P1  [262 13]
       2021koq_P1  [273 6]
       2021juw_P1 [297 -20] 
       SDSSJ2140-0000

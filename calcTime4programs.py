@@ -192,6 +192,7 @@ class calcTimeclass(pdastroclass):
             # if expID = 0, then downtime is starting at -18 deg twilight
             # in this block, we determine utdown and utdownmax: the UT range of the downtime.
             if expID == 0 or expID == 'None':
+                expID = 0
                 utdown = self.twi[self.horizons[0]][0]
                 print('Downtime starting at evening -%d deg twilight: %s' % (self.horizons[0],utdown.to_value('isot')))
                 ix = None
@@ -239,7 +240,11 @@ class calcTimeclass(pdastroclass):
                 
                 t = downtime[i+1]
                 if t.lower() == 'rest':
-                    tsec = (utdownmax - utdown).to_value('sec')
+                    if expID == 0:
+                        #utnext = self.qcinv.t.loc[ix_next,'utdate']
+                        tsec = (utdownmax - utdown).to_value('sec')
+                    else:
+                        tsec = (utdownmax - utdown).to_value('sec')
                 else:
                     if re.search('^[0-9\.]+$',t) is None:
                         (t,unit) = re.search('(^[0-9\.]+)([a-zA-Z]+$)',t).groups()
@@ -256,7 +261,7 @@ class calcTimeclass(pdastroclass):
                     else:
                         raise RuntimeError('Could not understand time unit of %s, only sec,min,hour allowed!')
                 
-                downtimerows.newrow({'expid':0,'twi':0,'utdate':utdown,'time':tsec,'program':downtimename,'Object':'DOWNTIME'})
+                downtimerows.newrow({'expid':0,'twi':0,'utdate':utdown.to_value('isot'),'time':tsec,'program':downtimename,'Object':'DOWNTIME'})
                 
                 utdown = utdown + tsec*u.s
                 if utdown.to_value('isot')>utdownmax.to_value('isot'):
@@ -358,11 +363,13 @@ class calcTimeclass(pdastroclass):
             twi_zone = 0
             for i in range(len(self.horizons)):
                 horizon = self.horizons[i]
-                if (tobs-self.twi[horizon][0]).to_value('hr')<0.0:
+                if (tobs-self.twi[horizon][0]).to_value('hr')+0.5*self.qcinv.t.loc[ix,'time']/3600.0<0.0:
                     twi_zone = i+1
                 #print('vvv',(tobs-self.twi[horizon][1]).to_value('hr'),self.qcinv.t.loc[ix,'time']/3600.0)
-                if (tobs-self.twi[horizon][1]).to_value('hr')+self.qcinv.t.loc[ix,'time']/3600.0>0.0:
+                if (tobs-self.twi[horizon][1]).to_value('hr')+0.5*self.qcinv.t.loc[ix,'time']/3600.0>0.0:
                     twi_zone = i+1
+                #if re.search('^DOWN',self.qcinv.t.loc[ix,'program']):
+                #    print('%d: %f %f' % (i,tobs,self.twi[horizon][0]).to_value('hr'))
             self.qcinv.t.loc[ix,'twi'] = twi_zone
                     
                 
@@ -647,7 +654,7 @@ class calcTimeclass(pdastroclass):
         
         # Add the results of this date to the semester summary
         self.semestersummary.add2summary(self.nightsummary,date)
-        if self.verbose:
+        if self.verbose>2:
             print('### SEMESTER SUMMARY:')
             self.semestersummary.write()
             

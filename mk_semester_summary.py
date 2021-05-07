@@ -175,7 +175,8 @@ class semester_summary_class(pdastroclass):
  
 
     def showtables(self):
-        for timetype in self.timetypes:
+        for timetype in ['t_dark']:
+        #for timetype in self.timetypes:
             print('\n####',timetype)
             #timetypecols = ['t_dark_used','t_dark_avail'] 
             self.write(columns = ['night','t_dark14','t_dark_used','t_unacc']+self.cols4time[timetype])

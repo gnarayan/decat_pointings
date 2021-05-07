@@ -55,7 +55,7 @@ class semesterinfoclass:
                 'Shen':     ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
                 'Martini':   ['E1','E3','E2'],
                 'eFEDS':     ['^eFEDS'],
-                'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$'],
+                'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$','^\d\d\d\.\w+\.2021'],
                 'DEBASS':    ['^2021\w+'],
                 'DDF':       ['^COSMOS','^DECaPS.*'],
                 'DESI':      ['^TILEID\:\s+\d+'], 

@@ -353,7 +353,7 @@
  976785  270.9 -29.5  09:44   r    50  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:44:00.000     9.7333    0           DDF       45
  976786  270.9 -29.5  09:45   i    30  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:45:00.000     9.7500    0           DDF       45
  976787  270.9 -29.5  09:46   z    30  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:46:00.000     9.7667    0           DDF       45
- 976788  270.9 -29.5  09:47   g    96  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:47:00.000     9.7833    1           DDF       46
+ 976788  270.9 -29.5  09:47   g    96  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:47:00.000     9.7833    0           DDF       45
  976789  270.9 -29.5  09:49   r    50  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:49:00.000     9.8167    1           DDF       46
  976790  270.9 -29.5  09:50   i    30  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:50:00.000     9.8333    1           DDF       46
  976791  270.9 -29.5  09:51   z    30  1.02   NaN   NaN    NaN   NaN       DECaPS-East  2021-03-24T09:51:00.000     9.8500    1           DDF       46

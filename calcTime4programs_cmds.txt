@@ -1,13 +1,17 @@
 
+calcTime4programs.py 20210505 -vvs  
+calcTime4programs.py 20210502 -vvs  
 
-./calcTime4programs.py 20210427 -vvs -a
-./calcTime4programs.py 20210424 -vvs -a
+calcTime4programs.py 20210428 -vvs  -a
+calcTime4programs.py 20210426 -vvs -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210424 -vvs -a
+calcTime4programs.py 20210420 -vvs --downtime 0 DEBASS rest  --downtime 987296 DESI 3.5215hours YSE 2.25hours DDF 1.8433hours EtaCar 0.46hours Shen 0.1924hours DEBASS rest  -a
 calcTime4programs.py 20210417 -vvs  -a
 calcTime4programs.py 20210414 -vvs -r UNKNOWN1 YSE -a
 calcTime4programs.py 20210411 -vvs -r Drlica_TRADE YSE -a
 calcTime4programs.py 20210408 -vvs  -r Drlica_TRADE YSE -a
 calcTime4programs.py 20210405 -vvs -a
-calcTime4programs.py 20210402 -vvs -a
+calcTime4programs.py 20210402 -vvs --downtime 980630 DDF rest -a
 calcTime4programs.py 20210330 -vvs -a
 calcTime4programs.py 20210327 -vvs -r Drlica_TRADE YSE -a
 calcTime4programs.py 20210323 -vvs -r Rector_TRADE YSE -r UNKNOWN1 YSE -a
@@ -72,3 +76,22 @@ calcTime4programs.py 20210316 -vvs
 YSE to Eta Car: 0.1468+0.6389+1.4861+0.1333+0.6472+1.6667 = 4.71 hours
 Shen to YSE: 0.6389+0.6472-0.5 = 0.7861 hours
 DEBASS to YSE: 0.1468+0.1333+0.0535+0.1039+0.0785+0.0344+0.2104+0.1771=0.9379 hours
+
+         assigned_program  t_dark t_twi1 t_twi2 t_twi3 t_down
+ DDF                       0.3560 0.0000 0.0000 0.0000 0.0000
+ DEBASS                    0.1393 0.0000 0.0000 0.0000 0.0000
+ EtaCar                    0.1458 0.0000 0.0000 0.0000 0.0000
+ TECHSETUP1                0.0833 0.0000 0.0000 0.0000 0.0000
+ total time used (hr)      0.7244 0.0000 0.0000 0.0000 0.0000
+ total time avail. (hr)   10.7465 0.3103 0.3111    nan    nan
+
+DDF: 2.1993-0.356=1.8433
+DEBASS: 1.9187-0.1393=1.7794
+YSE: 2.3
+EtaCar: 0.5458 - 0.1458=0.4
+Shen: 0.1924
+DESI: 3.5215 
+
+
+calcTime4programs.py 20210420 -vvs --downtime 0 DEBASS rest  --downtime 987296 DESI 3.5215hours YSE 2.25hours DDF 1.8433hours EtaCar 0.46hours Shen 0.1924hours DEBASS rest  -a
+DEBASS 1.76hours 

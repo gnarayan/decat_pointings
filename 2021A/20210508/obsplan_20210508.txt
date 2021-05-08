@@ -89,7 +89,6 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       468.F.2021kut.json
       2021kut_P1 [158 6]
       2021jap_P1 [163 -9]
-      423.E.a.21fxy.json [198 -20]
       2021gwn_P1 [161 -28]
       2021kre_P1 [206 -7]
       2021kxf_P1 [204 2]
@@ -109,7 +108,7 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       desidot_grz_short_4.json
       desidot_g.json
 
-# interrupt DESI block to do 477 + SN + 376
+# interrupt DESI block to do SN + 376 + 583
 
 00:30  376.2020esm.a [220 -8] 
        376.B.a
@@ -126,7 +125,7 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
        583.C.a
        583.E_1.a
        583.F.a
-       (30 min)
+       (25 min)
 # resume DESI block wherever you left off
 
 # interrupt DESI block to do 632 + 428
@@ -147,9 +146,9 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
        (20 min)
 # resume DESI block wherever you left off
     
-# DESI Block + 477 + 632 + 583 + SN + 428 + 376 should end around 04:05
+# DESI Block +  632 + 583 + SN + 428 + 376 should end around 04:10
 
-04:05  531.A.a [230 10]
+04:10  531.A.a [230 10]
        531.B.a
        531.C.a
        531.D.a
@@ -159,14 +158,14 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
 
 # DISABLE GUIDING FOR DECAPS
 
-04:25 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+04:30 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:50 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
+04:55 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
-05:15 440.A.a [314 -4]
+05:20 440.A.a [314 -4]
       440.B.a
       440.C.a
       440.D.a
@@ -174,7 +173,7 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       440.F.a
       (15 min)
 
-05:30 544.A.a [320 9]
+05:35 544.A.a [320 9]
       544.B.a
       544.C.a
       544.D.a
@@ -184,15 +183,14 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
 
 # if you get here and it's before 05:45, do koq, ify,  juw first (in that priority order)
 # do E12 as late as you possibly can while still finishing in twilight because it's far over
-05:45 E12.json [9 -45]
+05:50 E12.json [9 -45]
       (25 min)
 
       #IF YOU ARE RUNNING BEHIND, PLEASE STOP 544 FIELDS AT 6:08AM AND JUMP TO THESE SNE BELOW.
-06:10 !2021ify_P3  [262 13] # CAN SKIP
-      !2021koq_P1  [273 6] # PLEASE KEEP THIS ONE!
+06:15 !2021koq_P1  [273 6] # PLEASE KEEP THIS ONE!
+      !2021ify_P3  [262 13] # CAN SKIP
       !2021juw_P3 [297 -20] # CAN SKIP
       SDSSJ2140-0000
-
 
 ---------------------------- PLAN ENDS -------------------------------
 

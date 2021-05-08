@@ -38,9 +38,9 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
         21jad_short.json [82 -21]  (5 min)
         2021knh_P1 [138 -27]
         2021hjc_P1 [141 -25]
-        2021ill_P1 [139 -30]
+        2021ill_P1 [139 -30] #PUT THESE HERE TO SAVE TIME WITH DOME ROTATION
 
-19:10   S-CVZ.json [90 -67]  (12 min)
+19:20   S-CVZ.json [90 -67]  (12 min)
         2021hfq_P1 [119 -67]
         415.A.2021koj.json 
         2021kly_P1 [125 14]
@@ -50,12 +50,12 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
         2021law_P1 [140 4]
         YSE_lnf_pointing_here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         2021lnf_P1 [143 -16]
-        (33 min total)
+        (35 min total)
 
-19:40 # CAN START AS EARLY AS -18 sun angle
+19:55 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
-20:10 474.A.a [190 6]
+20:25 474.A.a [190 6]
       474.B_1.a
       474.C.a
       474.D.a
@@ -63,10 +63,10 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       474.F.a
       (20 min)
 
-20:30 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+20:45 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
       (30 min)
 
-21:00 525.A.a [186 15]
+21:15 525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 
@@ -81,10 +81,10 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       525.D.b [185 12]
       (40 min)
 
-21:40 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+21:55 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
       (30 min)
 
-22:10 418.A [154 -3]
+22:25 418.A [154 -3]
       2021kom_P1 [155 3]
       468.F.2021kut.json
       2021kut_P1 [158 6]
@@ -96,13 +96,13 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE! 
       YSE_LAT_POINTING_HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       2021lat_P1 [220 24]
-      (25 min)
+      (30 min)
 
-22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:55 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
       (30 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-23:05 desidot_rz_VVDS.json
+23:25 desidot_rz_VVDS.json
       desidot_grz_short_1.json
       desidot_grz_short_2.json
       desidot_grz_short_3.json

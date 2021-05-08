@@ -37,14 +37,20 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
         SDSSJ1048-0000 [STANDARD ]
         21jad_short.json [82 -21]  (5 min)
         2021knh_P1 [138 -27]
+        2021hjc_P1 [141 -25]
+        2021ill_P1 [139 -30]
 
 19:10   S-CVZ.json [90 -67]  (12 min)
+        2021hfq_P1 [119 -67]
         415.A.2021koj.json 
         2021kly_P1 [125 14]
+        2021hjb_P1 [133 16]
         2021jys_P1 [134 10]
+        2021ibo_P1 [135 7]
         2021law_P1 [140 4]
-        2021iov_P1 [142 -6]
-        (30 min total)
+        YSE_lnf_pointing_here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        2021lnf_P1 [143 -16]
+        (33 min total)
 
 19:40 # CAN START AS EARLY AS -18 sun angle
       COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
@@ -73,7 +79,6 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       525.C.b [192 12]
       525.D.a [183 12]
       525.D.b [185 12]
-      2021ksm_P1  [173 20]
       (40 min)
 
 21:40 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
@@ -81,13 +86,16 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
 
 22:10 418.A [154 -3]
       2021kom_P1 [155 3]
-      2021kut_P1 [158 6]
       468.F.2021kut.json
-      2021ipf_P1 [174 -6]
-      2021khn_P1  [195 -5]
+      2021kut_P1 [158 6]
+      2021jap_P1 [163 -9]
       423.E.a.21fxy.json [198 -20] = shorten time 
+      2021gwn_P1 [161 -28]
+      2021kre_P1 [206 -7]
       2021kxf_P1 [204 2]
       577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE! 
+      YSE_LAT_POINTING_HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      2021lat_P1 [220 24]
       (25 min)
 
 22:35 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
@@ -103,8 +111,7 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
 
 # interrupt DESI block to do 477 + SN + 376
 
-00:30  2021kre_P1 [206 -7]
-       376.2020esm.a [220 -8] 
+00:30  376.2020esm.a [220 -8] 
        376.B.a
        376.C.a
        376.D.a
@@ -112,20 +119,13 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
        376.F.a
        (15 min)
 
-       2021jvs_P1 [223 6]
-       2021jwl_P1  [234 5]
-       2021fqb_P1  [227 5]
        583.2021kpu.a.json
        2021kpu_P1  [231 22]
-       2021kbj_P1 [237 24]
-       2021ipb_P1 [241 13]
-       2021hji_P1 [252 22]
        583.A.a [245 14] 
        583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a
-       2021inj_P1 [241 2]
        (30 min)
 # resume DESI block wherever you left off
 
@@ -188,9 +188,9 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       (25 min)
 
       #IF YOU ARE RUNNING BEHIND, PLEASE STOP 544 FIELDS AT 6:08AM AND JUMP TO THESE SNE BELOW.
-06:10 2021ify_P1  [262 13]
-      2021koq_P1  [273 6]
-      2021juw_P1 [297 -20] 
+06:10 !2021ify_P1  [262 13]
+      !2021koq_P1  [273 6]
+      !2021juw_P1 [297 -20] 
       SDSSJ2140-0000
 
 
@@ -207,34 +207,4 @@ Backup/Filler
 494.F.a
 (20 min)
 
-(~3 min each)
-HIGH PRIORITY DEBASS FILLER
-2021hjb_P2 [133 16]
-2021hjc_P2 [141 -25]
-2021ibo_P2 [135 7]
-2021gwn_P2 [161 -28]
-2021jap_P2 [163 -9]
-2021igt_P2 [190 21]
-2021fof_P2 [211 -9]
-2021gqc_P2 [226 -10]
-2021ihz_P2 [228 25]
-2021gwa_P2 [235 6]
-2021hem_P2 [245 14]
-2021kmz_P2 [346 -5]
-
-LOWER PRIORITY DEBASS FILLER - try to do P2 first!
-2021gmk_P3 [91 -45]
-2021hfq_P3 [119 -67]
-2021grd_P3 [129 -11]
-2021ill_P3 [139 -30]
-2021fna_P3 [154 -23]
-2021jze_P3 [154 -4]
-2021ghc_P3 [149 0]
-2021gkb_P3 [164 -13]
-2021hup_P3 [178 -7]
-2021hvo_P3 [200 -41]
-2021foh_P3 [200 -16]
-2021hwk_P3 [214 -7]
-2021jkd_P3 [232 0]
-2021gez_P3 [245 20]
 

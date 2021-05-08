@@ -3,5 +3,7 @@ wget --output-file="log.log" "https://docs.google.com/spreadsheets/d/1JPIAXjcy-m
 python prepare_debass.py $1
 python total_time.py jsons/2020B-0053_DEBASS_Brout/EVERYTHING > jsons/2020B-0053_DEBASS_Brout/EVERYTHING/EVERYTHING_RAS_DECS.txt
 git add  jsons/2020B-0053_DEBASS_Brout/EVERYTHING/*
+git add  jsons/2020B-0053_DEBASS_Brout/BASE/*
+
 git commit -am 'update debass jsons'
 git push

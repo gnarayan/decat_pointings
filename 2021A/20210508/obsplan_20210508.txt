@@ -66,7 +66,8 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
 20:45 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
       (30 min)
 
-21:15 525.A.a [186 15]
+21:15 575.B.a [178 21]
+      525.A.a [186 15]
       525.A.b [189 15] 
       525.E.b [189 12]
       525.E.a [186 12] 

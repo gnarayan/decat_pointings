@@ -48,8 +48,8 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
         2021jys_P1 [134 10]
         2021ibo_P1 [135 7]
         2021law_P1 [140 4]
-        YSE_lnf_pointing_here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         2021lnf_P1 [143 -16]
+        365.A.2021lnf [143 -16]
         (35 min total)
 
 19:55 # CAN START AS EARLY AS -18 sun angle
@@ -89,7 +89,7 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       468.F.2021kut.json
       2021kut_P1 [158 6]
       2021jap_P1 [163 -9]
-      423.E.a.21fxy.json [198 -20] = shorten time 
+      423.E.a.21fxy.json [198 -20]
       2021gwn_P1 [161 -28]
       2021kre_P1 [206 -7]
       2021kxf_P1 [204 2]
@@ -182,7 +182,7 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       544.F.a
       (15 min)
 
-# if you get here and it's before 05:45, do 21ify, koq, juw first
+# if you get here and it's before 05:45, do koq, ify,  juw first (in that priority order)
 # do E12 as late as you possibly can while still finishing in twilight because it's far over
 05:45 E12.json [9 -45]
       (25 min)

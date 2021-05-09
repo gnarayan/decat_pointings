@@ -82,10 +82,10 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       525.D.b [185 12]
       (40 min)
 
-21:55 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+22:25 COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
       (30 min)
 
-22:25 418.A [154 -3]
+22:55 418.A [154 -3]
       2021kom_P1 [155 3]
       468.F.2021kut.json
       2021kut_P1 [158 6]
@@ -99,7 +99,7 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       (30 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-22:55 desidot_rz_VVDS.json
+23:25 desidot_rz_VVDS.json
       desidot_grz_short_1.json
       desidot_grz_short_2.json
       desidot_grz_short_3.json

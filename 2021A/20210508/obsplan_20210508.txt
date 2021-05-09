@@ -98,11 +98,8 @@ DO THE STANDARD BEFORE ANY OF THE TARGETS!
       2021lat_P1 [220 24]
       (30 min)
 
-22:55 COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
-      (30 min)
-
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-23:25 desidot_rz_VVDS.json
+22:55 desidot_rz_VVDS.json
       desidot_grz_short_1.json
       desidot_grz_short_2.json
       desidot_grz_short_3.json

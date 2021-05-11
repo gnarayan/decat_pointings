@@ -88,10 +88,14 @@ Can start standards around 19:10 or earlier if telops allows
         2021kre_P1 [206 -7]
         2021hwk_P1 [214.0 -7.0]
         2021kxf_P1 [204 2]
+       
+        **************************************
+        THIS BLOCK HERE CAN BE SHIFTED TO OPTIMAL OBSERVING WINDOW IF RUNNING EARLY/LATE. NOTE HIGH DEC.
         577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
-        2021lxb_P1 [196.0 29.0]
+        2021lxb_P1 [195 28]
         629.A.2021lat.json [220 24]
         2021lat_P1 [220 24]
+        ***************************************
         (30 min)
 
 22:55   COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]

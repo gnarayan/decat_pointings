@@ -92,7 +92,7 @@ Can start standards around 19:10 or earlier if telops allows
         423.E.a.21fxy.json [198 -20] 
         2021kre_P1 [206 -7]
         2021kxf_P1 [204 2]
-        577.A.21inl_21dch.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+        577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
         629.A.2021lat.json [220 24]
         2021lat_P1 [220 24]
         (30 min)

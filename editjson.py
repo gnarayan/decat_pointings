@@ -26,4 +26,4 @@ def getfiltersexptimes(file):
     return dict
         
 if __name__ == '__main__':
-    edit('jsons/2020B-0053_DEBASS_Brout/BASE/2021inj.json',1,['g','r','i','z','Y'],['15','15','15','15','15'],'jsons/2020B-0053_DEBASS_Brout/test/2021inj_P1.json')
+    edit('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/2021inj.json',1,['g','r','i','z','Y'],['15','15','15','15','15'],'jsons/2020B-0053_DEBASS_Brout/test/2021inj_P1.json')

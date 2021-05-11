@@ -65,7 +65,7 @@ for i,row in df.iterrows():
             filters = ['g','r','i','z']
         else:
             filters = split(filters)
-        default_exptimes = ej.getfiltersexptimes('jsons/2020B-0053_DEBASS_Brout/BASE/%s.json'%row['snid'])
+        default_exptimes = ej.getfiltersexptimes('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid'])
         exptimes = []
         for f in filters:
             if not f in default_exptimes.keys():
@@ -74,10 +74,10 @@ for i,row in df.iterrows():
             if exptime == '': exptime = str(default_exptimes[f])
             exptimes.append(exptime)
         plt.clf()
-        if os.path.exists('jsons/2020B-0053_DEBASS_Brout/BASE/%s.json'%row['snid']):
+        if os.path.exists('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid']):
             os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
-            ej.edit('jsons/2020B-0053_DEBASS_Brout/BASE/%s.json'%row['snid'],priority,filters,exptimes,
+            ej.edit('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid'],priority,filters,exptimes,
                  'jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P%s.json'%(row['snid'],priority))
         else:
-            print('WARNING: jsons/2020B-0053_DEBASS_Brout/BASE/%s.json'%row['snid']+'\nDoes Not Exist')
+            print('WARNING: jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid']+'\nDoes Not Exist')
             input('press enter to continue')

@@ -33,18 +33,12 @@ Can start standards around 19:10 or earlier if telops allows
 
 18:43   Twilight - Start Promptly
         SDSSJ1048-0000 [STANDARD ]
-        21jad_short.json [82 -21]  (5 min)
+        21jad_long.json [82 -21]  (5 min)
         2021knh_P1 [138 -27]
-        2021hjc_P1 [141 -25]
-        2021ill_P1 [139 -30] #PUT THESE HERE TO SAVE TIME WITH DOME ROTATION
 
 19:15   S-CVZ.json [90 -67]  (12 min)
-        2021hfq_P1 [119 -67]
         415.A.2021koj.json
         2021kly_P1 [125 14]
-        2021hjb_P1 [133 16]
-        2021jys_P1 [134 10]
-        2021ibo_P1 [135 7]
         2021law_P1 [140 4]
         2021lnf_P1 [143 -16]
         365.A.2021lnf [143 -16]
@@ -65,6 +59,8 @@ Can start standards around 19:10 or earlier if telops allows
         (20 min)
 
 21:10   575.B.a [178 21]
+        2021low_P1 [175.0 21.0]
+        2021igt_P1 [190.0 21.0]
         525.A.a [186 15]
         525.A.b [189 15] 
         525.E.b [189 12]
@@ -82,16 +78,18 @@ Can start standards around 19:10 or earlier if telops allows
 
 21:55   COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-22:25   418.A [154 -3]
+22:25   2021khn_P1 [195.0 -5.0]
+        418.A [154 -3]
         2021kom_P1 [155 3]
         468.F.2021kut.json
         2021kut_P1 [158 6]
-        2021jap_P1 [163 -9]
-        2021gwn_P1 [161 -28]
+        2021hup_P1 [178 -7]
         423.E.a.21fxy.json [198 -20] 
         2021kre_P1 [206 -7]
+        2021hwk_P1 [214.0 -7.0]
         2021kxf_P1 [204 2]
         577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+        2021lxb_P1 [196.0 29.0]
         629.A.2021lat.json [220 24]
         2021lat_P1 [220 24]
         (30 min)
@@ -119,6 +117,9 @@ Can start standards around 19:10 or earlier if telops allows
 
        583.2021kpu.a.json
        2021kpu_P1  [231 22]
+       2021ihz_P1 [228.0 25.0]
+       2021kbj_P1 [237.0 24.0]
+
        583.A.a [245 14]
        583.B.a [240 20]
        583.C.a
@@ -134,6 +135,8 @@ Can start standards around 19:10 or earlier if telops allows
        428.D.a
        428.E.a
        428.F.a
+       2021jkd_P1 [232.0 0.0]
+       2021jwl_P1 [234.0 5.0]
        (15 min)
 
        632.A.a  [241 25]
@@ -147,8 +150,7 @@ Can start standards around 19:10 or earlier if telops allows
 
 # DESI Block + 477 + 632 + 428 + 376 should end around 04:05
 
-04:05  2021jvs_P1.json 
-       531.2021jvs.a [224 7]
+04:05  531.2021jvs.a [224 7]
        531.B.a [230 10]
        531.C.a
        531.D.a
@@ -182,9 +184,9 @@ Can start standards around 19:10 or earlier if telops allows
       (15 min)
 
       #IF YOU ARE RUNNING BEHIND, PLEASE STOP 544 FIELDS AT 6:08AM AND JUMP TO THESE SNE BELOW.
-05:50 2021ify_P3  [262 13]
-      2021koq_P1  [273 6]
-      2021juw_P3 [297 -20] 
+05:50 2021koq_P1  [273 6]
+      2021juw_P1 [297 -20] 
+      
       SDSSJ2140-0000
 
 
@@ -200,3 +202,13 @@ Backup/Filler
 494.E.a
 494.F.a
 (20 min)
+
+
+
+DEBASS FILLER
+2021iov_P2 [142.0 -6.0]
+2021ipf_P2 [174.0 -6.0]
+2021hvo_P2 [200.0 -41.0]
+2021jvs_P2 [223.0 6.0]
+2021ipb_P2 [241.0 13.0]
+2021hji_P2 [252.0 22.0]

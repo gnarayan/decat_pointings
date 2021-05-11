@@ -78,12 +78,12 @@ Can start standards around 19:10 or earlier if telops allows
 
 21:55   COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-22:25   2021khn_P1 [195.0 -5.0]
-        418.A [154 -3]
+22:25   418.A [154 -3]
         2021kom_P1 [155 3]
         468.F.2021kut.json
         2021kut_P1 [158 6]
         2021hup_P1 [178 -7]
+        2021khn_P1 [195.0 -5.0]
         423.E.a.21fxy.json [198 -20] 
         2021kre_P1 [206 -7]
         2021hwk_P1 [214.0 -7.0]

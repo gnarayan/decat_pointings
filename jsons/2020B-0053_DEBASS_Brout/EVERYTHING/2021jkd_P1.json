@@ -1,0 +1,16 @@
+[
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 232.37114,
+        "dec": 0.14004,
+        "object": "2021jkd_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021jkd_P1",
+        "wait": "False",
+        "propid": "2021A-0275"
+    }
+]

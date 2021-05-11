@@ -111,13 +111,14 @@ Can start standards around 19:10 or earlier if telops allows
 
 # interrupt DESI block to do SN + 376 + 583
 
-00:30  376.2020esm.a [220 -8]
+00:30  2021ltk_P1 [211 -39]
+       376.2020esm.a [220 -8]
        376.B.a
        376.C.a
        376.D.a
        376.E.a
        376.F.a
-       (15 min)
+       (20 min)
 
        583.2021kpu.a.json
        2021kpu_P1  [231 22]
@@ -164,14 +165,14 @@ Can start standards around 19:10 or earlier if telops allows
 
 # DISABLE GUIDING FOR DECAPS
 
-04:30 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+04:35 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:55 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
+05:00 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
-05:20 440.A.a [314 -4]
+05:25 440.A.a [314 -4]
       440.B.a
       440.C.a
       440.D.a
@@ -179,7 +180,7 @@ Can start standards around 19:10 or earlier if telops allows
       440.F.a
       (15 min)
 
-05:35 544.A.a [320 9]
+05:40 544.A.a [320 9]
       544.B.a
       544.C.a
       544.D.a
@@ -188,7 +189,7 @@ Can start standards around 19:10 or earlier if telops allows
       (15 min)
 
       #IF YOU ARE RUNNING BEHIND, PLEASE STOP 544 FIELDS AT 6:08AM AND JUMP TO THESE SNE BELOW.
-05:50 2021koq_P1  [273 6]
+05:55 2021koq_P1  [273 6]
       2021juw_P1 [297 -20] 
       
       SDSSJ2140-0000

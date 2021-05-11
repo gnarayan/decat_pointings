@@ -112,6 +112,7 @@ Can start standards around 19:10 or earlier if telops allows
 # interrupt DESI block to do SN + 376 + 583
 
 00:30  2021ltk_P1 [211 -39]
+       181.A.2021ltk 
        376.2020esm.a [220 -8]
        376.B.a
        376.C.a
@@ -180,6 +181,7 @@ Can start standards around 19:10 or earlier if telops allows
       440.F.a
       (15 min)
 
+# IF YOU ARE RUNNING BEHIND, DROP FROM 544 POINTINGS 
 05:40 544.A.a [320 9]
       544.B.a
       544.C.a

@@ -21,21 +21,39 @@ def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
     totaltime = 0.
     totaltime_p1 = 0
     lastid=''
+    iobserve = open('iobserve.txt','w')
+    pout = []
     for i,row in df.iterrows():
         #print(row['ids'])
-
         if i==0:
             slewtime = 0
         else:
             #print(row['ra'],row['dec'])
             if row['ids'] != lastid:
-                print('%s %d.0 %d.0'%(row['ids'],row['ra'],row['dec']))
+                iobserve.write('%s %d.0 %d.0\n'%(row['ids'],row['ra'],row['dec']))
+                pout.append('%s [%d %d]'%(row['ids'],row['ra'],row['dec']))
                 lastid=row['ids']
             slewtime = slewtime_from_two_coords(row['ra'],row['dec'],df['ra'][i-1],df['dec'][i-1])
         totaltime += row['exptime']+slewtime+readout
         if '_P1' in row['ids']:
             totaltime_p1 += row['exptime']+slewtime+readout
-            
+    iobserve.close()
+    for p in pout:
+        if '_P1' in p:
+            print(p)
+    print()
+    for	p in pout:
+        if '_P2' in p:
+            print(p)
+    print()
+    for p in pout:
+        if '_P3' in p:
+            print(p)
+    print()
+    for p in pout:
+        if '_TCTM' in p:
+            print(p)
+
     return totaltime,totaltime_p1
         
 def get_ras_decs_exptimes_from_json(json):

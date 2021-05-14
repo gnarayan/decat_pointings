@@ -1,20 +1,20 @@
 May 14, 2021
 Times are local (UTC) for CTIO
 
-mjd 59348, date 20210513, Site CTIO, UT-offset 4 hr
-Current local time 07:41 -04     UT 11:41     SidTim 22:26
+mjd 59349, date 20210514, Site CTIO, UT-offset 4 hr
+Current local time 08:24 -04     UT 12:24     SidTim 23:13
 Event      Local-Time  Greenwich  Sidereal-Time
-Sunset     18:05 -04  22:05 UT   08:50  132 deg  
-Eve. -10   18:42 -04  22:42 UT   09:26  142 deg  Zeropoint; standards
-Eve. -14   19:01 -04  23:01 UT   09:46  146 deg  Begin obstac
-Moonset    19:19 -04  23:19 UT   10:04  151 deg  
-Eve. -18   19:20 -04  23:20 UT   10:05  151 deg  Last chance standards
-Midpoint   00:39 -04  04:39 UT   15:24  231 deg  
-Morn -18   05:59 -04  09:59 UT   20:43  311 deg  Begin astronomical twilight
-Morn -14   06:17 -04  10:17 UT   21:01  315 deg  End obstac; begin standards
-Morn -10   06:37 -04  10:37 UT   21:21  320 deg  
-Sunrise    07:13 -04  11:13 UT   21:58  330 deg  
-Moon position (deg): RA 78.3, Dec 24.0 Phase: 0.135
+Sunset     18:05 -04  22:05 UT   08:53  133 deg
+Eve. -10   18:41 -04  22:41 UT   09:30  142 deg  Zeropoint; standards
+Eve. -14   19:01 -04  23:01 UT   09:49  147 deg  Begin obstac
+Eve. -18   19:20 -04  23:20 UT   10:08  152 deg  Last chance standards
+Moonset    20:03 -04  00:03 UT   10:52  163 deg
+Midpoint   00:39 -04  04:39 UT   15:28  232 deg
+Morn -18   05:59 -04  09:59 UT   20:48  312 deg  Begin astronomical twilight
+Morn -14   06:17 -04  10:17 UT   21:06  316 deg  End obstac; begin standards
+Morn -10   06:37 -04  10:37 UT   21:26  322 deg
+Sunrise    07:14 -04  11:14 UT   22:02  330 deg
+Moon position (deg): RA 91.2, Dec 25.5 Phase: 0.202
 
 Time between eve and morning twilight (14 deg):  674 minutes
 Time between sunset and sunrise: 785 minutes
@@ -38,8 +38,8 @@ FOR STANDARDS GET ugriz!!
 19:00   S-CVZ.json [90 -67]  (12 min)
         415.A.2021koj.json
         2021kly_P1 [125 14]
-	2021law_P1 [140 4]
-	2021iov_P1 [142 -6]
+        2021law_P1 [140 4]
+        2021iov_P1 [142 -6]
         2021lnf_P1 [143 -16]
         365.A.2021lnf [143 -16]
         (30 min total)
@@ -47,15 +47,9 @@ FOR STANDARDS GET ugriz!!
 19:30   # CAN START AS EARLY AS -18 sun angle
         COSMOS-DDF-SEQ C (23 min + 7 min setup, cosmos_ddf_seq_C.json) [149 2]  
 
-20:00   474.A.a [190 6]
-        474.B_1.a
-        474.C.a
-        474.D.a
-        474.E.a
-        474.F.a
-        (20 min)
+20:00  etale.g.30min.json [162, -60]
 
-20:20   575.B.a [178 21]
+20:30   575.B.a [178 21]
         2021low_P1 [175.0 21.0]
         525.A.a [186 15]
         525.A.b [189 15] 
@@ -72,13 +66,13 @@ FOR STANDARDS GET ugriz!!
         525.D.b [185 12]
         (45 min)
 
-21:00   COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
+21:15   COSMOS-DDF-SEQ A (23 min + 7 min setup, cosmos_ddf_seq_A.json) [150 2]
 
-21:30   418.A [154 -3]
+21:45   418.A [154 -3]
         2021kom_P1 [155 3]
         468.F.2021kut.json
         2021kut_P1 [158 6]
-	2021khn_P1 [195.0 -5.0]
+        2021khn_P1 [195.0 -5.0]
         423.E.a.21fxy.json [198 -20] 
         2021kre_P1 [206 -7]
         2021kxf_P1 [204 2]
@@ -92,11 +86,11 @@ FOR STANDARDS GET ugriz!!
         ***************************************
         (30 min)
 
-22:00   COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
+22:15   COSMOS-DDF-SEQ B (23 + 7  min setup, cosmos_ddf_seq_B.json) [150 2]
         (want ~1h between COSMOS pointings for short timescale variability)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-22:30 desidot_rz_VVDS.json
+22:45 desidot_rz_VVDS.json
       desidot_grz_short_1.json
       desidot_grz_short_2.json
       desidot_grz_short_3.json
@@ -158,18 +152,18 @@ FOR STANDARDS GET ugriz!!
        531.F.a
        (20 min)
 
-# DESI BLOCK SHOULD END AT 3:45
+# DESI BLOCK SHOULD END AT 3:55
 
 # DISABLE GUIDING FOR DECAPS
 
-03:45 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+03:55 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
 --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
 
-04:15 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
+04:25 DECaPSEast-DDF-B (decapseast_ddf_B.json, same as above, but no extra setup)
 
 ### Reset guider exposure time to 600ms
 
-04:45 440.A.a [314 -4]
+04:55 440.A.a [314 -4]
       440.B.a
       440.C.a
       440.D.a
@@ -178,7 +172,7 @@ FOR STANDARDS GET ugriz!!
       (15 min)
 
 # IF YOU ARE RUNNING BEHIND, DROP FROM 544 POINTINGS AND SKIP TO E12 at 5:40
-05:00 544.A.a [320 9]
+05:10 544.A.a [320 9]
       544.B.a
       544.C.a
       544.D.a
@@ -187,7 +181,7 @@ FOR STANDARDS GET ugriz!!
       (15 min)
 
 
-05:15 25 MIN OF SLOP!!!!!
+05:25 15 MIN OF SLOP!!!!!
 
 # if you get here and it's before 05:40, do 494 fillers until 5:38
 05:40 E12.json [9 -45]

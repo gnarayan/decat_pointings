@@ -18,6 +18,7 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
     sn_moon_sep = min(moon_coord.separation(SN_coord).degree)
     
     SN_target = FixedTarget(coord=SN_coord, name='%s: %d deg moon sep'%(name,sn_moon_sep))
+    print('%s: %d deg moon sep'%(name,sn_moon_sep))
     moon_target = FixedTarget(coord=moon_coord, name='Moon')
 
     moon_styles = {'linestyle': ':', 'color': 'grey'}

@@ -1,7 +1,35 @@
 [
     {
         "count": 1,
+        "filter": "g",
+        "exptime": 5.0,
+        "RA": 211.94327,
+        "dec": -39.62687,
+        "object": "2021ltk_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021ltk",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
         "filter": "r",
+        "exptime": 5.0,
+        "RA": 211.94327,
+        "dec": -39.62687,
+        "object": "2021ltk_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021ltk",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
         "exptime": 5.0,
         "RA": 211.94327,
         "dec": -39.62687,

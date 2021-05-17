@@ -16,8 +16,8 @@ Morn -10   06:39 -04  10:39 UT   21:39  325 deg
 Sunrise    07:16 -04  11:16 UT   22:16  334 deg
 Moon position (deg): RA 131.1, Dec 22.8 Phase: 0.410
 
-Time between eve and morning twilight (14 deg):  674 minutes
-Time between sunset and sunrise: 785 minutes
+Time between eve and morning twilight (14 deg):  680 minutes
+Time between sunset and sunrise: 793 minutes
 
 Times below are LOCAL TIME IN CHILE
 [] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
@@ -196,3 +196,9 @@ Backup/Filler
 --------------
 2021igt_P2 [190 21]
 2021hji_P2 [252.0 22.0]
+550.A.a [3 21]
+550.B.a
+550.C.a
+550.D.a
+550.E.a
+550.F.a

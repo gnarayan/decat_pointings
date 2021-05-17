@@ -124,7 +124,7 @@ Can start standards around 19:10 or earlier if telops allows
        583.F.a
        (25 min)
 
-00:20  531.2021jvs.a [224 7]
+00:20  531.A.2021jvs [224 7]
        531.B.a [230 10]
        531.C.a
        531.D.a

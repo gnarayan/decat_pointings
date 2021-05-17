@@ -34,7 +34,7 @@ Can start standards around 19:10 or earlier if telops allows
 
 18:40   Twilight - Please start Promptly
         SDSSJ1048-0000 [STANDARD ]
-        21jad_long.json [82 -21]  (5 min)
+        2021jad_long.json [82 -21]  (5 min)
         2021ill [139 -30]
         2021knh_P1 [138 -27]
         (20 min total) 

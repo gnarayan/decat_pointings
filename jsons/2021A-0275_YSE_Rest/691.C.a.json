@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "g",
+		"exptime": 50.0,
+		"RA": 339.093440,
+		"dec": 31.787190,
+		"object": "691.C.a",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "691.C.a",
+		"wait": "False",
+		"propid": "2021A-0275"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 50.0,
+		"RA": 339.093440,
+		"dec": 31.787190,
+		"object": "691.C.a",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "691.C.a",
+		"wait": "False",
+		"propid": "2021A-0275"
+	}
+]

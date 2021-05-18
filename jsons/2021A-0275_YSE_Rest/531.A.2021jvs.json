@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "g",
+		"exptime": 50.0,
+		"RA": 223.751410,
+		"dec": 6.691500,
+		"object": "531.A.2021jvs",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "531.A.2021jvs",
+		"wait": "False",
+		"propid": "2021A-0275"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 50.0,
+		"RA": 223.751410,
+		"dec": 6.691500,
+		"object": "531.A.2021jvs",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "531.A.2021jvs",
+		"wait": "False",
+		"propid": "2021A-0275"
+	}
+]

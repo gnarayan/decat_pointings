@@ -664,7 +664,7 @@ class calcTimeclass(pdastroclass):
 
 if __name__ == "__main__":
     calcTime = calcTimeclass()
-    usagestring='USAGE: calcTime.py qcinv_filename'
+    usagestring='USAGE: calcTime.py YYYYMMDD'
     parser=calcTime.add_arguments(usage=usagestring)
     args = parser.parse_args()
     
@@ -690,7 +690,7 @@ if __name__ == "__main__":
     if args.add2semestersummary:
         calcTime.add2semestersummary(args.semester_summaryfile)
         calcTime.semestersummary.summarystatistics()
-        calcTime.semestersummary.showtables()
+        calcTime.semestersummary.showtables(verbose=calcTime.verbose)
     
     if len(calcTime.warnings)>0:
         print('THERE WERE WARNINGS!!!')

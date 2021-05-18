@@ -1,7 +1,9 @@
+calcTime4programs.py 20210514 -vvs  -a
+calcTime4programs.py 20210511 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210508 -vvs --downtime 0 DEBASS rest -r STANDARD1 SHEN -a
 
-calcTime4programs.py 20210505 -vvs  
-calcTime4programs.py 20210502 -vvs  
-
+calcTime4programs.py 20210505 -vvs  -a
+calcTime4programs.py 20210502 -vvs  -a
 calcTime4programs.py 20210428 -vvs  -a
 calcTime4programs.py 20210426 -vvs -r Drlica_TRADE YSE -a
 calcTime4programs.py 20210424 -vvs -a
@@ -15,18 +17,8 @@ calcTime4programs.py 20210402 -vvs --downtime 980630 DDF rest -a
 calcTime4programs.py 20210330 -vvs -a
 calcTime4programs.py 20210327 -vvs -r Drlica_TRADE YSE -a
 calcTime4programs.py 20210323 -vvs -r Rector_TRADE YSE -r UNKNOWN1 YSE -a
-is UNKNOWN Drlica?
 calcTime4programs.py 20210321 -vvs -r Rector_TRADE YSE -a
-
-calcTime4programs.py 20210318 -vvs -r Miller_TRADE YSE -r STANDARDS1 DEBASS --downtime 974998 DDF 1.1hours DESI 3.51hours YSE 1320sec DEBASS 870sec -a
-30 min still missing to assign.
-
-calcTime4programs.py test1.qcinv -r 2021A-0010_Rector_TRADE 2021A-0275_YSE -r UNKNOWN1 2021A-0275_YSE -vv --downtime 976549 2020B-0053_DEBASS 90sec 2021A-0275_YSE rest --downtime 976582 2021A-0113_DDF 5min
-
-
-calcTime4programs.py 20210323 -vvs -r 2021A-0010_Rector_TRADE 2021A-0275_YSE -r UNKNOWN1 2021A-0275_YSE
-
-calcTime4programs.py  2021A/20210323/test1.qcinv -r 2021A-0010_Rector_TRADE 2021A-0275_YSE -r UNKNOWN1 2021A-0275_YSE -vv --downtime 976549 2020B-0053_DEBASS 90sec 2021A-0275_YSE rest --downtime 976582 2021A-0113_DDF 5min 
+calcTime4programs.py 20210318 -vvs -r Miller_TRADE YSE -r STANDARDS1 DEBASS --downtime 974998 DDF 1.1hours DESI 3.51hours YSE 0.835hours DEBASS 0.54hours -a
 
 
 Trades:

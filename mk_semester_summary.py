@@ -174,12 +174,13 @@ class semester_summary_class(pdastroclass):
             self.t.loc[ix_excess,col] = self.t.loc[ix_tot_used,col]-self.t.loc[ix_tot,col]*n_nights_obs/n_nights
  
 
-    def showtables(self):
-        for timetype in ['t_dark']:
-        #for timetype in self.timetypes:
-            print('\n####',timetype)
-            #timetypecols = ['t_dark_used','t_dark_avail'] 
-            self.write(columns = ['night','t_dark14','t_dark_used','t_unacc']+self.cols4time[timetype])
+    def showtables(self,verbose=0):
+        print('\n### t_dark',verbose)
+        self.write(columns = ['night','t_dark14','t_dark_used','t_unacc']+self.cols4time['t_dark'])
+        if verbose>2:
+            for timetype in ['t_twi1','t_twi2','t_down']:
+                print('\n### %s' % timetype)
+                self.write(columns = ['night','t_dark14','t_dark_used','t_unacc']+self.cols4time[timetype])
         
         
 if __name__ == "__main__":

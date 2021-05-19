@@ -1,3 +1,4 @@
+calcTime4programs.py 20210517 -vvs  -a
 calcTime4programs.py 20210514 -vvs  -a
 calcTime4programs.py 20210511 -vvs -r UNKNOWN1 YSE -a
 calcTime4programs.py 20210508 -vvs --downtime 0 DEBASS rest -r STANDARD1 SHEN -a

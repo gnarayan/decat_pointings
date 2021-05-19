@@ -28,16 +28,17 @@ class semesterinfoclass:
             YSE2EtaCar = 4.71
             Shen2YSE = 0.7861
             DEBASS2YSE = 0.9379
+            EtaCar2YSE_nextsem = 12.0
 
             self.programlist = {
                 'Shen':7.2+8.233+1.33 -  Shen2YSE,
                 'Martini':1.867,
                 'eFEDS':8.75,
-                'YSE':70.0 - YSE2EtaCar + Shen2YSE + DEBASS2YSE,
+                'YSE':70.0 - YSE2EtaCar + Shen2YSE + DEBASS2YSE + EtaCar2YSE_nextsem,
                 'DEBASS':29.0 - DEBASS2YSE,
                 'DDF':58.0,
                 'DESI':97.0,
-                'EtaCar':17.0 + YSE2EtaCar
+                'EtaCar':17.0 + YSE2EtaCar - EtaCar2YSE_nextsem
 
 #                '2019A-0065_Shen':7.2+8.233+1.33,
 #                '2019B-0304_Martini':1.867,

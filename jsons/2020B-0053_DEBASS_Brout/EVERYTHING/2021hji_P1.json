@@ -1,7 +1,7 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "2",
         "exptime": 20.0,
         "RA": 252.33243,
         "dec": 22.2583,
@@ -15,35 +15,7 @@
     },
     {
         "count": 1,
-        "filter": "r",
-        "exptime": 20.0,
-        "RA": 252.33243,
-        "dec": 22.2583,
-        "object": "2021hji_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2021hji_P1",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "i",
-        "exptime": 20.0,
-        "RA": 252.33243,
-        "dec": 22.2583,
-        "object": "2021hji_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2021hji_P1",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
+        "filter": "0",
         "exptime": 20.0,
         "RA": 252.33243,
         "dec": 22.2583,

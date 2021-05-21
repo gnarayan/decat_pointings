@@ -1,0 +1,192 @@
+May 21, 2021
+Times are local (UTC) for CTIO
+
+mjd 59356, date 20210521, Site CTIO, UT-offset 4 hr
+Current local time 10:35 -04     UT 14:35     SidTim 01:51
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     18:01 -04  22:01 UT   09:17  139 deg
+Eve. -10   18:38 -04  22:38 UT   09:54  148 deg  Zeropoint; standards
+Eve. -14   18:58 -04  22:58 UT   10:14  154 deg  Begin obstac
+Eve. -18   19:17 -04  23:17 UT   10:33  158 deg  Last chance standards
+Midpoint   00:40 -04  04:40 UT   15:56  239 deg
+Moonset    02:53 -04  06:53 UT   18:09  272 deg
+Morn -18   06:03 -04  10:03 UT   21:19  320 deg  Begin astronomical twilight
+Morn -14   06:21 -04  10:21 UT   21:37  324 deg  End obstac; begin standards
+Morn -10   06:41 -04  10:41 UT   21:57  329 deg
+Sunrise    07:18 -04  11:18 UT   22:34  338 deg
+Moon position (deg): RA 182.9, Dec 4.3 Phase: 0.680
+
+Time between eve and morning twilight (14 deg):  683 minutes
+Time between sunset and sunrise: 797 minutes
+
+Times below are LOCAL TIME IN CHILE
+[] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
+
+BACKUP/FILLER fields are listed at bottom
+
+FOR STANDARDS GET zirgu in evening twilight and ugriz in morning twilight!!
+If start is delayed, do not get standards if after -14 deg twilight in the evening!
+
+---------------------------- PLAN BEGINS -------------------------------
+
+18:07  Sunset - Setup
+
+18:42  Twilight - Start Promptly
+       SDSSJ1048-0000 [STANDARD ]
+       21jad_long.json [82 -21]  (5 min)
+       2021knh_P1 [138 -27]
+
+19:00  S-CVZ.json [90 -67]  (12 min)
+       2021kly_P1 [125 14]
+       2021jys_P1 [134 10]
+       2021law_P1 [140 4]
+       2021ibo_P2 [135 7]  (BACKUP FILLER - DO IF AHEAD)
+       2021iov_P1 [142 -6] (BACKUP FILLER - DO IF AHEAD)
+       (20 min total)
+
+       # CAN START AS EARLY AS -18 sun angle
+19:20  COSMOS-AGN-1 (10 min, cosmos_agn_1.json) [150 3]  
+       COSMOS-AGN-2 (10 min, cosmos_agn_2.json) [149 2]
+       COSMOS-AGN-3 (10 min, cosmos_agn_3.json) [151 2]
+       (30 min + 5 min setup total)
+
+19:55  2021kom_P1 [155 3]
+       468.F.2021kut.json [158 7]
+       418.A.a [154 -3]
+       423.E.a.21fxy.json [198 -20] 
+       2021kre_P1 [206 -7] 
+       2021kxf_P1 [204 2]a (BACKUP FILLER - DO IF AHEAD, ELSE SKIP)
+       (30 min)
+
+20:25  575.B.a [178 21]
+       2021low_P1 [175 21]
+       (5 min)
+
+20:30  etale.g.30min.json
+       etale.i.15min.json
+       (45 min)
+
+** DESI Block (3h:30m total with setup) ** [220, 1] 
+21:15  desidot_rz_VVDS.json
+       desidot_grz_short_1.json
+       desidot_grz_short_2.json
+       desidot_grz_short_3.json
+       desidot_grz_short_4.json
+       desidot_g.json
+
+# interrupt DESI block to do the following fields when indicated
+# and then swap back to DESI
+
+21:45  577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+       2021lxb_P1 [195 28]
+       (5 min)
+
+23:30  181.A.2021ltk [211 -39]
+       376.2020esm.a [220 -8]
+       376.B.a
+       376.C.a
+       376.D.a
+       376.E.a
+       376.F.a
+       629.A.2021lat.json [220 24]
+       (25 min)
+
+23:55  2021kpu_P1  [231 22]
+       583.2021kpu.a.json
+       428.A.a [230 -3]
+       428.B.a
+       428.C.a
+       428.D.a
+       428.E.a
+       428.F.a
+       2021hwk_P2 [214 -7] (BACKUP FILLER - DO IF AHEAD)
+       (20 min)
+
+00:15  531.2021jvs.a [224 7]
+       531.B.a [230 10]
+       531.C.a
+       531.D.a
+       531.E.a
+       531.F.a
+       (20 min)
+
+00:35  583.A.a [245 14]
+       583.B.a [240 20]
+       583.C.a
+       583.E_1.a
+       583.F.a
+       (15 min)
+
+00:50  632.A.a  [241 25]
+       632.B.a
+       632.C.a
+       632.D.a
+       632.E.a
+       632.F.a
+       2021hji_P2 [252 22]
+       (20 min)
+
+# resume DESI block wherever you left off
+# DESI BLOCK SHOULD END AT 02:20 ish
+
+02:20  2021koq_P1  [273 6]
+       2021juw_P1 [297 -20]
+       (5 min)
+
+### DISABLE GUIDING FOR DECAPS
+02:25  DECaPSEast-DDF-A (decapseast_ddf_A.json) [270 -29]
+       DECaPSEast-DDF-B (decapseast_ddf_B.json)
+       DECaPSEast-DDF-B 
+       DECaPSEast-DDF-A
+### RESET GUIDER EXPOSURE TIME TO 600MS
+
+03:35  440.A.a [314 -4]
+       440.B.a
+       440.C.a
+       440.D.a
+       440.E.a
+       440.F.a
+       (20 min)
+
+03:55  544.A.a [320 9]
+       544.B.a
+       544.C.a
+       544.D.a
+       544.E.a
+       544.F.a
+       (20 min)
+
+04:15  494.A.a [331 6]
+       494.B.a
+       494.C.a
+       494.D.a
+       494.E.a
+       494.F.a
+       (20 min)
+
+04:35  (1h to fill) 
+
+
+05:40  E12.json [9 -45]
+       (25 min)
+
+06:05  550.A.a [3 21]
+       550.B.a
+       550.C.a
+       550.D.a
+       550.E.a
+       550.F.a
+
+06:21  SDSSJ2140-0000 [STANDARDA]
+
+06:41 is -10 deg twilight - do repeats of DECaPS East if need be to fill
+
+---------------------------- PLAN ENDS -------------------------------
+
+Backup/Filler
+--------------
+2021iov_P2 [142 -6]
+2021ibo_P2 [135 7]
+2021kxf_P2 [204 2]
+2021hwk_P2 [214 -7]
+2021hji_P2 [252 22]

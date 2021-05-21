@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 25.0,
+        "exptime": 15.0,
         "RA": 125.92096,
         "dec": 14.09687,
         "object": "2021kly_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 25.0,
+        "exptime": 15.0,
         "RA": 125.92096,
         "dec": 14.09687,
         "object": "2021kly_P1",

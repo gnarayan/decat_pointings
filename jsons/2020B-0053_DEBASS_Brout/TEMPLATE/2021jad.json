@@ -1,50 +1,8 @@
 [
-    {
-		"count": 1,
-		"filter": "Y",
-		"exptime": 5.0,
-		"RA": 83.006370,
-		"dec": -21.855490,
-		"object": "2021jad_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021jad_P1",
-		"wait": "False",
-		"propid": "2021A-0275"
-	},
 	{
 		"count": 1,
 		"filter": "z",
-		"exptime": 2,
-		"RA": 83.006370,
-		"dec": -21.855490,
-		"object": "2021jad_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021jad_P1",
-		"wait": "False",
-		"propid": "2020B-0053"
-	},
-	{
-		"count": 1,
-		"filter": "z",
-		"exptime": 2,
-		"RA": 83.006370,
-		"dec": -21.855490,
-		"object": "2021jad_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021jad_P1",
-		"wait": "False",
-		"propid": "2021A-0275"
-	},
-	{
-		"count": 1,
-		"filter": "i",
-		"exptime": 2,
+		"exptime": 5,
 		"RA": 83.006370,
 		"dec": -21.855490,
 		"object": "2021jad_P1",
@@ -58,21 +16,7 @@
 	{
 		"count": 1,
 		"filter": "i",
-		"exptime": 2,
-		"RA": 83.006370,
-		"dec": -21.855490,
-		"object": "2021jad_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021jad_P1",
-		"wait": "False",
-		"propid": "2021A-0275"
-	},
-	{
-		"count": 1,
-		"filter": "r",
-		"exptime": 2,
+		"exptime": 5,
 		"RA": 83.006370,
 		"dec": -21.855490,
 		"object": "2021jad_P1",
@@ -86,21 +30,7 @@
 	{
 		"count": 1,
 		"filter": "r",
-		"exptime": 2,
-		"RA": 83.006370,
-		"dec": -21.855490,
-		"object": "2021jad_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021jad_P1",
-		"wait": "False",
-		"propid": "2021A-0275"
-	},
-	{
-		"count": 1,
-		"filter": "g",
-		"exptime": 2,
+		"exptime": 5,
 		"RA": 83.006370,
 		"dec": -21.855490,
 		"object": "2021jad_P1",
@@ -114,7 +44,7 @@
 	{
 		"count": 1,
 		"filter": "g",
-		"exptime": 2,
+		"exptime": 5,
 		"RA": 83.006370,
 		"dec": -21.855490,
 		"object": "2021jad_P1",
@@ -123,20 +53,6 @@
 		"note": "None",
 		"comment": "2021jad_P1",
 		"wait": "False",
-		"propid": "2021A-0275"
-	},
-	{
-		"count": 1,
-		"filter": "u",
-		"exptime": 50.0,
-		"RA": 83.006370,
-		"dec": -21.855490,
-		"object": "2021jad_P1",
-		"program": "DECAT",
-		"expType": "object",
-		"note": "None",
-		"comment": "2021jad_P1",
-		"wait": "False",
-		"propid": "2021A-0275"
+		"propid": "2020B-0053"
 	}
 ]

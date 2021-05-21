@@ -15,7 +15,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "r",
+		"filter": "i",
 		"exptime": 50.0,
 		"RA": 244.361680,
 		"dec": 35.307690,

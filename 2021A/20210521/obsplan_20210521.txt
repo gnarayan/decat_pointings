@@ -164,7 +164,7 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        494.F.a
        (20 min)
 
-04:35  (1h to fill) 
+04:35  
 
 
 05:40  E12.json [9 -45]
@@ -177,7 +177,13 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        550.E.a
        550.F.a
 
-06:21  SDSSJ2140-0000 [STANDARDA]
+06:21  448.A.a [14 6]
+       448.B.a 
+       448.C.a
+       448.D.a
+       448.E.a
+       448.F.a
+       SDSSJ2140-0000 [STANDARD]
 
 06:41 is -10 deg twilight - do repeats of DECaPS East if need be to fill
 

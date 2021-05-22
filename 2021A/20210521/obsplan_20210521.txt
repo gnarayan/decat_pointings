@@ -164,14 +164,12 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        494.F.a
        (20 min)
 
-04:35 ELAIS-S1 (elaiss1_ddf_seq.json) [10 -44] 
+04:35 ELAIS-S1 (elais_ddf_seqA.json) [10 -44] 
       (30 min)
-05:05 ELIAS-S1 (elaiss1_ddf_seq.json)
+05:05 ELIAS-S1 (elais_ddf_seqB.json)
       (30 min)
-# repeat ELAIS-S1 until 05:40 then switch to E12.json (which is also basically the same field)
+# repeat elais_ddf_seqA until 06:05 then switch to 550
 
-05:40  E12.json [9 -45]
-       (25 min)
 
 06:05  550.A.a [3 21]
        550.B.a

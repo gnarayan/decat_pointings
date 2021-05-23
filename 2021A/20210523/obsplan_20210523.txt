@@ -96,16 +96,10 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
 # and then swap back to DESI
 
 23:30  181.A.2021ltk [211 -39]
-       376.2020esm.a [220 -8]
-       376.B.a
-       376.C.a
-       376.D.a
-       376.E.a
-       376.F.a
        629.A.2021lat.json [220 24]
-       (25 min)
+       (5 min)
 
-23:55  2021kpu_P1  [231 22]
+23:35  2021kpu_P1  [231 22]
        583.2021kpu.a.json
        428.A.a [230 -3]
        428.B.a
@@ -115,7 +109,7 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        428.F.a
        (20 min)
 
-00:15  531.2021jvs.a [224 7]
+23:55  531.2021jvs.a [224 7]
        531.B.a [230 10]
        531.C.a
        531.D.a
@@ -123,14 +117,14 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        531.F.a
        (20 min)
 
-00:35  583.A.a [245 14]
+00:15  583.A.a [245 14]
        583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a
        (15 min)
 
-00:50  632.A.a  [241 25]
+00:35  632.A.a  [241 25]
        632.B.a
        632.C.a
        632.D.a

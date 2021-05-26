@@ -72,15 +72,19 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        (45 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-20:50  desidot_rz_VVDS.json
-       desidot_grz_short_1.json
-       desidot_grz_short_2.json
-       desidot_grz_short_3.json
-       desidot_grz_short_4.json
-       desidot_g.json
+20:50  desidot_riz_G12.json
+       desidot_r_G12.json
+       desidot_riz_VVDS.json
+       desidot_r_VVDS.json
+
+       # BEFORE STARTING G15 MAKE SURE YOU INFORM ALFREDO
+       # He is going to scale exposure times on the fly
+       desidot_iz_G15.json
+       desidot_iz_G15.json (not a typo - repeat again)
 
 # interrupt DESI block to do the following fields when indicated
 # and then swap back to DESI
+
 21:25  577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
        2021lxb_P1 [195 28]
        (5 min)

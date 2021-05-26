@@ -1,6 +1,20 @@
 [
     {
         "count": 1,
+        "filter": "g",
+        "exptime": 15.0,
+        "RA": 220.38288,
+        "dec": 24.21769,
+        "object": "2021lat_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021lat",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
         "filter": "r",
         "exptime": 15.0,
         "RA": 220.38288,

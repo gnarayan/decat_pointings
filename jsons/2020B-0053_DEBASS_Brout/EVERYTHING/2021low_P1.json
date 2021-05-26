@@ -1,15 +1,15 @@
 [
     {
         "count": 1,
-        "filter": "i",
+        "filter": "g",
         "exptime": 15.0,
-        "RA": 134.76836,
-        "dec": 10.176,
-        "object": "2021jys_P1",
+        "RA": 175.85499,
+        "dec": 21.04399,
+        "object": "2021low_P1",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2021jys_P1",
+        "comment": "2021low",
         "wait": "False",
         "propid": "2020B-0053"
     },
@@ -17,13 +17,13 @@
         "count": 1,
         "filter": "r",
         "exptime": 15.0,
-        "RA": 134.76836,
-        "dec": 10.176,
-        "object": "2021jys_P1",
+        "RA": 175.85499,
+        "dec": 21.04399,
+        "object": "2021low_P1",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2021jys_P1",
+        "comment": "2021low",
         "wait": "False",
         "propid": "2020B-0053"
     }

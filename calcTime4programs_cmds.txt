@@ -1,7 +1,22 @@
-calcTime4programs.py 20210517 -vvs  -a
-calcTime4programs.py 20210514 -vvs  -a
-calcTime4programs.py 20210511 -vvs -r UNKNOWN1 YSE -a
-calcTime4programs.py 20210508 -vvs --downtime 0 DEBASS rest -r STANDARD1 SHEN -a
+calcTime4programs.py 20210526 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210523 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210521 -vvs -r UNKNOWN1 YSE -a
+
+standard: 0.1708
+(0.1708+11.31-10.41)/7= 0.152
+calcTime4programs.py 20210517 -vvs  -r UNKNOWN1 YSE -a -r STANDARDS2 YSE --downtime 998959 EtaCar 0.15hours Shen  0.15hours eFEDS  0.15hours DEBASS 0.15hours DDF 0.15hours DESI 0.15hours
+
+standard: 0.0833
+(0.0833+11.26-10.98)/7=0.052hours  for each program
+calcTime4programs.py 20210514 -vvs  -r UNKNOWN1 YSE -a -e 997658 997660 YSE -e 997661 997662 EtaCar --downtime 997662 EtaCar 0.02hours Shen  0.043hours eFEDS  0.043hours DEBASS 0.043hours DDF 0.043hours DESI 0.043hours
+
+standard: 0.09
+(0.09+11.2-10.82)/7=0.067hours for each program
+-e 996558 996561 YSE -e 996562 996563 EtaCar --downtime 996563 EtaCar 0.02 
+calcTime4programs.py 20210511 -vvs -r UNKNOWN1 YSE -a -e 996558 996561 YSE -e 996562 996563 EtaCar --downtime 996563 EtaCar 0.026hours Shen  0.066hours eFEDS  0.062hours DEBASS 0.066hours DDF 0.066hours DESI 0.066hours
+
+#calcTime4programs.py 20210508 -vvs --downtime 995023 DEBASS rest -r STANDARDS1 SHEN --downtime 995209 YSE 2.2hours DESI rest -a
+calcTime4programs.py 20210508 -vvs --downtime 995023 YSE 0.07hours DEBASS rest -r STANDARDS1 SHEN --downtime 995209 YSE 2.2hours DESI rest -a -e 995210 995228 Martini -e 995229 995256 DESI
 
 calcTime4programs.py 20210505 -vvs  -a
 calcTime4programs.py 20210502 -vvs  -a

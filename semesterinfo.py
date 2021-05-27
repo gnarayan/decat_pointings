@@ -28,7 +28,7 @@ class semesterinfoclass:
             YSE2EtaCar = 4.71
             Shen2YSE = 0.7861
             DEBASS2YSE = 0.9379
-            EtaCar2YSE_nextsem = 12.0
+            EtaCar2YSE_nextsem = 13.0
 
             self.programlist = {
                 'Shen':7.2+8.233+1.33 -  Shen2YSE,
@@ -54,11 +54,11 @@ class semesterinfoclass:
             # patterns to assign Objects 
             self.program2fieldpattern = {
                 'Shen':     ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
-                'Martini':   ['E1','E3','E2'],
+                'Martini':   ['^E1$','^E3$','^E2$'],
                 'eFEDS':     ['^eFEDS'],
                 'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$','^\d\d\d\.\w+\.2021'],
                 'DEBASS':    ['^2021\w+'],
-                'DDF':       ['^COSMOS','^DECaPS.*'],
+                'DDF':       ['^COSMOS','^DECaPS.*','^ELAIS'],
                 'DESI':      ['^TILEID\:\s+\d+'], 
                 'EtaCar':    ['^ec\d\d\d\d'],
                 'Drlica_TRADE': ['^DELVE'],

@@ -68,7 +68,8 @@ class calcTimeclass(pdastroclass):
         parser.add_argument('qcinvfile')
 
         parser.add_argument('-s','--save', nargs='*', help="Save the tables. if no argument is specified, then the input name is used as basename")
-        parser.add_argument('-r','--reassign', nargs=2, action="append", help="reassign one program block to another program")
+        parser.add_argument('-r','--reassign_block', nargs=2, action="append", help="blockID program. reassign one program block to another program")
+        parser.add_argument('-e','--reassign_expIDrange', nargs=3, action="append", help="exp_ID1 exp_ID2 program. reassign expID1--expID2 to program")
         parser.add_argument('--downtime', nargs='+', action="append", help="specify downtime: Last_exp_ID program1 time1 program2 time2 ...")
         parser.add_argument('--semester', default=default_semester, help='Specify the semester (default=%(default)s)')
         parser.add_argument('--semester_summaryfile', default=None, help='Specify the filename for the semester summary. If not specified, it will be <semester>/hours_summary.txt (default=%(default)s)')
@@ -179,7 +180,7 @@ class calcTimeclass(pdastroclass):
         None.
 
         """
-        if args.downtime is None:
+        if downtimelist is None:
             return(0)
         counter_downtime = 1
         downtimerows = pdastroclass(columns=['expid','time','Object','utdate','twi'])
@@ -297,6 +298,43 @@ class calcTimeclass(pdastroclass):
             raise RuntimeError('Bug? there should be some downtime?')
         
         return(0)
+
+    def reassignExpIDs(self,reassign_expIDrange):
+        """
+        Go through the list of expID ranges, and assign them the program.
+
+        Parameters
+        ----------
+        reassign_expIDrange : list of tuples
+            each tuple:
+            1st entry is first expID of range.
+            2nd entry is last expID of range.
+            The next entry is the program. 
+
+        Returns
+        -------
+        None.
+
+        """
+        if reassign_expIDrange is None:
+            return(0)
+
+        for (expID1,expID2,program) in reassign_expIDrange:
+            expID1=int(expID1)
+            expID2=int(expID2)
+            print('\n############\n### REASSIGNING expID %d-%d -> %s: ' % (expID1,expID2,program))
+            # The first entry of the downtime list is the expID after which the downtime should be added
+
+            ixs = self.qcinv.ix_inrange('expid',expID1,expID2)
+            if len(ixs)>0:
+                self.fill_qcinv_table(qcinv_indices = ixs)
+            else:
+                raise RuntimeError('Could not find expIDs!!!')
+                            
+            self.qcinv.t.loc[ixs,'program']=program
+                    
+        return(0)
+
         
 
     def fill_qcinv_table(self, qcinv_indices=None):
@@ -394,14 +432,8 @@ class calcTimeclass(pdastroclass):
         for i in range(len(ixs)):
             ix = ixs[i]
 
-            # check for DOWNTIME, already prefilled!
-            if (self.qcinv.t.loc[ix,'program'] is not None): 
-                if re.search('^DOWNTIME',self.qcinv.t.loc[ix,'program']):
-                    # all good!! Downtime!
-                    pass
-                else:
-                    raise RuntimeError('Program preset to %s, but not DOWNTIME???' % self.qcinv.t.loc[ix,'program'])
-            else:
+            # check if already prefilled!
+            if (self.qcinv.t.loc[ix,'program'] is None): 
                 # found the program: check the search patterns for each Object
                 foundflag=False
                 for fieldpattern in self.fieldpattern2program:
@@ -676,9 +708,10 @@ if __name__ == "__main__":
     calcTime.readqcinv(args.qcinvfile)  
     calcTime.fill_qcinv_table()
     calcTime.downtime2qcinv(args.downtime)
+    calcTime.reassignExpIDs(args.reassign_expIDrange)
     calcTime.assignPrograms()
     calcTime.calcTimes()
-    calcTime.reassign_programs(args.reassign)
+    calcTime.reassign_programs(args.reassign_block)
     calcTime.reassign_programs(calcTime.downtime_reassign)
     if args.verbose>1:
         calcTime.qcinv.write()

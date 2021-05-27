@@ -86,7 +86,13 @@ class semester_summary_class(pdastroclass):
         night_iso = '%s-%s-%s' % (night[:4],night[4:6],night[6:8])        
         tonight = ctio.tonight(time.Time(night_iso, scale='utc',format='iso')+0.6,horizon=-14*u.deg)
         t_dark14 =(tonight[1]-tonight[0]).to_value('sec')/3600.0*self.semesterinfo.nights[night]
+ 
+        self.t.loc[ix_sem,self.t.columns]=None
         self.t.loc[ix_sem,'t_dark14']=t_dark14
+        self.t.loc[ix_sem,'night']=night
+        #for col in self.t.columns:
+            
+        
         
         return(ix_sem)
 

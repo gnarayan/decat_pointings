@@ -1,3 +1,4 @@
+#expid  ra     dec   ut   fil time secz  psf  sky  cloud  teff Object
 1000394 146.3 -30.2 22:39  r    5 1.00  1.07  3.74  0.08  0.02 pointing
 1000395 146.3 -30.2 22:41  r   30 1.00  0.99  3.35  0.06  0.04 pointing
 1000396 146.3 -30.2 22:43  z   15 1.00  0.86  1.56  0.03  0.24 SDSSJ1048-0000

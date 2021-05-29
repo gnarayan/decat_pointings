@@ -1,0 +1,242 @@
+May 29, 2021
+Times are local (UTC) for CTIO
+
+mjd 59364, date 20210529, Site CTIO, UT-offset 4 hr
+Current local time 11:47 -04     UT 15:47     SidTim 03:34
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     17:58 -04  21:58 UT   09:46  146 deg
+Eve. -10   18:36 -04  22:36 UT   10:23  156 deg  Zeropoint; standards
+Eve. -14   18:55 -04  22:55 UT   10:43  161 deg  Begin obstac
+Eve. -18   19:15 -04  23:15 UT   11:02  166 deg  Last chance standards
+Moonrise   21:17 -04  01:17 UT   13:05  196 deg
+Midpoint   00:40 -04  04:40 UT   16:28  247 deg
+Morn -18   06:06 -04  10:06 UT   21:54  328 deg  Begin astronomical twilight
+Morn -14   06:25 -04  10:25 UT   22:13  333 deg  End obstac; begin standards
+Morn -10   06:45 -04  10:45 UT   22:33  338 deg
+Sunrise    07:23 -04  11:23 UT   23:10  348 deg
+Moon position (deg): RA 304.3, Dec -23.8 Phase: 0.699
+
+Time between eve and morning twilight (14 deg):  690 minutes
+Time between sunset and sunrise: 805 minutes
+
+Times below are LOCAL TIME IN CHILE
+[] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
+
+BACKUP/FILLER fields are listed at bottom
+
+FOR STANDARDS GET zirgu in evening twilight and ugriz in morning twilight!!
+If start is delayed, do not get standards if after -14 deg twilight in the evening!
+
+---------------------------- PLAN BEGINS -------------------------------
+
+17:58  Sunset - Setup
+
+18:35  Twilight - Start Promptly
+       SDSSJ1048-0000 [STANDARD] # do Yzirgu - don't delete Y since that has the RA, Dec
+       S-CVZ.json [90 -67]  (12 min)
+       2021knh_P1 [138 -27]
+       2021lnf_P1 [143 -16]
+       365.A.2021lnf 
+       2021kly_P1 [125 14]
+       2021jys_P1 [134 10]
+       2021law_P1 [140 4]
+       (40 min total)
+
+19:15  eFEDS.json [136 1]
+       (30 min)
+
+       # CAN START AS EARLY AS -18 sun angle
+19:45  COSMOS-AGN-1 (10 min, cosmos_agn_1.json) [150 3]  
+       COSMOS-AGN-2 (10 min, cosmos_agn_2.json) [149 2]
+       COSMOS-AGN-3 (10 min, cosmos_agn_3.json) [151 2]
+       (30 min + 5 min setup total)
+
+20:20  2021kom_P1 [155 3]
+       2021kut_P1 [158 6]
+       468.F.2021kut.json [158 7]
+       418.A.a [154 -3]
+       423.E.a.21fxy.json [198 -20] 
+       2021kre_P1 [206 -7] 
+       2021kxf_P1 [204 2]
+       (30 min)
+
+20:45  575.B.a [178 21]
+       2021low_P1 [175 21]
+       525.A.a [186 15]
+       525.A.b [189 15] 
+       525.E.b [189 12]
+       525.E.a [186 12] 
+       525.F.b [188 7] 
+       525.F.a [185 6]
+       2021iuk_2021hiz.json [186 7] # TWO SNE IN THE SAME JSON
+       525.B.b [187 10] 
+       525.C.a [185 10]
+       525.B.a [189 10]
+       525.C.b [192 12]
+       525.D.a [183 12]
+       525.D.b [185 12]
+       (45 min)
+
+21:30  577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+       2021lxb_P1 [195 28]
+       (5 min)
+
+** DESI Block (3h:30m total with setup) ** [220, 1] 
+21:35  desidot_riz_G12.json
+       desidot_r_G12.json
+       desidot_riz_VVDS.json
+       desidot_r_VVDS.json
+       desidot_iz_G15.json
+       desidot_iz_G15.json (not a typo - repeat until end of DESI block time)
+
+# interrupt DESI block to do the following fields when indicated
+# and then swap back to DESI
+
+23:00  2021ltk_P1 [211 -39]
+       181.A.2021ltk [211 -39]
+       2021lat_P1 [220 24]
+       629.A.2021lat.json [220 24]
+       (10 min)
+
+23:10  2021ihz_P1 [228 25]
+       2021kpu_P1  [231 22]
+       583.2021kpu.a.json
+       428.A.a [230 -3]
+       428.B.a
+       428.C.a
+       428.D.a
+       428.E.a
+       428.F.a
+       (30 min)
+
+23:40  2021kbj_P1 [237 24]
+       531.2021jvs.a [224 7]
+       531.B.a [230 10]
+       531.C.a
+       531.D.a
+       531.E.a
+       531.F.a
+       (20 min)
+
+00:00  583.A.a [245 14]
+       583.B.a [240 20]
+       583.C.a
+       583.E_1.a
+       583.F.a
+       (15 min)
+
+00:15  632.A.a  [241 25]
+       632.B.a
+       632.C.a
+       632.D.a
+       632.E.a
+       632.F.a
+       (20 min)
+
+# resume DESI block wherever you left off
+# DESI BLOCK SHOULD END AT 02:40 ish
+
+02:40  2021koq_P1  [273 6]
+       (5 min)
+
+### DISABLE GUIDING FOR DECAPS
+02:45  DECaPSEast-DDF-A (decapseast_ddf_A.json) [270 -29]
+       DECaPSEast-DDF-B (decapseast_ddf_B.json)
+       DECaPSEast-DDF-B 
+       DECaPSEast-DDF-A
+### RESET GUIDER EXPOSURE TIME TO 600MS
+
+03:55  440.A.a [314 -4]
+       440.B.a
+       440.C.a
+       440.D.a
+       440.E.a
+       440.F.a
+       (20 min)
+
+04:15  544.A.a [320 9]
+       544.B.a
+       544.C.a
+       544.D.a
+       544.E.a
+       544.F.a
+       (20 min)
+
+04:35  494.A.a [331 6]
+       494.B.a
+       494.C.a
+       494.D.a
+       494.E.a
+       494.F.a
+       (20 min)
+
+05:05 ELAIS-S1 (elais_ddf_seqA.json) [10 -44] 
+      (30 min)
+05:35 ELIAS-S1 (elais_ddf_seqB.json)
+      (30 min)
+
+06:05  550.A.a [3 21]
+       550.B.a
+       550.C.a
+       550.D.a
+       550.E.a
+       550.F.a
+
+06:25  448.A.a [14 6]
+       448.B.a 
+       448.C.a
+       448.D.a
+       448.E.a
+       448.F.a
+       SDSSJ2140-0000 [STANDARD]
+
+06:45 is -10 deg twilight - do filler DEBASS SNe/YSE 448/ELAIS-S1 to fill
+
+---------------------------- PLAN ENDS -------------------------------
+
+Backup/Filler
+--------------
+
+DEBASS BACKUP/FILLER
+--------------------
+2021hwk_P2 [214 -7]
+
+DEBASS MORE BACKUP/FILLER
+--------------------------------------
+2021jad_P3 [83 -21]
+2021gmk_P3 [91 -45]
+2021hfq_P3 [119 -67]
+2021grd_P3 [129 -11]
+2021hjb_P3 [133 16]
+2021ill_P3 [139 -30]
+2021hjc_P3 [141 -25]
+2021iov_P3 [142 -6]
+2021ibo_P3 [135 7]
+2021fna_P3 [154 -23]
+2021jze_P3 [154 -4]
+2021ghc_P3 [149 0]
+2021gwn_P3 [161 -28]
+2021gkb_P3 [164 -13]
+2021jap_P3 [163 -9]
+2021ipf_P3 [174 -6]
+2021hup_P3 [178 -7]
+2021iuk_P3 [185 6]
+2021hiz_P3 [185 6]
+2021igt_P3 [190 21]
+2021hvo_P3 [200 -41]
+2021fxy_P3 [198 -19]
+2021foh_P3 [200 -16]
+2021khn_P3 [195 -5]
+2021fof_P3 [211 -9]
+2021gqc_P3 [226 -10]
+2021jkd_P3 [232 0]
+2021jwl_P3 [234 5]
+2021fqb_P3 [227 5]
+2021inj_P3 [241 2]
+2021gwa_P3 [235 6]
+2021ipb_P3 [241 13]
+2021hem_P3 [245 14]
+2021gez_P3 [245 20]
+2021hji_P3 [252 22]
+2021ify_P3 [262 13]
+2021juw_P3 [297 -20]

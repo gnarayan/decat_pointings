@@ -68,7 +68,7 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        525.E.a [186 12] 
        525.F.b [188 7] 
        525.F.a [185 6]
-       2021iuk_2021hiz.json [186 7] # TWO SNE IN THE SAME JSON
+       2021iuk_2021hiz.json [186 7] # TWO SNE IN THE SAME JSON - GET FROM 2021A-0275 directory
        525.B.b [187 10] 
        525.C.a [185 10]
        525.B.a [189 10]

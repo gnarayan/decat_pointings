@@ -1,3 +1,8 @@
+calcTime4programs.py 20210529 -vvs -r UNKNOWN1 YSE --downtime 1003119 YSE 0.6hours DDF rest -a
+I could not observe 550*, 548* and one of the sequences of ELAIS-S1. 
+12/16*0.7882 = 0.6 hours
+--downtime 1003119 YSE 0.6hours DDF rest
+
 calcTime4programs.py 20210526 -vvs -r UNKNOWN1 YSE -a
 calcTime4programs.py 20210523 -vvs -r UNKNOWN1 YSE -a
 calcTime4programs.py 20210521 -vvs -r UNKNOWN1 YSE -a

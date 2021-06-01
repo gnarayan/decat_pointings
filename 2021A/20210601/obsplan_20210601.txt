@@ -80,12 +80,12 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        (5 min)
 
 ** DESI Block (3h:30m total with setup) ** [220, 1] 
-21:25  desidot_riz_G12.json
-       desidot_r_G12.json
-       desidot_riz_VVDS.json
-       desidot_r_VVDS.json
-       desidot_iz_G15.json
-       desidot_iz_G15.json (not a typo - repeat again)
+21:25 desidot_rz_VVDS.json
+      desidot_grz_short_1.json
+      desidot_grz_short_2.json
+      desidot_grz_short_3.json
+      desidot_grz_short_4.json
+      desidot_g.json
 
 # interrupt DESI block to do the following fields when indicated
 # and then swap back to DESI

@@ -1,19 +1,19 @@
 2021lnf_P1 [143 -16]
-2021law_P1 [140 4]
-2021low_P1 [175 21]
-2021kxf_P1 [204 2]
 2021lxb_P1 [196 29]
 2021ltk_P1 [211 -39]
-2021kre_P1 [206 -7]
 2021lat_P1 [220 24]
 2021ihz_P1 [228 25]
 
 2021kly_P2 [125 14]
 2021knh_P2 [138 -27]
+2021law_P2 [140 4]
 2021kom_P2 [155 3]
 2021kut_P2 [158 6]
+2021low_P2 [175 21]
 2021khn_P2 [195 -5]
+2021kxf_P2 [204 2]
 2021hwk_P2 [214 -7]
+2021kre_P2 [206 -7]
 2021kpu_P2 [231 22]
 2021koq_P2 [273 6]
 
@@ -57,5 +57,5 @@
 2021ify_P3 [262 13]
 2021juw_P3 [297 -20]
 
-EVERYTHING	198.2 minutes
-EVERYTHING_P1	22.7 minutes
+EVERYTHING	199.1 minutes
+EVERYTHING_P1	11.9 minutes

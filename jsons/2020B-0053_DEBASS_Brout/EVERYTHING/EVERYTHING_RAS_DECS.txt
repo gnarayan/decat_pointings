@@ -4,11 +4,11 @@
 2021kom_P1 [155 3]
 2021kut_P1 [158 6]
 2021ihz_P1 [228 25]
+2021koq_P1 [273 6]
 
 2021kxf_P2 [204 2]
 2021hwk_P2 [214 -7]
 2021kre_P2 [206 -7]
-2021koq_P2 [273 6]
 
 2021jad_P3 [83 -21]
 2021gmk_P3 [91 -45]
@@ -58,4 +58,4 @@
 2021juw_P3 [297 -20]
 
 EVERYTHING	197.6 minutes
-EVERYTHING_P1	11.6 minutes
+EVERYTHING_P1	14.1 minutes

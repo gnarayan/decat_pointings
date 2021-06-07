@@ -37,8 +37,8 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
 
 18:35  Twilight - Start Promptly
        SDSSJ1048-0000 [STANDARD] # do Yzirgu - don't delete Y since that has the RA, Dec
-       S-CVZ.json [90 -67]  (12 min)
        2021knh_P1 [138 -27]
+       2021lnf_P3 [143 -16]
        365.A.2021lnf [143 -16]
        2021law_P1 [140 4]
        2021kly_P1 [125 14]
@@ -54,13 +54,15 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        (15 min)
 
 19:55  423.E.a.21fxy.json [198 -20] 
+       2021jze_P3 [154 -4]
        418.A.a [154 -3] #2021jze
        2021kom_P1 [155 3]
        2021kut_P1 [158 6]
        468.F.2021kut.json [158 7]
        (20 min)
 
-20:15  575.B.a [178 21] #2021low
+20:15  2021low_P3 [175 21]
+       575.B.a [178 21] #2021low
        525.A.a [186 15]
        525.A.b [189 15] 
        525.E.b [189 12]
@@ -148,18 +150,15 @@ DEBASS BACKUP/FILLER
 2021hjb_P3 [133 16]
 2021ill_P3 [139 -30]
 2021hjc_P3 [141 -25]
-2021lnf_P3 [143 -16]
 2021iov_P3 [142 -6]
 2021ibo_P3 [135 7]
 2021fna_P3 [154 -23]
-2021jze_P3 [154 -4]
 2021ghc_P3 [149 0]
 2021gwn_P3 [161 -28]
 2021gkb_P3 [164 -13]
 2021jap_P3 [163 -9]
 2021ipf_P3 [174 -6]
 2021hup_P3 [178 -7]
-2021low_P3 [175 21]
 2021iuk_P3 [185 6]
 2021hiz_P3 [185 6]
 2021igt_P3 [190 21]

@@ -37,7 +37,6 @@
 2021hvo_P3 [200 -41]
 2021fxy_P3 [198 -19]
 2021foh_P3 [200 -16]
-2021lxb_P3 [196 29]
 2021fof_P3 [211 -9]
 2021jvs_P3 [223 6]
 2021lat_P3 [220 24]
@@ -56,5 +55,5 @@
 2021koq_P3 [273 6]
 2021juw_P3 [297 -20]
 
-EVERYTHING	197.5 minutes
-EVERYTHING_P1	22.8 minutes
+EVERYTHING	197.8 minutes
+EVERYTHING_P1	23.1 minutes

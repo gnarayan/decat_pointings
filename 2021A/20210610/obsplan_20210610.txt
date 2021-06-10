@@ -1,0 +1,139 @@
+June 10, 2021
+Times are local (UTC) for CTIO
+
+mjd 59376, date 20210610, Site CTIO, UT-offset 4 hr
+Current local time 10:31 -04     UT 14:31     SidTim 03:06
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     17:57 -04  21:57 UT   10:32  158 deg
+Moonset    18:01 -04  22:01 UT   10:36  159 deg
+Eve. -10   18:35 -04  22:35 UT   11:10  168 deg  Zeropoint; standards
+Eve. -14   18:54 -04  22:54 UT   11:29  172 deg  Begin obstac
+Eve. -18   19:14 -04  23:14 UT   11:49  177 deg  Last chance standards
+Midpoint   00:43 -04  04:43 UT   17:17  259 deg
+Morn -18   06:11 -04  10:11 UT   22:46  342 deg  Begin astronomical twilight
+Morn -14   06:30 -04  10:30 UT   23:05  346 deg  End obstac; begin standards
+Morn -10   06:50 -04  10:50 UT   23:25  351 deg
+Sunrise    07:28 -04  11:28 UT   00:03    1 deg
+Moon position (deg): RA 88.4, Dec 25.1 Phase: 0.031
+
+Time between eve and morning twilight (14 deg):  696 minutes
+Time between sunset and sunrise: 811 minutes
+
+THIS IS A HALF NIGHT
+NIGHT CENTER = 20210611, 00:42
+
+Times below are LOCAL TIME IN CHILE
+[] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
+
+BACKUP/FILLER fields are listed at bottom
+
+FOR STANDARDS GET zirgu in evening twilight and ugriz in morning twilight!!
+If start is delayed, do not get standards if after -14 deg twilight in the evening!
+
+---------------------------- PLAN BEGINS -------------------------------
+
+17:57  Sunset - Setup
+
+18:35  Twilight - Start Promptly
+       SDSSJ1048-0000 [STANDARD] # do Yzirgu - don't delete Y since that has the RA, Dec
+       S-CVZ.json [90 -67]  (12 min)
+       365.A.2021lnf 
+       (20 min total)
+
+18:55  eFEDS.json [136 1]
+       (30 min)
+
+19:25 2021law_P1 [140 4]
+      2021kom_P1 [155 3]
+      (5 min)
+
+       # CAN START AS EARLY AS -18 sun angle
+19:30  COSMOS-AGN-1 (10 min, cosmos_agn_1.json) [150 3]  
+       COSMOS-AGN-2 (10 min, cosmos_agn_2.json) [149 2]
+       COSMOS-AGN-3 (10 min, cosmos_agn_3.json) [151 2]
+       (30 min + 5 min setup total)
+
+20:05  468.F.2021kut.json [158 7]
+       418.A.a [154 -3] #2021jze
+       423.E.a.21fxy.json [198 -20] 
+       (10 min)
+
+20:15  575.B.a [178 21] #2021low
+       525.A.a [186 15]
+       525.A.b [189 15] 
+       525.E.b [189 12]
+       525.E.a [186 12] 
+       525.F.b [188 7] 
+       525.F.a [185 6]
+       2021iuk_2021hiz.json [186 7] # TWO SNE IN THE SAME JSON - GET FROM 2021A-0275
+       525.B.b [187 10] 
+       525.C.a [185 10]
+       525.B.a [189 10]
+       525.C.b [192 12]
+       525.D.a [183 12]
+       525.D.b [185 12]
+       (45 min)
+
+21:00  577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+       2021kxf_P2 [204 2] 
+       2021kre_P2 [206 -7]
+       (10 min)
+
+** DESI Block (1h:45m total with setup) ** [220, 1] 
+21:10   desidot_grz_half_1.json
+        desidot_g_half_1.json
+
+# interrupt DESI block to do the following fields when indicated
+# and then swap back to DESI
+
+22:55  2021ltk_P1 [211 -39]
+       181.A.2021ltk [211 -39]
+       629.A.2021lat.json [220 24]
+       (10 min)
+
+23:05  2021ihz_P1 [228 25]
+       583.2021kpu.a.json
+       428.A.a [230 -3]
+       428.B.a
+       428.C.a
+       428.D.a
+       428.E.a
+       428.F.a
+       (25 min)
+
+23:30  531.2021jvs.a [224 7]
+       531.B.a [230 10]
+       531.C.a
+       531.D.a
+       531.E.a
+       531.F.a
+       (20 min)
+
+23:50  583.A.a [245 14]
+       583.B.a [240 20]
+       583.C.a
+       583.E_1.a
+       583.F.a
+       (15 min)
+
+00:05  632.A.a  [241 25]
+       632.B.a
+       632.C.a
+       632.D.a
+       632.E.a
+       632.F.a
+       (20 min)
+
+# if done early, please do any accesible DEBASS SNe
+
+00:25 
+
+---------------------------- PLAN ENDS -------------------------------
+
+Backup/Filler
+--------------
+
+DEBASS FILLER
+2021knh_P2 [138 -27] 
+2021khn_P2 [195 -5]
+2021hwk_P2 [214 -7]

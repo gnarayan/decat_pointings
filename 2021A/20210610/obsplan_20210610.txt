@@ -90,8 +90,7 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
 
 23:05  2021ltk_P1 [211 -39]
        181.A.2021ltk [211 -39]
-       2021lat_P3 [220 24]
-       629.A.2021lat.json [220 24]
+       376.A.2021pfs.json
        (10 min)
 
 23:15  2021ihz_P1 [228 25]

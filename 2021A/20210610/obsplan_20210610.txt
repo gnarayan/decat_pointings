@@ -76,24 +76,24 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        525.D.b [185 12]
        (50 min)
 
-21:10  577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+21:10  376.A.2021pfs [210 -6]
+       577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
        2021kxf_P2 [204 2] 
        2021kre_P2 [206 -7]
-       (10 min)
+       (20 min)
 
 ** DESI Block (1h:45m total with setup) ** [220, 1] 
-21:20   desidot_grz_half_1.json
+21:30   desidot_grz_half_1.json
         desidot_g_half_1.json
 
 # interrupt DESI block to do the following fields when indicated
 # and then swap back to DESI
 
-23:05  2021ltk_P1 [211 -39]
+23:15  2021ltk_P1 [211 -39]
        181.A.2021ltk [211 -39]
-       376.A.2021pfs.json
-       (10 min)
+       (5 min)
 
-23:15  2021ihz_P1 [228 25]
+23:20  2021ihz_P1 [228 25]
        583.2021kpu.a.json
        428.A.a [230 -3]
        428.B.a
@@ -103,7 +103,7 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        428.F.a
        (25 min)
 
-23:40  2021jvs_P3 [223 6]
+23:45  2021jvs_P3 [223 6]
        531.2021jvs.a [224 7]
        531.B.a [230 10]
        531.C.a
@@ -112,14 +112,14 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        531.F.a
        (20 min)
 
-00:00  583.A.a [245 14]
+00:05  583.A.a [245 14]
        583.B.a [240 20]
        583.C.a
        583.E_1.a
        583.F.a
        (15 min)
 
-00:15  632.A.a  [241 25]
+00:20  632.A.a  [241 25]
        632.B.a
        632.C.a
        632.D.a
@@ -128,7 +128,7 @@ If start is delayed, do not get standards if after -14 deg twilight in the eveni
        (20 min)
 
 
-00:35  if done early, please do any accesible DEBASS SNe
+00:40  if done early, please do any accesible DEBASS SNe
 
 00:42  Turn over control to second-half observer
 

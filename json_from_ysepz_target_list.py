@@ -76,7 +76,7 @@ for infile in infiles:
     outfilep = reformatdir+'/'+infile.split('/')[-1]
     outfile = open(outfilep,'w')
 
-    json_outpath = 'jsons/TEMPLATE/'
+    json_outpath = 'jsons/2020B-0053_DEBASS_Brout/TEMPLATE/'
     if not os.path.exists(json_outpath):
         os.mkdir(json_outpath)
 
@@ -110,3 +110,4 @@ for infile in infiles:
             print("OR (power(power(t.ra - %s,2)+power(t.dec - %s,2),.5)<.1 AND t.name != '%s')"%(row['candRA'],row['candDEC'],row['name']))
             alreadyprinted.append(row['name'])
     mj.individual(json_outpath,df['name'],df['pointRA'],df['pointDEC'],df['obs'],df['propid'],df['name']+'_P'+df['priority'].astype(str),df['expTypes'],df['programs'])
+    

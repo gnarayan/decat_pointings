@@ -1,3 +1,14 @@
+calcTime4programs.py 20210916 -vvs
+
+-----------------------
+
+calcTime4programs.py 20210610 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210607 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210604 -vvs -r UNKNOWN1 YSE -a
+
+
+calcTime4programs.py 20210601 -vvs -r UNKNOWN1 YSE
+
 calcTime4programs.py 20210601 -vvs -r UNKNOWN1 YSE
 
 calcTime4programs.py 20210529 -vvs -r UNKNOWN1 YSE --downtime 1003119 YSE 0.6hours DDF rest -a

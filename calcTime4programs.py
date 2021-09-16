@@ -161,7 +161,7 @@ class calcTimeclass(pdastroclass):
 
         if self.verbose:
             print('file loaded, first 10 lines:')
-            self.qcinv.write(indices=range(1,11))
+            self.qcinv.write(indices=range(1,3))
         return(0)
     
     def downtime2qcinv(self,downtimelist):

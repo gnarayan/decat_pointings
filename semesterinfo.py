@@ -5,8 +5,9 @@ Created on Tue Apr 13 10:45:35 2021
 
 @author: arest
 """
+import sys
 
-default_semester = '2021A'
+default_semester = '2021B'
 
 class semesterinfoclass:
     def __init__(self,semester=None):
@@ -40,16 +41,6 @@ class semesterinfoclass:
                 'DDF':58.0,
                 'DESI':97.0,
                 'EtaCar':17.0 + YSE2EtaCar - EtaCar2YSE_nextsem
-
-#                '2019A-0065_Shen':7.2+8.233+1.33,
-#                '2019B-0304_Martini':1.867,
-#                '2020A-0906_eFEDS':8.75,
-#                '2021A-0037_Shen2':,
-#                '2021A-0275_YSE':70.0,
-#                '2020B-0053_DEBASS':29.0,
-#                '2021A-0113_DDF':58.0,
-#                '2021A-0148_DESI':97.0,
-#                '2020A-0415_EtaCar':17.0
                 }
             
             # patterns to assign Objects 
@@ -68,21 +59,6 @@ class semesterinfoclass:
                 'Zenteno_TRADE':['^BLA'],
                 'STANDARDS':            ['^E','^SDSS','^LTT','C26202'],
                 'TECHSETUP':            ['^pointing','^MaxVis']
-#                '2019A-0065_Shen':     ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
-#                '2019B-0304_Martini':   ['E1','E3'],
-#                '2020A-0906_eFEDS':     ['^eFEDS'],
-#                '2021A-0037_Shen2':     ['^CO\d$'],
-#                '2021A-0275_YSE':       ['^\d\d\d\.\w+\.[abcde]'],
-#                '2020B-0053_DEBASS':    ['^2021\w+'],
-#                '2021A-0113_DDF':       ['^COSMOS','^DECaPS.*'],
-#                '2021A-0148_DESI':      ['^TILEID\:\s+\d+'], 
-#                '2020A-0415_EtaCar':    ['^ec\d\d\d\d'],
-#                '2019A-0305_Drlica_TRADE': ['^DELVE'],
-#                '2021A-0244_Miller_TRADE': ['^n2997'],
-#                '2021A-0010_Rector_TRADE': ['^Cha'],
-#                '2021A-0149_Zenteno_TRADE':['^BLA'],
-#                'STANDARDS':            ['^E','^SDSS','^LTT','C26202'],
-#                'TECHSETUP':            ['^pointing','^MaxVis']
                 }
             
             self.nights={
@@ -117,6 +93,96 @@ class semesterinfoclass:
                 '20210607':0.5,
                 '20210610':0.5,
                 }
+        elif semester=='2021B':
+            # main programs and assigned night hours
+
+            self.programlist = {
+                'Shen':20.0,
+                'Martini':5.0,
+                'Liu':20,
+                'eFEDS':5.0,
+                'YSE':75.0,
+                'DEBASS':30.0,
+                'DDF':60.0,
+                'EtaCar':25.0,
+                'Sheppard':5.0
+#                'Shen':30.0,
+#                'Martini':5.0,
+#                'Liu':20,
+#                'eFEDS':5.0,
+#                'YSE':90.0,
+#                'DEBASS':35.0,
+#                'DDF':75.0,
+#                'EtaCar':25.0,
+#                'Sheppard':10.0
+                 }
+            
+            # patterns to assign Objects 
+            self.program2fieldpattern = {
+                'Shen':      ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
+                'Martini':   ['^E1$','^E3$','^E2$'],
+                'Liu':       ['BLA'],
+                'eFEDS':     ['^eFEDS'],
+                'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$','^\d\d\d\.\w+\.2021'],
+                'DEBASS':    ['^2021\w+'],
+                'DDF':       ['^COSMOS','^DECaPS.*','^ELAIS'],
+                'EtaCar':    ['^ec\d\d\d\d'],
+                'Sheppard':  ['BLA'],
+                'STANDARDS': ['^E','^SDSS','^LTT','C26202'],
+                'TECHSETUP': ['^pointing','^MaxVis']
+                }
+            
+            self.nights={
+                '20210916':1.0,
+                '20210919':1.0,
+                '20210922':1.0,
+                '20210925':0.5,
+                '20210928':0.5,
+                '20211001':0.5,
+                '20211004':0.5,
+                '20211007':0.5,
+                '20211010':0.5,
+                '20211013':0.5,
+                '20211016':1.0,
+                '20211019':1.0,
+                '20211022':1.0,
+                '20211024':0.5,
+                '20211028':0.5,
+                '20211031':0.5,
+                '20211103':0.5,
+                '20211106':0.5,
+                '20211109':0.5,
+                '20211113':0.5,
+                '20211115':0.5,
+                '20211118':0.5,
+                '20211121':0.5,
+                '20211124':0.5,
+                '20211127':0.5,
+                '20211130':0.5,
+                '20211203':0.5,
+                '20211206':0.5,
+                '20211209':0.5,
+                '20211212':0.5,
+                '20211215':1.0,
+                '20211218':1.0,
+                '20211221':1.0,
+                '20211223':1.0,
+                '20211227':0.5,
+                '20211230':0.5,
+                '20220102':1.0,
+                '20220105':0.5,
+                '20220108':0.5,
+                '20220112':1.0,
+                '20220114':1.0,
+                '20220117':1.0,
+                '20220120':1.0,
+                '20220123':0.5
+                }
+            sum=0.0
+            for k in self.nights:
+                sum+=self.nights[k]
+            print('total cumulative nights:',sum)
+            sys.exit(0)
         else:
             raise RuntimeError('%s IS NOT A VALID SEMESTER! ' % semester)
         return(0)

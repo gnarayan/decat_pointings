@@ -180,24 +180,6 @@
 1009424 219.3   0.0 03:06  g   50 1.20  0.98  0.03  0.13  1.00 TILEID: 1202
 1009425 217.7   0.0 03:08  g   50 1.21                         TILEID: 1220
 1009426 216.1   0.0 03:09  g   50 1.23                         TILEID: 1240
-MJD = 59376 (Jun 10/Jun 11)
-pgtcl> exitclient_loop: send disconnect: Broken pipe
-gnarayan@grimnir|~> ssh -Y DECamObserver@observer2.ctio.noao.edu
-DECamObserver@observer2.ctio.noao.edu's password:
-Warning: No xauth data; using fake authentication data for X11 forwarding.
-Last login: Thu Jun 10 23:33:02 2021 from 139.229.31.45
-[DECamObserver@observer2 ~]$ godb
-Loading new EUPS information
-Now running Steve Kent's database interface program ...
-Executing commands in /user/DECamObserver/skent/products/fpostgres-1095/etc/init.tcl: Connecting to telemetry database ...
-"inv"    to get inventory of current night
-"qcInv"  to get quality control information
-"fortune"  to predict the future of your PSF
-"invPrint"    Print to file
-"qcInvPrint"  Print to file
-"snstatus [mjdoff]" Print supernova status for a given night
-
-pgtcl> qcInv
 #expid  ra     dec   ut  fil time secz  psf  sky  cloud  teff Object
 1009252 165.2 -31.8 22:38  r    5 1.00  1.05  3.89  0.09  0.02 pointing
 1009253 165.2 -31.8 22:40  r   30 1.00  1.04  3.48  0.06  0.03 pointing

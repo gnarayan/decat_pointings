@@ -21,7 +21,7 @@ from datetime import datetime
 currdate=datetime.today().strftime('%Y-%m-%d')
 datestr = input(f'Please Enter Observing Date in the following format (YYYY-MM-DD)\ndefault {currdate}\n')
 if datestr == '': datestr=currdate
-obsdict = ro.run(verbose=False)
+obsdict = ro.run(verbose=True)
 
 try:
     startsn = sys.argv[1]

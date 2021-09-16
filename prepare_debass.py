@@ -82,7 +82,7 @@ for i,row in df.iterrows():
             exptimes.append(exptime)
         plt.clf()
         if maketemplate:
-            ej.edit('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/generic.json'%row['snid'],priority,filters,exptimes,
+            ej.edit('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/generic.json',priority,filters,exptimes,
                     'jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%(row['snid']))
         if os.path.exists('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid']):
             os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))

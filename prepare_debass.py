@@ -21,7 +21,7 @@ from datetime import datetime
 currdate=datetime.today().strftime('%Y-%m-%d')
 datestr = input(f'Please Enter Observing Date in the following format (YYYY-MM-DD)\ndefault {currdate}\n')
 if datestr == '': datestr=currdate
-obsdict = ro.run(verbose=False)
+obsdict = ro.run(verbose=True)
 
 try:
     startsn = sys.argv[1]
@@ -65,7 +65,14 @@ for i,row in df.iterrows():
             filters = ['g','r','i','z']
         else:
             filters = split(filters)
+        #try:
         default_exptimes = ej.getfiltersexptimes('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid'])
+        #    maketemplate = False
+        #except:
+        #    print('could not find template, using generic.json. This is generally okay.')
+        #    default_exptimes = ej.getfiltersexptimes('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/generic.json')
+        #    maketemplate = True
+            
         exptimes = []
         for f in filters:
             if not f in default_exptimes.keys():
@@ -74,6 +81,9 @@ for i,row in df.iterrows():
             if exptime == '': exptime = str(default_exptimes[f])
             exptimes.append(exptime)
         plt.clf()
+        #if maketemplate:
+        #    ej.edit('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/generic.json',priority,filters,exptimes,
+        #            'jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%(row['snid']))
         if os.path.exists('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid']):
             os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
             ej.edit('jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid'],priority,filters,exptimes,

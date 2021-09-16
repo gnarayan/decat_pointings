@@ -7,21 +7,51 @@ import get_silicon as gs
 import os
 import make_json as mj
 import ccdmap
+import sys
+import random
 
 def get_desired_ccd(x):
-    return ccdmap.ccdmap[x]
-
+    if x in ccdmap.ccdmap.keys():
+        return ccdmap.ccdmap[x]
+    else:
+        return get_random_ccd(x)
+        
+def get_random_ccd(x):
+    print(x,'not found in ccdmap.py')
+    ccdlist = [1,3,4,5,6,7,8,9,10,\
+               11,12,13,14,15,16,17,18,19,20,\
+               21,22,23,24,25,26,27,28,29,30,\
+               32,33,34,35,36,37,38,39,40,\
+               41,42,43,44,45,46,47,48,49,50,\
+               51,52,53,54,55,56,57,58,59,60,62]
+    ccd = random.choice(ccdlist)
+    print('putting ',x,'on chip',ccd)
+    lines = open('ccdmap.py','r').readlines()
+    f = open('ccdmap.py','w')
+    for l in lines:
+        if not '}' in l:
+            f.write(l)
+        else:
+            f.write("    '%s': %d,\n}"%(x,ccd))
+    f.close()
+    return ccd
+    
+        
+    
 def get_desired_observations(x):
-    obs = x.split(';')[1].split(';')[0]
-    return  obs
+    return 'g15,r15,i15,z15'
+    #obs = x.split(';')[1].split(';')[0]
+    #return  obs
 
 def get_priorities(x):
-    priority = x.split('PRIORITY')[1][0]
-    return  priority
+    return '1'
+    #priority = x.split('PRIORITY')[1][0]
+    #return  priority
 
 def get_propid(x):
-    propid = x.split('{')[1].split('}')[0]
-    return  propid
+    return '2020B-0053'
+    #propid = x.split('{')[1].split('}')[0]
+    #return  propid
 
 def parse_infile(df):
     df['coords'] = df['ra_h'].astype(str)+' '+df['ra_m'].astype(str)+' '+df['ra_s'].astype(str)+' '+df['dec_d'].astype(str)+' '+df['dec_m'].astype(str)+' '+df['dec_s'].astype(str)
@@ -46,7 +76,7 @@ for infile in infiles:
     outfilep = reformatdir+'/'+infile.split('/')[-1]
     outfile = open(outfilep,'w')
 
-    json_outpath = 'jsons/%s/'%date
+    json_outpath = 'jsons/2020B-0053_DEBASS_Brout/TEMPLATE/'
     if not os.path.exists(json_outpath):
         os.mkdir(json_outpath)
 
@@ -55,7 +85,6 @@ for infile in infiles:
         if line[0] == '#': continue
         outfile.write(line)
     outfile.close()
-
     df = pd.read_csv(outfilep,delim_whitespace=True)
     df = parse_infile(df)
     
@@ -81,3 +110,4 @@ for infile in infiles:
             print("OR (power(power(t.ra - %s,2)+power(t.dec - %s,2),.5)<.1 AND t.name != '%s')"%(row['candRA'],row['candDEC'],row['name']))
             alreadyprinted.append(row['name'])
     mj.individual(json_outpath,df['name'],df['pointRA'],df['pointDEC'],df['obs'],df['propid'],df['name']+'_P'+df['priority'].astype(str),df['expTypes'],df['programs'])
+    

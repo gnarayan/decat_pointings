@@ -1,3 +1,4 @@
+python json_from_ysepz_target_list.py
 git pull
 wget --output-file="log.log" "https://docs.google.com/spreadsheets/d/1JPIAXjcy-maVeNMkImRHFnhfoo2ulJQzHkCJOL0AbKs/export?format=csv&gid=0" -O "debass_sample.csv"
 python prepare_debass.py $1

@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 50.0,
+		"RA": 36.298690,
+		"dec": -1.049410,
+		"object": "401.B.a",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "401.B.a",
+		"wait": "False",
+		"propid": "2021A-0275"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 50.0,
+		"RA": 36.298690,
+		"dec": -1.049410,
+		"object": "401.B.a",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "401.B.a",
+		"wait": "False",
+		"propid": "2021A-0275"
+	}
+]

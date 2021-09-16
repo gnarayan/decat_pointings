@@ -1,5 +1,5 @@
 [
-    {
+	{
 		"count": 1,
 		"filter": "g",
 		"exptime": 15.0,
@@ -9,7 +9,7 @@
 		"program": "DECAT",
 		"expType": "object",
 		"note": "None",
-		"comment": "2021iuk_P1",
+		"comment": "2021iuk",
 		"wait": "False",
 		"propid": "2020B-0053"
 	},
@@ -23,7 +23,7 @@
 		"program": "DECAT",
 		"expType": "object",
 		"note": "None",
-		"comment": "2021iuk_P1",
+		"comment": "2021iuk",
 		"wait": "False",
 		"propid": "2020B-0053"
 	},
@@ -37,7 +37,7 @@
 		"program": "DECAT",
 		"expType": "object",
 		"note": "None",
-		"comment": "2021iuk_P1",
+		"comment": "2021iuk",
 		"wait": "False",
 		"propid": "2020B-0053"
 	},
@@ -51,7 +51,7 @@
 		"program": "DECAT",
 		"expType": "object",
 		"note": "None",
-		"comment": "2021iuk_P1",
+		"comment": "2021iuk",
 		"wait": "False",
 		"propid": "2020B-0053"
 	}

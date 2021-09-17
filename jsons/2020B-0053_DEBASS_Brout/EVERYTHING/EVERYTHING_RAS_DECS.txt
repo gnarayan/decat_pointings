@@ -1,3 +1,4 @@
+2021ysa_P1 [50 -41]
 2021yuj_P1 [299 -22]
 
 
@@ -7,5 +8,5 @@
 2021yyq_P3 [92 -44]
 2021yrz_P3 [338 19]
 
-EVERYTHING	30.7 minutes
-EVERYTHING_P1	7.0 minutes
+EVERYTHING	36.6 minutes
+EVERYTHING_P1	12.1 minutes

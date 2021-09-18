@@ -32,7 +32,7 @@ def run(verbose=True):
 
 
     dfs = []
-    for f in glob('2021A/*/*nv'):
+    for f in glob('2021B/*/*qc*nv*'):
         datestr = f.split('/')[-1].split('.')[0]
         date = datestr[:4]+'-'+datestr[4:6]+'-'+datestr[6:8]
         datestrf = int(datestr)
@@ -51,6 +51,7 @@ def run(verbose=True):
             #if l.split()[0] == 'ID': continue
             expnums.append(int(l.split()[0]))
             objects.append(str(l.split()[-1]))
+            print(str(l.split()[-1]))
             if len(l.split()) <= 10:
                 teffs.append(np.nan)
             else:

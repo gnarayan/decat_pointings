@@ -19,6 +19,8 @@ DEBASS 2021yrz_P1 [338, 19]
 
 00:00: ELAIS 1h [9, -43]
 
+01:00 DEBASS 2021ysa_P1 [50 -41]
+
 [01:00 30 min gap]
 01:30 
 YSE 550 [3, 17]
@@ -40,7 +42,6 @@ DEBASS 2021ymn_P1 [78 -17]
 YSE 257 [91, -26]
 (20 min each - 296 and 401 have only 5 pointings so shorter)
 
-2021ysa_P1 [50 -41]
 
 5:15am: SCVZ 11 min 	[90,-66]
 5:25am: DEBASS 2021yyq_P2      [92 -44]

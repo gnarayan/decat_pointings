@@ -12,9 +12,9 @@ Twilight asteroid program ends at 20:38 (23:38UT)
 23:00: 
 YSE 440
 YSE 544
-2021yzz_P2 
+2021yzz_P2 [331, -19]
 YSE 494  
-2021yrz_P1
+2021yrz_P1 [338, 19]
 
 00:00: ELAIS 1h [9, -43]
 
@@ -36,12 +36,12 @@ YSE 257
 2021ysa_P1 [50 -41]
 
 5:00am 
-2021ywa_P1  
-2021ypa_P1 
-2021ymn_P1 
+2021ywa_P1 [58 -17] 
+2021ypa_P1 [69 -13]
+2021ymn_P1 [78 -17]
 
 5:15am: SCVZ 11 min 
-5:25am: 2021yyq_P1
+5:25am: 2021yyq_P1      [92 -44]
 5:30am: DECaPSWest 0.5h [116, -26]
 
 06:05am: must end observations

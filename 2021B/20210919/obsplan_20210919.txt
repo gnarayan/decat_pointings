@@ -1,0 +1,47 @@
+20:20 2021B-0909_Twilight_Sheppard/SheppardTwilight16sep.json [207, -20]
+Twilight asteroid program ends at 20:38 (23:38UT)
+
+20:30: DECaPSEast 30 min [270, -29] 
+21:00: DECaPSEast 30 min [270, -29] 
+
+21:30: 
+2021B-0325_EtaCar_Rest/smc.z.json (25 min) [11, -72]
+2021B-0325_EtaCar_Rest/smc.i.json (25 min)
+2021B-0325_EtaCar_Rest/smc.r.json (25 min) (note: I put smc.r.json at the end since it has the highest priority, and at the end it is the best airmass)
+
+23:00: 
+YSE 440
+YSE 544
+2021yzz_P2 
+YSE 494  
+2021yrz_P1
+
+00:00: ELAIS 1h [9, -43]
+
+[01:00 30 min gap]
+01:30 YSE 550, 600 (20 min each)
+02:10 YSE 448
+
+02:30 2019A-0065_SDSSV_Shen/2021B/ X123 or S12+C3:  35 min
+
+03:05 
+YSE 296
+YSE 253
+YSE 401 
+YSE 403
+YSE 353 
+YSE 257 
+(20 min each - 296 and 401 have only 5 pointings so shorter)
+
+2021ysa_P1 [50 -41]
+
+5:00am 
+2021ywa_P1  
+2021ypa_P1 
+2021ymn_P1 
+
+5:15am: SCVZ 11 min 
+5:25am: 2021yyq_P1
+5:30am: DECaPSWest 0.5h [116, -26]
+
+06:05am: must end observations

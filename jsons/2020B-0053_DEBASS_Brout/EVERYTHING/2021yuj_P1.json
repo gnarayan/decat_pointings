@@ -1,8 +1,8 @@
 [
     {
         "count": 1,
-        "filter": "r",
-        "exptime": 7.0,
+        "filter": "g",
+        "exptime": 25.0,
         "RA": 299.2699,
         "dec": -22.56933,
         "object": "2021yuj_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 7.0,
+        "exptime": 25.0,
         "RA": 299.2699,
         "dec": -22.56933,
         "object": "2021yuj_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 15.0,
+        "exptime": 25.0,
         "RA": 299.2699,
         "dec": -22.56933,
         "object": "2021yuj_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 15.0,
+        "exptime": 25.0,
         "RA": 299.2699,
         "dec": -22.56933,
         "object": "2021yuj_P1",

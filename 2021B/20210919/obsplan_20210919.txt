@@ -1,39 +1,39 @@
 20:20 2021B-0909_Twilight_Sheppard/SheppardTwilight16sep.json [207, -20]
 Twilight asteroid program ends at 20:38 (23:38UT)
 
-20:30: DECaPSEast 30 min [270, -29] 
-21:00: DECaPSEast 30 min [270, -29] 
-21:30: DEBASS 2021yuj_P1 [299 -22]
+20:30: DECaPSEast 15 min [270, -29] 
+20:45: DECaPSEast 15 min [270, -29] 
+21:00: DEBASS 2021yuj_P1 [299 -22]
 
-21:30: 
-2021B-0325_EtaCar_Rest/smc.z.json (25 min) [11, -72]
-2021B-0325_EtaCar_Rest/smc.i.json (25 min)
-2021B-0325_EtaCar_Rest/smc.r.json (25 min) (note: I put smc.r.json at the end since it has the highest priority, and at the end it is the best airmass)
+21:10: 
+2021B-0325_EtaCar_Rest/smc.z.shortexp.json (12 min for short) [11, -72]
+2021B-0325_EtaCar_Rest/smc.i.shortexp.json (12 min for short)
+2021B-0325_EtaCar_Rest/smc.r.shortexp.json (12 min for short) (note: I put smc.r.json at the end since it has the highest priority, and at the end it is the best airmass)
 
-23:00: 
+22:00: 
 YSE 440	[314, -4]
 YSE 544 [321, 9]
 DEBASS 2021yzz_P2 [331, -19]
 YSE 494 [330, 3]
 DEBASS 2021yrz_P1 [338, 19]
 
-00:00: ELAIS 1h [9, -43]
+23:10 ELAIS 1h [9, -43]
+continue ELIAS until 1am
 
-01:00 DEBASS 2021ysa_P1 [50 -41]
-
-[01:00 30 min gap]
-01:30 
+---------
+01:00
+DEBASS 2021ysa_P1 [50 -41]
 YSE 550 [3, 17]
 YSE 600 [1, 24]
 YSE 448 [13, 3]
 (20 min each)
 
-02:30 X123 [34, -4] or S12[42, 0] + C3[52, -28]:  35 min
+02:00 X123 [34, -4] or S12[42, 0] + C3[52, -28]:  35 min
 
-03:05 
+03:00 
 YSE 296 [17, -19]
 YSE 253 [67, -26]
-YSE 401 []
+YSE 401 [40, -1]
 YSE 403 [52, -4]
 DEBASS 2021ywa_P2 [58 -17] 
 YSE 353 [63, -11]

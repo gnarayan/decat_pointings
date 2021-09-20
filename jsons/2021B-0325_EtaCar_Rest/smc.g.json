@@ -35,8 +35,8 @@
 "object": "smc0302",
 "filter": "g",
 "expTime": 140,
-"deltaDEC": "S60.000000",
-"deltaRA": "E60.000000",
+"deltaDEC": "S1.000000",
+"deltaRA": "E1.000000",
 "propid": "2021B-0325"
 },
 {
@@ -75,8 +75,8 @@
 "object": "smc0402",
 "filter": "g",
 "expTime": 140,
-"deltaDEC": "S60.000000",
-"deltaRA": "E60.000000",
+"deltaDEC": "S1.000000",
+"deltaRA": "E1.000000",
 "propid": "2021B-0325"
 }
 ]

@@ -38,6 +38,8 @@ def makepath4file(filename,raiseError=True):
         return(0)
 
 
+
+
 if __name__ == "__main__":
     files = glob.glob("./???.?.?.json")
     for i in range(len(files)): files[i]=os.path.basename(files[i])

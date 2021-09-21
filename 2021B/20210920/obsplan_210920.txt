@@ -1,6 +1,7 @@
 03:00 DEBASS 2021yzz_P2 [331, -19]
-03:30 NUTS [52, -28] 2h
-NUTS/NUTS.json are i,z observations (240sec, 4 each). You can repeat that 3x, just fill up the 2h. If the seeing is excellent like on 09/16, you might be able to also take a set of r band images (NUTS.r.json)
-05:10 YSE353 [63, -11]
-05:30 YSE257 [91, -26] 
-05:50 SCVZ   [90, -66] 
+03:10 NUTS [52, -28] 1h 20 min
+NUTS/NUTS.json are i,z observations (240sec, 4 each). You can repeat that 2x, just fill up the 1h20. If the seeing is excellent like on 09/16, you might be able to also take a set of r band images (NUTS.r.json)
+04:30 YSE353 [63, -11]
+04:50 YSE257 [91, -26]
+05:10 SCVZ   [90, -66]
+05:20 GRB  [80, 1] do as long as possible

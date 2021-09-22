@@ -2,12 +2,8 @@
 Twilight asteroid program ends at 20:38 (23:38UT)
 
 20:38: DECaPSEast 30 min [270, -29] 
-21:08: DEBASS 2021yuj_P1 [299 -22]
-
-21:15: 
-2021B-0325_EtaCar_Rest/smc.z.shortexp.json (12 min for short) [11, -72]
-2021B-0325_EtaCar_Rest/smc.i.shortexp.json (12 min for short)
-2021B-0325_EtaCar_Rest/smc.r.shortexp.json (12 min for short) (note: I put smc.r.json at the end since it has the highest priority, and at the end it is the best airmass)
+21:08: DECaPSEast 30 min [270, -29] 
+21:38: DEBASS 2021yuj_P1 [299 -22]
 
 22:00: 
 YSE 440	[314, -4]

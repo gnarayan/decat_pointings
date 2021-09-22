@@ -1,3 +1,4 @@
+
 20:20 2021B-0909_Twilight_Sheppard [207, -20]
 Twilight asteroid program ends at 20:38 (23:38UT)
 
@@ -12,16 +13,16 @@ Twilight asteroid program ends at 20:38 (23:38UT)
 22:00: 
 YSE 440	[314, -4]
 YSE 544 [321, 9]
-DEBASS 2021yzz_P2 [331, -19]
-YSE 494 [330, 3]
-DEBASS 2021yrz_P1 [338, 19]
+YSE 494 [330, 3],
+DEBASS 2021zax_P1 [333 13], DEBASS 2021yrz_P1 [338, 19], DEBASS 2021zfs_P1 [324 5], 
+DEBASS 2021yzz_P2 [331, -19], DEBASS 2021zet_P1 [328 -23]
+
 
 23:10 ELAIS 1h [9, -43]
 continue ELIAS until 00:50am
 
 ---------
 00:50
-DEBASS 2021ysa_P1 [50 -41]
 YSE 550 [3, 17]
 YSE 600 [1, 24]
 YSE 448 [13, 3]
@@ -39,9 +40,9 @@ C3   [52, -28] 11 min
 03:45 
 YSE 253 [67, -26]
 YSE 403 [52, -4]
-DEBASS 2021ywa_P2 [58 -17] 
+DEBASS 2021zdx_P1 [46 -15], DEBASS 2021ywa_P1 [58 -17] 
 YSE 353 [63, -11]
-DEBASS 2021ypa_P2 [69 -13]
+DEBASS 2021ypa_P1 [69 -13]
 DEBASS 2021ymn_P1 [78 -17]
 YSE 257 [91, -26]
 

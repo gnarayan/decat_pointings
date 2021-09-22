@@ -10,18 +10,6 @@
   "RA": 270.89, 
   "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-B", 
-  "expTime": 10,
-  "wait": "False"
- }, 
- { "comment": "DECAT DECaPS East DDF", 
-  "count": 1,
-  "propid": "2021B-0149",
-  "proposer": "Graham",
-  "program": "Deep Drilling in the Time Domain with DECam",
-  "expType": "object", 
-  "object": "DECaPS-East", 
-  "filter": "g", 
-  "seqid": "DECaPSEast-DDF-B", 
   "expTime": 96,
   "wait": "False"
  }, 

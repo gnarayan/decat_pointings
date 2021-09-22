@@ -10,5 +10,5 @@
 
 2021ysa_P3 [50 -41]
 
-EVERYTHING	36.8 minutes
-EVERYTHING_P1	26.6 minutes
+EVERYTHING	36.9 minutes
+EVERYTHING_P1	26.7 minutes

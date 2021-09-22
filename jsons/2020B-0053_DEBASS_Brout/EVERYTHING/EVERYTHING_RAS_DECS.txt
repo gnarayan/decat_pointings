@@ -1,14 +1,14 @@
+2021ywa_P1 [58 -17]
+2021ypa_P1 [69 -13]
+2021ymn_P1 [78 -17]
 2021yuj_P1 [299 -22]
 2021yzz_P1 [331 -19]
 2021zax_P1 [333 13]
 2021yrz_P1 [338 19]
 
+2021yyq_P2 [92 -44]
 
 2021ysa_P3 [50 -41]
-2021ywa_P3 [58 -17]
-2021ypa_P3 [69 -13]
-2021ymn_P3 [78 -17]
-2021yyq_P3 [92 -44]
 
-EVERYTHING	39.5 minutes
-EVERYTHING_P1	19.3 minutes
+EVERYTHING	36.8 minutes
+EVERYTHING_P1	26.6 minutes

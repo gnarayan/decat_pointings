@@ -53,6 +53,7 @@ for i,row in df.iterrows():
             print('NO OBSERVATIONS YET')
         print('SPEC CLASS: %s'%row['TNS class'])
         print('Redshift: %s'%row['Redshift'])
+        print('Comment: %s'%row['Comment'])
         if (row['YSE Field'] != '') & (row['YSE Field'] != '?') & (str(row['YSE Field'])!='nan'): print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
         priority = input('\nPlease enter a priority for this object (1 2 3 TCTM)\n')

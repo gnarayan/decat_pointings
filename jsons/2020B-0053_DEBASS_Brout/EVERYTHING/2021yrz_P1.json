@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 25.0,
+        "exptime": 15.0,
         "RA": 338.79693,
         "dec": 19.81472,
         "object": "2021yrz_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 25.0,
+        "exptime": 15.0,
         "RA": 338.79693,
         "dec": 19.81472,
         "object": "2021yrz_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 25.0,
+        "exptime": 15.0,
         "RA": 338.79693,
         "dec": 19.81472,
         "object": "2021yrz_P1",

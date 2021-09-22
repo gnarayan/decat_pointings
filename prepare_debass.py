@@ -39,9 +39,15 @@ for i,row in df.iterrows():
     if i < skiprows: continue
     if str(row['snid']) == 'nan': continue
     if str(row['snid']) == 'NaN': continue
-    if 'FINISHED' in row['Following?']: continue
-    if 'ABANDON' in row['Following?']:	continue
-    if 'LOST' in row['Following?']:  continue
+    if 'FINISHED' in row['Following?']:
+        os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
+        continue
+    if 'ABANDON' in row['Following?']:
+        os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
+        continue
+    if 'LOST' in row['Following?']:
+        os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
+        continue
     if 'NON IA YSE' in row['Following?']:  continue
     if 'YSE' in row['Following?']:  continue
     if '91' in row['TNS class']:  continue
@@ -53,7 +59,9 @@ for i,row in df.iterrows():
             print('NO OBSERVATIONS YET')
         print('SPEC CLASS: %s'%row['TNS class'])
         print('Redshift: %s'%row['Redshift'])
+        print()
         print('Comment: %s'%row['Comment'])
+        print()
         if (row['YSE Field'] != '') & (row['YSE Field'] != '?') & (str(row['YSE Field'])!='nan'): print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
         priority = input('\nPlease enter a priority for this object (1 2 3 TCTM)\n')

@@ -5,12 +5,12 @@
   "proposer": "Shen",
   "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
   "expType": "object",
-  "object": "S-CVZ",
-  "filter": "g",
-  "RA": 90.0,
-  "dec": -66.56056,
-  "seqid": "S-CVZ from script S-CVZ.json",
-  "expTime": 80,
+  "object": "SN-C3",
+  "filter": "i",
+  "RA": 52.65,
+  "dec": -28.1,
+  "seqid": "SN-C3 from script SN-C3.json",
+  "expTime": 90,
   "wait": "False"
  },
  {
@@ -20,9 +20,9 @@
   "proposer": "Shen",
   "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
   "expType": "object",
-  "object": "S-CVZ",
+  "object": "SN-C3",
   "filter": "r",
-  "seqid": "S-CVZ from script S-CVZ.json",
+  "seqid": "SN-C3 from script SN-C3.json",
   "expTime": 70,
   "wait": "False"
  },
@@ -33,10 +33,10 @@
   "proposer": "Shen",
   "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
   "expType": "object",
-  "object": "S-CVZ",
-  "filter": "i",
-  "seqid": "S-CVZ from script S-CVZ.json",
-  "expTime": 90,
+  "object": "SN-C3",
+  "filter": "g",
+  "seqid": "SN-C3 from script SN-C3.json",
+  "expTime": 80,
   "wait": "False"
  }
 ]

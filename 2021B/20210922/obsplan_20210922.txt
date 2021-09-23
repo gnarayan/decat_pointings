@@ -11,7 +11,9 @@ YSE 440	[314, -4]
 YSE 544 [321, 9]
 YSE 494 [330, 3],
 DEBASS 2021zax_P1 [333 13], DEBASS 2021yrz_P1 [338, 19], DEBASS 2021zfs_P1 [324 5], 
-DEBASS 2021yzz_P2 [331, -19], DEBASS 2021zet_P1 [328 -23]
+DEBASS 2021yzz_P2 [331, -19]
+
+(MLG: DB CONFIRMED WE SHOULD SKIP: DEBASS 2021zet_P1 [328 -23])
 
 
 23:10 ELAIS 1h [9, -43]
@@ -44,7 +46,10 @@ YSE 257 [91, -26]
 
 5:10am: SCVZ 11 min 	[90,-66]
 5:20am: DEBASS 2021yyq_P2      [92 -44]
-5:25am: 2021A-0275_YSE_Rest/GRB210919A.json  [80, 1]
+
+(MLG: AR CONFIRMED WE SHOULD SKIP: 5:25am: 2021A-0275_YSE_Rest/GRB210919A.json  [80, 1])
+MLG: there's a ToO to be done tonight around this time anyway
+
 5:40am: DECaPSWest 0.5h [116, -26]
 
 06:05am: must end observations

@@ -1,5 +1,5 @@
 [
- { "comment": "DECAT DECaPS West DDF Sequence A", 
+ { "comment": "DECAT DECaPS West DDF Sequence B", 
   "count": 1,
   "propid": "2021B-0149",
   "proposer": "Graham",
@@ -9,7 +9,7 @@
   "filter": "g", 
   "RA": 116.32, 
   "dec": -26.25, 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 96,
   "wait": "False"
  }, 
@@ -21,7 +21,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "r", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 50,
   "wait": "False"
  }, 
@@ -33,7 +33,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "i", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 30,
   "wait": "False"
  }, 
@@ -45,7 +45,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "z", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 30,
   "wait": "False"
  },
@@ -57,7 +57,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "g", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 96,
   "wait": "False"
  }, 
@@ -69,7 +69,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "r", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 50,
   "wait": "False"
  }, 
@@ -81,7 +81,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "i", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 30,
   "wait": "False"
  }, 
@@ -93,7 +93,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "z", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 30,
   "wait": "False"
  },
@@ -105,7 +105,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "g", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 96,
   "wait": "False"
  }, 
@@ -117,7 +117,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "r", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 50,
   "wait": "False"
  }, 
@@ -129,7 +129,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "i", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 30,
   "wait": "False"
  }, 
@@ -141,7 +141,7 @@
   "expType": "object", 
   "object": "DECaPS-West", 
   "filter": "z", 
-  "seqid": "DECaPSWest-DDF-A", 
+  "seqid": "DECaPSWest-DDF-B", 
   "expTime": 30,
   "wait": "False"
  }

@@ -1,0 +1,27 @@
+all times in local time (+1h compared to EDT)
+01:35am
+
+ELAIS [9, -43] 1h 
+
+YSE 296 [17, -19] 16min
+
+
+X123 [34, -4]  35 min
+YSE 401 [40, -1] 16 min
+
+
+C3 [52, -28] 7 min
+YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
+
+YSE 403 [52, -4] 20 min
+
+5:25: SCVZ [90,-66] 11 min 	
+5:35: DECaPSWest [116, -26] 0.5h 
+
+6:05AM hard stop
+--------------
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS: OBSERVE THESE FIELDS:
+YSE 353 [63, -11]
+YSE 257 [91, -26]

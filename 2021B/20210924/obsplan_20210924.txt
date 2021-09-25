@@ -12,7 +12,8 @@ C3 [52, -28] 11 min
 DEBASS 2021ypa_P2 [69 -13]
 DEBASS 2021ymn_P2 [78 -17]
 latest 04:20:
-Alfredo, 1.5h
+Alfredo, 1.5h - 1:40min
 SCVZ 11 min 	[90,-66]
 **** if time left, do DECaPSWest 0.5h [116, -26]
-
+5:40AM latest start TOO
+6:05AM hard stop

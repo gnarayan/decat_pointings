@@ -27,6 +27,7 @@ YSE 403 [52, -4] 20 min
 2021ymn_P2 [78 -17]
 
 5:25: SCVZ [90,-66] 11 min 	
+2021yyq [92 -44]
 5:35: DECaPSWest [116, -26] 0.5h 
 
 6:05AM hard stop

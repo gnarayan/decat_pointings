@@ -3,8 +3,8 @@ all times in local time (+1h compared to EDT)
 01:35am
 
 2021yuj_P1 [299 -22]
-2021zfs_P1 [323 5]
 2021yzz_P1 [331 -19]
+2021zfs_P1 [323 5]
 2021zax_P1 [333 13]
 
 ELAIS [9, -43] 1h 

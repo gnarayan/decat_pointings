@@ -15,10 +15,10 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
 
     apo = Observer.at_site(site)
 
-    midn = apo.midnight(time,which='next')
+    midn = apo.midnight(Time(timestr) + 24*u.hour,which='next')
 
     print(time.datetime.replace(tzinfo=pytz.utc))
-    print(midn[0].datetime.replace(tzinfo=pytz.utc))
+    print(midn.datetime.replace(tzinfo=pytz.utc))
 
     SN_coord = SkyCoord(ra=ra*u.deg, dec=dec*u.deg)
     moon_coord = get_moon(time,location=EarthLocation.of_site('CTIO'))
@@ -36,7 +36,7 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
     ax = plot_airmass(SN_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=SN_styles)
 
     #print(midn[0].datetime.replace(tzinfo=pytz.utc))
-    ax.axvline(midn[0].datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight')
+    ax.axvline(midn.datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight')
     #ax.axvline(midn2[0].datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight')
     
     plt.legend(shadow=True,loc=4)

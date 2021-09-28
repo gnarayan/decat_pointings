@@ -7,10 +7,10 @@
 
 2021ypa_P2 [69 -13]
 2021ymn_P2 [78 -17]
+2021yrz_P2 [338 19]
 
 2021ywa_P3 [58 -17]
 2021yyq_P3 [92 -44]
-2021yrz_P3 [338 19]
 
 EVERYTHING	36.9 minutes
 EVERYTHING_P1	23.4 minutes

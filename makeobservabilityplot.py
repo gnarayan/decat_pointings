@@ -2,9 +2,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 from astropy.time import Time
 from astroplan import FixedTarget, Observer, Schedule
-from astroplan.plots import plot_airmass
+from astroplan.plots import plot_airmass, plot_schedule_airmass
 from astropy import units as u
 from astropy.coordinates import SkyCoord, get_moon, EarthLocation
+import pytz
+
+
 
 def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site='CTIO',block=True):
     
@@ -12,8 +15,9 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
 
     apo = Observer.at_site(site)
 
-    midn = Schedule(apo.midnight(time),apo.midnight(time))
-    
+    midn = apo.midnight(time,which='previous')
+    midn2 = apo.midnight(time,which='next')
+    #print(midn)
     SN_coord = SkyCoord(ra=ra*u.deg, dec=dec*u.deg)
     moon_coord = get_moon(time,location=EarthLocation.of_site('CTIO'))
     
@@ -27,9 +31,11 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
     SN_styles = {'color': 'k', 'linewidth': 3}
     
     plot_airmass(moon_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=moon_styles)
-    plot_airmass(SN_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=SN_styles)
+    ax = plot_airmass(SN_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=SN_styles)
 
-    plot_schedule_airmass(midn)
+    #print(midn[0].datetime.replace(tzinfo=pytz.utc))
+    ax.axvline(midn.datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight')
+    #ax.axvline(midn2[0].datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight')
     
     plt.legend(shadow=True,loc=4)
     plt.tight_layout()

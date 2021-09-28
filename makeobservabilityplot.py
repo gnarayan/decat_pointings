@@ -15,9 +15,10 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
 
     apo = Observer.at_site(site)
 
-    print(time)
+    midn = apo.midnight(time,which='next')
+
+    print(time.datetime.replace(tzinfo=pytz.utc))
     print(midn[0].datetime.replace(tzinfo=pytz.utc))
-    midn = apo.midnight(time,which='previous')
 
     SN_coord = SkyCoord(ra=ra*u.deg, dec=dec*u.deg)
     moon_coord = get_moon(time,location=EarthLocation.of_site('CTIO'))

@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from astropy.time import Time
-from astroplan import FixedTarget, Observer
+from astroplan import FixedTarget, Observer, Schedule
 from astroplan.plots import plot_airmass
 from astropy import units as u
 from astropy.coordinates import SkyCoord, get_moon, EarthLocation
@@ -12,7 +12,7 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
 
     apo = Observer.at_site(site)
 
-    midn = apo.midnight(time)
+    midn = Schedule(apo.midnight(time),apo.midnight(time))
     
     SN_coord = SkyCoord(ra=ra*u.deg, dec=dec*u.deg)
     moon_coord = get_moon(time,location=EarthLocation.of_site('CTIO'))
@@ -29,7 +29,7 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
     plot_airmass(moon_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=moon_styles)
     plot_airmass(SN_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=SN_styles)
 
-    plt.axvline(midn)
+    plot_schedule_airmass(midn)
     
     plt.legend(shadow=True,loc=4)
     plt.tight_layout()

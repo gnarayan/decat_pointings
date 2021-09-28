@@ -10,14 +10,14 @@ import pytz
 
 
 def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site='CTIO',block=True):
-    
+
+    plt.clf()
     time = Time(timestr) + 24*u.hour + np.linspace(-3.0, 14, 100)*u.hour
 
     apo = Observer.at_site(site)
 
     midn = apo.midnight(Time(timestr) + 24*u.hour,which='next')
 
-    print(time.datetime.replace(tzinfo=pytz.utc))
     print(midn.datetime.replace(tzinfo=pytz.utc))
 
     SN_coord = SkyCoord(ra=ra*u.deg, dec=dec*u.deg)
@@ -32,13 +32,9 @@ def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site
     moon_styles = {'linestyle': ':', 'color': 'grey'}
     SN_styles = {'color': 'k', 'linewidth': 3}
     
+    plt.axvline(midn.datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight',zorder=999999)
     plot_airmass(moon_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=moon_styles)
-    ax = plot_airmass(SN_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=SN_styles)
-
-    #print(midn[0].datetime.replace(tzinfo=pytz.utc))
-    ax.axvline(midn.datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight')
-    #ax.axvline(midn2[0].datetime.replace(tzinfo=pytz.utc),ls='--',c='k',label='Midnight')
-    
+    plot_airmass(SN_target, apo, time, brightness_shading=True, altitude_yaxis=True,style_kwargs=SN_styles)
     plt.legend(shadow=True,loc=4)
     plt.tight_layout()
     plt.show(block=block)

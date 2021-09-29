@@ -8,7 +8,7 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021yzz_P2 [331 -19]
 
 1:50 am
-  ELAIS [9, -43] 1h 
+  ELAIS seq A&B [9, -43] 1h 
   2021zgf_P1 [26 -43] 4 min
 
 2:55 am 
@@ -32,7 +32,7 @@ all times in local time (+1h compared to EDT)
 
 5:05: SCVZ [90,-66] 11 min 	
 5:15: DEBASS 2021yyq_P2 [92 -44]
-5:20: DECaPSWest [116, -26] 0.5h 
+5:20: DECaPSWest seq A&B [116, -26] 0.5h 
 
 5:50: 15 min gap
 

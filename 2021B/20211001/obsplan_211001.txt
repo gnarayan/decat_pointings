@@ -31,11 +31,12 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021ywa_P1 [58 -17]
   DEBASS 2021ypa_P2 [69 -13]
   DEBASS 2021ymn_P1 [78 -17]
-
+  DEBASS 2021zsz_P1 [93 -14]
 
 5:00: YSE 257 [91, -26] (20 min)
 5:20: Shen SCVZ [90,-66] 11 min 	
 5:30: DEBASS 2021yyq_P2 [92 -44]
+
 
 set the guider exposure time to 100ms for this crowded field
 5:35: DECaPSWest seq A&B [116, -26] 0.5h 

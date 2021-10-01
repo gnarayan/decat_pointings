@@ -13,11 +13,11 @@ DEBASS HIGH PRIORITY
 
 
 DEBASS LOW PRIORITY
+2021zzu_P2 [326 -16] <--- if observing, only visible during very beginning of second half of night
 2021ywa_P2 [58 -17]
 2021ypa_P2 [69 -13]
 2021ymn_P2 [78 -17]
 2021yyq_P2 [92 -44]
-2021zzu_P2 [326 -16]
 
 
 EVERYTHING	46.0 minutes

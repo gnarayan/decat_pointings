@@ -8,8 +8,8 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021yrz_P1 [338 19]
   YSE 494.F.2021aabp [347 9]
 1:45 am
-  ELAIS seq A&B [9, -43] 1h 
-  2021zgf_P1 [26 -43] 4 min
+  Graham DDF ELAIS seq A&B [9, -43] 1h 
+  DEBASS 2021zgf_P1 [26 -43] 4 min
 
 2:50 am 
   YSE 296 [17, -19] 16 min
@@ -39,7 +39,7 @@ all times in local time (+1h compared to EDT)
 
 
 set the guider exposure time to 100ms for this crowded field
-5:35: DECaPSWest seq A&B [116, -26] 0.5h 
+5:35: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
 6:05AM hard stop

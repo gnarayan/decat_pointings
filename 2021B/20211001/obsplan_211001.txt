@@ -2,11 +2,11 @@ all times in local time (+1h compared to EDT)
 
 01:10am #some of these targets are setting (from second half) so be careful
   DEBASS 2021yuj_P1 [299 -22]
+  DEBASS 2021yzz_P2 [331 -19]
   DEBASS 2021zfs_P1 [323 5]
   DEBASS 2021zax_P1 [333 13]
   DEBASS 2021yrz_P1 [338 19]
-  DEBASS 2021yzz_P2 [331 -19]
-
+  YSE 494.F.2021aabp [347 9]
 1:45 am
   ELAIS seq A&B [9, -43] 1h 
   2021zgf_P1 [26 -43] 4 min
@@ -23,11 +23,11 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021zfr_P1 [45 -15]
   DEBASS 2021zdx_P1 [46 -15]
   DEBASS 2021zqo_P1 [44 -18]
-4:25 am
+4:20 am
   C3 [52, -28] 7 min
   YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
 
-4:45 am
+4:40 am
   DEBASS 2021ywa_P1 [58 -17]
   DEBASS 2021ypa_P2 [69 -13]
   DEBASS 2021ymn_P1 [78 -17]

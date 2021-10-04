@@ -2,19 +2,20 @@
 2021zqo_P1 [44 -18]
 2021zdx_P1 [46 -15]
 2021zfr_P1 [45 -15]
-2021zsz_P1 [93 -14]
+2021aabw_P1 [83 -24]
+2021zsz_P1 [92 -14]
 2021yuj_P1 [299 -22]
-2021zfs_P1 [323 5]
-2021yzz_P1 [331 -19]
+2021zfs_P1 [324 5]
 2021zax_P1 [333 13]
 2021yrz_P1 [338 19]
 
 2021ywa_P2 [58 -17]
-2021ypa_P2 [69 -13]
 2021ymn_P2 [78 -17]
-2021yyq_P2 [92 -44]
-2021zzu_P2 [326 -16]
+2021yzz_P2 [331 -19]
 
+2021ypa_P3 [69 -13]
+2021yyq_P3 [92 -44]
+2021zzu_P3 [326 -16]
 
-EVERYTHING	52.6 minutes
-EVERYTHING_P1	36.5 minutes
+EVERYTHING	52.8 minutes
+EVERYTHING_P1	37.9 minutes

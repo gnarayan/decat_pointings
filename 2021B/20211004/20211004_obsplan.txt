@@ -27,12 +27,14 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021zqo_P1 [44 -18]
 
 4:35 am
-  YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
+  YSE CDFS gr [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
 
 4:50 am
   DEBASS 2021zsz_P1 [93 -14]
   DEBASS 2021aabw_P1 [83 -24]
   YSE 257 [91, -26] (20 min)
+
+*** INSERT ICECUBE! 20 min ***
 
 5:20 Shen SCVZ [90,-66] 11 min   
 5:30 DEBASS 2021aaga_P1 [85 -41]

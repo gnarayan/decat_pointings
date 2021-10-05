@@ -16,7 +16,7 @@ all times in local time (+1h compared to EDT)
 
 3:05 am
   YSE 401 [40, -1] 20 min
-  S12  [42, 0] 22 min
+  Shen S12  [42, 0] 22 min
 
 3:50 am
   YSE 403 [52, -4] 20 min
@@ -24,7 +24,7 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021zdx_P1 [46 -15]
   DEBASS 2021zqo_P1 [44 -18]
 4:20 am
-  C3 [52, -28] 7 min
+  Shen C3 [52, -28] 7 min
   YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
 
 4:40 am
@@ -39,7 +39,7 @@ all times in local time (+1h compared to EDT)
 
 
 set the guider exposure time to 100ms for this crowded field
-5:35: DECaPSWest seq A&B [116, -26] 0.5h 
+5:35: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
 6:05AM hard stop
@@ -48,12 +48,12 @@ set guider exptime back to 600ms
 Alternate targets:
 IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
 
-2021zzu_P2 [326 -16] <--- if observing, only visible during very beginning of second half of night
-2021ywa_P2 [58 -17]
-2021ypa_P2 [69 -13]
-2021ymn_P2 [78 -17]
-2021yyq_P2 [92 -44]
+DEBASS 2021zzu_P2 [326 -16] <--- if observing, only visible during very beginning of second half of night
+DEBASS 2021ywa_P2 [58 -17]
+DEBASS 2021ypa_P2 [69 -13]
+DEBASS 2021ymn_P2 [78 -17]
+DEBASS 2021yyq_P2 [92 -44]
 
-X123 [34, -4]  35 min
+Shen X123 [34, -4]  35 min
 YSE 353 [63, -11] (20 min)
 CDFS again [52, -28] (15 min)

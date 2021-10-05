@@ -7,7 +7,7 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021zax_P1 [333 13]
   DEBASS 2021yrz_P1 [338 19]
   YSE 494.F.2021aabp [347 9]
-1:45 am
+1:50 am
   ELAIS seq A&B [9, -43] 1h 
   2021zgf_P1 [26 -43] 4 min
 

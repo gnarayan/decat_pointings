@@ -29,7 +29,7 @@ all times in local time (+1h compared to EDT)
 
 4:40 am
   DEBASS 2021ywa_P1 [58 -17]
-  DEBASS 2021ypa_P2 [69 -13]
+  DEBASS 2021ypa_P1 [69 -13]
   DEBASS 2021ymn_P1 [78 -17]
   DEBASS 2021aabw_P1 [83 -24]
   DEBASS 2021zsz_P1 [93 -14]

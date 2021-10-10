@@ -16,7 +16,7 @@ all times in local time (+1h compared to EDT)
 
 2:55 am
   Shen X123 [34, -4]  35 min
-  YSE 401 [40, -1] 20 min
+  YSE 401 [40, -1] 20 min - replace 401.D with 401.D.2021aaqn.json
 
 3:50 am
   YSE 403 [52, -4] 20 min

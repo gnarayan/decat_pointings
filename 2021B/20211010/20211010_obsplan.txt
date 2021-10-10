@@ -6,26 +6,26 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021zax_P1 [333 13]
   YSE 494.F.2021aabp [347 9]
 
-1:50 am
+1:30 am
   Graham DDF ELAIS seq A&B [9, -43] 1h 
   DEBASS 2021zgf_P1 [26 -43] 4 min
   DEBASS 2021aafz_P1 [30 -44] 4 min
 
-3:00 am 
+2:40 am 
   YSE 296 [17, -19] 16 min
 
-3:15 am
+2:55 am
   Shen X123 [34, -4]  35 min
   YSE 401 [40, -1] 20 min
 
-4:10 am
+3:50 am
   YSE 403 [52, -4] 20 min
   DEBASS 2021zfr_P1 [45 -15]
   DEBASS 2021zdx_P1 [46 -15]
   DEBASS 2021zqo_P1 [44 -18]
   DEBASS 2021ywa_P1 [58 -17]
 
-4:35 am
+4:25 am
   YSE CDFS gr [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
   DEBASS 2021ypa_P1 [69 -13]
   DEBASS 2021ymn_P1 [78 -17]
@@ -36,9 +36,8 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021aabw_P1 [83 -24]
   YSE 257 [91, -26] (20 min)
 
-5:10 Shen SCVZ [90,-66] 11 min   
-5:20 DEBASS 2021aaga_P1 [85 -41]
-
+5:20 Shen SCVZ [90,-66] 11 min   
+5:30 DEBASS 2021aaga_P1 [85 -41]
 
 set the guider exposure time to 100ms for this crowded field
 5:35: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 

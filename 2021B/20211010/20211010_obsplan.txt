@@ -1,5 +1,7 @@
 all times in local time (+1h compared to EDT)
 
+*** ALL YSE FIELDS: use the combined files in decat_pointings/jsons/2021A-0275_YSE_Rest/combined ***
+
 01:15am #some of these targets are setting (from second half) so be careful
   DEBASS 2021yzz_P1 [331 -19]
   DEBASS 2021zfs_P3 [323 5]
@@ -17,16 +19,18 @@ all times in local time (+1h compared to EDT)
 2:55 am
   Shen X123 [34, -4]  35 min
   YSE 401 [40, -1] 20 min - replace 401.D with 401.D.2021aaqn.json
+  *** if necessary, you can drop 401.[A,C,E,F] ***
 
 3:50 am
-  YSE 403 [52, -4] 20 min
+  YSE 505.A.2021zby 
+  YSE 403 [52, -4] 20 min, **** DROP 403.F ***
   DEBASS 2021zfr_P1 [45 -15]
   DEBASS 2021zdx_P1 [46 -15]
   DEBASS 2021zqo_P1 [44 -18]
   DEBASS 2021ywa_P1 [58 -17]
 
 4:25 am
-  YSE CDFS gr [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
+  YSE CDFS gr [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.gr.json)
   DEBASS 2021ypa_P1 [69 -13]
   DEBASS 2021ymn_P1 [78 -17]
   DEBASS 2021aazj_P1 [75 -16]
@@ -51,6 +55,5 @@ IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
 
 Shen C3 [52, -28] + Shen S12 [42, 0]  (30 min)
 YSE 353 [63, -11] (20 min)
-YSE 257 [91, -26] (20 min)
 DEBASS 2021aatq_P2 [114 -2] (4 min)
 

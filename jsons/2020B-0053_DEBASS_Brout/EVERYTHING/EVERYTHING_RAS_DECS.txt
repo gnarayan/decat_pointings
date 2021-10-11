@@ -10,14 +10,13 @@
 2021aazj_P1 [75 -16]
 2021aaga_P1 [85 -41]
 2021zsz_P1 [93 -14]
+2021aatq_P1 [114 -2]
+2021zfs_P1 [323 5]
 2021yzz_P1 [331 -19]
 2021zax_P1 [333 13]
+2021yrz_P1 [338 19]
 
-2021aatq_P2 [114 -2]
 
-2021yuj_P3 [299 -22]
-2021zfs_P3 [324 5]
-2021yrz_P3 [338 19]
 
-EVERYTHING	63.0 minutes
-EVERYTHING_P1	41.5 minutes
+EVERYTHING	52.8 minutes
+EVERYTHING_P1	43.2 minutes

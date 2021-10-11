@@ -4,7 +4,6 @@ all times in local time (+1h compared to EDT)
 
 01:15am #some of these targets are setting (from second half) so be careful
   DEBASS 2021yzz_P1 [331 -19]
-  DEBASS 2021zfs_P3 [323 5]
   DEBASS 2021zax_P1 [333 13]
   YSE 494.F.2021aabp [347 9]
 

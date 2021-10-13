@@ -40,5 +40,19 @@
         "comment": "2021zqo",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 44.58589,
+        "dec": -18.41012,
+        "object": "2021zqo_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021zqo",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

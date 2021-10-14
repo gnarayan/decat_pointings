@@ -37,8 +37,8 @@ all times in local time (+1h compared to EDT)
   DEBASS 2021aabw_P1 [83 -24]
 
 5:00: YSE 257 [91, -26] (20 min)
-5:25: Shen SCVZ [90,-66] 11 min
       DEBASS 2021aaga_P1 [85 -41]
+5:25: Shen SCVZ [90,-66] 11 min
 
 
 set the guider exposure time to 100ms for this crowded field

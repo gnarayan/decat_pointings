@@ -1,0 +1,79 @@
+Sunset ( 2215 m horizon):   20 01 CDT; Sunrise:   6 55 CDT
+Evening twilight:  21 17 CDT;  LMST at evening twilight:  21 17
+Morning twilight:   5 39 CDT;  LMST at morning twilight:   5 41
+12-degr twilight: 20 48 CDT -->  6 09 CDT; night center:   1 28 CDT
+
+2021B-0909_Twilight_Sheppard [207, -20]
+Twilight asteroid program ends at 20:38 (23:38UT)
+
+20:50: DECaPSEast 30 min [270, -29] 
+
+21:20: 
+YSE 440	[314, -4]
+YSE 544 [321, 9]
+
+DEBASS 2021zax_P1 [333 13]
+YSE 494.F.2021aabp [347 9]
+2021abds_P1 [356 -16]
+2021abcl_P1 [338 -20]
+
+22:20 SMC (*** FILLER ***)
+
+23:00 ELAIS 1h [9, -43]
+
+---------
+01:00
+YSE 550 [3, 17]
+YSE 600 [1, 24]
+YSE 448 [13, 3]
+
+02:00
+2021zgf_P2 [26 -43] 4 min
+2021aafz_P1 [30 -44]
+
+02:10
+YSE 296 [17, -19] 16min
+
+02:30 
+X123 [34, -4]  35 min
+YSE 401 [40, -1] 20 min - replace 401.D with 401.D.2021aaqn.json
+S12  [42, 0] 22 min
+
+03:45
+  YSE 505.A.2021zby 
+  YSE 403 [52, -4] 20 min, **** DROP 403.F ***
+  DEBASS 2021zfr_P1 [45 -15]
+  DEBASS 2021zdx_P1 [46 -15]
+  DEBASS 2021zqo_P1 [44 -18]
+  
+4:15 am
+  YSE 505.A.2021zby 
+  Shen C3 [52, -28] 7 min
+  YSE CDFS gr [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.gr.json)
+
+4:40 am
+  DEBASS 2021ywa_P1 [58 -17]
+  DEBASS 2021ypa_P1 [69 -13]
+  2021aazj_P1 [75 -16]
+  DEBASS 2021ymn_P1 [78 -17]
+  DEBASS 2021aabw_P1 [83 -24]
+
+5:00: YSE 257 [91, -26] (20 min)
+      DEBASS 2021aaga_P1 [85 -41]
+5:25: Shen SCVZ [90,-66] 11 min
+
+
+set the guider exposure time to 100ms for this crowded field
+5:40: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+6:05AM hard stop
+--------------
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+Shen X123 [34, -4]  35 min
+YSE 353 [63, -11] (20 min)
+CDFS again [52, -28] (15 min)
+

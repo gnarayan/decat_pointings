@@ -27,7 +27,7 @@ all times in local time (+1h compared to EDT)
 4:15 am
   YSE 505.A.2021zby 
   Shen C3 [52, -28] 7 min
-  YSE CDFS gr [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.gr.json)
+  YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
 
 4:40 am
   DEBASS 2021ywa_P1 [58 -17]

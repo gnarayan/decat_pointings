@@ -4,28 +4,32 @@ Morning twilight:   5 39 CDT;  LMST at morning twilight:   5 41
 12-degr twilight: 20 48 CDT -->  6 09 CDT; night center:   1 28 CDT
 
 2021B-0909_Twilight_Sheppard [207, -20]
-Twilight asteroid program ends at 20:38 (23:38UT)
+Twilight asteroid program ends at ~20:58 (23:38UT)
 
 *** ALL YSE SCRIPTS ARE IN THE decat_pointings/jsons/2021A-0275_YSE_Rest/combined directories!!
 
-20:50: DECaPSEast 30 min [270, -29] 
+20:58: DECaPSEast 30 min [270, -29] 
   
-21:20: 
+22:00: 
 DEBASS 2021yuj_P1 [299 -22]
 YSE 440	[314, -4] decat_pointings/jsons/2021A-0275_YSE_Rest/combined/440.json
 DEBASS 2021zfs_P1 [324 5]
 YSE 544 [321, 9]
 DEBASS 2021zax_P1 [333 13]
 DEBASS 2021yrz_P1 [338 19]
+YSE 494.F.2021aabp [347 9]
 
-22:20 SMC (*** FILLER UNTIL 23:40 ***)
+
+23:00 SMC [11 -73] (*** FILLER UNTIL 23:40 ***)
 short exposure json files are here (~2min each file): #25min total
-decat_pointings/jsons/2021B-0325_EtaCar_Rest/short
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/SMC_short
 long exposure json files are here (~35min each file):
-decat_pointings/jsons/2021B-0325_EtaCar_Rest/long
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/SMC_long
+
+SMC_long/SMC_c02_d1.json
+SMC_short/SMC_c02_d1.json
 
 If you can do 1 long exposure script (35 min), then do it (and add the associated short exposure script)! If there is not enough time to do a long exposure script, just do as many short exposure scripts as possible
-
 
 23:40 ELAIS 1h [9, -43]
 

@@ -1,0 +1,81 @@
+[
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "g",
+  "expTime": 270
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "g",
+  "expTime": 270
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "r",
+  "expTime": 270
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "r",
+  "expTime": 270
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "i",
+  "expTime": 270
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "i",
+  "expTime": 270
+  }
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "z",
+  "RA": 52.65,
+  "dec": -28.135,
+  "expTime": 270
+  },
+]

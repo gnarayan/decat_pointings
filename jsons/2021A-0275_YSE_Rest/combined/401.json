@@ -1,7 +1,7 @@
 [
 	{
 		"count": 1,
-		"filter": "g",
+		"filter": "i",
 		"exptime": 50.0,
 		"RA": 35.867540,
 		"dec": -4.148250,
@@ -29,7 +29,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "g",
+		"filter": "i",
 		"exptime": 50.0,
 		"RA": 36.298690,
 		"dec": -1.049410,
@@ -57,7 +57,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "g",
+		"filter": "i",
 		"exptime": 50.0,
 		"RA": 40.202140,
 		"dec": -0.749520,
@@ -85,7 +85,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "g",
+		"filter": "i",
 		"exptime": 50.0,
 		"RA": 42.074220,
 		"dec": -4.148250,
@@ -113,7 +113,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "g",
+		"filter": "i",
 		"exptime": 50.0,
 		"RA": 35.660580,
 		"dec": -7.596980,

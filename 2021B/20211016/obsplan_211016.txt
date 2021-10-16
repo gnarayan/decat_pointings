@@ -6,18 +6,26 @@ Morning twilight:   5 39 CDT;  LMST at morning twilight:   5 41
 2021B-0909_Twilight_Sheppard [207, -20]
 Twilight asteroid program ends at 20:38 (23:38UT)
 
+*** ALL YSE SCRIPTS ARE IN THE decat_pointings/jsons/2021A-0275_YSE_Rest/combined directories!!
+
 20:50: DECaPSEast 30 min [270, -29] 
 
 21:20: 
-YSE 440	[314, -4]
+YSE 440	[314, -4] decat_pointings/jsons/2021A-0275_YSE_Rest/combined/440.json
 YSE 544 [321, 9]
 
 DEBASS 2021zax_P1 [333 13]
-YSE 494.F.2021aabp [347 9]
 2021abds_P1 [356 -16]
 2021abcl_P1 [338 -20]
 
 22:20 SMC (*** FILLER ***)
+short exposure json files are here (~2min each file):
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/short
+long exposure json files are here (~35min each file):
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/long
+
+If you can do 1 long exposure script (35 min), then do it (and add the associated short exposure script)! If there is not enough time to do a long exposure script, just do as many short exposure scripts as possible
+
 
 23:00 ELAIS 1h [9, -43]
 
@@ -34,22 +42,21 @@ YSE 448 [13, 3]
 02:10
 YSE 296 [17, -19] 16min
 
-02:30 
+02:25 
 X123 [34, -4]  35 min
 YSE 401 [40, -1] 20 min - replace 401.D with 401.D.2021aaqn.json
 S12  [42, 0] 22 min
 
-03:45
-  YSE 505.A.2021zby 
-  YSE 403 [52, -4] 20 min, **** DROP 403.F ***
+03:40
+  YSE 505.A.2021zby [44 11]
+  YSE 403 [52, -4] 20 min
   DEBASS 2021zfr_P1 [45 -15]
   DEBASS 2021zdx_P1 [46 -15]
   DEBASS 2021zqo_P1 [44 -18]
   
 4:15 am
-  YSE 505.A.2021zby 
   Shen C3 [52, -28] 7 min
-  YSE CDFS gr [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.gr.json)
+  YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json) (*** This can be dropped if necessary!)
 
 4:40 am
   DEBASS 2021ywa_P1 [58 -17]

@@ -54,19 +54,5 @@
 		"comment": "YSE_2021aab",
 		"wait": "False",
 		"propid": "2021A-0275"
-	},
-	{
-		"count": 1,
-		"filter": "u",
-		"exptime": 150.0,
-		"RA": 39.4924833,
-		"dec": -1.88699,
-		"object": "YSE_2021aab",
-		"program": "",
-		"expType": "object",
-		"note": "None",
-		"comment": "YSE_2021aab",
-		"wait": "False",
-		"propid": "2021A-0275"
 	}
 ]

@@ -2,8 +2,8 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
-        "RA": 58.39158,
+        "exptime": 25.0,
+        "RA": 58.3638,
         "dec": -17.06869,
         "object": "2021ywa_P2",
         "program": "DECAT",
@@ -15,9 +15,9 @@
     },
     {
         "count": 1,
-        "filter": "r",
-        "exptime": 15.0,
-        "RA": 58.39158,
+        "filter": "i",
+        "exptime": 25.0,
+        "RA": 58.3638,
         "dec": -17.06869,
         "object": "2021ywa_P2",
         "program": "DECAT",

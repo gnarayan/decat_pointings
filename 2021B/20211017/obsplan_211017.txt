@@ -4,36 +4,38 @@ Morning twilight:   5 39 CDT;  LMST at morning twilight:   5 41
 12-degr twilight: 20 48 CDT -->  6 09 CDT; night center:   1 28 CDT
 
 1:28:
+2021yzz_P1 [331 -19]
+2021abcl_P1 [338 -20]
+2021abmp_P1 [11 -38]
 
-2021zax_P3 [333 13]
-2021zgf_P2 [26 -43]
-2021zdx_P2 [46 -15]
-2021ywa_P2 [58 -17]
-
-1:55:
+1:50:
 Main NUTS riz observations: 
 YSE CDFS iz [52, -28] 25 min (2021A-0275_YSE_Rest/CDFS.riz.json) 
 *** REPEAT 3 times!!! ***
 
-3:15 LMC observations [79 -69]
+3:05 LMC observations [79 -69]
 jsons/2021B-0325_EtaCar_Rest:
-LMC_long/LMC_c30_d1.json (35 min)
-LMC_short/LMC_c30_d1.json (2 min)
-LMC_long/LMC_c41_d1.json (35 min)
-LMC_short/LMC_c41_d1.json (2 min)
+  LMC_long/LMC_c30_d1.json (35 min)
+  LMC_short/LMC_c30_d1.json (2 min)
+  LMC_long/LMC_c41_d1.json (35 min)
+  LMC_short/LMC_c41_d1.json (2 min)
+DEBASS 2021aaga_P1 [85 -41]
+DBEASS 2021aabw_P1 [83 -24]
+DEBASS 2021zsz_P1 [93 -14]
 
-4:30: NUTS g band (Moon is setting!)
-CDFS.g.json (30 minutes)
+4:20: NUTS g band (Moon is setting!)
+CDFS.g.json [52 -28] (30 minutes)
 
-4:55: YSE 353 [63, -11] (20 min)
-2021ypa_P2 [69 -13]
-2021ymn_P2 [78 -17]
+4:50: YSE 353 [63, -11] (20 min)
 
-5:25: Shen SCVZ [90,-66] 11 min
-
+5:15: Shen SCVZ [90,-66] 11 min
+            
 set the guider exposure time to 100ms for this crowded field
-5:35: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+5:30: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
+
+6:00: DEBASS 2021aatq_P1 [114 -2] (3min) <-- if there is time...
+      DEBASS 2021abiu_P2 [119 -2] (3min) <-- if there is time...
 
 6:05AM hard stop
 --------------
@@ -41,6 +43,7 @@ set guider exptime back to 600ms
 Alternate targets:
 IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
 
+DEBASS 2021aazj_P2 [75 -16] (4min)
 Shen X123 [34, -4]  35 min
 YSE 353 [63, -11] (20 min)
 CDFS again [52, -28] (15 min)

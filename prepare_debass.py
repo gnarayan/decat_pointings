@@ -23,14 +23,25 @@ datestr = input(f'Please Enter Observing Date in the following format (YYYY-MM-D
 if datestr == '': datestr=currdate
 obsdict = ro.run(verbose=True)
 
+doonlysn=False
 try:
     startsn = sys.argv[1]
-    keepskipping = True
+    if '--sn=' in startsn:
+        onlysn=startsn.replace('--sn=','')
+        doonlysn=True
+        keepskipping=False
+    else:
+        keepskipping = True
 except:
     keepskipping = False
 #skiprows = 60
 skiprows = 0
 for i,row in df.iterrows():
+    if doonlysn:
+        if row['snid'] == onlysn:
+            pass
+        else:
+            continue
     if keepskipping:
         if row['snid'] == startsn:
             keepskipping = False

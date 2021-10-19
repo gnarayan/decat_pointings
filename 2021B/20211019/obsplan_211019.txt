@@ -1,3 +1,7 @@
+
+
+
+
 Sunset ( 2215 m horizon):   20 01 CDT; Sunrise:   6 55 CDT
 Evening twilight:  21 17 CDT;  LMST at evening twilight:  21 17
 Morning twilight:   5 39 CDT;  LMST at morning twilight:   5 41
@@ -18,9 +22,13 @@ YSE 544 [321, 9]
 DEBASS 2021zax_P1 [333 13]
 DEBASS 2021yrz_P1 [338 19]
 YSE 494.F.2021aabp [347 9]
+2021aazk_P1 [358 -9]
+2021abds_P1 [356 -16]
+2021abcl_P1 [338 -20]
+2021yzz_P1 [331 -19]
 
 
-22:30 SMC [11 -73] (*** FILLER UNTIL 23:40 ***)
+22:45 SMC [11 -73] (*** FILLER UNTIL 00:00 ***)
 short exposure json files are here (~2min each file): #25min total
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/SMC_short
 long exposure json files are here (~35min each file):
@@ -34,58 +42,57 @@ SMC_short/SMC_c05_d*.json
 
 If you can do 1 long exposure script (35 min), then do it (and add the associated short exposure script)! If there is not enough time to do a long exposure script, just do as many short exposure scripts as possible
 
-23:40 ELAIS 1h [9, -43]
+00:00 ELAIS 1h [9, -43]
 
 ---------
-00:40
+01:00
 YSE 550 [3, 17]
 YSE 600 [1, 24]
 YSE 448 [13, 3]
 
-01:40
+02:00
 DEBASS 2021abmp_P1 [11 -38]
-DEBASS 2021zgf_P2 [26 -43] 4 min
 DEBASS 2021aafz_P1 [30 -44]
-
-01:55
 YSE 296 [17, -19] 16min
 
-02:10 
+02:25 
 YSE 401 [40, -1] 20 min - replace 401.D with 401.D.2021aaqn.json
 S12  [42, 0] 22 min
 
-03:05 am
-  DEBASS 2021abko_P1 [31 23]
+03:10 am
+  DEBASS 2021abko_P1 [31 23] DONT SKIP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   YSE 505.A.2021zby [44 11] ** high priority **
   YSE 403 [52, -4] 20 min 
-  DEBASS 2021zfr_P1 [45 -15]
-  DEBASS 2021zdx_P1 [46 -15]
-  DEBASS 2021zqo_P1 [44 -18]
+  DEBASS 2021zdx_P2 [46 -15] <-- can skip if running behind
+  DEBASS 2021zfr_P2 [45 -15] <-- can skip if running behind
+  DEBASS 2021zqo_P1 [44 -18] DONT SKIP!!
   
 3:50 am
   Shen C3 [52, -28] 7 min  
   YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json) (*** This can be dropped if necessary!)
 
-4:10 am
-  DEBASS 2021aazj_P1 [75 -16]
-  DEBASS 2021aabw_P1 [83 -24]
-  DEBASS 2021zsz_P1 [92 -14]
+4:15 am
+  DEBASS 2021ywa_P2 [58 -17] <-- can skip if running behind
+  DEBASS 2021ypa_P2 [69 -13] <-- can skip if running behind
+  DEBASS 2021aazj_P1 [75 -16] DONT SKIP!!
+  DEBASS 2021ymn_P2 [78 -17] <-- can skip if running behind
 
 04:20
   GRB210919A.json [80 1] 18 min ** high priority **
 
 4:40: YSE 257 [91, -26] (20 min)
-      DEBASS 2021aaga_P1 [85 -41]
-5:05: Shen SCVZ [90,-66] 11 min
+      DEBASS 2021aabw_P2 [83 -24] <-- can skip if running behind
+      DEBASS 2021aaga_P2 [85 -41] <-- can skip if running behind
+5:10: Shen SCVZ [90,-66] 11 min
 
 
 set the guider exposure time to 100ms for this crowded field
-5:15: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+5:20: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-5:45
-  DEBASS 2021aatq_P1 [114 -2]
-  DEBASS 2021abiu_P1 [119 -2]
+5:50
+  DEBASS 2021aatq_P1 [114 -2] DONT SKIP!!
+  DEBASS 2021abiu_P1 [119 -2] DONT SKIP!!
 
 6:05AM hard stop
 --------------
@@ -93,10 +100,8 @@ set guider exptime back to 600ms
 Alternate targets:
 IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
 
+
 CDFS [52, -28] (15 min)
-DEBASS 2021ywa_P2 [58 -17] (4min)
-DEBASS 2021ypa_P2 [69 -13] (4min)
-DEBASS 2021ymn_P2 [78 -17] (4min)
 YSE 353 [63, -11] (20 min)
 
 

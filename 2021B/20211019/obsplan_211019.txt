@@ -62,8 +62,6 @@ S12  [42, 0] 22 min
   DEBASS 2021abko_P1 [31 23] 
   YSE 505.A.2021zby [44 11] ** high priority **
   YSE 403 [52, -4] 20 min 
-  DEBASS 2021zdx_P2 [46 -15] <-- can skip if running behind
-  DEBASS 2021zfr_P2 [45 -15] <-- can skip if running behind
   DEBASS 2021zqo_P1 [44 -18] DONT SKIP!!
   
 3:50 am

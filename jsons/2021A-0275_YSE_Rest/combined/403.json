@@ -15,7 +15,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "r",
+		"filter": "z",
 		"exptime": 50.0,
 		"RA": 49.356900,
 		"dec": -4.198250,
@@ -43,7 +43,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "r",
+		"filter": "z",
 		"exptime": 50.0,
 		"RA": 49.358060,
 		"dec": -1.099390,
@@ -71,7 +71,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "r",
+		"filter": "z",
 		"exptime": 50.0,
 		"RA": 52.456900,
 		"dec": -4.198250,
@@ -99,7 +99,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "r",
+		"filter": "z",
 		"exptime": 50.0,
 		"RA": 52.458060,
 		"dec": -1.099390,
@@ -127,7 +127,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "r",
+		"filter": "z",
 		"exptime": 50.0,
 		"RA": 48.564280,
 		"dec": 2.199320,
@@ -155,7 +155,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "r",
+		"filter": "z",
 		"exptime": 50.0,
 		"RA": 45.505380,
 		"dec": -1.049410,

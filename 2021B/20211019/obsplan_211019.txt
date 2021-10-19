@@ -94,6 +94,8 @@ set guider exptime back to 600ms
   DEBASS 2021aatq_P1 [114 -2] DONT SKIP!!
   DEBASS 2021abiu_P1 [119 -2] DONT SKIP!!
 
+6:00: Sheppard asteroids
+
 6:05AM hard stop
 --------------
 

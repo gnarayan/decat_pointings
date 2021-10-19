@@ -100,6 +100,14 @@ set guider exptime back to 600ms
 Alternate targets:
 IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
 
+DEBASS 2021zdx_P2 [46 -15]  (4min)
+DEBASS 2021zfr_P2 [45 -15] (4min)
+DEBASS 2021ywa_P2 [58 -17] (4min)
+DEBASS 2021ypa_P2 [69 -13] (4min)
+DEBASS 2021aabw_P2 [83 -24] (4min)
+DEBASS 2021ymn_P2 [78 -17] (4min)
+DEBASS 2021aaga_P2 [85 -41] (4min)
+DEBASS 2021zsz_P2 [93 -14] (4min)
 
 CDFS [52, -28] (15 min)
 YSE 353 [63, -11] (20 min)

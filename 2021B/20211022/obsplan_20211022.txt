@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 mjd 59510, date 20211022, Site CTIO, UT-offset 3 hr
 Current local time 22:43 -03     UT 01:43     SidTim 23:06
 Event      Local-Time  Greenwich  Sidereal-Time

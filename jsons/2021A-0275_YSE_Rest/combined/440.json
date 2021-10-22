@@ -1,7 +1,7 @@
 [
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 310.951410,
 		"dec": -4.198250,
@@ -15,7 +15,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 310.951410,
 		"dec": -4.198250,
@@ -29,7 +29,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 310.952780,
 		"dec": -0.487660,
@@ -43,7 +43,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 310.952780,
 		"dec": -0.487660,
@@ -57,7 +57,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 314.054700,
 		"dec": -4.198250,
@@ -71,7 +71,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 314.054700,
 		"dec": -4.198250,
@@ -85,7 +85,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 314.755920,
 		"dec": -0.899460,
@@ -99,7 +99,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 314.755920,
 		"dec": -0.899460,
@@ -113,7 +113,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 317.158030,
 		"dec": -4.198250,
@@ -127,7 +127,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 317.158030,
 		"dec": -4.198250,
@@ -141,7 +141,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 317.859260,
 		"dec": -0.899460,
@@ -155,7 +155,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 317.859260,
 		"dec": -0.899460,

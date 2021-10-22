@@ -1,7 +1,7 @@
 [
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 318.694890,
 		"dec": 9.540180,
@@ -15,7 +15,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 318.694890,
 		"dec": 9.540180,
@@ -29,7 +29,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 318.549360,
 		"dec": 13.285920,
@@ -43,7 +43,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 318.549360,
 		"dec": 13.285920,
@@ -57,7 +57,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 321.861220,
 		"dec": 9.540180,
@@ -71,7 +71,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 321.861220,
 		"dec": 9.540180,
@@ -85,7 +85,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 321.714910,
 		"dec": 12.636650,
@@ -99,7 +99,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 321.714910,
 		"dec": 12.636650,
@@ -113,7 +113,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 325.074780,
 		"dec": 9.539410,
@@ -127,7 +127,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 325.074780,
 		"dec": 9.539410,
@@ -141,7 +141,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "i",
+		"filter": "g",
 		"exptime": 50.0,
 		"RA": 324.881250,
 		"dec": 12.636650,
@@ -155,7 +155,7 @@
 	},
 	{
 		"count": 1,
-		"filter": "z",
+		"filter": "r",
 		"exptime": 50.0,
 		"RA": 324.881250,
 		"dec": 12.636650,

@@ -8,8 +8,6 @@ set the guider exposure time to 100ms for this crowded field
 set guider exptime back to 600ms
 *** cut down DECaPS observations if not enough time! ***
 
-** DILLON ADD SNe **
-
 5:52: Sheppard asteroids
 
 --------------

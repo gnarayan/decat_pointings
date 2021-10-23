@@ -1,5 +1,5 @@
 
-5:00: YSE 353 [63, -11] (20 min)
+5:00: YSE 353 A.a B.a C.a D.a E.a F.a [63, -11] (20 min)
 
 5:20: Shen SCVZ [90,-66] 11 min
             

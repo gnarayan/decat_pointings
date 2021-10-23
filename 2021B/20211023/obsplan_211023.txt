@@ -1,0 +1,21 @@
+
+5:00: YSE 353 [63, -11] (20 min)
+
+5:20: Shen SCVZ [90,-66] 11 min
+            
+set the guider exposure time to 100ms for this crowded field
+5:30: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+** DILLON ADD SNe **
+
+5:52: Sheppard asteroids
+
+--------------
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+YSE 257 [91, -26] (20 min)
+CDFS again [52, -28] (15 min)
+

@@ -1,14 +1,16 @@
+LOCAL TIME
 
-5:00: YSE 353 A.a B.a C.a D.a E.a F.a [63, -11] (20 min)
+5:00: 353 A.a B.a C.a D.a E.a F.a [63, -11] (20 min)
 
-5:20: Shen SCVZ [90,-66] 11 min
+5:20: S-CVZ.json [90,-66] 11 min
             
 set the guider exposure time to 100ms for this crowded field
 5:30: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+(decapswest_ddf_A.json & decapswest_ddf_B.json)
 set guider exptime back to 600ms
 *** cut down DECaPS observations if not enough time! ***
 
-5:52: Sheppard asteroids
+5:52: SheppardTwilight23octmorning.json
 
 --------------
 

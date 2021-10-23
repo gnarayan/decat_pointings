@@ -6,6 +6,7 @@
 set the guider exposure time to 100ms for this crowded field
 5:30: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
+*** cut down DECaPS observations if not enough time! ***
 
 ** DILLON ADD SNe **
 

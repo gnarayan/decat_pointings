@@ -50,6 +50,10 @@ decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.z.15min.json
 6:05AM hard stop
 --------------
 
+IF YOU FIND YOURSELF AHEAD please do:
+2021zfr_P1 [45 -15]
+
+
 Alternate targets:
 IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
 

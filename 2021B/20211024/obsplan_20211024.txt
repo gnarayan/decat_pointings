@@ -24,15 +24,15 @@ S12  [42, 0] 22 min
   YSE 403 [52, -4] 20 min 
   
 03:55 am
-  2021zfr_P1 [45 -15]
+  2021zfr_P1 [45 -15] <-- can skip if running behind
   Shen C3 [52, -28] 7 min  
   YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json) 
   353 [63, -11] (20 min)
   DEBASS 2021aazj_P1 [75 -16] 
 
 4:45: 
-  DEBASS 2021aaga_P1 [85 -41]
   2021aabw_P1 [83 -24]
+  DEBASS 2021aaga_P1 [85 -41]
   YSE 257 [91, -26] (20 min)
 
 set the guider exposure time to 100ms for this crowded field

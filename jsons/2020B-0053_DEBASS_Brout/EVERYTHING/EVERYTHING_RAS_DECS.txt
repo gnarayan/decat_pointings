@@ -26,5 +26,5 @@
 2021zax_P3 [333 13]
 2021yrz_P3 [338 19]
 
-EVERYTHING	84.3 minutes
-EVERYTHING_P1	39.5 minutes
+EVERYTHING	84.7 minutes
+EVERYTHING_P1	39.8 minutes

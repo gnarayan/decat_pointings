@@ -40,19 +40,5 @@
         "comment": "2021aazj",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 75.03953,
-        "dec": -16.91207,
-        "object": "2021aazj_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2021aazj",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

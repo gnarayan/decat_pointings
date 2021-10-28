@@ -5,7 +5,6 @@
 2021ywa_P1 [58 -17]
 2021ypa_P1 [69 -13]
 2021abzo_P1 [71 1]
-2021ymn_P1 [78 -17]
 2021aazj_P1 [75 -16]
 2021zsz_P1 [93 -14]
 2021abiu_P1 [119 -2]
@@ -27,5 +26,5 @@
 2021zax_P3 [333 13]
 2021yrz_P3 [338 19]
 
-EVERYTHING	87.0 minutes
-EVERYTHING_P1	42.1 minutes
+EVERYTHING	84.3 minutes
+EVERYTHING_P1	39.5 minutes

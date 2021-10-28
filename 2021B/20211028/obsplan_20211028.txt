@@ -9,20 +9,19 @@
     YSE 296 [17, -19] 16min
 
 02:55 
-    401.D.2021aaqn.json
+    401.D.2021aaqn.json [39 -1]
 
 03:00 am
-  DEBASS 2021abko_P1 [31 23] 
   YSE 505.A.2021zby [44 11] ** high priority **
-
+  DEBASS 2021abko_P1 [31 23] 
   X123 [34, -4]  35 min
-  YSE 403 [52, -4] 20 min 
   
 04:05 am
   DEBASS 2021acfj_P1 [37 -7]
   DEBASS 2021zqo_P1 [44 -18]
   DEBASS 2021zfr_P1 [45 -15]
   DEBASS 2021zdx_P2 [46 -15] <-- can skip if running behind
+  YSE 403 [52, -4] 20 min 
   DEBASS 2021ywa_P1 [58 -17]
   YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json) 
   353 [63, -11] (20 min)

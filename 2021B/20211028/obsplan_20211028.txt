@@ -44,7 +44,7 @@ set guider exptime back to 600ms
   DEBASS 2021abiu_P1 [119 -2]
 
 5:25 Eta Car z band [161 -60]
-decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.z.15min.json
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json
 
 5:40:
    DEBASS 2021abxh_P1 [141 -20]

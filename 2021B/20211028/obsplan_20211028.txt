@@ -20,7 +20,6 @@
   DEBASS 2021acfj_P1 [37 -7]
   DEBASS 2021zqo_P1 [44 -18]
   DEBASS 2021zfr_P1 [45 -15]
-  DEBASS 2021zdx_P2 [46 -15] <-- can skip if running behind
   YSE 403 [52, -4] 20 min 
   DEBASS 2021ywa_P1 [58 -17]
   YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json) 
@@ -30,27 +29,27 @@
   DEBASS 2021abzo_P1 [71 1]
 
 
-4:15 am 
+4:10 am 
   DEBASS 2021zsz_P1 [93 -14]
   YSE 257 [91, -26] (20 min)
 
 set the guider exposure time to 100ms for this crowded field
-4:40: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+4:35: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-5:10: Shen SCVZ [90,-66] 11 min
+5:05: Shen SCVZ [90,-66] 11 min
 
-5:20
+5:15
   DEBASS 2021aatq_P2 [114 -2] <-- can skip if running behind
   DEBASS 2021abiu_P1 [119 -2]
 
-5:30 Eta Car z band [161 -60]
+5:25 Eta Car z band [161 -60]
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.z.15min.json
 
-5:45:
+5:40:
    DEBASS 2021abxh_P1 [141 -20]
 
-5:50: Sheppard asteroids
+5:45: Sheppard asteroids
 
 6:05AM hard stop
 --------------

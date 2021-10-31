@@ -13,6 +13,7 @@ import numpy as np
 from astropy import time
 from astroplan import Observer
 from astropy import units as u
+from pytz import timezone
 ctio = Observer.at_site("CTIO")
 
 from mk_semester_summary import semester_summary_class

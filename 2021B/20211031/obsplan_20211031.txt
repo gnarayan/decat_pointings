@@ -1,38 +1,38 @@
-01:26
-    DEBASS 2021yzz_P1 [331 -19]
-    DEBASS 2021abds_P1 [356 -16]
-
-01:35 ELAIS 1h [9, -43]
+01:26 ELAIS 1h [9, -43]
       
-02:35
-    DEBASS 2021abmp_P1 [11 -38]
+02:26
     YSE 296 [17, -19] 16min
+    2021aclv_P1 [14 -5] 4min
 
-02:55 am
+
+02:45 am
   YSE 505.A.2021zby [44 11] ** high priority **
   DEBASS 2021abko_P1 [31 23] 
   S12  [42, 0] 22 min   
 
-03:30 am
-  DEBASS 2021acfj_P1 [37 -7]
+03:15 am
   DEBASS 2021zqo_P1 [44 -18]
-  DEBASS 2021zfr_P1 [45 -15]
+  DEBASS 2021zdx_P2 [46 -15] <-- optional 
+  DEBASS 2021zfr_P2 [45 -15] <-- optional
+  DEBASS 2021ywa_P2 [58 -17] <-- optional 
   YSE 403 [52, -4] 20 min 
-  DEBASS 2021ywa_P1 [58 -17]
   C3 [52, -28] 11 min
   YSE 353 [63, -11] (20 min)
-  DEBASS 2021ypa_P1 [69 -13]
-  DEBASS 2021aazj_P1 [75 -16] 
-  DEBASS 2021abzo_P1 [71 1]
+  DEBASS 2021acnx_P1 [70 6]
 
 
-05:00 am 
+04:25 am 
   DEBASS 2021zsz_P1 [93 -14]
+  DEBASS 2021aabw_P2 [83 -24] 
+  DEBASS 2021zsz_P2 [93 -14] <-- optional 
   YSE 257 [91, -26] (20 min)
 
 set the guider exposure time to 100ms for this crowded field
-05:25 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+04:55 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
+
+5:25 
+
 
 **** ENDS 05:55 
 
@@ -47,9 +47,8 @@ set guider exptime back to 600ms
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.g.15min.json
 
 5:40:
-   DEBASS 2021abxh_P1 [141 -20]
+2021aceo_P1 [135 -8]
 
-5:45: Sheppard asteroids
 
 6:05AM hard stop
 --------------

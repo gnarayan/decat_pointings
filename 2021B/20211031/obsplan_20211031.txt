@@ -34,14 +34,12 @@ set guider exptime back to 600ms
 
 05:10 Shen SCVZ [90,-66] 11 min
 
-5:20
-  DEBASS 2021abiu_P1 [119 -2]
-
-5:25 Eta Car g band [161 -60]
+5:20 Eta Car g band [161 -60]
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.g.15min.json
 
-5:40:
-2021aceo_P1 [135 -8]
+5:35:
+DEBASS 2021aceo_P1 [135 -8]
+DEBASS 2021abiu_P1 [119 -2]
 
 6:05AM hard stop
 --------------

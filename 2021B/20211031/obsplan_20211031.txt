@@ -38,8 +38,8 @@ set guider exptime back to 600ms
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.g.15min.json
 
 5:35:
-DEBASS 2021aceo_P1 [135 -8]
 DEBASS 2021abiu_P1 [119 -2]
+DEBASS 2021aceo_P1 [135 -8]
 
 6:05AM hard stop
 --------------

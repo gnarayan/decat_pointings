@@ -23,7 +23,7 @@
 
 04:15 am 
   DEBASS 2021zsz_P1 [93 -14]
-  DEBASS 2021aabw_P2 [83 -24] 
+  DEBASS 2021aabw_P2 [83 -24]  <-- optional 
   DEBASS 2021zsz_P2 [93 -14] <-- optional 
   YSE 257 [91, -26] (20 min)
 

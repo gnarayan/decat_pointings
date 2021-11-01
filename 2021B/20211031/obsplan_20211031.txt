@@ -49,6 +49,7 @@ decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.g.15min.json
 5:40:
 2021aceo_P1 [135 -8]
 
+5:45
 
 6:05AM hard stop
 --------------

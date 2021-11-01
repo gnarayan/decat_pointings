@@ -6,6 +6,7 @@
 2021abiu_P1 [119 -2]
 2021aceo_P1 [135 -8]
 
+2021ywa_P2 [58 -17]
 
 2021abmp_P3 [11 -38]
 2021abze_P3 [11 14]
@@ -14,7 +15,6 @@
 2021acfj_P3 [37 -7]
 2021zdx_P3 [46 -15]
 2021zfr_P3 [45 -15]
-2021ywa_P3 [58 -17]
 2021abzo_P3 [71 1]
 2021aabw_P3 [83 -24]
 2021aazj_P3 [75 -16]
@@ -23,5 +23,5 @@
 2021abxh_P3 [141 -20]
 2021abds_P3 [356 -16]
 
-EVERYTHING	81.1 minutes
+EVERYTHING	80.4 minutes
 EVERYTHING_P1	22.2 minutes

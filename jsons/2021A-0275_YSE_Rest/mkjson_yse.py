@@ -55,6 +55,9 @@ class mkjsonclass(txttableclass):
         self.racol = 'ra'
         self.deccol = 'dec'
         self.pointingcol = 'pointing'
+        
+        self.horizons = [16,14,12,10]
+
 
     def setrectangledither(self,delta=80):
         self.dither = {}
@@ -342,6 +345,7 @@ class mkjsonclass(txttableclass):
         print('!!! setting propID: %s !!!' % self.options.propid)
         
         
+        
 if __name__=='__main__':
     
     if 1==0:
@@ -425,6 +429,18 @@ if __name__=='__main__':
         mkjson.moon = get_moon(t,ctio.location)
         mkjson.illum = moon.moon_illumination(t)
         print(f'MOON ILLUMINATION: {mkjson.illum:.2f}')
+        mkjson.twi={}
+        for horizon in mkjson.horizons:
+            mkjson.twi[horizon] =  ctio.tonight(t-0.5,horizon=-horizon*u.deg)
+            print('UT %d deg twilight: %s %s' % (-horizon,mkjson.twi[horizon][0].to_value('isot'),mkjson.twi[horizon][1].to_value('isot')))
+        
+        ctiotz = timezone('America/Santiago')
+        for horizon in mkjson.horizons:
+            dt0 = mkjson.twi[horizon][0].to_datetime(timezone=ctiotz)
+            dt1 = mkjson.twi[horizon][1].to_datetime(timezone=ctiotz)
+            print('LOCAL %d deg twilight: %s   %s' % (-horizon,dt0.strftime("%m/%d/%Y,   %H:%M:%S"),dt1.strftime("%H:%M:%S")))
+            #print(dt.strftime("%m/%d/%Y, %H:%M:%S"))
+            #loc_dt = eastern.localize()
     else:
         print('WARNING: no date specified, cannot calculate the Moon parameters')
  
@@ -457,3 +473,17 @@ if __name__=='__main__':
                             outsuffix=mkjson.options.outsuffix,
                             outsubdir=outsubdir,
                             repeatfilters=repeatfilters)
+    
+    if outdate!='':
+        for horizon in mkjson.horizons:
+            print('UT %d deg twilight: %s %s' % (-horizon,mkjson.twi[horizon][0].to_value('isot'),mkjson.twi[horizon][1].to_value('isot')))
+        
+        ctiotz = timezone('America/Santiago')
+        for horizon in mkjson.horizons:
+            dt0 = mkjson.twi[horizon][0].to_datetime(timezone=ctiotz)
+            dt1 = mkjson.twi[horizon][1].to_datetime(timezone=ctiotz)
+            print('LOCAL %d deg twilight: %s   %s' % (-horizon,dt0.strftime("%m/%d/%Y,   %H:%M:%S"),dt1.strftime("%H:%M:%S")))
+        night_midpoint = mkjson.twi[mkjson.horizons[0]][0]+0.5*(mkjson.twi[mkjson.horizons[0]][1]-mkjson.twi[mkjson.horizons[0]][0])
+        dt = night_midpoint.to_datetime(timezone=ctiotz)
+        print('LOCAL night MIDPOINT:',dt.strftime("%m/%d/%Y,   %H:%M:%S"))
+

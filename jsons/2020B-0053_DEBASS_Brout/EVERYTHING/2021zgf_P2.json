@@ -26,19 +26,5 @@
         "comment": "2021zgf",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "i",
-        "exptime": 15.0,
-        "RA": 26.50563,
-        "dec": -43.45425,
-        "object": "2021zgf_P2",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2021zgf",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

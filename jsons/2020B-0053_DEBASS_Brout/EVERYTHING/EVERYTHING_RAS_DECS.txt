@@ -23,5 +23,5 @@
 2021aabw_P3 [83 -24]
 2021zsz_P3 [93 -14]
 
-EVERYTHING	76.8 minutes
-EVERYTHING_P1	45.3 minutes
+EVERYTHING	75.4 minutes
+EVERYTHING_P1	43.8 minutes

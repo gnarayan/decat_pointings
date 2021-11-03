@@ -12,7 +12,6 @@ LOCAL night MIDPOINT: 11/04/2021,   01:26:38
 
 
 01:26 
-      DEBASS 2021abds_P1 [356 -16] <-- only do this if slew from 1st half isnt terrible...
       ELAIS 1h [9, -43]
       DEBASS 2021abmp_P1 [11 -38]
       DEBASS 2021aafz_P1 [30 -44]

@@ -10,34 +10,38 @@ LOCAL -10 deg twilight: 11/03/2021,   20:53:11   06:00:06
 LOCAL night MIDPOINT: 11/04/2021,   01:26:38
 
 
-01:26 ELAIS 1h [9, -43]
+
+01:26 
+      DEBASS 2021abds_P1 [356 -16] <-- only do this if slew from 1st half isnt terrible...
+      ELAIS 1h [9, -43]
+      DEBASS 2021abmp_P1 [11 -38]
+      DEBASS 2021aafz_P1 [30 -44]
       
-02:26
+02:40
     YSE 296 [17, -19] 16min
-    2021aclv_P1 [14 -5] 4min
+    DEBASS 2021aclv_P1 [14 -5] 4min
+    DEBASS 2021acwr_P1 [14 2] 4min
     X123 [34, -4]  35 min
     YSE 505.A.2021zby [44 11] ** high priority **
-    DEBASS 2021abko_P1 [31 23] 
+    DEBASS 2021addd_P1 [48 5]
 
-03:30 am
-  DEBASS 2021zqo_P1 [44 -18]
-  DEBASS 2021zdx_P2 [46 -15] <-- optional 
-  DEBASS 2021zfr_P2 [45 -15] <-- optional
-  DEBASS 2021ywa_P2 [58 -17] <-- optional 
+03:40 am
+  DEBASS 2021zfr_P1 [45 -15]
   YSE 403 [52, -4] 20 min 
+  DEBASS 2021acxb_P1 [50 -27]
   YSE CDFS g,i [52, -28] 10 min
+
   YSE 353 [63, -11] (20 min)
   DEBASS 2021acnx_P1 [70 6]
+  DEBASS 2021aazj_P1 [75 -16]
 
 
-04:35 am 
-  DEBASS 2021zsz_P1 [93 -14]
-  DEBASS 2021aabw_P2 [83 -24] 
-  DEBASS 2021zsz_P2 [93 -14] <-- optional 
+04:45 am 
   YSE 257 [91, -26] (20 min)
+  DEBASS 2021aaga_P1 [85 -41] 4min
 
 set the guider exposure time to 100ms for this crowded field
-05:05 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+05:10 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
 
@@ -48,8 +52,8 @@ set guider exptime back to 600ms
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json
 
 05:45:
-2021aceo_P1 [135 -8]
-DEBASS 2021abiu_P1 [119 -2]
+DEBASS 2021acnn_P1 [100 20]
+DEBASS 2021aceo_P1 [135 -8]
 
 LOCAL -16 deg twilight: 11/03/2021,   21:24:17   05:29:00
 LOCAL -14 deg twilight: 11/03/2021,   21:13:46   05:39:30

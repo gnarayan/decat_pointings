@@ -52,6 +52,8 @@ decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json
   DEBASS 2021aatq_P2 [114 -2] <-- optional if itme
   DEBASS 2021acnn_P1 [100 20] 
 
+at -13.5 deg sun angle go to sheppard
+SheppardTwilight04novmorning.json
 
 LOCAL -16 deg twilight: 11/03/2021,   21:24:17   05:29:00
 LOCAL -14 deg twilight: 11/03/2021,   21:13:46   05:39:30

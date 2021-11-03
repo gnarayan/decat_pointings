@@ -37,7 +37,6 @@ LOCAL night MIDPOINT: 11/04/2021,   01:26:38
 
 04:45 am 
   YSE 257 [91, -26] (20 min)
-  DEBASS 2021aaga_P1 [85 -41] 4min
 
 set the guider exposure time to 100ms for this crowded field
 05:10 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
@@ -51,8 +50,9 @@ set guider exptime back to 600ms
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json
 
 05:45:
-DEBASS 2021acnn_P1 [100 20]
-DEBASS 2021aceo_P1 [135 -8]
+  DEBASS 2021aaga_P1 [85 -41] 4min
+  DEBASS 2021aceo_P1 [135 -8]
+  DEBASS 2021acnn_P1 [100 20] 
 
 LOCAL -16 deg twilight: 11/03/2021,   21:24:17   05:29:00
 LOCAL -14 deg twilight: 11/03/2021,   21:13:46   05:39:30

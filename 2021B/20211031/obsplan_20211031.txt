@@ -21,34 +21,25 @@
   DEBASS 2021acnx_P1 [70 6]
 
 
-04:25 am 
+04:15 am 
   DEBASS 2021zsz_P1 [93 -14]
-  DEBASS 2021aabw_P2 [83 -24] 
+  DEBASS 2021aabw_P2 [83 -24]  <-- optional 
   DEBASS 2021zsz_P2 [93 -14] <-- optional 
   YSE 257 [91, -26] (20 min)
 
 set the guider exposure time to 100ms for this crowded field
-04:55 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+04:40 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-5:25 
-
-
-**** ENDS 05:55 
-
-**** NEEDS TO START AT 05:10
 
 05:10 Shen SCVZ [90,-66] 11 min
 
-5:20
-  DEBASS 2021abiu_P1 [119 -2]
-
-5:25 Eta Car g band [161 -60]
+5:20 Eta Car g band [161 -60]
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.g.15min.json
 
-5:40:
-2021aceo_P1 [135 -8]
-
+5:35:
+DEBASS 2021abiu_P1 [119 -2]
+DEBASS 2021aceo_P1 [135 -8]
 
 6:05AM hard stop
 --------------

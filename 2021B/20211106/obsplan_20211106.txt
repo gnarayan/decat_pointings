@@ -1,3 +1,23 @@
+2021abmp_P1 [11 -38]
+2021aafz_P1 [30 -44]
+2021aabw_P1 [83 -24]
+2021aaga_P1 [85 -41]
+2021aatq_P1 [114 -2]
+2021aceo_P1 [135 -8]
+2021acnt_P1 [145 -28]
+2021adlz_P1 [157 11]
+
+2021aclv_P2 [14 -5]
+2021acwr_P2 [14 2]
+2021adov_P2 [15 -1]
+2021abko_P2 [31 23]
+2021acxb_P2 [50 -27]
+2021addd_P2 [48 5]
+2021acnx_P2 [70 6]
+2021abiu_P2 [119 -2]
+2021adlv_P2 [127 -4]
+
+
 01:26 ELAIS 1h [9, -43]
       
 02:26
@@ -40,6 +60,11 @@ decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.g.15min.json
 5:35:
 DEBASS 2021abiu_P1 [119 -2]
 DEBASS 2021aceo_P1 [135 -8]
+
+
+at -13.5 deg sun angle go to sheppard
+SheppardTwilight04novmorning.json
+
 
 6:05AM hard stop
 --------------

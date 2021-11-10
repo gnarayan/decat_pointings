@@ -50,5 +50,6 @@ DEBASS 2021aatq_P1 [114 -2]
 Alternate targets:
 IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
 
-  YSE 403 [52, -4] 20 min 
+etale.i.15min.json
+YSE 403 [52, -4] 20 min 
 CDFS g,r [52, -28] (15 min)

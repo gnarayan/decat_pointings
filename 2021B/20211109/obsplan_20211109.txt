@@ -1,0 +1,54 @@
+UT -16 deg twilight: 2021-11-11T00:31:39.276 2021-11-11T08:22:34.073
+UT -14 deg twilight: 2021-11-11T00:20:51.265 2021-11-11T08:33:22.743
+UT -12 deg twilight: 2021-11-11T00:10:13.869 2021-11-11T08:43:59.565
+UT -10 deg twilight: 2021-11-10T23:59:45.834 2021-11-11T08:54:27.117
+LOCAL -16 deg twilight: 11/10/2021,   21:31:39   05:22:34
+LOCAL -14 deg twilight: 11/10/2021,   21:20:51   05:33:22
+LOCAL -12 deg twilight: 11/10/2021,   21:10:13   05:43:59
+LOCAL -10 deg twilight: 11/10/2021,   20:59:45   05:54:27
+LOCAL night MIDPOINT: 11/11/2021,   01:27:06
+
+
+01:27 ELAIS 1h [9, -43]
+      DEBASS 2021abmp_P1 [11 -38]
+      DEBASS 2021aafz_P1 [30 -44]
+
+02:36
+    YSE 296 [17, -19] 16min
+
+02:55 am
+  X123 [34, -4]  35 min
+  YSE 505.A.2021zby [44 11] ** high priority **
+
+03:35 am
+  YSE 353 [63, -11] 20 min
+
+03:55 am 
+  DEBASS 2021aabw_P1 [83 -24]
+  YSE 257 [91, -26] (20 min)
+  DEBASS 2021aaga_P1 [85 -41]
+
+
+set the guider exposure time to 100ms for this crowded field
+04:25 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+
+04:55 Shen SCVZ [90,-66] 11 min
+
+05:05 eFEDS
+
+05:30:
+DEBASS 2021acnt_P1 [145 -28]
+DEBASS 2021adlz_P1 [157 11]
+DEBASS 2021aceo_P1 [135 -8]
+DEBASS 2021aatq_P1 [114 -2]
+
+--------------
+
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+  YSE 403 [52, -4] 20 min 
+CDFS g,r [52, -28] (15 min)

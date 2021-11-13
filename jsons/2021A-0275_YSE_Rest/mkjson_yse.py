@@ -395,6 +395,8 @@ if __name__=='__main__':
         else:
             raise RuntimeError('Could not parse {} for YYMMDD'.format(t.to_value('isot')))
 
+    #print(outdate)
+    #sys.exit(0)
     
     # make sure outdate is formatted correctly
     if re.search('^\d{6}$',outdate) is not None:

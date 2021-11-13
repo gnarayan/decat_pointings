@@ -27,22 +27,22 @@ LOCAL night MIDPOINT: 11/14/2021,   01:27:30
   C3 [52, -28] 11 min
   DEBASS 2021aefx_P1 [64 -54]
 
-03:50 am 
+03:55 am 
   YSE 257 [91, -26] 18 min
 
 
 set the guider exposure time to 100ms for this crowded field
-04:10 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+04:15 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
 
-04:40 Shen SCVZ [90,-66] 11 min
+04:45 Shen SCVZ [90,-66] 11 min
 
-04:50 Eta Car: r band and i band, each is 15 min, so in total 30 min!
+04:55 Eta Car: r band and i band, each is 15 min, so in total 30 min!
 etale.r.15min.json [160 -60]
 etale.i.15min.json
 
-05:20: #these are high priority targets so please try to fit in before -12
+05:25 #these are high priority targets so please try to fit in before -12
 DEBASS 2021adlz_P1 [157 11]
 DEBASS 2021adoz_P1 [125 7]
 DEBASS 2021adlv_P1 [127 -4]

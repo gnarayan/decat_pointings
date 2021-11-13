@@ -1,6 +1,5 @@
 2021aclv_P1 [14 -5]
 2021acwr_P1 [14 2]
-2021abko_P1 [31 23]
 2021acxb_P1 [50 -27]
 2021addd_P1 [48 5]
 2021adlt_P1 [68 6]
@@ -11,14 +10,13 @@
 2021acnt_P1 [145 -28]
 2021adlz_P1 [157 11]
 
-2021aazj_P2 [75 -16]
 2021aatq_P2 [114 -2]
 
-2021abmp_P3 [11 -38]
 2021aafz_P3 [30 -44]
+2021abko_P3 [31 23]
 2021aabw_P3 [83 -24]
+2021aazj_P3 [75 -16]
 2021aaga_P3 [85 -41]
-2021abds_P3 [356 -16]
 
-EVERYTHING	62.1 minutes
-EVERYTHING_P1	28.6 minutes
+EVERYTHING	67.7 minutes
+EVERYTHING_P1	27.4 minutes

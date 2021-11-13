@@ -10,39 +10,41 @@ LOCAL night MIDPOINT: 11/11/2021,   01:27:06
 
 
 01:27 ELAIS 1h [9, -43]
-      DEBASS 2021abmp_P1 [11 -38]
-      DEBASS 2021aafz_P1 [30 -44]
 
-02:36
+02:27
     YSE 296 [17, -19] 16min
+    DEBASS 2021aclv_P1 [14 -5]
+    DEBASS 2021acwr_P1 [14 2]
 
-02:55 am
+02:50 am
   X123 [34, -4]  35 min
   YSE 505.A.2021zby [44 11] ** high priority **
+  DEBASS 2021addd_P1 [48 5]
+  DEBASS 2021adlt_P1 [68 6]
+  DEBASS 2021acnx_P1 [70 6]
 
-03:35 am
+03:40 am
   YSE 353 [63, -11] 20 min
 
-03:55 am 
-  DEBASS 2021aabw_P1 [83 -24]
+04:00 am 
+  DEBASS 2021acxb_P1 [50 -27]
   YSE 257 [91, -26] (20 min)
-  DEBASS 2021aaga_P1 [85 -41]
 
 
 set the guider exposure time to 100ms for this crowded field
 04:25 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-
 04:55 Shen SCVZ [90,-66] 11 min
 
-05:05 eFEDS
+05:05 eFEDS [129, 3]
 
 05:30:
-DEBASS 2021acnt_P1 [145 -28]
+DEBASS 2021adlv_P1 [127 -4]
 DEBASS 2021adlz_P1 [157 11]
+DEBASS 2021acnt_P1 [145 -28]
 DEBASS 2021aceo_P1 [135 -8]
-DEBASS 2021aatq_P1 [114 -2]
+DEBASS 2021abiu_P1 [119 -2]
 
 --------------
 

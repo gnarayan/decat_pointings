@@ -26,33 +26,5 @@
         "comment": "2021adoz",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "i",
-        "exptime": 15.0,
-        "RA": 125.45441,
-        "dec": 7.49186,
-        "object": "2021adoz_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2021adoz",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 125.45441,
-        "dec": 7.49186,
-        "object": "2021adoz_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2021adoz",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

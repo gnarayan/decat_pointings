@@ -14,7 +14,6 @@
 2021adlz_P1 [157 11]
 
 
-2021aafz_P3 [30 -44]
 2021abko_P3 [31 23]
 2021aabw_P3 [83 -24]
 2021aazj_P3 [75 -16]
@@ -23,5 +22,5 @@
 2021abiu_P3 [119 -2]
 2021abds_P3 [356 -16]
 
-EVERYTHING	116.7 minutes
+EVERYTHING	111.1 minutes
 EVERYTHING_P1	73.1 minutes

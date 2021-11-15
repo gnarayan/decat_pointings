@@ -1,5 +1,6 @@
 2021abmp_P1 [11 -38]
 2021adug_P1 [14 -14]
+2021aafz_P1 [30 -44]
 2021acxb_P1 [50 -27]
 2021aess_P1 [52 -18]
 2021addd_P1 [48 5]
@@ -22,5 +23,5 @@
 2021abiu_P3 [119 -2]
 2021abds_P3 [356 -16]
 
-EVERYTHING	111.1 minutes
-EVERYTHING_P1	73.1 minutes
+EVERYTHING	119.0 minutes
+EVERYTHING_P1	79.7 minutes

@@ -14,6 +14,7 @@
 2021zsz_P1 [92 -14]
 2021aatq_P1 [114 -2]
 2021aemv_P1 [113 19]
+2021aeca_P1 [123 -14]
 2021adlv_P1 [127 -4]
 2021adoz_P1 [125 7]
 2021aceo_P1 [135 -8]
@@ -55,5 +56,5 @@
 2021abiu_P3 [119 -2]
 2021jys_P3 [134 10]
 
-EVERYTHING	495.5 minutes
-EVERYTHING_P1	122.4 minutes
+EVERYTHING	501.3 minutes
+EVERYTHING_P1	130.2 minutes

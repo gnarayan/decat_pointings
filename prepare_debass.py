@@ -50,9 +50,9 @@ for i,row in df.iterrows():
     if i < skiprows: continue
     if str(row['snid']) == 'nan': continue
     if str(row['snid']) == 'NaN': continue
-    if 'FINISHED' in row['Following?']:
-        os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
-        continue
+    #if 'FINISHED' in row['Following?']:
+    #    os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
+    #    continue
     if 'ABANDON' in row['Following?']:
         os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
         continue

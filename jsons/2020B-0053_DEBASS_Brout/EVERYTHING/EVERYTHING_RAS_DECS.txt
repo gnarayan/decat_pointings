@@ -22,6 +22,7 @@
 2021ill_P2 [139 -30]
 2021knh_P2 [138 -27]
 2021hjc_P2 [141 -25]
+2021lnf_P2 [143 -16]
 2021aceo_P2 [135 -8]
 2021iov_P2 [141 -7]
 2021law_P2 [140 4]
@@ -49,5 +50,5 @@
 2021jys_P3 [134 10]
 2021abds_P3 [356 -16]
 
-EVERYTHING	384.4 minutes
+EVERYTHING	399.9 minutes
 EVERYTHING_P1	36.5 minutes

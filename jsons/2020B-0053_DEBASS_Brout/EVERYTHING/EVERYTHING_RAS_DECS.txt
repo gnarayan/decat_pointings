@@ -56,5 +56,5 @@
 2021abiu_P3 [119 -2]
 2021jys_P3 [134 10]
 
-EVERYTHING	501.3 minutes
+EVERYTHING	498.5 minutes
 EVERYTHING_P1	130.2 minutes

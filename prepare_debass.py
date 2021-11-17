@@ -52,7 +52,7 @@ for i,row in df.iterrows():
     if str(row['snid']) == 'NaN': continue
     if 'FINISHED' in row['Following?']:
         os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
-    #    continue
+        continue
     if 'ABANDON' in row['Following?']:
         os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
         continue

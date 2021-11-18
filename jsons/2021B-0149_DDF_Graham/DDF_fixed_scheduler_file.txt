@@ -87,14 +87,10 @@
 2021-11-15 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
 2021-11-15 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2021-11-15 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
-2021-11-18 ELAIS-DDF-SEQ-A  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
-2021-11-18 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
+2021-11-18 ELAIS-DDF-SEQ-48min  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
 2021-11-18 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
-2021-11-18 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
-2021-11-21 ELAIS-DDF-SEQ-A  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
-2021-11-21 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
+2021-11-21 ELAIS-DDF-SEQ-48min  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
 2021-11-21 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
-2021-11-21 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2021-11-24 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2021-11-24 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2021-11-27 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 

@@ -47,4 +47,4 @@ DEBASS 2021acnx_P2 [70 6]
 
 Alternate targets:
 
-CDFS g,r [52, -28] (15 min) Dont do during morning twilight
+CDFS i,z [52, -28] (15 min) Dont do during morning twilight. Can repeat if necessary.

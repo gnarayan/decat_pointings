@@ -1,0 +1,16 @@
+[
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 31.06654,
+        "dec": 23.31638,
+        "object": "2021abko_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021abko",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

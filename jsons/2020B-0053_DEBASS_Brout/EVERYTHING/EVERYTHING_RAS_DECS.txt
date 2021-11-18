@@ -1,26 +1,26 @@
-2021abmp_P1 [11 -38]
 2021adug_P1 [14 -14]
-2021aclv_P1 [14 -5]
-2021ackd_P1 [21 8]
-2021aafz_P1 [30 -44]
-2021acxb_P1 [50 -27]
 2021aefx_P1 [64 -54]
-2021acnx_P1 [70 6]
-2021aabw_P1 [83 -24]
-2021aaga_P1 [85 -41]
 2021aeca_P1 [123 -14]
+2021adlv_P1 [127 -4]
 2021adoz_P1 [125 7]
+2021aceo_P1 [135 -8]
 2021acnt_P1 [145 -28]
-2021abds_P1 [356 -16]
 
-2021aazj_P2 [75 -16]
-2021aceo_P2 [135 -8]
+2021aclv_P2 [14 -5]
+2021abko_P2 [31 23]
+2021acxb_P2 [50 -27]
+2021acnx_P2 [70 6]
 2021adlz_P2 [157 11]
 
+2021abmp_P3 [11 -38]
+2021aafz_P3 [30 -44]
+2021aabw_P3 [83 -24]
+2021aazj_P3 [75 -16]
+2021aaga_P3 [85 -41]
 2021aatq_P3 [114 -2]
 2021aemv_P3 [112 19]
 2021abiu_P3 [119 -2]
-2021adlv_P3 [127 -4]
+2021abds_P3 [356 -16]
 
-EVERYTHING	126.1 minutes
-EVERYTHING_P1	82.6 minutes
+EVERYTHING	90.7 minutes
+EVERYTHING_P1	26.9 minutes

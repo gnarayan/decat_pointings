@@ -1,7 +1,8 @@
 2021adug_P1 [14 -14]
+2021aclv_P1 [14 -5]
 2021abko_P1 [31 23]
+2021addd_P1 [48 5]
 2021aefx_P1 [64 -54]
-2021acnx_P1 [70 6]
 2021aeca_P1 [123 -14]
 2021adlv_P1 [127 -4]
 2021adoz_P1 [125 7]
@@ -9,15 +10,14 @@
 2021acnt_P1 [145 -28]
 2021abds_P1 [356 -16]
 
-2021aclv_P2 [14 -5]
+2021aexp_P2 [24 -29]
 2021acxb_P2 [50 -27]
 2021adlz_P2 [157 11]
 
 2021abmp_P3 [11 -38]
 2021aazj_P3 [75 -16]
 2021aatq_P3 [114 -2]
-2021aemv_P3 [112 19]
 2021abiu_P3 [119 -2]
 
-EVERYTHING	76.4 minutes
-EVERYTHING_P1	38.4 minutes
+EVERYTHING	76.3 minutes
+EVERYTHING_P1	27.2 minutes

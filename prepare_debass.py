@@ -63,6 +63,7 @@ for i,row in df.iterrows():
     if 'YSE' in row['Following?']:  continue
     if '91' in row['TNS class']:  continue
     if ('ia' in row['TNS class'].lower()) | ('?' in row['TNS class']):
+        asdf
         os.system('clear')
         try:
             print(obsdict[row['snid']])

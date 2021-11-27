@@ -37,7 +37,6 @@ except:
 #skiprows = 60
 skiprows = 0
 for i,row in df.iterrows():
-    print(row)
     if doonlysn:
         if row['snid'] == onlysn:
             pass
@@ -49,6 +48,7 @@ for i,row in df.iterrows():
         else:
             continue
     if i < skiprows: continue
+    asdf
     if str(row['snid']) == 'nan': continue
     if str(row['snid']) == 'NaN': continue
     if 'FINISHED' in row['Following?']:

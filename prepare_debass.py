@@ -36,6 +36,7 @@ except:
     keepskipping = False
 #skiprows = 60
 skiprows = 0
+print(doonlysn,keepskipping)
 for i,row in df.iterrows():
     if doonlysn:
         if row['snid'] == onlysn:

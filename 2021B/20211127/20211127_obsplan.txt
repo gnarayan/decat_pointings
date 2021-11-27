@@ -29,20 +29,20 @@ LOCAL night MIDPOINT: 11/28/2021,   01:31:03
   DEBASS 2021adlt_P1 [68 6]
   DEBASS 2021acnx_P1 [70 6]
 
-04:10 
+04:05 
   DEBASS 2021aefx_P1 [64 -54]
   Shen SCVZ [90,-66] 11 min
 
-04:25 am 
+04:20 am 
   YSE 257 [91, -26] 18 min
 
 set the guider exposure time to 100ms for this crowded field
-04:40 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+04:38 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-05:10 DEBASS 2021aeca_P1 [123 -14] (5min)
+05:08 DEBASS 2021aeca_P1 [123 -14] (5min)
 
-05:15 eFEDS [135, 1] 30 min
+05:12 eFEDS [135, 1] 30 min
 
 
 *** if extra time (including during morning twilight) *** put in either (or both)

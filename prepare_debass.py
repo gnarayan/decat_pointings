@@ -37,6 +37,7 @@ except:
 #skiprows = 60
 skiprows = 0
 for i,row in df.iterrows():
+    print(row)
     if doonlysn:
         if row['snid'] == onlysn:
             pass
@@ -63,7 +64,7 @@ for i,row in df.iterrows():
     if 'YSE' in row['Following?']:  continue
     if '91' in row['TNS class']:  continue
     if ('ia' in row['TNS class'].lower()) | ('?' in row['TNS class']):
-        asdf
+        #asdf
         os.system('clear')
         try:
             print(obsdict[row['snid']])

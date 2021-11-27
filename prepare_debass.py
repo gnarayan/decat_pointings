@@ -31,12 +31,14 @@ try:
         doonlysn=True
         keepskipping=False
     else:
-        keepskipping = True
+        if '20' in startsn:
+            keepskipping = True
+        else:
+            keepskipping = False
 except:
     keepskipping = False
 #skiprows = 60
 skiprows = 0
-print(doonlysn,keepskipping)
 for i,row in df.iterrows():
     if doonlysn:
         if row['snid'] == onlysn:
@@ -49,7 +51,6 @@ for i,row in df.iterrows():
         else:
             continue
     if i < skiprows: continue
-    asdf
     if str(row['snid']) == 'nan': continue
     if str(row['snid']) == 'NaN': continue
     if 'FINISHED' in row['Following?']:

@@ -6,6 +6,7 @@
 2021adlt_P1 [68 6]
 2021aeca_P1 [123 -14]
 2021adlv_P1 [127 -4]
+2021afue_P1 [154 -7]
 2021adlz_P1 [157 11]
 
 2021aexp_P2 [24 -29]
@@ -18,5 +19,5 @@
 2021addd_P3 [48 5]
 2021aceo_P3 [135 -8]
 
-EVERYTHING	82.1 minutes
-EVERYTHING_P1	31.1 minutes
+EVERYTHING	86.3 minutes
+EVERYTHING_P1	35.4 minutes

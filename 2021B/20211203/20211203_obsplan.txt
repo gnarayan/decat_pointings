@@ -1,0 +1,64 @@
+MOON ILLUMINATION: 0.00
+UT -16 deg twilight: 2021-12-04T00:55:42.471 2021-12-04T08:10:55.509
+UT -14 deg twilight: 2021-12-04T00:44:02.819 2021-12-04T08:22:34.772
+UT -12 deg twilight: 2021-12-04T00:32:39.067 2021-12-04T08:33:59.475
+UT -10 deg twilight: 2021-12-04T00:21:29.078 2021-12-04T08:45:09.817
+LOCAL -16 deg twilight: 12/03/2021,   21:55:42   05:10:55
+LOCAL -14 deg twilight: 12/03/2021,   21:44:02   05:22:34
+LOCAL -12 deg twilight: 12/03/2021,   21:32:39   05:33:59
+LOCAL -10 deg twilight: 12/03/2021,   21:21:29   05:45:09
+LOCAL night MIDPOINT: 12/04/2021,   01:33:18
+
+
+01:33 elais_ddf_seq_A.json [9, -43] 30min
+
+02:00
+    YSE 296 [17, -19] 16min!
+    DEBASS 2021afeb_P1 [15 -15]
+    DEBASS 2021aclv_P1 [14 -5]
+
+02:25 am
+  S12  [42, 0] 22 min
+  DEBASS 2021addd_P1 [48 5]
+  DEBASS 2021aexy_P1 [49 -23]
+  DEBASS 2021acxb_P1 [50 -27]
+  C3 [52, -28] 11 min
+  YSE CDFS g,r [52, -28] (10 min)
+
+03:30 am
+  YSE 403 [52, -4] 18 min  
+  YSE 353 [63, -11] 18 min 
+
+04:05 
+  Shen SCVZ [90,-66] 11 min
+
+04:20 am 
+  YSE 257 [91, -26] 18 min
+
+set the guider exposure time to 100ms for this crowded field
+04:38 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+05:08 eta car g band (30 min)
+
+05:40 DEBASS 2021adoz_P1 [125 7]
+      DEBASS 2021acnt_P1 [145 -28]
+--------------
+
+
+Alternate targets:
+
+MEDIUM PRIORITY
+DEBASS 2021abmp_P2 [11 -38]
+DEBASS 2021aexp_P2 [24 -29]
+DEBASS 2021adlz_P2 [157 11]
+
+LOW PRIORITY
+DEBASS 2021adug_P3 [14 -14]
+DEBASS 2021aefx_P3 [64 -54]
+DEBASS 2021adlt_P3 [68 6]
+DEBASS 2021acnx_P3 [70 6]
+DEBASS 2021aeca_P3 [123 -14]
+DEBASS 2021abiu_P3 [119 -2]
+DEBASS 2021adlv_P3 [127 -4]
+DEBASS 2021aceo_P3 [135 -8]

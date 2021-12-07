@@ -26,6 +26,7 @@ LOCAL night MIDPOINT: 12/07/2021,   01:34:35
   DEBASS 2021adlt_P1 [68 6]
 
 03:45 
+353???
   Shen SCVZ [90,-66] 11 min
 
 03:55 am 
@@ -37,8 +38,13 @@ set guider exptime back to 600ms
 
 04:45 DEBASS 2021aeca_P2 [123 -14] <- optional
       DEBASS 2021adoz_P1 [125 7]
-      DEBASS 2021adlz_P1 [157 11]
+
+eFEDS [135, 1] 30 min
+
+05:34 DEBASS 2021adlz_P1 [157 11]
       DEBASS 2021afue_P1 [154 -7]
+
+2021acnt_P2 [145 -28] maybe!!!
       
 
 05:05 eFEDS [135, 1] 30 min

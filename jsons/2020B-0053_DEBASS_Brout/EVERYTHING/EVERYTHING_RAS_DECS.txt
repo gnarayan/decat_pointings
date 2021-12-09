@@ -19,4 +19,4 @@
 2021adlz_P3 [157 11]
 
 EVERYTHING	91.4 minutes
-EVERYTHING_P1	20.7 minutes
+EVERYTHING_P1	20.8 minutes

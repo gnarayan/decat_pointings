@@ -2,12 +2,12 @@
 2021aexy_P1 [49 -23]
 2021addd_P1 [48 5]
 2021aefx_P1 [64 -54]
-2021acnx_P1 [70 6]
 2021aceo_P1 [135 -8]
 2021afue_P1 [154 -7]
 
 2021aexp_P2 [24 -29]
 2021acxb_P2 [50 -27]
+2021acnx_P2 [70 6]
 2021abiu_P2 [119 -2]
 2021adoz_P2 [125 7]
 
@@ -18,5 +18,5 @@
 2021acnt_P3 [145 -28]
 2021adlz_P3 [157 11]
 
-EVERYTHING	91.9 minutes
-EVERYTHING_P1	22.9 minutes
+EVERYTHING	91.4 minutes
+EVERYTHING_P1	20.7 minutes

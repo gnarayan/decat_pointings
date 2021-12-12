@@ -1,0 +1,76 @@
+mjd 59558, date 20211209, Site CTIO, UT-offset 3 hr
+Current local time 16:25 -03     UT 19:25     SidTim 19:57
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     20:45 -03  23:45 UT   00:17    4 deg
+Eve. -10   21:25 -03  00:25 UT   00:58   14 deg  Zeropoint; standards
+Eve. -14   21:48 -03  00:48 UT   01:21   20 deg  Begin obstac
+Eve. -18   22:12 -03  01:12 UT   01:45   26 deg  Last chance standards
+Midpoint   01:36 -03  04:36 UT   05:08   77 deg
+Moonset    01:43 -03  04:43 UT   05:16   79 deg
+Morn -18   04:59 -03  07:59 UT   08:31  128 deg  Begin astronomical twilight
+Morn -14   05:23 -03  08:23 UT   08:55  134 deg  End obstac; begin standards
+Morn -10   05:46 -03  08:46 UT   09:18  140 deg
+Sunrise    06:26 -03  09:26 UT   09:59  150 deg
+
+
+01:36 elais_ddf_seq_A.json [9, -43] 30min
+
+02:06
+    YSE 296 [17, -19] 16min!
+    DEBASS 2021agbv_P1 [28 -14]
+    [20 min block ]
+
+02:36 am
+  Shen C3 [52, -28] 
+  YSE CDFS g,r [52, -28] (10 min)
+  DEBASS 2021aexy_P1 [49 -23]
+  Shen S12 [42, 0]  (30 min)
+  DEBASS 2021addd_P1 [48 5]
+  [ 5 min block]
+
+03:36 am
+  YSE 403 [52, -4] 18 min  
+  DEBASS 2021acnx_P2 [70 6] <-- only if there is time
+  [ 5 min block]
+
+03:56 
+  DEBASS 2021aefx_P1 [64 -54] 
+  Shen SCVZ [90,-66] 11 min
+
+04:10 am 
+  YSE 257 [91, -26] 18 min
+
+set the guider exposure time to 100ms for this crowded field
+04:30 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+05:00   DEBASS 2021aceo_P1 [135 -8] <-- can drop zband if need an extra min
+       DEBASS 2021afue_P1 [154 -7]
+
+05:10: EtaCar i-band 15 min
+
+05:25 525.A.a [186 15]
+      525.A.b [189 15] 
+      525.E.b [189 12]
+      525.E.a [186 12] 
+      525.F.b [188 7] 
+      525.F.a [185 6]
+      525.B.b [187 10] 
+      525.C.a [185 10]
+      525.B.a [189 10]
+      525.C.b [192 12]
+      525.D.a [183 12]
+      525.D.b [185 12]
+
+05:23 14 deg twilight - make sure you don't start something long after Virgo
+
+05:35 [block until 10 deg twilight]
+      
+      
+More Alternate targets if time (including twilight):
+YSE 353 [63, -11] 18 min
+DEBASS 2021aexp_P2 [24 -29]
+DEBASS 2021acxb_P2 [50 -27]
+DEBASS 2021abiu_P2 [119 -2]
+DEBASS 2021adoz_P2 [125 7]
+

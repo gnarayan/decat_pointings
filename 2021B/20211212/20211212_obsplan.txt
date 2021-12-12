@@ -20,32 +20,33 @@ Sunrise    06:26 -03  09:26 UT   09:59  150 deg
     DEBASS 2021agbv_P1 [28 -14]
     [20 min block ]
 
-02:36 am
-  Shen C3 [52, -28] 
+02:26 am
+  X123 [34, -4]  35 min
   YSE CDFS g,r [52, -28] (10 min)
-  DEBASS 2021aexy_P1 [49 -23]
-  Shen S12 [42, 0]  (30 min)
-  DEBASS 2021addd_P1 [48 5]
   [ 5 min block]
 
-03:36 am
+03:10 am
   YSE 403 [52, -4] 18 min  
-  DEBASS 2021acnx_P2 [70 6] <-- only if there is time
+  DEBASS 2021adlt_P1 [68 6]
   [ 5 min block]
 
-03:56 
-  DEBASS 2021aefx_P1 [64 -54] 
+03:32 
   Shen SCVZ [90,-66] 11 min
 
-04:10 am 
+03:45 am 
   YSE 257 [91, -26] 18 min
 
 set the guider exposure time to 100ms for this crowded field
-04:30 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+04:05 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-05:00   DEBASS 2021aceo_P1 [135 -8] <-- can drop zband if need an extra min
-       DEBASS 2021afue_P1 [154 -7]
+04:35 eFEDS [135, 1] 30 min
+
+
+05:05   DEBASS 2021adoz_P1 [125 7]
+        DEBASS 2021aeca_P1 [123 -14]
+        DEBASS 2021adlz_P1 [157 11]
+        DEBASS 2021acnt_P1 [145 -28]
 
 05:10: EtaCar i-band 15 min
 
@@ -69,8 +70,5 @@ set guider exptime back to 600ms
       
 More Alternate targets if time (including twilight):
 YSE 353 [63, -11] 18 min
-DEBASS 2021aexp_P2 [24 -29]
-DEBASS 2021acxb_P2 [50 -27]
-DEBASS 2021abiu_P2 [119 -2]
-DEBASS 2021adoz_P2 [125 7]
+
 

@@ -48,7 +48,7 @@ set guider exptime back to 600ms
         DEBASS 2021adlz_P1 [157 11]
         DEBASS 2021acnt_P1 [145 -28]
 
-05:10: EtaCar i-band 15 min
+05:10: EtaCar g-band 15 min
 
 05:25 525.A.a [186 15]
       525.A.b [189 15] 

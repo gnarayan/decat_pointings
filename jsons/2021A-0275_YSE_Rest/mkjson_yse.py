@@ -56,7 +56,7 @@ class mkjsonclass(txttableclass):
         self.deccol = 'dec'
         self.pointingcol = 'pointing'
         
-        self.horizons = [16,14,12,10]
+        self.horizons = [16,15,14,12,10]
 
 
     def setrectangledither(self,delta=80):

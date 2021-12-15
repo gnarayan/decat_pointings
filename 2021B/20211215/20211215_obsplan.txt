@@ -32,7 +32,6 @@ YSE 296 [17, -19] 16min!
 22:50
 DEBASS EVERYTHING/2021agey_P1 [25 -15]
 DEBASS EVERYTHING/2021agbv_P1 [29 -14]
-DEBASS EVERYTHING/2021aexp_P2 [24 -29] <-- optional
 
 23:00
 elais_ddf_seq_A/B.json [9, -43] 30min
@@ -53,7 +52,6 @@ C3 [52, -28] 11 min
 YSE CDFS i,z [52, -28] (10 min)
 
 01:30
-DEBASS EVERYTHING/2021acxb_P2 [50 -27] <-- optional
 DEBASS EVERYTHING/2021aexy_P1 [49 -23]
 
 YSE 353 [63, -11] 18 min 
@@ -87,14 +85,14 @@ DEBASS EVERYTHING/2021adoz_P1 [125 7]
 YSE21aggu [137,18] 4 min *** high priority ***
 
 04:25
-Cosmos [150,3] 15
+Cosmos [150,3] 25
 
-04:40
+04:50
 DEBASS EVERYTHING/2021afue_P1 [154 -7]
 DEBASS EVERYTHING/2021adlz_P1 [157 11]
 YSE21agfq [165,2] 4 min *** high priority ***
 
-04:55
+05:05
 --------------
 DEBASS STATIC/SP1_203-31.7.json
 DEBASS STATIC/SP2_199-31.7.json

@@ -32,7 +32,6 @@ YSE 296 [17, -19] 16min!
 22:50
 DEBASS EVERYTHING/2021agey_P1 [25 -15]
 DEBASS EVERYTHING/2021agbv_P1 [29 -14]
-DEBASS EVERYTHING/2021aexp_P2 [24 -29] <-- optional
 
 23:00
 elais_ddf_seq_A/B.json [9, -43] 30min

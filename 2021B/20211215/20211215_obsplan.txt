@@ -86,14 +86,14 @@ DEBASS EVERYTHING/2021adoz_P1 [125 7]
 YSE21aggu [137,18] 4 min *** high priority ***
 
 04:25
-Cosmos [150,3] 30
+Cosmos [150,3] 25
 
-04:55
+04:50
 DEBASS EVERYTHING/2021afue_P1 [154 -7]
 DEBASS EVERYTHING/2021adlz_P1 [157 11]
 YSE21agfq [165,2] 4 min *** high priority ***
 
-05:10
+05:05
 --------------
 DEBASS STATIC/SP1_203-31.7.json
 DEBASS STATIC/SP2_199-31.7.json

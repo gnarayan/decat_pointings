@@ -42,21 +42,21 @@
 {
 "count": 1,
 "expType": "object",
-"object": "401.D.a",
+"object": "401.D.2021aaqn",
 "filter": "i",
 "expTime": 50,
-"RA": "40.2021",
-"dec": "-0.7495",
+"RA": "39.4925",
+"dec": "-1.8870",
 "propid": "2021A-0275"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "401.D.a",
+"object": "401.D.2021aaqn",
 "filter": "z",
 "expTime": 50,
-"RA": "40.2021",
-"dec": "-0.7495",
+"RA": "39.4925",
+"dec": "-1.8870",
 "propid": "2021A-0275"
 },
 {

@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 MOON ILLUMINATION: 0.93
 UT -16 deg twilight: 2021-12-16T01:05:31.802 2021-12-16T08:12:01.811
 UT -15 deg twilight: 2021-12-16T00:59:33.181 2021-12-16T08:18:01.070
@@ -19,43 +27,94 @@ As soon the pointing correction is done, start the Asteroid fields:
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
 
-YSE 448 [13, 3]
+22:00 YSE 448 [13, 3] 
 
+22:20
+DEBASS EVERYTHING/2021aclv_P1 [14 -5]
+DEBASS EVERYTHING/2021adug_P1 [14 -14]
+DEBASS EVERYTHING/2021afeb_P1 [15 -15]
+
+22:35
 YSE 296 [17, -19] 16min!
 
+22:50
+DEBASS EVERYTHING/2021agey_P1 [25 -15]
+DEBASS EVERYTHING/2021agbv_P1 [29 -14]
+DEBASS EVERYTHING/2021aexp_P2 [24 -29] <-- optional
+
+23:00
 elais_ddf_seq_A/B.json [9, -43] 30min
 
+23:30
 X123 [34, -4]  35 min
 
+00:05
 YSE 401 [40, -1] 20 min - replace 401.D with 401.D.2021aaqn.json
 
+00:25
 S12  [42, 0] 22 min   
-
 YSE 403 [52, -4] 18 min  
+DEBASS EVERYTHING/2021aggc_P2 [50 -7]
 
+01:10
 C3 [52, -28] 11 min
 YSE CDFS i,z [52, -28] (10 min)
 
+01:30
+DEBASS EVERYTHING/2021acxb_P2 [50 -27] <-- optional
+DEBASS EVERYTHING/2021aexy_P1 [49 -23]
+
 YSE 353 [63, -11] 18 min 
 
+DEBASS EVERYTHING/2021aghw_P2 [70 -36] <-- optional
+
+02:00
 YSE 257 [91, -26] 18 min
 
 set the guider exposure time to 100ms for this crowded field
-04:05 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+02:20 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
+02:50
 Shen SCVZ [90,-66] 11 min
+
+03:00
+DEBASS EVERYTHING/2021aefx_P1 [64 -54]
 
 EtaCar i-band [161, -60] 15 min
 
+DEBASS EVERYTHING/2021acnt_P1 [145 -28]
+DEBASS EVERYTHING/2021aceo_P1 [135 -8]
+
+03:40
 eFEDS [135, 1] 30 
 
+04:10
+DEBASS EVERYTHING/2021adlv_P1 [127 -4]
+DEBASS EVERYTHING/2021adoz_P1 [125 7]
 YSE21aggu [137,18] 4 min *** high priority ***
 
+04:25
 Cosmos [150,3] 15
 
+04:40
+DEBASS EVERYTHING/2021afue_P1 [154 -7]
+DEBASS EVERYTHING/2021adlz_P1 [157 11]
 YSE21agfq [165,2] 4 min *** high priority ***
+
+04:55
+--------------
+DEBASS STATIC/SP1_203-31.7.json
+DEBASS STATIC/SP2_199-31.7.json
+DEBASS STATIC/SP3_196-34.5.json
+^^^^^^^^ CAN REPEAT ABOVE SECTION UNTILL -14 if necessary or alternatively grab 2021aggs_P2
 
 at -14 deg twilight (05:23:56 local time), go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight16decmorning.json
+
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+DEBASS EVERYTHING/2021abiu_P2 [119 -2]
+DEBASS EVERYTHING/2021aggs_P2 [176 19]
 

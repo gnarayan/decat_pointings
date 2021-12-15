@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "YSE21agfq",
+"filter": "g",
+"expTime": 30,
+"RA": "164.7808",
+"dec": "1.8094",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "YSE21agfq",
+"filter": "r",
+"expTime": 30,
+"RA": "164.7808",
+"dec": "1.8094",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "YSE21agfq",
+"filter": "i",
+"expTime": 30,
+"RA": "164.7808",
+"dec": "1.8094",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "YSE21agfq",
+"filter": "z",
+"expTime": 30,
+"RA": "164.7808",
+"dec": "1.8094",
+"propid": "2021A-0275"
+}
+]

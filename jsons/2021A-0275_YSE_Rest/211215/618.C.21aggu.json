@@ -2,41 +2,41 @@
 {
 "count": 1,
 "expType": "object",
-"object": "YSE21aggu",
+"object": "618.C.21aggu",
 "filter": "g",
 "expTime": 30,
-"RA": "136.8800",
-"dec": "18.3560",
+"RA": "137.7345",
+"dec": "18.0364",
 "propid": "2021A-0275"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "YSE21aggu",
+"object": "618.C.21aggu",
 "filter": "r",
 "expTime": 30,
-"RA": "136.8800",
-"dec": "18.3560",
+"RA": "137.7345",
+"dec": "18.0364",
 "propid": "2021A-0275"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "YSE21aggu",
+"object": "618.C.21aggu",
 "filter": "i",
 "expTime": 30,
-"RA": "136.8800",
-"dec": "18.3560",
+"RA": "137.7345",
+"dec": "18.0364",
 "propid": "2021A-0275"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "YSE21aggu",
+"object": "618.C.21aggu",
 "filter": "z",
 "expTime": 30,
-"RA": "136.8800",
-"dec": "18.3560",
+"RA": "137.7345",
+"dec": "18.0364",
 "propid": "2021A-0275"
 }
 ]

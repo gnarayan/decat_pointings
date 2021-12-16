@@ -82,7 +82,7 @@ eFEDS [135, 1] 30
 04:10
 DEBASS EVERYTHING/2021adlv_P1 [127 -4]
 DEBASS EVERYTHING/2021adoz_P1 [125 7]
-YSE21aggu [137,18] 4 min *** high priority ***
+618.C.21aggu [137,18] 4 min *** high priority ***
 
 04:25
 Cosmos [150,3] 25
@@ -90,7 +90,7 @@ Cosmos [150,3] 25
 04:50
 DEBASS EVERYTHING/2021afue_P1 [154 -7]
 DEBASS EVERYTHING/2021adlz_P1 [157 11]
-YSE21agfq [165,2] 4 min *** high priority ***
+418.D.21agfq [165,2] 4 min *** high priority ***
 
 05:05
 --------------

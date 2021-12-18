@@ -38,12 +38,12 @@ DEBASS EVERYTHING/2021agbv_P1 [29 -14]
 
 23:00
 elais_ddf_seq_A.json [9, -43] 30min (ONLY DO A, NOT B)
-DEBASS EVERYTHING/2021abmp_P2 [11 -38] 
-DEBASS EVERYTHING/2021aexp_P2 [24 -29]
+DEBASS EVERYTHING/2021abmp_P2 [11 -38] <-- optional
+DEBASS EVERYTHING/2021aexp_P2 [24 -29] <-- optional
 
 23:30
 X123 [34, -4]  35 min
-DEBASS EVERYTHING/2021abko_P2 [31 23]
+DEBASS EVERYTHING/2021abko_P2 [31 23] <-- optional
 
 00:05
 YSE 401 [40, -1] 20 min 
@@ -58,7 +58,7 @@ YSE CDFS i,z [52, -28] (10 min)
 
 01:30
 DEBASS EVERYTHING/2021aexy_P1 [49 -23]
-DEBASS EVERYTHING/2021acxb_P2 [50 -27]
+DEBASS EVERYTHING/2021acxb_P2 [50 -27] <-- optional
 
 YSE 353 [63, -11] 18 min 
 
@@ -102,7 +102,7 @@ DEBASS EVERYTHING/2021afue_P1 [154 -7]
 DEBASS STATIC/SP1_203-31.7.json
 DEBASS STATIC/SP2_199-31.7.json
 DEBASS STATIC/SP3_196-34.5.json
-^^^^^^^^ CAN REPEAT ABOVE SECTION UNTILL -14 if necessary or alternatively grab 2021aggs_P2
+^^^^^^^^ CAN REPEAT ABOVE SECTION UNTILL -14 if necessary
 
 at -14 deg twilight (05:23:56 local time), go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight16decmorning.json

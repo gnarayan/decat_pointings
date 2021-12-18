@@ -477,6 +477,8 @@ if __name__=='__main__':
                             repeatfilters=repeatfilters)
     
     if outdate!='':
+        print(f'MOON ILLUMINATION: {mkjson.illum:.2f}')
+
         for horizon in mkjson.horizons:
             print('UT %d deg twilight: %s %s' % (-horizon,mkjson.twi[horizon][0].to_value('isot'),mkjson.twi[horizon][1].to_value('isot')))
         

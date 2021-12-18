@@ -1,0 +1,65 @@
+MOON ILLUMINATION: 1.00
+UT -16 deg twilight: 2021-12-19T01:07:24.987 2021-12-19T08:13:07.729
+UT -15 deg twilight: 2021-12-19T01:01:24.641 2021-12-19T08:19:07.402
+UT -14 deg twilight: 2021-12-19T00:55:27.430 2021-12-19T08:25:02.942
+UT -12 deg twilight: 2021-12-19T00:43:50.095 2021-12-19T08:36:42.290
+UT -10 deg twilight: 2021-12-19T00:32:27.823 2021-12-19T08:48:04.208
+LOCAL -16 deg twilight: 12/18/2021,   22:07:24   05:13:07
+LOCAL -15 deg twilight: 12/18/2021,   22:01:24   05:19:07
+LOCAL -14 deg twilight: 12/18/2021,   21:55:27   05:25:02
+LOCAL -12 deg twilight: 12/18/2021,   21:43:50   05:36:42
+LOCAL -10 deg twilight: 12/18/2021,   21:32:27   05:48:04
+LOCAL night MIDPOINT: 12/19/2021,   01:40:16
+
+ -10 degree twilight, the telescope observer on the montain will start the pointing correction at that time.
+********  IMPORTANT!!!! ****** The Asteroid fields are very far to the West, therefore it's good to check the pointing of the telescope at the beginning of the night to the West, so the telescope dome does not have to rotate much, but do not check the pointing at the fields as they are too far over for that. Pls tell this to telescope observer on the montainmountain!!! ***
+
+As soon the pointing correction is done, start the Asteroid fields:
+jsons/2021B-0909_Twilight_Sheppard
+at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
+
+YSE 448 [13, 3] 
+YSE 296 [17, -19] 16min!
+
+elais_ddf_seq_A/B.json [9, -43] 1h
+
+X123 [34, -4]  35 min
+
+YSE 401 [40, -1] 20 min 
+S12  [42, 0] 22 min  
+
+YSE 403 [52, -4] 18 min  
+
+C3 [52, -28] 11 min
+YSE CDFS i,z [52, -28] (10 min)
+
+YSE 353 [63, -11] 18 min 
+
+YSE 257 [91, -26] 18 min
+
+set the guider exposure time to 100ms for this crowded field
+02:20 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+Shen SCVZ [90,-66] 11 min
+
+EtaCar i-band [161, -60] 15 min
+
+eFEDS [135, 1] 30 
+
+618.C.21aggu [137,18] 4 min 
+
+Cosmos [150,3] 25
+jsons/2019A-0065_SDSSV_Shen/COSMOS.json
+
+418.D.21agfq [165,2] 4 min 
+
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+

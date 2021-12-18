@@ -1,3 +1,6 @@
+
+
+
 MOON ILLUMINATION: 0.93
 UT -16 deg twilight: 2021-12-16T01:05:31.802 2021-12-16T08:12:01.811
 UT -15 deg twilight: 2021-12-16T00:59:33.181 2021-12-16T08:18:01.070
@@ -19,10 +22,10 @@ As soon the pointing correction is done, start the Asteroid fields:
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
 
-22:00 YSE 448 [13, 3] 
+22:00 YSE 448 [13, 3]
+      DEBASS 2021agjd_P1 [12 14]
 
 22:20
-DEBASS EVERYTHING/2021aclv_P1 [14 -5]
 DEBASS EVERYTHING/2021adug_P1 [14 -14]
 DEBASS EVERYTHING/2021afeb_P1 [15 -15]
 
@@ -34,10 +37,13 @@ DEBASS EVERYTHING/2021agey_P1 [25 -15]
 DEBASS EVERYTHING/2021agbv_P1 [29 -14]
 
 23:00
-elais_ddf_seq_A/B.json [9, -43] 30min
+elais_ddf_seq_A.json [9, -43] 30min (ONLY DO A, NOT B)
+DEBASS EVERYTHING/2021abmp_P2 [11 -38] 
+DEBASS EVERYTHING/2021aexp_P2 [24 -29]
 
 23:30
 X123 [34, -4]  35 min
+DEBASS EVERYTHING/2021abko_P2 [31 23]
 
 00:05
 YSE 401 [40, -1] 20 min 
@@ -45,7 +51,6 @@ YSE 401 [40, -1] 20 min
 00:25 
 S12  [42, 0] 22 min   
 YSE 403 [52, -4] 18 min  
-DEBASS EVERYTHING/2021aggc_P2 [50 -7] <-- optional
 
 01:10
 C3 [52, -28] 11 min
@@ -53,6 +58,7 @@ YSE CDFS i,z [52, -28] (10 min)
 
 01:30
 DEBASS EVERYTHING/2021aexy_P1 [49 -23]
+DEBASS EVERYTHING/2021acxb_P2 [50 -27]
 
 YSE 353 [63, -11] 18 min 
 
@@ -62,7 +68,7 @@ DEBASS EVERYTHING/2021aghw_P2 [70 -36] <-- optional
 YSE 257 [91, -26] 18 min
 
 set the guider exposure time to 100ms for this crowded field
-02:20 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+02:20 decapswest_ddf_A.json [116, -26] 16min (ONLY DO A, NOT B)
 set guider exptime back to 600ms
 
 02:50
@@ -73,23 +79,22 @@ DEBASS EVERYTHING/2021aefx_P1 [64 -54]
 
 EtaCar i-band [161, -60] 15 min
 
-DEBASS EVERYTHING/2021acnt_P1 [145 -28]
-DEBASS EVERYTHING/2021aceo_P1 [135 -8]
 
 03:40
 eFEDS [135, 1] 30 
 
 04:10
-DEBASS EVERYTHING/2021adlv_P1 [127 -4]
+DEBASS EVERYTHiNG/2021aeca_P1 [123 -14]
 DEBASS EVERYTHING/2021adoz_P1 [125 7]
 618.C.21aggu [137,18] 4 min *** high priority ***
 
 04:25
 Cosmos [150,3] 25
+DEBASS EVERYTHING/2021agfq_P1 [164 2]
+
 
 04:50
 DEBASS EVERYTHING/2021afue_P1 [154 -7]
-DEBASS EVERYTHING/2021adlz_P1 [157 11]
 418.D.21agfq [165,2] 4 min *** high priority ***
 
 05:05
@@ -105,6 +110,5 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight16decmorning.json
 
 ---------------
 FILLER TARGETS IF EXTRA TIME
-DEBASS EVERYTHING/2021aggs_P2 [176 19]
 EtaCar z-band [161, -60] (whatever can be done, full script is 30 min)
 

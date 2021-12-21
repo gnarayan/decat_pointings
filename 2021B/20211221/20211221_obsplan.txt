@@ -77,7 +77,7 @@ EtaCar i-band [161, -60] 15 min
 FILLER UNTIL -18deg: EtaCar z-band [161, -60]
 ------ REPEAT ABOVE UNTIL -18 deg sun angle ------
 
--18 Sun angle move to below
+-19 Sun angle move to below
 Try to get through these three targets if possible. 
 If that means dropping z,i bands and just getting g,r thats better than missing a full pointing
   DEBASS STATIC/SP1_203-31.7.json 

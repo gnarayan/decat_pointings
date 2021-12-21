@@ -19,39 +19,70 @@ As soon the pointing correction is done, start the Asteroid fields:
 jsons/2021B-0909_Twilight_Sheppard
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
 
+22:00
 YSE 448 [13, 3] 
+DEBASS EVERYTHING/2021aclv_P1 [14 -5]
+DEBASS EVERYTHING/2021adug_P1 [14 -14]
+DEBASS EVERYTHING/2021afeb_P1 [15 -15]
 YSE 296 [17, -19] 16min!
+DEBASS EVERYTHING/2021agey_P1 [25 -15]
+DEBASS EVERYTHING/2021agbv_P1 [29 -14]
+
+23:00
+DEBASS EVERYTHING/2021agjd_P1 [12 14]
+DEBASS EVERYTHING/2021aglf_P1 [22 20]
 
 elais_ddf_seq_A/B.json [9, -43] 1h
+DEBASS EVERYTHING/2021agle_P1 [31 -28]
 
+00:15
 X123 [34, -4]  35 min
-
 YSE 401 [40, -1] 20 min 
+
+01:10
 S12  [42, 0] 22 min  
 
+01:30
 YSE 403 [52, -4] 18 min  
+DEBASS EVERYTHING/2021aexy_P1 [49 -23]
 
 C3 [52, -28] 11 min
 YSE CDFS i,z [52, -28] (10 min)
+DEBASS EVERYTHING/2021aefx_P1 [64 -54]
 
+02:20
 YSE 353 [63, -11] 18 min 
 
 YSE 257 [91, -26] 18 min
 
 set the guider exposure time to 100ms for this crowded field
-02:20 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+03:00 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
+03:30
 Shen SCVZ [90,-66] 11 min
 
 EtaCar i-band [161, -60] 15 min
+DEBASS EVERYTHING/2021acnt_P1 [145 -28]
 
+04:00
 eFEDS [135, 1] 30 
 
 Cosmos [150,3] 25
 jsons/2019A-0065_SDSSV_Shen/COSMOS.json
+DEBASS EVERYTHING/2021afue_P1 [154 -7]
 
+05:00
 418.D.21agfq [165,2] 4 min 
+
+--------------
+Try to get through these three targets if possible. 
+If that means dropping z,i bands and just getting g,r thats better than missing a full pointing
+  DEBASS STATIC/SP1_203-31.7.json 
+  DEBASS STATIC/SP2_199-31.7.json
+  DEBASS STATIC/SP3_196-34.5.json
+^^^^^^^^ CAN REPEAT ABOVE SECTION UNTILL -14 if necessary
+
 
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard

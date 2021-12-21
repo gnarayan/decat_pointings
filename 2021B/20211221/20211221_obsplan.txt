@@ -21,7 +21,6 @@ at -14 degree twilight (21:54 local time), stop the observations, and go to the 
 
 22:00
 YSE 448 [13, 3] 
-DEBASS EVERYTHING/2021aclv_P1 [14 -5]
 DEBASS EVERYTHING/2021adug_P1 [14 -14]
 DEBASS EVERYTHING/2021afeb_P1 [15 -15]
 YSE 296 [17, -19] 16min!
@@ -63,7 +62,6 @@ set guider exptime back to 600ms
 Shen SCVZ [90,-66] 11 min
 
 EtaCar i-band [161, -60] 15 min
-DEBASS EVERYTHING/2021acnt_P1 [145 -28]
 
 04:00
 eFEDS [135, 1] 30 

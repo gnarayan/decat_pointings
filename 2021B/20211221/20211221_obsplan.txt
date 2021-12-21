@@ -74,7 +74,7 @@ DEBASS EVERYTHING/2021afue_P1 [154 -7]
 -------------------------
 04:45
 EtaCar i-band [161, -60] 15 min
-FILLER UNTIL -18deg: EtaCar z-band [161, -60]
+FILLER UNTIL -19deg: EtaCar z-band [161, -60]
 ------ REPEAT ABOVE UNTIL -18 deg sun angle ------
 
 -19 Sun angle move to below

@@ -76,9 +76,11 @@ DEBASS EVERYTHING/2021afue_P1 [154 -7]
 418.D.21agfq [165,2] 4 min 
 
 --------------
-DEBASS STATIC/SP1_203-31.7.json
-DEBASS STATIC/SP2_199-31.7.json
-DEBASS STATIC/SP3_196-34.5.json
+Try to get through these three targets if possible. 
+If that means dropping z,i bands and just getting g,r thats better than missing a full pointing
+  DEBASS STATIC/SP1_203-31.7.json 
+  DEBASS STATIC/SP2_199-31.7.json
+  DEBASS STATIC/SP3_196-34.5.json
 ^^^^^^^^ CAN REPEAT ABOVE SECTION UNTILL -14 if necessary
 
 

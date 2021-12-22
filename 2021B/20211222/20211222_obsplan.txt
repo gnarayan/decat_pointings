@@ -19,6 +19,8 @@ YSE 257 [91, -26] 16 min
 EtaCar i-band [161, -60]  63min *** high priority ***
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.i.closefields135degDec2021.json
 
+2019tsf.json [167,-10] 20 min *** high priority ***
+
 04:52: YSE 525 [189,10] 35 min *** high priority ***
 
 at -14 deg twilight, go to the asteroid field:

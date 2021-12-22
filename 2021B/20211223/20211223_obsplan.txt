@@ -44,7 +44,8 @@ set guider exptime back to 600ms
 
 Shen SCVZ [90,-66] 11 min
 
-EtaCar z-band [161, -60] 15 min
+EtaCar SE [161, -60] 26 min
+etale.i.SE.json
 
 eFEDS [135, 1] 30 
 

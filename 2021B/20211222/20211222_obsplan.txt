@@ -11,14 +11,22 @@ LOCAL -12 deg twilight: 12/22/2021,   21:45:52   05:38:38
 LOCAL -10 deg twilight: 12/22/2021,   21:34:30   05:50:01
 LOCAL night MIDPOINT: 12/23/2021,   01:42:16
 
+01:42
 YSE 353 [63, -11] 16 min 
+
+02:00
 YSE CDFS [52, -28] 1h *** high priority ***
+DEBASS EVERYTHING/2021aghw_P1 [70 -36]
 
+03:00
 YSE 257 [91, -26] 16 min
+DEBASS 2021aglk_P1 [98 -36]
 
+03:25
 EtaCar i-band [161, -60]  63min *** high priority ***
 decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.i.closefields135degDec2021.json
 
+04:30
 2019tsf.json [167,-10] 20 min *** high priority ***
 
 04:52: YSE 525 [189,10] 35 min *** high priority ***
@@ -28,6 +36,12 @@ jsons/2021B-0909_Twilight_Sheppard
 
 ---------------
 FILLER TARGETS IF EXTRA TIME
+
+Can drop i bands and just get g,r
+  DEBASS STATIC/SP1_203-31.7.json 
+  DEBASS STATIC/SP2_199-31.7.json
+  DEBASS STATIC/SP3_196-34.5.json
+
 
 set the guider exposure time to 100ms for this crowded field
 02:20 decapswest_ddf_A/B.json  [116, -26] 0.5h 

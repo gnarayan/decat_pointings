@@ -25,7 +25,7 @@ set guider exptime back to 600ms
 
 Shen SCVZ [90,-66] 11 min
 
-EtaCar r-band [161, -60] 15 min
+EtaCar g-band [161, -60] 30 min
 
 618.C.21aggu [137,18] 4 min 
 
@@ -42,5 +42,5 @@ jsons/2021B-0909_Twilight_Sheppard
 ---------------
 FILLER TARGETS IF EXTRA TIME
 
-EtaCar r-band [161, -60] 15 min
+EtaCar i-band [161, -60] 15 min
 

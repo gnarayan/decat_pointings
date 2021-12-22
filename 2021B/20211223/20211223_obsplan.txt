@@ -28,10 +28,11 @@ X123 [34, -4]  35 min
 YSE 401 [40, -1] 20 min 
 S12  [42, 0] 22 min  
 
+YSE 505.A.2021zby [44 11] 9 min ** high priority **
+
 YSE 403 [52, -4] 18 min  
 
 C3 [52, -28] 11 min
-YSE CDFS i,z [52, -28] (10 min)
 
 YSE 353 [63, -11] 18 min 
 

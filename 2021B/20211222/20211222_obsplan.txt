@@ -20,7 +20,7 @@ DEBASS EVERYTHING/2021aghw_P1 [70 -36]
 
 03:00
 YSE 257 [91, -26] 16 min
-DEBASS 2021aglk_P1 [98 -36]
+DEBASS EVERYTHING/2021aglk_P1 [98 -36]
 
 03:25
 EtaCar i-band [161, -60]  63min *** high priority ***

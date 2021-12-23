@@ -1,19 +1,28 @@
-MOON ILLUMINATION: 0.78
-UT -16 deg twilight: 2021-12-24T01:09:55.196 2021-12-24T08:15:38.120
-UT -15 deg twilight: 2021-12-24T01:03:53.579 2021-12-24T08:21:37.776
-UT -14 deg twilight: 2021-12-24T00:57:58.235 2021-12-24T08:27:33.312
-UT -12 deg twilight: 2021-12-24T00:46:19.135 2021-12-24T08:39:12.650
-UT -10 deg twilight: 2021-12-24T00:34:56.942 2021-12-24T08:50:34.534
-LOCAL -16 deg twilight: 12/23/2021,   22:09:55   05:15:38
-LOCAL -15 deg twilight: 12/23/2021,   22:03:53   05:21:37
-LOCAL -14 deg twilight: 12/23/2021,   21:57:58   05:27:33
-LOCAL -12 deg twilight: 12/23/2021,   21:46:19   05:39:12
-LOCAL -10 deg twilight: 12/23/2021,   21:34:56   05:50:34
-LOCAL night MIDPOINT: 12/24/2021,   01:42:46
+mjd 59572, date 20211223, Site CTIO, UT-offset 3 hr
+Current local time 17:01 -03     UT 20:01     SidTim 21:29
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     20:53 -03  23:53 UT   01:21   20 deg
+Eve. -10   21:34 -03  00:34 UT   02:02   30 deg  Zeropoint; standards
+Eve. -14   21:57 -03  00:57 UT   02:25   36 deg  Begin obstac
+Eve. -18   22:21 -03  01:21 UT   02:49   42 deg  Last chance standards
+Moonrise   00:19 -03  03:19 UT   04:47   72 deg
+Midpoint   01:42 -03  04:42 UT   06:10   92 deg
+Morn -18   05:03 -03  08:03 UT   09:31  143 deg  Begin astronomical twilight
+Morn -14   05:28 -03  08:28 UT   09:55  149 deg  End obstac; begin standards
+Morn -10   05:51 -03  08:51 UT   10:19  155 deg
+Sunrise    06:32 -03  09:32 UT   11:00  165 deg
+Moon position (deg): RA 152.8, Dec 17.6 Phase: 0.679
 
- -10 degree twilight, the telescope observer on the montain will start the pointing correction at that time.
-********  IMPORTANT!!!! ****** The Asteroid fields are very far to the West, therefore it's good to check the pointing of the telescope at the beginning of the night to the West, so the telescope dome does not have to rotate much, but do not check the pointing at the fields as they are too far over for that. Pls tell this to telescope observer on the montainmountain!!! ***
 
+ -10 degree twilight, the telescope observer on the montain will start the
+ pointing correction at that time.
+********  IMPORTANT!!!! ****** 
+The Asteroid fields are very far to the West, therefore it's good to check the
+pointing of the telescope at the beginning of the night to the West, so the
+telescope dome does not have to rotate much, but do not check the pointing at
+the fields as they are too far over for that. Pls tell this to telescope
+observer on the mountain!!! 
+***
 As soon the pointing correction is done, start the Asteroid fields:
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!

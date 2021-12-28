@@ -11,9 +11,7 @@ LOCAL -12 deg twilight: 12/30/2021,   21:48:33   05:43:53
 LOCAL -10 deg twilight: 12/30/2021,   21:37:14   05:55:11
 LOCAL night MIDPOINT: 12/31/2021,   01:46:13
 
-YSE 403 [52, -4] 18 min  
-
-C3 [52, -28] 11 min   <-- optional 
+YSE 403 [52, -4] 18 min <--- optional if time 
 
 YSE 353 [63, -11] 18 min 
 
@@ -30,7 +28,7 @@ EtaCar g-band [161, -60] 30 min
 618.C.21aggu [137,18] 4 min 
 
 Cosmos [150,3] 25
-jsons/2019A-0065_SDSSV_Shen/COSMOS.json
+jsons/2019A-0065_SDSSV_Shen/COSMOS.json  <--- Shen Cosmos is nominally 6 day cadence, so this can be dropped/reduced if necessary since observed on 12/27
 
 418.D.21agfq [165,2] 4 min 
 

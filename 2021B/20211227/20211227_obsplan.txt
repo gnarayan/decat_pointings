@@ -11,51 +11,50 @@ LOCAL -12 deg twilight: 12/27/2021,   21:47:47   05:41:44
 LOCAL -10 deg twilight: 12/27/2021,   21:36:25   05:53:04
 LOCAL night MIDPOINT: 12/28/2021,   01:44:45
 
-1:44
-YSE 401 [40, -1] 8 min, 1 filter only 
-
-2:00
+01:44
 YSE 403 [52, -4] 18 min  
 DEBASS EVERYTHING/2021adlt_P1 [68 6] (3min)
 DEBASS EVERYTHING/2021acnx_P1 [70 6] (3min)
 
-2:30
-C3 [52, -28] 11 min
-YSE CDFS i,z [52, -28] (10 min)
+02:08
+C3 [52, -28] 11 min 
 DEBASS EVERYTHING/2021aefx_P1 [64 -54] <-- optional (3min)
 
-2:55
+02:23
 YSE 353 [63, -11] 18 min 
 YSE 257 [91, -26] 18 min
 
-03:30
+03:00
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-04:00
+03:30
 Shen SCVZ [90,-66] 11 min
 DEBASS EVERYTHING/2021acnt_P1 [145 -28] (3min)
 
-04:15
+03:45
 eFEDS [135, 1] 30 
 
-04:45
+04:15
 618.C.21aggu [137,18] 4 min 
 
-04:50
+04:20
 Cosmos [150,3] 25
 jsons/2019A-0065_SDSSV_Shen/COSMOS.json
 
-05:15
+04:55
 DEBASS EVERYTHING/2021afue_P1 [154 -7] (3min)
 418.D.21agfq [165,2] 4 min 
 
-05:25 
+05:02 
   DEBASS STATIC/SP1_203-31.7.json (3min)
   DEBASS STATIC/SP2_199-31.7.json (3min)
   DEBASS STATIC/SP3_196-34.5.json (3min)
 
+*** some extra 15 minutes! ***
+
+05:30
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 

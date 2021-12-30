@@ -151,7 +151,7 @@ class mkjsonclass(txttableclass):
     def add_options(self, parser=None, usage=None):
         if parser == None:
             parser = optparse.OptionParser(usage=usage, conflict_handler="resolve")
-        parser.add_option('--pointingfile'  , default='./yse_pointings_decam.txt' , type="string",
+        parser.add_option('--pointingfile'  , default='./YSE.pointings.txt' , type="string",
                           help='RA column name (default=%default)')
         parser.add_option('--racol'  , default='ra' , type="string",
                           help='RA column name (default=%default)')

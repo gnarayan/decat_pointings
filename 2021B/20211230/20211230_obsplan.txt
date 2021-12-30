@@ -24,7 +24,7 @@ YSE 353 [63, -11] 18 min
 YSE 257 [91, -26] 18 min
 
 set the guider exposure time to 100ms for this crowded field
-02:20 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
 Shen SCVZ [90,-66] 11 min
@@ -34,13 +34,14 @@ EtaCar g-band [161, -60] 30 min
 Cosmos [150,3] 25
 jsons/2019A-0065_SDSSV_Shen/COSMOS.json  <--- Shen Cosmos is nominally 6 day cadence, so this can be dropped/reduced if necessary since observed on 12/27
 
-618.C.21aggu [137,18] 4 min 
+YSE 618.C.21aggu [137,18] 4 min 
+YSE 2021agji [140,24] 4 min *** high priority ***
 
 DEBASS EVERYTHING/2021adoz_P1 [125 7]
 DEBASS EVERYTHING/2021adlv_P1 [127 -4]
 DEBASS EVERYTHING/2021aeca_P1 [123 -14]
 
-418.D.21agfq [165,2] 4 min 
+YSE 418.D.21agfq [165,2] 4 min 
 
 YSE 525 [189,10] 30 min
 

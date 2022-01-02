@@ -73,9 +73,11 @@ Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
+05:20
 DEBASS/EVERYTHING/2021afue_P1 [154 -7]
 YSE 418.D.21agfq [165,2] 4 min *** optional ***
 
+05:30
 Try to get through these three targets if possible (15min total). 
 If that means dropping i bands and just getting g,r thats better than missing a full pointing
   DEBASS STATIC/SP1_203-31.7.json 
@@ -83,7 +85,7 @@ If that means dropping i bands and just getting g,r thats better than missing a 
   DEBASS STATIC/SP3_196-34.5.json
 
 
-05:00
+05:45
 YSE 525 [189,10] 30 min
 
 05:34

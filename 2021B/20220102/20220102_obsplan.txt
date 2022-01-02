@@ -32,39 +32,43 @@ DEBASS/EVERYTHING/2021afeb_P1 [15 -15]
 YSE 296 [17, -19] 16min
 DEBASS/EVERYTHING/2021agbv_P1 [29 -14]
 DEBASS/EVERYTHING/2021aexp_P2 [24 -29] <-- optional
+
+23:00
 elais_ddf_seq_A/B.json [9, -43] 1h
 
-23:50
+00:00
 X123 [34, -4]  35 min
 YSE 401 [40, -1] 20 min
 
-00:45
+00:55
 S12  [42, 0] 22 min  
 YSE 403 [52, -4] 18 min  
 
-01:30
+01:35
 C3 [52, -28] 11 min
 YSE 353 [63, -11] 18 min 
 DEBASS/EVERYTHING/2021aefx_P1 [64 -54]
 DEBASS/EVERYTHING/2021aglk_P1 [98 -36]
 YSE 257 [91, -26] 18 min
 
-02:15
+02:35
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-02:45
+03:05
 Shen SCVZ [90,-66] 11 min
 
 EtaCar [161, -60] 30min
 jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
 
+03:45
 eFEDS [135, 1] 30 
 
+04:15
 YSE 618.C.21aggu [137,18] 4 min *** optional ***
 
-04:00
+04:20
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C

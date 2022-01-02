@@ -25,8 +25,13 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
 
 22:00
+DEBASS/EVERYTHING/2021aglf_P1 [22 20] (IF THIS HAS POOR TEFF BECAUSE OF SKY BRIGHTNESS --> PLEASE TRY AGAIN)
+DEBASS/EVERYTHING/2021agjd_P1 [12 14]
 YSE 448 [13, 3]   18min
+DEBASS/EVERYTHING/2021afeb_P1 [15 -15]
 YSE 296 [17, -19] 16min
+DEBASS/EVERYTHING/2021agbv_P1 [29 -14]
+DEBASS/EVERYTHING/2021aexp_P2 [24 -29] <-- optional
 elais_ddf_seq_A/B.json [9, -43] 1h
 
 23:50
@@ -40,6 +45,8 @@ YSE 403 [52, -4] 18 min
 01:30
 C3 [52, -28] 11 min
 YSE 353 [63, -11] 18 min 
+DEBASS/EVERYTHING/2021aefx_P1 [64 -54]
+DEBASS/EVERYTHING/2021aglk_P1 [98 -36]
 YSE 257 [91, -26] 18 min
 
 02:15
@@ -62,7 +69,15 @@ Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
+DEBASS/EVERYTHING/2021afue_P1 [154 -7]
 YSE 418.D.21agfq [165,2] 4 min *** optional ***
+
+Try to get through these three targets if possible. 
+If that means dropping i bands and just getting g,r thats better than missing a full pointing
+  DEBASS STATIC/SP1_203-31.7.json 
+  DEBASS STATIC/SP2_199-31.7.json
+  DEBASS STATIC/SP3_196-34.5.json
+
 
 05:00
 YSE 525 [189,10] 30 min

@@ -25,7 +25,7 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
 
 22:00
-DEBASS/EVERYTHING/2021aglf_P1 [22 20] (IF THIS HAS POOR TEFF BECAUSE OF SKY BRIGHTNESS --> PLEASE TRY AGAIN)
+DEBASS/EVERYTHING/2021aglf_P1 [22 20] (IF THIS HAS POOR TEFF <0.1 BECAUSE OF SKY BRIGHTNESS --> PLEASE TRY AGAIN ONCE MORE)
 DEBASS/EVERYTHING/2021agjd_P1 [12 14]
 YSE 448 [13, 3]   18min
 DEBASS/EVERYTHING/2021afeb_P1 [15 -15]

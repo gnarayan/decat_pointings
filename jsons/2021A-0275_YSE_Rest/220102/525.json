@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "525.A.a",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "186.3000",
 "dec": "14.5000",
 "propid": "2021A-0275"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "525.A.a",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "186.3000",
 "dec": "14.5000",
 "propid": "2021A-0275"
@@ -24,7 +24,7 @@
 "expType": "object",
 "object": "525.A.b",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "188.5000",
 "dec": "14.5000",
 "propid": "2021A-0275"
@@ -34,7 +34,7 @@
 "expType": "object",
 "object": "525.A.b",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "188.5000",
 "dec": "14.5000",
 "propid": "2021A-0275"
@@ -44,7 +44,7 @@
 "expType": "object",
 "object": "525.B.a",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "189.3000",
 "dec": "9.8000",
 "propid": "2021A-0275"
@@ -54,7 +54,7 @@
 "expType": "object",
 "object": "525.B.a",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "189.3000",
 "dec": "9.8000",
 "propid": "2021A-0275"
@@ -64,7 +64,7 @@
 "expType": "object",
 "object": "525.B.b",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "186.9000",
 "dec": "9.9000",
 "propid": "2021A-0275"
@@ -74,7 +74,7 @@
 "expType": "object",
 "object": "525.B.b",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "186.9000",
 "dec": "9.9000",
 "propid": "2021A-0275"
@@ -84,7 +84,7 @@
 "expType": "object",
 "object": "525.C.a",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "184.5000",
 "dec": "9.7000",
 "propid": "2021A-0275"
@@ -94,7 +94,7 @@
 "expType": "object",
 "object": "525.C.a",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "184.5000",
 "dec": "9.7000",
 "propid": "2021A-0275"
@@ -104,7 +104,7 @@
 "expType": "object",
 "object": "525.C.b",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "191.5000",
 "dec": "12.2000",
 "propid": "2021A-0275"
@@ -114,7 +114,7 @@
 "expType": "object",
 "object": "525.C.b",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "191.5000",
 "dec": "12.2000",
 "propid": "2021A-0275"
@@ -124,7 +124,7 @@
 "expType": "object",
 "object": "525.D.a",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "183.2421",
 "dec": "12.3867",
 "propid": "2021A-0275"
@@ -134,7 +134,7 @@
 "expType": "object",
 "object": "525.D.a",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "183.2421",
 "dec": "12.3867",
 "propid": "2021A-0275"
@@ -144,7 +144,7 @@
 "expType": "object",
 "object": "525.D.b",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "185.4421",
 "dec": "12.3867",
 "propid": "2021A-0275"
@@ -154,7 +154,7 @@
 "expType": "object",
 "object": "525.D.b",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "185.4421",
 "dec": "12.3867",
 "propid": "2021A-0275"
@@ -164,7 +164,7 @@
 "expType": "object",
 "object": "525.E.a",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "186.6000",
 "dec": "12.3000",
 "propid": "2021A-0275"
@@ -174,7 +174,7 @@
 "expType": "object",
 "object": "525.E.a",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "186.6000",
 "dec": "12.3000",
 "propid": "2021A-0275"
@@ -184,7 +184,7 @@
 "expType": "object",
 "object": "525.E.b",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "189.0000",
 "dec": "12.1000",
 "propid": "2021A-0275"
@@ -194,7 +194,7 @@
 "expType": "object",
 "object": "525.E.b",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "189.0000",
 "dec": "12.1000",
 "propid": "2021A-0275"
@@ -204,7 +204,7 @@
 "expType": "object",
 "object": "525.F.a",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "184.8000",
 "dec": "6.1000",
 "propid": "2021A-0275"
@@ -214,7 +214,7 @@
 "expType": "object",
 "object": "525.F.a",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "184.8000",
 "dec": "6.1000",
 "propid": "2021A-0275"
@@ -224,7 +224,7 @@
 "expType": "object",
 "object": "525.F.b",
 "filter": "g",
-"expTime": 50,
+"expTime": 35,
 "RA": "187.8000",
 "dec": "7.2000",
 "propid": "2021A-0275"
@@ -234,7 +234,7 @@
 "expType": "object",
 "object": "525.F.b",
 "filter": "i",
-"expTime": 50,
+"expTime": 35,
 "RA": "187.8000",
 "dec": "7.2000",
 "propid": "2021A-0275"

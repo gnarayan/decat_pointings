@@ -62,17 +62,21 @@ Shen SCVZ [90,-66] 11 min
 EtaCar [161, -60] 30min
 jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
 
-03:50
-eFEDS [135, 1] 30 min
+****
+eFEDS [135, 1] 30 min *** optional cut short if necessary ***
+****
 
-04:20
+03:47
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-05:20
+04:47
 DEBASS/EVERYTHING/2021afue_P1 [154 -7]
 YSE 418.D.21agfq [165,2] 4 min *** optional ***
+
+04:55
+YSE 525 [189,10] 26 min
 
 05:25
 Try to get through these three targets if possible (15min total). 

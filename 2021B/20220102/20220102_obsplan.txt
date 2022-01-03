@@ -65,17 +65,18 @@ jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
 ****
 eFEDS [135, 1] 30 min *** optional cut short if necessary ***
 ****
-
-03:47
+**** Do not slew to Cosmos any later than 03:50!! cut eFEDS short if necessary! **** 
+****
+03:50
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-04:47
+04:50
 DEBASS/EVERYTHING/2021afue_P1 [154 -7]
 YSE 418.D.21agfq [165,2] 4 min *** optional ***
 
-04:55
+04:58
 YSE 525 [189,10] 26 min
 
 05:25

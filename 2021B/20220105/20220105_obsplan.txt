@@ -1,0 +1,48 @@
+MOON ILLUMINATION: 0.16
+UT -16 deg twilight: 2022-01-06T01:12:24.217 2022-01-06T08:25:39.054
+UT -15 deg twilight: 2022-01-06T01:06:29.596 2022-01-06T08:31:33.771
+UT -14 deg twilight: 2022-01-06T01:00:40.751 2022-01-06T08:37:22.546
+UT -12 deg twilight: 2022-01-06T00:49:13.544 2022-01-06T08:48:49.322
+UT -10 deg twilight: 2022-01-06T00:38:00.542 2022-01-06T09:00:02.813
+LOCAL -16 deg twilight: 01/05/2022,   22:12:24   05:25:39
+LOCAL -15 deg twilight: 01/05/2022,   22:06:29   05:31:33
+LOCAL -14 deg twilight: 01/05/2022,   22:00:40   05:37:22
+LOCAL -12 deg twilight: 01/05/2022,   21:49:13   05:48:49
+LOCAL -10 deg twilight: 01/05/2022,   21:38:00   06:00:02
+LOCAL night MIDPOINT: 01/06/2022,   01:49:01
+
+
+01:49
+C3 [52, -28] 12 min   *** optional ***
+YSE 353 [63, -11] 18 min 
+YSE 257 [91, -26] 18 min
+
+02:40
+set the guider exposure time to 100ms for this crowded field
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+03:10
+Shen SCVZ [90,-66] 12 min
+
+eFEDS [135, 1] 30 
+
+YSE 618.C.21aggu [137,18] 3min
+YSE 2021agji [140,24] 3min
+
+04:00
+Cosmos [150,3] 1h
+jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
+*=A/B/C
+
+YSE 418.D.21agfq [165,2] 3min
+
+05:00
+YSE 525 [189,10] 30 min
+
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed

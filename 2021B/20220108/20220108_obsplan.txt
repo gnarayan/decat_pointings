@@ -11,6 +11,20 @@ LOCAL -12 deg twilight: 01/08/2022,   21:49:06   05:51:33
 LOCAL -10 deg twilight: 01/08/2022,   21:37:57   06:02:41
 LOCAL night MIDPOINT: 01/09/2022,   01:50:19
 
+Moon distance:
+2022 01 08     YSE353	0.43 illum	53 degr from obj
+2022 01 08         C3	0.43 illum	49 degr from obj
+2022 01 08     YSE257	0.43 illum	81 degr from obj
+2022 01 08 DECaPSWest	0.43 illum	104 degr from obj
+2022 01 08       SCVZ	0.43 illum	87 degr from obj
+2022 01 08     EtaCar	0.43 illum	117 degr from obj
+2022 01 08   2021agji	0.43 illum	125 degr from obj
+2022 01 08      eFEDS	0.43 illum	124 degr from obj
+2022 01 08   2021aggu	0.43 illum	123 degr from obj
+2022 01 08     Cosmos	0.43 illum	139 degr from obj
+2022 01 08     YSE252	0.43 illum	168 degr from obj
+
+
 01:49
 YSE 353 [63, -11] 18 min 
 YSE 257 [91, -26] 18 min

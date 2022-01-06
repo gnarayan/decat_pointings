@@ -1,0 +1,87 @@
+Moon distance:
+2022 01 17     YSE448	1.00 illum	106 degr from obj
+2022 01 17     YSE296	1.00 illum	112 degr from obj
+2022 01 17      ELAIS	1.00 illum	124 degr from obj
+2022 01 17       X123	1.00 illum	91 degr from obj
+2022 01 17     YSE401	1.00 illum	84 degr from obj
+2022 01 17        S12	1.00 illum	82 degr from obj
+2022 01 17     YSE403	1.00 illum	75 degr from obj
+2022 01 17         C3	1.00 illum	86 degr from obj
+2022 01 17     YSE353	1.00 illum	69 degr from obj
+2022 01 17     YSE257	1.00 illum	60 degr from obj
+2022 01 17 DECaPSWest	1.00 illum	52 degr from obj
+2022 01 17       SCVZ	1.00 illum	95 degr from obj
+2022 01 17     EtaCar	1.00 illum	91 degr from obj
+2022 01 17      eFEDS	1.00 illum	27 degr from obj
+2022 01 17     Cosmos	1.00 illum	34 degr from obj
+2022 01 17     YSE525	1.00 illum	63 degr from obj
+2022 01 17      19tsf	1.00 illum	56 degr from obj
+
+-10 degree twilight, the telescope observer on the montain will start the
+ pointing correction at that time.
+********  IMPORTANT!!!! ****** 
+The Asteroid fields are very far to the West, therefore it's good to check the
+pointing of the telescope at the beginning of the night to the West, so the
+telescope dome does not have to rotate much, but do not check the pointing at
+the fields as they are too far over for that. Pls tell this to telescope
+observer on the mountain!!! 
+***
+As soon the pointing correction is done, start the Asteroid fields:
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
+at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
+
+22:00
+YSE 448 [13, 3]   18min
+YSE 296 [17, -19] 16min
+elais_ddf_seq_A/B.json [9, -43] 1h
+
+23:45
+X123 [34, -4]  35 min
+YSE 401 [40, -1] 20 min
+
+00:45
+S12  [42, 0] 22 min                 
+YSE 505.A.2021zby [44 11] 7 min   *** drop if necessary ***
+YSE 403 [52, -4] 18 min  
+
+01:30
+C3 [52, -28] 11 min
+YSE 353 [63, -11] 18 min 
+YSE 257 [91, -26] 18 min
+
+02:15
+set the guider exposure time to 100ms for this crowded field
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+02:45
+Shen SCVZ [90,-66] 11 min
+
+EtaCar [161, -60] 30min
+jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
+
+#### VERY CLOSE TO MOON (27 deg), ONLY DO IF NOTHING ELSE!!
+#### eFEDS [135, 1] 30 
+
+YSE 2021agji [140,24] 3min       
+
+04:00
+Cosmos [150,3] 1h
+jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
+*=A/B/C
+
+YSE 418.D.21agfq [165,2]  3min
+
+05:10
+YSE 525 [189,10] 30 min
+
+05:44
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+jsons/2021B-0325_EtaCar_Rest/etale.z.15min.json
+
+

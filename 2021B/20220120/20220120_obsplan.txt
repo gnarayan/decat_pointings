@@ -1,0 +1,70 @@
+Moon distance:
+2022 01 20     YSE448	0.90 illum	144 degr from obj
+2022 01 20     YSE296	0.90 illum	145 degr from obj
+2022 01 20      ELAIS	0.90 illum	143 degr from obj
+2022 01 20       X123	0.90 illum	127 degr from obj
+2022 01 20     YSE401	0.90 illum	120 degr from obj
+2022 01 20        S12	0.90 illum	118 degr from obj
+2022 01 20     YSE403	0.90 illum	109 degr from obj
+2022 01 20         C3	0.90 illum	113 degr from obj
+2022 01 20     YSE353	0.90 illum	100 degr from obj
+2022 01 20     YSE257	0.90 illum	79 degr from obj
+2022 01 20 DECaPSWest	0.90 illum	60 degr from obj
+2022 01 20       SCVZ	0.90 illum	96 degr from obj
+2022 01 20     EtaCar	0.90 illum	74 degr from obj
+2022 01 20      eFEDS	0.90 illum	29 degr from obj
+2022 01 20     Cosmos	0.90 illum	16 degr from obj
+2022 01 20     YSE525	0.90 illum	26 degr from obj
+
+22:00
+YSE 448 [13, 3]   18min
+YSE 296 [17, -19] 16min
+elais_ddf_seq_A/B.json [9, -43] 1h
+
+23:45
+X123 [34, -4]  35 min        
+YSE 401 [40, -1] 20 min
+
+00:45
+S12  [42, 0] 22 min                 
+YSE 505.A.2021zby [44 11] 7 min
+YSE 403 [52, -4] 9 min  
+
+01:30
+C3 [52, -28] 11 min          *** optional, drop if necessary ***
+YSE 353 [63, -11] 18 min 
+YSE 257 [91, -26] 18 min
+
+02:15
+set the guider exposure time to 100ms for this crowded field
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+02:45
+Shen SCVZ [90,-66] 11 min
+
+EtaCar [161, -60] 30min
+jsons/2021B-0325_EtaCar_Rest/etale.iz.30min.json
+
+eFEDS [135, 1] 30 min
+
+YSE 618.C.21aggu [137,18]  3min
+YSE 2021agji [140,24] 3min       
+
+04:00
+#### COSMOS IS 16 deg from Moon! ####
+Cosmos [150,3] 1h
+jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
+*=A/B/C
+
+05:10
+YSE 525 [189,10] 30 min
+
+
+05:44
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed

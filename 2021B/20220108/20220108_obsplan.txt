@@ -28,11 +28,15 @@ Moon distance:
 01:49
 YSE 353 [63, -11] 18 min 
 YSE 257 [91, -26] 18 min
+DEBASS EVERYTHING/2021aglk_P1 [98 -36]
+
 
 02:40
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
+
+DEBASS /EVERYTHING/2021aefx_P1 [64 -54]
 
 03:10
 Shen SCVZ [90,-66] 11 min
@@ -52,6 +56,10 @@ jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
 YSE 418.D.21agfq [165,2] 3min
+
+DEBASS STATIC/SP1_203-31.7.json (4min)
+DEBASS STATIC/SP2_199-31.7.json (4min)
+DEBASS STATIC/SP3_196-34.5.json (4min)
 
 05:00
 YSE 525 [189,10] 30 min

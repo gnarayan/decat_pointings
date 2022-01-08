@@ -36,21 +36,21 @@ set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-DEBASS /EVERYTHING/2021aefx_P1 [64 -54]
+DEBASS /EVERYTHING/2021aefx_P1 [64 -54] <-skip if necessary to stay on time
 
-03:10
+03:00
 Shen SCVZ [90,-66] 11 min
 
-03:20
+03:10
 EtaCar [161, -60] 32min  r+i band
 jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
  
 
-03:50
+03:45
 YSE 618.C.21aggu [137,18] 3min
 YSE 2021agji [140,24] 3min
 
-04:00
+03:50
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C

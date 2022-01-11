@@ -107,7 +107,10 @@ for i,row in df.iterrows():
         exptimes = []
         for f in filters:
             if not f in default_exptimes.keys():
-                default_exptimes[f] = 15
+                if templates:
+                    default_exptimes[f] = 30
+                else:
+                    default_exptimes[f] = 15
             exptime = input(f'Enter Exptime {f} (default {default_exptimes[f]})\n')
             if exptime == '': exptime = str(default_exptimes[f])
             exptimes.append(exptime)

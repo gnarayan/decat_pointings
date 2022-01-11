@@ -111,8 +111,15 @@ for i,row in df.iterrows():
                     default_exptimes[f] = 30
                 else:
                     default_exptimes[f] = 15
-            exptime = input(f'Enter Exptime {f} (default {default_exptimes[f]})\n')
-            if exptime == '': exptime = str(default_exptimes[f])
+            if templates:
+                exptime = input(f'Enter Exptime {f} (default 30.0)\n')
+            else:
+                exptime = input(f'Enter Exptime {f} (default {default_exptimes[f]})\n')
+            if exptime == '':
+                if templates:
+                    exptime = 30.0
+                else:
+                    exptime = str(default_exptimes[f])
             exptimes.append(exptime)
         plt.clf()
         #if maketemplate:

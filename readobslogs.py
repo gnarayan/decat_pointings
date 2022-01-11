@@ -32,7 +32,9 @@ def run(verbose=True):
 
 
     dfs = []
-    for f in glob('2021B/*/*qc*nv*'):
+    l = glob('2021A/*/*qc*nv*')
+    l.extend(glob('2021B/*/*qc*nv*'))
+    for f in l:
         #print(f)
         datestr = f.split('/')[-1].split('.')[0]
         date = datestr[:4]+'-'+datestr[4:6]+'-'+datestr[6:8]

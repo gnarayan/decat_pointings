@@ -24,8 +24,11 @@ if datestr == '': datestr=currdate
 obsdict = ro.run(verbose=True)
 
 doonlysn=False
+templates=False
 try:
     startsn = sys.argv[1]
+    if startsn == '--templates':
+        templates=True
     if '--sn=' in startsn:
         onlysn=startsn.replace('--sn=','')
         doonlysn=True
@@ -53,9 +56,10 @@ for i,row in df.iterrows():
     if i < skiprows: continue
     if str(row['snid']) == 'nan': continue
     if str(row['snid']) == 'NaN': continue
-    if 'FINISHED' in row['Following?']:
-        os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
-        continue
+    if not templates:
+        if 'FINISHED' in row['Following?']:
+            os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
+            continue
     if 'ABANDON' in row['Following?']:
         os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))
         continue
@@ -77,6 +81,9 @@ for i,row in df.iterrows():
         print()
         print('Comment: %s'%row['Comment'])
         print()
+        print('Got Template? %s'%row['Got Template?'])
+        print()
+
         if (row['YSE Field'] != '') & (row['YSE Field'] != '?') & (str(row['YSE Field'])!='nan'): print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
         priority = input('\nPlease enter a priority for this object (1 2 3 TCTM)\n')

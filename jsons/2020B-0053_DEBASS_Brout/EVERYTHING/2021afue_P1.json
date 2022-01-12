@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "3",
+        "exptime": 15.0,
+        "RA": 154.6171,
+        "dec": -7.14568,
+        "object": "2021afue_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021afue",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "0",
+        "exptime": 15.0,
+        "RA": 154.6171,
+        "dec": -7.14568,
+        "object": "2021afue_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021afue",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

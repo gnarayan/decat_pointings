@@ -56,8 +56,6 @@ for i,row in df.iterrows():
     if i < skiprows: continue
     if str(row['snid']) == 'nan': continue
     if str(row['snid']) == 'NaN': continue
-    print(templates)
-    asdf
     if not templates:
         if 'FINISHED' in row['Following?']:
             os.system('rm jsons/2020B-0053_DEBASS_Brout/EVERYTHING/%s_P*.json'%(row['snid']))

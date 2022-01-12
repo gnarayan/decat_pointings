@@ -46,38 +46,37 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
 
 22:00
-DEBASS EVERYTHING/2021agjd_P1 [12 14]
-DEBASS EVERYTHING/2021aglf_P1 [22 20]
+DEBASS EVERYTHING/2021agjd_P1 [12 14] (4min)
+DEBASS EVERYTHING/2021aglf_P1 [22 20] (4min)
 YSE 448 [13, 3]   18min
-DEBASS EVERYTHING/2021adug_P2 [14 -14]
-DEBASS EVERYTHING/2021afeb_P2 [15 -15]
 YSE 296 [17, -19] 16min
-DEBASS EVERYTHING/2021agbv_P1 [28 -14]
+DEBASS EVERYTHING/2021agbv_P1 [28 -14]  (4min)
+
 elais_ddf_seq_A/B.json [9, -43] 1h
 
-23:45
+00:00
 X123 [34, -4]  35 min
 YSE 401 [40, -1] 20 min
 
-00:45
+00:55
 S12  [42, 0] 22 min                 *** optional, drop if necessary ***
 YSE 505.A.2021zby [44 11] 7 min
 YSE 403 [52, -4] 9 min  
 
-01:30
+01:35
 C3 [52, -28] 11 min
-DEBASS EVERYTHING/2021aefx_P1 [64 -54]
+DEBASS EVERYTHING/2021aefx_P1 [64 -54] (4min)
 YSE 353 [63, -11] 18 min 
-DEBASS EVERYTHING/2021abiu_P2 [119 -2] <-- optional
+DEBASS EVERYTHING/2021abiu_P2 [119 -2] (4min) <-- optional
 YSE 257 [91, -26] 18 min
-DEBASS EVERYTHING/2021aglk_P1 [98 -36]
+DEBASS EVERYTHING/2021aglk_P1 [98 -36] (4min)
 
-02:15
+02:30
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-02:45
+03:00
 Shen SCVZ [90,-66] 11 min
 
 EtaCar [161, -60] 30min
@@ -85,24 +84,26 @@ jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
 
 eFEDS [135, 1] 30 min
 
+04:10
 YSE 618.C.21aggu [137,18]  3min  *** drop if necessary ***
 YSE 2021agji [140,24] 3min       
 DEBASS EVERYTHING/2021adlz_P2 [157 11] <-- optional
 
-04:00
+04:15
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-DEBASS EVERYTHING/2021afue_P1 [154 -7]
-DEBASS EVERYTHING/2021acnt_P2 [145 -28] <-- optional
+05:15
+DEBASS EVERYTHING/2021afue_P1 [154 -7] (4min)
 YSE 418.D.21agfq [165,2]  3min  
 
+05:25
 DEBASS STATIC/SP1_203-31.7.json (4min)
 DEBASS STATIC/SP2_199-31.7.json (4min)
 DEBASS STATIC/SP3_196-34.5.json (4min)
 
-05:10
+05:35
 YSE 525 [189,10] 30 min
 
 

@@ -45,8 +45,12 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
 at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
 
 22:00
+DEBASS EVERYTHING/2021agjd_P1 [12 14]
+DEBASS EVERYTHING/2021aglf_P1 [22 20]
 YSE 448 [13, 3]   18min
+DEBASS EVERYTHING/2021adug_P2 [14 -14] <-- optional
 YSE 296 [17, -19] 16min
+DEBASS EVERYTHING/2021agbv_P1 [28 -14]
 elais_ddf_seq_A/B.json [9, -43] 1h
 
 23:45
@@ -60,8 +64,10 @@ YSE 403 [52, -4] 9 min
 
 01:30
 C3 [52, -28] 11 min
+DEBASS EVERYTHING/2021aefx_P1 [64 -54]
 YSE 353 [63, -11] 18 min 
 YSE 257 [91, -26] 18 min
+DEBASS EVERYTHING/2021aglk_P1 [98 -36]
 
 02:15
 set the guider exposure time to 100ms for this crowded field
@@ -84,7 +90,12 @@ Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
+DEBASS EVERYTHING/2021afue_P1 [154 -7]
 YSE 418.D.21agfq [165,2]  3min  
+
+DEBASS STATIC/SP1_203-31.7.json (4min)
+DEBASS STATIC/SP2_199-31.7.json (4min)
+DEBASS STATIC/SP3_196-34.5.json (4min)
 
 05:10
 YSE 525 [189,10] 30 min

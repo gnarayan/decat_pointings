@@ -18,11 +18,16 @@ Moon distance:
 2022 01 14      19tsf	0.93 illum	90 degr from obj
 
 22:00
+DEBASS EVERYTHING/2021agjd_P1 [12 14] (4min)
+DEBASS EVERYTHING/2021aglf_P1 [22 20] (4min)
 YSE 448 [13, 3]   18min
+DEBASS EVERYTHING/2021adug_P1 [14 -14] (4min)
+DEBASS EVERYTHING/2021afeb_P1 [15 -15] (4min)
 YSE 296 [17, -19] 16min
+DEBASS EVERYTHING/2021aexp_P2 [24 -29] (4min) <-- optional
 elais_ddf_seq_A/B.json [9, -43] 1h
 
-23:45
+23:50
 X123 [34, -4]  35 min        *** optional, drop if necessary ***
 YSE 401 [40, -1] 20 min
 
@@ -30,6 +35,7 @@ YSE 401 [40, -1] 20 min
 S12  [42, 0] 22 min                 
 YSE 505.A.2021zby [44 11] 7 min
 YSE 403 [52, -4] 9 min  
+DEBASS EVERYTHING/2021aexy_P1 [49 -23] (4min)
 
 01:30
 C3 [52, -28] 11 min
@@ -40,6 +46,8 @@ YSE 257 [91, -26] 18 min
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
+
+DEBASS EVERYTHING/2021aglk_P2 [98 -36] (4min) <-- optional
 
 02:45
 Shen SCVZ [90,-66] 11 min
@@ -58,6 +66,13 @@ jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
 YSE 418.D.21agfq [165,2]  3min   *** drop if necessary ***
+
+04:55
+DEBASS STATIC/SP1_203-31.7.json (5min)
+DEBASS STATIC/SP2_199-31.7.json (5min)
+DEBASS STATIC/SP3_196-34.5.json (5min)
+DEBASS EVERYTHING/2022fw_P1 [186 -3] (4min)
+
 
 05:10
 YSE 525 [189,10] 30 min

@@ -7,6 +7,7 @@
 2021aglk_P1 [98 -36]
 2021acnt_P1 [145 -28]
 2021afue_P1 [154 -7]
+2022fw_P1 [186 -3]
 
 2021aexp_P2 [24 -29]
 
@@ -20,7 +21,6 @@
 2021aggu_P3 [137 18]
 2021agfq_P3 [164 2]
 2021adlz_P3 [157 11]
-2022fw_P3 [186 -3]
 
-EVERYTHING	105.6 minutes
-EVERYTHING_P1	43.0 minutes
+EVERYTHING	104.8 minutes
+EVERYTHING_P1	45.3 minutes

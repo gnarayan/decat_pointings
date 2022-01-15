@@ -11,6 +11,20 @@ LOCAL -12 deg twilight: 01/15/2022,   21:47:39   05:58:20
 LOCAL -10 deg twilight: 01/15/2022,   21:36:42   06:09:18
 LOCAL night MIDPOINT: 01/16/2022,   01:53:00
 
+moon separateion
+2022 01 15     YSE353	0.97 illum	49 degr from obj
+2022 01 15         C3	0.97 illum	69 degr from obj
+2022 01 15     YSE257	0.97 illum	53 degr from obj
+2022 01 15 DECaPSWest	0.97 illum	56 degr from obj
+2022 01 15       SCVZ	0.97 illum	93 degr from obj
+2022 01 15     EtaCar	0.97 illum	102 degr from obj
+2022 01 15      eFEDS	0.97 illum	46 degr from obj
+2022 01 15   2021aggu	0.97 illum	39 degr from obj
+2022 01 15   2021agji	0.97 illum	41 degr from obj
+2022 01 15     Cosmos	0.97 illum	57 degr from obj
+2022 01 15   2021agfq	0.97 illum	71 degr from obj
+2022 01 15     YSE252	0.97 illum	87 degr from obj
+
 01:53
 C3 [52, -28] 11 min   (6 day cadence)
 YSE 353 [63, -11] 18 min 

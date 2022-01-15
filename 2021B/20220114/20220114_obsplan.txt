@@ -49,25 +49,20 @@ set guider exptime back to 600ms
 02:50
 Shen SCVZ [90,-66] 11 min
 
-03:20
-EtaCar [161, -60] 30min (6 day cadence)
-### TBD ### jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
- 
-eFEDS [135, 1] 30  (6 day cadence)
-### TBD ###
+EtaCar [161, -60] 30min
+jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
 
-03:50
-YSE 618.C.21aggu [137,18] 3min
-YSE 2021agji [140,24] 3min
-### TBD ###
+eFEDS [135, 1] 30 min
+
+YSE 618.C.21aggu [137,18]  3min
+YSE 2021agji [140,24] 3min       
 
 04:00
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-YSE 418.D.21agfq [165,2] 3min
-### TBD ###
+YSE 418.D.21agfq [165,2]  3min   *** drop if necessary ***
 
 05:00
 DEBASS STATIC/SP1_203-31.7.json (4min)
@@ -80,6 +75,7 @@ DEBASS EVERYTHING/2022fw_P1 [186 -3] (4min)
 YSE 525 [189,10] 30 min
 
 
+05:44
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 

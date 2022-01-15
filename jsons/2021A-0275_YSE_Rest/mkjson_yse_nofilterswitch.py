@@ -327,7 +327,7 @@ class mkjsonclass(txttableclass):
             tall = 0.0
 
             for filt in filters:
-                print(f'### filter {filter}')
+                print(f'### filter {filt}')
                 for key in keys:
                     #target =  SkyCoord(34*u.deg,-4*u.deg)
                     sep = self.moon.separation(SkyCoord(self.getentry(key,self.racol)*u.deg,self.getentry(key,self.deccol)*u.deg))
@@ -338,6 +338,7 @@ class mkjsonclass(txttableclass):
                     (exposure,t) = self.mkjsonscript4object(key,[filt],exptimes,repeatfilters=repeatfilters)
                     tall += t
                     exposures.extend(exposure)
+                keys.reverse()
               
             outfilename = outfile(target,outrootdir=outrootdir,outsuffix=outsuffix,outsubdir=outsubdir)
             print('total time for script (exposure time and %f seconds readout):\n %.0f seconds, %.1f minutes, %.2f hours' % (self.readouttime_sec,tall,tall/60.0,tall/3600.0))       

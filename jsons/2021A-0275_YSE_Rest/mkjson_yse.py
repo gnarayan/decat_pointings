@@ -34,7 +34,7 @@ def rmfile(filename,raiseError=1,gzip=False):
                 return(2)
     return(0)
 
-
+ 
 class mkjsonclass(txttableclass):
     def __init__(self):
         txttableclass.__init__(self)

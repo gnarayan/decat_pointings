@@ -46,6 +46,17 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji 418.D.21agfq 618.C.21aggu -e 20 
 git add 220114
 git add 220114/*.json
 
+cp obsplan_halfnight.txt 20220115/20220115_obsplan.txt
+subl 20220115/20220115_obsplan.txt
+git add 20220115/20220115_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 220115
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220115
+#mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220115
+mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji 418.D.21agfq 618.C.21aggu -e 20 -d 220115
+git add 220115
+git add 220115/*.json
+
+
 
 cp obsplan_fullnight.txt 20220117/20220117_obsplan.txt
 subl 20220117/20220117_obsplan.txt

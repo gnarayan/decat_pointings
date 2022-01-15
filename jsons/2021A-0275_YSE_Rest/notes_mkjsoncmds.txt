@@ -56,7 +56,14 @@ mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji 418.D.21agfq 618.C.21aggu -e 20 
 git add 220115
 git add 220115/*.json
 
-
+cp obsplan_halfnight.txt 20220116/20220116_obsplan.txt
+subl 20220116/20220116_obsplan.txt
+git add 20220116/20220116_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 220116
+mkjson_yse_nofilterswitch.py  -f g,i    525 -d 220116
+mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220116
+git add 220116
+git add 220116/*.json
 
 cp obsplan_fullnight.txt 20220117/20220117_obsplan.txt
 subl 20220117/20220117_obsplan.txt
@@ -79,6 +86,25 @@ mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji -e 30 -d 220120
 git add 220120
 git add 220120/*.json
 
+cp obsplan_halfnight.txt 20220121/20220121_obsplan.txt
+subl 20220121/20220121_obsplan.txt
+git add 20220121/20220121_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g   353   -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 220121
+#mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220121
+mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220121
+git add 220121
+git add 220121/*.json
+
+cp obsplan_halfnight.txt 20220122/20220122_obsplan.txt
+subl 20220122/20220122_obsplan.txt
+git add 20220122/20220122_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 220122
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220122
+mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220122
+git add 220122
+git add 220122/*.json
+
 
 
 cp obsplan_halfnight.txt 20220123/20220123_obsplan.txt
@@ -92,4 +118,9 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji 618.C.21aggu -e 20 -d 220123
 # mkjson_yse_nofilterswitch.py  -f z  525 -d 220123 -e 40
 git add 220123
 git add 220123/*.json
+
+
+ mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2021-12-27  &
+
+mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B2ndhalf.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2022-01-15  &
 

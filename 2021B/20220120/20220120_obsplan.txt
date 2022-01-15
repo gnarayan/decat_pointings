@@ -52,7 +52,7 @@ YSE 618.C.21aggu [137,18]  3min
 YSE 2021agji [140,24] 3min       
 
 04:00
-#### COSMOS IS 16 deg from Moon! ####
+#### COSMOS IS 16 deg from Moon! check with Melissa ####
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C

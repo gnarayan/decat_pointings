@@ -55,7 +55,6 @@ YSE 401 [40, -1] 20 min
 
 00:45
 S12  [42, 0] 22 min                 *** optional, drop if necessary ***
-YSE 505.A.2021zby [44 11] 7 min
 YSE 403 [52, -4] 9 min  
 
 01:30

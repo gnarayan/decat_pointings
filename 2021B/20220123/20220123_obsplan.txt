@@ -1,39 +1,62 @@
-01:49
-C3 [52, -28] 11 min   (6 day cadence)
-YSE 353 [63, -11] 18 min 
-YSE 257 [91, -26] 18 min
+MOON ILLUMINATION: 0.64
+UT -16 deg twilight: 2022-01-24T01:06:06.875 2022-01-24T08:44:37.334
+UT -15 deg twilight: 2022-01-24T01:00:33.594 2022-01-24T08:50:11.506
+UT -14 deg twilight: 2022-01-24T00:55:01.815 2022-01-24T08:55:42.543
+UT -12 deg twilight: 2022-01-24T00:44:09.783 2022-01-24T09:06:35.836
+UT -10 deg twilight: 2022-01-24T00:33:28.391 2022-01-24T09:17:16.810
+LOCAL -16 deg twilight: 01/23/2022,   22:06:06   05:44:37
+LOCAL -15 deg twilight: 01/23/2022,   22:00:33   05:50:11
+LOCAL -14 deg twilight: 01/23/2022,   21:55:01   05:55:42
+LOCAL -12 deg twilight: 01/23/2022,   21:44:09   06:06:35
+LOCAL -10 deg twilight: 01/23/2022,   21:33:28   06:17:16
+LOCAL night MIDPOINT: 01/24/2022,   01:55:22
 
-02:40
+Moon distance:
+2022 01 23     YSE353	0.65 illum	132 degr from obj
+2022 01 23         C3	0.65 illum	134 degr from obj
+2022 01 23     YSE257	0.65 illum	103 degr from obj
+2022 01 23 DECaPSWest	0.65 illum	80 degr from obj
+2022 01 23       SCVZ	0.65 illum	94 degr from obj
+2022 01 23     EtaCar	0.65 illum	64 degr from obj
+2022 01 23   2021agji	0.65 illum	60 degr from obj
+2022 01 23      eFEDS	0.65 illum	62 degr from obj
+2022 01 23   2021aggu	0.65 illum	62 degr from obj
+2022 01 23     Cosmos	0.65 illum	47 degr from obj
+2022 01 23     YSE252	0.65 illum	16 degr from obj
+
+
+01:55
+C3 [52, -28] 11 min   (6 day cadence)
+YSE 353 [63, -11] 8 min(if possible and not too high of an airmass to observe!)
+YSE 257 [91, -26] 25 min
+
+03:00
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-03:10
+03:40
 Shen SCVZ [90,-66] 11 min
 
-03:20
-EtaCar [161, -60] 30min (6 day cadence)
-### TBD ### jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
+03:55
+EtaCar [161, -60] 15min (6 day cadence)
+jsons/2021B-0325_EtaCar_Rest/etale.i.15min.json
  
 eFEDS [135, 1] 30  (6 day cadence)
-### TBD ###
 
-03:50
+04:40
 YSE 618.C.21aggu [137,18] 3min
 YSE 2021agji [140,24] 3min
-### TBD ###
 
-04:00
+04:50
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-YSE 418.D.21agfq [165,2] 3min
-### TBD ###
+YSE 418.D.21agfq [165,2] 4min
 
-05:00
-YSE 525 [189,10] 30 min
-
+##### YSE 525 only if time, this target is ~15-20 deg from Moon, so low priority!! ####
+YSE 525 [189,10] 10 min
 
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
@@ -41,3 +64,4 @@ jsons/2021B-0909_Twilight_Sheppard
 ---------------
 FILLER TARGETS IF EXTRA TIME
 * you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json

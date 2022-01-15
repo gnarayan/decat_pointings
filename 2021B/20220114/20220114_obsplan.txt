@@ -1,69 +1,40 @@
-Moon distance:
-2022 01 14     YSE448	0.93 illum	70 degr from obj
-2022 01 14     YSE296	0.93 illum	78 degr from obj
-2022 01 14      ELAIS	0.93 illum	96 degr from obj
-2022 01 14       X123	0.93 illum	56 degr from obj
-2022 01 14     YSE401	0.93 illum	49 degr from obj
-2022 01 14        S12	0.93 illum	47 degr from obj
-2022 01 14     YSE403	0.93 illum	42 degr from obj
-2022 01 14         C3	0.93 illum	61 degr from obj
-2022 01 14     YSE353	0.93 illum	41 degr from obj
-2022 01 14     YSE257	0.93 illum	53 degr from obj
-2022 01 14 DECaPSWest	0.93 illum	61 degr from obj
-2022 01 14       SCVZ	0.93 illum	92 degr from obj
-2022 01 14     EtaCar	0.93 illum	107 degr from obj
-2022 01 14      eFEDS	0.93 illum	56 degr from obj
-2022 01 14     Cosmos	0.93 illum	69 degr from obj
-2022 01 14     YSE525	0.93 illum	98 degr from obj
-2022 01 14      19tsf	0.93 illum	90 degr from obj
-
-22:00
-YSE 448 [13, 3]   18min
-YSE 296 [17, -19] 16min
-elais_ddf_seq_A/B.json [9, -43] 1h
-
-23:45
-X123 [34, -4]  35 min        *** optional, drop if necessary ***
-YSE 401 [40, -1] 20 min
-
-00:45
-S12  [42, 0] 22 min                 
-YSE 505.A.2021zby [44 11] 7 min
-YSE 403 [52, -4] 9 min  
-
-01:30
-C3 [52, -28] 11 min
+01:49
+C3 [52, -28] 11 min   (6 day cadence)
 YSE 353 [63, -11] 18 min 
 YSE 257 [91, -26] 18 min
 
-02:15
+02:40
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-02:45
+03:10
 Shen SCVZ [90,-66] 11 min
 
-EtaCar [161, -60] 30min
-jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
+03:20
+EtaCar [161, -60] 30min (6 day cadence)
+### TBD ### jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
+ 
+eFEDS [135, 1] 30  (6 day cadence)
+### TBD ###
 
-eFEDS [135, 1] 30 min
-
-YSE 618.C.21aggu [137,18]  3min
-YSE 2021agji [140,24] 3min       
+03:50
+YSE 618.C.21aggu [137,18] 3min
+YSE 2021agji [140,24] 3min
+### TBD ###
 
 04:00
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-YSE 418.D.21agfq [165,2]  3min   *** drop if necessary ***
+YSE 418.D.21agfq [165,2] 3min
+### TBD ###
 
-05:10
+05:00
 YSE 525 [189,10] 30 min
 
 
-05:44
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 

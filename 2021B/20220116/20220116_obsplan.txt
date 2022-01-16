@@ -26,27 +26,36 @@ LOCAL night MIDPOINT: 01/17/2022,   01:53:20
 
 
 01:53
+2021aexp_P2 [24 -29]
 YSE 353 [63, -11] 9 min *** optional ***
 YSE 257 [91, -26] 18 min
+2021aglk_P1 [98 -36]
 
-02:40
+02:30
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-03:20
+03:00
 EtaCar [161, -60] 30min (6 day cadence) *** optional ***
 jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
 
-04:00
-Cosmos [150,3] 1h
+03:30
+Cosmos C [150,3] 20min
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
+03:50
+2021afue_P2 [154 -7]
 YSE 418 [158, -1] 18 min 
 
-05:00
+04:20
 YSE 525 [189,10] 30 min
+
+04:50
+DEBASS STATIC/SP1_203-31.7.json (9min)
+DEBASS STATIC/SP2_199-31.7.json (9min)
+DEBASS STATIC/SP3_196-34.5.json (9min)
 
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard

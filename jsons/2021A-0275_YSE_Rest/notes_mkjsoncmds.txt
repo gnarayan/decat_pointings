@@ -53,6 +53,7 @@ mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 220115
 mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220115
 #mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220115
 mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji 418.D.21agfq 618.C.21aggu -e 20 -d 220115
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021gno -e 100,200,200 -d 220115
 git add 220115
 git add 220115/*.json
 
@@ -61,6 +62,7 @@ subl 20220116/20220116_obsplan.txt
 git add 20220116/20220116_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 220116
 mkjson_yse_nofilterswitch.py  -f g,i    525 -d 220116
+mkjson_yse_nofilterswitch.py  -f r,i    418 -d 220116
 mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220116
 git add 220116
 git add 220116/*.json
@@ -124,3 +126,4 @@ git add 220123/*.json
 
 mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B2ndhalf.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2022-01-15  &
 
+mkjson_yse_nofilterswitch.py  -f g,r    474 423 376 477  -d 230121

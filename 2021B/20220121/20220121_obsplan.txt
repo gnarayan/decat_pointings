@@ -1,6 +1,19 @@
+2022 01 21     YSE353	0.83 illum	111 degr from obj
+2022 01 21         C3	0.83 illum	121 degr from obj
+2022 01 21     YSE257	0.83 illum	87 degr from obj
+2022 01 21 DECaPSWest	0.83 illum	65 degr from obj
+2022 01 21       SCVZ	0.83 illum	95 degr from obj
+2022 01 21     EtaCar	0.83 illum	70 degr from obj
+2022 01 21      eFEDS	0.83 illum	39 degr from obj
+2022 01 21   2021aggu	0.83 illum	36 degr from obj
+2022 01 21   2021agji	0.83 illum	34 degr from obj
+2022 01 21     Cosmos	0.83 illum	24 degr from obj
+2022 01 21   2021agfq	0.83 illum	11 degr from obj
+2022 01 21     YSE252	0.83 illum	14 degr from obj
+
 01:49
 C3 [52, -28] 11 min   (6 day cadence)
-YSE 353 [63, -11] 18 min 
+YSE 353 [63, -11] 9 min 
 YSE 257 [91, -26] 18 min
 
 02:40
@@ -13,26 +26,19 @@ Shen SCVZ [90,-66] 11 min
 
 03:20
 EtaCar [161, -60] 30min (6 day cadence)
-### TBD ### jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
+jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
  
 eFEDS [135, 1] 30  (6 day cadence)
-### TBD ###
 
 03:50
 YSE 618.C.21aggu [137,18] 3min
 YSE 2021agji [140,24] 3min
-### TBD ###
 
 04:00
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-YSE 418.D.21agfq [165,2] 3min
-### TBD ###
-
-05:00
-YSE 525 [189,10] 30 min
 
 
 at -14 deg twilight, go to the asteroid field:

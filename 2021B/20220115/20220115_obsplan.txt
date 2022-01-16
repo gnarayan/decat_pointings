@@ -31,14 +31,13 @@ C3 [52, -28] 11 min   (6 day cadence)
 YSE 353 [63, -11] 18 min 
 YSE 257 [91, -26] 18 min
 
-02:40
+Shen SCVZ [90,-66] 11 min
+
+02:50
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-03:10
-Shen SCVZ [90,-66] 11 min
- 
 eFEDS [135, 1] 30  (6 day cadence)
 
 03:50
@@ -52,10 +51,14 @@ DEBASS STATIC/SP1_203-31.7.json (4min)
 DEBASS STATIC/SP2_199-31.7.json (4min)
 DEBASS STATIC/SP3_196-34.5.json (4min)
 
+eta car if time
+
 05:00
-YSE 525 [189,10] 30 min
+YSE 525 [189,10] 32 min
 
+2021gno 7 min
 
+05:47
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 

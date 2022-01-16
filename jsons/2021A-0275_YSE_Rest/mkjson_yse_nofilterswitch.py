@@ -298,6 +298,8 @@ class mkjsonclass(txttableclass):
         targets2keyhash = {}
         keys=self.rowkeys()
         for key in keys:
+            if int(self.getentry(key,'skip'))==1:
+                continue
             group = self.getentry(key,'group')
             if group in targets:
                 if group not in targets2keyhash:

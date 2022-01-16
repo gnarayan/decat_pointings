@@ -45,9 +45,6 @@ jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 
 YSE 418 [158, -1] 20 min 
 
-
-YSE 418.D.21agfq [165,2] 3min
-
 05:00
 YSE 525 [189,10] 30 min
 

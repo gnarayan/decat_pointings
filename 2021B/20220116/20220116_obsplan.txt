@@ -36,7 +36,7 @@ set guider exptime back to 600ms
 
 03:20
 EtaCar [161, -60] 30min (6 day cadence) *** optional ***
-jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
+jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
 
 04:00
 Cosmos [150,3] 1h

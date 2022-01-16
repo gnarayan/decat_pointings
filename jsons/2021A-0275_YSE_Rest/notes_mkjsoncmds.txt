@@ -62,7 +62,7 @@ subl 20220116/20220116_obsplan.txt
 git add 20220116/20220116_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 220116
 mkjson_yse_nofilterswitch.py  -f g,i    525 -d 220116
-mkjson_yse_nofilterswitch.py  -f r,i    418 -d 220116
+mkjson_yse_nofilterswitch.py  -f r,i    418 365 -d 220116
 mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220116
 git add 220116
 git add 220116/*.json

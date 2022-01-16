@@ -9,7 +9,7 @@
 2022 01 21   2021agji	0.83 illum	34 degr from obj
 2022 01 21     Cosmos	0.83 illum	24 degr from obj
 2022 01 21   2021agfq	0.83 illum	11 degr from obj
-2022 01 21     YSE252	0.83 illum	14 degr from obj
+2022 01 21     YSE525	0.83 illum	14 degr from obj
 
 01:49
 C3 [52, -28] 11 min   (6 day cadence)

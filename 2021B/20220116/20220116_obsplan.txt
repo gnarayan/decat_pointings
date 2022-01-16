@@ -22,7 +22,7 @@ LOCAL night MIDPOINT: 01/17/2022,   01:53:20
 2022 01 16   2021agji	0.99 illum	29 degr from obj
 2022 01 16     Cosmos	0.99 illum	46 degr from obj
 2022 01 16   2021agfq	0.99 illum	59 degr from obj
-2022 01 16     YSE252	0.99 illum	75 degr from obj
+2022 01 16     YSE525	0.99 illum	75 degr from obj
 
 
 01:53

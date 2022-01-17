@@ -22,16 +22,6 @@
 {
 "count": 1,
 "expType": "object",
-"object": "401.D.a",
-"filter": "g",
-"expTime": 50,
-"RA": "40.2021",
-"dec": "-0.7495",
-"propid": "2021A-0275"
-},
-{
-"count": 1,
-"expType": "object",
 "object": "401.D.2021aaqn",
 "filter": "g",
 "expTime": 50,
@@ -87,16 +77,6 @@
 "expTime": 50,
 "RA": "39.4925",
 "dec": "-1.8870",
-"propid": "2021A-0275"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "401.D.a",
-"filter": "r",
-"expTime": 50,
-"RA": "40.2021",
-"dec": "-0.7495",
 "propid": "2021A-0275"
 },
 {

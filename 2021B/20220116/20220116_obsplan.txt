@@ -57,6 +57,8 @@ DEBASS STATIC/SP1_203-31.7.json (9min)
 DEBASS STATIC/SP2_199-31.7.json (9min)
 DEBASS STATIC/SP3_196-34.5.json (9min)
 
+YSE 365 [147, -9] IF TIME
+
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 

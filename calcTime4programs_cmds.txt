@@ -121,3 +121,5 @@ DESI: 3.5215
 
 calcTime4programs.py 20210420 -vvs --downtime 0 DEBASS rest  --downtime 987296 DESI 3.5215hours YSE 2.25hours DDF 1.8433hours EtaCar 0.46hours Shen 0.1924hours DEBASS rest  -a
 DEBASS 1.76hours 
+
+calcTime4programs.py 20220417 -vv

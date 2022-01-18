@@ -7,7 +7,7 @@ Created on Tue Apr 13 10:45:35 2021
 """
 import sys
 
-default_semester = '2021B'
+default_semester = '2022A'
 
 class semesterinfoclass:
     def __init__(self,semester=None):
@@ -124,10 +124,10 @@ class semesterinfoclass:
                 'Liu':       ['BLA'],
                 'eFEDS':     ['^eFEDS'],
                 'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$','^\d\d\d\.\w+\.2021'],
-                'DEBASS':    ['^2021\w+'],
+                'DEBASS':    ['^2021\w+|^2022\w+'],
                 'DDF':       ['^COSMOS','^DECaPS.*','^ELAIS'],
                 'EtaCar':    ['^ec\d\d\d\d'],
-                'Sheppard':  ['BLA'],
+                'Sheppard':  ['twilight'],
                 'STANDARDS': ['^E','^SDSS','^LTT','C26202'],
                 'TECHSETUP': ['^pointing','^MaxVis']
                 }
@@ -183,6 +183,83 @@ class semesterinfoclass:
                 sum+=self.nights[k]
             print('total cumulative nights:',sum)
             sys.exit(0)
+        elif semester=='2022A':
+            # main programs and assigned night hours
+
+            self.programlist = {
+                'Shen':20.0,
+                'Martini':5.0,
+                'Liu':20,
+                'eFEDS':5.0,
+                'YSE':75.0,
+                'DEBASS':30.0,
+                'DDF':60.0,
+                'EtaCar':25.0,
+                'Sheppard':5.0
+#                'Shen':30.0,
+#                'Martini':5.0,
+#                'Liu':20,
+#                'eFEDS':5.0,
+#                'YSE':90.0,
+#                'DEBASS':35.0,
+#                'DDF':75.0,
+#                'EtaCar':25.0,
+#                'Sheppard':10.0
+                 }
+            
+            # patterns to assign Objects 
+            self.program2fieldpattern = {
+                'Shen':      ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
+                'Martini':   ['^E1$','^E3$','^E2$'],
+                'Liu':       ['BLA'],
+                'eFEDS':     ['^eFEDS'],
+                'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$','^\d\d\d\.\w+\.2021'],
+                'DEBASS':    ['^2021\w+|^2022\w+'],
+                'DDF':       ['^COSMOS','^DECaPS.*','^ELAIS'],
+                'EtaCar':    ['^ec\d\d\d\d'],
+                'Sheppard':  ['twilight'],
+                'STANDARDS': ['^E','^SDSS','^LTT','C26202'],
+                'TECHSETUP': ['^pointing','^MaxVis']
+                }
+            
+            self.nights={
+                '20220417':1.0,
+                '20220420':1.0,
+                '20220423':1.0,
+                '20220426':1.0,
+                '20220429':1.0,
+                '20220502':1.0,
+                '20220505':1.0,
+                '20220508':1.0,
+                '20220511':1.0,
+                '20220514':1.0,
+                '20220517':1.0,
+                '20220520':1.0,
+                '20220523':1.0,
+                '20220526':0.5,
+                '20220529':1.0,
+                '20220601':0.5,
+                '20220604':0.5,
+                '20220607':1.0,
+                '20220621':1.0,
+                '20220624':1.0,
+                '20220627':1.0,
+                '20220630':1.0,
+                '20220703':1.0,
+                '20220709':1.0,
+                '20220712':1.0,
+                '20220715':1.0,
+                '20220718':1.0,
+                '20220721':1.0,
+                '20220724':1.0,
+                '20220727':1.0,
+                '20220730':1.0,
+                 }
+            sum=0.0
+            for k in self.nights:
+                sum+=self.nights[k]
+            print('total cumulative nights:',sum)
+            #sys.exit(0)
         else:
             raise RuntimeError('%s IS NOT A VALID SEMESTER! ' % semester)
         return(0)

@@ -1,67 +1,88 @@
+MOON ILLUMINATION: 0.90
+UT -16 deg twilight: 2022-01-21T01:07:53.519 2022-01-21T08:41:16.722
+UT -15 deg twilight: 2022-01-21T01:02:15.607 2022-01-21T08:46:54.691
+UT -14 deg twilight: 2022-01-21T00:56:40.654 2022-01-21T08:52:28.528
+UT -12 deg twilight: 2022-01-21T00:45:41.201 2022-01-21T09:03:27.285
+UT -10 deg twilight: 2022-01-21T00:34:54.072 2022-01-21T09:14:15.104
+LOCAL -16 deg twilight: 01/20/2022,   22:07:53   05:41:16
+LOCAL -15 deg twilight: 01/20/2022,   22:02:15   05:46:54
+LOCAL -14 deg twilight: 01/20/2022,   21:56:40   05:52:28
+LOCAL -12 deg twilight: 01/20/2022,   21:45:41   06:03:27
+LOCAL -10 deg twilight: 01/20/2022,   21:34:54   06:14:15
+LOCAL night MIDPOINT: 01/21/2022,   01:54:35
+
 Moon distance:
-2022 01 20     YSE448	0.90 illum	144 degr from obj
-2022 01 20     YSE296	0.90 illum	145 degr from obj
+2202 01 20    2021zny	0.90 illum	122 degr from obj
 2022 01 20      ELAIS	0.90 illum	143 degr from obj
+2022 01 20     2022ys	0.90 illum	127 degr from obj
 2022 01 20       X123	0.90 illum	127 degr from obj
-2022 01 20     YSE401	0.90 illum	120 degr from obj
+2022 01 20    2021zby	0.90 illum	113 degr from obj
 2022 01 20        S12	0.90 illum	118 degr from obj
 2022 01 20     YSE403	0.90 illum	109 degr from obj
-2022 01 20         C3	0.90 illum	113 degr from obj
 2022 01 20     YSE353	0.90 illum	100 degr from obj
+2022 01 20         C3	0.90 illum	113 degr from obj
 2022 01 20     YSE257	0.90 illum	79 degr from obj
 2022 01 20 DECaPSWest	0.90 illum	60 degr from obj
 2022 01 20       SCVZ	0.90 illum	96 degr from obj
 2022 01 20     EtaCar	0.90 illum	74 degr from obj
 2022 01 20      eFEDS	0.90 illum	29 degr from obj
+2022 01 20     YSE415	0.90 illum	27 degr from obj
+2022 01 20     YSE365	0.90 illum	27 degr from obj
+2022 01 20     YSE418	0.90 illum	16 degr from obj
 2022 01 20     Cosmos	0.90 illum	16 degr from obj
+2022 01 20    2021gno	0.90 illum	21 degr from obj
 2022 01 20     YSE525	0.90 illum	26 degr from obj
+2022 01 20     2021zj	0.90 illum	17 degr from obj
 
-22:00
-YSE 448 [13, 3]   18min
-YSE 296 [17, -19] 16min
+21:57
+YSE 2021zny [31, 16] 4 min       *** high priority ***
 elais_ddf_seq_A/B.json [9, -43] 1h
 
-23:45
-X123 [34, -4]  35 min        
-YSE 401 [40, -1] 20 min
-
-00:45
+23:05
+YSE 505.A.2021zby [44 11] 7 min  *** high priority ***
 S12  [42, 0] 22 min                 
-YSE 505.A.2021zby [44 11] 7 min
-YSE 403 [52, -4] 9 min  
+YSE 2022ys  [35 -11] 4 min       *** high priority ***
 
-01:30
+***LATEST*** at 00:15
+YSE 403 [52, -4] 18 min  
+
+***LATEST*** at 00:50
 C3 [52, -28] 11 min          *** optional, drop if necessary ***
 YSE 353 [63, -11] 18 min 
 YSE 257 [91, -26] 18 min
 
-02:15
+01:35
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-02:45
+02:10
 Shen SCVZ [90,-66] 11 min
 
 EtaCar [161, -60] 30min
-jsons/2021B-0325_EtaCar_Rest/etale.iz.30min.json
+jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
 
 eFEDS [135, 1] 30 min
 
 YSE 618.C.21aggu [137,18]  3min
 YSE 2021agji [140,24] 3min       
 
-04:00
+
+03:30
+YSE415 [137, 1]  18 min
+YSE365 [147, -9] 18 min
+
+04:10
 #### COSMOS IS 16 deg from Moon! check with Melissa ####
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
 05:10
-YSE 525 [189,10] 30 min
+YSE 525 [189,10] 30 min  *** 525 is also close to the Moon, so cut here if you fall behind schedule ***
 
 
-05:44
+05:52
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 

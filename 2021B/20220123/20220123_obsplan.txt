@@ -18,50 +18,68 @@ Moon distance:
 2022 01 23 DECaPSWest	0.65 illum	80 degr from obj
 2022 01 23       SCVZ	0.65 illum	94 degr from obj
 2022 01 23     EtaCar	0.65 illum	64 degr from obj
-2022 01 23   2021agji	0.65 illum	60 degr from obj
 2022 01 23      eFEDS	0.65 illum	62 degr from obj
-2022 01 23   2021aggu	0.65 illum	62 degr from obj
+2022 01 23     YSE415	0.65 illum	60 degr from obj
+2022 01 23     YSE365	0.65 illum	50 degr from obj
+2022 01 23     YSE418	0.65 illum	39 degr from obj
 2022 01 23     Cosmos	0.65 illum	47 degr from obj
-2022 01 23     YSE252	0.65 illum	16 degr from obj
+2022 01 23    2021gno	0.65 illum	20 degr from obj
+2022 01 23     YSE525	0.65 illum	16 degr from obj
+2022 01 23     2021zj	0.65 illum	41 degr from obj
 
 
-01:55
-C3 [52, -28] 11 min   (6 day cadence)
-YSE 353 [63, -11] 8 min(if possible and not too high of an airmass to observe!)
-YSE 257 [91, -26] 25 min
+21:55
+YSE 2021zny [31, 16] 4 min       *** high priority ***
+elais_ddf_seq_A/B.json [9, -43] 1h
 
-03:00
+23:05
+X123 [34, -4]  35 min
+YSE 2022ys  [35 -11] 4 min       *** high priority ***
+
+***LATEST*** at 00:10
+YSE 403 [52, -4] 18 min  
+
+***LATEST*** at 00:45
+C3 [52, -28] 11 min          *** optional, drop if necessary ***
+YSE 353 [63, -11] 18 min 
+YSE 257 [91, -26] 18 min
+
+01:35
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-03:40
+02:10
 Shen SCVZ [90,-66] 11 min
 
-03:55
-EtaCar [161, -60] 15min (6 day cadence)
-jsons/2021B-0325_EtaCar_Rest/etale.i.15min.json
- 
-eFEDS [135, 1] 30  (6 day cadence)
+EtaCar [161, -60] 30min   *** high priority ***
+jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
 
-04:40
-YSE 618.C.21aggu [137,18] 3min
-YSE 2021agji [140,24] 3min
+eFEDS [135, 1] 30 min
 
-04:50
+YSE 618.C.21aggu [137,18]  3min  
+YSE 2021agji [140,24] 3min 
+
+
+03:30
+YSE 415 [137, 1]  18 min
+YSE 365 [147, -9] 18 min
+YSE 418 [158, -1] 18 min
+
+04:30
+#### COSMOS IS 16 deg from Moon! check with Melissa ####
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-YSE 418.D.21agfq [165,2] 4min
+05:30
+YSE 525 [189,10] 16 min  *** 525 is also close to the Moon, so cut here if you fall behind schedule ***
 
-##### YSE 525 only if time, this target is ~15-20 deg from Moon, so low priority!! ####
-YSE 525 [189,10] 10 min
 
+05:55
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 
 ---------------
 FILLER TARGETS IF EXTRA TIME
 * you can always do another set of Eta Car observations in *** different *** filter than the one already observed
-jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json

@@ -69,8 +69,8 @@ YSE 2021agji [140,24] 3min
 
 
 03:30
-YSE415 [137, 1]  18 min
-YSE365 [147, -9] 18 min
+YSE 415 [137, 1]  18 min
+YSE 365 [147, -9] 18 min
 
 04:10
 #### COSMOS IS 16 deg from Moon! check with Melissa ####

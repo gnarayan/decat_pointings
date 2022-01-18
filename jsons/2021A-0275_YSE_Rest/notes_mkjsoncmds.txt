@@ -92,11 +92,9 @@ mkjson_yse_nofilterswitch.py  -f i,z  525 -d 220120
 mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220120
 mkjson_yse_nofilterswitch.py  -f r,i,z 418.D.21agfq 618.C.21aggu -e 20 -d 220120
 mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji -e 30 -d 220120
-
 mkjson_yse_nofilterswitch.py  -f g,r,i 2021zny -e 50 -d 220120
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ys -e 20 -d 220120
 mkjson_yse_nofilterswitch.py  -f r,i,z  2021zj  -e 150 -d 220120
-
 git add 220120
 git add 220120/*.json
 
@@ -105,17 +103,21 @@ subl 20220121/20220121_obsplan.txt
 git add 20220121/20220121_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f g   353   -d 220121
 mkjson_yse_nofilterswitch.py  -f g,r    257  -d 220121
+mkjson_yse_nofilterswitch.py  -f i,z  415 365 -d 220121
 #mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220121
-mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r,i    618.C.21aggu 2021agji -e 20 -d 220121
 git add 220121
 git add 220121/*.json
 
 cp obsplan_halfnight.txt 20220122/20220122_obsplan.txt
 subl 20220122/20220122_obsplan.txt
 git add 20220122/20220122_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 220122
-mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220122
-mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220122
+mkjson_yse_nofilterswitch.py  -f r   353   -d 2201212
+mkjson_yse_nofilterswitch.py  -f g,i    257  -d 220122
+mkjson_yse_nofilterswitch.py  -f r,i  415 365 -d 220122
+mkjson_yse_nofilterswitch.py  -f z  418 -d 220122
+mkjson_yse_nofilterswitch.py  -f g,r,i   618.C.21aggu -e 30 -d 220122
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji -e 30 -d 220122
 git add 220122
 git add 220122/*.json
 
@@ -124,12 +126,17 @@ git add 220122/*.json
 cp obsplan_halfnight.txt 20220123/20220123_obsplan.txt
 subl 20220123/20220123_obsplan.txt
 git add 20220123/20220123_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f g   353 -d 220123
-mkjson_yse_nofilterswitch.py  -f g,r,i  257  -d 220123
-mkjson_yse_nofilterswitch.py  -f r,i,z 418.D.21agfq -e 40 -d 220123
-mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji 618.C.21aggu -e 20 -d 220123
-# too close to the moon
-# mkjson_yse_nofilterswitch.py  -f z  525 -d 220123 -e 40
+mkjson_yse_nofilterswitch.py  -f g,i  403  -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r  353 257 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r  415 365 -d 220123
+mkjson_yse_nofilterswitch.py  -f i,z  418 -d 220123
+mkjson_yse_nofilterswitch.py  -f z  525 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 618.C.21aggu -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021zny -e 50 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022ys -e 20 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021zj  -e 150 -d 220123
 git add 220123
 git add 220123/*.json
 

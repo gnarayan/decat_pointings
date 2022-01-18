@@ -2,31 +2,31 @@
 {
 "count": 1,
 "expType": "object",
-"object": "2021agji",
+"object": "418.D.21agfq",
 "filter": "g",
-"expTime": 30,
-"RA": "141.7747",
-"dec": "24.0250",
+"expTime": 20,
+"RA": "164.2711",
+"dec": "1.6281",
 "propid": "2021A-0275"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2021agji",
+"object": "418.D.21agfq",
 "filter": "r",
-"expTime": 30,
-"RA": "141.7747",
-"dec": "24.0250",
+"expTime": 20,
+"RA": "164.2711",
+"dec": "1.6281",
 "propid": "2021A-0275"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2021agji",
+"object": "418.D.21agfq",
 "filter": "i",
-"expTime": 30,
-"RA": "141.7747",
-"dec": "24.0250",
+"expTime": 20,
+"RA": "164.2711",
+"dec": "1.6281",
 "propid": "2021A-0275"
 }
 ]

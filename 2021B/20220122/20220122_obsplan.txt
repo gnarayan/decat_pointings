@@ -1,0 +1,68 @@
+MOON ILLUMINATION: 0.74
+UT -16 deg twilight: 2022-01-23T01:06:44.205 2022-01-23T08:43:30.245
+UT -15 deg twilight: 2022-01-23T01:01:09.357 2022-01-23T08:49:05.401
+UT -14 deg twilight: 2022-01-23T00:55:36.154 2022-01-23T08:54:37.403
+UT -12 deg twilight: 2022-01-23T00:44:41.968 2022-01-23T09:05:32.578
+UT -10 deg twilight: 2022-01-23T00:33:58.643 2022-01-23T09:16:16.611
+LOCAL -16 deg twilight: 01/22/2022,   22:06:44   05:43:30
+LOCAL -15 deg twilight: 01/22/2022,   22:01:09   05:49:05
+LOCAL -14 deg twilight: 01/22/2022,   21:55:36   05:54:37
+LOCAL -12 deg twilight: 01/22/2022,   21:44:41   06:05:32
+LOCAL -10 deg twilight: 01/22/2022,   21:33:58   06:16:16
+LOCAL night MIDPOINT: 01/23/2022,   01:55:07
+
+
+2022 01 22     YSE353	0.75 illum	122 degr from obj
+2022 01 22         C3	0.75 illum	129 degr from obj
+2022 01 22     YSE257	0.75 illum	95 degr from obj
+2022 01 22 DECaPSWest	0.75 illum	73 degr from obj
+2022 01 22       SCVZ	0.75 illum	95 degr from obj
+2022 01 22     EtaCar	0.75 illum	66 degr from obj
+2022 01 22      eFEDS	0.75 illum	50 degr from obj
+2022 01 22     YSE415	0.75 illum	48 degr from obj
+2022 01 22     YSE365	0.75 illum	40 degr from obj
+2022 01 22     YSE418	0.75 illum	27 degr from obj
+2022 01 22     Cosmos	0.75 illum	35 degr from obj
+2022 01 22    2021gno	0.75 illum	10 degr from obj
+2022 01 22     YSE525	0.75 illum	7 degr from obj
+2022 01 22     2021zj	0.75 illum	30 degr from obj
+
+01:55
+C3 [52, -28] 11 min          
+YSE 257 [91, -26] 18 min
+
+02:30
+set the guider exposure time to 100ms for this crowded field
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+03:00
+Shen SCVZ [90,-66] 11 min
+
+03:15
+EtaCar [161, -60] 15min
+jsons/2021B-0325_EtaCar_Rest/etale.i.30min.json
+
+03:35
+YSE 618.C.21aggu [137,18] 3min  *** optional, remove if necessary ***
+YSE 2021agji [140,24] 3min  *** optional, remove if necessary ***
+
+03:45
+YSE 415 [137, 1]  18 min
+YSE 365 [147, -9] 18 min
+YSE 418 [158, -1] 11 min
+
+04:40
+Cosmos [150,3] 1h
+jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
+*=A/B/C
+
+05:53
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+EtaCar [161, -60] 30min
+jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json

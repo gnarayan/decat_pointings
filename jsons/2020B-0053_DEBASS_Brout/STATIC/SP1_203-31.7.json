@@ -40,7 +40,7 @@
         "comment": "SP1_203_-31.7",
         "wait": "False",
         "propid": "2020B-0053"
-    }
+    },
     {
         "count": 1,
         "filter": "g",
@@ -82,4 +82,5 @@
         "comment": "SP1_203_-31.7",
         "wait": "False",
         "propid": "2020B-0053"
-    }]
+    }
+]

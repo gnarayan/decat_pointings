@@ -40,64 +40,65 @@ DEBASS EVERYTHING/2021aglf_P1 [22 20] *** high priority ***
 YSE 2021zny [31, 16] 4 min       *** high priority ***
 X123 [34, -4]  35 min
 
-22:50
+22:45
 YSE 2022ys  [35 -11] 4 min       *** high priority ***
 DEBASS EVERYTHING/2021agbv_P2 [28 -14] <-- optional
 DEBASS EVERYTHING/2021aexp_P2 [24 -29] <-- optional
 YSE 505.A.2021zby [44 11] 7 min  *** high priority ***
 S12  [42, 0] 22 min                 
 
-23:30
-*** YSE 410 (or Elias pending Melissa's response) here if there is time left
+23:30 ***LATEST*** at 23:45
+YSE 401 [40 -1] 18 min    *** optional, drop if necessary ***
 
 23:50 ***LATEST*** at 00:15
-YSE 403 [52, -4] 18 min  
+YSE 403 [52, -4] 18 min   
 
 00:10 ***LATEST*** at 00:50
 C3 [52, -28] 11 min          *** optional, drop if necessary ***
 DEBASS EVERYTHING/2021aexy_P2 [49 -23] <-- optional
 YSE 353 [63, -11] 18 min 
-YSE 257 [91, -26] 18 min
+YSE 2022aau [71, -60] 4min     *** high priority ***
 DEBASS EVERYTHING/2021aglk_P1 [98 -36]
+YSE 257 [91, -26] 18 min
 
-01:05
+01:10
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-01:35
+01:40
 Shen SCVZ [90,-66] 11 min
 
-01:45
+01:55
 EtaCar [161, -60] 30min
 jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
 
+grb211227A [132, -2] 5 min
 eFEDS [135, 1] 30 min
 
-02:45
+03:00
 YSE 618.C.21aggu [137,18]  3min
 YSE 2021agji [140,24] 3min       
 
-02:50
+03:10
 YSE 415 [137, 1]  18 min
 YSE 365 [147, -9] 18 min
 
-03:30
-#### COSMOS IS 16 deg from Moon! check with Melissa ####
-Cosmos [150,3] 1h
-jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
-*=A/B/C
 
-04:30
+03:45
 DEBASS STATIC/SP1_203-31.7.json (9min)
 DEBASS STATIC/SP2_199-31.7.json (9min)
 DEBASS STATIC/SP3_196-34.5.json (9min)
-Can repeat ^^this block of observations if next fields (YSE 525) are too close to moon or just to fill time
+Can repeat ^^this block of observations to fill time
 
+04:15
+YSE 525 [189,10] 30 min
 
-05:00
-YSE 525 [189,10] 30 min  *** 525 is also close to the Moon, so cut here if you fall behind schedule ***
+04:45
+YSE 423 [193, -2] 25 min   *** less priority than YSE 477, so cut here if you can't do both ***
 
+05:15 *** start this field at this time, stop previous fields if necessary!
+YSE 477 [214, 3] 35 min   
 
 05:52
 at -14 deg twilight, go to the asteroid field:

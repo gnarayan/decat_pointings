@@ -14,5 +14,5 @@
 2021agfq_P3 [164 2]
 2022fw_P3 [186 -3]
 
-EVERYTHING	71.2 minutes
+EVERYTHING	71.1 minutes
 EVERYTHING_P1	17.7 minutes

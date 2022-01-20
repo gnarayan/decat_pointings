@@ -58,6 +58,7 @@ C3 [52, -28] 11 min          *** optional, drop if necessary ***
 DEBASS EVERYTHING/2021aexy_P2 [49 -23] <-- optional
 YSE 353 [63, -11] 18 min 
 YSE 2022aau [71, -60] 4min     *** high priority ***
+YSE 2022zi [89 -58] 4 min      *** high priority ***
 DEBASS EVERYTHING/2021aglk_P1 [98 -36]
 YSE 257 [91, -26] 18 min
 

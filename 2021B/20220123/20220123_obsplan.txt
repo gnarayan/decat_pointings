@@ -27,6 +27,19 @@ Moon distance:
 2022 01 23     YSE525	0.65 illum	16 degr from obj
 2022 01 23     2021zj	0.65 illum	41 degr from obj
 
+-10 degree twilight, the telescope observer on the montain will start the
+ pointing correction at that time.
+********  IMPORTANT!!!! ****** 
+The Asteroid fields are very far to the West, therefore it's good to check the
+pointing of the telescope at the beginning of the night to the West, so the
+telescope dome does not have to rotate much, but do not check the pointing at
+the fields as they are too far over for that. Pls tell this to telescope
+observer on the mountain!!! 
+***
+As soon the pointing correction is done, start the Asteroid fields:
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight*decevening.json
+at -14 degree twilight (21:55 local time), stop the observations, and go to the next field!
+ 
 
 21:55
 YSE 2021zny [31, 16] 4 min       *** high priority ***

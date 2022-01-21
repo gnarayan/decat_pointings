@@ -26,6 +26,8 @@ LOCAL night MIDPOINT: 01/22/2022,   01:54:51
 2022 01 21    2021gno	0.83 illum	11 degr from obj
 2022 01 21     YSE525	0.83 illum	14 degr from obj
 2022 01 21     2021zj	0.83 illum	20 degr from obj
+2022 01 21     YSE423	0.83 illum	23 degr from obj
+2022 01 21     YSE477	0.83 illum	41 degr from obj
 
 01:54:51
 YSE 353 [63, -11] 9 min 
@@ -43,17 +45,18 @@ Shen SCVZ [90,-66] 11 min
 eFEDS [135, 1] 30  (6 day cadence)
 
 03:45
-YSE 618.C.21aggu [137,18] 3min
-YSE 2021agji [140,24] 3min
+YSE 618.C.21aggu [137,18] 3min  ** optional **
+YSE 2021agji [140,24] 3min ** optional **
 
 04:00
 YSE 415 [137, 1]  18 min
 YSE 365 [147, -9] 18 min
 
-04:40
-Cosmos [150,3] 1h
-jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
-*=A/B/C
+04:45
+YSE 423 [193, -2] 25 min   *** less priority than YSE 477, so cut here if you can't do both! cut first the 'r' band exposures ***
+
+05:15 *** start this field at this time, stop previous fields if necessary!
+YSE 477 [214, 3] 35 min   
 
 05:53
 at -14 deg twilight, go to the asteroid field:

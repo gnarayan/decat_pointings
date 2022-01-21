@@ -90,7 +90,7 @@ mkjson_yse_nofilterswitch.py  -f g,i  353 257 -d 220120
 mkjson_yse_nofilterswitch.py  -f i,z  415 365 -d 220120
 mkjson_yse_nofilterswitch.py  -f i,z  525 -d 220120
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  477 -d 220120
-mkjson_yse_nofilterswitch.py  -f i,z  423 -d 220120
+mkjson_yse_nofilterswitch.py  -f r,i,z  423 -d 220120
 mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220120
 mkjson_yse_nofilterswitch.py  -f r,i,z 418.D.21agfq 618.C.21aggu -e 20 -d 220120
 mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji -e 30 -d 220120
@@ -99,6 +99,8 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ys -e 20 -d 220120
 mkjson_yse_nofilterswitch.py  -f r,i,z  2021zj  -e 150 -d 220120
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022aau -e 20 -d 220120
 mkjson_yse_nofilterswitch.py  -f r,i  grb211227A  -e 100 -d 220120
+
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zi  -e 20 -d 220120
 
 git add 220120
 git add 220120/*.json
@@ -111,6 +113,9 @@ mkjson_yse_nofilterswitch.py  -f g,r    257  -d 220121
 mkjson_yse_nofilterswitch.py  -f i,z  415 365 -d 220121
 #mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220121
 mkjson_yse_nofilterswitch.py  -f g,r,i    618.C.21aggu 2021agji -e 20 -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  477 -d 220121
+mkjson_yse_nofilterswitch.py  -f r,i,z  423 -d 220121
+
 git add 220121
 git add 220121/*.json
 

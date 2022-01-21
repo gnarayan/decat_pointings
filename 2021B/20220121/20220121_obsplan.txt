@@ -30,19 +30,21 @@ LOCAL night MIDPOINT: 01/22/2022,   01:54:51
 01:54:51
 YSE 353 [63, -11] 9 min 
 YSE 257 [91, -26] 18 min
+DEBASS EVERYTHING/2022qi_P1 [98 -17]
+DEBASS EVERYTHING/2021aglk_P1 [98 -36]
 
-02:30
+02:40
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-03:00
+03:10
 Shen SCVZ [90,-66] 11 min
 
-03:15
+03:20
 eFEDS [135, 1] 30  (6 day cadence)
 
-03:45
+03:50
 YSE 618.C.21aggu [137,18] 3min
 YSE 2021agji [140,24] 3min
 

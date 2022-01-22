@@ -32,6 +32,7 @@ LOCAL night MIDPOINT: 01/23/2022,   01:55:07
 01:55
 C3 [52, -28] 11 min          
 YSE 257 [91, -26] 18 min
+DEBASS EVERYTHING/2021aglk_P1 [98 -36]
 
 02:30
 set the guider exposure time to 100ms for this crowded field
@@ -55,7 +56,13 @@ Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
+
 05:15
+DEBASS STATIC/SP3_196-34.5.json (9min) <-- high priority
+DEBASS STATIC/SP1_203-31.7.json (9min) <-- optional low priority (can skip filters)
+DEBASS STATIC/SP2_199-31.7.json (9min) <-- optional even-lower priority (can skip filters)
+
+05:25
 YSE 477 [214, 3] 18 min   
 
 

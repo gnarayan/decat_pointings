@@ -109,7 +109,7 @@ DEBASS STATIC/SP2_199-31.7.json (9min)
 DEBASS STATIC/SP3_196-34.5.json (9min)
 Can repeat ^^this block of observations to fill time
 
-05:52
+05:55
 at -14 deg twilight, go to the asteroid field:
 jsons/2021B-0909_Twilight_Sheppard
 

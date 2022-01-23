@@ -157,7 +157,7 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2022aal  -e 70 -d 220123
 mkjson_yse_nofilterswitch.py  -f g,r,i 2022aau  -e 30 -d 220123
 mkjson_yse_nofilterswitch.py  -f g,r,i 2022afc -e 30 -d 220123
 mkjson_yse_nofilterswitch.py  -f g,r,i 2021zj  -e 200 -d 220123
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zj -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022zj -e 60 -d 220123
 
 
 YSE 2022aal [65, -66] 5 min

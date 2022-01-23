@@ -29,72 +29,31 @@ Moon distance:
 2022 01 23     YSE423   0.65 illum  4 degr from obj
 2022 01 23     YSE477   0.65 illum  18 degr from obj
 
--10 degree twilight, the telescope observer on the montain will start the
- pointing correction at that time.
-********  IMPORTANT!!!! ****** 
-The Asteroid fields are very far to the West, therefore it's good to check the
-pointing of the telescope at the beginning of the night to the West, so the
-telescope dome does not have to rotate much, but do not check the pointing at
-the fields as they are too far over for that. Pls tell this to telescope
-observer on the mountain!!! 
-***
-As soon the pointing correction is done, start the Asteroid fields:
-jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight*decevening.json
-at -14 degree twilight (21:55 local time), stop the observations, and go to the next field!
- 
-21:55
-DEBASS EVERYTHING/2021aglf_P1 [22 20] *** high priority ***
-YSE 2021zny [31, 16] 4 min       *** high priority ***
-YSE 505.A.2021zby [44 11] 7 min  *** high priority ***
-X123 [34, -4]  35 min
 
-22:52
-YSE 2022ys  [35 -11] 4 min       *** high priority ***
-DEBASS EVERYTHING/2021afeb_P2 [15 -15] <-- optional
-DEBASS EVERYTHING/2021aexp_P2 [24 -29] <-- optional
-S12  [42, 0] 22 min                 
-
-23:30 ***LATEST*** at 23:35
-YSE 401 [40 -1] 18 min    *** optional, drop if necessary ***
-
-23:50 ***LATEST*** at 00:10
-YSE 403 [52, -4] 18 min   
-
-00:10 ***LATEST*** at 00:45
-C3 [52, -28] 11 min          *** optional, drop if necessary ***
-DEBASS EVERYTHING/2021aexy_P2 [49 -23] <-- optional
-YSE 353 [63, -11] 18 min 
+01:55
 YSE 2022aal [65, -66] 5 min    *** high priority ***
 YSE 2022aau [71, -60] 4min     *** high priority ***
 DEBASS EVERYTHING/2021aglk_P1 [98 -36]
 YSE 257 [91, -26] 18 min
 
-01:10
+02:25
 set the guider exposure time to 100ms for this crowded field
 decapswest_ddf_A/B.json  [116, -26] 0.5h 
 set guider exptime back to 600ms
 
-01:40
+02:55
 Shen SCVZ [90,-66] 11 min
 YSE 2022zi [90, -58] 4 min     *** high priority ***
 YSE 2022zj [106, -71] 4 min    *** high priority ***
 
-
-02:00
-EtaCar [161, -60] 30min
-jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
-
+03:15
 2022afc [119, 26] 4 min        *** high priority ***
-eFEDS [135, 1] 30 min
-
-03:05
 YSE 618.C.21aggu [137,18]  3min
 YSE 2021agji [140,24] 3min       
 
-03:15
+03:30
 YSE 415 [137, 1]  18 min
 YSE 365 [147, -9] 18 min
-YSE 418 [158, -1] 18 min
 
 04:10
 Cosmos [150,3] 1h
@@ -117,6 +76,7 @@ jsons/2021B-0909_Twilight_Sheppard
 ---------------
 FILLER TARGETS IF EXTRA TIME
 * you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+YSE 418 [158, -1] 18 min
 YSE 525 [189,10] 16 min  *** 525 is also close to the Moon (~18 deg), so not high priority, only z band ***
 YSE 477 [214, 3] 8 min   *** 477 is also close to the Moon (~18 deg), so not high priority, only z band ***
 

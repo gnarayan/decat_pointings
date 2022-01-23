@@ -77,32 +77,34 @@ set guider exptime back to 600ms
 01:40
 Shen SCVZ [90,-66] 11 min
 YSE 2022zi [90, -58] 4 min     *** high priority ***
+YSE 2022zj [106, -71] 4 min    *** high priority ***
 
-01:55
+
+02:00
 EtaCar [161, -60] 30min
 jsons/2021B-0325_EtaCar_Rest/etale.ri.30min.json
 
 2022afc [119, 26] 4 min        *** high priority ***
 eFEDS [135, 1] 30 min
 
-03:00
+03:05
 YSE 618.C.21aggu [137,18]  3min
 YSE 2021agji [140,24] 3min       
 
-03:10
+03:15
 YSE 415 [137, 1]  18 min
 YSE 365 [147, -9] 18 min
 YSE 418 [158, -1] 18 min
 
-04:05
+04:10
 Cosmos [150,3] 1h
 jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
 *=A/B/C
 
-05:05
+05:10
 YSE 2021zj [169, 29] 12 min *** high priority ***
 
-05:20
+05:25
 DEBASS STATIC/SP1_203-31.7.json (9min)
 DEBASS STATIC/SP2_199-31.7.json (9min)
 DEBASS STATIC/SP3_196-34.5.json (9min)

@@ -157,11 +157,13 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2022aal  -e 70 -d 220123
 mkjson_yse_nofilterswitch.py  -f g,r,i 2022aau  -e 30 -d 220123
 mkjson_yse_nofilterswitch.py  -f g,r,i 2022afc -e 30 -d 220123
 mkjson_yse_nofilterswitch.py  -f g,r,i 2021zj  -e 200 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zj -e 30 -d 220123
 
 
 YSE 2022aal [65, -66] 5 min
 YSE 2022zi [90, -58] 4 min
 YSE 2021zj [169, 29] 12 min
+YSE 2022zj [106, -71] 4 min
 
 git add 220123
 git add 220123/*.json

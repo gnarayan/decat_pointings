@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "2022zj",
 "filter": "g",
-"expTime": 30,
+"expTime": 60,
 "RA": "106.9609",
 "dec": "-71.4379",
 "propid": "2021A-0275"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "2022zj",
 "filter": "r",
-"expTime": 30,
+"expTime": 60,
 "RA": "106.9609",
 "dec": "-71.4379",
 "propid": "2021A-0275"
@@ -24,17 +24,7 @@
 "expType": "object",
 "object": "2022zj",
 "filter": "i",
-"expTime": 30,
-"RA": "106.9609",
-"dec": "-71.4379",
-"propid": "2021A-0275"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2022zj",
-"filter": "z",
-"expTime": 30,
+"expTime": 60,
 "RA": "106.9609",
 "dec": "-71.4379",
 "propid": "2021A-0275"

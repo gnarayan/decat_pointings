@@ -340,7 +340,7 @@ class mkjsonclass(txttableclass):
                     (exposure,t) = self.mkjsonscript4object(key,[filt],exptimes,repeatfilters=repeatfilters)
                     tall += t
                     exposures.extend(exposure)
-                keys.reverse()
+                #keys.reverse()
               
             outfilename = outfile(target,outrootdir=outrootdir,outsuffix=outsuffix,outsubdir=outsubdir)
             print('total time for script (exposure time and %f seconds readout):\n %.0f seconds, %.1f minutes, %.2f hours' % (self.readouttime_sec,tall,tall/60.0,tall/3600.0))       

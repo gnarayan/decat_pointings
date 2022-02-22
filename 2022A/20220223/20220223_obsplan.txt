@@ -1,0 +1,28 @@
+Setting Moon to UT date 2022-02-24T06:00:00.000
+MOON ILLUMINATION: 0.47
+UT -16 deg twilight: 2022-02-24T00:36:04.363 2022-02-24T09:17:14.911
+UT -15 deg twilight: 2022-02-24T00:31:07.670 2022-02-24T09:22:12.393
+UT -14 deg twilight: 2022-02-24T00:26:11.186 2022-02-24T09:27:08.457
+UT -12 deg twilight: 2022-02-24T00:16:23.296 2022-02-24T09:36:56.631
+UT -10 deg twilight: 2022-02-24T00:06:40.096 2022-02-24T09:46:40.025
+LOCAL -16 deg twilight: 02/23/2022,   21:36:04   06:17:14
+LOCAL -15 deg twilight: 02/23/2022,   21:31:07   06:22:12
+LOCAL -14 deg twilight: 02/23/2022,   21:26:11   06:27:08
+LOCAL -12 deg twilight: 02/23/2022,   21:16:23   06:36:56
+LOCAL -10 deg twilight: 02/23/2022,   21:06:40   06:46:40
+
+Sunset 20:31
+LST at Evening Twilight 06:16
+Moonrise 00:06
+Night Center 01:57
+LST at Morning Twilight 14:36
+Sunrise 07:23
+
+
+
+21:30 Start
+
+
+
+06:25 End
+

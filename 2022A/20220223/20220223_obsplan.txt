@@ -19,6 +19,7 @@ LST at Morning Twilight 14:36
 Sunrise 07:23
 
 21:31 Start -15 deg twilight
+??? ASTEROIDS ???
 21:31 YSE 257 [06:15 -21:42] 32m 
 22:05 etale.i.all.bestslew.json  * get started - you will not be able to finish - switch at midnight *  
 00:00 YSE 418 [10:21 -04:12] 32m 
@@ -32,4 +33,5 @@ Sunrise 07:23
 04:25 YSE 428 [15:13 -03:47] 32m
 05:00 YSE 531 [15:22 +10:12] 32m * can skip g exposures if you are running behind * 
 05:35 YSE 583 [15:45 +20:30] 32m * can skip g exposures if you are running behind * 
+06:00 TELOPS HAS TO STOP HERE - AGAIN DROP 583 g-band exposures first
 06:17 End -15 deg twilight

@@ -18,18 +18,20 @@ Night Center 01:57
 LST at Morning Twilight 14:36
 Sunrise 07:23
 
-21:31 Start -15 deg twilight
-??? ASTEROIDS ???
-21:31 YSE 257 [06:15 -21:42] 32m 
+Asteroids after pointing.
+21:26 stop asterpoids at -14 deg twilight sharp
+21:26 YSE 257 [06:15 -21:42] 24m   skip z band
 22:05 etale.i.all.bestslew.json  * get started - you will not be able to finish - switch at midnight *  
-00:00 YSE 418 [10:21 -04:12] 32m 
+00:00 YSE 418 [10:21 -04:12] 24m   skip z band
 00:35 YSE 618 [09:25 +27:41] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
       YSE 2021agji [09:27 +24:01] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
       YSE 468 [10:24 +03:00] 7m 
 01:00 etale.griz.1.4h.json [10:57 -58:40] 90m !!! LONG SLEW + DOME ROTATE !!!
-02:30 YSE 2021zj [11:16 +29:10] 7m
-02:40 YSE 525 [12:38 +10:00] 64m
-03:50 YSE 376 [14:55 -08:26] 32m
+*** add in eFEDS [129,1] somewhere here: ~30 min, skip z bands of YSE fields if necessary to make it fit 
+02:30 YSE 2021zj [11:16 +29:10] 8m
+02:40 YSE 525 [12:38 +10:00] 64m 
+03:50 YSE 376 [14:55 -08:26] 24m skip z band
+04:15 AT2022cmc [203, 33] 5 min *** highest priority ***
 04:25 YSE 428 [15:13 -03:47] 32m
 05:00 YSE 531 [15:22 +10:12] 32m * can skip g exposures if you are running behind * 
 05:35 YSE 583 [15:45 +20:30] 32m * can skip g exposures if you are running behind * 

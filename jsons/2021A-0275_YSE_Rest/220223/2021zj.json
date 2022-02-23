@@ -3,8 +3,8 @@
 "count": 1,
 "expType": "object",
 "object": "2021zj",
-"filter": "g",
-"expTime": 50,
+"filter": "r",
+"expTime": 200,
 "RA": "169.1338",
 "dec": "29.1831",
 "propid": "2021A-0275"
@@ -14,27 +14,7 @@
 "expType": "object",
 "object": "2021zj",
 "filter": "r",
-"expTime": 50,
-"RA": "169.1338",
-"dec": "29.1831",
-"propid": "2021A-0275"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2021zj",
-"filter": "i",
-"expTime": 50,
-"RA": "169.1338",
-"dec": "29.1831",
-"propid": "2021A-0275"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2021zj",
-"filter": "z",
-"expTime": 50,
+"expTime": 200,
 "RA": "169.1338",
 "dec": "29.1831",
 "propid": "2021A-0275"

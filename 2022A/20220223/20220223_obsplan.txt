@@ -18,11 +18,19 @@ Night Center 01:57
 LST at Morning Twilight 14:36
 Sunrise 07:23
 
+21:31 Start -15 deg twilight
+21:31 YSE 257 [06:15 -21:42] 32m
+22:05 
 
+00:00 YSE 418 [10:21 -04:12] 32m 
+00:35 YSE 618 [09:25 +27:41] 32m !!! START NOW OR TELESCOPE LIMIT ISSUES
+01:10 YSE 468 [10:24 +03:00] 32m 
+01:45 
 
-21:30 Start
-
-
-
-06:25 End
+02:55 YSE 525 [12:38 +10:00] 64m
+04:00 YSE 376 [14:55 -08:26] 32m
+04:35 YSE 428 [15:13 -03:47] 32m
+05:10 YSE 531 [15:22 +10:12] 32m * can skip g exposures if you are running behind * 
+05:45 YSE 583 [15:45 +20:30] 32m * can skip g exposures if you are running behind * 
+06:17 End -15 deg twilight
 

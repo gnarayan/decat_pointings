@@ -11,8 +11,8 @@ LOCAL -12 deg twilight: 03/08/2022,   21:00:49   06:47:16
 LOCAL -10 deg twilight: 03/08/2022,   20:51:22   06:56:43
 LOCAL night MIDPOINT: 03/09/2022,   01:54:02
 
-
-21:15 YSE 257 [06:15 -21:42] 32m 
+21:00 YSE 403, 353 30 minutes
+21:30 YSE 257 [06:15 -21:42] 32m 
 21:50 etale.griz.1.4h.json [10:57 -58:40] 45 ONLY g and i band - delete r, and z !!! LONG SLEW + DOME ROTATE !!!
 22:35 YSE 365 [09:10 -11:24] 32m 
 23:05 YSE 418 [10:21 -04:12] 32m

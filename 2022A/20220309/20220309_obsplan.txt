@@ -13,9 +13,9 @@ LOCAL night MIDPOINT: 03/09/2022,   01:54:02
 
 21:00 YSE 403, 353 30 minutes
 21:30 YSE 257 [06:15 -21:42] 16m 
-21:50 etale.griz.1.4h.json [10:57 -58:40] 15 ONLY i
-22:05 YSE 365 [09:10 -11:24] 39m 
-22:45 YSE 418 [10:21 -04:12] 39m
+21:55 etale.griz.1.4h.json [10:57 -58:40] 15 ONLY i
+22:10 YSE 365 [09:10 -11:24] 39m 
+22:50 YSE 418 [10:21 -04:12] 39m
 23:25 Alfredo 
 
 23:40 - END! SHARP!

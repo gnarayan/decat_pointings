@@ -186,3 +186,8 @@ mkjson_yse.py  -f g,r,i  2021agji  618 468 -d 220309
       YSE 618 [09:25 +27:41] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
       YSE 468 [10:24 +03:00] 7m 
 
+mkjson_yse.py  -f g,i 257  -d 220310
+mkjson_yse_nofilterswitch.py  -f g,r,i   365 418  -d 220310 -e 100
+mkjson_yse.py  -f g,r,i  2021agji  618 468 -d 220310
+mkjson_yse.py  -f g,r,i  618 468 -d 220310
+/Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest/220310

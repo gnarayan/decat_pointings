@@ -169,6 +169,18 @@ git add 220123
 git add 220123/*.json
 
 
+cp obsplan_halfnight.txt 20220420/20220420_obsplan.txt
+subl 20220420/20220420_obsplan.txt
+git add 20220420/20220420_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 415 618 365 418 525 -d 220420
+mkjson_yse_nofilterswitch.py  -f g,r  353 257 -d 220420
+mkjson_yse_nofilterswitch.py  -f g,r  415 365 -d 220420
+mkjson_yse_nofilterswitch.py  -f r,i  418 -d 220420
+mkjson_yse_nofilterswitch.py  -f z  525 -d 220420
+mkjson_yse_nofilterswitch.py  -f z  477 -d 220420
+
+
+
  mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2021-12-27  &
 
 mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B2ndhalf.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2022-01-15  &
@@ -191,3 +203,6 @@ mkjson_yse_nofilterswitch.py  -f g,r,i   365 418  -d 220310 -e 100
 mkjson_yse.py  -f g,r,i  2021agji  618 468 -d 220310
 mkjson_yse.py  -f g,r,i  618 468 -d 220310
 /Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest/220310
+
+
+mkjson_yse.py  -f g,r,i,z 415 418 423 474 523 525 575 577  -d 220330 --propid 2022A-193378

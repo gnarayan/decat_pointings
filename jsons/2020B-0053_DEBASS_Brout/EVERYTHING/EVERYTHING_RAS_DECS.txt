@@ -1,7 +1,11 @@
+2022hrs_P1 [190 10]
 
 2021aexp_P2 [24 -29]
+2022hqs_P2 [166 -12]
+2022hss_P2 [187 7]
+2022hql_P2 [206 12]
 
 2022fw_P3 [186 -3]
 
-EVERYTHING	18.5 minutes
-EVERYTHING_P1	0.0 minutes
+EVERYTHING	31.2 minutes
+EVERYTHING_P1	4.0 minutes

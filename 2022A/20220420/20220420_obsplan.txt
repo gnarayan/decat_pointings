@@ -28,13 +28,12 @@ DECaPSWest [116 -26] 30 min
 
 ### 20:20
 YSE 415	[129 -2] 17 min 
-#YSE 618 [137 18] 17 min 
 YSE 365 [147 -9] 17 min 
 
-### 21:15
+### 20:55
 COSMOS [150 2] 1.5h
 
-### 22:45
+### 22:25
 YSE 418 [158 -1] 17 min
 
 2022hqs_P2 [166 -12] 4min
@@ -42,11 +41,11 @@ YSE 418 [158 -1] 17 min
 
 YSE 525 [189 10] 33 min
 
-### 23:45
+### 23:25
 2022hrs_P1 [190 10] 4min
 DESIRT_190 [195 7] 68 min
 
-### 00:55
+### 00:40
 YSE 423	[193 -2] 17 min  ### drop this one if necessary
 DEBASS STATIC/SP3_196-34.5.json (9min) 
 DEBASS STATIC/SP1_203-31.7.json (9min) 
@@ -55,14 +54,14 @@ DEBASS STATIC/SP2_199-31.7.json (9min)
 2022hql_P2 [206 12] 4min
 YSE 477	[214 3] 17 min 
 
-### 02:05
+### 01:30
 DESIRT_G15 [215 -1] 21 min
 # YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
-AT2022cmc [204 33] 
+AT2022cmc [204 33] 17 min
 YSE 583	[236 20] 17 min 
 YSE 531	[230 10] 17 min 
 
-### 03:00
+### 02:50
 DESIRT_220 [225 7] 68 min
 YSE 376	[224 -8] 17 min 
 YSE 428	[228 -4] 17 min 

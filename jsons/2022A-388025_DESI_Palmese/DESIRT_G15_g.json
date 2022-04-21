@@ -14,6 +14,20 @@
         "comment": "DESIRT G15"
     },
     {
+        "object": "TILEID: 1240",
+        "expTime": 50,
+        "RA": 216.099,
+        "dec": 0.0,
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT22A",
+        "wait": "False",
+        "propid": "2022A-388025",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT G15"
+    },
+    {
         "object": "TILEID: 1241",
         "expTime": 50,
         "RA": 216.921,

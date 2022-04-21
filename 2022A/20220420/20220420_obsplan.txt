@@ -57,11 +57,11 @@ YSE 477	[214 3] 17 min
 ### 01:30
 DESIRT_G15 [215 -1] 21 min
 # YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
-AT2022cmc [204 33] 17 min
+AT2022cmc [204 33] 19 min
 YSE 583	[236 20] 17 min 
 YSE 531	[230 10] 17 min 
 
-### 02:50
+### 02:55
 DESIRT_220 [225 7] 68 min
 YSE 376	[224 -8] 17 min 
 YSE 428	[228 -4] 17 min 

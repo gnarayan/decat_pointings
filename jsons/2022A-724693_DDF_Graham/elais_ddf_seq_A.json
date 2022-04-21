@@ -21,6 +21,8 @@
   "expType": "object", 
   "object": "ELAIS-E1", 
   "filter": "r", 
+  "RA": 7.8746, 
+  "dec": -43.0096, 
   "expTime": 86,
   "count": 1,
   "wait": "False"
@@ -33,6 +35,8 @@
   "expType": "object", 
   "object": "ELAIS-E1", 
   "filter": "i", 
+  "RA": 7.8746, 
+  "dec": -43.0096, 
   "expTime": 130,
   "count": 1,
   "wait": "False"
@@ -59,6 +63,8 @@
   "expType": "object", 
   "object": "ELAIS-E2", 
   "filter": "r", 
+  "RA": 9.5, 
+  "dec": -43.9980, 
   "expTime": 86,
   "count": 1,
   "wait": "False"
@@ -71,6 +77,8 @@
   "expType": "object", 
   "object": "ELAIS-E2", 
   "filter": "i", 
+  "RA": 9.5, 
+  "dec": -43.9980, 
   "expTime": 130,
   "count": 1,
   "wait": "False"
@@ -97,6 +105,8 @@
   "expType": "object", 
   "object": "ELAIS-E1", 
   "filter": "r", 
+  "RA": 7.8746, 
+  "dec": -43.0096, 
   "expTime": 86,
   "count": 1,
   "wait": "False"
@@ -109,6 +119,8 @@
   "expType": "object", 
   "object": "ELAIS-E1", 
   "filter": "i", 
+  "RA": 7.8746, 
+  "dec": -43.0096, 
   "expTime": 130,
   "count": 1,
   "wait": "False"
@@ -135,6 +147,8 @@
   "expType": "object", 
   "object": "ELAIS-E2", 
   "filter": "r", 
+  "RA": 9.5, 
+  "dec": -43.9980, 
   "expTime": 86,
   "count": 1,
   "wait": "False"
@@ -147,6 +161,8 @@
   "expType": "object", 
   "object": "ELAIS-E2", 
   "filter": "i", 
+  "RA": 9.5, 
+  "dec": -43.9980, 
   "expTime": 130,
   "count": 1,
   "wait": "False"
@@ -173,6 +189,8 @@
   "expType": "object", 
   "object": "ELAIS-E1", 
   "filter": "r", 
+  "RA": 7.8746, 
+  "dec": -43.0096, 
   "expTime": 86,
   "count": 1,
   "wait": "False"
@@ -185,6 +203,8 @@
   "expType": "object", 
   "object": "ELAIS-E1", 
   "filter": "i", 
+  "RA": 7.8746, 
+  "dec": -43.0096, 
   "expTime": 130,
   "count": 1,
   "wait": "False"

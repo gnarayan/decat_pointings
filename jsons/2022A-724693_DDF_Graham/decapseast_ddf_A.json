@@ -21,6 +21,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "r", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 50,
   "wait": "False"
@@ -33,6 +35,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "i", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 30,
   "wait": "False"
@@ -45,6 +49,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "z", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 30,
   "wait": "False"
@@ -57,6 +63,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "g", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 96,
   "wait": "False"
@@ -69,6 +77,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "r", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 50,
   "wait": "False"
@@ -81,6 +91,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "i", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 30,
   "wait": "False"
@@ -93,6 +105,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "z", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 30,
   "wait": "False"
@@ -105,6 +119,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "g", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 96,
   "wait": "False"
@@ -117,6 +133,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "r", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 50,
   "wait": "False"
@@ -129,6 +147,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "i", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 30,
   "wait": "False"
@@ -141,6 +161,8 @@
   "expType": "object", 
   "object": "DECaPS-East", 
   "filter": "z", 
+  "RA": 270.89, 
+  "dec": -29.53, 
   "seqid": "DECaPSEast-DDF-A", 
   "expTime": 30,
   "wait": "False"

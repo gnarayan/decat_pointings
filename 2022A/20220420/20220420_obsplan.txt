@@ -46,6 +46,7 @@ YSE 525 [189 10] 33 min
 DESIRT_190 [195 7] 68 min
 
 ### 00:40
+AT2022cmc [204 33] 19 min
 YSE 423	[193 -2] 17 min  ### drop this one if necessary
 DEBASS STATIC/SP3_196-34.5.json (9min) 
 DEBASS STATIC/SP1_203-31.7.json (9min) 
@@ -54,10 +55,9 @@ DEBASS STATIC/SP2_199-31.7.json (9min)
 2022hql_P2 [206 12] 4min
 YSE 477	[214 3] 17 min 
 
-### 01:30
+### 02:00
 DESIRT_G15 [215 -1] 21 min
 # YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
-AT2022cmc [204 33] 19 min
 YSE 583	[236 20] 17 min 
 YSE 531	[230 10] 17 min 
 

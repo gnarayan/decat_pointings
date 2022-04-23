@@ -12,7 +12,7 @@ LOCAL -10 deg twilight: 04/23/2022,   18:58:30   06:24:45
 LOCAL night MIDPOINT: 04/24/2022,   00:41:37
 
 
-### 19:20 
+### 19:17 
 Shen SCVZ [90 -66] 12 min 
 
 DECaPSWest [116 -26] 30 min

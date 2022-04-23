@@ -22,6 +22,7 @@ eFEDS [129,1] 30 min
 ### 20:32
 YSE 415 [137 2] 17 min 
 YSE 365 [147 -9] 17 min 
+DEBASS/EVERYTHING/2022hqs_P1 [166 -12] (4min)
 
 ### 21:05
 COSMOS [150 2] 1.5h
@@ -29,18 +30,21 @@ COSMOS [150 2] 1.5h
 ### 22:35
 YSE 418 [158 -1] 17 min
 
-**** DEBASS 8 min
+DEBASS/EVERYTHING/2022huw_P1 [149 11] (4min)
 
+DEBASS/EVERYTHING/2022hss_P2 [187 7]  (4min)
 YSE 525 [189 10] 33 min
+DEBASS/EVERYTHING/2022hrs_P1 [190 10] (4min)
+DEBASS/EVERYTHING/2022hql_P2 [206 12] (4min)
+
 
 ### 23:25
-**** DEBASS 4 min
 DESIRT_190 [195 7] 68 min
 
 ### 00:40
 YSE 423 [193 -2] 17 min  ### If there is not enough time, drop this field
 
-**** DEBASS static 30 min
+**** ALL 3 DEBASS/STATIC JSONS 30 min
 
 YSE 477 [214 3] 17 min 
 

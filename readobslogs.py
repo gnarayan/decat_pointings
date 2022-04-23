@@ -16,6 +16,7 @@ def run(verbose=True):
     
     os.system('rm obslogs/*~ >& dump')
     os.system('rm 2021A/*/*~ >& dump')
+    os.system('rm 2022A/*/*~ >& dump')
 
     ysedict = {}
     ysedict2 = {}
@@ -34,6 +35,7 @@ def run(verbose=True):
     dfs = []
     l = glob('2021A/*/*qc*nv')
     l.extend(glob('2021B/*/*qc*nv'))
+    l.extend(glob('2022A/*/*qc*nv'))
     for f in l:
         #print(f)
         datestr = f.split('/')[-1].split('.')[0]

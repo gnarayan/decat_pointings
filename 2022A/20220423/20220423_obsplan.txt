@@ -52,8 +52,12 @@ YSE 531 [230 10] 17 min
 
 ### 02:55
 DESIRT_220 [225 7] 68 min
+
+### 04:05
 YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
+
+*** THERE IS SOME TIME HERE
 
 ### Start this field NO LATER than 5:15!!
 DECaPSEast [270 -29] 30 min

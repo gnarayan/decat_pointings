@@ -1,72 +1,58 @@
+### 19:20 
+Shen SCVZ [90 -66] 12 min 
 
- -10 degree twilight, the telescope observer on the montain will start the
- pointing correction at that time.
-********  IMPORTANT!!!! ****** 
-The Asteroid fields are very far to the West, therefore it's good to check the
-pointing of the telescope at the beginning of the night to the West, so the
-telescope dome does not have to rotate much, but do not check the pointing at
-the fields as they are too far over for that. Pls tell this to telescope
-observer on the mountain!!! 
-***
-As soon the pointing correction is done, start the Asteroid fields:
-jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
-at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
+### PICK ALTERNATIVELY ONE!
+    etale.i.15min.json [160 -60] 15 min
+    eFEDS [129,1]
 
-22:00
-YSE 448 [13, 3]   18min
-YSE 296 [17, -19] 16min
-elais_ddf_seq_A/B.json [9, -43] 1h
+DECaPSWest [116 -26] 30 min
 
-23:50
-X123 [34, -4]  35 min
-YSE 401 [40, -1] 20 min
+### 20:20
+YSE 415 [137 2] 17 min 
+YSE 365 [147 -9] 17 min 
 
-00:45
-S12  [42, 0] 22 min  
-### YSE 505.A.2021zby [44 11] 9 min cadence of 20 weeks! 
-#### TBD ###
-YSE 403 [52, -4] 18 min  
+### 20:55
+COSMOS [150 2] 1.5h
 
-01:30
-C3 [52, -28] 11 min
-YSE 353 [63, -11] 18 min 
-YSE 257 [91, -26] 18 min
-
-02:15
-set the guider exposure time to 100ms for this crowded field
-decapswest_ddf_A/B.json  [116, -26] 0.5h 
-set guider exptime back to 600ms
-
-02:45
-Shen SCVZ [90,-66] 11 min
-
-EtaCar [161, -60] 30min
-### TBD ###
-
-eFEDS [135, 1] 30 
-### TBD ###
-
-YSE 618.C.21aggu [137,18]  3min
-YSE 2021agji [140,24] 3min
-### TBD ###
-
-04:00
-Cosmos [150,3] 1h
-jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
-*=A/B/C
-
-YSE 418.D.21agfq [165,2]  3min
-### TBD ###
-
-05:00
-YSE 525 [189,10] 30 min
+### 22:25
+YSE 418 [158 -1] 17 min
 
 
-at -14 deg twilight, go to the asteroid field:
-jsons/2021B-0909_Twilight_Sheppard
+**** DEBASS 8 min
 
----------------
-FILLER TARGETS IF EXTRA TIME
-* you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+YSE 525 [189 10] 33 min
 
+### 23:25
+**** DEBASS 4 min
+DESIRT_190 [195 7] 68 min
+
+### 00:40
+
+**** ONLY IF NOT EFEDS AT2022cmc [204 33] 19 min
+
+YSE 423 [193 -2] 17 min  ### drop this one if necessary
+
+**** DEBASS 30 min
+
+YSE 477 [214 3] 17 min 
+
+### 02:00
+DESIRT_G15 [215 -1] 21 min
+# YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 02:55
+DESIRT_220 [225 7] 68 min
+YSE 376 [224 -8] 17 min 
+YSE 428 [228 -4] 17 min 
+
+### 04:45 start this field NO LATER than 5:00!!
+DECaPSEast [270 -29] 30 min
+
+YSE 440 [314 -4] 17 min
+YSE 544 [321 9] 17 min
+# YSE 494 [347 9] 17 min [add later, too high airmass]
+
+### 06:04 slow to Asteroid fields
 

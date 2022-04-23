@@ -1,0 +1,64 @@
+MOON ILLUMINATION: 0.42
+UT -16 deg twilight: 2022-04-23T23:26:29.407 2022-04-24T09:56:44.838
+UT -15 deg twilight: 2022-04-23T23:21:50.437 2022-04-24T10:01:24.145
+UT -14 deg twilight: 2022-04-23T23:17:11.224 2022-04-24T10:06:03.754
+UT -12 deg twilight: 2022-04-23T23:07:51.759 2022-04-24T10:15:23.988
+UT -10 deg twilight: 2022-04-23T22:58:30.788 2022-04-24T10:24:45.765
+LOCAL -16 deg twilight: 04/23/2022,   19:26:29   05:56:44
+LOCAL -15 deg twilight: 04/23/2022,   19:21:50   06:01:24
+LOCAL -14 deg twilight: 04/23/2022,   19:17:11   06:06:03
+LOCAL -12 deg twilight: 04/23/2022,   19:07:51   06:15:23
+LOCAL -10 deg twilight: 04/23/2022,   18:58:30   06:24:45
+LOCAL night MIDPOINT: 04/24/2022,   00:41:37
+
+
+### 19:20 
+Shen SCVZ [90 -66] 12 min 
+
+DECaPSWest [116 -26] 30 min
+
+eFEDS [129,1] 30 min
+
+### 20:32
+YSE 415 [137 2] 17 min 
+YSE 365 [147 -9] 17 min 
+
+### 21:05
+COSMOS [150 2] 1.5h
+
+### 22:35
+YSE 418 [158 -1] 17 min
+
+**** DEBASS 8 min
+
+YSE 525 [189 10] 33 min
+
+### 23:25
+**** DEBASS 4 min
+DESIRT_190 [195 7] 68 min
+
+### 00:40
+YSE 423 [193 -2] 17 min  ### If there is not enough time, drop this field
+
+**** DEBASS static 30 min
+
+YSE 477 [214 3] 17 min 
+
+### 02:00
+DESIRT_G15 [215 -1] 21 min
+YSE 632 [242 25] 17 min ### If there is not enough time, drop this field
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 02:55
+DESIRT_220 [225 7] 68 min
+YSE 376 [224 -8] 17 min 
+YSE 428 [228 -4] 17 min 
+
+### Start this field NO LATER than 5:15!!
+DECaPSEast [270 -29] 30 min
+
+YSE 544 [321 9] 17 min
+
+### 06:06 slow to Asteroid fields
+

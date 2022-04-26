@@ -185,6 +185,15 @@ mkjson_yse_nofilterswitch.py  -f i,z  440 544   -d 220423
 git add 220423
 git add 220423/*.json
 
+mkdir 20220426
+cp obsplan_fullnight.txt 20220426/20220426_obsplan.txt
+subl 20220426/20220426_obsplan.txt
+git add 20220426/20220426_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 415 365 418 525  -d 220426
+mkjson_yse_nofilterswitch.py  -f g,i  423 477 632 583 531 494 376 428 -d 220426
+mkjson_yse_nofilterswitch.py  -f r,i  440 544   -d 220426
+git add 220426
+git add 220426/*.json
 
 
 

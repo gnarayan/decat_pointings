@@ -1,20 +1,31 @@
-### 19:20 
+MOON ILLUMINATION: 0.13
+UT -16 deg twilight: 2022-04-26T23:23:51.128 2022-04-27T09:58:22.306
+UT -15 deg twilight: 2022-04-26T23:19:11.688 2022-04-27T10:03:02.296
+UT -14 deg twilight: 2022-04-26T23:14:31.565 2022-04-27T10:07:42.645
+UT -12 deg twilight: 2022-04-26T23:05:10.500 2022-04-27T10:17:04.528
+UT -10 deg twilight: 2022-04-26T22:55:47.710 2022-04-27T10:26:28.184
+LOCAL -16 deg twilight: 04/26/2022,   19:23:51   05:58:22
+LOCAL -15 deg twilight: 04/26/2022,   19:19:11   06:03:02
+LOCAL -14 deg twilight: 04/26/2022,   19:14:31   06:07:42
+LOCAL -12 deg twilight: 04/26/2022,   19:05:10   06:17:04
+LOCAL -10 deg twilight: 04/26/2022,   18:55:47   06:26:28
+LOCAL night MIDPOINT: 04/27/2022,   00:41:06
+
+### 19:14:30
 Shen SCVZ [90 -66] 12 min 
 
-### PICK ALTERNATIVELY ONE!
-    etale.i.15min.json [160 -60] 15 min
-    eFEDS [129,1]
+etale.g.30min.json [160 -60] 30 min
 
 DECaPSWest [116 -26] 30 min
 
-### 20:20
+### 20:28
 YSE 415 [137 2] 17 min 
 YSE 365 [147 -9] 17 min 
 
-### 20:55
+### 21:00
 COSMOS [150 2] 1.5h
 
-### 22:25
+### 22:30
 YSE 418 [158 -1] 17 min
 
 
@@ -23,14 +34,14 @@ YSE 418 [158 -1] 17 min
 YSE 525 [189 10] 33 min
 
 ### 23:25
+
 **** DEBASS 4 min
+
 DESIRT_190_grz_1 [~195 7] (27 min)
 DESIRT_190_grz_2 (27 min)
 DESIRT_190_g (13 min)
 
 ### 00:40
-
-**** ONLY IF NOT EFEDS AT2022cmc [204 33] 19 min
 
 YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
@@ -47,7 +58,9 @@ YSE 583 [236 20] 17 min
 YSE 531 [230 10] 17 min 
 
 ### 02:55
-DESIRT_220 [225 7] 68 min
+DESIRT_220_grz_1 [~225 7] (27 min)
+DESIRT_220_grz_2 (27 min)
+DESIRT_220_g (13 min)
 YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
 

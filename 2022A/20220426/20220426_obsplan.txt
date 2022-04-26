@@ -71,5 +71,8 @@ YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
 # YSE 494 [347 9] 17 min [add later, too high airmass]
 
+
+
+* * * DO NOT DO ASTEROID FIELDS, TOO CLOSE TO MOON * * * 
 ### 06:07 slow to Asteroid fields
 

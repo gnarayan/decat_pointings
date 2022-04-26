@@ -2,8 +2,11 @@
 2022hqs_P1 [166 -12]
 2022hrs_P1 [190 11]
 
+2022ihc_P2 [148 -22]
+2022iea_P2 [205 13]
 
+2022idx_P3 [192 -6]
 2022hss_P3 [187 7]
 
-EVERYTHING	17.5 minutes
-EVERYTHING_P1	12.0 minutes
+EVERYTHING	23.4 minutes
+EVERYTHING_P1	13.1 minutes

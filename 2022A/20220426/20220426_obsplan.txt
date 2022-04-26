@@ -71,5 +71,5 @@ YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
 # YSE 494 [347 9] 17 min [add later, too high airmass]
 
-### 06:04 slow to Asteroid fields
+### 06:07 slow to Asteroid fields
 

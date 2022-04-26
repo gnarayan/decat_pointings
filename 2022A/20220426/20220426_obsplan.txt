@@ -11,6 +11,12 @@ LOCAL -12 deg twilight: 04/26/2022,   19:05:10   06:17:04
 LOCAL -10 deg twilight: 04/26/2022,   18:55:47   06:26:28
 LOCAL night MIDPOINT: 04/27/2022,   00:41:06
 
+evening asteroid fields:
+do a pointing check at the beginning of the night about 1 to 2 hours to the West
+once the pointing is complete, run the evening asteroid twilight script in jsons/2021B-0909_Twilight_Sheppard/
+(might want to slew to field and take a couple test exposures first, to ensure we don't saturate decam)
+
+
 ### 19:14:30
 Shen SCVZ [90 -66] 12 min 
 

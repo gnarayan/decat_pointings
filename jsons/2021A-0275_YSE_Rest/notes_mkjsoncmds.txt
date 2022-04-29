@@ -195,6 +195,15 @@ mkjson_yse_nofilterswitch.py  -f r,i  440 544   -d 220426
 git add 220426
 git add 220426/*.json
 
+mkdir 20220429
+cp obsplan_fullnight.txt 20220429/20220429_obsplan.txt
+subl 20220429/20220429_obsplan.txt
+git add 20220429/20220429_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 415 365 418 525  -d 220429
+mkjson_yse_nofilterswitch.py  -f g,r  423 477 632 583 531 494 376 428 -d 220429
+mkjson_yse_nofilterswitch.py  -f g,r  440 544   -d 220429
+git add 220429
+git add 220429/*.json
 
 
  mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2021-12-27  &

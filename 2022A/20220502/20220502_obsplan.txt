@@ -1,4 +1,18 @@
-### 19:20 
+MOON ILLUMINATION: 0.05
+UT -16 deg twilight: 2022-05-02T23:19:03.742 2022-05-03T10:01:36.282
+UT -15 deg twilight: 2022-05-02T23:14:22.371 2022-05-03T10:06:17.817
+UT -14 deg twilight: 2022-05-02T23:09:40.975 2022-05-03T10:10:59.811
+UT -12 deg twilight: 2022-05-02T23:00:16.298 2022-05-03T10:20:25.291
+UT -10 deg twilight: 2022-05-02T22:50:49.476 2022-05-03T10:29:52.962
+LOCAL -16 deg twilight: 05/02/2022,   19:19:03   06:01:36
+LOCAL -15 deg twilight: 05/02/2022,   19:14:22   06:06:17
+LOCAL -14 deg twilight: 05/02/2022,   19:09:40   06:10:59
+LOCAL -12 deg twilight: 05/02/2022,   19:00:16   06:20:25
+LOCAL -10 deg twilight: 05/02/2022,   18:50:49   06:29:52
+LOCAL night MIDPOINT: 05/03/2022,   00:40:20
+
+
+### 19:09 
 Shen SCVZ [90 -66] 12 min 
 
 etale.i.30min.json [160 -60] 30 min
@@ -58,5 +72,5 @@ YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
 # YSE 494 [347 9] 17 min [add later, too high airmass]
 
-### 06:04 slow to Asteroid fields
+### 06:10 slow to Asteroid fields
 

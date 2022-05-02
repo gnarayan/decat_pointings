@@ -12,6 +12,13 @@ LOCAL -10 deg twilight: 05/02/2022,   18:50:49   06:29:52
 LOCAL night MIDPOINT: 05/03/2022,   00:40:20
 
 
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+
 ### 19:09 
 Shen SCVZ [90 -66] 12 min 
 
@@ -77,5 +84,6 @@ YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
 # YSE 494 [347 9] 17 min [add later, too high airmass]
 
-### 06:10 slow to Asteroid fields
+### 06:10 slow to Asteroid fields using asteroid morning twilight script.
+
 

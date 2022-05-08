@@ -17,10 +17,6 @@ Slew to Asteroid Twilight Fields using
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-Debass/everything/ 2022itd_P1 [273 11]
-
-Debass/everything/ 2022hqs_P2 [166 -12]
-Debass/everything/ 2022jmr_P2 [315 -23]
 
 ### 19:05 
 Debass/everything/2022jmn_P1 [21 -43] 
@@ -28,6 +24,8 @@ Shen SCVZ [90 -66] 12 min
 
 etale.i.15min.json [160 -60] 15 min
 etale.r.15min.json [160 -60] 15 min
+
+Debass/everything/ 2022hqs_P2 [166 -12]
 
 DECaPSWest [116 -26] 30 min
 
@@ -77,8 +75,13 @@ YSE 428 [228 -4] 17 min
 
 Debass/everything/ 2022iem_P1 [261 6]
 
+Debass/everything/ 2022itd_P1 [273 11]
+
 ### 04:45 start this field NO LATER than 5:10!!
 DECaPSEast [270 -29] 30 min
+
+
+Debass/everything/ 2022jmr_P2 [315 -23]
 
 YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min

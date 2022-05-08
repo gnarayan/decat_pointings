@@ -1,15 +1,27 @@
+MOON ILLUMINATION: 0.52
+UT -16 deg twilight: 2022-05-08T23:14:56.635 2022-05-09T10:04:48.188
+UT -15 deg twilight: 2022-05-08T23:10:13.863 2022-05-09T10:09:31.488
+UT -14 deg twilight: 2022-05-08T23:05:30.201 2022-05-09T10:14:15.341
+UT -12 deg twilight: 2022-05-08T22:56:01.481 2022-05-09T10:23:44.824
+UT -10 deg twilight: 2022-05-08T22:46:30.222 2022-05-09T10:33:16.897
+LOCAL -16 deg twilight: 05/08/2022,   19:14:56   06:04:48
+LOCAL -15 deg twilight: 05/08/2022,   19:10:13   06:09:31
+LOCAL -14 deg twilight: 05/08/2022,   19:05:30   06:14:15
+LOCAL -12 deg twilight: 05/08/2022,   18:56:01   06:23:44
+LOCAL -10 deg twilight: 05/08/2022,   18:46:30   06:33:16
+LOCAL night MIDPOINT: 05/09/2022,   00:39:52
+
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 
 Slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-### 19:20 
+### 19:05 
 Shen SCVZ [90 -66] 12 min 
 
-### PICK ALTERNATIVELY ONE!
-    etale.i.15min.json [160 -60] 15 min
-    eFEDS [129,1]
+etale.i.15min.json [160 -60] 15 min
+etale.r.15min.json [160 -60] 15 min
 
 DECaPSWest [116 -26] 30 min
 
@@ -36,7 +48,7 @@ DESIRT_190_g (13 min)
 
 ### 00:40
 
-**** ONLY IF NOT EFEDS AT2022cmc [204 33] 19 min
+AT2022cmc [204 33] 19 min
 
 YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
@@ -64,12 +76,8 @@ DECaPSEast [270 -29] 30 min
 
 YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
-# YSE 494 [347 9] 17 min #### ADD this if there is extra time!
+# YSE 494 [347 9] 17 min  #### ADD this if there is extra time!
 
-### 06:08 slew to Asteroid fields
+### 06:14 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
-
-
-####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 494 [347 9] 17 min 

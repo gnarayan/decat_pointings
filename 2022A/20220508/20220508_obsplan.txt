@@ -62,7 +62,7 @@ DESIRT_G15_grz [~215 -1] (22 min)
 DESIRT_G15_g (6 min)
 
 
-# YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
+!!! YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
 YSE 583 [236 20] 17 min 
 YSE 531 [230 10] 17 min 
 
@@ -85,7 +85,7 @@ Debass/everything/ 2022jmr_P2 [315 -23]
 
 YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
-# YSE 494 [347 9] 17 min  #### ADD this if there is extra time!
+!!! YSE 494 [347 9] 17 min  #### ADD this if there is extra time!
 
 ### 06:14 slew to Asteroid fields
 using morning twilight asteroid script in

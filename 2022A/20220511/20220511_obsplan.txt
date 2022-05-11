@@ -32,18 +32,18 @@ YSE 365 [147 -9] 17 min
 
 ### 20:55
 COSMOS [150 2] 1.5h
+DEBASS/EVERYTHING/2022huw_P2 [149 11] (4min)
 
 ### 22:25
 YSE 418 [158 -1] 17 min  ### close to Moon, drop this one if not enough space
 
-
-**** DEBASS 8 min
+DEBASS/EVERYTHING/2022jpy_P2 [154 -12] (4min)
+DEBASS/EVERYTHING/2022jpx_P2 [153 -10] (4min)
 
 #####   YSE 525 [189 10] 33 min ### skip too close too Moon
 YSE SN2022czy [185, 17]  4 min
 
 ### 23:25
-**** DEBASS 4 min
 DESIRT_190_grz_1 [~195 7] (27 min)
 DESIRT_190_grz_2 (27 min)
 DESIRT_190_g (13 min)
@@ -52,13 +52,16 @@ DESIRT_190_g (13 min)
 
 AT2022cmc [204 33] 19 min
 
-**** DEBASS 30 min
+**** DEBASS/STATIC/ all three jsons and run them twice!!!!!!
 
 YSE 477 [214 3] 17 min 
 
 ### 02:00
 DESIRT_G15_grz [~215 -1] (22 min)
 DESIRT_G15_g (6 min)
+
+DEBASS/EVERYTHING/2022joe_P1 [217 -23] (4min)
+DEBASS/EVERYTHING/2022jpq_P1 [209 -29] (4min)
 
 # YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
 YSE 583 [236 20] 17 min 
@@ -74,9 +77,17 @@ YSE 428 [228 -4] 17 min
 ### 04:45 start this field NO LATER than 5:10!!
 DECaPSEast [270 -29] 30 min
 
+DEBASS/EVERYTHING/2022iem_P1 [261 6] (4min)
+DEBASS/EVERYTHING/2022itd_P1 [273 11] (4min)
+
 YSE 440 [314 -4] 17 min
+DEBASS/EVERYTHING/2022jqr_P2 [313 -7] (4min) #OPTIONAL IF TIME
+DEBASS/EVERYTHING/2022jmr_P1 [315 -23] (4min)
 YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 
+
+DEBASS/EVERYTHING/2022jmn_P2 [21 -43] (4min) #OPTIONAL IF TIME
+DEBASS/EVERYTHING/2022jli_P1 [8 -8] #do as late as possible
 
 ### 06:15 slew to Asteroid fields
 using morning twilight asteroid script in

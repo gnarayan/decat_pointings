@@ -1,17 +1,30 @@
+MOON ILLUMINATION: 0.81
+UT -16 deg twilight: 2022-05-11T23:13:09.171 2022-05-12T10:06:23.071
+UT -15 deg twilight: 2022-05-11T23:08:25.466 2022-05-12T10:11:07.335
+UT -14 deg twilight: 2022-05-11T23:03:40.786 2022-05-12T10:15:52.195
+UT -12 deg twilight: 2022-05-11T22:54:09.937 2022-05-12T10:25:23.827
+UT -10 deg twilight: 2022-05-11T22:44:36.362 2022-05-12T10:34:58.234
+LOCAL -16 deg twilight: 05/11/2022,   19:13:09   06:06:23
+LOCAL -15 deg twilight: 05/11/2022,   19:08:25   06:11:07
+LOCAL -14 deg twilight: 05/11/2022,   19:03:40   06:15:52
+LOCAL -12 deg twilight: 05/11/2022,   18:54:09   06:25:23
+LOCAL -10 deg twilight: 05/11/2022,   18:44:36   06:34:58
+LOCAL night MIDPOINT: 05/12/2022,   00:39:46
+
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 
 Slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-### 19:20 
+### 19:03 
 Shen SCVZ [90 -66] 12 min 
 
-### PICK ALTERNATIVELY ONE!
-    etale.i.15min.json [160 -60] 15 min
-    eFEDS [129,1]
+etale.i.15min.json [160 -60] 15 min ### If there is time
 
 DECaPSWest [116 -26] 30 min
+
+eFEDS [129,1]
 
 ### 20:20
 YSE 415 [137 2] 17 min 
@@ -21,12 +34,13 @@ YSE 365 [147 -9] 17 min
 COSMOS [150 2] 1.5h
 
 ### 22:25
-YSE 418 [158 -1] 17 min
+YSE 418 [158 -1] 17 min  ### close to Moon, drop this one if not enough space
 
 
 **** DEBASS 8 min
 
-YSE 525 [189 10] 33 min
+#####   YSE 525 [189 10] 33 min ### skip too close too Moon
+YSE SN2022czy [185, 17]  4 min
 
 ### 23:25
 **** DEBASS 4 min
@@ -36,9 +50,7 @@ DESIRT_190_g (13 min)
 
 ### 00:40
 
-**** ONLY IF NOT EFEDS AT2022cmc [204 33] 19 min
-
-YSE 423 [193 -2] 17 min  ### drop this one if necessary
+AT2022cmc [204 33] 19 min
 
 **** DEBASS 30 min
 
@@ -66,10 +78,9 @@ YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 
 
-### 06:08 slew to Asteroid fields
+### 06:15 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 494 [347 9] 17 min 

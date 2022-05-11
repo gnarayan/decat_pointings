@@ -30,17 +30,17 @@ YSE 365 [147 -9] 17 min
 
 ### 20:55
 COSMOS [150 2] 1.5h
-DEBASS/EVERYTHING/2022huw_P1 [149 11] (4min)
-DEBASS/EVERYTHING/2022jkn_P2 [157 17] (4min)
 
 ### 22:25
 YSE 418 [158 -1] 17 min
 
-DEBASS/EVERYTHING/2022hqs_P1 [166 -12] (4min)
+
+**** DEBASS 8 min
+
 YSE 525 [189 10] 33 min
-DEBASS/EVERYTHING/2022hrs_P1 [190 11] (4min)
 
 ### 23:25
+**** DEBASS 4 min
 DESIRT_190_grz_1 [~195 7] (27 min)
 DESIRT_190_grz_2 (27 min)
 DESIRT_190_g (13 min)
@@ -49,8 +49,7 @@ DESIRT_190_g (13 min)
 
 YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
-DEBASS/EVERYTHING/2022jkx_P2 [205 -24] (4min)
-**** ALL 3 DEBASS/STATIC JSONS [200 -30] (15 min)
+**** DEBASS 30 min
 
 YSE 477 [214 3] 17 min 
 
@@ -68,9 +67,6 @@ DESIRT_220_grz_2 (27 min)
 DESIRT_220_g (13 min)
 YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
-
-DEBASS/EVERYTHING/2022iem_P1 [261 6] (4min)
-DEBASS/EVERYTHING/2022itd_P1 [273 11] (4min)
 
 ### 04:45 start this field NO LATER than 5:00!!
 DECaPSEast [270 -29] 30 min

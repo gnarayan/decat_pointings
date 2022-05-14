@@ -52,7 +52,7 @@ DESIRT_190_g (13 min)
 
 YSE 423 [193 -2] 17 min  ### drop this one if necessary
 DEBASS/STATIC/ do all 3 jsons (10min)
-DEBASS/EVERYTHING/2022jpq_P2 [209 -29] (4min)
+DEBASS/EVERYTHING/2022jpq_P2 [209 -29] (4min) #if running behind, drop this one
 
 YSE 477 [214 3] 17 min 
 

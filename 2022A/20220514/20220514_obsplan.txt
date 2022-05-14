@@ -17,8 +17,6 @@ Slew to Asteroid Twilight Fields using
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-CAN START THE NEXT TARGET IMMEDIATELY AFTER (bright target)
-DEBASS/EVERYTHING/2022jmn_P1 [21 -43] (4min)
 
 ### no earlier than -14deg 19:02 
 Shen SCVZ [90 -66] 12 min 
@@ -89,6 +87,8 @@ YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 
 
 YSE 2022jli [8.6862 -8.3033] 4 min *** HIGH priority!! this will be high airmass, 2 second exposures, could even be done after asteroid fields!!
+
+DEBASS/EVERYTHING/2022jmn_P1 [21 -43] (4min) ** IF TIME RIGHT BEFORE TWILIGHT.
 
 ### 06:17 slew to Asteroid fields
 using morning twilight asteroid script in

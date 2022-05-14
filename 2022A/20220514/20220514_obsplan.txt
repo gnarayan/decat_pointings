@@ -1,4 +1,3 @@
-TEST
 MOON ILLUMINATION: 0.99
 UT -16 deg twilight: 2022-05-14T23:11:32.774 2022-05-15T10:07:56.662
 UT -15 deg twilight: 2022-05-14T23:06:47.895 2022-05-15T10:12:41.884
@@ -18,7 +17,10 @@ Slew to Asteroid Twilight Fields using
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-### 19:02 
+CAN START THE NEXT TARGET IMMEDIATELY AFTER (bright target)
+DEBASS/EVERYTHING/2022jmn_P1 [21 -43] (4min)
+
+### no earlier than -14deg 19:02 
 Shen SCVZ [90 -66] 12 min 
 
 etale.r.15min.json [160 -60] 15 min
@@ -31,36 +33,40 @@ YSE 365 [147 -9] 17 min
 
 ### 20:55
 COSMOS [150 2] 1.5h
+DEBASS/EVERYTHING/2022huw_P2 [149 11] (4min) 
 
 ### 22:25
 YSE 418 [158 -1] 17 min
+DEBASS/EVERYTHING/2022jpy_P2 [154 -12] (4min)
+DEBASS/EVERYTHING/2022hqs_P1 [166 -12] (4min)
 
-
-**** DEBASS 8 min
 
 YSE SN2022czy [185, 17]  4 min
 YSE 525 [189 10] 33 min
+DEBASS/EVERYTHING/2022hrs_P2 [190 10] (4min) 
 
-### 23:25
-**** DEBASS 4 min
+### 23:20
 DESIRT_190_grz_1 [~195 7] (27 min)
 DESIRT_190_grz_2 (27 min)
 DESIRT_190_g (13 min)
 
-### 00:40
+### 00:35
 
 YSE 423 [193 -2] 17 min  ### drop this one if necessary
-
-**** DEBASS 30 min
+DEBASS/STATIC/ do all 3 jsons (10min)
+DEBASS/EVERYTHING/2022jpq_P2 [209 -29] (4min)
 
 YSE 477 [214 3] 17 min 
 
-### 02:00
+### 01:30
 DESIRT_G15_grz [~215 -1] (22 min)
 DESIRT_G15_g (6 min)
+DEBASS/EVERYTHING/2022jru_P2 [216 11] (4min) 
+DEBASS/EVERYTHING/2022jnr_P2 [226 17] (4min) 
 
 # YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
 YSE 583 [236 20] 17 min 
+DEBASS/EVERYTHING/2022jqg_P1 [235 21] (4min)
 YSE 531 [230 10] 17 min 
 
 ### 02:55
@@ -69,10 +75,16 @@ DESIRT_220_grz_2 (27 min)
 DESIRT_220_g (13 min)
 YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
+DEBASS/EVERYTHING/2022jnh_P2 [242 5] (4min) OPTIONAL IF TIME
+DEBASS/EVERYTHING/2022iem_P1 [261 6] (4min)
+DEBASS/EVERYTHING/2022itd_P1 [273 11] (4min)
 
 ### 04:45 start this field NO LATER than 5:10!!
 DECaPSEast [270 -29] 30 min
 
+DEBASS/EVERYTHING/2022jmr_P1 [315 -23] (4min)
+
+DEBASS/EVERYTHING/2022jqr_P2 [313 -7] (4min) OPTIONAL IF TIME
 YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 

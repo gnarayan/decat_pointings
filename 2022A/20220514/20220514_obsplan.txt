@@ -61,8 +61,8 @@ YSE 477 [214 3] 17 min
 ### 01:30
 DESIRT_G15_grz [~215 -1] (22 min)
 DESIRT_G15_g (6 min)
-DEBASS/EVERYTHING/2022jru_P2 [216 11] (4min) 
-DEBASS/EVERYTHING/2022jnr_P2 [226 17] (4min) 
+DEBASS/EVERYTHING/2022jru_P2 [216 11] (4min) ### drop this one if necessary
+DEBASS/EVERYTHING/2022jnr_P2 [226 17] (4min) ### drop this one if necessary
 
 # YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
 YSE 583 [236 20] 17 min 
@@ -83,7 +83,6 @@ DEBASS/EVERYTHING/2022itd_P1 [273 11] (4min)
 DECaPSEast [270 -29] 30 min
 
 DEBASS/EVERYTHING/2022jmr_P1 [315 -23] (4min)
-
 DEBASS/EVERYTHING/2022jqr_P2 [313 -7] (4min) OPTIONAL IF TIME
 YSE 440 [314 -4] 17 min
 YSE 544 [321 9] 17 min

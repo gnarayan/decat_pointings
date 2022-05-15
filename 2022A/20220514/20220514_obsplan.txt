@@ -68,7 +68,8 @@ DEBASS/EVERYTHING/2022jnr_P2 [226 17] (4min) ### drop this one if necessary
 DESIRT_220_grz_1 [225 7] (27 min)
 DESIRT_220_grz_2 (27 min)
 DESIRT_220_g (13 min)
-YSE 376 [224 -8] 17 min 
+
+##### YSE 376 [224 -8] 17 min # SKIP ON MAY 14, TOO CLOSE TO MOON
 ##### YSE 428 [228 -4] 17 min # SKIP ON MAY 14, TOO CLOSE TO MOON
 
 02:00

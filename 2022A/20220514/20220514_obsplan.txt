@@ -64,21 +64,25 @@ DESIRT_G15_g (6 min)
 DEBASS/EVERYTHING/2022jru_P2 [216 11] (4min) ### drop this one if necessary
 DEBASS/EVERYTHING/2022jnr_P2 [226 17] (4min) ### drop this one if necessary
 
+### 00:30
+DESIRT_220_grz_1 [225 7] (27 min)
+DESIRT_220_grz_2 (27 min)
+DESIRT_220_g (13 min)
+YSE 376 [224 -8] 17 min 
+##### YSE 428 [228 -4] 17 min # SKIP ON MAY 14, TOO CLOSE TO MOON
+
+02:00
 # YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
 YSE 583 [236 20] 17 min 
 DEBASS/EVERYTHING/2022jqg_P1 [235 21] (4min)
 YSE 531 [230 10] 17 min 
 
-### 02:55
-DESIRT_220_grz_1 [225 7] (27 min)
-DESIRT_220_grz_2 (27 min)
-DESIRT_220_g (13 min)
-YSE 376 [224 -8] 17 min 
-YSE 428 [228 -4] 17 min # SKIP ON MAY 14, TOO CLOSE TO MOON
+02:40
 DEBASS/EVERYTHING/2022jnh_P2 [242 5] (4min) OPTIONAL IF TIME
 DEBASS/EVERYTHING/2022iem_P1 [261 6] (4min)
 DEBASS/EVERYTHING/2022itd_P1 [273 11] (4min)
 
+02:55
 ### 04:45 start this field NO LATER than 5:10!!
 DECaPSEast [270 -29] 30 min
 
@@ -86,16 +90,23 @@ DEBASS/EVERYTHING/2022jmr_P1 [315 -23] (4min)
 DEBASS/EVERYTHING/2022jqr_P2 [313 -7] (4min) OPTIONAL IF TIME
 YSE 440 [314 -4] 17 min
 
+03:50
 #DESI fields added after plan was made - if no time delete all r band exposures
-DESIRT_320_grz [320 5]
-DESIRT_320_g [320 5]
+DESIRT_320_grz [320 5] (54min)
+DESIRT_320_g [320 5] (13min)
 
+05:00
 YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 
 
+05:40
 YSE 2022jli [8.6862 -8.3033] 4 min *** HIGH priority!! this will be high airmass, 2 second exposures, could even be done after asteroid fields!!
 
+05:45
 DEBASS/EVERYTHING/2022jmn_P1 [21 -43] (4min) ** IF TIME RIGHT BEFORE TWILIGHT.
+
+05:50
+YSE 494 [347 9] 17 min
 
 ### 06:17 slew to Asteroid fields
 using morning twilight asteroid script in

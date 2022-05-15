@@ -106,9 +106,6 @@ YSE 2022jli [8.6862 -8.3033] 4 min *** HIGH priority!! this will be high airmass
 05:45
 DEBASS/EVERYTHING/2022jmn_P1 [21 -43] (4min) ** IF TIME RIGHT BEFORE TWILIGHT.
 
-05:50
-YSE 494 [347 9] 17 min
-
 ### 06:17 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard

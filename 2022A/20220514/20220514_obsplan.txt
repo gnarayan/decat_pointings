@@ -101,10 +101,10 @@ YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 
 
 05:40
-YSE 2022jli [8.6862 -8.3033] 4 min *** HIGH priority!! this will be high airmass, 2 second exposures, could even be done after asteroid fields!!
+DEBASS/EVERYTHING/2022jmn_P1 [21 -43] (4min) ** IF TIME RIGHT BEFORE TWILIGHT.
 
 05:45
-DEBASS/EVERYTHING/2022jmn_P1 [21 -43] (4min) ** IF TIME RIGHT BEFORE TWILIGHT.
+YSE 2022jli [8.6862 -8.3033] 4 min *** HIGH priority!! this will be high airmass, 2 second exposures, could even be done after asteroid fields!!
 
 ### 06:17 slew to Asteroid fields
 using morning twilight asteroid script in

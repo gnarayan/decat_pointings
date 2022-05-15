@@ -72,7 +72,7 @@ YSE 376 [224 -8] 17 min
 ##### YSE 428 [228 -4] 17 min # SKIP ON MAY 14, TOO CLOSE TO MOON
 
 02:00
-# YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
+YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
 YSE 583 [236 20] 17 min 
 DEBASS/EVERYTHING/2022jqg_P1 [235 21] (4min)
 YSE 531 [230 10] 17 min 

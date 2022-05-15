@@ -44,9 +44,11 @@ YSE 525 [189 10] 33 min
 DEBASS/EVERYTHING/2022hrs_P2 [190 10] (4min) 
 
 ### 23:20
-DESIRT_190_grz_1 [~195 7] (27 min)
-DESIRT_190_grz_2 (27 min)
-DESIRT_190_g (13 min)
+## Skip DESIRT_190 as too close to the moon and do some fields later if time and:
+DESIRT_TN-J1338_riz [204 -19]
+# DESIRT_190_grz_1 [~195 7] (27 min)
+# DESIRT_190_grz_2 (27 min)
+# DESIRT_190_g (13 min)
 
 ### 00:35
 
@@ -72,7 +74,7 @@ DESIRT_220_grz_1 [225 7] (27 min)
 DESIRT_220_grz_2 (27 min)
 DESIRT_220_g (13 min)
 YSE 376 [224 -8] 17 min 
-YSE 428 [228 -4] 17 min # SKIP ON MAY 14, TO CLOSE TO MOON
+YSE 428 [228 -4] 17 min # SKIP ON MAY 14, TOO CLOSE TO MOON
 DEBASS/EVERYTHING/2022jnh_P2 [242 5] (4min) OPTIONAL IF TIME
 DEBASS/EVERYTHING/2022iem_P1 [261 6] (4min)
 DEBASS/EVERYTHING/2022itd_P1 [273 11] (4min)
@@ -83,6 +85,11 @@ DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2022jmr_P1 [315 -23] (4min)
 DEBASS/EVERYTHING/2022jqr_P2 [313 -7] (4min) OPTIONAL IF TIME
 YSE 440 [314 -4] 17 min
+
+#DESI fields added after plan was made - if no time delete all r band exposures
+DESIRT_320_grz [320 5]
+DESIRT_320_g [320 5]
+
 YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 
 

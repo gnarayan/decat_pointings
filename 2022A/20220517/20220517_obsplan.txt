@@ -83,11 +83,10 @@ DEBASS/EVERYTHING/2022itd_P2 [273 11] 4 min  #skip if running over
 DEBASS/EVERYTHING/2022jmr_P1 [315 -23] 4 min
 
 YSE 440 [314 -4] 17 min
+DESIRT_320_rz [~320 6] (40 min)
 YSE 544 [321 9] 17 min
 YSE 494 [347 9] 17 min 
 
-### 05:00
-DESIRT_320_rz [~320 6] (40 min)
 
 06:00
 DEBASS/EVERYTHING/2022jzy_P1 [7 -8] 4 min

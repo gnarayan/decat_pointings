@@ -20,36 +20,34 @@ Script will finish on its own or at -14 deg twilight.
 ### 19:00
 Shen SCVZ [90 -66] 12 min 
 
-### PICK ALTERNATIVELY ONE!
-    etale.i.15min.json [160 -60] 15 min
-    eFEDS [129,1]
 
 DECaPSWest [116 -26] 30 min
 
-### 20:20
+eFEDS [129,1] 30 min
+
+### 20:15
 YSE 415 [137 2] 17 min 
 YSE 365 [147 -9] 17 min 
 
-### 20:55
+### 20:50
 COSMOS [150 2] 1.5h
 
 ### 22:25
 YSE 418 [158 -1] 17 min
 
-
-**** DEBASS 8 min
+**** DEBASS 10 min
 
 YSE 525 [189 10] 33 min
 
 ### 23:25
-**** DEBASS 4 min
+
+**** DEBASS 5 min
+
 DESIRT_190_grz_1 [~195 7] (27 min)
 DESIRT_190_grz_2 (27 min)
 DESIRT_190_g (13 min)
 
 ### 00:40
-
-**** ONLY IF NOT EFEDS AT2022cmc [204 33] 19 min
 
 YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
@@ -57,7 +55,7 @@ YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
 YSE 477 [214 3] 17 min 
 
-### 02:00
+### 01:50
 DESIRT_G15_grz [~215 -1] (22 min)
 DESIRT_G15_g (6 min)
 

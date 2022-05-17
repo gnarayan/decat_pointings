@@ -1,19 +1,22 @@
+2022jzy_P1 [7 -8]
 2022jmn_P1 [21 -43]
-2022hqs_P1 [166 -12]
+2022jzx_P1 [15 -4]
+2022jzb_P1 [183 -17]
+2022jpq_P1 [209 -29]
+2022kad_P1 [224 12]
+2022jut_P1 [241 18]
 2022jqg_P1 [235 21]
-2022iem_P1 [261 6]
-2022itd_P1 [273 11]
 2022jmr_P1 [315 -23]
 
-2022jpy_P2 [154 -12]
-2022huw_P2 [149 11]
 2022hrs_P2 [190 10]
-2022jpq_P2 [209 -29]
-2022jru_P2 [216 11]
 2022jnr_P2 [226 17]
-2022jnh_P2 [242 5]
-2022jqr_P2 [313 -7]
+2022iem_P2 [261 6]
+2022itd_P2 [273 11]
 
+2022jpy_P3 [154 -12]
+2022huw_P3 [149 11]
+2022hqs_P3 [166 -12]
+2022jqr_P3 [313 -7]
 
-EVERYTHING	46.2 minutes
-EVERYTHING_P1	14.2 minutes
+EVERYTHING	62.6 minutes
+EVERYTHING_P1	26.0 minutes

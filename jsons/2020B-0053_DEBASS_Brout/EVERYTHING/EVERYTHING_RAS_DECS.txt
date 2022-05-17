@@ -15,5 +15,5 @@
 2022jqr_P2 [313 -7]
 
 
-EVERYTHING	59.7 minutes
+EVERYTHING	46.2 minutes
 EVERYTHING_P1	14.2 minutes

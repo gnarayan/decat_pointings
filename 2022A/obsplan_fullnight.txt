@@ -25,7 +25,7 @@ YSE 418 [158 -1] 17 min
 **** DEBASS 8 min
 
 YSE 525 [189 10] 33 min
-AT2022cmc [204 33] 19 min # high priority
+#### AT2022cmc [204 33] 19 min # high priority, only if not eFEDS
 
 ### 23:10
 

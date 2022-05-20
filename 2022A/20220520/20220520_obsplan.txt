@@ -1,0 +1,74 @@
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### 19:20 
+Shen SCVZ [90 -66] 12 min 
+
+### PICK ALTERNATIVELY ONE!
+    etale.i.15min.json [160 -60] 15 min
+    eFEDS [129,1]
+
+DECaPSWest [116 -26] 30 min
+
+### 20:20
+YSE 365 [147 -9] 17 min 
+
+### 20:55
+COSMOS [150 2] 1.5h
+
+### 22:25
+YSE 418 [158 -1] 17 min
+
+
+**** DEBASS 8 min
+
+YSE 525 [189 10] 33 min
+
+### 23:25
+**** DEBASS 4 min
+DESIRT_190_grz_1 [~195 7] (27 min)
+DESIRT_190_grz_2 (27 min)
+DESIRT_190_g (13 min)
+
+### 00:40
+
+**** ONLY IF NOT EFEDS AT2022cmc [204 33] 19 min
+
+**** DEBASS 30 min
+
+YSE 477 [214 3] 17 min 
+
+### 02:00
+DESIRT_G15_rz [~215 -1] (17 min)
+
+# YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 02:55
+DESIRT_220_rz [~220 7] (40 min)
+YSE 376 [224 -8] 17 min 
+YSE 428 [228 -4] 17 min 
+
+### 04:45 start this field NO LATER than 5:10!!
+DECaPSEast [270 -29] 30 min
+
+YSE 440 [314 -4] 17 min
+DESIRT_320_rz [~320 6] (40 min)
+YSE 544 [321 9] 17 min
+YSE 494 [347 9] 17 min 
+
+05:45
+YSE 2022jli [8.6862 -8.3033] 6 min 
+
+### 06:08 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+YSE 296 [17 -17] 14 min 
+YSE 448 [16 3] 17 min (watch airmass!)

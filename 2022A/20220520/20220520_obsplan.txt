@@ -31,31 +31,29 @@ YSE 415 [137 2] 17 min
 
 DEBASS/EVERYTHING/2022huw_P1 [149 11] (4min)
 COSMOS [150 2] 1.5h
-DEBASS/EVERYTHING/2022jpy_P1 [154 -12] (4min)
+%DEBASS/EVERYTHING/2022jpy_P1 [154 -12] (4min)
 DEBASS/EVERYTHING/2022hqs_P2 [166 -12] (4min)
 
 ### 21:50
 
-YSE 418 [158 -1] 17 min
-DEBASS/EVERYTHING/2022kcc_P1 [172 -5] (4min)
+%YSE 418 [158 -1] 17 min
+%DEBASS/EVERYTHING/2022kcc_P1 [172 -5] (4min)
 
 
 DEBASS/EVERYTHING/2022kap_P2 [174 12] (4min)
-YSE 525 [189 10] 33 min
+%YSE 525 [189 10] 33 min
 DEBASS/EVERYTHING/2022hrs_P3 [190 11] (4min) #optional filler
 AT2022cmc [204 33] 19 min # high priority
 
 ### 23:10
 
-YSE 423 [193 -2] 17 min  ### drop this one if necessary
+%YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
-
-**** DEBASS 4 min
-DESIRT_190_gr [~195 7] (31 min)
-DESIRT_190_g (13 min)r
-DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (4min)
-DEBASS/EVERYTHING/2022kck_P2 [189 -14] (4min)
-DESIRT_TN-J1338_gr [204 -19] (5 min)
+%DESIRT_190_gr [~195 7] (31 min)
+%DESIRT_190_g (13 min)r
+%DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (4min)
+%DEBASS/EVERYTHING/2022kck_P2 [189 -14] (4min)
+%DESIRT_TN-J1338_gr [204 -19] (5 min)
 
 ### 00:15
 
@@ -80,7 +78,7 @@ YSE 531 [230 10] 17 min
 ### 01:50
 DESIRT_220_gz [~220 7] (38 min)
 DESIRT_220_g (13 min)
-YSE 376 [224 -8] 17 min 
+%YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
 
 

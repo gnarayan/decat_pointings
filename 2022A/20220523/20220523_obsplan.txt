@@ -73,7 +73,7 @@ DECaPSEast [270 -29] 30 min
 YSE 440 [314 -4] 17 min
 DESIRT_320_gz [~320 6] (38 min)
 DESIRT_320_g (13 min)
-DESIRT_320_r [~320 6] (17 min)
+DESIRT_320_r [~320 6] (17 min) ### drop if neessary
 YSE 544 [321 9] 17 min
 
 **** DEBASS 3 min

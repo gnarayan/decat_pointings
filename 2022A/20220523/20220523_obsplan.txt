@@ -92,7 +92,7 @@ DEBASS/EVERYTHING/2022jqr_P1 [313 -7] (4min)
 YSE 440 [314 -4] 17 min
 DESIRT_320_gz [~320 6] (38 min)
 DESIRT_320_g (13 min)
-DESIRT_320_r [~320 6] (17 min) ### drop if neessary
+DESIRT_320_r [~320 6] (17 min) ### drop if neessary. Dillon: schedule seems tight, might have to skip...
 YSE 544 [321 9] 17 min
 
 ### 05:40

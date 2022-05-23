@@ -56,8 +56,6 @@ AT2022cmc [204 33] 19 min
 
 YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
-**** DEBASS 4 min
-
 DESIRT_190_gz [~195 7] (38 min)
 DESIRT_190_g (13 min)
 
@@ -96,15 +94,11 @@ DESIRT_320_g (13 min)
 DESIRT_320_r [~320 6] (17 min) ### drop if neessary
 YSE 544 [321 9] 17 min
 
-**** DEBASS 3 min
-
 ### 05:20
 YSE 494 [347 9] 17 min 
 DEBASS/EVERYTHING/2022kkg_P1 [305 20] (4min)
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min (watch airmass!)
-
-**** DEBASS 15 min
 
 ### 06:22 slew to Asteroid fields
 using morning twilight asteroid script in

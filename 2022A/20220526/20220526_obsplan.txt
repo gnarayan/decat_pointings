@@ -12,38 +12,47 @@ LOCAL -12 deg twilight: 05/26/2022,   18:47:41   06:33:17
 LOCAL -10 deg twilight: 05/26/2022,   18:37:57   06:43:02
 LOCAL night MIDPOINT: 05/27/2022,   00:40:29
 
-
 ### 00:40
-DEBASS/STATIC/ all three jsons [200 -2] 13 min
+DEBASS/EVERYTHING/2022kcc_P1 [172 -5] (3min)
+DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (3min)
+DEBASS/EVERYTHING/2022kck_P1 [189 -14] (3min)
+DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
+DEBASS/STATIC/ all three jsons [200 -2] (9 min)
 YSE 477 [214 3] 17 min 
 
 ### 01:10
 DESIRT_G15_gz [~215 -1] (16 min)
 DESIRT_G15_g [~215 -1] (6 min)
 
+DEBASS/EVERYTHING/2022jnr_P1 [226 17] (3min)
 YSE 583 [236 20] 17 min # skip this field if necessary
 YSE 531 [230 10] 17 min 
+DEBASS/EVERYTHING/2022jut_P1 [241 18] (3min)
 
 ### 02:10
 DESIRT_220_gz [~220 7] (38 min)
 YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
+DEBASS/EVERYTHING/2022kjq_P1 [225 -23] (3min)
 
-### 03:38 
+### 03:30 
 DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2022kkf_P1 [288 -24] (3min)
+DEBASS/EVERYTHING/2022itd_P1 [273 11] (3min)
 YSE 440 [314 -4] 17 min
 
 ### 04:23
 DESIRT_320_gr [~320 6] (31 min)
 DESIRT_320_g (13 min)
 YSE 544 [321 9] 17 min
+DEBASS/EVERYTHING/2022kkg_P1 [305 20] (3min)
 
-### 05:23
+### 05:25
 YSE 494 [347 9] 17 min 
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min 
 
-### 06:17
+### 06:15
 YSE 2022jli [8.6862 -8.3033] 6 min 
 
 ### 06:23:35 slew to Asteroid fields

@@ -26,19 +26,5 @@
         "comment": "2022jzb",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "i",
-        "exptime": 15.0,
-        "RA": 183.7316,
-        "dec": -17.96436,
-        "object": "2022jzb_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2022jzb",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

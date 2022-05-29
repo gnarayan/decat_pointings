@@ -23,11 +23,18 @@ eFEDS [129,1] 30 min
 
 ### 19:40
 YSE 415 [137 2] 17 min 
+DEBASS/EVERYTHING/2022huw_P1 [149 11] (3 min)
 YSE 365 [147 -9] 17 min 
 
 ### 20:15
 YSE 418 [158 -1] 17 min
+DEBASS/EVERYTHING/2022kap_P1 [174 12] (3 min)  
+DEBASS/EVERYTHING/2022kcc_P1 [172 -5] (3 min)
+DEBASS/EVERYTHING/2022hqs_P1 [166 -12] (3 min)
+DEBASS/EVERYTHING/2022kft_P1 [173 -10] (3 min) 
+​DEBAS​S/EVERYTHING/2022kck_P1 [189 -14] (3 min) 
 YSE 525 [189 10] 33 min
+DEBASS/EVERYTHING/2022hrs_P1 [190 11] (3 min) 
 AT2022cmc [204 33] 19 min # high priority
 
 ### 21:30
@@ -35,8 +42,11 @@ YSE 423 [193 -2] 17 min  ### drop this one if necessary
 
 DESIRT_190_gr [~195 7] (31 min)
 DESIRT_190_g (13 min)
-DESIRT_TN-J1338_gri [204 -19] (7 min)
+DESIRT_TN-J1338_gri [204 -19] (7 miN)
+​
+DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3 min)
 
+DEBASS/EVERYTHING/2022lax_P1 [216 -8] (3 min)
 ### 22:40
 
 DEBASS/STATIC/ all three jsons [200 -2] 13 min REMIND DILLON TO PUT I BAND BACK IN!!!!!!!!!!!
@@ -55,6 +65,8 @@ DESIRT_220_gr [~220 7] (31 min)
 DESIRT_220_g (13 min)
 YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
+
+​DEBASS/EVERYTHING/2022kjq_P1 [225 -23] (3 min)
 
 ### 01:40
 

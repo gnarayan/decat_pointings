@@ -26,5 +26,19 @@
         "comment": "SP2_199_-31.7",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 60.0,
+        "RA": 199.0,
+        "dec": -31.7,
+        "object": "SP2_199_-31.7",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "SP2_199_-31.7",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

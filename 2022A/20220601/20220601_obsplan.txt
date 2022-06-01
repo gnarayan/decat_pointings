@@ -13,9 +13,9 @@ LOCAL night MIDPOINT: 06/02/2022,   00:41:18
 
 
 ### 00:40
+DESIRT_220_gr [~220 7] (31 min)
 DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
 DEBASS/EVERYTHING/2022lax_P1 [216 -8] (3min)
-DESIRT_220_gr [~220 7] (31 min)
 DEBASS/EVERYTHING/2022kjq_P1 [225 -23] (3min)
 YSE 376 [224 -8] 17 min # remove if necessary
 YSE 428 [228 -4] 17 min 

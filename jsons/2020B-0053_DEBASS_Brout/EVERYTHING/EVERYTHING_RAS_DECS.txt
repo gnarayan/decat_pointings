@@ -4,15 +4,15 @@
 2022jnr_P1 [226 17]
 2022jut_P1 [241 18]
 2022jqg_P1 [235 21]
-2022iem_P1 [261 6]
-2022itd_P1 [273 11]
 2022lco_P1 [302 -12]
-2022jqr_P1 [313 -7]
 2022kkg_P1 [305 20]
 2022lex_P1 [341 -7]
 
-2022jmr_P2 [315 -23]
+2022itd_P2 [273 11]
+2022jqr_P2 [313 -7]
 
+2022iem_P3 [261 6]
+2022jmr_P3 [315 -23]
 
-EVERYTHING	77.2 minutes
-EVERYTHING_P1	37.5 minutes
+EVERYTHING	76.3 minutes
+EVERYTHING_P1	28.3 minutes

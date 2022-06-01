@@ -31,7 +31,7 @@ YSE 376 [224 -8] 17 min # remove if necessary
 YSE 428 [228 -4] 17 min 
 
 ### 2:20
-YSE 428 rz [228 -4] 17 min 
+YSE 428 iz [228 -4] 17 min 
 
 ### 5 min of slop - start fields early if you have to or repeat a DEBASS pointing 
 

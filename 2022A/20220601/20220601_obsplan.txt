@@ -14,21 +14,26 @@ LOCAL night MIDPOINT: 06/02/2022,   00:41:18
 
 ### 00:40
 DESIRT_220_gr [~220 7] (31 min)
+
+### 01:15
+DEBASS/EVERYTHING/2022jnr_P1 [226 17] (3 min)
 DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
 DEBASS/EVERYTHING/2022lax_P1 [216 -8] (3min)
 DEBASS/EVERYTHING/2022kjq_P1 [225 -23] (3min)
-YSE 376 [224 -8] 17 min # remove if necessary
-YSE 428 [228 -4] 17 min 
 
-### 01:55
-
-DEBASS/EVERYTHING/2022jnr_P1 [226 17] (3 min)
+### 01:30
 DEBASS/EVERYTHING/2022jqg_P1 [235 21] (4 min)
 DEBASS/EVERYTHING/2022jut_P1 [241 18] (2 min)
 DEBASS/EVERYTHING/2022itd_P2 [273 11] (3 min)
 
-### 2:15
-!!!! GAP !!!!
+### 01:45
+YSE 376 [224 -8] 17 min # remove if necessary
+YSE 428 [228 -4] 17 min 
+
+### 2:20
+YSE 428 rz [228 -4] 17 min 
+
+### 5 min of slop - start fields early if you have to or repeat a DEBASS pointing 
 
 ### 02:40 
 DECaPSEast [270 -29] 30 min

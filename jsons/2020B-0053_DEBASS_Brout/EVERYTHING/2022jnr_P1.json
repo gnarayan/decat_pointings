@@ -40,19 +40,5 @@
         "comment": "2022jnr",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 226.37974,
-        "dec": 17.82751,
-        "object": "2022jnr_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2022jnr",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

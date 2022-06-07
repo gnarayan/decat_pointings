@@ -15,20 +15,6 @@
     },
     {
         "count": 1,
-        "filter": "i",
-        "exptime": 15.0,
-        "RA": 173.68429,
-        "dec": -10.9678,
-        "object": "2022kft_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2022kft",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
         "filter": "z",
         "exptime": 15.0,
         "RA": 173.68429,

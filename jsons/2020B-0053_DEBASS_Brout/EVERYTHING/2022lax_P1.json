@@ -96,19 +96,5 @@
         "comment": "2022lax",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 216.57396,
-        "dec": -8.8215,
-        "object": "2022lax_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2022lax",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

@@ -13,5 +13,5 @@
 2022lkt_P2 [209 3]
 
 
-EVERYTHING	100.5 minutes
-EVERYTHING_P1	61.2 minutes
+EVERYTHING	89.3 minutes
+EVERYTHING_P1	50.0 minutes

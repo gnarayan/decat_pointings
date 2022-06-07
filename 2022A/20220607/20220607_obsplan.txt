@@ -97,13 +97,11 @@ ELAIS-DDF [8, -43] 1h
 
 ### 05:25
 YSE 296 [17 -17] 14 min 
-# YSE 448 [16 3] 17 min OPTIONAL IF TIME
+YSE 448 [16 3] 17 min 
 
 ### 06:00
 YSE 2022jli [8.6862 -8.3033] 6 min 
-
-###06:10
-SEE EXTRA TARGETS BELOW IF THIS IS TRULY EMPTY...
+YSE 550 [4 18] 17 min
 
 ### 06:25 slew to Asteroid fields
 using morning twilight asteroid script in

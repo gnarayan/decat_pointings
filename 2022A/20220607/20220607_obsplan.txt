@@ -40,7 +40,7 @@ YSE 423 [193 -2] 17 min  ### drop this one if necessary close to Moon
 
 ### 21:35
 DESIRT_190_iz [~195 7] (31 min)
-DESIRT_TN-J1338_gri [204 -19] (7 min)
+DESIRT_TN-J1338_gri [204 -19] (7 min) ## Can do DESIRT_TN-J1338_griz instead if there's 2 extra minutes
 DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (4min)
 DEBASS/EVERYTHING/2022lax_P1 [216 -8] (4min)
 

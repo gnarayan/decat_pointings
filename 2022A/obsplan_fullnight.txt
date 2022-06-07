@@ -70,6 +70,7 @@ YSE 296 [17 -17] 14 min
 
 ### 06:18
 YSE 2022jli [8.6862 -8.3033] 6 min 
+YSE 550 [4 18] 17 min
 
 ### 06:25 slew to Asteroid fields
 using morning twilight asteroid script in

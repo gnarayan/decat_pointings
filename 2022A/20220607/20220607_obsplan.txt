@@ -39,13 +39,12 @@ YSE 2022czy [185 17] 4 min
 YSE 423 [193 -2] 17 min  ### drop this one if necessary close to Moon
 
 ### 21:35
-DESIRT_190_gr [~195 7] (31 min)
-DESIRT_190_g (13 min)
+DESIRT_190_iz [~195 7] (31 min)
 DESIRT_TN-J1338_gri [204 -19] (7 min)
 DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (4min)
 DEBASS/EVERYTHING/2022lax_P1 [216 -8] (4min)
 
-### 22:35
+### 22:20
 
 DEBASS/STATIC/SP1 [200 -2] 4 min 
 DEBASS/STATIC/SP2 [200 -2] 4 min 
@@ -53,10 +52,10 @@ DEBASS/STATIC/SP3 [200 -2] 4 min
 
 DEBASS/EVERYTHING/2022lkt_P2 [209 3] (4min) OPTIONAL FILLER
 
-### 22:50
+### 22:40
 YSE 477 [214 3] 17 min 
 
-### 23:15
+### 23:00
 DESIRT_G15_gz [~215 -1] (16 min)
 DEBASS/EVERYTHING/2022jnr_P1 [226 17] (4min)
 
@@ -83,8 +82,9 @@ DECaPSEast [270 -29] 30 min
 ### 02:35
 YSE 440 [314 -4] 17 min
 DEBASS/EVERYTHING/2022jmr_P1 [315 -23] (4min) DROP z BAND IF SHORT ON TIME
-DESIRT_320_gz [~320 6] (38 min)
-DESIRT_320_g (13 min)
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+DESIRT_320_g [~320 6] (13 min) # Drop if short on time
 YSE 544 [321 9] 17 min
 
 DEBASS/EVERYTHING/2022kkg_P1 [305 20] (4min) DROP z BAND IF SHORT ON TIME

@@ -1,5 +1,7 @@
 ### 02:00
-#DESIRT_220_gr [~220 7] (31 min)
+DEBASS/EVERYTHING/2022lkt_P1 [209 3] (3min)
+DEBASS/EVERYTHING/2022lax_P1 [216 -8] (3min)
+DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
 DESIRT_220_g (13 min)
 # YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
@@ -20,6 +22,7 @@ YSE 544 [321 9] 17 min
 
 ### 04:50
 # YSE 494 [347 9] 17 min 
+DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
 
 ### 04:50
 ELAIS-DDF [8, -43] 1h
@@ -31,6 +34,14 @@ YSE 296 [17 -17] 14 min
 ### 06:04
 YSE 2022jli [8.6862 -8.3033] 6 min ##DROP IF NO TIME
 YSE 550 [4 18] 17 min
+
+-----[48 -20] (13min) ----
+DEBASS/STATIC/CS1_ri.json 
+DEBASS/STATIC/CS2_ri.json
+DEBASS/STATIC/CS3_ri.json
+DEBASS/STATIC/CS4_ri.json
+DEBASS/STATIC/CS5_ri.json
+--------------------------
 
 ### 06:25 slew to Asteroid fields
 using morning twilight asteroid script in

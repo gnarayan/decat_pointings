@@ -3,31 +3,24 @@ DEBASS/EVERYTHING/2022lkt_P1 [209 3] (3min)
 DEBASS/EVERYTHING/2022lax_P1 [216 -8] (3min)
 DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
 DESIRT_220_g (13 min)
-# YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
 
-### DEBASS 10 min
-
-### 02:40 
+### 02:30 
 DECaPSEast [270 -29] 30 min
 
-### DEBASS 5 min
-
-### 03:15
+### 03:00
 YSE 440 [314 -4] 17 min
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
-DESIRT_320_g [~320 6] (13 min) ##DROP IF NO TIME
-YSE 544 [321 9] 17 min
 
-### 04:50
-# YSE 494 [347 9] 17 min 
+### 04:10
+YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
 
-### 04:50
+### 04:30
 ELAIS-DDF [8, -43] 1h
 
-### 05:50
+### 05:30
 YSE 296 [17 -17] 14 min 
 #YSE 448 [16 3] 17 min 
 

@@ -36,7 +36,7 @@ DEBASS/STATIC/CS4_ri.json
 DEBASS/STATIC/CS5_ri.json
 --------------------------
 
-### 06:25 AFTER DEBASS FINISHES slew to Asteroid fields
+### 06:25 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

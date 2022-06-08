@@ -29,9 +29,6 @@ DESIRT_190_g (13 min)
 DESIRT_TN-J1338_gri [204 -19] (7 min)
 
 ### 22:40
-
-DEBASS/STATIC/ all three jsons [200 -2] 9 min 
-
 YSE 477 [214 3] 17 min 
 
 ### 23:40
@@ -72,6 +69,14 @@ YSE 296 [17 -17] 14 min
 ### 06:18
 YSE 2022jli [8.6862 -8.3033] 6 min 
 YSE 550 [4 18] 17 min
+
+-----[48 -20] (13min) ----
+DEBASS/STATIC/CS1_ri.json 
+DEBASS/STATIC/CS2_ri.json
+DEBASS/STATIC/CS3_ri.json
+DEBASS/STATIC/CS4_ri.json
+DEBASS/STATIC/CS5_ri.json
+--------------------------
 
 ### 06:25 slew to Asteroid fields
 using morning twilight asteroid script in

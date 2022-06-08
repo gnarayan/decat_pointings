@@ -1,17 +1,11 @@
-2022kft_P1 [173 -10]
-2022jzb_P1 [183 -17]
-2022kck_P1 [189 -14]
 2022kjl_P1 [209 -15]
+2022lkt_P1 [209 3]
 2022lax_P1 [216 -8]
-2022jnr_P1 [226 17]
-2022jut_P1 [241 18]
-2022iem_P1 [261 6]
-2022itd_P1 [273 11]
-2022kkg_P1 [305 20]
-2022jmr_P1 [315 -23]
+2022mhe_P1 [352 8]
 
-2022lkt_P2 [209 3]
+2022mcs_P2 [257 13]
+2022kkg_P2 [305 20]
 
 
-EVERYTHING	89.3 minutes
-EVERYTHING_P1	50.0 minutes
+EVERYTHING	63.6 minutes
+EVERYTHING_P1	12.6 minutes

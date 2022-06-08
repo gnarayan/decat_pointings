@@ -375,6 +375,23 @@ git add 220607
 git add 220607/*.json
 
 
+mkdir 20220608
+cp obsplan_fullnight.txt 20220608/20220608_obsplan.txt
+subl 20220608/20220608_obsplan.txt
+git add 20220608/20220608_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z  365  415 418 525 -d 220608
+mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220608
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531  
+mkjson_yse_nofilterswitch.py  -f r,i   376 428  -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r   440   -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r   544 494   -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220608 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220608 -e 20,2,2,2,2,10
+git add 220608
+git add 220608/*.json
+
+
  mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2021-12-27  &
 
 mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B2ndhalf.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2022-01-15  &

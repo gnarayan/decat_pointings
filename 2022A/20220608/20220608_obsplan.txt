@@ -1,0 +1,39 @@
+### 02:00
+#DESIRT_220_gr [~220 7] (31 min)
+DESIRT_220_g (13 min)
+# YSE 376 [224 -8] 17 min 
+YSE 428 [228 -4] 17 min 
+
+### DEBASS 10 min
+
+### 02:40 
+DECaPSEast [270 -29] 30 min
+
+### DEBASS 5 min
+
+### 03:15
+YSE 440 [314 -4] 17 min
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+DESIRT_320_g [~320 6] (13 min) ##DROP IF NO TIME
+YSE 544 [321 9] 17 min
+
+### 04:50
+# YSE 494 [347 9] 17 min 
+
+### 04:50
+ELAIS-DDF [8, -43] 1h
+
+### 05:50
+YSE 296 [17 -17] 14 min 
+#YSE 448 [16 3] 17 min 
+
+### 06:04
+YSE 2022jli [8.6862 -8.3033] 6 min ##DROP IF NO TIME
+YSE 550 [4 18] 17 min
+
+### 06:25 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

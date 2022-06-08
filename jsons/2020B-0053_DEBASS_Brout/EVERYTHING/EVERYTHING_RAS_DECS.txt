@@ -1,8 +1,9 @@
 2022kjl_P1 [209 -15]
+2022lkt_P1 [209 3]
 2022lax_P1 [216 -8]
 
 2022kkg_P2 [305 20]
 
 
-EVERYTHING	57.8 minutes
-EVERYTHING_P1	5.7 minutes
+EVERYTHING	57.1 minutes
+EVERYTHING_P1	8.5 minutes

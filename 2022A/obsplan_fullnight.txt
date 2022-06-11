@@ -66,17 +66,13 @@ ELAIS-DDF [8, -43] 1h
 YSE 296 [17 -17] 14 min 
 #YSE 448 [16 3] 17 min 
 
+## 06:00
+DEBASS/STATIC/CS_gi.json [48 -20] (13min)
+
 ### 06:18
 YSE 2022jli [8.6862 -8.3033] 6 min 
 YSE 550 [4 18] 17 min
 
------[48 -20] (13min) ----
-DEBASS/STATIC/CS1_ri.json 
-DEBASS/STATIC/CS2_ri.json
-DEBASS/STATIC/CS3_ri.json
-DEBASS/STATIC/CS4_ri.json
-DEBASS/STATIC/CS5_ri.json
---------------------------
 
 ### 06:25 slew to Asteroid fields
 using morning twilight asteroid script in

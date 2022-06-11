@@ -1,0 +1,51 @@
+MOON ILLUMINATION: 0.98
+UT -16 deg twilight: 2022-06-12T23:05:41.163 2022-06-13T10:20:57.955
+UT -15 deg twilight: 2022-06-12T23:00:49.215 2022-06-13T10:25:50.207
+UT -14 deg twilight: 2022-06-12T22:55:55.934 2022-06-13T10:30:43.346
+UT -12 deg twilight: 2022-06-12T22:46:06.982 2022-06-13T10:40:32.444
+UT -10 deg twilight: 2022-06-12T22:36:13.961 2022-06-13T10:50:25.583
+LOCAL -16 deg twilight: 06/12/2022,   19:05:41   06:20:57
+LOCAL -15 deg twilight: 06/12/2022,   19:00:49   06:25:50
+LOCAL -14 deg twilight: 06/12/2022,   18:55:55   06:30:43
+LOCAL -12 deg twilight: 06/12/2022,   18:46:06   06:40:32
+LOCAL -10 deg twilight: 06/12/2022,   18:36:13   06:50:25
+LOCAL night MIDPOINT: 06/13/2022,   00:43:19
+
+### 02:00
+YSE 376 [224 -8] 8 min 
+YSE 428 [228 -4] 8 min 
+DEBASS/EVERYTHING/2022jut_P1 [241 18] (3min) 
+DEBASS/EVERYTHING/2022kkg_P1 [305 20] (3min) 
+YSE 440 [314 -4] 17 min
+DEBASS/EVERYTHING/2022jmr_P2 [315 -23] (3min)
+
+### 02:45
+DESIRT_320_g (13 min)
+DESIRT_320_rz [~320 6] (38 min)
+DESIRT_320_g (13 min)
+# YSE 544 [321 9] 17 min
+
+### 03:50
+YSE 494 [347 9] 17 min 
+DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
+
+### 04:10
+ELAIS-DDF [8, -43] 1h
+
+*** gap 20 min
+
+### 05:30
+YSE 296 [17 -17] 14 min 
+YSE 448 [16 3] 17 min 
+
+### 6:00
+YSE 550 [4 18] 17 min 
+-----[48 -20] (13min) ----
+DEBASS/STATIC/CS_gi.json [48 -20] (13min)
+--------------------------
+
+### 06:30 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

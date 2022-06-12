@@ -1,10 +1,9 @@
-2022jnr_P1 [226 17]
 2022jut_P1 [241 18]
-2022kkg_P1 [305 20]
 2022mhe_P1 [352 8]
 
+2022kkg_P2 [305 20]
 2022jmr_P2 [315 -23]
 
 
-EVERYTHING	54.5 minutes
-EVERYTHING_P1	13.3 minutes
+EVERYTHING	52.3 minutes
+EVERYTHING_P1	7.2 minutes

@@ -443,9 +443,9 @@ mkdir 20220613
 cp obsplan_fullnight.txt 20220613/20220613_obsplan.txt
 subl 20220613/20220613_obsplan.txt
 git add 20220613/20220613_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f i,z  365  415 418 525 -d 220613
-mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220613
-mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531   -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220613
 mkjson_yse_nofilterswitch.py  -f i   376 428  -d 220613
 mkjson_yse_nofilterswitch.py  -f r   440   -d 220613
 mkjson_yse_nofilterswitch.py  -f g,r   544 494   -d 220613

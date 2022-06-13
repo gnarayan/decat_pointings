@@ -18,8 +18,8 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 ### 18:56
-etale.i.15min.json [160 -60] 15 min
 eFEDS [129,1] [30 min]
+etale.i.15min.json [160 -60] 15 min
 
 ### 19:40
 # YSE 415 [137 2] 17 min 

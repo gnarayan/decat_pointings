@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "r",
         "exptime": 15.0,
         "RA": 315.23942,
-        "dec": -27.68164,
+        "dec": -27.65387,
         "object": "2022mit_P2",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
         "exptime": 15.0,
         "RA": 315.23942,
-        "dec": -27.68164,
+        "dec": -27.65387,
         "object": "2022mit_P2",
         "program": "DECAT",
         "expType": "object",

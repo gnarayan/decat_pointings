@@ -30,6 +30,11 @@ ELAIS-DDF [8, -43] 1h
 YSE 494 [347 9] 17 min 
 DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
 
+### IF EXTRA TIME FROM HERE DO ANY OF THESE:
+## DESIRT_S82_g [~330-340 0] (13 min)
+## DESIRT_S82_r (16 min)
+## DESIRT_S82_r (24 min)
+
 ### 04:40
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min     

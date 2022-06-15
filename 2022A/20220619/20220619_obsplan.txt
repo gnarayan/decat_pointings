@@ -1,0 +1,30 @@
+### 01:55
+YSE 440 [314 -4] 17 min
+YSE 544 [321 9] 17 min
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+DESIRT_320_g [~320 6] (13 min)
+
+### 03:30
+ELAIS-DDF [8, -43] 1h
+YSE 494 [347 9] 8 min 
+DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
+
+### 04:40
+YSE 296 [17 -17] 14 min 
+YSE 448 [16 3] 17 min     
+
+### 05:20
+YSE 550 [4 18] 16 min 
+
+### 05:33
+X123 [34, -4]  35 min   ### cut this one down if necessary
+DEBASS/STATIC/CS_gi.json [48 -20] (13min)
+C3 [52, -28] 11 min
+--------------------------
+
+### 06:32 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

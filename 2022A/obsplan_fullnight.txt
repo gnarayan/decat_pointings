@@ -14,7 +14,7 @@ Script will finish on its own or at -14 deg twilight.
 YSE 415 [137 2] 17 min 
 YSE 365 [147 -9] 17 min 
 
-2019A-0065_SDSSV_Shen/COSMOS.json [150 3] 18 min
+2019A-0065_SDSSV_Shen/COSMOS.json [150 3] 33 min
 
 ### 20:15
 YSE 418 [158 -1] 17 min
@@ -79,3 +79,4 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+YSE 2022jli [7 -8] 3 min 

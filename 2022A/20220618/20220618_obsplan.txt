@@ -14,9 +14,7 @@ LOCAL night MIDPOINT: 06/19/2022,   00:44:35
 ### 01:55
 YSE 440 [314 -4] 8 min
 YSE 544 [321 9] 17 min
-DESIRT_320_g [~320 6] (13 min)
-DESIRT_320_rz [~320 6] (40 min)
-DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_riz [~320 6] (44 min)
 
 ### 03:27
 ELAIS-DDF [8, -43] 1h

@@ -71,6 +71,7 @@ def run(verbose=True):
         dfs.append(tdf)
 
     obsdict = {}
+    debassonlyexpnums = []
     df = pd.concat(dfs)
     for row in df.iterrows():
         r = row[1]
@@ -79,35 +80,39 @@ def run(verbose=True):
             ra = r['ra']
             dec = r['dec']
             if not snid in obsdict.keys():
-                obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
+                obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[], 'objects':[]}
             #print(snid,r['date'])
             obsdict[snid]['dates'].append(r['date'])
             obsdict[snid]['expnums'].append(r['expnum'])
             obsdict[snid]['filts'].append(r['filt'])
             obsdict[snid]['teffs'].append(r['teff'])
             obsdict[snid]['datestrfs'].append(r['datestrf'])
+            obsdict[snid]['objects'].append(r['object'])
+            debassonlyexpnums.append(r['expnum'])
         elif str(r['object']) in ysedict.keys():
             snid = ysedict[r['object']]
             ra = r['ra']
             dec = r['dec']
             if not snid in obsdict.keys():
-                obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
+                obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[], 'objects':[]}
             obsdict[snid]['dates'].append(r['date'])
             obsdict[snid]['expnums'].append(r['expnum'])
             obsdict[snid]['filts'].append(r['filt'])
             obsdict[snid]['teffs'].append(r['teff'])
             obsdict[snid]['datestrfs'].append(r['datestrf'])
+            obsdict[snid]['objects'].append(r['object'])
         elif str(r['object']) in ysedict2.keys():
             snid = ysedict2[r['object']]
             ra = r['ra']
             dec = r['dec']
             if not snid in obsdict.keys():
-                obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[]}
+                obsdict[snid] = {'dates':[],'expnums':[],'filts':[],'ra':ra,'dec':dec,'datestrfs':[],'teffs':[], 'objects':[]}
             obsdict[snid]['dates'].append(r['date'])
             obsdict[snid]['expnums'].append(r['expnum'])
             obsdict[snid]['filts'].append(r['filt'])
             obsdict[snid]['teffs'].append(r['teff'])
             obsdict[snid]['datestrfs'].append(r['datestrf'])
+            obsdict[snid]['objects'].append(r['object'])
 
     if verbose: print('-'*25)
     cnt = 0
@@ -165,11 +170,17 @@ def run(verbose=True):
     for k,v in obsdict.items():
         if k in ignore: continue
         #print(v['expnums'])
+        #for e,o in zip(v['expnums'],v['objects']):   
         allexps.extend(v['expnums'])
     allexps = np.unique(allexps)
 
-    fout = open('debass/debass_allexpnums.txt','w')
+    fout = open('debass/combined_expnums.txt','w')
     for exp in allexps:
+        fout.write(str(exp)+'\n')
+    fout.close()
+
+    fout = open('debass/debass_expnums.txt','w')
+    for exp in np.unique(debassonlyexpnums):
         fout.write(str(exp)+'\n')
     fout.close()
 

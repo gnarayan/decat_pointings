@@ -1,25 +1,34 @@
 ### 01:55
+DEBASS/EVERYTHING/2022mvc_P1 [232 7]
+DEBASS/EVERYTHING/2022mvb_P1 [239 -6]
+DEBASS/EVERYTHING/2022kkg_P2 [305 20]
 YSE 440 [314 -4] 17 min
+DEBASS/EVERYTHING/2022jmr_P2 [315 -23]
 YSE 544 [321 9] 17 min
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
 DESIRT_320_g [~320 6] (13 min)
 
-### 03:30
+### 03:50
 ELAIS-DDF [8, -43] 1h
 YSE 494 [347 9] 8 min 
-DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
 
-### 04:40
+### 05:00
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min     
 
-### 05:20
+### 05:30
 YSE 550 [4 18] 16 min 
 
-### 05:33
-X123 [34, -4]  35 min   ### cut this one down if necessary
-DEBASS/STATIC/CS_gi.json [48 -20] (13min)
+### 05:46
+X123 [34, -4]  35 min   ### cut this one down if necessary to get to DEBASS at 5:55am
+
+### 05:55
+DEBASS/EVERYTHING/CS5_P2 [46 -20] (3min)
+DEBASS/EVERYTHING/CS3_P2 [48 -18] (3min)
+DEBASS/EVERYTHING/CS2_P2 [48 -22] (3min)
+DEBASS/EVERYTHING/CS1_P2 [48 -20] (3min)
+DEBASS/EVERYTHING/CS4_P2 [50 -20] (3min)
 C3 [52, -28] 11 min
 --------------------------
 

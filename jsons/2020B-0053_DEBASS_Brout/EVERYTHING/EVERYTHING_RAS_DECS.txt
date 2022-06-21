@@ -1,14 +1,13 @@
-2022mvc_P1 [232 7]
+CS1_P1 [48 -20]
 2022mvb_P1 [239 -6]
+2022kkg_P1 [305 20]
+2022jmr_P1 [315 -23]
 
 CS2_P2 [48 -22]
-CS1_P2 [48 -20]
 CS4_P2 [50 -20]
 CS5_P2 [46 -20]
 CS3_P2 [48 -18]
-2022kkg_P2 [305 20]
-2022jmr_P2 [315 -23]
 
 
-EVERYTHING	92.3 minutes
-EVERYTHING_P1	9.2 minutes
+EVERYTHING	90.6 minutes
+EVERYTHING_P1	17.5 minutes

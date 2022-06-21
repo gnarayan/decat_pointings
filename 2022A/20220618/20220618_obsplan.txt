@@ -12,27 +12,35 @@ LOCAL -10 deg twilight: 06/18/2022,   18:36:58   06:52:11
 LOCAL night MIDPOINT: 06/19/2022,   00:44:35
 
 ### 01:55
+DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (3min)
+DEBASS/EVERYTHING/2022kkg_P1 [305 20] (3min)
 YSE 440 [314 -4] 8 min
 YSE 544 [321 9] 17 min
 DESIRT_320_riz [~320 6] (44 min)
 
-### 03:27
+### 03:15
 ELAIS-DDF [8, -43] 1h
 YSE 494 [347 9] 8 min ### cut this one down if necessary, close to Moon
-DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
+DEBASS/EVERYTHING/2022mxv_P1 [357 20] (3min)
 
-### 04:40
+### 04:25
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min     
 
-### 05:10
+### 05:00
 YSE 550 [4 18] 16 min 
 
-*** 7 min gap
-
-### 05:33
+### 05:15
+DEBASS/EVERYTHING/2022mjk_P1 [22 2] (3min)
 X123 [34, -4]  35 min
-DEBASS/STATIC/CS_gi.json [48 -20] (13min)
+
+### 05:55
+DEBASS/EVERYTHING/CS2_P1 [48 -22] (3min)
+DEBASS/EVERYTHING/CS1_P1 [48 -20] (3min)
+DEBASS/EVERYTHING/CS4_P1 [50 -20] (3min)
+DEBASS/EVERYTHING/CS5_P1 [46 -20] (3min)
+DEBASS/EVERYTHING/CS3_P1 [48 -18] (3min)
+
 C3 [52, -28] 11 min  ### cut this one down if necessary
 --------------------------
 

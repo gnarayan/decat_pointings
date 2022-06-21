@@ -12,6 +12,8 @@ LOCAL -10 deg twilight: 06/17/2022,   18:36:48   06:51:56
 LOCAL night MIDPOINT: 06/18/2022,   00:44:22
 
 ### 01:55
+DEBASS/EVERYTHING/2022mvc_P2 [232 7] (3min)
+DEBASS/EVERYTHING/2022kkg_P1 [305 20] (3min)
 YSE 544 [321 9] 17 min
 DESIRT_320_z [~320 6](23 min)
 DESIRT_S82_rz [~330-340 0]  (40 min)
@@ -19,7 +21,8 @@ DESIRT_S82_rz [~330-340 0]  (40 min)
 ### 03:20
 ELAIS-DDF [8, -43] 1h
 YSE 494 [347 9] 17 min ### cut this one down if necessary (remove i), close to Moon
-DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min)
+DEBASS/EVERYTHING/2022mhe_P2 [352 8] (3min)
+DEBASS/EVERYTHING/2022mop_P2 [352 -3] (3min)
 
 ### 04:40
 YSE 296 [17 -17] 14 min 
@@ -30,8 +33,11 @@ YSE 550 [4 18] 16 min ### skip some of the exposure if necessary
 
 ### 05:33
 X123 [34, -4]  35 min
-DEBASS/STATIC/CS_gi.json [48 -20] (13min)
-C3 [52, -28] 11 min ### high priority since not observed on 06/15
+DEBASS/EVERYTHING/CS2_P2 [48 -22] (3min)
+DEBASS/EVERYTHING/CS1_P2 [48 -20] (3min)
+DEBASS/EVERYTHING/CS4_P2 [50 -20] (3min)
+DEBASS/EVERYTHING/CS5_P2 [46 -20] (3min)
+DEBASS/EVERYTHING/CS3_P2 [48 -18] (3min)
 --------------------------
 
 ### 06:32 slew to Asteroid fields

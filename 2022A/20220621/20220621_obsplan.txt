@@ -86,8 +86,10 @@ ELAIS-DDF [8, -43] 1h
 YSE 296 [17 -17] 14 min 
 ### YSE 448 [16 3] 17 min too close to Moon
 
+*** 8 min gap ***
+
 ### 05:24
-YSE 550 [4 18] 8 min  ### SKIP IF RUNNING BEHIND since close to Moon!
+YSE 550 [4 18] 17 min  ### SKIP IF RUNNING BEHIND since close to Moon!
 DEBASS/EVERYTHING/2022nah_P1 [11 -21] (3min)
 
 ### 05:35

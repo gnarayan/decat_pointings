@@ -28,7 +28,7 @@ YSE 365 [147 -9] 17 min
 
 ### 20:20
 YSE 418 [158 -1] 17 min
-AT2022cmc [204 33] 19 min # high priority!!! observe before 21:
+AT2022cmc [204 33] 19 min # high priority!!! observe before 21:30
 DEBASS/EVERYTHING/2022hrs_P1 [190 10] (3min)
 YSE 525 [189 10] 33 min
 DEBASS/EVERYTHING/2022kft_P1 [173 -10] (3min)

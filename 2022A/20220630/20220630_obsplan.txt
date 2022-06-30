@@ -108,7 +108,7 @@ DEBASS/EVERYTHING/CS2_P2 [46 -20] (3min)
 DEBASS/EVERYTHING/CS3_P2 [50 -20] (3min) 
 
 ### 06:20
-C3 [52, -28] 11 min
+C3 [52, -28] 11 min   ### Make sure C3 is observed, rather cut some of the previous observations
 
 
 ### 06:33 slew to Asteroid fields

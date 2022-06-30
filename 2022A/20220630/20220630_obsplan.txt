@@ -41,16 +41,16 @@ YSE 423 [193 -2] 17 min # SKIP IF RUNNING BEHIND
 ### 21:47
 DESIRT_190_gz [~195 7] (38 min)
 DESIRT_190_g (13 min)
-DESIRT_TN-J1338_gri [204 -19] (7 min)
 DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
 DEBASS/EVERYTHING/2022myp_P1 [205 -25] (3min)
 
-### 22:50
+### 22:44
 YSE 477 [214 3] 17 min 
 DEBASS/EVERYTHING/2022mzz_P2 [207 22] (3min) SKIP IF RUNNING BEHIND
 
-### 23:05
-DESIRT_G15_gr [~215 -1] (16 min)
+### 23:02
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_rz [~215 -1] (17 min)
 DEBASS/EVERYTHING/2022lax_P2 [216 -8] (3min) SKIP IF RUNNING BEHIND
 
 ### 23:25
@@ -63,32 +63,32 @@ DEBASS/EVERYTHING/2022mya_P2 [261 15] (3min)
 DEBASS/EVERYTHING/2022nag_P1 [271 10] (3min) 
 
 ### 00:05
-DESIRT_220_gr [~220 7] (31 min)
+DESIRT_220_gz [~220 7] (38 min)
 YSE 376 [224 -8] 17 min 
 YSE 428 [228 -4] 17 min 
 DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (3min) 
 
-### 01:12 
+### 01:20 
 DECaPSEast [270 -29] 30 min
 
-### 01:42
+### 01:50
 YSE 440 [314 -4] 17 min
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
 
-### 02:52
+### 03:00
 YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022nbm_P1 [335 5] (3min) 
 
-### 03:12
+### 03:20
 YSE 494 [347 9] 17 min 
 DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min) 
 DEBASS/EVERYTHING/2022mop_P2 [352 -3] (3min) SKIP IF RUNNING BEHIND
 
-### 03:35
+### 03:40
 ELAIS-DDF [8, -43] 1h
 
-### 04:35
+### 04:40
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min 
 
@@ -116,5 +116,7 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_r [~330-340 0] (16 min)
 DESIRT_320_g [~320 6] (13 min)
 YSE 2022jli [7 -8] 3 min 

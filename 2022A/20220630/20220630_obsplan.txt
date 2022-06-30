@@ -1,0 +1,120 @@
+MOON ILLUMINATION: 0.04
+UT -16 deg twilight: 2022-06-30T23:09:39.831 2022-07-01T10:24:30.043
+UT -15 deg twilight: 2022-06-30T23:04:47.395 2022-07-01T10:29:21.991
+UT -14 deg twilight: 2022-06-30T22:59:54.818 2022-07-01T10:34:14.819
+UT -12 deg twilight: 2022-06-30T22:50:06.111 2022-07-01T10:44:03.264
+UT -10 deg twilight: 2022-06-30T22:40:13.352 2022-07-01T10:53:55.711
+LOCAL -16 deg twilight: 06/30/2022,   19:09:39   06:24:30
+LOCAL -15 deg twilight: 06/30/2022,   19:04:47   06:29:21
+LOCAL -14 deg twilight: 06/30/2022,   18:59:54   06:34:14
+LOCAL -12 deg twilight: 06/30/2022,   18:50:06   06:44:03
+LOCAL -10 deg twilight: 06/30/2022,   18:40:13   06:53:55
+LOCAL night MIDPOINT: 07/01/2022,   00:47:04
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### 18:59
+etale.i.15min.json [160 -60] 15 min
+
+### 19:12
+YSE 365 [147 -9] 17 min 
+
+2019A-0065_SDSSV_Shen/COSMOS.json [150 3] 33 min
+
+### 20:05
+YSE 418 [158 -1] 17 min
+DEBASS/EVERYTHING/2022hrs_P1 [190 10] (3min)
+AT2022cmc [204 33] 19 min # high priority, needs to be done before 9:15pm! faint target, so only do if conditions are reasonable (seeing<1.5")
+YSE 525 [189 10] 33 min
+DEBASS/EVERYTHING/2022kft_P1 [173 -10] (3min)
+DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (3min)
+DEBASS/EVERYTHING/2022kck_P1 [189 -14] (3min)
+
+
+### 21:30
+YSE 423 [193 -2] 17 min # SKIP IF RUNNING BEHIND
+
+### 21:47
+DESIRT_190_gz [~195 7] (38 min)
+DESIRT_190_g (13 min)
+DESIRT_TN-J1338_gri [204 -19] (7 min)
+DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
+DEBASS/EVERYTHING/2022myp_P1 [205 -25] (3min)
+
+### 22:50
+YSE 477 [214 3] 17 min 
+DEBASS/EVERYTHING/2022mzz_P2 [207 22] (3min) SKIP IF RUNNING BEHIND
+
+### 23:05
+DESIRT_G15_gr [~215 -1] (16 min)
+DEBASS/EVERYTHING/2022lax_P2 [216 -8] (3min) SKIP IF RUNNING BEHIND
+
+### 23:25
+YSE 583 [236 20] 17 min 
+DEBASS/EVERYTHING/2022niw_P2 [239 19] (3min) SKIP IF RUNNING BEHIND
+YSE 531 [230 10] 17 min 
+DEBASS/EVERYTHING/2022jnr_P2 [226 17] (3min) SKIP IF RUNNING BEHIND
+DEBASS/EVERYTHING/2022jut_P1 [241 18] (3min)
+DEBASS/EVERYTHING/2022mya_P2 [261 15] (3min) 
+DEBASS/EVERYTHING/2022nag_P1 [271 10] (3min) 
+
+### 00:05
+DESIRT_220_gr [~220 7] (31 min)
+YSE 376 [224 -8] 17 min 
+YSE 428 [228 -4] 17 min 
+DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (3min) 
+
+### 01:12 
+DECaPSEast [270 -29] 30 min
+
+### 01:42
+YSE 440 [314 -4] 17 min
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+
+### 02:52
+YSE 544 [321 9] 17 min
+DEBASS/EVERYTHING/2022nbm_P1 [335 5] (3min) 
+
+### 03:12
+YSE 494 [347 9] 17 min 
+DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min) 
+DEBASS/EVERYTHING/2022mop_P2 [352 -3] (3min) SKIP IF RUNNING BEHIND
+
+### 03:35
+ELAIS-DDF [8, -43] 1h
+
+### 04:35
+YSE 296 [17 -17] 14 min 
+YSE 448 [16 3] 17 min 
+
+
+### 05:10
+YSE 550 [4 18] 17 min  ### SKIP IF RUNNING BEHIND 
+DEBASS/EVERYTHING/2022ngd_P1 [16 14] (3min) 
+
+### 05:30
+X123 [34, -4]  35 min 
+
+### 06:05
+DEBASS/EVERYTHING/CS4_P2 [50 -20] (3min)
+DEBASS/EVERYTHING/CS5_P2 [46 -20] (3min)
+DEBASS/EVERYTHING/CS1_P2 [50 -20] (3min) 
+DEBASS/EVERYTHING/CS2_P2 [46 -20] (3min) 
+DEBASS/EVERYTHING/CS3_P2 [50 -20] (3min) 
+
+### 06:20
+C3 [52, -28] 11 min
+
+
+### 06:33 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_320_g [~320 6] (13 min)
+YSE 2022jli [7 -8] 3 min 

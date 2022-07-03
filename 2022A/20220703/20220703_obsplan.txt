@@ -92,7 +92,7 @@ DEBASS/EVERYTHING/CS5_P1 [46 -20] (5min)
 DEBASS/EVERYTHING/CS3_P1 [48 -18] (5min)
 
 ### 05:45
-****  GAP!!  30 min # CAN REPEAT DEBASS C12345 FIELDS IF NOTHING ELSE TO DO
+****  GAP!!  30 min # CAN REPEAT DEBASS CS12345 FIELDS IF NOTHING ELSE TO DO
 
 ### 06:20
 C3 [52, -28] 11 min   ### Make sure C3 is observed, rather cut some of the previous observations

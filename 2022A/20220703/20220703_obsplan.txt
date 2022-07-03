@@ -11,7 +11,6 @@ LOCAL -12 deg twilight: 07/03/2022,   18:51:11   06:44:04
 LOCAL -10 deg twilight: 07/03/2022,   18:41:19   06:53:55
 LOCAL night MIDPOINT: 07/04/2022,   00:47:38
 
-
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 
 Slew to Asteroid Twilight Fields using 
@@ -23,78 +22,77 @@ Script will finish on its own or at -14 deg twilight.
 
 ### 19:35
 YSE 525 [189 10] 33 min
-DEBASS/EVERYTHING/2022kft_P1 [173 -10] (3min)
-DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (3min)
-DEBASS/EVERYTHING/2022kck_P1 [189 -14] (3min)
 
-### 20:20
+### 20:05
 DESIRT_190_gz [~195 7] (38 min)
 DESIRT_190_g (13 min)
-DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
-DEBASS/EVERYTHING/2022myp_P1 [205 -25] (3min)
+DEBASS/EVERYTHING/2022ocl_P2 [200 0] (4min)
 
-### 21:20
+### 21:00
 YSE hotshit123.json [206 -11] (18 min)  only if conditions are good (seeing<=1.2", clearish skies)
+DEBASS/EVERYTHING/2022myp_P1 [205 -25] (3min)
 YSE 477 [214 3] 17 min 
 
-### 21:55
+### 21:40
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_rz [~215 -1] (17 min)
-DEBASS/EVERYTHING/2022lax_P2 [216 -8] (3min)
 
-### 22:20
+### 22:05
+DEBASS/EVERYTHING/2022jnr_P2 [226 17] (4min)
 YSE 583 [236 20] 17 min 
 YSE 531 [230 10] 17 min 
 DEBASS/EVERYTHING/2022mya_P2 [261 15] (3min) 
 DEBASS/EVERYTHING/2022nag_P1 [271 10] (3min) 
 
-### 23:15
+### 22:50
 DESIRT_220_gz [~220 7] (38 min)
 YSE 376 [224 -8] 17 min  #### start latest at 00:00 ###
 YSE 428 [228 -4] 17 min 
 DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (3min)
 
-### 00:30 
+### 00:10 
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2022nim_P1 [299 -15] (3min)
 
-### 01:05
+### 00:45
 YSE 440 [314 -4] 17 min
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
+DEBASS/EVERYTHING/2022kkg_P2 [305 20] (4min) CAN DROP TO SAVE TIME
 
-### 02:15
+### 02:00
 YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022nbm_P1 [335 5] (3min) 
 
-### 02:35
+### 02:20
+DEBASS/EVERYTHING/2022nrk_P1 [346 8] (4min)
 YSE 494 [347 9] 17 min 
-DEBASS/EVERYTHING/2022mhe_P2 [352 8] (3min) 
+DEBASS/EVERYTHING/2022mhe_P1 [352 8] (3min) 
 
-### 02:55
+### 02:45
 ELAIS-DDF [8, -43] 1h
 YSE 2022jli [7 -8] 5 min 
 
-### 03:55
+### 03:50
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min 
 
 
-### 04:30
+### 04:25
 YSE 550 [4 18] 17 min 
 
-### 04:50
+### 04:45
 X123 [34, -4]  35 min 
 
-### 05:25
-DEBASS/EVERYTHING/CS2_P1 [48 -22] (3min)
-DEBASS/EVERYTHING/CS1_P1 [48 -20] (3min)
-DEBASS/EVERYTHING/CS4_P1 [50 -20] (3min)
-DEBASS/EVERYTHING/CS5_P1 [46 -20] (3min)
-DEBASS/EVERYTHING/CS3_P1 [48 -18] (3min)
+### 05:20
+DEBASS/EVERYTHING/CS2_P1 [48 -22] (5min)
+DEBASS/EVERYTHING/CS1_P1 [48 -20] (5min)
+DEBASS/EVERYTHING/CS4_P1 [50 -20] (5min)
+DEBASS/EVERYTHING/CS5_P1 [46 -20] (5min)
+DEBASS/EVERYTHING/CS3_P1 [48 -18] (5min)
 
-### 05:40
-****  GAP!!!  30 min
+### 05:45
+****  GAP!!  30 min
 
 ### 06:20
 C3 [52, -28] 11 min   ### Make sure C3 is observed, rather cut some of the previous observations

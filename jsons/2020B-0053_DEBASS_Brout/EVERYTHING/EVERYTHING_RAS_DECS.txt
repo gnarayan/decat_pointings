@@ -20,5 +20,5 @@ CS3_P1 [48 -18]
 2022lax_P3 [216 -8]
 2022jut_P3 [241 18]
 
-EVERYTHING	84.7 minutes
-EVERYTHING_P1	36.5 minutes
+EVERYTHING	82.0 minutes
+EVERYTHING_P1	43.1 minutes

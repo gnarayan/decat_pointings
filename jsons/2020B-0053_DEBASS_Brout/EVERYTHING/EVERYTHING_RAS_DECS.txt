@@ -7,13 +7,15 @@ CS3_P1 [48 -18]
 2022myp_P1 [205 -25]
 2022mvb_P1 [239 -6]
 2022nag_P1 [271 10]
+2022ogu_P1 [300 -39]
 2022nim_P1 [299 -15]
 2022nbm_P1 [335 5]
 2022nrk_P1 [346 8]
 
 2022mya_P2 [261 15]
+2022ofp_P2 [340 9]
 2022mhe_P2 [352 8]
 
 
-EVERYTHING	78.0 minutes
-EVERYTHING_P1	40.8 minutes
+EVERYTHING	84.4 minutes
+EVERYTHING_P1	44.4 minutes

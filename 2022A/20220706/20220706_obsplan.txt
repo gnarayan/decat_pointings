@@ -22,79 +22,79 @@ Script will finish on its own or at -14 deg twilight.
 
 ### 19:35
 YSE 525 [189 10] 17 min
-DEBASS/EVERYTHING/2022kft_P1 [173 -10] (3min)
-DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (3min)
-DEBASS/EVERYTHING/2022kck_P1 [189 -14] (3min)
+DEBASS/EVERYTHING/2022oao_P1 [198 21] (3min)
 
-### 20:20
-DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
+### 19:55
 DESIRT_TN-J1338_riz [204 -19] (8 min)
 DEBASS/EVERYTHING/2022myp_P1 [205 -25] (3min)
 
-### 21:20
+### 20:05
 YSE 477 [214 3] 17 min 
 
-### 21:55
+### 20:25
 DESIRT_G15_rz [~215 -1] (17 min)
-DEBASS/EVERYTHING/2022lax_P2 [216 -8] (3min)
 
-### 22:20
+### 21:45
 YSE 583 [236 20] 17 min 
 YSE 531 [230 10] 17 min 
 DEBASS/EVERYTHING/2022mya_P2 [261 15] (3min) 
 DEBASS/EVERYTHING/2022nag_P1 [271 10] (3min) 
 
-### 23:15
+### 22:25
 DESIRT_220_rz [~220 7] (40 min)
 YSE 376 [224 -8] 17 min  #### start latest at 00:00 ###
 YSE 428 [228 -4] 17 min 
 DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (3min)
 
-### 00:30 
+### 23:45 
 DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2022ogu_P1 [300 -39] (3min)
 DEBASS/EVERYTHING/2022nim_P1 [299 -15] (3min)
 
-### 01:05
+### 00:20
 YSE 440 [314 -4] 17 min
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
 DESIRT_320_g [~320 6] (13 min) # IF THERE IS EXTRA TIME
 
-### 02:15
+### 01:30
 YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022nbm_P1 [335 5] (3min) 
 
+### 01:50
 DESIRT_S82_g [~330-340 0] (13 min)
 DESIRT_S82_rz (40 min)
 DESIRT_S82_g  (13 min) # IF THERE IS EXTRA TIME
 
-### 02:35
+### 02:45
+DEBASS/EVERYTHING/2022ofp_P2 [340 9] (3min)
+DEBASS/EVERYTHING/2022nrk_P1 [346 8] (3min)
 YSE 494 [347 9] 17 min 
 DEBASS/EVERYTHING/2022mhe_P2 [352 8] (3min) 
 
-### 02:55
+### 03:15
 ELAIS-DDF [8, -43] 1h
 YSE 2022jli [7 -8] 5 min 
 
-### 03:55
+### 04:20
 YSE 296 [17 -17] 14 min 
 YSE 448 [16 3] 17 min 
 
 
-### 04:30
+### 04:55
 YSE 550 [4 18] 17 min 
 
-### 04:50
+### 05:15
 X123 [34, -4]  35 min 
 
-### 05:25
+### 05:50
+DEBASS/EVERYTHING/CS5_P1 [46 -20] (3min) 
+DEBASS/EVERYTHING/CS3_P1 [48 -18] (3min)
 DEBASS/EVERYTHING/CS2_P1 [48 -22] (3min)
 DEBASS/EVERYTHING/CS1_P1 [48 -20] (3min)
 DEBASS/EVERYTHING/CS4_P1 [50 -20] (3min)
-DEBASS/EVERYTHING/CS5_P1 [46 -20] (3min)
-DEBASS/EVERYTHING/CS3_P1 [48 -18] (3min)
 
-### 06:20
+### 06:10
 C3 [52, -28] 11 min   ### Make sure C3 is observed, rather cut some of the previous observations
 
 

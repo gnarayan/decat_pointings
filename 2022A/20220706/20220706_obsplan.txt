@@ -21,7 +21,7 @@ Script will finish on its own or at -14 deg twilight.
 2019A-0065_SDSSV_Shen/COSMOS.json [150 3] 33 min
 
 ### 19:35
-YSE 525 [189 10] 33 min
+YSE 525 [189 10] 17 min
 DEBASS/EVERYTHING/2022kft_P1 [173 -10] (3min)
 DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (3min)
 DEBASS/EVERYTHING/2022kck_P1 [189 -14] (3min)

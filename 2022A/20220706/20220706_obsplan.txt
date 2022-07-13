@@ -52,10 +52,10 @@ DEBASS/EVERYTHING/2022ogu_P1 [300 -39] (3min)
 DEBASS/EVERYTHING/2022nim_P1 [299 -15] (3min)
 
 ### 00:20
-YSE 440 [314 -4] 17 min
+####   YSE 440 [314 -4] 8 min  **** if there is extra time, do this field
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
-DESIRT_320_g [~320 6] (13 min) # IF THERE IS EXTRA TIME
+DESIRT_320_g [~320 6] (13 min) # *********** if you are behind, cut here!!!!!
 
 ### 01:30
 YSE 544 [321 9] 17 min

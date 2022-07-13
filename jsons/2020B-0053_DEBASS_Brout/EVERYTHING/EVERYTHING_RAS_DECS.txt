@@ -1,3 +1,4 @@
+2022ooq_P1 [16 0]
 CS2_P1 [48 -22]
 CS1_P1 [48 -20]
 CS4_P1 [50 -20]
@@ -10,6 +11,8 @@ CS3_P1 [48 -18]
 2022mvb_P1 [239 -6]
 2022nag_P1 [271 10]
 2022ogu_P1 [300 -39]
+2022osg_P1 [306 -2]
+2022oru_P1 [337 -9]
 2022nbm_P1 [335 5]
 2022nrk_P1 [346 8]
 
@@ -19,5 +22,5 @@ CS3_P1 [48 -18]
 2022mhe_P2 [352 8]
 
 
-EVERYTHING	75.6 minutes
-EVERYTHING_P1	53.2 minutes
+EVERYTHING	84.5 minutes
+EVERYTHING_P1	62.1 minutes

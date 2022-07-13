@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.52
-UT -16 deg twilight: 2022-07-06T23:11:51.394 2022-07-07T10:24:25.199
-UT -15 deg twilight: 2022-07-06T23:07:00.297 2022-07-07T10:29:16.131
-UT -14 deg twilight: 2022-07-06T23:02:08.306 2022-07-07T10:34:07.912
-UT -12 deg twilight: 2022-07-06T22:52:21.647 2022-07-07T10:43:54.172
-UT -10 deg twilight: 2022-07-06T22:42:31.083 2022-07-07T10:53:44.305
-LOCAL -16 deg twilight: 07/06/2022,   19:11:51   06:24:25
-LOCAL -15 deg twilight: 07/06/2022,   19:07:00   06:29:16
-LOCAL -14 deg twilight: 07/06/2022,   19:02:08   06:34:07
-LOCAL -12 deg twilight: 07/06/2022,   18:52:21   06:43:54
-LOCAL -10 deg twilight: 07/06/2022,   18:42:31   06:53:44
-LOCAL night MIDPOINT: 07/07/2022,   00:48:08
+MOON ILLUMINATION: 0.99
+UT -16 deg twilight: 2022-07-13T23:14:45.389 2022-07-14T10:23:22.710
+UT -15 deg twilight: 2022-07-13T23:09:56.158 2022-07-14T10:28:11.971
+UT -14 deg twilight: 2022-07-13T23:05:05.542 2022-07-14T10:33:02.027
+UT -12 deg twilight: 2022-07-13T22:55:22.338 2022-07-14T10:42:44.676
+UT -10 deg twilight: 2022-07-13T22:45:35.462 2022-07-14T10:52:30.974
+LOCAL -16 deg twilight: 07/13/2022,   19:14:45   06:23:22
+LOCAL -15 deg twilight: 07/13/2022,   19:09:56   06:28:11
+LOCAL -14 deg twilight: 07/13/2022,   19:05:05   06:33:02
+LOCAL -12 deg twilight: 07/13/2022,   18:55:22   06:42:44
+LOCAL -10 deg twilight: 07/13/2022,   18:45:35   06:52:30
+LOCAL night MIDPOINT: 07/14/2022,   00:49:04
 
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 
@@ -17,10 +17,9 @@ Slew to Asteroid Twilight Fields using
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-### 19:02
-2019A-0065_SDSSV_Shen/COSMOS.json [150 3] 33 min
+### 19:05
+etale.i.15min.json [160 -60] 15 min
 
-### 19:35
 YSE 525 [189 10] 17 min
 DEBASS/EVERYTHING/2022oao_P1 [198 21] (3min)
 

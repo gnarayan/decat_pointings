@@ -12,10 +12,12 @@ CS3_P1 [48 -18]
 2022nbm_P1 [335 5]
 2022nrk_P1 [346 8]
 
+2022kjl_P2 [209 -15]
+2022lax_P2 [216 -8]
 2022mya_P2 [261 15]
 2022ofp_P2 [340 9]
 2022mhe_P2 [352 8]
 
 
-EVERYTHING	84.4 minutes
-EVERYTHING_P1	44.4 minutes
+EVERYTHING	77.1 minutes
+EVERYTHING_P1	50.5 minutes

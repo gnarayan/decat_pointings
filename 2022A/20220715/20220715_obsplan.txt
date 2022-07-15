@@ -22,51 +22,51 @@ etale.i.15min.json [160 -60] 15 min
 
 YSE 525 [189 10] 34 min
 DEBASS/EVERYTHING/2022oao_P1 [198 21] (3min)
-DESIRT_190_g [~195 7] (13 min) 
 DEBASS/EVERYTHING/2022ocl_P1 [200 0] (3min)
 DEBASS/EVERYTHING/2022ogt_P1 [202 -10] (3min)
 
-### 20:20
+### 20:10
 DEBASS/EVERYTHING/2022myp_P1 [205 -25] (3min)
 DEBASS/EVERYTHING/2022kjl_P2 [209 -15]  (3min) OPTIONAL IF EXTRA TIME
 YSE 477 [214 3] 17 min 
 
-### 20:40
+### 20:30
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_rz [~215 -1] (17 min)
+DESIRT_G15_g [~215 -1] (6 min)
 DEBASS/EVERYTHING/2022lax_P2 [216 -8]  (3min) OPTIONAL IF EXTRA TIME
 
-### 22:05
+### 22:00
 YSE 583 [236 20] 17 min 
 YSE 531 [230 10] 17 min 
-DEBASS/EVERYTHING/2022mya_P2 [261 15] (3min) OPTIONAL IF EXTRA TIME
-DEBASS/EVERYTHING/2022nag_P1 [271 10] (3min) 
 
-### 22:40
-DESIRT_220_gz [~220 7] (38 min)
+### 22:34
+DESIRT_220_g [~220 7] (13 min) ### start by 22:40 to avoid hitting telescope limit
+DESIRT_220_rz [~220 7] (40 min)
+DESIRT_220_g [~220 7] (13 min) OPTIONAL IF EXTRA TIME
 YSE 376 [224 -8] 17 min  #### start latest at 00:00 ###
 YSE 428 [228 -4] 17 min 
 DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (3min)
+DEBASS/EVERYTHING/2022mya_P2 [261 15] (3min) OPTIONAL IF EXTRA TIME
+DEBASS/EVERYTHING/2022nag_P1 [271 10] (3min) 
 
-### 00:00 
+### 00:07 
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2022ogu_P1 [300 -39] (3min)
 DEBASS/EVERYTHING/2022osg_P1 [306 -2] (3min)
 
-### 00:35
+### 00:43
 ####   YSE 440 [314 -4] 8 min  **** if there is extra time, do this field
-DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
-DESIRT_320_g [~320 6] (13 min) # *********** if you are behind, cut here!!!!!
+### likely 13 mins here
 
 ### 01:45
 YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022nbm_P1 [335 5] (3min) 
 
 ### 02:05
-DESIRT_S82_g [~330-340 0] (13 min)
 DESIRT_S82_rz (40 min)
-#### ONLY IF THERE IS EXTRA TIME!!! DESIRT_S82_g  (13 min) 
+### likely 13 free mins here
 
 ### 03:00
 DEBASS/EVERYTHING/2022oru_P1 [337 -9] (3min)

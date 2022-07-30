@@ -3,15 +3,13 @@ CS1_P1 [48 -20]
 CS4_P1 [50 -20]
 CS5_P1 [46 -20]
 CS3_P1 [48 -18]
-2022oao_P1 [198 21]
 2022myp_P1 [205 -25]
 2022pmq_P1 [237 -20]
 2022mvb_P1 [239 -6]
 2022nag_P1 [271 10]
-2022ogu_P1 [300 -39]
 2022nim_P1 [299 -15]
-2022pag_P1 [326 -7]
 2022nbm_P1 [335 5]
+2022nrk_P1 [346 8]
 2022pdq_P1 [355 -9]
 
 2022mya_P2 [261 15]
@@ -19,7 +17,6 @@ CS3_P1 [48 -18]
 
 2022kjl_P3 [209 -15]
 2022lax_P3 [216 -8]
-2022nrk_P3 [346 8]
 
-EVERYTHING	133.1 minutes
-EVERYTHING_P1	88.7 minutes
+EVERYTHING	101.5 minutes
+EVERYTHING_P1	56.5 minutes

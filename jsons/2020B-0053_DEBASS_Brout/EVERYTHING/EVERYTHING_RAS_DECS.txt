@@ -1,3 +1,4 @@
+2022ppj_P1 [11 20]
 CS2_P1 [48 -22]
 CS1_P1 [48 -20]
 CS4_P1 [50 -20]
@@ -8,6 +9,7 @@ CS3_P1 [48 -18]
 2022mvb_P1 [239 -6]
 2022nag_P1 [271 10]
 2022nim_P1 [299 -15]
+2022pux_P1 [319 23]
 2022nbm_P1 [335 5]
 2022nrk_P1 [346 8]
 2022pdq_P1 [355 -9]
@@ -18,5 +20,5 @@ CS3_P1 [48 -18]
 2022kjl_P3 [209 -15]
 2022lax_P3 [216 -8]
 
-EVERYTHING	101.5 minutes
-EVERYTHING_P1	56.5 minutes
+EVERYTHING	109.6 minutes
+EVERYTHING_P1	63.2 minutes

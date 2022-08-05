@@ -1,0 +1,131 @@
+MOON ILLUMINATION: 0.27
+UT -16 deg twilight: 2022-08-02T23:24:07.360 2022-08-03T10:14:39.044
+UT -15 deg twilight: 2022-08-02T23:19:24.105 2022-08-03T10:19:22.162
+UT -14 deg twilight: 2022-08-02T23:14:39.813 2022-08-03T10:24:05.829
+UT -12 deg twilight: 2022-08-02T23:05:09.897 2022-08-03T10:33:34.933
+UT -10 deg twilight: 2022-08-02T22:55:37.352 2022-08-03T10:43:06.614
+LOCAL -16 deg twilight: 08/02/2022,   19:24:07   06:14:39
+LOCAL -15 deg twilight: 08/02/2022,   19:19:24   06:19:22
+LOCAL -14 deg twilight: 08/02/2022,   19:14:39   06:24:05
+LOCAL -12 deg twilight: 08/02/2022,   19:05:09   06:33:34
+LOCAL -10 deg twilight: 08/02/2022,   18:55:37   06:43:06
+LOCAL night MIDPOINT: 08/03/2022,   00:49:23
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+### 18:53
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### 19:14
+etale.g.30min.json [160 -60] 30 min
+
+## YSE 525 [189 10] 34 #### SKIP, too close to the Moon
+
+### 19:45
+DEBASS/EVERYTHING/2022myp_P1 [205 -25] (4min)
+YSE 477 [214 3] 17 min 
+
+### 20:05
+DESIRT_G15_g [~215 -1] (6 min)
+#### IF EXTRA TIME DESIRT_G15_rz [~215 -1] (17 min) ### This is getting to high airmass!
+
+### 20:10
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 20:45
+YSE 428 [228 -4] 17 min 
+YSE 376 [224 -8] 17 min  #### start latest at 00:00 ###
+DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (4min)
+DEBASS/EVERYTHING/2022pmq_P1 [237 -20]
+DEBASS/EVERYTHING/2022mya_P2 [261 15] (4min) OPTIONAL IF EXTRA TIME
+DEBASS/EVERYTHING/2022nag_P1 [271 10] (4min) 
+
+### 21:40 
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2022nim_P1 [299 -15]
+
+### 22:10
+YSE 440 [314 -4] 16 min  
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+mjd 59797, date 20220805, Site CTIO, UT-offset 4 hr
+Current local time 18:46 -04     UT 22:46     SidTim 15:01
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     18:20 -04  22:20 UT   14:34  218 deg  
+Eve. -10   18:56 -04  22:56 UT   15:11  228 deg  Zeropoint; standards
+Eve. -14   19:15 -04  23:15 UT   15:30  232 deg  Begin obstac
+Eve. -18   19:34 -04  23:34 UT   15:49  237 deg  Last chance standards
+Midpoint   00:49 -04  04:49 UT   21:03  316 deg  
+Moonset    01:54 -04  05:54 UT   22:09  332 deg  
+Morn -18   06:04 -04  10:04 UT   02:18   34 deg  Begin astronomical twilight
+Morn -14   06:22 -04  10:22 UT   02:36   39 deg  End obstac; begin standards
+Morn -10   06:42 -04  10:42 UT   02:56   44 deg  
+Sunrise    07:18 -04  11:18 UT   03:32   53 deg  
+Moon position (deg): RA 229.7, Dec -18.5 Phase: 0.509
+
+
+#00:49
+DEBASS/EVERYTHING/2022qpp_P1 [292 -34]
+DEBASS/EVERYTHING/2022nim_P1 [299 -15]
+DEBASS/EVERYTHING/2022qbp_P1 [305 -14]
+DEBASS/EVERYTHING/2022qku_P1 [321 -6]
+
+#01:10
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_r [~320 6] (17 min)
+#IF EXTRA TIME DESIRT_320_z [~320 6] (23 min) and/or DESIRT_320_g  (13 min)
+
+#01:40
+YSE 544 [321 9] 17 min
+DEBASS/EVERYTHING/2022pux_P1 [319 23]
+
+DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_r (17 min)
+#IF EXTRA TIME DESIRT_S82_z  (23 min) and/or DESIRT_S82_g (13 min)
+
+#02:35
+DEBASS/EVERYTHING/2022nrk_P1 [346 8]
+YSE 494 [347 9] 17 min 
+
+DESIRT_S82_2_r [~346-3 0] (17 min)
+#IF EXTRA TIME DESIRT_S82_2_g  (13 min) and/or DESIRT_S82_2_z (23 min)
+
+DEBASS/EVERYTHING/2022pdq_P1 [355 -9]
+
+#03:20
+ELAIS-DDF seqA&B [8, -43] 1h
+
+YSE 2022jli [7 -8] 5 min 
+
+### 04:25
+YSE 296 [17 -17] 14 min 
+YSE 448 [16 3] 17 min 
+
+### 04:50
+YSE 550 [4 18] 17 min 
+DEBASS/EVERYTHING/2022ppj_P1 [11 20]
+
+### 05:15
+S12 [42 0]  22 min 
+
+### 05:40
+DEBASS/EVERYTHING/CS5_P1 [46 -20] (3min) 
+DEBASS/EVERYTHING/CS3_P1 [48 -18] (3min)
+DEBASS/EVERYTHING/CS2_P1 [48 -22] (3min)
+DEBASS/EVERYTHING/CS1_P1 [48 -20] (3min)
+DEBASS/EVERYTHING/CS4_P1 [50 -20] (3min)
+
+### 06:00
+C3 [52, -28] 11 min   ### Make sure C3 is observed, rather cut some of the previous observations (X123 or YSE 550)
+
+(10min gap)
+
+### 06:22 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+X123

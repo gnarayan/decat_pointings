@@ -48,7 +48,7 @@ DEBASS/EVERYTHING/2022nim_P1 [299 -15]
 YSE 440 [314 -4] 16 min  
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min)
-DESIRT_320_g [~320 6] (13 min)   ### skip if necessary!!
+DESIRT_320_g [~320 6] (13 min)   OPTIONAL IF EXTRA TIME
 DEBASS/EVERYTHING/2022pux_P1 [319 23]
 
 ### 23:30

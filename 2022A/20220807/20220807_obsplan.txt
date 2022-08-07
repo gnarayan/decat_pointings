@@ -1,0 +1,63 @@
+MOON ILLUMINATION: 0.80
+UT -16 deg twilight: 2022-08-07T23:26:32.533 2022-08-08T10:11:09.089
+UT -15 deg twilight: 2022-08-07T23:21:50.503 2022-08-08T10:15:50.723
+UT -14 deg twilight: 2022-08-07T23:17:08.080 2022-08-08T10:20:32.832
+UT -12 deg twilight: 2022-08-07T23:07:41.567 2022-08-08T10:29:58.586
+UT -10 deg twilight: 2022-08-07T22:58:12.747 2022-08-08T10:39:26.594
+LOCAL -16 deg twilight: 08/07/2022,   19:26:32   06:11:09
+LOCAL -15 deg twilight: 08/07/2022,   19:21:50   06:15:50
+LOCAL -14 deg twilight: 08/07/2022,   19:17:08   06:20:32
+LOCAL -12 deg twilight: 08/07/2022,   19:07:41   06:29:58
+LOCAL -10 deg twilight: 08/07/2022,   18:58:12   06:39:26
+LOCAL night MIDPOINT: 08/08/2022,   00:48:50
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+### 18:53
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### 19:17
+etale.i.15min.json [160 -60] 15 min
+
+### 19:32
+DEBASS/EVERYTHING/2022myp_P1 [205 -25] (4min)
+DESIRT_G15_g [~215 -1] (6 min)
+#### DESIRT_G15_rz [~215 -1] (17 min) ### This is getting to high airmass!
+
+### 19:42
+YSE 477 [214 3] 17 min  
+
+### 20:00
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 20:35
+YSE 428 [228 -4] 17 min    ### skip if necessary!!
+YSE 376 [224 -8] 17 min 
+DEBASS/EVERYTHING/2022mvb_P1 [239 -6] (4min)
+DEBASS/EVERYTHING/2022pmq_P1 [237 -20]
+DEBASS/EVERYTHING/2022mya_P2 [261 15] (4min) OPTIONAL IF EXTRA TIME
+DEBASS/EVERYTHING/2022nag_P1 [271 10] (4min) 
+
+### 21:25 
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2022nim_P1 [299 -15]
+
+### 22:00
+YSE 440 [314 -4] 16 min  
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+DESIRT_320_g [~320 6] (13 min)   ### skip if necessary!!
+DEBASS/EVERYTHING/2022pux_P1 [319 23]
+
+### 23:30
+YSE 544 [321 9] 17 min
+DEBASS/EVERYTHING/2022nbm_P1 [335 5] (3min) 
+
+### 23:50
+DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_rz (40 min)
+
+LOCAL night MIDPOINT: 08/08/2022,   00:48:50

@@ -23,8 +23,7 @@ etale.i.15min.json [160 -60] 15 min
 
 ### 19:32
 DEBASS/EVERYTHING/2022myp_P1 [205 -25] (4min)
-DESIRT_G15_g [~215 -1] (6 min)
-#### DESIRT_G15_rz [~215 -1] (17 min) ### This is getting to high airmass!
+#### IF EXTRA TIME DESIRT_G15_rz [~215 -1] (17 min)  - keep an eye on airmass
 
 ### 19:42
 YSE 477 [214 3] 17 min  
@@ -58,6 +57,7 @@ DEBASS/EVERYTHING/2022nbm_P1 [335 5] (3min)
 
 ### 23:50
 DESIRT_S82_g [~330-340 0] (13 min)
-DESIRT_S82_rz (40 min)
+DESIRT_S82_r (17 min)
+DESIRT_S82_z (23 min) OPTIONAL IF EXTRA TIME
 
 LOCAL night MIDPOINT: 08/08/2022,   00:48:50

@@ -17,5 +17,5 @@ CS3_P1 [48 -18]
 2022nbm_P2 [335 5]
 
 
-EVERYTHING	88.9 minutes
-EVERYTHING_P1	62.1 minutes
+EVERYTHING	92.8 minutes
+EVERYTHING_P1	64.7 minutes

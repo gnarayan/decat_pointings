@@ -17,5 +17,5 @@ CS3_P1 [48 -18]
 
 2022ptu_P3 [355 -15]
 
-EVERYTHING	58.9 minutes
-EVERYTHING_P1	37.4 minutes
+EVERYTHING	60.9 minutes
+EVERYTHING_P1	39.4 minutes

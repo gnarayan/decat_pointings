@@ -7,15 +7,15 @@ CS4_P1 [50 -20]
 CS5_P1 [46 -20]
 CS3_P1 [48 -18]
 2022qpp_P1 [292 -34]
+2022qbp_P1 [305 -14]
+2022qku_P1 [321 -6]
+2022qoa_P1 [334 -2]
 2022quf_P1 [350 21]
-2022pdq_P1 [355 -9]
 
-2022qke_P2 [17 -1]
 2022qsp_P2 [41 -21]
 2022qzt_P2 [39 -17]
-2022mvb_P2 [239 -6]
+2022nim_P2 [299 -15]
 
-2022ptu_P3 [355 -15]
 
-EVERYTHING	60.9 minutes
-EVERYTHING_P1	39.4 minutes
+EVERYTHING	71.7 minutes
+EVERYTHING_P1	38.5 minutes

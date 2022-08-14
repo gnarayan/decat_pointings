@@ -1,0 +1,113 @@
+mjd 59806, date 20220814, Site CTIO, UT-offset 4 hr
+Current local time 16:31 -04     UT 20:31     SidTim 13:21
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     18:25 -04  22:25 UT   15:15  229 deg  
+Eve. -10   19:00 -04  23:00 UT   15:51  238 deg  Zeropoint; standards
+Eve. -14   19:19 -04  23:19 UT   16:10  243 deg  Begin obstac
+Eve. -18   19:38 -04  23:38 UT   16:28  247 deg  Last chance standards
+Moonrise   21:20 -04  01:20 UT   18:11  273 deg  
+Midpoint   00:47 -04  04:47 UT   21:38  324 deg  
+Morn -18   05:57 -04  09:57 UT   02:47   42 deg  Begin astronomical twilight
+Morn -14   06:14 -04  10:14 UT   03:04   46 deg  End obstac; begin standards
+Morn -10   06:34 -04  10:34 UT   03:24   51 deg  
+Sunrise    07:10 -04  11:10 UT   04:00   60 deg  
+Moon position (deg): RA 6.2, Dec -0.8 Phase: 0.781
+
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+### 19:00
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### 19:19
+etale.ri.30min.json [160 -60] 30 min # HIGH AIRMASS BUT TRY
+
+### 19:50
+YSE 477 [214 3] 17 min 
+
+### 20:05
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (8 min)
+DESIRT_G15_z [~215 -1] (10 min)
+
+
+### 20:30
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 21:05
+YSE 428 [228 -4] 17 min 
+YSE 376 [224 -8] 17 min  #### start latest at 00:00 ###
+
+### 21:40 
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2022qpp_P1 [292 -34] RUN THIS SCRIPT TWICE. very high priority
+
+### 22:20
+DEBASS/EVERYTHING/2022nim_P2 [299 -15] DROP TO SAVE TIME
+DEBASS/EVERYTHING/2022qbp_P1 [305 -14] REPEAT TO FILL TIME
+YSE 440 [314 -4] 16 min  
+DEBASS/EVERYTHING/2022qku_P1 [321 -6] REPEAT TO FILL TIME
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+
+### 23:45
+YSE 544 [321 9] 17 min
+
+### 00:05
+DESIRT_S82_Aug14_riz [330 0] (13 min)
+DESIRT_S82_g  (13 min) DROP TO SAVE TIME
+DEBASS/EVERYTHING/2022qoa_P1 [334 -2] REPEAT TO FILL TIME
+
+
+### 00:35
+YSE 494 [347 9] 17 min 
+DEBASS/EVERYTHING/2022quf_P1 [350 21] (4min) REPEAT TO FILL TIME
+
+### 01:00
+ELAIS-DDF [8, -43] 1h
+YSE 2022jli [7 -8] 5 min 
+
+### 02:05
+YSE 296 [17 -17] 14 min 
+YSE 448 [16 3] 17 min 
+
+### 02:40
+YSE 550 [4 18] 17 min 
+DEBASS/EVERYTHING/2022ppj_P1 [11 20]  (4min) REPEAT TO FILL TIME
+
+### 03:00
+X123 [34, -4]  35 min 
+
+### 03:35
+DEBASS/EVERYTHING/2022qwx_P1 [30 -20] (4min) REPEAT TO FILL TIME
+DEBASS/EVERYTHING/2022qzt_P2 [39 -17] (4min) DROP TO SAVE TIME
+DEBASS/EVERYTHING/2022qsn_P1 [41 -18] (4min) REPEAT TO FILL TIME
+DEBASS/EVERYTHING/2022qsp_P2 [41 -21] (4min) DROP TO SAVE TIME
+S12 [42,0] 22min
+
+### 04:30
+DEBASS/EVERYTHING/CS5_P1 [46 -20] (4min) 
+DEBASS/EVERYTHING/CS3_P1 [48 -18] (4min)
+DEBASS/EVERYTHING/CS2_P1 [48 -22] (4min)
+DEBASS/EVERYTHING/CS1_P1 [48 -20] (4min)
+DEBASS/EVERYTHING/CS4_P1 [50 -20] (4min)
+
+### 04:50
+DESIRT_50_r [50 -15] (17 min)
+DESIRT_50_i [50 -15] (20 min) REPEAT TO FILL TIME
+DESIRT_50_z [50 -15] (23 min)
+
+### 05:55
+C3 [52, -28] 11 min   ### Make sure C3 is observed, rather cut some of the previous observations (X123 or YSE 550)
+
+### 06:10
+5 MIN GAP
+
+### 06:14 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

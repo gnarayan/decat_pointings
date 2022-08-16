@@ -15,43 +15,40 @@ LOCAL night MIDPOINT: 08/17/2022,   00:47:15
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_r [~320 6] (20 min)
 
-### 01:10
+### 01:20
 YSE hotshitforrealthistime [322 0] 30 min
 
-### 01:40
+### 01:50
 DESIRT_S82_g [~330-340 0] (13 min)
 DESIRT_S82_rz (40 min)
 
-### 02:35
+### 02:45
 ELAIS-DDF [8, -43] 1h
 
-### 03:35
-### YSE 296 [17 -17] 14 min  ### close to Moon
+### 03:45
+### YSE 296 [17 -17] 14 min  
 ### YSE 448 [16 3] 17 min ### too close to Moon
-
-### 02:40
 ### YSE 550 [4 18] 17 min ### close to Moon
 DEBASS/EVERYTHING/2022ppj_P1 [11 20]  (4min) REPEAT TO FILL TIME
 
-### 03:40
+### 03:50
 X123 [34, -4]  35 min ### 15 deg to Moon
+YSE401 [37 0] 17 min  ### drop if necessary!!
 
-### 04:00
+### 04:45
 DEBASS/EVERYTHING/2022qwx_P1 [30 -20] (4min) REPEAT TO FILL TIME
 DEBASS/EVERYTHING/2022qzt_P2 [39 -17] (4min) DROP TO SAVE TIME
 DEBASS/EVERYTHING/2022qsn_P1 [41 -18] (4min) REPEAT TO FILL TIME
 DEBASS/EVERYTHING/2022qsp_P2 [41 -21] (4min) DROP TO SAVE TIME
-S12 [42,0] 22min ### 16 deg to Moon
 
-### 04:40
+### 05:00
 DEBASS/EVERYTHING/CS5_P1 [46 -20] (4min) 
 DEBASS/EVERYTHING/CS3_P1 [48 -18] (4min)
 DEBASS/EVERYTHING/CS2_P1 [48 -22] (4min)
 DEBASS/EVERYTHING/CS1_P1 [48 -20] (4min)
 DEBASS/EVERYTHING/CS4_P1 [50 -20] (4min)
 
-### 05:00
-YSE401 [37 0] 17 min  ### drop if necessary!!
+### 05:20
 S1S2   [42, 0] 22 min
 ### YSE403 [50 -2] 17 min ## too close to Moon
 C3 [52, -28] 11 min   

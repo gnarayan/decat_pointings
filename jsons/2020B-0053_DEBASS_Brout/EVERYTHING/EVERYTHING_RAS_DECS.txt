@@ -11,11 +11,9 @@ CS3_P1 [48 -18]
 2022qku_P1 [321 -6]
 2022qoa_P1 [334 -2]
 2022quf_P1 [350 21]
-
-2022qsp_P2 [41 -21]
-2022qzt_P2 [39 -17]
-2022nim_P2 [299 -15]
+2022pdq_P1 [355 -9]
 
 
-EVERYTHING	71.7 minutes
-EVERYTHING_P1	38.5 minutes
+
+EVERYTHING	89.0 minutes
+EVERYTHING_P1	59.1 minutes

@@ -62,3 +62,8 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_S82_2_r (17 min)
+DESIRT_S82_2_z (23 min)
+DESIRT_50_r (50 -15) (17 min)
+DESIRT_50_i (50 -15) (20 min)
+DESIRT_50_z (50 -15) (23 min)

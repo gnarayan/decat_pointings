@@ -671,6 +671,7 @@ mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 -d 220816
 mkjson_yse_nofilterswitch.py  -f i,z   401 403 353 -d 220816
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220816 -e 15
 mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220816 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220816 -e 270 -n 6
 git add 220816
 git add 220816/*.json
 

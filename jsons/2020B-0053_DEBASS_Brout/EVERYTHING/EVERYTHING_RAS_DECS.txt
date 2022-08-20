@@ -17,7 +17,8 @@ CS3_P1 [48 -18]
 2022pdq_P1 [355 -9]
 2022rid_P1 [357 4]
 
+2022rld_P2 [352 -8]
 
 
-EVERYTHING	96.9 minutes
+EVERYTHING	98.8 minutes
 EVERYTHING_P1	67.4 minutes

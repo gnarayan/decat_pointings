@@ -50,8 +50,7 @@ YSE hotshit0817 [322 0] 30 min
 YSE 544 [321 9] 17 min
 
 ### 23:25
-DESIRT_S82_g [~330-340 0] (13 min)
-DESIRT_S82_rz (40 min)
+DESIRT_S82_grz [~330-340 0] (53 min)
 
 ### 01:10
 DEBASS/EVERYTHING/2022qoa_P1 [334 -2] 4min

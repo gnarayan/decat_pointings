@@ -52,9 +52,6 @@ YSE 544 [321 9] 17 min
 ### 23:25
 DESIRT_S82_g [~330-340 0] (13 min)
 DESIRT_S82_rz (40 min)
-DESIRT_S82_2_g [~346-3 0] (13 min)
-DESIRT_S82_2_r (17 min)
-DESIRT_S82_2_z (23 min)
 
 ### 01:10
 DEBASS/EVERYTHING/2022qoa_P1 [334 -2] 4min
@@ -62,6 +59,7 @@ YSE 494 [347 9] 17 min
 DEBASS/EVERYTHING/2022rid_P1 [357 4] 4min
 DEBASS/EVERYTHING/2022rld_P2 [352 -8] 2min DROP TO SAVE TIME
 DEBASS/EVERYTHING/2022pdq_P1 [355 -9] 4min
+DESIRT_S82_2_grz [~346-3 0] (53 min)
 
 ### 01:40
 elais_ddf_seq_A.json [8, -43] 30 min
@@ -105,3 +103,8 @@ jsons/2021B-0909_Twilight_Sheppard
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
 DESIRT_S82_g [~330-340 0] (13 min)
 DESIRT_S82_2_g [~346-3 0] (13 min)
+DESIRT_50_g [~50 -15] (13 min)
+DESIRT_50_r (17 min)
+DESIRT_50_z (23 min)
+
+

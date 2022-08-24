@@ -40,5 +40,19 @@
         "comment": "CS1",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 48.3,
+        "dec": -20.44,
+        "object": "CS1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "CS1",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

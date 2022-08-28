@@ -26,33 +26,5 @@
         "comment": "CS3",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "i",
-        "exptime": 50.0,
-        "RA": 48.3,
-        "dec": -18.24,
-        "object": "CS3",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "CS3",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 48.3,
-        "dec": -18.24,
-        "object": "CS3",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "CS3",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

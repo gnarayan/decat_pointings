@@ -3,24 +3,18 @@
 2022rnu_P1 [25 -14]
 2022qsn_P1 [41 -18]
 2022rnt_P1 [283 -65]
-2022qpp_P1 [292 -34]
-2022rfn_P1 [287 -16]
-2022qbp_P1 [305 -14]
 2022rky_P1 [319 -8]
 2022qku_P1 [321 -6]
+2022rld_P1 [352 -8]
 2022rso_P1 [351 16]
 
-2022ppj_P2 [11 20]
 2022slp_P2 [115 14]
+2022sum_P2 [269 10]
 2022qoa_P2 [334 -2]
-2022rld_P2 [352 -8]
 2022pdq_P2 [355 -9]
 
-CS2_P3 [48 -22]
-CS1_P3 [48 -20]
-CS4_P3 [50 -20]
-CS5_P3 [46 -20]
-CS3_P3 [48 -18]
+2022ppj_P3 [11 20]
+2022qbp_P3 [305 -14]
 
-EVERYTHING	75.1 minutes
-EVERYTHING_P1	42.9 minutes
+EVERYTHING	81.7 minutes
+EVERYTHING_P1	27.8 minutes

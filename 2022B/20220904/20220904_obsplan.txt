@@ -11,6 +11,7 @@ Morn -10   07:12 -03  10:12 UT   04:25   66 deg
 Sunrise    07:47 -03  10:47 UT   05:00   75 deg  
 Moon position (deg): RA 270.8, Dec -26.8 Phase: 0.58
 
+
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed
 
@@ -26,8 +27,8 @@ YSE 376 [224 -8] 17 min
 
 
 ### 21:21
-DEBASS/EVERYTHING2022sum_P2 [269 10] (3min)
-DEBASS/EVERYTHING2022rnt_P1 [283 -65] 4min
+DEBASS/EVERYTHING2022sum_P2 [269 10] (3min) MEDIUM PRIORITY (can skip [i,z] filters to save time)
+DEBASS/EVERYTHING2022rnt_P1 [283 -65] (4min) HIGH PRIORITY
 
 ### EXTRA TARGETS: Can use time now
 ### If you are running late (even 1h) from here on that is fine 
@@ -35,11 +36,11 @@ DEBASS/EVERYTHING2022rnt_P1 [283 -65] 4min
 ### if observed at prescribed time. We anyway 
 ### have 1 hour of fill-in time at the end that can be skipped
 
-DEBASS/EVERYTHING/2022qbp_P3 [305 -14] 3min 
+DEBASS/EVERYTHING2022qbp_P3 [305 -14] (3min) LOW PRIORITY (can skip)
 YSE 440 [314 -4] 16 min  
 
-DEBASS/EVERYTHING/2022rky_P1 [319 -8] 4min
-DEBASS/EVERYTHING/2022qku_P1 [321 -6] 4min
+DEBASS/EVERYTHING2022rky_P1 [319 -8] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING2022qku_P1 [321 -6] (4min) HIGH PRIORITY
 
 ### 21:45
 DESIRT_320_g [~320 6] (13 min)
@@ -50,15 +51,15 @@ DESIRT_320_rz [~320 6] (40 min)
 YSE 544 [321 9] 17 min
 
 ### 22:55
-DEBASS/EVERYTHING2022qoa_P2 [334 -2] 4min CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING2022qoa_P2 [334 -2] (3min) MEDIUM PRIORITY (can skip [i,z] filters to save time)
 DESIRT_S82_grz [~330-340 0] (53 min)
 
 ### 23:52
 
 YSE 494 [347 9] 17 min 
-DEBASS/EVERYTHING2022rso_P1 [351 16] 4min
-DEBASS/EVERYTHING2022rld_P1 [352 -8] 4min 
-DEBASS/EVERYTHING2022pdq_P2 [355 -9] 3min 
+DEBASS/EVERYTHING2022rso_P1 [351 16] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING2022rld_P1 [352 -8] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING2022pdq_P2 [355 -9] (3min) MEDIUM PRIORITY (can skip [i,z] filters to save time)
 
 DESIRT_S82_2_QSO_grz [~0 0] (55 min)
 
@@ -68,20 +69,20 @@ elais_ddf_seq_B.json [8, -43] 30 min
 
 ### 02:15
 YSE 550 [4 18] 17 min 
-DEBASS/EVERYTHING2022ppj_P3 [11 20] 3min CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING2022ppj_P3 [11 20] (3min) LOW PRIORITY (can skip)
 YSE 448 [16 3] 17 min 
-DEBASS/EVERYTHING/2022qke_P1 [17 -1] 4min
+DEBASS/EVERYTHING2022qke_P1 [17 -1] (4min) HIGH PRIORITY
 YSE 296 [17 -17] 14 min  
-DEBASS/EVERYTHING/2022rnu_P1 [25 -14] 4min
+DEBASS/EVERYTHING2022rnu_P1 [25 -14] (4min) HIGH PRIORITY
 
 ### 03:15
 X123 [34, -4]  35 min 
 YSE401 [37 0] 17 min  
 
 ### 04:07
-DEBASS/EVERYTHING/2022qwx_P1 [30 -20] (4min) 
-DEBASS/EVERYTHING2022ssk_P1 [36 -5] (4min) 
-DEBASS/EVERYTHING/2022qsn_P1 [41 -18] (4min)
+DEBASS/EVERYTHING2022qwx_P1 [30 -20] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING2022ssk_P1 [36 -5] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING2022qsn_P1 [41 -18] (4min) HIGH PRIORITY
 
 ### 04:20
 S1S2   [42, 0] 22 min
@@ -90,7 +91,7 @@ YSE403 [50 -2] 17 min
 ### 05:00
 C3 [52, -28] 11 min   
 YSE353 [63 -10] 17 min
-DEBASS/EVERYTHING2022taw_P2 [76 -10] (3min)
+DEBASS/EVERYTHING2022taw_P2 [76 -10] (3min) MEDIUM PRIORITY (can skip [i,z] filters to save time)
 YSE257 [85 -25] 17 min  
 
 ### 05:48 THESE ARE EXTRA TO FILL IN UNTIL TWILIGHT

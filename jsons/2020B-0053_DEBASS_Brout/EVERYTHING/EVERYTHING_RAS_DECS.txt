@@ -2,6 +2,7 @@
 2022qwx_P1 [30 -20]
 2022rnu_P1 [25 -14]
 2022qsn_P1 [41 -18]
+2022ssk_P1 [36 -5]
 2022rnt_P1 [283 -65]
 2022rky_P1 [319 -8]
 2022qku_P1 [321 -6]
@@ -16,5 +17,5 @@
 2022ppj_P3 [11 20]
 2022qbp_P3 [305 -14]
 
-EVERYTHING	81.7 minutes
-EVERYTHING_P1	27.8 minutes
+EVERYTHING	85.4 minutes
+EVERYTHING_P1	31.1 minutes

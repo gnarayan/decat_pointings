@@ -28,7 +28,14 @@ YSE 376 [224 -8] 17 min
 ### 21:21
 DEBASS/EVERYTHING2022sum_P2 [269 10] (3min)
 DEBASS/EVERYTHING2022rnt_P1 [283 -65] 4min
-DEBASS/EVERYTHING/2022qbp_P3 [305 -14] 3min ### drop if no time
+
+### EXTRA TARGETS: Can use time now
+### If you are running late (even 1h) from here on that is fine 
+### as all the next fields are rising and at not great airmass 
+### if observed at prescribed time. We anyway 
+### have 1 hour of fill-in time at the end that can be skipped
+
+DEBASS/EVERYTHING/2022qbp_P3 [305 -14] 3min 
 YSE 440 [314 -4] 16 min  
 
 DEBASS/EVERYTHING/2022rky_P1 [319 -8] 4min
@@ -45,8 +52,6 @@ YSE 544 [321 9] 17 min
 ### 22:55
 DEBASS/EVERYTHING2022qoa_P2 [334 -2] 4min CAN SKIP TO SAVE TIME
 DESIRT_S82_grz [~330-340 0] (53 min)
-
-
 
 ### 23:52
 

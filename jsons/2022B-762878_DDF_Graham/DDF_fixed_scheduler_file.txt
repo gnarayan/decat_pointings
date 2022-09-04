@@ -29,8 +29,6 @@
 2022-08-28 DECaPSEast-DDF-B 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_B.json 
 2022-09-04 ELAIS-DDF-SEQ-A  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
 2022-09-04 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
-2022-09-04 DECaPSEast-DDF-A 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_A.json 
-2022-09-04 DECaPSEast-DDF-B 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_B.json 
 2022-09-08 ELAIS-DDF-SEQ-A  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
 2022-09-08 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
 2022-09-08 DECaPSEast-DDF-A 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_A.json 

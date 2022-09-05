@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 20.0,
+        "exptime": 30.0,
         "RA": 321.71823,
         "dec": -6.42683,
         "object": "2022qku_P1",
@@ -30,7 +30,21 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 25.0,
+        "exptime": 30.0,
+        "RA": 321.71823,
+        "dec": -6.42683,
+        "object": "2022qku_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2022qku",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 50.0,
         "RA": 321.71823,
         "dec": -6.42683,
         "object": "2022qku_P1",

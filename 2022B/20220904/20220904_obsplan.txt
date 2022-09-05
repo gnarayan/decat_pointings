@@ -95,9 +95,7 @@ DEBASS/EVERYTHING2022taw_P2 [76 -10] (3min) MEDIUM PRIORITY (can skip [i,z] filt
 YSE257 [85 -25] 17 min  
 
 ### 05:48 THESE ARE EXTRA TO FILL IN UNTIL TWILIGHT
-DESIRT_50_g [~50 -15] (13 min)
-DESIRT_50_z (23 min)
-DESIRT_50_r (17 min)
+DESIRT_50_DES_grz [~50 -15] (48 min)
 
 ### 06:52 MAKE SURE YOU SLEW TO ASTEROIDS FIELDS *NOW*
 using morning twilight asteroid script in

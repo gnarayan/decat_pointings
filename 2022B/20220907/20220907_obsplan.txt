@@ -45,7 +45,7 @@ YSE 544 [321 9] 17 min
 
 ### 22:15
 DEBASS/EVERYTHING/2022qoa_P2 [334 -2] (4min) Optional
-DESIRT_S82_iz [~330-345 0] (43 min)
+DESIRT__S82_iz [~330-345 0] (43 min)
 
 **** 10 min extra ***
 
@@ -54,7 +54,7 @@ YSE 494 [347 9] 17 min
 DEBASS/EVERYTHING/2022rso_P2 [351 16] (4min) Optional
 DEBASS/EVERYTHING/2022suc_P1 [346 23] (4min)
 
-DESIRT_S82_2_QSO_rz [~0 0] (42 min)
+DESIRT__S82_2_rz [~0 0] (42 min) # Can do DESIRT__S82_2_riz if there are 17 min extra
 DEBASS/EVERYTHING/2022rld_P1 [352 -8] (4min)
 DEBASS/EVERYTHING/2022ssj_P1 [4 -18]  (4min)
 

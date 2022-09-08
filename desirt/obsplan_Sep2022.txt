@@ -34,9 +34,10 @@ DESIRT_50_r (50 -15) (17 min)
 
 DESIRT_320_iz [~320 6] (43 min) 
 
-DESIRT_S82_2_QSO_iz [~0 0] (43 min)
+DESIRT_S82_2_Sep8_iz [~0 0] (18 min)
 
 DESIRT_50_z (50 -15) (23 min)
+DESIRT_50_i (50 -15) (20 min)
 DESIRT_50_r (50 -15) (17 min)
 DESIRT_50_g (50 -15) (13 min)
 

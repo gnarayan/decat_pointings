@@ -4,11 +4,11 @@ UT -15 deg twilight: 2022-09-08T23:37:39.817 2022-09-09T09:43:23.448
 UT -14 deg twilight: 2022-09-08T23:33:01.963 2022-09-09T09:48:01.054
 UT -12 deg twilight: 2022-09-08T23:23:46.397 2022-09-09T09:57:15.995
 UT -10 deg twilight: 2022-09-08T23:14:30.969 2022-09-09T10:06:30.763
-LOCAL -16 deg twilight: 09/08/2022,   20:42:17   06:38:45
-LOCAL -15 deg twilight: 09/08/2022,   20:37:39   06:43:23
-LOCAL -14 deg twilight: 09/08/2022,   20:33:01   06:48:01
-LOCAL -12 deg twilight: 09/08/2022,   20:23:46   06:57:15
-LOCAL -10 deg twilight: 09/08/2022,   20:14:30   07:06:30
+LOCAL -16 deg twilight: 09/08/2022,   19:42:17   05:38:45
+LOCAL -15 deg twilight: 09/08/2022,   19:37:39   05:43:23
+LOCAL -14 deg twilight: 09/08/2022,   19:33:01   05:48:01
+LOCAL -12 deg twilight: 09/08/2022,   19:23:46   05:57:15
+LOCAL -10 deg twilight: 09/08/2022,   19:14:30   06:06:30
 LOCAL night MIDPOINT: 09/09/2022,   01:40:31
 
 

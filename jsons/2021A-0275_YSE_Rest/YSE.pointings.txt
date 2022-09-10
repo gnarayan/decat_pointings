@@ -226,3 +226,4 @@
          2021afuq   <NA> 156.96432 -43.81500     0       NaN                    NaN    2021afuq      N4          35
           2020pju   <NA>  54.37231 -24.41416     0       NaN                    NaN     2020pju      N4          35
           2020jfo   <NA> 185.45818   4.56867     0       NaN                    NaN     2020jfo      N4          35
+          2022ssk   <NA>  37.36681  -5.76138     0       NaN                    NaN     2022ssk      N4          35

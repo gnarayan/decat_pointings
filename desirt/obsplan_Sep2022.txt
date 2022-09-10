@@ -45,11 +45,22 @@ DESIRT_50_g (50 -15) (13 min)
 ------------Sep 10------------
 
 DESIRT_320_rz [~320 6] (40 min) 
-DESIRT_S82_Sep10_iz [~330 0] 
+DESIRT_S82_Sep10_iz [~330 0]   (26 min)
 
-DESIRT_50_z (50 -15) (23 min)
-DESIRT_50_r (50 -15) (17 min)
-DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_50_i (50 -15) (19 min) ## Can cut if short on time
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_g (50 -15) (12 min)
+
+------------Sep 11------------
+
+DESIRT_320_grz [~320 6] (53 min) 
+DESIRT_S82_Sep11_riz [~330 0]   (40 min)
+
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_g (50 -15) (12 min)
+
 
 ------------Sep 13------------
 

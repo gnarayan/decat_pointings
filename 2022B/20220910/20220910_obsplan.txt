@@ -20,20 +20,23 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 
+
+
 ### 19:34:00
 YSE 428 [228 -4] 17 min  
 YSE 376 [224 -8] 17 min  
-DEBASS/EVERYTHING/2022sum_P1 [269 10] (4min)
 
-### 20:15
+### 20:10
 decapseast_ddf_A.json [270 -29] 15 min
 decapseast_ddf_B.json [270 -29] 15 min
 
-### 20:45
+### 20:40
 DEBASS/EVERYTHING2022rnt_P1 [283 -65] 4min 
-DEBASS/EVERYTHING/2022qpp_P2 [292 -34] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022qpp_P1 [292 -34]  (4min)
 DEBASS/EVERYTHING/2022rfn_P1 [287 -16] 4min
+DEBASS/EVERYTHING/2022qbp_P1 [305 -14]  (4min)
 YSE 440 [314 -4] 16 min 
+DEBASS/EVERYTHING/2022rky_P1 [319 -8]  (4min)
 
 ### 21:15
 DESIRT_320_rz [~320 6] (40 min) 
@@ -43,13 +46,13 @@ YSE 544 [321 9] 17 min
 
 ### 22:15
 DESIRT_S82_Sep10_iz [~330 0]   (26 min)
+DEBASS/EVERYTHING/2022qoa_P2 [334 -2]  (4min) OPTIONAL
 
-### 22:40
+### 22:45
 YSE 494 [347 9] 17 min 
 DEBASS/EVERYTHING/2022rso_P1 [351 16] (4min)
 DEBASS/EVERYTHING/2022suc_P1 [346 23] (4min)
 YSE 2022jli [7 -8] 5 min 
-DEBASS/EVERYTHING/2022ssj_P1 [4 -18]  (4min)
 
 ### 23:15
 elais_ddf_seq_A.json [8, -43] 30 min
@@ -57,11 +60,11 @@ elais_ddf_seq_B.json [8, -43] 30 min
 
 ### 00:15
 YSE 550 [4 18] 17 min 
-DEBASS/EVERYTHING/2022ppj_P2 [11 20] (4min) OPTIONAL 
 YSE 448 [16 3] 17 min ### DROP if necessary, close to Moon!!
 DEBASS/EVERYTHING/2022qke_P1 [17 -1] (4min)
 YSE 296 [17 -17] 14 min  
 DEBASS/EVERYTHING/2022rnu_P1 [25 -14] (4min)
+DEBASS/EVERYTHING/2022tqx_P1 [25 -37]  (4min)
 
 ### 01:15
 X123 [34, -4]  35 min 
@@ -85,7 +88,7 @@ DEBASS/EVERYTHING/2022taw_P1 [76 -10] (4min)
 YSE257 [85 -25] 17 min  
 DEBASS/EVERYTHING/2022trz_P1 [95 -73] (4min)
 
-### 04:05 
+### 04:05
 DESIRT_50_z (50 -15) (20 min)
 DESIRT_50_i (50 -15) (19 min) ## Can cut if short on time
 DESIRT_50_r (50 -15) (15 min)

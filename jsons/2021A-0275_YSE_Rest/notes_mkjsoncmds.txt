@@ -768,6 +768,25 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ssk  -d 220910 -e 35 -n 1
 git add 220910
 git add 220910/*.json
 
+mkdir 20220911
+cp obsplan_fullnight.txt 20220911/20220911_obsplan.txt
+cp 20220910/20220910_obsplan.txt 20220911/20220911_obsplan.txt 
+subl 20220911/20220911_obsplan.txt
+git add 20220911/20220911_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220911
+mkjson_yse_nofilterswitch.py  -f r,i   440 544 494   -d 220911
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 401 -d 220911
+mkjson_yse_nofilterswitch.py  -f r,i   403 353 257 -d 220911
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220911 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220911 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220911 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220911 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2020pju  -d 220911 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ssk  -d 220911 -e 35 -n 1
+git add 220911
+git add 220911/*.json
+
+
 
 mkjson_yse.py  -f g,r,i,z,Y  2022ngb  -d 220621 -e 200,100,100,100,200
 mkjson_yse.py  -f r,i hotshit123 -d 220624 -e 150,150 -n 3

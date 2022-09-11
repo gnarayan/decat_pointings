@@ -1,0 +1,82 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "g",
+"expTime": 100,
+"RA": "54.3723",
+"dec": "-24.4142",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "g",
+"expTime": 100,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "r",
+"expTime": 100,
+"RA": "54.3723",
+"dec": "-24.4142",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "r",
+"expTime": 100,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "i",
+"expTime": 100,
+"RA": "54.3723",
+"dec": "-24.4142",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "i",
+"expTime": 100,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "z",
+"expTime": 100,
+"RA": "54.3723",
+"dec": "-24.4142",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020pju",
+"filter": "z",
+"expTime": 100,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2021A-0275"
+}
+]

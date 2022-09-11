@@ -1,11 +1,11 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
         "RA": 95.38656,
         "dec": -73.95038,
-        "object": "2022trz_P1",
+        "object": "2022trz_P3",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
@@ -19,7 +19,7 @@
         "exptime": 15.0,
         "RA": 95.38656,
         "dec": -73.95038,
-        "object": "2022trz_P1",
+        "object": "2022trz_P3",
         "program": "DECAT",
         "expType": "object",
         "note": "None",

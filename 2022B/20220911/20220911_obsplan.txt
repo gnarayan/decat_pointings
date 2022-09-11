@@ -11,7 +11,6 @@ LOCAL -12 deg twilight: 09/11/2022,   20:25:20   06:53:35
 LOCAL -10 deg twilight: 09/11/2022,   20:16:04   07:02:50
 LOCAL night MIDPOINT: 09/12/2022,   01:39:28
 
-
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed
 
@@ -32,9 +31,13 @@ decapseast_ddf_B.json [270 -29] 15 min
 
 ### 21:45
 DEBASS/EVERYTHING2022rnt_P1 [283 -65] 4min 
-DEBASS/EVERYTHING/2022qpp_P2 [292 -34] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022qpp_P3 [292 -34] EXTRA VERY OPTIONAL
+DEBASS/EVERYTHING/2022tvz_P1 [298 -21]
 DEBASS/EVERYTHING/2022rfn_P1 [287 -16] 4min
+DEBASS/EVERYTHING/2022qbp_P3 [305 -14] EXTRA
 YSE 440 [314 -4] 16 min 
+DEBASS/EVERYTHING/2022rky_P1 [319 -8]
+DEBASS/EVERYTHING/2022qku_P2 [321 -6] OPTIONAL
 
 ### 22:15
 DESIRT_320_grz [~320 6] (53 min) 
@@ -47,10 +50,9 @@ DESIRT_S82_Sep11_riz [~330 0]   (40 min)
 
 ### 00:10
 YSE 494 [347 9] 17 min 
-DEBASS/EVERYTHING/2022rso_P1 [351 16] (4min)
 DEBASS/EVERYTHING/2022suc_P1 [346 23] (4min)
+DEBASS/EVERYTHING/2022rld_P1 [352 -8]
 YSE 2022jli [7 -8] 5 min 
-DEBASS/EVERYTHING/2022ssj_P1 [4 -18]  (4min)
 
 ### 00:45
 elais_ddf_seq_A.json [8, -43] 30 min
@@ -58,11 +60,8 @@ elais_ddf_seq_B.json [8, -43] 30 min
 
 ### 01:45
 YSE 550 [4 18] 9 min 
-DEBASS/EVERYTHING/2022ppj_P2 [11 20] (4min) OPTIONAL 
 ### YSE 448 [16 3] 17 min ### DROP too close to Moon!!
-DEBASS/EVERYTHING/2022qke_P1 [17 -1] (4min)
 YSE 296 [17 -17] 8 min  
-DEBASS/EVERYTHING/2022rnu_P1 [25 -14] (4min)
 
 ### 02:15
 X123 [34, -4]  35 min 
@@ -70,10 +69,6 @@ YSE401 [37 0] 9 min
 
 ### 03:05
 DEBASS/EVERYTHING/2022ssk_P1 [36 -5] (4min)
-DEBASS/EVERYTHING/2022sxr_P1 [37 -4] (4min)
-DEBASS/EVERYTHING/2022szg_P1 [33 -7] (4min)
-DEBASS/EVERYTHING/2022qwx_P1 [30 -20] (4min)
-DEBASS/EVERYTHING/2022qsn_P1 [41 -18] (4min)
 
 ### 03:25
 S1S2   [42, 0] 22 min
@@ -82,9 +77,9 @@ YSE403 [50 -2] 17 min
 ### 04:05
 C3 [52, -28] 11 min   
 YSE353 [63 -10] 17 min
-DEBASS/EVERYTHING/2022taw_P1 [76 -10] (4min)
+DEBASS/EVERYTHING/2022taw_P2 [76 -10] OPTIONAL
 YSE257 [85 -25] 17 min  
-DEBASS/EVERYTHING/2022trz_P1 [95 -73] (4min)
+DEBASS/EVERYTHING/2022trz_P3 [95 -73] EXTRA
 
 ### 05:05 
 DESIRT_50_z (50 -15) (20 min)

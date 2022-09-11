@@ -46,7 +46,7 @@ DESIRT_320_grz [~320 6] (53 min)
 YSE 544 [321 9] 17 min
 
 ### 23:30
-DESIRT_S82_Sep11_riz [~330 0]   (40 min)
+DESIRT_S82_Sep11_riz [~330-346 0]   (40 min)
 
 ### 00:10
 YSE 494 [347 9] 17 min 
@@ -85,6 +85,8 @@ DEBASS/EVERYTHING/2022trz_P3 [95 -73] EXTRA
 DESIRT_50_z (50 -15) (20 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_g (50 -15) (12 min)
+
+## IF EXTRA TIME: DESIRT_50_i (50 -15) (17 min)
 
 ### 05:55
 2020pju  [54 -24] 19 min HIGH PRIORITY, do not skip if possible

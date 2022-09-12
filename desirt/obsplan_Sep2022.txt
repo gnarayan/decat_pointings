@@ -67,20 +67,17 @@ DESIRT_50_g (50 -15) (12 min)
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min) 
 
-DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_g [~330-346 0] (13 min)
 DESIRT_S82_rz (40 min)
 
-#IF EXTRA TIME DESIRT_320_g [~320 6] (13 min)
-#IF EXTRA TIME DESIRT_S82_g [~330-344 0] (13 min)
+DESIRT_S82_2_rz [~0 0] (43 min)
 
-DESIRT_S82_2_QSO_rz [~0 0] (43 min)
-
-DESIRT_50_z (50 -15) (23 min)
+DESIRT_50_z (50 -15) (23 min) # Can cut if shourt on time
 #IF EXTRA TIME DESIRT_50_r (50 -15) (17 min)
 
 ------------Sep 16 -2nd half------------
 
-DESIRT_S82_2_QSO_grz [~0 0] (55 min)
+DESIRT_S82_2_grz [~0 0] (55 min)
 
 DESIRT_50_r (50 -15) (17 min)
 #IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)
@@ -91,7 +88,7 @@ DESIRT_50_r (50 -15) (17 min)
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min) 
 
-DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_g [~330-346 0] (13 min)
 DESIRT_S82_rz (40 min)
 
 #IF EXTRA TIME DESIRT_320_g [~320 6] (13 min)
@@ -109,7 +106,7 @@ DESIRT_50_r (50 -15) (17 min)
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min) 
 
-DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_g [~330-346 0] (13 min)
 DESIRT_S82_rz (40 min)
 
 #IF EXTRA TIME DESIRT_320_g [~320 6] (13 min)

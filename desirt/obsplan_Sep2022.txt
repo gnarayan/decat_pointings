@@ -94,7 +94,7 @@ DESIRT_S82_rz (40 min)
 #IF EXTRA TIME DESIRT_320_g [~320 6] (13 min)
 #IF EXTRA TIME DESIRT_S82_g [~330-344 0] (13 min)
 
-DESIRT_S82_2_QSO_gr [~0 0] (30 min)
+DESIRT_S82_2_gr [~0 0] (30 min)
 
 DESIRT_50_r (50 -15) (17 min)
 #IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)
@@ -112,7 +112,7 @@ DESIRT_S82_rz (40 min)
 #IF EXTRA TIME DESIRT_320_g [~320 6] (13 min)
 #IF EXTRA TIME DESIRT_S82_g [~330-344 0] (13 min)
 
-DESIRT_S82_2_QSO_gz [~0 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (36 min)
 
 #IF EXTRA TIME DESIRT_50_r (50 -15) (17 min)
 #IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)

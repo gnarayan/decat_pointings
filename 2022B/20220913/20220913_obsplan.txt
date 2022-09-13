@@ -18,6 +18,7 @@ Slew to Asteroid Twilight Fields using
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
+
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
 *** Note: Local Chilean time is now EDT+1 ***
@@ -25,21 +26,15 @@ Script will finish on its own or at -14 deg twilight.
 
 ### 20:32:30
 YSE 376 [224 -8] 17 min  
-DEBASS/EVERYTHING/2022sum_P1 [269 10] (4min)
+EVERYTHIG/DEBASS/2022sum_P2 [269 10] 4min
 
 ### 20:55
 decapseast_ddf_A.json [270 -29] 15 min
 decapseast_ddf_B.json [270 -29] 15 min
 
 ### 21:25
-DEBASS/EVERYTHING2022rnt_P1 [283 -65] 4min 
-DEBASS/EVERYTHING/2022qpp_P3 [292 -34] EXTRA VERY OPTIONAL
-DEBASS/EVERYTHING/2022tvz_P1 [298 -21]
-DEBASS/EVERYTHING/2022rfn_P1 [287 -16] 4min
-DEBASS/EVERYTHING/2022qbp_P3 [305 -14] EXTRA
+EVERYTHIG/DEBASS/2022tvz_P1 [298 -21] 4min HIGH PRIORITY
 YSE 440 [314 -4] 16 min 
-DEBASS/EVERYTHING/2022rky_P1 [319 -8]
-DEBASS/EVERYTHING/2022qku_P2 [321 -6] OPTIONAL
 
 ### 22:10
 DESIRT_320_g [~320 6] (13 min)
@@ -51,13 +46,15 @@ YSE 544 [321 9] 17 min
 ### 23:25
 DESIRT_S82_g [~330-340 0] (13 min)
 DESIRT_S82_rz (40 min)
+EVERYTHIG/DEBASS/2022qoa_P1 [334 -2] 4min HIGH PRIORITY
 
 ### 00:20
 YSE 494 [347 9] 17 min 
-DEBASS/EVERYTHING/2022suc_P1 [346 23] (4min)
+EVERYTHIG/DEBASS/2022rso_P1 [351 16] 4min HIGH PRIORITY
+EVERYTHIG/DEBASS/2022suc_P2 [346 23] 4min
 DESIRT_S82_2_QSO_rz [~0 0] (43 min)
-DEBASS/EVERYTHING/2022rld_P1 [352 -8]
 YSE 2022jli [7 -8] 5 min 
+EVERYTHIG/DEBASS/2022ssj_P1 [4 -17] 4min HIGH PRIORITY
 
 ### 01:35
 elais_ddf_seq_A.json [8, -43] 30 min
@@ -66,24 +63,30 @@ elais_ddf_seq_B.json [8, -43] 30 min
 ### 02:35
 YSE 550 [4 18] 17 min 
 YSE 448 [16 3] 17 min 
+EVERYTHIG/DEBASS/2022qke_P2 [17 -1] 4min
 YSE 296 [17 -17] 17 min  
+EVERYTHIG/DEBASS/2022rnu_P2 [25 -14] 4min
+EVERYTHIG/DEBASS/2022qwx_P2 [30 -20] 4min
 
 ### 03:25
+EVERYTHIG/DEBASS/2022szg_P1 [33 -7] 4min HIGH PRIORITY
 X123 [34, -4] 35 min 
+EVERYTHIG/DEBASS/2022sxr_P2 [37 -4] 4min
 YSE401 [37 0] 8 min  ### drop if necessary, close to Moon!!
 
 ### 04:10
-DEBASS/EVERYTHING/2022ssk_P1 [36 -5] (4min)
 S1S2   [42, 0] 22 min
 YSE403 [50 -2] 8 min ### drop if necessary, close to Moon!!
+EVERYTHIG/DEBASS/2022qsn_P2 [41 -18] 4min
 
 ### 04:45
 C3 [52, -28] 11 min   
 YSE353 [63 -10] 17 min
-DEBASS/EVERYTHING/2022taw_P2 [76 -10] OPTIONAL
+EVERYTHIG/DEBASS/2022taw_P1 [76 -10] 4min HIGH PRIORITY
 YSE253 [67, -26] 17 min
 YSE257 [85 -25] 17 min  
-DEBASS/EVERYTHING/2022trz_P3 [95 -73] EXTRA
+EVERYTHIG/DEBASS/2022uaw_P1 [99 -32] 4min HIGH PRIORITY
+EVERYTHIG/DEBASS/2022trz_P1 [95 -73] 4min HIGH PRIORITY
 
 ### 06:00
 DESIRT_50_z (50 -15) (23 min)

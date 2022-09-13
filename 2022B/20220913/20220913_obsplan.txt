@@ -24,7 +24,7 @@ Script will finish on its own or at -14 deg twilight.
 *********************************************
 
 ### 20:32:30
-YSE 428 [228 -4] 17 min  
+YSE 376 [224 -8] 17 min  
 DEBASS/EVERYTHING/2022sum_P1 [269 10] (4min)
 
 ### 20:55

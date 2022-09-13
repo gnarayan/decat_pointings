@@ -2,7 +2,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.A",
+"object": "412.A.a",
 "filter": "r",
 "expTime": 50,
 "RA": "112.7047",
@@ -12,7 +12,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.B",
+"object": "412.B.a",
 "filter": "r",
 "expTime": 50,
 "RA": "112.7070",
@@ -22,7 +22,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.C",
+"object": "412.C.a",
 "filter": "r",
 "expTime": 50,
 "RA": "115.8080",
@@ -32,7 +32,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.D",
+"object": "412.D.a",
 "filter": "r",
 "expTime": 50,
 "RA": "115.8103",
@@ -42,7 +42,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.E",
+"object": "412.E.a",
 "filter": "r",
 "expTime": 50,
 "RA": "118.9113",
@@ -52,7 +52,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.F",
+"object": "412.F.a",
 "filter": "r",
 "expTime": 50,
 "RA": "118.9136",
@@ -62,7 +62,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.A",
+"object": "412.A.a",
 "filter": "i",
 "expTime": 50,
 "RA": "112.7047",
@@ -72,7 +72,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.B",
+"object": "412.B.a",
 "filter": "i",
 "expTime": 50,
 "RA": "112.7070",
@@ -82,7 +82,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.C",
+"object": "412.C.a",
 "filter": "i",
 "expTime": 50,
 "RA": "115.8080",
@@ -92,7 +92,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.D",
+"object": "412.D.a",
 "filter": "i",
 "expTime": 50,
 "RA": "115.8103",
@@ -102,7 +102,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.E",
+"object": "412.E.a",
 "filter": "i",
 "expTime": 50,
 "RA": "118.9113",
@@ -112,7 +112,7 @@
 {
 "count": 1,
 "expType": "object",
-"object": "412.F",
+"object": "412.F.a",
 "filter": "i",
 "expTime": 50,
 "RA": "118.9136",

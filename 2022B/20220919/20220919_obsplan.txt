@@ -52,7 +52,7 @@ DESIRT_S82_rz (40 min)
 ### 00:20
 YSE 494 [347 9] 17 min 
 DEBASS/EVERYTHING/2022suc_P1 [346 23] (4min)
-DESIRT_S82_2_QSO_gr [~0 0] (30 min)
+DESIRT_S82_2_gr [~0 0] (30 min)
 DEBASS/EVERYTHING/2022rld_P1 [352 -8]
 ### YSE 2022jli [7 -8] 5 min 
 
@@ -84,6 +84,7 @@ DEBASS/EVERYTHING/2022trz_P3 [95 -73] EXTRA
 
 ### 06:00
 DESIRT_50_r (50 -15) (17 min)
+#IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)
 
 ### 06:25
 ### YSE 2020pju  [54 -24] 15 min Wait for dark time

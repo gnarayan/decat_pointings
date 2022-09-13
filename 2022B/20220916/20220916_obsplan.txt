@@ -18,7 +18,7 @@ LOCAL night MIDPOINT: 09/17/2022,   01:37:40
 
 
 ### 01:37:40
-DESIRT_S82_2_QSO_grz [~0 0] (55 min)
+DESIRT_S82_2_grz [~0 0] (55 min)
 elais_ddf_seq_A.json [8, -43] 30 min
 elais_ddf_seq_B.json [8, -43] 30 min
 
@@ -47,7 +47,9 @@ YSE257 [85 -25] 17 min   ### drop 1 filter if not enough time
 DEBASS/EVERYTHING/2022trz_P3 [95 -73] EXTRA
 
 ### 06:15
-DESIRT_50_r (50 -15) (17 min)
+DESIRT_50_r (50 -15) (16 min)
+#IF EXTRA TIME  DESIRT_50_g (50 -15) (12 min)
+#IF EXTRA TIME  DESIRT_50_z (50 -15) (21 min)
 
 ### 06:33
 ### YSE 2020pju  [54 -24] 15 min Wait for dark time
@@ -66,6 +68,6 @@ DEBASS/EVERYTHING/CS1_P3 [48 -20] (4min) FILLER
 DEBASS/EVERYTHING/CS4_P3 [50 -20] (4min) FILLER
 DEBASS/EVERYTHING/CS5_P3 [46 -20] (4min) FILLER
 DEBASS/EVERYTHING/CS3_P3 [48 -18] (4min) FILLER
-#IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)
-#IF EXTRA TIME  DESIRT_50_z (50 -15) (23 min)
+#IF EXTRA TIME  DESIRT_50_g (50 -15) (12 min)
+#IF EXTRA TIME  DESIRT_50_z (50 -15) (21 min)
 

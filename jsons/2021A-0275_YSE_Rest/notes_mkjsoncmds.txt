@@ -786,6 +786,65 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ssk  -d 220911 -e 35 -n 1
 git add 220911
 git add 220911/*.json
 
+mkdir 20220913
+cp obsplan_fullnight.txt 20220913/20220913_obsplan.txt
+cp 20220911/20220911_obsplan.txt 20220913/20220913_obsplan.txt 
+subl 20220913/20220913_obsplan.txt
+git add 20220913/20220913_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 220913
+mkjson_yse_nofilterswitch.py  -f g,i   440 544 494   -d 220913
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 -d 220913
+mkjson_yse_nofilterswitch.py  -f z   403 401 -d 220913
+mkjson_yse_nofilterswitch.py  -f r,i    353 257 253 -d 220913
+mkjson_yse_nofilterswitch.py  -f r,i    412 311 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220913 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220913 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220913 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220913 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 220913 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ssk  -d 220913 -e 35 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 220913 -e 20 -n 1
+git add 220913
+git add 220913/*.json
+
+mkdir 20220916
+cp obsplan_fullnight.txt 20220916/20220916_obsplan.txt
+cp 20220913/20220913_obsplan.txt 20220916/20220916_obsplan.txt 
+subl 20220916/20220916_obsplan.txt
+git add 20220916/20220916_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220916
+mkjson_yse_nofilterswitch.py  -f g,r   440 544 494   -d 220916
+mkjson_yse_nofilterswitch.py  -f i   296 448 550 -d 220916
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 220916
+mkjson_yse_nofilterswitch.py  -f r,i    353 257 253 -d 220916
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220916 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220916 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220916 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220916 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 220916 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 220916 -e 20 -n 1
+git add 220916
+git add 220916/*.json
+
+mkdir 20220919
+cp obsplan_fullnight.txt 20220919/20220919_obsplan.txt
+cp 20220913/20220913_obsplan.txt 20220919/20220919_obsplan.txt 
+subl 20220919/20220919_obsplan.txt
+git add 20220919/20220919_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   440 544 494   -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r    353 257 253 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220919 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220919 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220919 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220919 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 220919 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 220919 -e 20 -n 1
+git add 220919
+git add 220919/*.json
+
 
 
 mkjson_yse.py  -f g,r,i,z,Y  2022ngb  -d 220621 -e 200,100,100,100,200
@@ -816,3 +875,29 @@ mkjson_yse.py  -f g,r,i  618 468 -d 220310
 
 
 mkjson_yse.py  -f g,r,i,z 415 418 423 474 523 525 575 577  -d 220330 --propid 2022A-193378
+
+
+YSE_pointings2fieldcenters.py --addSN 2022tmo 68.9642131 -13.3271846 -vv --overw
+cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest
+
+add YSE field:
+add to /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt
+from
+         412.A    112.704664     -4.196331      True
+         412.B    112.706967     -1.098627      True
+         412.C    115.807983     -4.196331      True
+         412.D    115.810286     -1.098627      True
+         412.E    118.911301     -4.196331      True
+         412.F    118.913604     -1.098627      True
+to
+          412.A      412 112.70466  -4.19633     0       NaN                    NaN        412A     NaN        <NA>
+          412.B      412 112.70696  -1.09862     0       NaN                    NaN        412B     NaN        <NA>      
+          412.C      412 115.80798  -4.19633     0       NaN                    NaN        412C     NaN        <NA>      
+          412.D      412 115.81028  -1.09862     0       NaN                    NaN        412D     NaN        <NA>      
+          412.E      412 118.91130  -4.19633     0       NaN                    NaN        412E     NaN        <NA>     
+          412.F      412 118.91360  -1.09862     0       NaN                    NaN        412F     NaN        <NA>      
+cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest
+YSE_pointings2fieldcenters.py   -vv    --groups 412 311 --overwr
+cd /Users/arest/observing/decat_pointings/jsons/
+
+

@@ -1,0 +1,71 @@
+MOON ILLUMINATION: 0.56
+UT -16 deg twilight: 2022-09-16T23:46:37.165 2022-09-17T09:28:44.760
+UT -15 deg twilight: 2022-09-16T23:41:57.787 2022-09-17T09:33:23.998
+UT -14 deg twilight: 2022-09-16T23:37:18.534 2022-09-17T09:38:02.905
+UT -12 deg twilight: 2022-09-16T23:28:01.059 2022-09-17T09:47:19.863
+UT -10 deg twilight: 2022-09-16T23:18:44.475 2022-09-17T09:56:35.895
+LOCAL -16 deg twilight: 09/16/2022,   20:46:37   06:28:44
+LOCAL -15 deg twilight: 09/16/2022,   20:41:57   06:33:23
+LOCAL -14 deg twilight: 09/16/2022,   20:37:18   06:38:02
+LOCAL -12 deg twilight: 09/16/2022,   20:28:01   06:47:19
+LOCAL -10 deg twilight: 09/16/2022,   20:18:44   06:56:35
+LOCAL night MIDPOINT: 09/17/2022,   01:37:40
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+1 ***
+*********************************************
+
+
+### 01:37:40
+DESIRT_S82_2_QSO_grz [~0 0] (55 min)
+elais_ddf_seq_A.json [8, -43] 30 min
+elais_ddf_seq_B.json [8, -43] 30 min
+
+### 03:05
+YSE 550 [4 18] 8 min 
+YSE 448 [16 3] 8 min 
+YSE 296 [17 -17] 8 min  
+
+### 03:25
+X123 [34, -4] 35 min 
+YSE401 [37 0] 17 min  
+
+### 04:20
+DEBASS/EVERYTHING/2022ssk_P1 [36 -5] (4min)
+S1S2   [42, 0] 22 min 
+YSE403 [50 -2] 17 min 
+
+### 05:02
+C3 [52, -28] 11 min   
+YSE353 [63 -10] 17 min    ### drop 1 filter if not enough time
+DEBASS/EVERYTHING/2022taw_P2 [76 -10] OPTIONAL
+
+### 05:35
+YSE253 [67, -26] 17 min
+YSE257 [85 -25] 17 min   ### drop 1 filter if not enough time
+DEBASS/EVERYTHING/2022trz_P3 [95 -73] EXTRA
+
+### 06:15
+DESIRT_50_r (50 -15) (17 min)
+
+### 06:33
+### YSE 2020pju  [54 -24] 15 min Wait for dark time
+YSE 2022tmo  [69 -13] 5 min HIGH PRIORITY, do not skip if possible
+#### 2021afuq [157 -43] 9 min still to high airmass
+#### 2022czy [185 17] 4 min still to high airmass
+
+
+### 06:38:02 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DEBASS/EVERYTHING/CS2_P3 [48 -22] (4min) FILLER
+DEBASS/EVERYTHING/CS1_P3 [48 -20] (4min) FILLER
+DEBASS/EVERYTHING/CS4_P3 [50 -20] (4min) FILLER
+DEBASS/EVERYTHING/CS5_P3 [46 -20] (4min) FILLER
+DEBASS/EVERYTHING/CS3_P3 [48 -18] (4min) FILLER
+#IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)
+#IF EXTRA TIME  DESIRT_50_z (50 -15) (23 min)
+

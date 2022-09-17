@@ -48,7 +48,7 @@ YSE353 [63 -10] 17 min    ### drop 1 filter if not enough time
 
 ### 06:20
 DEBASS/EVERYTHING/2022ucj_P1 [66 -16] 3min
-YSE253 [67, -26] 17 min
+YSE253 [67, -26] 17 min # Gautham says could skip if still crunched
 YSE257 [85 -25] 17 min   ### drop 1 filter if not enough time
 DEBASS/EVERYTHING/2022trz_P1 [95 -73] 3min
 

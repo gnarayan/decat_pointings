@@ -20,11 +20,11 @@
           296.E.a    296  20.64692 -18.59267     0       NaN           296.E.a.json        296E     NaN        <NA>
           296.F.a    296  22.74890 -14.29440     0       NaN           296.F.a.json        296F     NaN        <NA>
           311.A.a    311 120.30521 -18.58358     0       NaN                    NaN        311A     NaN        <NA>
-          311.B.a    311 120.30850 -15.48681     0       NaN                    NaN        311B     NaN        <NA>      
-          311.C.a    311 123.54772 -18.58358     0       NaN                    NaN        311C     NaN        <NA>      
-          311.D.a    311 123.55101 -15.48681     0       NaN                    NaN        311D     NaN        <NA>      
-          311.E.a    311 126.79023 -18.58358     0       NaN                    NaN        311E     NaN        <NA>      
-          311.F.a    311 126.79352 -15.48681     0       NaN                    NaN        311F     NaN        <NA>      
+          311.B.a    311 120.30850 -15.48681     0       NaN                    NaN        311B     NaN        <NA>
+          311.C.a    311 123.54772 -18.58358     0       NaN                    NaN        311C     NaN        <NA>
+          311.D.a    311 123.55101 -15.48681     0       NaN                    NaN        311D     NaN        <NA>
+          311.E.a    311 126.79023 -18.58358     0       NaN                    NaN        311E     NaN        <NA>
+          311.F.a    311 126.79352 -15.48681     0       NaN                    NaN        311F     NaN        <NA>
           353.A.a    353  60.01655 -11.39553     0       NaN           353.A.a.json        353A     NaN        <NA>
           353.B.a    353  60.01779  -8.29671     0       NaN           353.B.a.json        353B     NaN        <NA>
           353.C.a    353  63.21121 -11.39521     0       NaN           353.C.a.json        353C     NaN        <NA>
@@ -60,11 +60,11 @@
           403.E.a    403  48.56428   2.19932     0       NaN           403.E.a.json        403E     NaN        <NA>
           403.F.a    403  45.50538  -1.04941     0       NaN           403.F.a.json        403F     NaN        <NA>
           412.A.a    412 112.70466  -4.19633     0       NaN                    NaN        412A     NaN        <NA>
-          412.B.a    412 112.70696  -1.09862     0       NaN                    NaN        412B     NaN        <NA>      
-          412.C.a    412 115.80798  -4.19633     0       NaN                    NaN        412C     NaN        <NA>      
-          412.D.a    412 115.81028  -1.09862     0       NaN                    NaN        412D     NaN        <NA>      
-          412.E.a    412 118.91130  -4.19633     0       NaN                    NaN        412E     NaN        <NA>     
-          412.F.a    412 118.91360  -1.09862     0       NaN                    NaN        412F     NaN        <NA>      
+          412.B.a    412 112.70696  -1.09862     0       NaN                    NaN        412B     NaN        <NA>
+          412.C.a    412 115.80798  -4.19633     0       NaN                    NaN        412C     NaN        <NA>
+          412.D.a    412 115.81028  -1.09862     0       NaN                    NaN        412D     NaN        <NA>
+          412.E.a    412 118.91130  -4.19633     0       NaN                    NaN        412E     NaN        <NA>
+          412.F.a    412 118.91360  -1.09862     0       NaN                    NaN        412F     NaN        <NA>
     415.A.2021koj    415 125.20341 -12.59814     1   2021koj     415.A.2021koj.json     2021koj     NaN        <NA>
           415.A.a    415 123.11854 -12.01966     1       NaN           415.A.a.json        415A     NaN        <NA>
           415.A.b    415 129.50749  -1.33955     1       NaN           415.A.b.json       415Ab     NaN        <NA>
@@ -240,3 +240,5 @@
           2020jfo   <NA> 185.45818   4.56867     0       NaN                    NaN     2020jfo      N4          35
           2022ssk   <NA>  37.36681  -5.76138     0       NaN                    NaN     2022ssk      N4          35
           2022tmo   <NA>  68.96201 -13.24019     0       NaN                    NaN     2022tmo      N4          35
+          2022tiv   <NA> 320.98704 -22.64836     0       NaN                    NaN     2022tiv      N4          35
+          2022uto   <NA>  40.74517  17.29757     0       NaN                    NaN     2022uto      N4          35

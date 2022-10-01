@@ -100,11 +100,6 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-DEBASS/EVERYTHING/CS2_P3 [48 -22] (4min) FILLER
-DEBASS/EVERYTHING/CS1_P3 [48 -20] (4min) FILLER
-DEBASS/EVERYTHING/CS4_P3 [50 -20] (4min) FILLER
-DEBASS/EVERYTHING/CS5_P3 [46 -20] (4min) FILLER
-DEBASS/EVERYTHING/CS3_P3 [48 -18] (4min) FILLER
 #IF EXTRA TIME DESIRT_320_g [~320 6] (13 min)
 #IF EXTRA TIME DESIRT_S82_g [~330-344 0] (13 min)
 #IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)

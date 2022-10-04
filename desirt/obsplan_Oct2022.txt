@@ -1,8 +1,8 @@
 ##Oct 5
 
-DESIRT_320_rz [~320 6] (40 min) 
+DESIRT_320_iz_bright [~320 6] (30 min) 
 
-DESIRT_S82_2_rz [~350-0 0](40 min) 
+DESIRT_S82_2_iz_bright [~350-0 0](30 min) 
 
 DESIRT_50_z (50 -15) (23 min) 
 DESIRT_50_r (50 -15) (17 min)
@@ -10,7 +10,7 @@ DESIRT_50_g (50 -15) (13 min)
 
 ##Oct 7  
 
-DESIRT_320_riz [~320 6] (60 min) 
+DESIRT_320_riz_bright [~320 6] (40 min) 
 
 DESIRT_50_z (50 -15) (23 min) 
 DESIRT_50_r (50 -15) (17 min)

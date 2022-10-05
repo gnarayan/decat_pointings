@@ -24,16 +24,15 @@ Script will finish on its own or at -14 deg twilight.
 *********************************************
 
 ### 20:49:05
-DEBASS/EVERYTHING/2022sum_P2 [269 10] 3min OPTIONAL
 decapseast_ddf_A.json [270 -29] 15 min
 decapseast_ddf_B.json [270 -29] 15 min
 
 ### 21:30
-DEBASS/EVERYTHING/2022rnt_P1 [283 -65] 4min
 ### YSE 2022tiv [321 -23] 4 min  #behind the Moon
 ### YSE 2022pda [331 -19] 4 min  #behind the Moon
+DEBASS/EVERYTHING/2022rfn_P2 [287 -16] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022tvz_P1 [298 -21] (4min) 
 YSE 440 [314 -4] 16 min   ### OPTIONAL, DROP IF NOT ENOUGH TIME, close too Moon
-DEBASS/EVERYTHING/2022rky_P2 [319 -8] 3min OPTIONAL
 
 ### 21:55
 DESIRT_320_iz_bright [~320 6] (30 min) 
@@ -41,17 +40,17 @@ DESIRT_320_iz_bright [~320 6] (30 min)
 ### 22:25
 YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022vpn_P1 [335 25] 4min
+DEBASS/EVERYTHING/2022suc_P2 [346 23] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022wsp_P1 [344 16] (4min) 
 
 ### 22:45
 YSE 494 [347 9] 17 min    ### OPTIONAL, DROP IF NOT ENOUGH TIME, close too Moon
-DEBASS/EVERYTHING/2022suc_P1 [346 23] 4min
-DEBASS/EVERYTHING/2022rso_P1 [351 16] 4min
-DEBASS/EVERYTHING/2022wcm_P1 [358 8] 4min
+DEBASS/EVERYTHING/2022wtn_P2 [350 10] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022wcm_P2 [358 8] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022wsr_P2 [354 -4] (4min) OPTIONAL
 
 ### 23:15
 DESIRT_S82_2_iz_bright [~350-0 0](30 min) 
-DEBASS/EVERYTHING/2022rld_P2 [352 -8] 3min OPTIONAL
-DEBASS/EVERYTHING/2022ssj_P2 [4 -18] 3min OPTIONAL
 ### YSE 2022jli [7 -8] 5 min  ###  do if possible!
 
 ### 23:55
@@ -62,14 +61,12 @@ elais_ddf_seq_B.json [8, -43] 30 min
 YSE 550 [4 18] 17 min 
 DEBASS/EVERYTHING/2022vrj_P1 [22 17] 4min
 YSE 448 [16 3] 17 min 
-DEBASS/EVERYTHING/2022qke_P1 [17 -1] 4min
 YSE 296 [17 -17] 17 min  
-DEBASS/EVERYTHING/2022rnu_P1 [25 -14] 4min
-DEBASS/EVERYTHING/2022qwx_P2 [30 -20] 3min OPTIONAL
 DEBASS/EVERYTHING/2022szg_P1 [33 -7] 4min
 
 ### 02:10
 X123 [34, -4] 35 min 
+DEBASS/EVERYTHING/2022ssk_P1 [36 -5] (4min) 
 YSE401 [37 0] 17 min  
 
 ### 03:05
@@ -88,11 +85,12 @@ DESIRT_50_g (50 -15) (13 min)
 ### 05:00
 C3 [52, -28] 11 min   
 YSE353 [63 -10] 17 min
+DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (4min) 
 DEBASS/EVERYTHING/2022taw_P1 [76 -10] 4min
 YSE253 [67, -26] 17 min
 YSE257 [85 -25] 17 min  
+DEBASS/EVERYTHING/2022whp_P1 [100 -22] (4min) 
 DEBASS/EVERYTHING/2022trz_P1 [95 -73] 4min
-DEBASS/EVERYTHING/2022vqx_P1 [111 18] 4min
 
 ### 06:13:28 slew to Asteroid fields
 using morning twilight asteroid script in

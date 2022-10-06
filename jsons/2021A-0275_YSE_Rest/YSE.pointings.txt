@@ -243,3 +243,11 @@
           2022tiv   <NA> 320.98704 -22.64836     0       NaN                    NaN     2022tiv      N4          35
           2022uto   <NA>  40.74517  17.29757     0       NaN                    NaN     2022uto      N4          35
           2022pda   <NA> 331.05563 -18.74091     0       NaN                    NaN     2022pda      N4          35
+          2017gkp   <NA> 131.79655 -33.66604     0       NaN                    NaN     2017gkp      N4          35
+          2018ibb   <NA>  69.73500 -20.57526     0       NaN                    NaN     2018ibb      N4          35
+          2020uew   <NA>  49.84699 -29.89792     0       NaN                    NaN     2020uew      N4          35
+          2020xga   <NA>  56.66184 -11.15576     0       NaN                    NaN     2020xga      N4          35
+          2020zbf   <NA>  29.50411 -41.26074     0       NaN                    NaN     2020zbf      N4          35
+           2021ek   <NA>  50.95580  -9.95778     0       NaN                    NaN      2021ek      N4          35
+          2021fpl   <NA> 303.57533 -18.09539     0       NaN                    NaN     2021fpl      N4          35
+          2021ynn   <NA>  42.64538 -19.77612     0       NaN                    NaN     2021ynn      N4          35

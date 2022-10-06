@@ -881,10 +881,16 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221005 -e 2,2,2,2,10
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221005 -e 100 -n 1
 mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221005 -e 100 -n 3
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 221005 -e 20 -n 1
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022uto  2022pda -d 221005 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022uto  2022pda -d 221005 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y 2017gkp -d 221005 -e 180,120,120,120,120 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2018ibb  2020uew  2020xga  2020zbf  2021ek   2021fpl  2021ynn   -d 221005 -e 150 -n 2
+
 
 git add 221005
 git add 221005/*.json
+
+
+  04:38:56.950 -20:39:44.10 FK5  03:19:23.870 -29:59:05.68 FK5  03:46:39.365 -11:14:33.90 FK5  01:58:01.671 -41:20:51.84 FK5   03:23:49.914 -10:02:41.18 FK5  20:14:18.620 -18:10:56.57 FK5  02:50:35.438 -19:51:47.21 FK5
 
 
 mkjson_yse.py  -f g,r,i,z,Y  2022ngb  -d 220621 -e 200,100,100,100,200
@@ -921,6 +927,31 @@ YSE_pointings2fieldcenters.py --addSN 2022tmo 68.9642131 -13.3271846 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022tiv 320.9893589     -22.7353540 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022uto 40.7474167     17.2105778 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022pda 331.0578958     -18.8279056 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2017gkp 131.799125 -33.753031  -vv --overw
+
+
+2017gkp: Jacob
+
+Sebastian:
+Name     RA           DEC
+2018ibb  04:38:56.950 -20:39:44.10 FK5
+2020uew  03:19:23.870 -29:59:05.68 FK5
+2020xga  03:46:39.365 -11:14:33.90 FK5
+2020zbf  01:58:01.671 -41:20:51.84 FK5
+2021ek   03:23:49.914 -10:02:41.18 FK5
+2021fpl  20:14:18.620 -18:10:56.57 FK5
+2021ynn  02:50:35.438 -19:51:47.21 FK5
+
+YSE_pointings2fieldcenters.py --addSN 2018ibb  69.73729 -20.66225  --addSN 2020uew 49.84946 -29.98491  --addSN 2020xga 56.66402 -11.24275  --addSN 2020zbf 29.50696 -41.34773  --addSN 2021ek 50.95797 -10.04477  --addSN 2021fpl 303.57758 -18.18238  --addSN 2021ynn 42.64766 -19.86311   -vv 
+
+2018ibb  69.73729 -20.66225  
+2020uew 49.84946 -29.98491  
+2020xga 56.66402 -11.24275  
+2020zbf 29.50696 -41.34773  
+2021ek 50.95797 -10.04477  
+2021fpl 303.57758 -18.18238 
+2021ynn 42.64766 -19.86311 
+
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest
 

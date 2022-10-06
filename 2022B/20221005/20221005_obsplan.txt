@@ -71,21 +71,28 @@ DEBASS/EVERYTHING/2022ssk_P1 [36 -5] (4min) DROP g-Band!
 YSE401 [37 0] 17 min  
 
 ### 03:05
-DEBASS/EVERYTHING/2022ssk_P1 [36 -5] 4min DROP g-Band!
 DEBASS/EVERYTHING/2022qsn_P2 [41 -18] 3min OPTIONAL
 S1S2   [42, 0] 22 min
 DEBASS/EVERYTHING/2022wcy_P1 [33 9] 4min DROP g-Band!
 YSE 2022uto [41 17] 4 min
-YSE403 [50 -2] 17 min 
+### YSE403 [50 -2] 17 min 
+YSE 2021ynn 42.64766 -19.86311 
 
 ### 04:05
 DESIRT_50_z (50 -15) (23 min) 
 DESIRT_50_r (50 -15) (17 min)
 DESIRT_50_g (50 -15) (13 min)
 
-### 05:00
-C3 [52, -28] 11 min   
+YSE 2021ek 50.95797 -10.04477  
+YSE 2020xga 56.66402 -11.24275  
+
+### 04:30
+C3 [52, -28] 11 min
+YSE 2020uew 49.84946 -29.98491  
+YSE 2018ibb  69.73729 -20.66225  
+
 YSE353 [63 -10] 17 min
+YSE 2022tmo  [69 -13]
 DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (4min) DROP g-Band!
 DEBASS/EVERYTHING/2022taw_P1 [76 -10] 4min DROP g-Band!
 YSE253 [67, -26] 17 min
@@ -98,9 +105,5 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-#IF EXTRA TIME DESIRT_320_g [~320 6] (13 min)
-#IF EXTRA TIME DESIRT_S82_g [~330-344 0] (13 min)
-#IF EXTRA TIME  DESIRT_50_g (50 -15) (13 min)
-#IF EXTRA TIME  DESIRT_50_z (50 -15) (23 min)
 YSE 412 [115 -2] 17 min
 YSE 311 [123 -17] 17 min

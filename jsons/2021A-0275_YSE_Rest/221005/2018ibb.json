@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2018ibb",
+"filter": "i",
+"expTime": 150,
+"RA": "69.7350",
+"dec": "-20.5753",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2018ibb",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2021A-0275"
+}
+]

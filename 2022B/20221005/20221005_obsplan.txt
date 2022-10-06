@@ -51,6 +51,7 @@ DEBASS/EVERYTHING/2022wsr_P2 [354 -4] (4min) OPTIONAL
 
 ### 23:15
 DESIRT_S82_2_iz_bright [~350-0 0](30 min) 
+DESIRT_NGC7793 [360, -32] (3min) OPTIONAL 
 ### YSE 2022jli [7 -8] 5 min  ###  do if possible!
 
 ### 23:55

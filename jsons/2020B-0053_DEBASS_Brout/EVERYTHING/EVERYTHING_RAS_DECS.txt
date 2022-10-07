@@ -1,21 +1,18 @@
-2022vrj_P1 [22 17]
-2022szg_P1 [33 -7]
+2022wxo_P1 [29 -7]
 2022wcy_P1 [33 9]
-2022ssk_P1 [36 -5]
+2022wsu_P1 [34 17]
 2022wpy_P1 [72 -4]
-2022taw_P1 [76 -10]
 2022trz_P1 [95 -73]
 2022whp_P1 [100 -22]
-2022tvz_P1 [298 -21]
-2022wsp_P1 [344 16]
+2022wwt_P1 [267 -60]
 2022vpn_P1 [335 25]
+2022suc_P1 [346 23]
 
+2022rnt_P2 [283 -65]
 2022rfn_P2 [287 -16]
-2022wsr_P2 [354 -4]
-2022wtn_P2 [350 10]
-2022suc_P2 [346 23]
-2022wcm_P2 [358 8]
+2022tvz_P2 [298 -21]
 
+2022taw_P3 [76 -10]
 
-EVERYTHING	106.0 minutes
-EVERYTHING_P1	43.1 minutes
+EVERYTHING	100.4 minutes
+EVERYTHING_P1	40.7 minutes

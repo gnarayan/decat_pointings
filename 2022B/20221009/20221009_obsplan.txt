@@ -37,50 +37,50 @@ YSE 2022pda [331 -19] 2 min
 YSE 440 [314 -4] 24 min   
 
 ### 22:20
-DESIRT_320_riz_bright [~320 6] (40 min) 
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min) 
 
-*** repeat DESIRT_320 because of gap at 23:45? ***
+*** repeat DESIRT_320_g or rz because of gap at 23:45? ***
 
-### 23:00
+### 23:13
 YSE 544 [321 9] 24 min
 DEBASS/EVERYTHING/2022vpn_P1 [335 25] 4min
 
-### 23:30
+### 23:41
+DESIRT_S82_rz [~330-340 0] (40 min)
 YSE 494 [347 9] 8 min 
 DEBASS/EVERYTHING/2022wsr_P2 [354 -4] (4min) CAN SKIP IF NEEDED
 DEBASS/EVERYTHING/2022wtn_P2 [350 10] (4min) CAN SKIP IF NEEDED
 DEBASS/EVERYTHING/2022rso_P2 [351 16] (4min) CAN SKIP IF NEEDED
 DEBASS/EVERYTHING/2022wcm_P1 [358 8] (4min)
-### YSE 2022jli [7 -8] 5 min 
 
-### 23:45
-***** 40 min GAP!!!!!!!!! ********
-
-### 00:35
-YSE 550 [4 18] 8 min 
-YSE 448 [16 3] 8 min 
+### 00:45
+DESIRT_NGC7793 [360, -32] (3min) 
+##? YSE 2022jli [7 -8] 5 min 
+##? YSE 550 [4 18] 8 min 
+##? YSE 448 [16 3] 8 min 
 DEBASS/EVERYTHING/2022ssj_P1 [4 -17] (4min)
-YSE 296 [17 -17] 8 min  
+##? YSE 296 [17 -17] 8 min  
 DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (4min)
-YSE 2020zbf [29 -41] (10min)
+##? YSE 2020zbf [29 -41] (10min)
 
-### 01:20
+### 01:00
 X123 [34, -4] 35 min 
-YSE401 [37 0] 17 min  
+##? YSE401 [37 0] 17 min  
 
-### 02:12
+### 01:35
 S1S2   [42, 0] 22 min
 DEBASS/EVERYTHING/2022wsu_P2 [34 17] (4min) CAN SKIP IF NEEDED
-YSE 2022uto [41 17] 4 min
+##? YSE 2022uto [41 17] 4 min
 YSE403 [50 -2] 17 min 
 
-### 03:05
+### 02:20
+C3 [52, -28] 11 min  
 DESIRT_50_z (50 -15) (23 min) 
 DESIRT_50_r (50 -15) (17 min)
 DESIRT_50_g (50 -15) (13 min)
 
-### 04:00
-C3 [52, -28] 11 min   
+### 03:25
 YSE353 [63 -10] 17 min
 DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (4min)
 DEBASS/EVERYTHING/2022taw_P1 [76 -10] (4min)
@@ -91,7 +91,7 @@ DEBASS/EVERYTHING/2022whp_P1 [100 -22] (4min)
 ### 05:15
 YSE 412 [115 -2] 17 min
 YSE 311 [123 -17] 17 min
-YSE 2017gkp [132 -33] (18 min) Jacob
+YSE 2017gkp [132 -33] (18 min) 
 
 
 ### 06:10:54 slew to Asteroid fields

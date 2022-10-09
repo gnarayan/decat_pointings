@@ -26,12 +26,12 @@ Script will finish on its own or at -14 deg twilight.
 
 ### 20:50:29
 DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (4min) CAN SKIP IF NEEDED
-decapseast_ddf_A.json [270 -29] 15 min
-decapseast_ddf_B.json [270 -29] 15 min
+#decapseast_ddf_A.json [270 -29] 15 min
+#decapseast_ddf_B.json [270 -29] 15 min
 
 ### 21:30
 DEBASS/EVERYTHING/2022tvz_P1 [298 -21] (4min)
-YSE 2021fpl [303 -18] 10 min
+YSE 2021fpl [303 -18] 10 min ## CAN SKIP IF NEEDED
 YSE 2022tiv [321 -23] 3 min  
 YSE 2022pda [331 -19] 2 min  
 YSE 440 [314 -4] 24 min   
@@ -72,7 +72,8 @@ DEBASS/EVERYTHING/2022wsu_P2 [34 17] (4min) CAN SKIP IF NEEDED
 ##? YSE 2022uto [41 17] 4 min
 
 ### 02:05
-***30 min gap***
+elais_ddf_seq_A [7, -43] 15 min
+elais_ddf_seq_B [7, -43] 15 min
 
 ###02:35
 YSE403 [50 -2] 17 min 

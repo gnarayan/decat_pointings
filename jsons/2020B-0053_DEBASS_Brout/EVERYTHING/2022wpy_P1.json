@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 72.15579,
         "dec": -4.52983,
         "object": "2022wpy_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 72.15579,
         "dec": -4.52983,
         "object": "2022wpy_P1",

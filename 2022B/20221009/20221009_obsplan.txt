@@ -40,8 +40,6 @@ YSE 440 [314 -4] 24 min
 DESIRT_320_g [~320 6] (13 min)
 DESIRT_320_rz [~320 6] (40 min) 
 
-*** repeat DESIRT_320_g or rz because of gap at 23:45? ***
-
 ### 23:13
 YSE 544 [321 9] 24 min
 DEBASS/EVERYTHING/2022vpn_P1 [335 25] 4min
@@ -72,15 +70,18 @@ X123 [34, -4] 35 min
 S1S2   [42, 0] 22 min
 DEBASS/EVERYTHING/2022wsu_P2 [34 17] (4min) CAN SKIP IF NEEDED
 ##? YSE 2022uto [41 17] 4 min
-YSE403 [50 -2] 17 min 
 
-### 02:20
+### 02:05
+***30 min gap***
+
+###02:35
+YSE403 [50 -2] 17 min 
 C3 [52, -28] 11 min  
 DESIRT_50_z (50 -15) (23 min) 
 DESIRT_50_r (50 -15) (17 min)
 DESIRT_50_g (50 -15) (13 min)
 
-### 03:25
+### 04:00
 YSE353 [63 -10] 17 min
 DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (4min)
 DEBASS/EVERYTHING/2022taw_P1 [76 -10] (4min)
@@ -88,7 +89,7 @@ YSE253 [67, -26] 17 min
 YSE257 [85 -25] 17 min  
 DEBASS/EVERYTHING/2022whp_P1 [100 -22] (4min)
 
-### 05:15
+### 05:10
 YSE 412 [115 -2] 17 min
 YSE 311 [123 -17] 17 min
 YSE 2017gkp [132 -33] (18 min) 

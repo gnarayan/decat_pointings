@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 354.1356,
+        "dec": -4.38074,
+        "object": "2022wsr_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2022wsr",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 354.1356,
+        "dec": -4.38074,
+        "object": "2022wsr_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2022wsr",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

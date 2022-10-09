@@ -24,6 +24,8 @@ DESIRT_320_rz [~320 6] (40 min)
 
 DESIRT_S82_rz [~330-340 0] (40 min)
 
+DESIRT_NGC7793 [360, -32] (3min) 
+
 DESIRT_50_z (50 -15) (23 min) 
 DESIRT_50_r (50 -15) (17 min)
 
@@ -40,6 +42,8 @@ DESIRT_S82_rz (40 min)
 
 DESIRT_S82_2_g [~350-0 0] (13 min)
 DESIRT_S82_2_rz (40 min)
+
+DESIRT_NGC7793 [360, -32] (3min) 
 
 
 ##Oct 16 - 2nd half

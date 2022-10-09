@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2022tiv",
+"filter": "r",
+"expTime": 20,
+"RA": "320.9870",
+"dec": "-22.6484",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022tiv",
+"filter": "i",
+"expTime": 20,
+"RA": "320.9870",
+"dec": "-22.6484",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022tiv",
+"filter": "z",
+"expTime": 20,
+"RA": "320.9870",
+"dec": "-22.6484",
+"propid": "2021A-0275"
+}
+]

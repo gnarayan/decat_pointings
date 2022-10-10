@@ -98,7 +98,7 @@ YSE 311 [123 -17] 17 min
 YSE 2017gkp [132 -33] (18 min) 
 
 
-### 06:10:54 slew to Asteroid fields
+### 06:08 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

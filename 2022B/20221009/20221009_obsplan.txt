@@ -78,9 +78,9 @@ elais_ddf_seq_B [7, -43] 15 min
 ###02:35
 YSE403 [50 -2] 17 min 
 C3 [52, -28] 11 min  
-DESIRT_50_z (50 -15) (23 min) 
+DESIRT_50_z (50 -15) (23 min)
+DESIRT_50_i (50 -15) (20 min)
 DESIRT_50_r (50 -15) (17 min)
-DESIRT_50_g (50 -15) (13 min)
 
 ### 04:00
 YSE353 [63 -10] 17 min

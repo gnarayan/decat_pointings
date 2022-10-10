@@ -83,13 +83,14 @@ DEBASS/EVERYTHING/2022trz_P1 [95 -73] (4min)
 Shen SCVZ [90 -66] 12 min 
 
 ### 04:50
+
+**** 15 minutes extra time ***
+
+### 05:05
 YSE 412 [115 -2] 25 min
 YSE 311 [123 -17] 25 min
 YSE 2017gkp [132 -33] (7 min) ### skip if necessary
 
-### 05:50
-
-**** 15 minutes extra time ***
 
 ### 06:07:05 slew to Asteroid fields
 using morning twilight asteroid script in

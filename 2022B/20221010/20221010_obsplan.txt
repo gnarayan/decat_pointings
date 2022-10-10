@@ -51,10 +51,10 @@ DESIRT_NGC7793 [360, -32] (3min) IF EXTRA TIME
 DEBASS/EVERYTHING/2022ssj_P2 [4 -17] (4min) CAN SKIP IF NEEDED
 
 ### 01:00
-X123 [34, -4] 35 min  ## g band may saturate the CCDs!!
+X123 [34, -4] 35 min  ## CLOSE TO MOON , plus g band may saturate the CCDs!!
 
 ### 01:35
-S1S2   [42, 0] 22 min ##Warning: exposures too long for dark time, will saturate in g and likely in r too!
+S1S2   [42, 0] 22 min ##Warning: CLOSE TO MOON ,+ exposures too long for dark time, will saturate in g and likely in r too!
 
 ### 02:05
 elais_ddf_seq_A [7, -43] 15 min

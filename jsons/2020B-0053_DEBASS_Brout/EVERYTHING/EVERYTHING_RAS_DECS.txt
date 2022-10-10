@@ -1,5 +1,8 @@
 2022xhh_P1 [64 -11]
+2022xbd_P1 [94 -31]
 2022trz_P1 [95 -73]
+2022xgi_P1 [247 11]
+2022xaw_P1 [344 16]
 2022vpn_P1 [335 25]
 
 2022ssj_P2 [4 -17]
@@ -17,5 +20,5 @@
 2022wtn_P3 [350 10]
 
 2022wsu_TCTM [34 17]
-EVERYTHING	97.8 minutes
-EVERYTHING_P1	12.7 minutes
+EVERYTHING	106.3 minutes
+EVERYTHING_P1	24.3 minutes

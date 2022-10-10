@@ -24,13 +24,13 @@ Script will finish on its own or at -14 deg twilight.
 *********************************************
 
 
+
+
 ### 20:50:29
-DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (4min) CAN SKIP IF NEEDED
 #decapseast_ddf_A.json [270 -29] 15 min
 #decapseast_ddf_B.json [270 -29] 15 min
 
 ### 21:30
-DEBASS/EVERYTHING/2022tvz_P1 [298 -21] (4min)
 YSE 2021fpl [303 -18] 10 min ## CAN SKIP IF NEEDED
 YSE 2022tiv [321 -23] 3 min  
 YSE 2022pda [331 -19] 2 min  
@@ -43,23 +43,22 @@ DESIRT_320_rz [~320 6] (40 min)
 ### 23:13
 YSE 544 [321 9] 24 min
 DEBASS/EVERYTHING/2022vpn_P1 [335 25] 4min
+DEBASS/EVERYTHING/2022suc_P2 [346 23] (4min) CAN SKIP IF NEEDED
+DEBASS/EVERYTHING/2022xaw_P1 [344 16] (4min)
 
 ### 23:41
 DESIRT_S82_rz [~330-340 0] (40 min)
 YSE 494 [347 9] 8 min 
 DEBASS/EVERYTHING/2022wsr_P2 [354 -4] (4min) CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2022wtn_P2 [350 10] (4min) CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2022rso_P2 [351 16] (4min) CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2022wcm_P1 [358 8] (4min)
+DEBASS/EVERYTHING/2022rld_P2 [352 -8] (4min) CAN SKIP IF NEEDED
 
 ### 00:45
 DESIRT_NGC7793 [360, -32] (3min) 
 ##? YSE 2022jli [7 -8] 5 min 
 ##? YSE 550 [4 18] 8 min 
 ##? YSE 448 [16 3] 8 min 
-DEBASS/EVERYTHING/2022ssj_P1 [4 -17] (4min)
+DEBASS/EVERYTHING/2022ssj_P2 [4 -17] (4min) CAN SKIP IF NEEDED
 ##? YSE 296 [17 -17] 8 min  
-DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (4min)
 ##? YSE 2020zbf [29 -41] (10min)
 
 ### 01:00
@@ -74,7 +73,6 @@ elais_ddf_seq_A [7, -43] 15 min
 elais_ddf_seq_B [7, -43] 15 min
 DESIRT_S82_2_iz_Oct9 [0 0] CAN SKIP IF NEEDED
 
-DEBASS/EVERYTHING/2022wsu_P2 [34 17] (4min) CAN SKIP IF NEEDED
 
 ###02:25
 YSE403 [50 -2] 17 min 
@@ -85,12 +83,13 @@ DESIRT_50_r (50 -15) (17 min)
 
 ### 04:00
 YSE353 [63 -10] 17 min
+DEBASS/EVERYTHING/2022xhh_P1 [64 -11] (4min)
 YSE253 [67, -26] 17 min
 YSE 2022tmo [69 -13] 4 min
-DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (4min)
-DEBASS/EVERYTHING/2022taw_P1 [76 -10] (4min)
+DEBASS/EVERYTHING/2022taw_P2 [76 -10] (4min) CAN SKIP IF NEEDED
 YSE257 [85 -25] 17 min  
-DEBASS/EVERYTHING/2022whp_P1 [100 -22] (4min)
+DEBASS/EVERYTHING/2022xbd_P1 [94 -31] (4min)
+DEBASS/EVERYTHING/2022trz_P1 [95 -73] (4min)
 
 ### 05:10
 YSE 412 [115 -2] 17 min

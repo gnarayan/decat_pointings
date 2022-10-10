@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 335.25699,
         "dec": 25.93626,
         "object": "2022vpn_P1",

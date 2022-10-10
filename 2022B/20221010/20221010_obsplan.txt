@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.97
-UT -16 deg twilight: 2022-10-08T00:00:07.873 2022-10-08T09:01:17.021
-UT -15 deg twilight: 2022-10-07T23:55:18.299 2022-10-08T09:06:06.390
-UT -14 deg twilight: 2022-10-07T23:50:29.805 2022-10-08T09:10:54.754
-UT -12 deg twilight: 2022-10-07T23:40:55.481 2022-10-08T09:20:28.715
-UT -10 deg twilight: 2022-10-07T23:31:24.445 2022-10-08T09:29:59.369
-LOCAL -16 deg twilight: 10/07/2022,   21:00:07   06:01:17
-LOCAL -15 deg twilight: 10/07/2022,   20:55:18   06:06:06
-LOCAL -14 deg twilight: 10/07/2022,   20:50:29   06:10:54
-LOCAL -12 deg twilight: 10/07/2022,   20:40:55   06:20:28
-LOCAL -10 deg twilight: 10/07/2022,   20:31:24   06:29:59
-LOCAL night MIDPOINT: 10/08/2022,   01:30:42
+MOON ILLUMINATION: 0.98
+UT -16 deg twilight: 2022-10-11T00:02:23.564 2022-10-11T08:57:22.863
+UT -15 deg twilight: 2022-10-10T23:57:31.258 2022-10-11T09:02:14.500
+UT -14 deg twilight: 2022-10-10T23:52:41.147 2022-10-11T09:07:05.020
+UT -12 deg twilight: 2022-10-10T23:43:02.926 2022-10-11T09:16:42.974
+UT -10 deg twilight: 2022-10-10T23:33:28.407 2022-10-11T09:26:17.216
+LOCAL -16 deg twilight: 10/10/2022,   21:02:23   05:57:22
+LOCAL -15 deg twilight: 10/10/2022,   20:57:31   06:02:14
+LOCAL -14 deg twilight: 10/10/2022,   20:52:41   06:07:05
+LOCAL -12 deg twilight: 10/10/2022,   20:43:02   06:16:42
+LOCAL -10 deg twilight: 10/10/2022,   20:33:28   06:26:17
+LOCAL night MIDPOINT: 10/11/2022,   01:29:53
 
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed
@@ -23,65 +23,75 @@ Script will finish on its own or at -14 deg twilight.
 *** Note: Local Chilean time is now EDT+1 ***
 *********************************************
 
-### 20:50:29
-YSE 2021fpl [303 -18] 10 min ## CAN SKIP IF NEEDED
-YSE 2022tiv [321 -23] 3 min  
-YSE 2022pda [331 -19] 2 min  
+### 20:52:41
 YSE 440 [314 -4] 24 min   
+YSE 2022tiv [321 -23] 4 min  
+YSE 2022pda [331 -18] 4 min
+YSE 2022wbc [331 7] 4 min
 
 ### 21:30
 DESIRT_320_rz [~320 6] (40 min) 
 DESIRT_320_i [~320 6] (17 min) IF EXTRA TIME 
 
 ### 22:30
-YSE 544 [321 9] 24 min
+YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022vpn_P1 [335 25] 4min
 DEBASS/EVERYTHING/2022suc_P2 [346 23] (4min) CAN SKIP IF NEEDED
 DEBASS/EVERYTHING/2022xaw_P1 [344 16] (4min)
 
-### 23:10
+### 23:00
 DESIRT_S82_rz [~330-340 0] (40 min)
 DESIRT_S82_2_iz [~350-4 0] (40 min)
-YSE 494 [347 9] 8 min 
+YSE 494 [347 9] 17 min 
+YSE 2022vye [357 2] 4 min
 DEBASS/EVERYTHING/2022wsr_P2 [354 -4] (4min) CAN SKIP IF NEEDED
 DEBASS/EVERYTHING/2022rld_P2 [352 -8] (4min) CAN SKIP IF NEEDED
 
-### 00:45
+### 00:50
 DESIRT_NGC7793 [360, -32] (3min) IF EXTRA TIME 
 DEBASS/EVERYTHING/2022ssj_P2 [4 -17] (4min) CAN SKIP IF NEEDED
+YSE 550 [4 18] 8 min 
+### YSE 448 [16 3] 8 min TOO CLOSE TO MOON!!
+YSE 296 [17 -17] 8 min 
 
-### 01:00
-X123 [34, -4] 35 min  ## CLOSE TO MOON , plus g band may saturate the CCDs!!
-S1S2   [42, 0] 22 min ##Warning: CLOSE TO MOON ,+ exposures too long for dark time, will saturate in g and likely in r too!
+### TOO CLOSE TO MOON!!
+### X123 [34, -4] 35 min  ## CLOSE TO MOON , plus g band may saturate the CCDs!!
+### S1S2   [42, 0] 22 min ##Warning: CLOSE TO MOON ,+ exposures too long for dark time, will saturate in g and likely in r too!
+### YSE401 [37 0] 17 min  ## CLOSE TO MOON
 
-### 01:25
+### 01:15
 elais_ddf_seq_A [7, -43] 30 min
 elais_ddf_seq_B [7, -43] 30 min
 
-
-###02:25
-YSE403 [50 -2] 17 min 
+### 02:15
+###  YSE403 [50 -2] 17 min ## CLOSE TO MOON
 C3 [52, -28] 11 min  
 DESIRT_50_z (50 -15) (23 min) CAN SKIP IF NEEDED
 DESIRT_50_i (50 -15) (20 min) CAN SKIP IF NEEDED
 
-### 04:00
+### 03:15
 YSE353 [63 -10] 17 min
 DEBASS/EVERYTHING/2022xhh_P1 [64 -11] (4min)
 YSE253 [67, -26] 17 min
-YSE 2022tmo [69 -13] 4 min
+YSE 2022tmo [69 -13] 4 min 
 DEBASS/EVERYTHING/2022taw_P2 [76 -10] (4min) CAN SKIP IF NEEDED
-YSE257 [85 -25] 17 min  
+
+### 04:05
+YSE257 [85 -25] 25 min  
 DEBASS/EVERYTHING/2022xbd_P1 [94 -31] (4min)
 DEBASS/EVERYTHING/2022trz_P1 [95 -73] (4min)
+Shen SCVZ [90 -66] 12 min 
 
-### 05:10
-YSE 412 [115 -2] 17 min
-YSE 311 [123 -17] 17 min
-YSE 2017gkp [132 -33] (18 min) 
+### 04:50
+YSE 412 [115 -2] 25 min
+YSE 311 [123 -17] 25 min
+YSE 2017gkp [132 -33] (3 min) ### skip if necessary
 
+### 05:45
 
-### 06:08 slew to Asteroid fields
+**** 20 minutes extra time ***
+
+### 06:07:05 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

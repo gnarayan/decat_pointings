@@ -72,7 +72,7 @@ S1S2   [42, 0] 22 min
 ### 02:05
 elais_ddf_seq_A [7, -43] 15 min
 elais_ddf_seq_B [7, -43] 15 min
-DESIRT_S82_2_iz_Oct9 [0 0]
+DESIRT_S82_2_iz_Oct9 [0 0] CAN SKIP IF NEEDED
 
 DEBASS/EVERYTHING/2022wsu_P2 [34 17] (4min) CAN SKIP IF NEEDED
 

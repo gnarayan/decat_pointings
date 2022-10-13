@@ -24,66 +24,74 @@ Script will finish on its own or at -14 deg twilight.
 *********************************************
 
 ### 20:54:57
+DEBASS/EVERYTHING/2022wwt_P1 [267 -60] (3min) 
+DEBASS/EVERYTHING/2022tvz_P1 [298 -21] (3min)
 YSE 440 [314 -4] 17 min   
 YSE 2022tiv [321 -23] 4 min  
 YSE 2022pda [331 -18] 4 min
 YSE 2022wbc [331 7] 4 min
 
-### 21:33
-DESIRT_320_g [~320 6] (13 min)
+### 21:30
+DESIRT_320_g [~320 6] (13 min) 
 DESIRT_320_rz [~320 6] (40 min) 
 
-### 22:30
+### 22:25
 YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022vpn_P1 [335 25] 4min
-DEBASS/EVERYTHING/2022suc_P2 [346 23] (4min) CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2022xaw_P1 [344 16] (4min)
 
-### 23:00
+### 22:45
 DESIRT_S82_g [~330-340 0] (13 min)
 DESIRT_S82_rz (40 min)
-YSE 494 [347 9] 17 min 
-YSE 2022vye [357 2] 4 min
-DESIRT_S82_2_g [~350-0 0] (13 min)
-DESIRT_S82_2_rz (40 min) 
-DEBASS/EVERYTHING/2022wsr_P2 [354 -4] (4min) CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2022rld_P2 [352 -8] (4min) CAN SKIP IF NEEDED
 
-### 00:50
-DEBASS/EVERYTHING/2022ssj_P2 [4 -17] (4min) CAN SKIP IF NEEDED
+### 23:40
+YSE 494 [347 9] 17 min 
+DEBASS/EVERYTHING/2022wtn_P2 [350 10] (3min) CAN SKIP IF NEEDED
+DEBASS/EVERYTHING/2022wcm_P1 [358 8] (3min)
+YSE 2022vye [357 2] 4 min
+DESIRT_S82_2_g [~350-0 0] (13 min) 
+DESIRT_S82_2_rz (40 min) 
+DEBASS/EVERYTHING/2022wsr_P1 [354 -4] (3min)
+
+### 01:05
 YSE 550 [4 18] 17 min 
 YSE 448 [16 3] 17 min 
 YSE 296 [17 -17] 17 min 
+DEBASS/EVERYTHING/2022vrj_P1 [22 17] (3min)
+DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (3min)
 
-X123 [34, -4] 35 min  ## CLOSE TO MOON skip g band if not enough time
-S1S2   [42, 0] 22 min ## CLOSE TO MOON skip g band if not enough time
-YSE 2022uto [41 17] 4 min ## CLOSE TO MOON skip if not enough time
-YSE401 [37 0] 17 min  ## CLOSE TO MOON skip i band if not enough time
+### 02:00
+X123 [34, -4] 35 min  ## skip g band 
+DEBASS/EVERYTHING/2022wcy_P1 [33 9] (3min)
+DEBASS/EVERYTHING/2022wsu_P1 [34 17] (3min)
+S1S2   [42, 0] 22 min ## skip g band 
+###YSE 2022uto [41 17] 4 min ## CLOSE TO MOON skip if not enough time
+###YSE401 [37 0] 17 min  ## CLOSE TO MOON skip i band if not enough time
 
-### 01:15
+### 03:00
 elais_ddf_seq_A [7, -43] 30 min
 elais_ddf_seq_B [7, -43] 30 min
 
-### 02:15
+### 04:00
 YSE403 [50 -2] 17 min ## CLOSE TO MOON skip i band if not enough time
-C3 [52, -28] 11 min ## CLOSE TO MOON skip g band if not enough time 
+DEBASS/EVERYTHING/2022xix_P1 [64 0] (3min)
+DEBASS/EVERYTHING/2022xhd_P2 [55 -16] (3min) CAN SKIP IF NEEDED
+C3 [52, -28] 11 min ## skip g band 
+DEBASS/EVERYTHING/2022xkr_P2 [56 -47] (3min) CAN SKIP IF NEEDED
+DEBASS/EVERYTHING/2022xku_P1 [60 -52] (3min)
 
-### 03:15
+### 04:30
 YSE353 [63 -10] 17 min ## CLOSE TO MOON skip i band if not enough time
-DEBASS/EVERYTHING/2022xhh_P1 [64 -11] (4min)
 YSE253 [67, -26] 17 min ## CLOSE TO MOON skip i band if not enough time
 YSE 2022tmo [69 -13] 3 min ## CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2022taw_P2 [76 -10] (4min) ## CAN SKIP IF NEEDED
 YSE 2022xkq [76 -12] (4min) ## HIGH PRIORITY
+DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (3min) HIGH PRIORITY
 
-### 04:05
+### 05:00
 YSE257 [85 -25] 25 min  
-DEBASS/EVERYTHING/2022xbd_P1 [94 -31] (4min)
-DEBASS/EVERYTHING/2022trz_P1 [95 -73] (4min)
+DEBASS/EVERYTHING/2022whp_P1 [100 -22] (3min) HIGH PRIORITY
 Shen SCVZ [90 -66] 12 min 
 
-
-### 05:05
+### 05:35
 YSE 412 [115 -2] 25 min
 YSE 311 [123 -17] 25 min
 #### YSE 2017gkp [132 -33] (7 min) 

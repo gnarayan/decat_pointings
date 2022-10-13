@@ -33,26 +33,26 @@ YSE 2022wbc [331 7] 4 min
 
 ### 21:30
 DESIRT_320_g [~320 6] (13 min) 
-DESIRT_320_rz [~320 6] (40 min) 
+DESIRT_320_rz_Oct13 [~320 6] (36 min) 
 
-### 22:25
+### 22:20
 YSE 544 [321 9] 17 min
 DEBASS/EVERYTHING/2022vpn_P1 [335 25] 4min
 
 ### 22:45
 DESIRT_S82_g [~330-340 0] (13 min)
-DESIRT_S82_rz (40 min)
+DESIRT_S82_rz_Oct13 (37 min)
 
-### 23:40
+### 23:35
 YSE 494 [347 9] 17 min 
 DEBASS/EVERYTHING/2022wtn_P2 [350 10] (3min) CAN SKIP IF NEEDED
 DEBASS/EVERYTHING/2022wcm_P1 [358 8] (3min)
 YSE 2022vye [357 2] 4 min
 DESIRT_S82_2_g [~350-0 0] (13 min) 
-DESIRT_S82_2_rz (40 min) 
+DESIRT_S82_2_rz (37 min) 
 DEBASS/EVERYTHING/2022wsr_P1 [354 -4] (3min)
 
-### 01:05
+### 01:00
 YSE 550 [4 18] 17 min 
 YSE 448 [16 3] 17 min 
 YSE 296 [17 -17] 17 min 

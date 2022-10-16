@@ -969,7 +969,8 @@ mkjson_yse_nofilterswitch.py  -f i,z   403 401 -d 221013
 mkjson_yse_nofilterswitch.py  -f i,z    353  253 -d 221013
 mkjson_yse_nofilterswitch.py  -f r,i    257 412 311 -d 221013
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo -d 221013 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221013 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221013 -e 10 -n 1
 mkjson_yse_nofilterswitch.py  -f r,i,z  2022uto 2022tmo -d 221013 -e 15 -n 1
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221013 -e 25
@@ -982,6 +983,31 @@ mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221013 -e 150 -n 3
 git add 221013
 git add 221013/*.json
 
+mkdir 20221016
+cp obsplan_fullnight.txt 20221016/20221016_obsplan.txt
+cp 20221010/20221010_obsplan.txt 20221016/20221016_obsplan.txt 
+subl 20221016/20221016_obsplan.txt
+git add 20221016/20221016_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221016
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221016
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221016
+mkjson_yse_nofilterswitch.py  -f i,z   403 401 -d 221016
+mkjson_yse_nofilterswitch.py  -f i,z    353  253 -d 221016
+mkjson_yse_nofilterswitch.py  -f i    257 412 311 -d 221016
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221016 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221016 -e 5 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z  2022uto 2022tmo -d 221016 -e 15 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221016 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221016 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221016 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221016 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221016 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221016 -e 150 -n 3
+git add 221016
+git add 221016/*.json
 
 
 440 544  494 353 257 253 412 311 17 min
@@ -1029,7 +1055,8 @@ YSE_pointings2fieldcenters.py --addSN 2022pda 331.0578958     -18.8279056 -vv --
 YSE_pointings2fieldcenters.py --addSN 2017gkp 131.799125 -33.753031  -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022wbc 331.9949792     7.1353639 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022vye 357.0752958     2.3411806 -vv --overw
-
+YSE_pointings2fieldcenters.py --addSN 2022xkq 76.3487500     -11.8822583 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022xiw 288.264599176 +19.7734044268 -vv --overw
 
 2017gkp: Jacob
 

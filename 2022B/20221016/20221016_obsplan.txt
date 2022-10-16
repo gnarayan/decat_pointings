@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.81
-UT -16 deg twilight: 2022-10-14T00:04:44.902 2022-10-14T08:53:32.142
-UT -15 deg twilight: 2022-10-13T23:59:50.700 2022-10-14T08:58:26.238
-UT -14 deg twilight: 2022-10-13T23:54:57.786 2022-10-14T09:03:19.082
-UT -12 deg twilight: 2022-10-13T23:45:15.338 2022-10-14T09:13:01.308
-UT -10 deg twilight: 2022-10-13T23:35:37.020 2022-10-14T09:22:39.368
-LOCAL -16 deg twilight: 10/13/2022,   21:04:44   05:53:32
-LOCAL -15 deg twilight: 10/13/2022,   20:59:50   05:58:26
-LOCAL -14 deg twilight: 10/13/2022,   20:54:57   06:03:19
-LOCAL -12 deg twilight: 10/13/2022,   20:45:15   06:13:01
-LOCAL -10 deg twilight: 10/13/2022,   20:35:37   06:22:39
-LOCAL night MIDPOINT: 10/14/2022,   01:29:08
+MOON ILLUMINATION: 0.55
+UT -16 deg twilight: 2022-10-17T00:07:12.026 2022-10-17T08:49:45.582
+UT -15 deg twilight: 2022-10-17T00:02:15.889 2022-10-17T08:54:42.234
+UT -14 deg twilight: 2022-10-16T23:57:19.883 2022-10-17T08:59:37.517
+UT -12 deg twilight: 2022-10-16T23:47:32.897 2022-10-17T09:09:24.303
+UT -10 deg twilight: 2022-10-16T23:37:50.480 2022-10-17T09:19:06.516
+LOCAL -16 deg twilight: 10/16/2022,   21:07:12   05:49:45
+LOCAL -15 deg twilight: 10/16/2022,   21:02:15   05:54:42
+LOCAL -14 deg twilight: 10/16/2022,   20:57:19   05:59:37
+LOCAL -12 deg twilight: 10/16/2022,   20:47:32   06:09:24
+LOCAL -10 deg twilight: 10/16/2022,   20:37:50   06:19:06
+LOCAL night MIDPOINT: 10/17/2022,   01:28:28
 
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed
@@ -23,37 +23,16 @@ Script will finish on its own or at -14 deg twilight.
 *** Note: Local Chilean time is now EDT+1 ***
 *********************************************
 
-
-
-
-### 20:54:57
-YSE 440 [314 -4] 17 min   
-YSE 2022tiv [321 -23] 4 min  
-YSE 2022pda [331 -18] 4 min
-YSE 2022wbc [331 7] 4 min
-
-### 21:30
-DESIRT_320_g [~320 6] (13 min) 
-DESIRT_320_rz_Oct13 [~320 6] (36 min) 
-
-### 22:20
-YSE 544 [321 9] 17 min
-
-### 22:45
-DESIRT_S82_g [~330-340 0] (13 min)
-DESIRT_S82_rz_Oct13 (37 min)
-
-### 23:35
-YSE 494 [347 9] 17 min 
-YSE 2022vye [357 2] 4 min
-DESIRT_S82_2_g [~350-0 0] (13 min) 
-DESIRT_S82_2_rz (37 min) 
-
-### 01:00
-YSE 550 [4 18] 17 min 
-YSE 448 [16 3] 17 min 
+### 01:28
+### YSE 550 [4 18] 17 min 
+### YSE 448 [16 3] 17 min 
 YSE 296 [17 -17] 17 min
 
+
+DESIRT_S82_2_gr [~350-0 0] (20 min)
+DESIRT_NGC7793_griz [360, -32] (4 min)
+
+### 1:30
 ### START OF DEBASS SECOND HALF TARGETS
 DEBASS/EVERYTHING/2022xjl_P1 [360 6] (3min)
 DEBASS/EVERYTHING/2022wcm_P1 [358 8] (3min)
@@ -61,44 +40,47 @@ DEBASS/EVERYTHING/2022wsq_P1 [20 15] (3min)
 DEBASS/EVERYTHING/2022vrj_P1 [22 17] (3min)
 DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (3min)
 
-### 02:00
+### 01:45
 X123 [34, -4] 35 min  ## skip g band 
 DEBASS/EVERYTHING/2022wcy_P1 [33 9] (3min)
 DEBASS/EVERYTHING/2022wsu_P1 [34 17] (3min)
 DEBASS/EVERYTHING/2022xkt_P1 [38 22] (3min)
 S1S2   [42, 0] 22 min ## skip g band 
-###YSE 2022uto [41 17] 4 min ## CLOSE TO MOON skip if not enough time
-###YSE401 [37 0] 17 min  ## CLOSE TO MOON skip i band if not enough time
+###YSE 2022uto [41 17] 4 min 
+YSE401 [37 0] 17 min  
 
-### 03:00
+### 03:15
 elais_ddf_seq_A [7, -43] 30 min
 elais_ddf_seq_B [7, -43] 30 min
 
-### 04:00
-YSE403 [50 -2] 17 min ## CLOSE TO MOON skip i band if not enough time
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_z (50 -15) (21 min)
+
+### 04:47
+YSE403 [50 -2] 17 min 
 DEBASS/EVERYTHING/2022xix_P1 [64 0] (3min)
 DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (3min)
-C3 [52, -28] 11 min ## skip g band 
+C3 [52, -28] 11 min 
 
-### 04:30
-YSE353 [63 -10] 17 min ## CLOSE TO MOON skip i band if not enough time
-YSE253 [67, -26] 17 min ## CLOSE TO MOON skip i band if not enough time
-YSE 2022tmo [69 -13] 3 min ## CAN SKIP IF NEEDED
+### 05:22
+### YSE353 [63 -10] 8 min ## CLOSE TO MOON 
+YSE253 [67, -26] 8 min ## CLOSE TO MOON 
+### YSE 2022tmo [69 -13] 3 min ## CAN SKIP IF NEEDED
 YSE 2022xkq [76 -12] (4min) ## HIGH PRIORITY
 DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (3min)
 
-### 05:00
-YSE257 [85 -25] 25 min  
+### 05:37
+YSE257 [85 -25] 7 min  ## CLOSE TO MOON 
 DEBASS/EVERYTHING/2022whp_P1 [100 -22] (3min)
 Shen SCVZ [90 -66] 12 min 
 
-### 05:35
-YSE 412 [115 -2] 25 min
-YSE 311 [123 -17] 25 min
+### 
+#### YSE 412 [115 -2] 7min ## CLOSE TO MOON 
+#### YSE 311 [123 -17] 7 min ## CLOSE TO MOON 
 #### YSE 2017gkp [132 -33] (7 min) 
 
 
-### 06:03:19 slew to Asteroid fields
+### 05:59:37 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

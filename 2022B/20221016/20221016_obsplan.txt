@@ -24,22 +24,19 @@ Script will finish on its own or at -14 deg twilight.
 *********************************************
 
 ### 01:28
+DESIRT_S82_2_gr [~350-0 0] (20 min)
+DEBASS/EVERYTHING/2022xjl_P1 [360 6] (3min)
+DEBASS/EVERYTHING/2022wcm_P1 [358 8] (3min)
+DESIRT_NGC7793_griz [360, -32] (4 min)
+
+### 02:00
 ### YSE 550 [4 18] 17 min 
 ### YSE 448 [16 3] 17 min 
 YSE 296 [17 -17] 17 min
-
-
-DESIRT_S82_2_gr [~350-0 0] (20 min)
-DESIRT_NGC7793_griz [360, -32] (4 min)
-
-### 1:30
-### START OF DEBASS SECOND HALF TARGETS
-DEBASS/EVERYTHING/2022xjl_P1 [360 6] (3min)
-DEBASS/EVERYTHING/2022wcm_P1 [358 8] (3min)
 DEBASS/EVERYTHING/2022vrj_P1 [22 17] (3min)
 DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (3min)
 
-### 01:45
+### 02:30
 X123 [34, -4] 35 min  ## skip g band 
 DEBASS/EVERYTHING/2022wcy_P1 [33 9] (3min)
 DEBASS/EVERYTHING/2022wsu_P1 [34 17] (3min)

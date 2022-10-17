@@ -36,7 +36,7 @@ YSE 296 [17 -17] 17 min
 DEBASS/EVERYTHING/2022vrj_P1 [22 17] (3min)
 DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (3min)
 
-### 02:30
+### 02:23
 X123 [34, -4] 35 min  ## skip g band 
 DEBASS/EVERYTHING/2022wcy_P1 [33 9] (3min)
 DEBASS/EVERYTHING/2022wsu_P1 [34 17] (3min)
@@ -45,27 +45,25 @@ S1S2   [42, 0] 22 min ## skip g band
 ###YSE 2022uto [41 17] 4 min 
 YSE401 [37 0] 17 min  
 
-### 03:15
+### 03:46
 elais_ddf_seq_A [7, -43] 30 min
 elais_ddf_seq_B [7, -43] 30 min
 
 DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_z (50 -15) (21 min)
 
-### 04:47
+### 05:15
 YSE403 [50 -2] 17 min 
 DEBASS/EVERYTHING/2022xix_P1 [64 0] (3min)
 DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (3min)
-C3 [52, -28] 11 min 
 
-### 05:22
+### 05:38
 ### YSE353 [63 -10] 8 min ## CLOSE TO MOON 
 YSE253 [67, -26] 8 min ## CLOSE TO MOON 
 ### YSE 2022tmo [69 -13] 3 min ## CAN SKIP IF NEEDED
 YSE 2022xkq [76 -12] (4min) ## HIGH PRIORITY
 DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (3min)
 
-### 05:37
 YSE257 [85 -25] 7 min  ## CLOSE TO MOON 
 DEBASS/EVERYTHING/2022whp_P1 [100 -22] (3min)
 Shen SCVZ [90 -66] 12 min 

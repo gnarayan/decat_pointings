@@ -62,7 +62,7 @@ DESIRT_50_z (50 -15) (21 min)
 DESIRT_S82_2_g [~350-0 0] (13 min)
 DESIRT_S82_2_z [~350-0 0] (23 min)
 
-DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_g (50 -15) (12 min)
 DESIRT_50_r (50 -15) (16 min)
 
 #IF EXTRA TIME DESIRT_50_z (50 -15) (16 min)
@@ -70,44 +70,46 @@ DESIRT_50_r (50 -15) (16 min)
 
 ##Oct 22- 2nd half
 
-DESIRT_S82_2_gr [~350-0 0] (20 min)
-DESIRT_NGC7793_griz [360, -32] (4 min)
+DESIRT_S82_2_gr [~350-0 0] (30 min)
 
 DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_z (50 -15) (23 min)
 
 #IF EXTRA TIME DESIRT_50_r (50 -15) (17 min)
 #IF EXTRA TIME DESIRT_50_g (50 -15) (13 min) 
+#IF EXTRA TIME DESIRT_NGC7793_griz [360, -32] (4 min)
 
 ##Oct 25- 2nd half
 
 DESIRT_S82_2_g [~350-0 0] (13 min)
 DESIRT_S82_2_z [~350-0 0] (23 min)
 
-DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_g (50 -15) (12 min)
 DESIRT_50_r (50 -15) (16 min)
 
 #IF EXTRA TIME DESIRT_50_z (50 -15) (16 min)
 #IF EXTRA TIME DESIRT_50_g (50 -15) (12 min) 
+#IF EXTRA TIME DESIRT_NGC7793_griz [360, -32] (4 min)
 
 ##Oct 28- 2nd half
 
-DESIRT_S82_2_gr [~350-0 0] (20 min)
-DESIRT_NGC7793_griz [360, -32] (4 min)
+DESIRT_S82_2_gr [~350-0 0] (30 min)
 
-DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_g (50 -15) (12 min)
 DESIRT_50_z (50 -15) (21 min)
 
 #IF EXTRA TIME DESIRT_50_r (50 -15) (17 min)
 #IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
+#IF EXTRA TIME DESIRT_NGC7793_griz [360, -32] (4 min)
 
 ##Oct 31- 2nd half
 
 DESIRT_S82_2_g [~350-0 0] (13 min)
 DESIRT_S82_2_z [~350-0 0] (23 min)
 
-DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_g (50 -15) (12 min)
 DESIRT_50_r (50 -15) (16 min)
 
 #IF EXTRA TIME DESIRT_50_z (50 -15) (16 min)
 #IF EXTRA TIME DESIRT_50_g (50 -15) (12 min) 
+#IF EXTRA TIME DESIRT_NGC7793_griz [360, -32] (4 min)

@@ -28,8 +28,7 @@ Script will finish on its own or at -14 deg twilight.
 DEBASS/EVERYTHING/2022xxz_P1 [334 -16] (2min)
 DEBASS/EVERYTHING/2022xaw_P1 [344 16] (2min) 
 DEBASS/EVERYTHING/2022wcm_P1 [358 8] (2min)
-DESIRT_S82_2_gr [~350-0 0] (20 min)
-DESIRT_NGC7793_griz [360, -32] (4 min)
+DESIRT_S82_2_gr [~350-0 0] (30 min)
 DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (2min)
 
 
@@ -57,8 +56,7 @@ elais_ddf_seq_B [7, -43] 30 min
 ### !!!! CUT it down to 50 minutes !!!! ####
 
 ### 03:45
-DESIRT_50_g (50 -15) (13 min)
-DESIRT_50_z (50 -15) (23 min)
+DESIRT_50_gz_Oct (50 -15) (27 min)
 
 YSE403 [50 -2] 17 min 
 DEBASS/EVERYTHING/2022xix_P1 [64 0] (2min)

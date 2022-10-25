@@ -80,7 +80,7 @@ etale.g.30min.json [160 -60] 30 min
 ### eFEDS [129,1] 30 min  *** DO NOT SKIP!!! ***
 
 
-### 05:52:30 slew to Asteroid fields
+### 05:49:30 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

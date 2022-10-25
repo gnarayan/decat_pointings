@@ -24,12 +24,14 @@ Script will finish on its own or at -14 deg twilight.
 *********************************************
 
 
+
+
+
 ### 01:27:26
 DEBASS/EVERYTHING/2022xxz_P1 [334 -16] (2min)
-DEBASS/EVERYTHING/2022xaw_P1 [344 16] (2min) 
-DEBASS/EVERYTHING/2022wcm_P1 [358 8] (2min)
+DEBASS/EVERYTHING/2022ydl_P1 [339 -6] (3min)
+DEBASS/EVERYTHING/2022xqq_P1 [342 12] (3min)
 DESIRT_S82_2_gr [~350-0 0] (30 min)
-DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (2min)
 
 
 ### 02:00
@@ -40,11 +42,8 @@ DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (2min)
 
 ### 02:00
 X123 [34, -4] 35 min  
-DEBASS/EVERYTHING/2022vrj_P1 [22 17] (2min)
-DEBASS/EVERYTHING/2022wcy_P1 [33 9] (2min)
-DEBASS/EVERYTHING/2022wsu_P1 [34 17] (2min)
-DEBASS/EVERYTHING/2022xkt_P1 [38 22] (2min)
-DEBASS/EVERYTHING/2022xoz_P1 [42 6] (2min)
+DEBASS/EVERYTHING/2022xkt_P1 [38 22] (3min)
+DEBASS/EVERYTHING/2022xoz_P1 [42 6] (3min)
 ### S1S2   [42, 0] 22 min 
 ### YSE 2022uto [41 17] 4 min 
 ### YSE401 [37 0] 17 min  
@@ -59,18 +58,18 @@ elais_ddf_seq_B [7, -43] 30 min
 DESIRT_50_gz_Oct (50 -15) (27 min)
 
 YSE403 [50 -2] 17 min 
-DEBASS/EVERYTHING/2022xix_P1 [64 0] (2min)
-DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (2min)
+DEBASS/EVERYTHING/2022xix_P1 [64 0] (3min)
+DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (3min)
 
 ### YSE353 [63 -10] 17 min 
 ### YSE253 [67, -26] 17 min 
 ### YSE 2022tmo [69 -13] 3 min 
 ### YSE 2022xkq [76 -12] 3 min 
-DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (2min)
+DEBASS/EVERYTHING/2022wpy_P2 [72 -4] (3min) EXTRA TARGET
 
 ### 04:45
 ### YSE257 [85 -25] 8 min  
-DEBASS/EVERYTHING/2022whp_P1 [100 -22] (2min)
+DEBASS/EVERYTHING/2022whp_P2 [100 -22] (3min) EXTRA TARGET
 ### Shen SCVZ [90 -66] 12 min 
 
 ### 

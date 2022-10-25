@@ -11,20 +11,17 @@ LOCAL -12 deg twilight: 10/22/2022,   20:52:25   06:02:27
 LOCAL -10 deg twilight: 10/22/2022,   20:42:34   06:12:18
 LOCAL night MIDPOINT: 10/23/2022,   01:27:26
 
-Start with Pointing the Telescope 1 to 2 hours in RA to the West.
-After pointing of the telescope is confirmed
+###Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+###After pointing of the telescope is confirmed
 
-Slew to Asteroid Twilight Fields using 
-jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
-Script will finish on its own or at -14 deg twilight.
+###Slew to Asteroid Twilight Fields using 
+###jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+###Script will finish on its own or at -14 deg twilight.
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
 *** Note: Local Chilean time is now EDT+1 ***
 *********************************************
-
-
-
 
 
 ### 01:27:26

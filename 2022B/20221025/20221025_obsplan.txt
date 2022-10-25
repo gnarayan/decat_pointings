@@ -41,7 +41,8 @@ DESIRT_S82_2_gr [~350-0 0] (30 min)
 
 
 ### 02:00
-X123 [34, -4] 35 min  
+2019A-0065_SDSSV_Shen/C3 [53 -28]
+2022B-175073_Liu/S1S2  [43 0]
 DEBASS/EVERYTHING/2022xkt_P1 [38 22] (3min)
 DEBASS/EVERYTHING/2022xoz_P1 [42 6] (3min)
 ### S1S2   [42, 0] 22 min 

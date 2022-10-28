@@ -26,7 +26,7 @@ LOCAL night MIDPOINT: 10/29/2022,   01:26:48
 !!!! 01:26:48
 YSE 2022tiv [321 -23] 4 min
 DEBASS/EVERYTHING/2022xxz_P1 [334 -16] (2min)
-DESIRT_S82_2_gr [~350-0 0] (30 min)
+DESIRT_S82_2_gz_Oct [~350-0 0] (30 min)
 DEBASS/EVERYTHING/2022wcm_P1 [358 8] (2min)
 DEBASS/EVERYTHING/2022vrj_P1 [22 17] (2min)
 DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (2min)
@@ -49,7 +49,7 @@ elais_ddf_seq_A [7, -43] 30 min
 elais_ddf_seq_B [7, -43] 30 min 
 
 !!!! 03:55
-DESIRT_50_gz (50 -15) (27 min)
+DESIRT_50_gr (50 -15) (27 min)
 2019A-0065_SDSSV_Shen/C3 [53 -28] 11 min  !!!! Cut this one short if behind schedule !!!!! 
 
 !!!! 04:34  !!! Make sure you start these fields at these times!

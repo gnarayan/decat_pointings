@@ -24,17 +24,21 @@ LOCAL night MIDPOINT: 10/23/2022,   01:27:26
 *********************************************
 
 
+
+
 ### 01:27:26
 DEBASS/EVERYTHING/2022xxz_P1 [334 -16] (2min)
-DEBASS/EVERYTHING/2022ydl_P1 [339 -6] (3min)
-DEBASS/EVERYTHING/2022xqq_P1 [342 12] (3min)
 DESIRT_S82_2_gr [~350-0 0] (30 min)
+DEBASS/EVERYTHING/2022wcm_P1 [358 8] (2min)
+DEBASS/EVERYTHING/2022vrj_P1 [22 17] (2min)
+DEBASS/EVERYTHING/2022wxo_P1 [29 -7] (2min)
 
 ### 02:00
 2019A-0065_SDSSV_Shen/C3 [53 -28]
 2022B-175073_Liu/S1S2  [43 0]
-DEBASS/EVERYTHING/2022xkt_P1 [38 22] (3min)
-DEBASS/EVERYTHING/2022xoz_P1 [42 6] (3min)
+DEBASS/EVERYTHING/2022wsu_P1 [34 17] (2min)
+DEBASS/EVERYTHING/2022xkt_P1 [38 22] (2min)
+DEBASS/EVERYTHING/2022xoz_P1 [42 6] (2min)
 
 ### 02:46
 ### !!!! CUT it down to 50 minutes !!!! ####
@@ -48,10 +52,10 @@ DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (3min)
 YSE253 [67, -26] 17 min 
 YSE353 [63 -10] 17 min 
 DEBASS/EVERYTHING/2022xix_P1 [64 0] (3min)
-#DEBASS/EVERYTHING/2022wpy_P2 [72 -4] (3min)  EXTRA TARGET FOR OCT 25th
+DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (2min)
 
 ### 04:45
-#DEBASS/EVERYTHING/2022whp_P2 [100 -22] (3min) EXTRA TARGET FOR OCT 25th
+DEBASS/EVERYTHING/2022whp_P1 [100 -22] (2min)
 Shen SCVZ [90 -66] 12 min 
 
 ### Fill time to 5:20 with any of the three YSE fields below
@@ -61,6 +65,8 @@ Shen SCVZ [90 -66] 12 min
 
 ### 05:20
 eFEDS [129,1] 30 min  *** DO NOT SKIP!!! ***
+DEBASS/EVERYTHING/2022yrt_P1 [133 1] (2min)
+DEBASS/EVERYTHING/2022yjy_P1 [115 8] (2min)
 
 ### 05:49:30 slew to Asteroid fields
 using morning twilight asteroid script in

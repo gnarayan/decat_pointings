@@ -15,8 +15,8 @@
     },
     {
         "count": 1,
-        "filter": "i",
-        "exptime": 15.0,
+        "filter": "r",
+        "exptime": 30.0,
         "RA": 34.76,
         "dec": 17.87307,
         "object": "2022wsu_P1",

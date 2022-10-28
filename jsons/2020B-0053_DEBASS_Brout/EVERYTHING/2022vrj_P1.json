@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 30.0,
         "RA": 22.73801,
         "dec": 17.34969,
         "object": "2022vrj_P1",
@@ -15,7 +15,7 @@
     },
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
         "exptime": 30.0,
         "RA": 22.73801,
         "dec": 17.34969,

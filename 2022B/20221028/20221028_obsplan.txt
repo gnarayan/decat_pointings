@@ -57,16 +57,17 @@ DESIRT_50_gz (50 -15) (27 min)
 DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (3min)
 ### YSE 253 [67, -26] 17 min 
 ### YSE 353 [63 -10] 17 min 
-YSE 2022tmo [69 -13] 3 min 
+### YSE 2022tmo [69 -13] 3 min 
 YSE 2022xkq [76 -12] 3 min 
 DEBASS/EVERYTHING/2022xix_P1 [64 0] (3min)
+YSE 2022wiv [66  1] 3 min  ### Do not drop!
 DEBASS/EVERYTHING/2022wpy_P1 [72 -4] (2min)
 
 !!!! 04:48
 YSE 257 [85 -25] 16 min  
 DEBASS/EVERYTHING/2022whp_P1 [100 -22] (2min)
 ### Shen SCVZ [90 -66] 12 min 
-YSE 412 [115 -2] 17 min 
+YSE 412 [115 -2] 17 min    
 YSE 311 [123 -17] 17 min 
 #### YSE 2017gkp [132 -33] (7 min) 
 
@@ -74,6 +75,7 @@ YSE 311 [123 -17] 17 min
 ### eFEDS [129,1] 30 min  
 DEBASS/EVERYTHING/2022yrt_P1 [133 1] (2min)
 DEBASS/EVERYTHING/2022yjy_P1 [115 8] (2min)
+YSE 2022vqx  112 17 (3 min) ### do not drop!
 
 ### 05:45:49 slew to Asteroid fields
 using morning twilight asteroid script in

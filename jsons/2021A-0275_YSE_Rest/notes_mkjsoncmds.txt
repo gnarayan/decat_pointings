@@ -1080,6 +1080,8 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221028 -e 15 -n 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221028 -e 15 -n 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221028 -e 10 -n 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221028 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221028 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  -d 221028 -e 10 -n 1
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221028 -e 25
 mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221028 -e 10,10,10,10,20
@@ -1092,6 +1094,36 @@ mkjson_yse_nofilterswitch.py  -f i 2022xiw -d 221028 -e 100 -n 2
 git add 221028
 git add 221028/*.json
 
+mkdir 20221031
+cp obsplan_fullnight.txt 20221031/20221031_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221031/20221031_obsplan.txt 
+subl 20221031/20221031_obsplan.txt
+git add 20221031/20221031_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221031
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221031
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221031
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221031 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221031 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221031 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221031 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221031 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  -d 221031 -e 10 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221031 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221031 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221031 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221031 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221031 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221031 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f i 2022xiw -d 221031 -e 100 -n 2
+git add 221031
+git add 221031/*.json
 
 
 DDF 50
@@ -1149,6 +1181,8 @@ YSE_pointings2fieldcenters.py --addSN 2022wbc 331.9949792     7.1353639 -vv --ov
 YSE_pointings2fieldcenters.py --addSN 2022vye 357.0752958     2.3411806 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022xkq 76.3487500     -11.8822583 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022xiw 288.264599176 +19.7734044268 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022vqx 112.1779583 17.2504611 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022wiv 66.2824325  0.9785314 -vv --overw
 
 2017gkp: Jacob
 

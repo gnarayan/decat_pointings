@@ -30,11 +30,11 @@ DEBASS/EVERYTHING2022ypd_P1 [307 -1]  (4min)
 YSE 2022xxu [314 18] 3 min
 ### YSE 440 [314 -4] 8 min 
 YSE 2022xbu [320 -6] 3 min 
+
+!!! 21:50
+DESIRT_320_riz (320 6) (53 min)
 YSE 2022tiv [321 -23] 4 min  OPTIONAL FILLER
 ### YSE 2022pda [331 -18] 4 min  OPTIONAL FILLER
-
-!!! 21:55
-DESIRT_320_riz (320 6) (53 min)
 YSE 2022wbc [331 7] 4 min
 ### YSE 544 [321 9] 17 min
 
@@ -105,5 +105,4 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
-#IF EXTRA TIME DESIRT_S82_2_g [~330-344 0] (13 min)
+

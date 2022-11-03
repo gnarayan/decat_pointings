@@ -40,5 +40,19 @@
         "comment": "2022ypd",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 307.84621,
+        "dec": -1.90975,
+        "object": "2022ypd_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2022ypd",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

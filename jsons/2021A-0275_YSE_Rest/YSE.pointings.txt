@@ -257,3 +257,6 @@
           2022xiw   <NA> 288.26232  19.86040     0       NaN                    NaN     2022xiw      N4          35
           2022vqx   <NA> 112.17571  17.33745     0       NaN                    NaN     2022vqx      N4          35
           2022wiv   <NA>  66.28029   1.06552     0       NaN                    NaN     2022wiv      N4          35
+          2022xbu   <NA> 319.97994  -6.35050     0       NaN                    NaN     2022xbu      N4          35
+          2022xxu   <NA> 313.99826  17.89071     0       NaN                    NaN     2022xxu      N4          35
+          2022wsq   <NA>  19.99586  15.68973     0       NaN                    NaN     2022wsq      N4          35

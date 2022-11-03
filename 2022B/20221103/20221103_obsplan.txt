@@ -1,88 +1,110 @@
-MOON ILLUMINATION: 0.50
-UT -16 deg twilight: 2022-11-01T00:21:02.050 2022-11-01T08:32:19.648
-UT -15 deg twilight: 2022-11-01T00:15:48.825 2022-11-01T08:37:32.495
-UT -14 deg twilight: 2022-11-01T00:10:38.841 2022-11-01T08:42:43.147
-UT -12 deg twilight: 2022-11-01T00:00:23.836 2022-11-01T08:52:57.687
-UT -10 deg twilight: 2022-10-31T23:50:16.091 2022-11-01T09:03:05.059
-LOCAL -16 deg twilight: 10/31/2022,   21:21:02   05:32:19
-LOCAL -15 deg twilight: 10/31/2022,   21:15:48   05:37:32
-LOCAL -14 deg twilight: 10/31/2022,   21:10:38   05:42:43
-LOCAL -12 deg twilight: 10/31/2022,   21:00:23   05:52:57
-LOCAL -10 deg twilight: 10/31/2022,   20:50:16   06:03:05
-LOCAL night MIDPOINT: 11/01/2022,   01:26:40
+MOON ILLUMINATION: 0.81
+UT -16 deg twilight: 2022-11-04T00:24:03.653 2022-11-04T08:29:14.718
+UT -15 deg twilight: 2022-11-04T00:18:47.246 2022-11-04T08:34:30.787
+UT -14 deg twilight: 2022-11-04T00:13:33.595 2022-11-04T08:39:44.569
+UT -12 deg twilight: 2022-11-04T00:03:12.359 2022-11-04T08:50:05.761
+UT -10 deg twilight: 2022-11-03T23:52:58.929 2022-11-04T09:00:19.210
+LOCAL -16 deg twilight: 11/03/2022,   21:24:03   05:29:14
+LOCAL -15 deg twilight: 11/03/2022,   21:18:47   05:34:30
+LOCAL -14 deg twilight: 11/03/2022,   21:13:33   05:39:44
+LOCAL -12 deg twilight: 11/03/2022,   21:03:12   05:50:05
+LOCAL -10 deg twilight: 11/03/2022,   20:52:58   06:00:19
+LOCAL night MIDPOINT: 11/04/2022,   01:26:39
 
-###Start with Pointing the Telescope 1 to 2 hours in RA to the West.
-###After pointing of the telescope is confirmed
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed
 
-###Slew to Asteroid Twilight Fields using 
-###jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
-###Script will finish on its own or at -14 deg twilight.
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
 *** Note: Local Chilean time is now EDT+1 ***
 *********************************************
 
+!!! 21:13:33
+YSE 2022xiw [15 min]
+DEBASS/EVERYTHING/2022wwt_P1 [267 -60] (3min) 
+DEBASS/EVERYTHING2022ypd_P1 [307 -1]  (4min)
+YSE 2022xxu [314 18] 3 min
+### YSE 440 [314 -4] 8 min 
+YSE 2022xbu [320 -6] 3 min 
+YSE 2022tiv [321 -23] 4 min  OPTIONAL FILLER
+### YSE 2022pda [331 -18] 4 min  OPTIONAL FILLER
 
-!!!! 01:26:40
-### YSE 2022tiv [321 -23] 4 min
-DEBASS/EVERYTHING/2022xxz_P1 [334 -16] (2min)
-DESIRT_S82_2_gr [~350-0 0] (30 min)
-DEBASS/EVERYTHING/2022ywf_P1 [21 1] (3min)
+!!! 21:55
+DESIRT_320_riz (320 6) (53 min)
+YSE 2022wbc [331 7] 4 min
+### YSE 544 [321 9] 17 min
 
-### YSE 550 [4 18] 17 min 
-### YSE 448 [16 3] 17 min 
-### YSE 296 [17 -17] 17 min
+!!! 22:55
+### YSE 494 [347 9] 17 min    # Close to Moon, drop i band if necessary
+DEBASS/EVERYTHING/2022wcm_P1 [358 8] (3min)
+### YSE 2022vye [357 2] 4 min
+### YSE 550 [4 18] 17 min    # Close to Moon, drop i band if necessary 
+### YSE 448 [16 3] 17 min    # Close to Moon, drop i band if necessary 
+DEBASS/EVERYTHING2022ywf_P1 [21 1] (4min)
+### YSE 296 [17 -17] 17 min    # Close to Moon, drop i band if necessary
+YSE 2022wsq [20 15] 3 min 
+DEBASS/EVERYTHING2022vrj_P2 [22 17] (3min) OPTIONAL FILLER
+DEBASS/EVERYTHING2022wxo_P2 [29 -7] (3min) OPTIONAL FILLER
 
-!!!! 02:03
-### X123 [34, -4] 35 min 
-Liu S1S2  [43 0] 22 min 
-DEBASS/EVERYTHING/2022xkt_P1 [38 22] (2min)
-### YSE 2022uto [41 17] 3 min 
-DEBASS/EVERYTHING/2022xoz_P1 [42 6] (3min)
-### YSE 401 [37 0] 17 min  
+!!! 23:10
+X123 [34, -4] 35 min  
+DEBASS/EVERYTHING2022wsu_P2 [34 17] (3min) OPTIONAL FILLER
+DEBASS/EVERYTHING2022xoz_P2 [42 6] (3min) OPTIONAL FILLER
 
-!!!! 02:30
+!!! 23:50
+S1S2   [42, 0] 22 min 
+YSE 2022uto [41 17] 4 min 
+YSE401 [37 0] 17 min  
+
+!!! 00:35
 elais_ddf_seq_A [7, -43] 30 min
-elais_ddf_seq_B [7, -43] 30 min 
+elais_ddf_seq_B [7, -43] 30 min
 
-!!!! 03:30 ### Don't skip! Do not start later than 4am or before 3am (because of the Moon)!
+!!! 01:35
+YSE403 [50 -2] 17 min 
+DEBASS/EVERYTHING2022xix_P2 [64 0] (3min) OPTIONAL FILLER
+DESIRT_50_z (50 -15) (18 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_g (50 -15) (12 min)
+C3 [52, -28] 11 min ## skip g band 
+DEBASS/EVERYTHING2022yrs_P1 [56 -26]  (4min)
+DEBASS/EVERYTHING2022yvv_P1 [41 -22]  (4min)
+
+!!! 03:00
+YSE353 [63 -10] 17 min ## CLOSE TO MOON skip i band if not enough time
+YSE253 [67, -26] 17 min ## CLOSE TO MOON skip i band if not enough time
+### YSE 2022tmo [69 -13] 3 min ## CAN SKIP IF NEEDED
+YSE 2022xkq [76 -12] (4min) ## HIGH PRIORITY
+DEBASS/EVERYTHING2022wpy_P2 [72 -4] (3min) OPTIONAL FILLER
+DEBASS/EVERYTHING2022yxp_P1 [74 1]  (4min)
+YSE 2022wiv [66  1] 3 min  
+
+!!!! 04:48 ### Don't skip! Do not start later than 4:55am (because of the Moon)!
 !!!! IMPORTANT:  For the N419 filter most stars are pretty faint. Please advise the telescope operator to change the guider exposure time to 2400 ms (the default is 600 ms). !!!!
-YSE XMM_N419.R1.6_oct31.json 44 min [34, -4]
+### YSE XMM_N419.R1.6_2022nov03.json 22 min [34, -4]
 
-!!!! 04:14
-DEBASS/EVERYTHING/2022yvv_P1 [41 -22] (3min)
-DESIRT_50_gz_Oct (50 -15) (27 min)
-### 2019A-0065_SDSSV_Shen/C3 [53 -28] 11 min  
-
-!!!! 04:44  !!! Make sure you start these fields at these times!
-### YSE 403 [50 -2] 17 min 
-DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (3min)
-DEBASS/EVERYTHING/2022yrs_P1 [56 -26] (3min)
-### YSE 253 [67, -26] 16 min 
-### YSE 353 [63 -10] 16 min 
-### YSE 2022tmo [69 -13] 3 min 
-YSE 2022xkq [76 -12] 3 min 
-DEBASS/EVERYTHING/2022yxp_P1 [74 1] (3min)
-### YSE 2022wiv [66  1] 3 min  
-
-!!!! 04:55
-### YSE 257 [85 -25] 16 min  
+!!! 03:50
+YSE257 [85 -25] 17 min  
+DEBASS/EVERYTHING2022whp_P2 [100 -22] (3min) OPTIONAL FILLER
 Shen SCVZ [90 -66] 12 min 
-### YSE 412 [115 -2] 17 min    
-### YSE 311 [123 -17] 17 min 
+DECaPSWest [116 -26] 30 min
+
+!!! 04:55
+YSE 412 [115 -2] 17 min
+DEBASS/EVERYTHING2022yjy_P1 [115 8]  (4min)
+YSE 2022vqx  [112 17] (3 min) 
+DEBASS/EVERYTHING2022yrt_P1 [132 1]  (4min)
+YSE 311 [123 -17] 17 min
 #### YSE 2017gkp [132 -33] (7 min) 
 
-!!!! 05:07 
-eFEDS [129,1] 30 min  
-DEBASS/EVERYTHING/2022yrt_P1 [133 1] (2min)
-DEBASS/EVERYTHING/2022yjy_P1 [115 8] (2min)
-### YSE 2022vqx  112 17 (3 min) 
-
-### 05:42:43 slew to Asteroid fields
+!!! 05:39:44 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 2017gkp [132 -33] (7 min) 
-eFEDS [129,1] 30 min  
+#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
+#IF EXTRA TIME DESIRT_S82_2_g [~330-344 0] (13 min)

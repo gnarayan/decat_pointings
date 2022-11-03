@@ -13,21 +13,17 @@ DESIRT_320_rz (320 6) (37 min)
 
 DESIRT_S82_rz [~330-340 0] (37 min)
 
-DESIRT_S82_2_iz [~350-0 0] (37 min)
-
-DESIRT_50_iz (50 -15) (34 min)
+DESIRT_50_iz (50 -15) (40 min)
 
 
 ###Nov 9
 
 DESIRT_S82_gr [~330-340 0] (30 min)
 
-DESIRT_S82_2_grz_Nov [~350-0 0] (45 min)
+DESIRT_S82_2_rz [~350-0 0] (37 min)
 
-DESIRT_50_grz_Nov (50 -15) (45 min)
+DESIRT_50_riz_Nov9 (50 -15) (45 min)
 
-#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
-#IF EXTRA TIME DESIRT_S82_2_g [~330-344 0] (13 min)
 
 ###Nov 12 - 2nd half
 

@@ -1,0 +1,55 @@
+###Nov 3
+
+DESIRT_320_riz (320 6) (53 min)
+
+DESIRT_50_z (50 -15) (18 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_g (50 -15) (12 min)
+
+
+###Nov 6
+
+DESIRT_320_rz (320 6) (37 min)
+
+DESIRT_S82_rz [~330-340 0] (37 min)
+
+DESIRT_S82_2_iz [~350-0 0] (37 min)
+
+DESIRT_50_iz (50 -15) (34 min)
+
+
+###Nov 9
+
+DESIRT_S82_gr [~330-340 0] (30 min)
+
+DESIRT_S82_2_grz_Nov [~350-0 0] (45 min)
+
+DESIRT_50_grz_Nov (50 -15) (45 min)
+
+#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
+#IF EXTRA TIME DESIRT_S82_2_g [~330-344 0] (13 min)
+
+###Nov 12 - 2nd half
+
+DESIRT_50_grz (50 -15) (50 min)
+#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
+
+###Nov 15- 2nd half
+
+DESIRT_50_grz (50 -15) (50 min)
+#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
+
+###Nov 18- 2nd half
+
+DESIRT_50_grz (50 -15) (50 min)
+#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
+
+###Nov 21- 2nd half
+
+DESIRT_50_grz (50 -15) (50 min)
+#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)
+
+###Nov 24- 2nd half
+
+DESIRT_50_grz (50 -15) (50 min)
+#IF EXTRA TIME DESIRT_50_g (50 -15) (13 min)

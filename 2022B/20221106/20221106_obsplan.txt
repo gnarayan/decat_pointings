@@ -27,7 +27,7 @@ Script will finish on its own or at -14 deg twilight.
 *** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
 *** These are commented out.                          ***
 *** However, if you are running short on targets you  *** 
-*** can use them 									  ***
+*** can do them 									  ***
 *********************************************************
 
 !!! 21:16:31
@@ -101,3 +101,4 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+YSE 2017gkp [132 -33] (7 min) 

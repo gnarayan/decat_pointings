@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 30.0,
         "RA": 133.00706,
         "dec": 1.62748,
         "object": "2022yrt_P1",

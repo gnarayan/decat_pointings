@@ -1203,6 +1203,7 @@ mkjson_yse_nofilterswitch.py  -f i,z   448 550 -d 221109
 mkjson_yse_nofilterswitch.py  -f z   403 401 -d 221109
 mkjson_yse_nofilterswitch.py  -f z    353  253 -d 221109
 mkjson_yse_nofilterswitch.py  -f z    257  -d 221109
+mkjson_yse_nofilterswitch.py  -f i    412  -d 221109
 mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 221109
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221109 -e 15 -n 1
@@ -1212,6 +1213,7 @@ mkjson_yse_nofilterswitch.py  -f r,i,z 2022xkq -d 221109 -e 10 -n 1
 mkjson_yse_nofilterswitch.py  -f r,i,z  2022uto 2022tmo -d 221109 -e 10 -n 1
 mkjson_yse_nofilterswitch.py  -f r,i,z  2022vqx 2022wiv  -d 221109 -e 10 -n 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221109 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221109 -e 25
 mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221109 -e 10,10,10,10,20
@@ -1286,6 +1288,7 @@ YSE_pointings2fieldcenters.py --addSN 2022wiv 66.2824325  0.9785314 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022xbu 319.982094283 -6.4374889725 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022xxu 314.00051376667 +17.803720077778 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022wsq 19.9980857176 +15.602735487 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022zut 175.2450958     11.4696944 -vv --overw
 
 
 

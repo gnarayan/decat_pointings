@@ -34,14 +34,14 @@ Script will finish on its own or at -14 deg twilight.
 !!! 21:19:34
 DEBASS/EVERYTHING/2022ypd_P1 [307 -1] (4min)
 YSE 2022xxu [314 18] 3 min
+YSE 544 [321 9] 17 min
 YSE 440 [314 -4] 17 min      # OPTIONAL FILLER, drop if behind
 YSE 2022xbu [320 -6] 3 min 
 YSE 2022tiv [321 -23] 4 min  # OPTIONAL FILLER, drop if behind
 DEBASS/EVERYTHING/2022xxz_P2 [334 -16] OPTiONAL
 YSE 2022pda [331 -18] 4 min  # OPTIONAL FILLER, drop if behind
 
-!!! 21:50
-YSE 544 [321 9] 17 min
+!!! 21:10
 YSE 2022wbc [331 7] 4 min
 YSE 494 [347 9] 17 min        # Close to Moon, drop if behind
 YSE 2022vye [357 2] 4 min    # Close to Moon, drop if behind
@@ -61,7 +61,7 @@ X123 [34, -4] 35 min  ### drop g if behind!
 S1S2   [42, 0] 22 min  ### drop g if behind!
 ### YSE 2022uto [41 17] 4 min 
 DEBASS/EVERYTHING/2022ywf_P1 [21 1]
-YSE401 [37 0] 8 min  
+### YSE401 [37 0] 8 min  
 DEBASS/EVERYTHING/2022xoz_P2 [42 6] OPTiONAL
 DEBASS/EVERYTHING/2022xkt_P2 [38 22] OPTiONAL
 DEBASS/EVERYTHING/2022wxo_P1 [29 -7]
@@ -71,7 +71,7 @@ elais_ddf_seq_A [7, -43] 30 min
 elais_ddf_seq_B [7, -43] 30 min
 
 !!! 02:07
-YSE403 [50 -2] 8 min 
+### YSE403 [50 -2] 8 min 
 DESIRT_50_riz_Nov9 (50 -15) (45 min)
 DEBASS/EVERYTHING/2022yrs_P1 [56 -26] (4min)
 C3 [52, -28] 11 min 
@@ -79,7 +79,7 @@ DEBASS/EVERYTHING/2022yvv_P1 [41 -22] (4min)
 
 !!! 03:22
 ### YSE 353 [63 -10] 17 min 
-YSE 253 [67, -26] 8 min 
+### YSE 253 [67, -26] 8 min 
 YSE 2022tmo [69 -13] 3 min ## CAN SKIP IF NEEDED
 YSE 2022xkq [76 -12] (4min) 
 DEBASS/EVERYTHING/2022yxp_P2 [74 1] OPTiONAL
@@ -91,13 +91,14 @@ Shen SCVZ [90 -66] 12 min
 DECaPSWest [116 -26] 30 min
 
 !!! 04:30
-YSE 412 [115 -2] 17 min
+YSE 412 [115 -2] 8 min
 DEBASS/EVERYTHING/2022yjy_P1 [115 8] (4min)
 YSE 2022vqx  [112 17] (3 min) 
 ### eFEDS [129,1] 30 min  
 DEBASS/EVERYTHING/2022yrt_P1 [133 1] (4min)
 YSE 311 [123 -17] 17 min
 DEBASS/EVERYTHING/2022zue_P2 [158 -7] OPTiONAL
+YSE 2022zut [175 11] 3 min
 etale.i.15min.json [160 -60] 15 min
 
 !!! 05:34:22 slew to Asteroid fields

@@ -26,9 +26,8 @@ LOCAL night MIDPOINT: 11/01/2022,   01:26:40
 
 !!!! 01:26:40
 ### YSE 2022tiv [321 -23] 4 min
-DEBASS/EVERYTHING/2022xxz_P1 [334 -16] (2min)
 DESIRT_S82_2_gr [~350-0 0] (30 min)
-DEBASS/EVERYTHING/2022ywf_P1 [21 1] (3min)
+DEBASS/EVERYTHING/2022ywf_P2 [21 1] (3min)
 
 ### YSE 550 [4 18] 17 min 
 ### YSE 448 [16 3] 17 min 
@@ -37,9 +36,7 @@ DEBASS/EVERYTHING/2022ywf_P1 [21 1] (3min)
 !!!! 02:03
 ### X123 [34, -4] 35 min 
 Liu S1S2  [43 0] 22 min 
-DEBASS/EVERYTHING/2022xkt_P1 [38 22] (2min)
 ### YSE 2022uto [41 17] 3 min 
-DEBASS/EVERYTHING/2022xoz_P1 [42 6] (3min)
 ### YSE 401 [37 0] 17 min  
 
 !!!! 02:30
@@ -51,19 +48,19 @@ elais_ddf_seq_B [7, -43] 30 min
 YSE XMM_N419.R1.6_oct31.json 44 min [34, -4]
 
 !!!! 04:14
-DEBASS/EVERYTHING/2022yvv_P1 [41 -22] (3min)
+DEBASS/EVERYTHING/2022yvv_P2 [41 -22] (3min)
 DESIRT_50_gz_Oct (50 -15) (27 min)
 ### 2019A-0065_SDSSV_Shen/C3 [53 -28] 11 min  
 
 !!!! 04:44  !!! Make sure you start these fields at these times!
 ### YSE 403 [50 -2] 17 min 
-DEBASS/EVERYTHING/2022xhd_P1 [55 -16] (3min)
-DEBASS/EVERYTHING/2022yrs_P1 [56 -26] (3min)
+DEBASS/EVERYTHING/2022xhd_P2 [55 -16] (3min)
+DEBASS/EVERYTHING/2022yrs_P2 [56 -26] (3min)
 ### YSE 253 [67, -26] 16 min 
 ### YSE 353 [63 -10] 16 min 
 ### YSE 2022tmo [69 -13] 3 min 
 YSE 2022xkq [76 -12] 3 min 
-DEBASS/EVERYTHING/2022yxp_P1 [74 1] (3min)
+DEBASS/EVERYTHING/2022yxp_P2 [74 1] (3min)
 ### YSE 2022wiv [66  1] 3 min  
 
 !!!! 04:55
@@ -75,8 +72,7 @@ Shen SCVZ [90 -66] 12 min
 
 !!!! 05:07 
 eFEDS [129,1] 30 min  
-DEBASS/EVERYTHING/2022yrt_P1 [133 1] (2min)
-DEBASS/EVERYTHING/2022yjy_P1 [115 8] (2min)
+DEBASS/EVERYTHING/2022yrt_P1 [133 1] (3min)
 ### YSE 2022vqx  112 17 (3 min) 
 
 ### 05:42:43 slew to Asteroid fields

@@ -1,27 +1,27 @@
 2022ywf_P1 [21 1]
-2022wsu_P1 [34 17]
 2022yvv_P1 [41 -22]
-2022xoz_P1 [42 6]
-2022xkt_P1 [38 22]
 2022yrs_P1 [56 -26]
-2022xix_P1 [64 0]
 2022yxp_P1 [74 1]
+2022yjy_P1 [115 8]
+2022yrt_P1 [132 1]
 
-2022wpy_P2 [72 -4]
-2022whp_P2 [100 -22]
-2022yjy_P2 [115 8]
 
 2022zxj_P3 [0 -1]
 2022wxo_P3 [29 -7]
+2022wsu_P3 [34 17]
+2022xoz_P3 [42 6]
+2022xkt_P3 [38 22]
 2022xhd_P3 [55 -16]
-2022yrt_P3 [132 1]
+2022xix_P3 [64 0]
+2022wpy_P3 [72 -4]
+2022whp_P3 [100 -22]
 2022zvr_P3 [174 0]
 2022zut_P3 [175 12]
-2022aahz_P3 [187 7]
+2022aahz_P3 [187 6]
 2022wwt_P3 [267 -60]
 2022ypd_P3 [307 -1]
 2022xxz_P3 [334 -16]
 
 2022wsu_TCTM [34 17]
-EVERYTHING	73.2 minutes
-EVERYTHING_P1	21.4 minutes
+EVERYTHING	79.6 minutes
+EVERYTHING_P1	21.0 minutes

@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.25
-UT -16 deg twilight: 2022-11-19T00:40:00.230 2022-11-19T08:16:49.361
-UT -15 deg twilight: 2022-11-19T00:34:24.413 2022-11-19T08:22:24.474
-UT -14 deg twilight: 2022-11-19T00:28:52.630 2022-11-19T08:27:56.438
-UT -12 deg twilight: 2022-11-19T00:17:57.658 2022-11-19T08:38:51.536
-UT -10 deg twilight: 2022-11-19T00:07:13.789 2022-11-19T08:49:35.449
-LOCAL -16 deg twilight: 11/18/2022,   21:40:00   05:16:49
-LOCAL -15 deg twilight: 11/18/2022,   21:34:24   05:22:24
-LOCAL -14 deg twilight: 11/18/2022,   21:28:52   05:27:56
-LOCAL -12 deg twilight: 11/18/2022,   21:17:57   05:38:51
-LOCAL -10 deg twilight: 11/18/2022,   21:07:13   05:49:35
-LOCAL night MIDPOINT: 11/19/2022,   01:28:24
+MOON ILLUMINATION: 0.04
+UT -16 deg twilight: 2022-11-22T00:43:13.998 2022-11-22T08:15:03.787
+UT -15 deg twilight: 2022-11-22T00:37:34.480 2022-11-22T08:20:43.530
+UT -14 deg twilight: 2022-11-22T00:31:59.645 2022-11-22T08:26:19.004
+UT -12 deg twilight: 2022-11-22T00:20:58.507 2022-11-22T08:37:19.363
+UT -10 deg twilight: 2022-11-22T00:10:08.978 2022-11-22T08:48:08.725
+LOCAL -16 deg twilight: 11/21/2022,   21:43:13   05:15:03
+LOCAL -15 deg twilight: 11/21/2022,   21:37:34   05:20:43
+LOCAL -14 deg twilight: 11/21/2022,   21:31:59   05:26:19
+LOCAL -12 deg twilight: 11/21/2022,   21:20:58   05:37:19
+LOCAL -10 deg twilight: 11/21/2022,   21:10:08   05:48:08
+LOCAL night MIDPOINT: 11/22/2022,   01:29:08
 
 ###Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 ###After pointing of the telescope is confirmed
@@ -31,52 +31,51 @@ LOCAL night MIDPOINT: 11/19/2022,   01:28:24
 ********************************************************
 
 
-
-!!!! 01:28:24
+!!!! 01:29:08
 DEBASS/EVERYTHING/2022ywf_P1 [21 1] (3min)
 ### YSE 448 [16 3] 17 min 
 ### YSE 296 [17 -17] 17 min
 X123 [34, -4] 35 min 
-### S1S2  [43 0] 22 min 
+S1S2  [43 0] 22 min 
 DEBASS/EVERYTHING/2022xoz_P2 [42 6] (3min) OPTIONAL
-YSE 2022uto [41 17] 3 min 
+### YSE 2022uto [41 17] 3 min 
 ### YSE 401 [37 0] 17 min  
 
-!!!! 02:10
+!!!! 02:32
 DEBASS/EVERYTHING/2022yvv_P1 [41 -22] (3min)
 DESIRT_50_grz (50 -15) (50 min)
 DEBASS/EVERYTHING/2022xhd_P2 [55 -16] (3min) OPTIONAL
 C3 [53 -28] 11 min    
 
-!!!! 03:15  !!!       ### Make sure you start these fields at these times!
-YSE 403 [50 -2] 17 min 
+!!!! 03:40  !!!   ### Make sure you start these fields at these times!
+### YSE 403 [50 -2] 17 min 
 DEBASS/EVERYTHING/2022yrs_P1 [56 -26] (3min)
-YSE 253 [67, -26] 16 min 
-### YSE 353 [63 -10] 16 min 
+### YSE 253 [67, -26] 16 min 
+YSE 353 [63 -10] 16 min 
 ### YSE 2022tmo [69 -13] 3 min 
-YSE 2022xkq [76 -12] 4 min 
+### YSE 2022xkq [76 -12] 4 min 
 DEBASS/EVERYTHING/2022yxp_P1 [74 1] (3min)
-DEBASS/EVERYTHING/2022aanf_P2 [62 17] (3min) OPTIONAL
-YSE 2022wiv [66  1] 4 min  
+DEBASS/EVERYTHING/2022aanf_P2 [62 17] (3min) OPTIONAL skip if behind schedule
+### YSE 2022wiv [66  1] 4 min  
 
-!!!! 04:05      
-### YSE 257 [85 -25] 16 min  
-Shen SCVZ [90 -66] 12 min  
+!!!! 04:03      
+YSE 257 [85 -25] 16 min  
 ### YSE 412 [115 -2] 17 min    
 ### YSE 311 [123 -17] 17 min 
 ### YSE 2017gkp [132 -33] (7 min) 
 
-!!!! 04:15  ### make sure you start not later than this time!
-eFEDS [129,1] 30 min  
+!!!! 04:20  ### make sure you start not later than this time!
+### eFEDS [129,1] 30 min  
 DEBASS/EVERYTHING/2022yrt_P1 [132 1] (3min)
 DEBASS/EVERYTHING/2022yjy_P2 [115 8] (3min) OPTIONAL skip if behind schedule
 DEBASS/EVERYTHING/2022aajn_P1 [106 21] (3min)
-YSE 2022vqx  112 17 (3 min) 
+### YSE 2022vqx  112 17 (3 min) 
 
-DECaPSWest [116 -26] 30 min
-### etale.i.15min.json [160 -60] 15 min
+DECaPSWest [116 -26] 30 min  
+Shen SCVZ [90 -66] 12 min    ### cut exposures here if behind schedule
+etale.g.30min.json [160 -60] 15 min
 
-### 05:27:56 slew to Asteroid fields
+### 05:26:19 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

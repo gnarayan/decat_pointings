@@ -2,6 +2,7 @@
 2022abgg_P1 [35 -9]
 2022abic_P1 [44 -4]
 2022aajn_P1 [106 21]
+2022abdh_P1 [130 -8]
 
 
 2022zxj_P3 [0 -1]
@@ -30,5 +31,5 @@
 2022xxz_P3 [334 -16]
 
 2022wsu_TCTM [34 17]
-EVERYTHING	104.6 minutes
-EVERYTHING_P1	13.6 minutes
+EVERYTHING	108.3 minutes
+EVERYTHING_P1	17.2 minutes

@@ -1,0 +1,86 @@
+MOON ILLUMINATION: 0.02
+UT -16 deg twilight: 2022-11-25T00:46:24.907 2022-11-25T08:13:34.924
+UT -15 deg twilight: 2022-11-25T00:40:43.319 2022-11-25T08:19:17.382
+UT -14 deg twilight: 2022-11-25T00:35:03.650 2022-11-25T08:24:56.364
+UT -12 deg twilight: 2022-11-25T00:23:56.752 2022-11-25T08:36:04.572
+UT -10 deg twilight: 2022-11-25T00:13:01.936 2022-11-25T08:46:59.244
+LOCAL -16 deg twilight: 11/24/2022,   21:46:24   05:13:34
+LOCAL -15 deg twilight: 11/24/2022,   21:40:43   05:19:17
+LOCAL -14 deg twilight: 11/24/2022,   21:35:03   05:24:56
+LOCAL -12 deg twilight: 11/24/2022,   21:23:56   05:36:04
+LOCAL -10 deg twilight: 11/24/2022,   21:13:01   05:46:59
+LOCAL night MIDPOINT: 11/25/2022,   01:29:59
+
+###Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+###After pointing of the telescope is confirmed
+
+###Slew to Asteroid Twilight Fields using 
+###jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+###Script will finish on its own or at -14 deg twilight.
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+1 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them 									  ***
+********************************************************
+
+
+!!!! 01:29:59
+### YSE 448 [16 3] 8 min 
+DEBASS/EVERYTHING/2022ywf_P1 [21 1] (3min)
+### YSE 296 [17 -17] 17 min
+X123 [34, -4] 35 min 
+### S1S2  [43 0] 22 min 
+DEBASS/EVERYTHING/2022xoz_P2 [42 6] (3min) OPTIONAL
+YSE 2022uto [41 17] 3 min 
+### YSE 401 [37 0] 17 min  
+
+!!!! 02:15
+DEBASS/EVERYTHING/2022yvv_P1 [41 -22] (3min)
+DESIRT_50_grz (50 -15) (50 min)
+DEBASS/EVERYTHING/2022xhd_P2 [55 -16] (3min) OPTIONAL
+C3 [53 -28] 11 min    
+
+!!!! 03:22  !!!   ### Make sure you start these fields at these times!
+### YSE 403 [50 -2] 17 min 
+DEBASS/EVERYTHING/2022yrs_P1 [56 -26] (3min)
+### YSE 253 [67, -26] 16 min 
+### YSE 353 [63 -10] 16 min 
+### YSE 2022tmo [69 -13] 3 min 
+YSE 2022xkq [76 -12] 3 min 
+DEBASS/EVERYTHING/2022yxp_P1 [74 1] (3min)
+DEBASS/EVERYTHING/2022aanf_P2 [62 17] (3min) OPTIONAL skip if behind schedule
+YSE 2022wiv [66  1] 3 min  
+
+!!!! 03:37     
+### YSE 257 [85 -25] 16 min  
+YSE 412 [115 -2] 17 min    
+YSE 311 [123 -17] 17 min  ### skip r band if behind schedule
+### YSE 2017gkp [132 -33] (7 min) 
+
+!!!! 04:11  
+eFEDS [129,1] 30 min  
+DEBASS/EVERYTHING/2022yrt_P1 [132 1] (3min)
+DEBASS/EVERYTHING/2022yjy_P2 [115 8] (3min) OPTIONAL skip if behind schedule
+DEBASS/EVERYTHING/2022aajn_P1 [106 21] (3min)
+YSE 2022vqx  112 17 (3 min) 
+
+!!!! 04:53
+DECaPSWest [116 -26] 30 min  
+Shen SCVZ [90 -66] 12 min    
+### etale.g.30min.json [160 -60] 30 min
+
+### 05:24:56 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_50_g (50 -15) (13 min)
+YSE 2017gkp [132 -33] (7 min) 
+etale.r.15min.json [160 -60] 15 min

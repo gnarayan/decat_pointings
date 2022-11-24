@@ -1362,6 +1362,41 @@ mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221121 -e 200,150 -n 1
 git add 221121
 git add 221121/*.json
 
+mkdir 20221124
+cp obsplan_fullnight.txt 20221124/20221124_obsplan.txt
+cp 20221121/20221121_obsplan.txt 20221124/20221124_obsplan.txt 
+subl 20221124/20221124_obsplan.txt
+git add 20221124/20221124_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  440     -d 221124
+mkjson_yse_nofilterswitch.py  -f r,i    544 494   -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r   296  -d 221124
+mkjson_yse_nofilterswitch.py  -f r   448 550 -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221124
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221124 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221124 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221124 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221124 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221124 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221124 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221124 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221124 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221124 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221124 -e 200,150 -n 1
+git add 221124
+git add 221124/*.json
+
+
 DDF 50
 DESI 50
 YSE 48

@@ -33,43 +33,38 @@ LOCAL night MIDPOINT: 11/25/2022,   01:29:59
 
 !!!! 01:29:59
 ### YSE 448 [16 3] 8 min 
-DEBASS/EVERYTHING/2022ywf_P1 [21 1] (3min)
 ### YSE 296 [17 -17] 17 min
 X123 [34, -4] 35 min 
+DEBASS/EVERYTHING/2022abgg_P1 [35 -9] (3min)
+DEBASS/EVERYTHING/2022abid_P1 [32 -26] (3min)
 ### S1S2  [43 0] 22 min 
-DEBASS/EVERYTHING/2022xoz_P2 [42 6] (3min) OPTIONAL
 YSE 2022uto [41 17] 3 min 
+DEBASS/EVERYTHING/2022abic_P1 [44 -4] (3min)
 ### YSE 401 [37 0] 17 min  
 
 !!!! 02:15
-DEBASS/EVERYTHING/2022yvv_P1 [41 -22] (3min)
 DESIRT_50_grz (50 -15) (50 min)
-DEBASS/EVERYTHING/2022xhd_P2 [55 -16] (3min) OPTIONAL
 C3 [53 -28] 11 min    
 
 !!!! 03:22  !!!   ### Make sure you start these fields at these times!
 ### YSE 403 [50 -2] 17 min 
-DEBASS/EVERYTHING/2022yrs_P1 [56 -26] (3min)
 ### YSE 253 [67, -26] 16 min 
 ### YSE 353 [63 -10] 16 min 
 ### YSE 2022tmo [69 -13] 3 min 
 YSE 2022xkq [76 -12] 3 min 
-DEBASS/EVERYTHING/2022yxp_P1 [74 1] (3min)
-DEBASS/EVERYTHING/2022aanf_P2 [62 17] (3min) OPTIONAL skip if behind schedule
 YSE 2022wiv [66  1] 3 min  
 
 !!!! 03:37     
 ### YSE 257 [85 -25] 16 min  
 YSE 412 [115 -2] 17 min    
 YSE 311 [123 -17] 17 min  ### skip r band if behind schedule
+DEBASS/EVERYTHING/2022abdh_P1 [130 -8] (3min)
 ### YSE 2017gkp [132 -33] (7 min) 
 
 !!!! 04:11  
 eFEDS [129,1] 30 min  
-DEBASS/EVERYTHING/2022yrt_P1 [132 1] (3min)
-DEBASS/EVERYTHING/2022yjy_P2 [115 8] (3min) OPTIONAL skip if behind schedule
-DEBASS/EVERYTHING/2022aajn_P1 [106 21] (3min)
 YSE 2022vqx  112 17 (3 min) 
+DEBASS/EVERYTHING/2022aajn_P1 [106 21] (3min)
 
 !!!! 04:53
 DECaPSWest [116 -26] 30 min  

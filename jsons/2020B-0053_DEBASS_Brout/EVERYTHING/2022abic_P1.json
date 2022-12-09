@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 30.0,
         "RA": 44.59931,
         "dec": -4.23765,
         "object": "2022abic_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 15.0,
+        "exptime": 50.0,
         "RA": 44.59931,
         "dec": -4.23765,
         "object": "2022abic_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 15.0,
+        "exptime": 50.0,
         "RA": 44.59931,
         "dec": -4.23765,
         "object": "2022abic_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 15.0,
+        "exptime": 50.0,
         "RA": 44.59931,
         "dec": -4.23765,
         "object": "2022abic_P1",

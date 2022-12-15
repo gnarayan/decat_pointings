@@ -8,7 +8,7 @@ DESIRT_165_riz_Dec22 (50 min)
 DESIRT_50_g (50 -15) (12 min)
 DESIRT_50_rz (50 -15) (50 min)
 DESIRT_50_g (50 -15) (12 min)
-DESIRT_165_iz_Dec22 (165 -6) (37 min)
+DESIRT_165_iz_Dec22 (165 -6) (37 min) ## Close to Moon, if exposures are not great, you can remove the last few exposures. The first ones should be further from Moon.
 
 
 ## Dec 18

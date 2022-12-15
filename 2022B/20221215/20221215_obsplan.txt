@@ -36,7 +36,6 @@ YSE 2022vye [357 2] 4 min
 YSE 550 [4 18] 17 min    
 YSE 2022wsq [20 15] 3 min 
 YSE 448 [16 3] 17 min 
-DEBASS/EVERYTHING/2022ywf_P1 [21 1] (4min) HIGH PRIORITY  
 YSE 296 [17 -17] 17 min  
 
 !!! 22:55
@@ -64,23 +63,27 @@ YSE 253 [67, -26] 17 min
 YSE 353 [63 -10] 8 min 
 YSE 2022tmo [69 -13] 3 min 
 YSE 2022xkq [76 -12] (4min) 
-DEBASS/EVERYTHING/2022yxp_P2 [74 1] (3min) 
 YSE 2022wiv [66  1] 3 min  
+DEBASS/EVERYTHING/2022acyd_P2 [60 6] DROP IF SHORT ON TIME
 
 !!! 03:05
 YSE 257 [85 -25] 8 min   ### drop this field if behind!!
 Shen SCVZ [90 -66] 12 min 
 DECaPSWest [116 -26] 30 min
+DEBASS/EVERYTHING/2022acwj_P1 [138 -32] DONT DROP
 
 !!! 03:55
 ### YSE 412 [115 -2] 17 min
 YSE 2022vqx  [112 17] (3 min) 
+DEBASS/EVERYTHING/2022aajn_P1 [106 21]
+DEBASS/EVERYTHING/2022yjy_P1 [115 8]
 eFEDS [129 1] 30 min  
-DEBASS/EVERYTHING/2022abdh_P2 [130 -8] (3min) 
+DEBASS/EVERYTHING/2022abdh_P1 [130 -8]
 ### YSE 311 [123 -17] 17 min
 ### YSE 2022zut [175 11] 3 min
 ### YSE 525 [189 10] 33 min
 DESIRT_165_riz_Dec22 [165 -6] 50 min
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] DROP IF SHORT ON TIME
 
 !!! 05:23:03 slew to Asteroid fields
 using morning twilight asteroid script in

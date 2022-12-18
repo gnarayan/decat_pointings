@@ -100,7 +100,6 @@ DEBASS/EVERYTHING/2022adbx_P1 [170 21] (3min)  HIGH PRIORITY
 
 !!! 04:30
 DESIRT_165_grz_Dec22 (50 min)
-DEBASS/EVERYTHING/Shapley_Skymapper_P2 [203 -31] DROP IF SHORT ON TIME
 
 !!! 05:24:55 slew to Asteroid fields
 using morning twilight asteroid script in

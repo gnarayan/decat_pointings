@@ -28,6 +28,11 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
+
+
+
+
+
 *********************************************************
 *** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
 *** These are commented out.                          ***
@@ -38,10 +43,12 @@ Script will finish on its own or at -14 deg twilight.
 ### YSE 550 [4 18] 17 min    
 YSE 2022vye [357 2] 4 min  
 YSE 2022wsq [20 15] 3 min 
+DEBASS/EVERYTHING/2022acyi_P1 [18 7] (3min)  HIGH PRIORITY
 YSE 448 [16 3] 17 min 
 YSE 296 [17 -17] 17 min  
 
 !!! 22:36
+DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (3min)  HIGH PRIORITY
 DEBASS/EVERYTHING/2022abid_P1 [32 -26] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022abgg_P1 [35 -9] (4min) HIGH PRIORITY
 X123 [34, -4] 35 min  
@@ -76,24 +83,24 @@ YSE 257 [85 -25] 17 min             ### DROP IF SHORT ON TIME
 DECaPSWest A+B [116 -26] 30 min
 Shen SCVZ [90 -66] 12 min            
 etale.r.15min.json [160 -60] 15 min  
-DEBASS/EVERYTHING/2022acwj_P1 [138 -32] 
+DEBASS/EVERYTHING/2022acwj_P1 [138 -32] (3min)  HIGH PRIORITY
 
 !!! 03:00
 YSE 311 [123 -17] 17 min
 YSE 412 [115 -2] 17 min 			### DROP IF SHORT ON TIME 
 YSE 2022vqx  [112 17] (3 min) 
-DEBASS/EVERYTHING/2022aajn_P1 [106 21]
-DEBASS/EVERYTHING/2022yjy_P1 [115 8]
+DEBASS/EVERYTHING/2022aajn_P2 [106 21] (3min) SKIP TO SAVE TIME
 
 !!! 03:53
 eFEDS [129 1] 30 min  
-DEBASS/EVERYTHING/2022abdh_P1 [130 -8]
+DEBASS/EVERYTHING/2022abdh_P1 [130 -8] (3min)  HIGH PRIORITY
 YSE 2022zut [175 11] 3 min
+DEBASS/EVERYTHING/2022adbx_P1 [170 21] (3min)  HIGH PRIORITY
 ### YSE 525 [189 10] 33 min
 
 !!! 04:30
 DESIRT_165_grz_Dec22 (50 min)
-DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] DROP IF SHORT ON TIME
+DEBASS/EVERYTHING/Shapley_Skymapper_P2 [203 -31] DROP IF SHORT ON TIME
 
 !!! 05:24:55 slew to Asteroid fields
 using morning twilight asteroid script in

@@ -100,4 +100,6 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+elais_ddf_seq_A [7, -43] 30 min
+elais_ddf_seq_B [7, -43] 30 min
 YSE 2017gkp [132 -33] (7 min) 

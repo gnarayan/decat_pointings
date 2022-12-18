@@ -1,14 +1,18 @@
+2022acyi_P1 [18 7]
 2022abid_P1 [32 -26]
+2022aczs_P1 [31 -24]
 2022abgg_P1 [35 -9]
 2022abic_P1 [44 -4]
 2022abdh_P1 [130 -8]
 2022acwj_P1 [138 -32]
+2022adbx_P1 [170 21]
 
 2022acyd_P2 [60 6]
 2022aajn_P2 [106 21]
 Shapley_Skymapper_P2 [203 -31]
 
 2022yjy_P3 [115 8]
+2022acxe_P3 [333 -3]
 
-EVERYTHING	28.1 minutes
-EVERYTHING_P1	15.2 minutes
+EVERYTHING	43.8 minutes
+EVERYTHING_P1	27.0 minutes

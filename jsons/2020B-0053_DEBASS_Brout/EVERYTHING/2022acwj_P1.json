@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 7.0,
+        "exptime": 15.0,
         "RA": 138.96705,
         "dec": -32.44766,
         "object": "2022acwj_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 7.0,
+        "exptime": 15.0,
         "RA": 138.96705,
         "dec": -32.44766,
         "object": "2022acwj_P1",
@@ -30,7 +30,21 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 7.0,
+        "exptime": 15.0,
+        "RA": 138.96705,
+        "dec": -32.44766,
+        "object": "2022acwj_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2022acwj",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
         "RA": 138.96705,
         "dec": -32.44766,
         "object": "2022acwj_P1",

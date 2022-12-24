@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 30.0,
+        "exptime": 50.0,
         "RA": 203.0,
         "dec": -31.5,
         "object": "Shapley_Skymapper",

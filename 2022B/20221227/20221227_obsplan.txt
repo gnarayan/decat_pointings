@@ -1,0 +1,106 @@
+MOON ILLUMINATION: 0.31
+UT -16 deg twilight: 2022-12-28T01:11:15.461 2022-12-28T08:18:02.814
+UT -15 deg twilight: 2022-12-28T01:05:14.167 2022-12-28T08:24:01.882
+UT -14 deg twilight: 2022-12-28T00:59:20.777 2022-12-28T08:29:56.821
+UT -12 deg twilight: 2022-12-28T00:47:43.631 2022-12-28T08:41:34.622
+UT -10 deg twilight: 2022-12-28T00:36:21.766 2022-12-28T08:52:54.685
+LOCAL -16 deg twilight: 12/27/2022,   22:11:15   05:18:02
+LOCAL -15 deg twilight: 12/27/2022,   22:05:14   05:24:01
+LOCAL -14 deg twilight: 12/27/2022,   21:59:20   05:29:56
+LOCAL -12 deg twilight: 12/27/2022,   21:47:43   05:41:34
+LOCAL -10 deg twilight: 12/27/2022,   21:36:21   05:52:54
+LOCAL night MIDPOINT: 12/28/2022,   01:44:39
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them 									  ***
+*********************************************************
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them 									  ***
+*********************************************************
+
+!!! 21:59:20
+### YSE 550 [4 18] 8 min    
+### YSE 2022vye [357 2] 4 min  
+YSE 2022wsq [20 15] 3 min 
+DEBASS/EVERYTHING/2022acyi_P1 [18 7] (4min) HIGH PRIORITY
+YSE 448 [16 3] 8 min   ### close to Moon, drop if not enough time
+YSE 296 [17 -17] 8 min  ### close to Moon, drop if not enough time
+
+!!! 22:20
+DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min) HIGH PRIORITY
+X123 [34, -4] 35 min  
+
+!!! 23:00
+S1S2   [42, 0] 22 min  
+YSE 2022uto [41 17] 4 min  HST
+YSE 401 [37 0] 14 min         
+
+### !!! 23:40
+### elais_ddf_seq_A [7, -43] 30 min    ADD if enough time!
+
+!!! 23:40
+YSE 403 [50 -2] 17 min 
+DESIRT_50_grz (50 -15) (50 min)
+C3 [52, -28] 11 min 
+
+!!! 01:00
+YSE 253 [67, -26] 17 min  
+YSE 353 [63 -10] 17 min 
+### YSE 2022tmo [69 -13] 3 min 
+YSE 2022xkq [76 -12] (4min)   HST
+YSE 2022wiv [66  1] 3 min     HST
+DEBASS/EVERYTHING/2022acyd_P2 [60 6] (3min) OPTIONAL
+
+!!! 01:40
+YSE 257 [85 -25] 16 min             
+DECaPSWest A+B [116 -26] 30 min
+Shen SCVZ [90 -66] 12 min            
+etale.r.15min.json [160 -60] 15 min  
+DEBASS/EVERYTHING/2022acwj_P1 [138 -32] (4min) HIGH PRIORITY
+
+!!! 02:45
+YSE 311 [123 -17] 17 min      
+YSE 412 [115 -2] 17 min 			
+YSE 2022vqx  [112 17] (3 min)   HST
+### eFEDS [129 1] 30 min  
+DEBASS/EVERYTHING/2022abdh_P1 [130 -8] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY
+
+!!! 04:00
+DESIRT_165_grz_Dec22 [165 -6]  (50 min)
+DEBASS/EVERYTHING/2022adpu_P1 [174 -8] (4min) HIGH PRIORITY
+
+!!! 04:55 *** these are high priority, and a lot of slewing, thus I
+!!! added 4 min extra, since these are long slews!!!
+!!! these targets are also at high airmass, so timing is important!!
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) HIGH PRIORITY
+YSE 2022zut [175 11] 3 min     ###  HST CAN SKIP   
+DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY
+YSE 525 [189 10] 17 min  i band only HIGH PRIORITY
+DEBASS/EVERYTHING/2022adfo_P1 [201 10] (4min) CAN SKIP
+
+!!! 05:29:56 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+elais_ddf_seq_A [7, -43] 30 min
+elais_ddf_seq_B [7, -43] 30 min
+YSE 2017gkp [132 -33] (7 min) 

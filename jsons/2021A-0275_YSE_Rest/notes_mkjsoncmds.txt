@@ -1552,6 +1552,22 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq
 git add 221224
 git add 221224/*.json
 
+mkdir 20221227
+cp obsplan_fullnight.txt 20221227/20221227_obsplan.txt
+cp 20221224/20221224_obsplan.txt 20221227/20221227_obsplan.txt 
+subl 20221227/20221227_obsplan.txt
+git add 20221227/20221227_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g    550  -d 221227
+mkjson_yse_nofilterswitch.py  -f i   448 550 296 -d 221227
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 221227
+mkjson_yse_nofilterswitch.py  -f g,i   253 353 257  -d 221227
+mkjson_yse_nofilterswitch.py  -f g,i    412 311 -d 221227
+mkjson_yse_nofilterswitch.py  -f i    525 -d 221227
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut -d 221227 -e 15 -n 1
+git add 221227
+git add 221227/*.json
+
 
 
 DDF 50

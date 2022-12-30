@@ -1,23 +1,23 @@
-2022acyi_P1 [18 7]
-2022abid_P1 [32 -26]
 2022aczs_P1 [31 -24]
-2022abgg_P1 [35 -9]
-2022abic_P1 [44 -4]
 2022aecb_P1 [74 0]
+2022aebw_P1 [130 5]
 2022acwj_P1 [138 -32]
+2022aecr_P1 [146 10]
 2022aduk_P1 [160 -17]
 2022adpu_P1 [174 -7]
 2022adbx_P1 [170 21]
 Shapley_Skymapper_P1 [203 -31]
 
 2022acyd_P2 [60 6]
+2022adyj_P2 [103 12]
 2022aajn_P2 [106 21]
+2022abdh_P2 [130 -8]
 2022advr_P2 [155 3]
 
-2022aebx_P3 [15 14]
-2022adgh_P3 [28 8]
-2022abdh_P3 [130 -8]
-2022adfo_P3 [201 10]
+2022abid_P3 [32 -26]
+2022abgg_P3 [35 -9]
+2022abic_P3 [44 -4]
 
-EVERYTHING	56.4 minutes
-EVERYTHING_P1	31.7 minutes
+2022acyi_TCTM [18 7]
+EVERYTHING	61.4 minutes
+EVERYTHING_P1	32.1 minutes

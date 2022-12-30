@@ -23,17 +23,14 @@ LOCAL night MIDPOINT: 12/31/2022,   01:46:06
 *** can do them 									  ***
 *********************************************************
 
+
+
+
+
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
-
-*********************************************************
-*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
-*** These are commented out.                          ***
-*** However, if you are running short on targets you  *** 
-*** can do them 									  ***
-*********************************************************
 
 !!! 22:00:05
 ### YSE 550 [4 18] 8 min     ## close to Moon
@@ -41,7 +38,6 @@ Script will finish on its own or at -14 deg twilight.
 YSE 2022zxj [0 -2] 3 min 3 min HST HIGH PRIORITY
 ### YSE 2022aaaw [16 1]  4 min HST ## close to Moon HIGH PRIORITY when Moon is gone 
 ### YSE 2022wsq [20 15] 3 min  ## close to Moon
-DEBASS/EVERYTHING/2022acyi_P1 [18 7] (4min) HIGH PRIORITY
 ### YSE 448 [16 3] 8 min   ### close to Moon
 ### YSE 296 [17 -17] 8 min  ### close to Moon
 
@@ -68,7 +64,8 @@ YSE 353 [63 -10] 17 min
 YSE 2022tmo [69 -13] 3 min 
 YSE 2022xkq [76 -12] (4min)   HST
 YSE 2022wiv [66  1] 3 min     HST
-DEBASS/EVERYTHING/2022acyd_P2 [60 6] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022acyd_P2 [60 6] CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY
 
 !!! 01:40
 YSE 257 [85 -25] 16 min             
@@ -80,14 +77,18 @@ DEBASS/EVERYTHING/2022acwj_P1 [138 -32] (4min) HIGH PRIORITY
 !!! 02:45
 YSE 311 [123 -17] 17 min      
 YSE 412 [115 -2] 17 min
+DEBASS/EVERYTHING/2022adyj_P2 [103 12] CAN SKIP TO SAVE TIME
 YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
 YSE 2022vqx  [112 17] (3 min)   HST
+DEBASS/EVERYTHING/2022aecr_P1 [146 10] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022aebw_P1 [130 5] (4min) HIGH PRIORITY
 eFEDS [129 1] 30 min  
-DEBASS/EVERYTHING/2022abdh_P1 [130 -8] (4min) HIGH PRIORITY
-DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022abdh_P2 [130 -8] CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING/2022advr_P2 [155 3] CAN SKIP TO SAVE TIME
 
 !!! 04:00
 DESIRT_165_grz_Dec22 [165 -6]  (50 min)
+DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022adpu_P1 [174 -8] (4min) HIGH PRIORITY
 
 !!! 04:55 *** these are high priority, and a lot of slewing, thus I
@@ -97,7 +98,6 @@ DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) HIGH PRIORITY
 YSE 2022zut [175 11] 3 min     ###  HST 
 DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY
 YSE 525 [189 10] 17 min  i band only HIGH PRIORITY
-DEBASS/EVERYTHING/2022adfo_P1 [201 10] (4min) CAN SKIP
 
 !!! 05:32:08 slew to Asteroid fields
 using morning twilight asteroid script in

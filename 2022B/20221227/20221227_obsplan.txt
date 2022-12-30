@@ -35,6 +35,7 @@ Script will finish on its own or at -14 deg twilight.
 *** can do them 									  ***
 *********************************************************
 
+
 !!! 21:59:20
 ### YSE 550 [4 18] 8 min    
 ### YSE 2022vye [357 2] 4 min  
@@ -43,58 +44,64 @@ DEBASS/EVERYTHING/2022acyi_P1 [18 7] (4min) HIGH PRIORITY
 YSE 448 [16 3] 8 min   ### close to Moon, drop if not enough time
 YSE 296 [17 -17] 8 min  ### close to Moon, drop if not enough time
 
-!!! 22:20
+!!! 22:24
 DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022abid_P1 [32 -26] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022abgg_P1 [35 -9] (4min) HIGH PRIORITY
 X123 [34, -4] 35 min  
 
-!!! 23:00
+!!! 23:10
 S1S2   [42, 0] 22 min  
 YSE 2022uto [41 17] 4 min  HST
 YSE 401 [37 0] 14 min         
+DEBASS/EVERYTHING/2022abic_P1 [44 -4] (4min) HIGH PRIORITY
 
-### !!! 23:40
+### !!! 23:55
 ### elais_ddf_seq_A [7, -43] 30 min    ADD if enough time!
 
-!!! 23:40
+!!! 23:55
 YSE 403 [50 -2] 17 min 
 DESIRT_50_grz (50 -15) (50 min)
 C3 [52, -28] 11 min 
 
-!!! 01:00
+!!! 01:20
 YSE 253 [67, -26] 17 min  
 YSE 353 [63 -10] 17 min 
 ### YSE 2022tmo [69 -13] 3 min 
 YSE 2022xkq [76 -12] (4min)   HST
+DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY
 YSE 2022wiv [66  1] 3 min     HST
 DEBASS/EVERYTHING/2022acyd_P2 [60 6] (3min) OPTIONAL
 
-!!! 01:40
+!!! 02:10
 YSE 257 [85 -25] 16 min             
 DECaPSWest A+B [116 -26] 30 min
 Shen SCVZ [90 -66] 12 min            
 etale.r.15min.json [160 -60] 15 min  
 DEBASS/EVERYTHING/2022acwj_P1 [138 -32] (4min) HIGH PRIORITY
 
-!!! 02:45
+!!! 03:25
 YSE 311 [123 -17] 17 min      
 YSE 412 [115 -2] 17 min 			
 YSE 2022vqx  [112 17] (3 min)   HST
+DEBASS/EVERYTHING/2022aajn_P2 [106 21] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022advr_P2 [155 3] (3min) OPTIONAL
 ### eFEDS [129 1] 30 min  
-DEBASS/EVERYTHING/2022abdh_P1 [130 -8] (4min) HIGH PRIORITY
-DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY
 
 !!! 04:00
 DESIRT_165_grz_Dec22 [165 -6]  (50 min)
+DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022adpu_P1 [174 -8] (4min) HIGH PRIORITY
 
 !!! 04:55 *** these are high priority, and a lot of slewing, thus I
 !!! added 4 min extra, since these are long slews!!!
 !!! these targets are also at high airmass, so timing is important!!
+
+05:00
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) HIGH PRIORITY
 YSE 2022zut [175 11] 3 min     ###  HST CAN SKIP   
 DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY
 YSE 525 [189 10] 17 min  i band only HIGH PRIORITY
-DEBASS/EVERYTHING/2022adfo_P1 [201 10] (4min) CAN SKIP
 
 !!! 05:29:56 slew to Asteroid fields
 using morning twilight asteroid script in

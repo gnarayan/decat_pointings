@@ -88,7 +88,7 @@ DEBASS/EVERYTHING/2022adpu_P1 [174 -8] (4min) HIGH PRIORITY
 !!! 04:55 *** these are high priority, and a lot of slewing, thus I
 !!! added 4 min extra, since these are long slews!!!
 !!! these targets are also at high airmass, so timing is important!!
-!!! 05:10
+!!! 05:00
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (5min) HIGH PRIORITY
 YSE 2022zut [175 11] 3 min     ###  HST 
 DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY

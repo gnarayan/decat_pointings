@@ -1586,6 +1586,23 @@ git add 221230
 git add 221230/*.json
 
 
+mkdir 20230102
+cp obsplan_fullnight.txt 20230102/20230102_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230102/20230102_obsplan.txt 
+subl 20230102/20230102_obsplan.txt
+git add 20230102/20230102_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i   448 296 -d 230102
+mkjson_yse_nofilterswitch.py  -f z   403 401 -d 230102
+mkjson_yse_nofilterswitch.py  -f i,z   253 353   -d 230102
+mkjson_yse_nofilterswitch.py  -f g,i   257 412 311 -d 230102
+mkjson_yse_nofilterswitch.py  -f r    525 -d 230102
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn -d 230102 -e 15 -n 1
+mkjson_yse_nofilterswitch.py 2022xkq 2022wsq 2022wiv -f i,z  -d 230102 -e 15 -n 1
+git add 230102
+git add 230102/*.json
+
+
 DDF 50
 DESI 50
 YSE 48

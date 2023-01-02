@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.63
-UT -16 deg twilight: 2022-12-31T01:11:57.758 2022-12-31T08:20:15.948
-UT -15 deg twilight: 2022-12-31T01:05:58.438 2022-12-31T08:26:14.178
-UT -14 deg twilight: 2022-12-31T01:00:05.893 2022-12-31T08:32:08.260
-UT -12 deg twilight: 2022-12-31T00:48:31.219 2022-12-31T08:43:42.807
-UT -10 deg twilight: 2022-12-31T00:37:11.539 2022-12-31T08:55:01.353
-LOCAL -16 deg twilight: 12/30/2022,   22:11:57   05:20:15
-LOCAL -15 deg twilight: 12/30/2022,   22:05:58   05:26:14
-LOCAL -14 deg twilight: 12/30/2022,   22:00:05   05:32:08
-LOCAL -12 deg twilight: 12/30/2022,   21:48:31   05:43:42
-LOCAL -10 deg twilight: 12/30/2022,   21:37:11   05:55:01
-LOCAL night MIDPOINT: 12/31/2022,   01:46:06
+MOON ILLUMINATION: 0.88
+UT -16 deg twilight: 2023-01-03T01:12:20.617 2023-01-03T08:22:43.534
+UT -15 deg twilight: 2023-01-03T01:06:23.461 2023-01-03T08:28:40.582
+UT -14 deg twilight: 2023-01-03T01:00:32.384 2023-01-03T08:34:33.465
+UT -12 deg twilight: 2023-01-03T00:49:00.929 2023-01-03T08:46:03.493
+UT -10 deg twilight: 2023-01-03T00:37:44.118 2023-01-03T08:57:19.932
+LOCAL -16 deg twilight: 01/02/2023,   22:12:20   05:22:43
+LOCAL -15 deg twilight: 01/02/2023,   22:06:23   05:28:40
+LOCAL -14 deg twilight: 01/02/2023,   22:00:32   05:34:33
+LOCAL -12 deg twilight: 01/02/2023,   21:49:00   05:46:03
+LOCAL -10 deg twilight: 01/02/2023,   21:37:44   05:57:19
+LOCAL night MIDPOINT: 01/03/2023,   01:47:32
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -28,78 +28,74 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 22:00:05
-### YSE 550 [4 18] 8 min     ## close to Moon
-### YSE 2022vye [357 2] 4 min  ## close to Moon
-YSE 2022zxj [0 -2] 3 min 3 min HST HIGH PRIORITY
-### YSE 2022aaaw [16 1]  4 min HST ## close to Moon HIGH PRIORITY when Moon is gone 
-### YSE 2022wsq [20 15] 3 min  ## close to Moon
-### YSE 448 [16 3] 8 min   ### close to Moon
-### YSE 296 [17 -17] 8 min  ### close to Moon
+!!! 22:00:32
+YSE 2022vye [357 2] 4 min  
+YSE 2022zxj [0 -2] 4 min  HST HIGH PRIORITY
+YSE 2022aaaw [16 1]  4 min HST HIGH PRIORITY when Moon is gone 
+YSE 2022wsq [20 15] 2 min  
+# YSE 448 [16 3] 17 min   
+# YSE 296 [17 -17] 17 min  
 
-!!! 22:05
+!!! 22:16
 DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min) HIGH PRIORITY
-X123 [34, -4] 35 min  ### close to Moon DROP g band!!!
+X123 [34, -4] 35 min  
 
-!!! 22:45
-S1S2   [42, 0] 22 min  ### close to Moon DROP g band!!!
-YSE 2022uto [41 17] 3 min  HST
+!!! 23:06
+### S1S2   [42, 0] 22 min 
+### YSE 2022uto [41 17] 3 min  HST
 ### YSE 401 [37 0] 14 min         
 
-### !!! 23:40
-### elais_ddf_seq_A [7, -43] 30 min    ADD if enough time!
-
-!!! 23:00
-YSE 403 [50 -2] 17 min ### DROP i band if behind
+!!! 23:06
+### YSE 403 [50 -2] 17 min 
 DESIRT_50_grz (50 -15) (50 min)
 C3 [52, -28] 11 min 
 
-!!! 00:20
-YSE 253 [67, -26] 17 min  
+!!! 00:07
+### YSE 253 [67, -26] 17 min  
 YSE 353 [63 -10] 17 min 
-YSE 2022tmo [69 -13] 3 min 
-YSE 2022xkq [76 -12] (4min)   HST
-YSE 2022wiv [66  1] 3 min     HST
+### YSE 2022tmo [69 -13] 3 min 
+YSE 2022xkq [76 -12] 2 min   HST
+YSE 2022wiv [66  1] 2 min     HST
 DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY
 
-!!! 01:15
+!!! 00:32
 YSE 257 [85 -25] 16 min             
 DECaPSWest A+B [116 -26] 30 min
 Shen SCVZ [90 -66] 12 min            
-### etale.r.15min.json [160 -60] 15 min  
+### etale.i.15min.json [160 -60] 15 min  
 DEBASS/EVERYTHING/2022acwj_P1 [138 -32] (4min) HIGH PRIORITY
 
-!!! 02:35
+!!! 01:32
 YSE 311 [123 -17] 17 min      
 YSE 412 [115 -2] 17 min
 DEBASS/EVERYTHING/2022adyj_P2 [103 12] CAN SKIP TO SAVE TIME
 YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
-YSE 2022vqx  [112 17] (3 min)   HST
+### YSE 2022vqx  [112 17] 4 min HST
 DEBASS/EVERYTHING/2022aecr_P1 [146 10] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022aebw_P1 [130 5] (4min) HIGH PRIORITY
-eFEDS [129 1] 30 min  
+### eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2022advr_P2 [155 3] CAN SKIP TO SAVE TIME
 
+!!! 02:30
+COSMOS [150 2] 1.5h
+
 !!! 04:00
-DESIRT_165_grz_Dec22 [165 -6]  (50 min)
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
 DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022adpu_P1 [174 -8] (4min) HIGH PRIORITY
 
-!!! 04:55 *** these are high priority, and a lot of slewing, thus I
-!!! added 4 min extra, since these are long slews!!!
-!!! these targets are also at high airmass, so timing is important!!
-!!! 05:00
+!!! 05:04 
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (5min) HIGH PRIORITY
-YSE 2022zut [175 11] 3 min     ###  HST 
+YSE 2022zut [175 11] 3 min     ###  HST  CAN SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY
-YSE 525 [189 10] 17 min  i band only HIGH PRIORITY
+YSE 525 [189 10] 17 min  r band only HIGH PRIORITY
 
-!!! 05:32:08 slew to Asteroid fields
+!!! 05:34:33 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
 elais_ddf_seq_A [7, -43] 30 min
 elais_ddf_seq_B [7, -43] 30 min
-etale.i.15min.json [160 -60] 15 min  
-YSE 2017gkp [132 -33] (7 min) 
+DESIRT_165_g (14 min) IF EXTRA TIME
+etale.z.15min.json [160 -60] 15 min  

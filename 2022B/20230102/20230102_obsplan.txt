@@ -32,7 +32,7 @@ Script will finish on its own or at -14 deg twilight.
 !!! 22:00:32
 YSE 2022vye [357 2] 4 min  
 YSE 2022zxj [0 -2] 4 min  HST HIGH PRIORITY
-YSE 2022aaaw [16 1]  4 min HST HIGH PRIORITY when Moon is gone 
+YSE 2022aaaw [16 1]  4 min HST HIGH PRIORITY 
 YSE 2022wsq [20 15] 2 min  
 # YSE 448 [16 3] 17 min   
 # YSE 296 [17 -17] 17 min  
@@ -91,7 +91,7 @@ DEBASS/EVERYTHING/2022adpu_P1 [174 -8] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (5min) HIGH PRIORITY
 YSE 2022zut [175 11] 3 min     ###  HST  CAN SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY
-YSE 525 [189 10] 17 min  r band only HIGH PRIORITY
+YSE 525 [189 10] 17 min  
 
 !!! 05:34:33 slew to Asteroid fields
 using morning twilight asteroid script in

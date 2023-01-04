@@ -74,7 +74,7 @@ etale.z.15min.json [160 -60] 15 min  CAN SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2022acwj_P2 [138 -32] (3min) OPTIONAL
 
 !!! 02:24
-YSE 311 [123 -17] 8 min   ### add r band if time!   
+### YSE 311 [123 -17] 8 min   ### add r band if time!   
 DEBASS/EVERYTHING/2022aefd_P1 [124 -6] (3min) HIGH PRIORITY
 YSE 412 [115 -2] 8 min    ### add r band if time!
 DEBASS/EVERYTHING/2022adyj_P1 [103 12] (3min) HIGH PRIORITY
@@ -89,12 +89,13 @@ DEBASS/EVERYTHING/2022advr_P2 [155 3] (3min) CAN SKIP TO SAVE TIME
 
 !!! 03:28
 cosmos_ddf_seq_A.json [150 2] 0.5h   ### add another set if there is time!
-
+YSE 2022adcf [156 9] (4 min)
 !!! 03:58
 DESIRT_165_grz_Dec22 (165 -6) (50 min)
 
 !!! 04:48
 DEBASS/EVERYTHING/Shapley_Skymapper_P2 [203 -31] (5min) OPTIONAL
+YSE 2022aczp [191 -15] 4 min   ###  HST HIGH PRIORITY
 YSE 2022zut [175 11] 3 min     ###  HST HIGH PRIORITY
 DEBASS/EVERYTHING/2022adbx_P2 [170 21] (3min) OPTIONAL
 YSE 525 [189 10] 34 min  HIGH PRIORITY

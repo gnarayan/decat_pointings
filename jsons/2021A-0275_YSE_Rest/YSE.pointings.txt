@@ -266,3 +266,7 @@
          2022aaaw   <NA>  16.54223   1.44889     0       NaN                    NaN    2022aaaw      N4          35
           2022zxj   <NA>   0.21277  -2.21379     0       NaN                    NaN     2022zxj      N4          35
          2022aajn   <NA> 107.06252  21.15958     0       NaN                    NaN    2022aajn      N4          35
+         2022abom   <NA>  55.28593  -2.76156     0       NaN                    NaN    2022abom      N4          35
+         2022abvt   <NA>  22.67847 -31.42743     0       NaN                    NaN    2022abvt      N4          35
+         2022aczp   <NA> 191.95138 -15.24624     0       NaN                    NaN    2022aczp      N4          35
+         2022adcf   <NA> 156.21571   9.68052     0       NaN                    NaN    2022adcf      N4          35

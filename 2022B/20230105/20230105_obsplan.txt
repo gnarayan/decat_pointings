@@ -106,5 +106,6 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_50_g (12 min) IF EXTRA TIME
 DESIRT_165_g (14 min) IF EXTRA TIME
 etale.i.15min.json [160 -60] 15 min  

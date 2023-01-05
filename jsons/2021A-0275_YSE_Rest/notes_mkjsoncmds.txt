@@ -1614,10 +1614,28 @@ mkjson_yse_nofilterswitch.py  -f r,i  253 257  -d 230103
 mkjson_yse_nofilterswitch.py  -f i   412 311 -d 230103
 mkjson_yse_nofilterswitch.py  -f g,i    525 -d 230103
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn -d 230103 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf -d 230103 -e 15 -n 1
 mkjson_yse_nofilterswitch.py 2022uto 2022wiv -f i,z  -d 230103 -e 15 -n 1
 git add 230103
 git add 230103/*.json
+
+mkdir 20230105
+cp obsplan_fullnight.txt 20230105/20230105_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230105/20230105_obsplan.txt 
+subl 20230105/20230105_obsplan.txt
+git add 20230105/20230105_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i   448 296 -d 230105
+mkjson_yse_nofilterswitch.py  -f i   403 401 -d 230105
+mkjson_yse_nofilterswitch.py  -f i    353   -d 230105
+mkjson_yse_nofilterswitch.py  -f z  253 257  -d 230105
+mkjson_yse_nofilterswitch.py  -f z   412 311 -d 230105
+mkjson_yse_nofilterswitch.py  -f r,i    525 -d 230105
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf -d 230105 -e 15 -n 1
+mkjson_yse_nofilterswitch.py 2022tmo 2022uto 2022wiv 2022xkq 2022abom 2022adcf -f r,i,z  -d 230105 -e 15 -n 1
+git add 230105
+git add 230105/*.json
+
 
 
 DDF 50
@@ -1686,6 +1704,10 @@ YSE_pointings2fieldcenters.py --addSN 2022pvn 351.3041347     22.3326680 -vv --o
 YSE_pointings2fieldcenters.py --addSN 2022aaaw 16.5443772 1.3619007 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022zxj 0.2149167 -2.3007806 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022aajn 107.0648208 21.0725917 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022abom 55.2880722 -2.8485491 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022abvt 22.6809833 -31.5144222 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022aczp 191.9536000 -15.3332278 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022adcf 156.2178875 9.5935278 -vv --overw
 
 2017gkp: Jacob
 

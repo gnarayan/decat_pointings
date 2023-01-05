@@ -7,7 +7,7 @@ Created on Tue Apr 13 10:45:35 2021
 """
 import sys
 
-default_semester = '2022A'
+default_semester = '2021A'
 
 class semesterinfoclass:
     def __init__(self,semester=None):

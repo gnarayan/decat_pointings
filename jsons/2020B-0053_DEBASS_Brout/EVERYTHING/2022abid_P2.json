@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 32.16256,
         "dec": -26.33091,
         "object": "2022abid_P2",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 32.16256,
         "dec": -26.33091,
         "object": "2022abid_P2",

@@ -31,39 +31,20 @@ Script will finish on its own or at -14 deg twilight.
 
 
 
-DEBASS/EVERYTHING/2023E_P1 [18 -49] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022acyi_P1 [18 7] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aefd_P1 [124 -7] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aecr_P1 [146 10] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022adpu_P1 [174 -7] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) HIGH PRIORITY (drop r band to save time)
-
-DEBASS/EVERYTHING/2022abid_P2 [32 -26] (4min) OPTIONAL
-DEBASS/EVERYTHING/2023Q_P2 [30 0] (4min) OPTIONAL
-DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
-DEBASS/EVERYTHING/2022aebw_P2 [130 5] (4min) OPTIONAL
-DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL
-
-
-
 !!!! Back up targets if you can start before 10am (but need to keep an eye on airmass!)!!
 YSE 2022vye [357 2] 4 min  
 YSE 2022zxj [0 -2] 4 min  HST HIGH PRIORITY
 YSE 2022aaaw [16 1]  4 min HST HIGH PRIORITY 
+DEBASS/EVERYTHING/2022acyi_P1 [18 7] (4min) HIGH PRIORITY (drop z band to save time)
 YSE 2022wsq [20 15] 2 min  
 YSE 448 [16 3] 17 min   HIGH PRIORITY
 YSE 296 [17 -17] 17 min  HIGH PRIORITY
 
-
 !!! 22:00
 X123 [34, -4] 35 min  # skip this one if you cannot start before or at 10am
-DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (3min) HIGH PRIORITY
-DEBASS/EVERYTHING/2022abid_P2 [32 -26] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min) HIGH PRIORITY (drop z band to save time)
+DEBASS/EVERYTHING/2022abid_P2 [32 -26] (4min) OPTIONAL
+DEBASS/EVERYTHING/2023Q_P2 [30 0] (4min) OPTIONAL
 
 !!! 22:41
 S1S2   [42, 0] 22 min 
@@ -74,7 +55,7 @@ YSE 401 [37 0] 7 min
 YSE 403 [50 -2] 7 min 
 DESIRT_50_? (50 -15) (28 min)
 C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2022aeed_P2 [62 -30] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) HIGH PRIORITY (drop z band to save time)
 
 !!! 00:05
 Some extra time! just continue and add later on time for COSMOS or YSE 311 or YSE 412
@@ -82,44 +63,44 @@ Some extra time! just continue and add later on time for COSMOS or YSE 311 or YS
 !!! 00:30
 YSE 253 [67, -26] 17 min  HIGH PRIORITY
 YSE 353 [63 -10] 8 min  CAN SKIP TO SAVE TIME, close to Moon
-DEBASS/EVERYTHING/2022acyd_P2 [60 6] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
 YSE 2022tmo [69 -13] 3 min 
 ### YSE 2022xkq [76 -12] 2 min HST  
 ### YSE 2022wiv [66  1] 2 min  HST  
-DEBASS/EVERYTHING/2022aecb_P1 [74 0] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY (drop z band to save time)
 
 !!! 01:06
 YSE 257 [85 -25] 17 min             
 DECaPSWest A+B [116 -26] 30 min
 Shen SCVZ [90 -66] 12 min            
 etale.z.15min.json [160 -60] 15 min  CAN SKIP TO SAVE TIME
-DEBASS/EVERYTHING/2022acwj_P2 [138 -32] (3min) OPTIONAL
 
 !!! 02:24
 ### YSE 311 [123 -17] 8 min   ### add r band if time!   
-DEBASS/EVERYTHING/2022aefd_P1 [124 -6] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022aefd_P1 [124 -7] (4min) HIGH PRIORITY (drop z band to save time)
 YSE 412 [115 -2] 8 min    ### add r band if time!
-DEBASS/EVERYTHING/2022adyj_P1 [103 12] (3min) HIGH PRIORITY
 ### YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
 
 !!! 02:46
 YSE 2022vqx  [112 17] 4 min HST
-DEBASS/EVERYTHING/2022aecr_P2 [146 10] (3min) OPTIONAL
-DEBASS/EVERYTHING/2022aebw_P1 [130 5] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022aecr_P1 [146 10] (4min) HIGH PRIORITY (drop z band to save time)
+DEBASS/EVERYTHING/2022aebw_P2 [130 5] (3min) OPTIONAL
 eFEDS [129 1] 30 min  
-DEBASS/EVERYTHING/2022advr_P2 [155 3] (3min) CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL
 
 !!! 03:28
 cosmos_ddf_seq_A.json [150 2] 0.5h  
 YSE 2022adcf [156 9] (4 min)
 !!! 04:02
 DESIRT_165_grz_Dec22 (165 -6) (50 min) ### Cut if behind!
+DEBASS/EVERYTHING/2022adpu_P1 [174 -7] (4min) HIGH PRIORITY (drop z band to save time)
+DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY (drop z band to save time)
 
 !!! 04:44
-DEBASS/EVERYTHING/Shapley_Skymapper_P2 [203 -31] (5min) OPTIONAL
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) HIGH PRIORITY (drop r band to save time)
 YSE 2022aczp [191 -15] 4 min   ###  HST HIGH PRIORITY
 YSE 2022zut [175 11] 3 min     ###  HST HIGH PRIORITY
-DEBASS/EVERYTHING/2022adbx_P2 [170 21] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY (drop z band to save time)
 YSE 525 [189 10] 34 min  HIGH PRIORITY
 
 !!! 05:34:33 slew to Asteroid fields

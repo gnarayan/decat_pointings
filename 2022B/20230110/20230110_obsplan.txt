@@ -30,6 +30,9 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 
+
+
+
 ### !!! 22:00:32
 ### YSE 2022vye [357 2] 4 min  
 ### YSE 2022zxj [0 -2] 4 min  HST HIGH PRIORITY
@@ -39,11 +42,12 @@ Script will finish on its own or at -14 deg twilight.
 ### YSE 296 [17 -17] 17 min  
 
 !!! 22:00:40
+DEBASS/EVERYTHING/2022acyi_P1 [18 7] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023Q_P1 [30 0] (3min) HIGH PRIORITY
 X123 [34, -4] 35 min  
+DEBASS/EVERYTHING/2022abgg_P2 [35 -9] (3min) OPTIONAL
 YSE 2022abvt [22 -31] 4 min   HIGH PRIORITY
-DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022abid_P2 [32 -26] (4min) OPTIONAL
-DEBASS/EVERYTHING/2023Q_P2 [30 0] (4min) OPTIONAL
+DEBASS/EVERYTHING/2023E_P1 [18 -49] (3min) HIGH PRIORITY
 
 !!! 22:52
 S1S2   [42, 0] 22 min 
@@ -55,7 +59,7 @@ S1S2   [42, 0] 22 min
 YSE 2022abom [55 -2] 3 min   HIGH PRIORITY
 DESIRT_50_grz (50 -15) (50 min)
 C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) HIGH PRIORITY (drop z band to save time)
+DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) HIGH PRIORITY
 
 !!! 00:23
 YSE 253 [67, -26] 8 min  
@@ -64,7 +68,7 @@ DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
 ### YSE 2022tmo [69 -13] 3 min 
 ### YSE 2022xkq [76 -12] 3 min HST  
 ### YSE 2022wiv [66  1] 3 min  HST  
-DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY (drop z band to save time)
+DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY 
 
 !!! 00:39
 YSE 257 [85 -25] 8 min             
@@ -80,8 +84,8 @@ YSE 412 [115 -2] 8 min
 
 !!! 01:50
 ### YSE 2022vqx  [112 17] 4 min HST
-DEBASS/EVERYTHING/2022aecr_P1 [146 10] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aebw_P2 [130 5] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022adyj_P1 [103 12] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022aebw_P1 [130 5] (3min) HIGH PRIORITY
 ### eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL
 
@@ -95,10 +99,10 @@ DEBASS/EVERYTHING/2022adpu_P1 [174 -7] (4min) HIGH PRIORITY (drop z band to save
 DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY (drop z band to save time)
 
 !!! 04:45
-DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) HIGH PRIORITY (drop r band to save time)
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) MEDIUM PRIORITY (drop i band to save time)
 YSE 2022aczp [191 -15] 4 min   ###  HST HIGH PRIORITY
 YSE 2022zut [175 11] 3 min     ###  HST HIGH PRIORITY
-DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY (drop z band to save time)
+DEBASS/EVERYTHING/2022adbx_P2 [170 21] (3min) OPTIONAL
 YSE 525 [189 10] 34 min  HIGH PRIORITY
 
 !!! 05:37:08 slew to Asteroid fields

@@ -30,13 +30,13 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 01:51:01 
-C3 [52, -28] 11 min 
+C3 [52, -28] 11 min      ### drop if behind
 DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
 DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY 
 
 !!! 02:14
-YSE 257 [85 -25] 17 min             
+YSE 257 [85 -25] 17 min        ### drop if necessary     
 DECaPSWest A+B [116 -26] 30 min
 ### Shen SCVZ [90 -66] 12 min            
 ### etale.r.15min.json [160 -60] 15 min  

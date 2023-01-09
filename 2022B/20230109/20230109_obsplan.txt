@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.99
-UT -16 deg twilight: 2023-01-06T01:12:24.058 2023-01-06T08:25:24.541
-UT -15 deg twilight: 2023-01-06T01:06:29.232 2023-01-06T08:31:19.694
-UT -14 deg twilight: 2023-01-06T01:00:40.202 2023-01-06T08:37:08.594
-UT -12 deg twilight: 2023-01-06T00:49:12.647 2023-01-06T08:48:35.620
-UT -10 deg twilight: 2023-01-06T00:37:59.334 2023-01-06T08:59:49.356
-LOCAL -16 deg twilight: 01/05/2023,   22:12:24   05:25:24
-LOCAL -15 deg twilight: 01/05/2023,   22:06:29   05:31:19
-LOCAL -14 deg twilight: 01/05/2023,   22:00:40   05:37:08
-LOCAL -12 deg twilight: 01/05/2023,   21:49:12   05:48:35
-LOCAL -10 deg twilight: 01/05/2023,   21:37:59   05:59:49
-LOCAL night MIDPOINT: 01/06/2023,   01:48:54
+MOON ILLUMINATION: 0.91
+UT -16 deg twilight: 2023-01-10T01:11:58.805 2023-01-10T08:29:15.168
+UT -15 deg twilight: 2023-01-10T01:06:07.300 2023-01-10T08:35:05.524
+UT -14 deg twilight: 2023-01-10T01:00:21.814 2023-01-10T08:40:52.078
+UT -12 deg twilight: 2023-01-10T00:49:00.407 2023-01-10T08:52:14.445
+UT -10 deg twilight: 2023-01-10T00:37:52.631 2023-01-10T09:03:20.767
+LOCAL -16 deg twilight: 01/09/2023,   22:11:58   05:29:15
+LOCAL -15 deg twilight: 01/09/2023,   22:06:07   05:35:05
+LOCAL -14 deg twilight: 01/09/2023,   22:00:21   05:40:52
+LOCAL -12 deg twilight: 01/09/2023,   21:49:00   05:52:14
+LOCAL -10 deg twilight: 01/09/2023,   21:37:52   06:03:20
+LOCAL night MIDPOINT: 01/10/2023,   01:50:36
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -30,86 +30,56 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 
-
-
-
-### !!! 22:00:32
-### YSE 2022vye [357 2] 4 min  
-### YSE 2022zxj [0 -2] 4 min  HST HIGH PRIORITY
-### YSE 2022aaaw [16 1]  4 min HST HIGH PRIORITY 
-### YSE 2022wsq [20 15] 2 min  
-### YSE 448 [16 3] 17 min   
-### YSE 296 [17 -17] 17 min  
-
-!!! 22:00:40
-DEBASS/EVERYTHING/2022acyi_P1 [18 7] (3min) HIGH PRIORITY
-DEBASS/EVERYTHING/2023Q_P1 [30 0] (3min) HIGH PRIORITY
-X123 [34, -4] 35 min  
-DEBASS/EVERYTHING/2022abgg_P2 [35 -9] (3min) OPTIONAL
-YSE 2022abvt [22 -31] 4 min   HIGH PRIORITY
-DEBASS/EVERYTHING/2023E_P1 [18 -49] (3min) HIGH PRIORITY
-
-!!! 22:52
-S1S2   [42, 0] 22 min 
-### YSE 2022uto [41 17] 3 min  HST
-### YSE 401 [37 0] 7 min         
-
-!!! 23:15
-### YSE 403 [50 -2] 7 min 
-YSE 2022abom [55 -2] 3 min   HIGH PRIORITY
-DESIRT_50_grz (50 -15) (50 min)
-C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) HIGH PRIORITY
-
-!!! 00:23
-YSE 253 [67, -26] 8 min  
-### YSE 353 [63 -10] 8 min  
+!!! 01:50:36
 DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
-### YSE 2022tmo [69 -13] 3 min 
-### YSE 2022xkq [76 -12] 3 min HST  
-### YSE 2022wiv [66  1] 3 min  HST  
+YSE 2022wiv [66  1] 3 min  HST  
 DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY 
+YSE 2022xkq [76 -12] 3 min HST
 
-!!! 00:39
-YSE 257 [85 -25] 8 min             
+!!! 02:05  
+YSE 253 [67, -26] 17 min  
+YSE 353 [63 -10] 17 min  
+### YSE 2022tmo [69 -13] 4 min 
+
+!!! 02:39
+### YSE 257 [85 -25] 17 min             
 DECaPSWest A+B [116 -26] 30 min
 Shen SCVZ [90 -66] 12 min            
-### etale.z.15min.json [160 -60] 15 min  
+etale.i.15min.json [160 -60] 15 min  
 
-!!! 01:30
-YSE 311 [123 -17] 8 min    
+### !!! 01:30
+### YSE 311 [123 -17] 8 min    
 DEBASS/EVERYTHING/2022aefd_P1 [124 -7] (4min) HIGH PRIORITY (drop z band to save time)
-YSE 412 [115 -2] 8 min    
+### YSE 412 [115 -2] 8 min    
 ### YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
 
-!!! 01:50
-### YSE 2022vqx  [112 17] 4 min HST
+!!! 03:36
+YSE 2022vqx  [112 17] 2 min HST
 DEBASS/EVERYTHING/2022adyj_P1 [103 12] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022aebw_P1 [130 5] (3min) HIGH PRIORITY
 ### eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL
 
-!!! 02:00
-cosmos A+B+C [150 2] 1.5h  
-YSE 2022adcf [156 9] (4 min)
+### !!! 02:00
+### cosmos A+B+C [150 2] 1.5h  
+### YSE 2022adcf [156 9] (4 min)
 
-!!! 03:35
-DESIRT_165_grz_Jan23 (165 -6) (56 min)
+!!! 03:50
+YSE 2022aduk [159 -17]  (4 min) HST HIGH PRIORITY
+DESIRT_165_riz_Dec22 (50 min)
 DEBASS/EVERYTHING/2022adpu_P1 [174 -7] (4min) HIGH PRIORITY (drop z band to save time)
 DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY (drop z band to save time)
 
-!!! 04:45
+!!! 04:52
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) MEDIUM PRIORITY (drop i band to save time)
 YSE 2022aczp [191 -15] 4 min   ###  HST HIGH PRIORITY
-YSE 2022zut [175 11] 3 min     ###  HST HIGH PRIORITY
+YSE 2022zut [175 11] 2 min     ###  HST HIGH PRIORITY
 DEBASS/EVERYTHING/2022adbx_P2 [170 21] (3min) OPTIONAL
 YSE 525 [189 10] 34 min  HIGH PRIORITY
 
-!!! 05:37:08 slew to Asteroid fields
+!!! 05:40:52 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-DESIRT_50_g (12 min) IF EXTRA TIME
-DESIRT_165_g (14 min) IF EXTRA TIME
 etale.i.15min.json [160 -60] 15 min  

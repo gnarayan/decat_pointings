@@ -3,6 +3,26 @@
 "count": 1,
 "expType": "object",
 "object": "2022vqx",
+"filter": "g",
+"expTime": 15,
+"RA": "112.1757",
+"dec": "17.3375",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022vqx",
+"filter": "r",
+"expTime": 15,
+"RA": "112.1757",
+"dec": "17.3375",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022vqx",
 "filter": "i",
 "expTime": 15,
 "RA": "112.1757",

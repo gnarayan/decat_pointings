@@ -35,7 +35,6 @@ YSE 2022adqz [56 -19] 4 min HIGH PRIORITY
 *** 25 min extra! *** The following only of nobody else claims the time!!!
 C3 [52, -28] 11 min  ### Drop if no time
 YSE 2022abom [55 -2] 4 min ### Drop if no time
-YSE 2022wiv [66  1] 3 min  ### Drop if no time
 YSE 403 [50 -2] 8 min 
 
 !!! 01:50  ### start here at 1:50am, previous targets are only if we start earlier than the midpoint at 1:50am

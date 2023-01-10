@@ -29,11 +29,15 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
+
+
+
 !!! 01:51:01 
 C3 [52, -28] 11 min      ### drop if behind
 DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
 DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY 
+DEBASS/EVERYTHING/2023dk_P2 [77 -1] (3min) OPTIONAL
 
 !!! 02:14
 YSE 257 [85 -25] 17 min        ### drop if necessary     
@@ -43,14 +47,13 @@ DECaPSWest A+B [116 -26] 30 min
 
 !!! 03:00
 YSE 311 [123 -17] 17 min    
-DEBASS/EVERYTHING/2022aefd_P1 [124 -7] (4min) HIGH PRIORITY (drop z band to save time)
+DEBASS/EVERYTHING/2022aefd_P1 [124 -7] (4min) HIGH PRIORITY
 YSE 412 [115 -2] 17 min    
 YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
 
 !!! 03:45
 ### YSE 2022vqx  [112 17] 4 min HST
-DEBASS/EVERYTHING/2022adyj_P1 [103 12] (3min) HIGH PRIORITY
-DEBASS/EVERYTHING/2022aebw_P1 [130 5] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022aebw_P2 [130 5] (3min) OPTIONAL
 eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL
 
@@ -60,14 +63,11 @@ DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL
 
 !!! 04:32
 DESIRT_165_riz_Dec22 (50 min)
-DEBASS/EVERYTHING/2022adpu_P1 [174 -7] (4min) HIGH PRIORITY (drop z band to save time)
-DEBASS/EVERYTHING/2022aduk_P1 [160 -17] (4min) HIGH PRIORITY (drop z band to save time)
 
 !!! 05:30
-DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) MEDIUM PRIORITY (drop i band to save time)
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) High PRIORITY (drop g band to save time)
 ### YSE 2022aczp [191 -15] 4 min   ###  HST HIGH PRIORITY
 ### YSE 2022zut [175 11] 3 min     ###  HST HIGH PRIORITY
-DEBASS/EVERYTHING/2022adbx_P2 [170 21] (3min) OPTIONAL
 ### YSE 525 [189 10] 17 min  
 
 !!! 05:37:08 slew to Asteroid fields

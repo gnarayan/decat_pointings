@@ -46,8 +46,6 @@ YSE 2022abvt [22 -31] 4 min HST  HIGH PRIORITY
 DEBASS/EVERYTHING/2023E_P1 [18 -49] (3min) DROP Z BAND (and i band to save extra time)
 
 !!! 23:02
-
-### !!! 23:38
 S1S2   [42, 0] 22 min 
 YSE 2022uto [41 17] 3 min  HST
 YSE 401 [37 0] 14 min         

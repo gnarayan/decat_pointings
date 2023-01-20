@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2021ek",
+"filter": "i",
+"expTime": 150,
+"RA": "50.9558",
+"dec": "-9.9578",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2021ek",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2021A-0275"
+}
+]

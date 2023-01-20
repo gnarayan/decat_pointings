@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2022xkq",
+"filter": "i",
+"expTime": 15,
+"RA": "76.3466",
+"dec": "-11.7953",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022xkq",
+"filter": "z",
+"expTime": 15,
+"RA": "76.3466",
+"dec": "-11.7953",
+"propid": "2021A-0275"
+}
+]

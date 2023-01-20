@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 18.29471,
         "dec": -49.59938,
         "object": "2023E_P1",

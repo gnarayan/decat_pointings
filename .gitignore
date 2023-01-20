@@ -5,6 +5,9 @@
 *~
 *.DS_Store
 
+# pycharm files
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

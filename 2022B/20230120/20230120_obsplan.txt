@@ -23,12 +23,11 @@ LOCAL night MIDPOINT: 01/21/2023,   01:54:30
 *** can do them 									  ***
 *********************************************************
 
-
-
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
+
 
 ### !!! 21:56:47
 ### YSE 2022zxj [0 -2] 4 min  HST HIGH PRIORITY

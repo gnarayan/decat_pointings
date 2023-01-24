@@ -1719,6 +1719,27 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq
 git add 230120
 git add 230120/*.json
 
+mkdir 20230123
+cp obsplan_fullnight.txt 20230123/20230123_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230123/20230123_obsplan.txt 
+subl 20230123/20230123_obsplan.txt
+git add 20230123/20230123_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i   448 296 -d 230123
+mkjson_yse_nofilterswitch.py  -f g,i   403 401 -d 230123
+mkjson_yse_nofilterswitch.py  -f g,i    353   -d 230123
+mkjson_yse_nofilterswitch.py  -f g,i  253 257  -d 230123
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230123
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 230123
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da -d 230123 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022aaaw 2022zxj  -d 230123 -e 25 -n 1
+git add 230123
+git add 230123/*.json
+
+
+2023ed [145 -30]  (4 min) HST HIGH PRIORITY
+YSE 2023bu [178 -18]  (4 min) HST HIGH PRIORITY
+YSE 2023da [195 -16]  (4 min) HST HIGH PRIORITY
 
 DDF 50
 DESI 50
@@ -1792,6 +1813,9 @@ YSE_pointings2fieldcenters.py --addSN 2022aczp 191.9536000 -15.3332278 -vv --ove
 YSE_pointings2fieldcenters.py --addSN 2022adcf 156.2178875 9.5935278 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022aduk 159.6939250 -17.5618944 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022adqz 56.4602042 -19.3059167 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023ed 145.7117500 -29.5986750 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023bu 178.2969833 -17.8427389 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023da 194.8965270 -16.3576044 -vv --overw
 
 2017gkp: Jacob
 

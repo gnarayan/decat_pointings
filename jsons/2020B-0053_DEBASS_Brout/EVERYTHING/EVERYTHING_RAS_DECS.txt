@@ -5,7 +5,10 @@
 2022aecb_P1 [74 0]
 2022aefd_P1 [124 -6]
 2022aduk_P1 [160 -17]
+2023ze_P1 [174 -11]
 2022adpu_P1 [174 -8]
+2023wl_P1 [169 0]
+2023yv_P1 [185 -7]
 Shapley_Skymapper_P1 [203 -31]
 
 2022acyd_P2 [60 6]
@@ -24,5 +27,5 @@ Shapley_Skymapper_P1 [203 -31]
 2023aw_P3 [196 -22]
 
 2022acyi_TCTM [18 7]
-EVERYTHING	84.2 minutes
-EVERYTHING_P1	33.8 minutes
+EVERYTHING	93.0 minutes
+EVERYTHING_P1	42.9 minutes

@@ -272,3 +272,6 @@
          2022adcf   <NA> 156.21571   9.68052     0       NaN                    NaN    2022adcf      N4          35
          2022aduk   <NA> 159.69168 -17.47490     0       NaN                    NaN    2022aduk      N4          35
          2022adqz   <NA>  56.45794 -19.21893     0       NaN                    NaN    2022adqz      N4          35
+           2023ed   <NA> 145.70929 -29.51168     0       NaN                    NaN      2023ed      N4          35
+           2023bu   <NA> 178.29473 -17.75575     0       NaN                    NaN      2023bu      N4          35
+           2023da   <NA> 194.89430 -16.27061     0       NaN                    NaN      2023da      N4          35

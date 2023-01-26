@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 20.0,
         "RA": 174.21321,
         "dec": -8.02557,
         "object": "2022adpu_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 30.0,
+        "exptime": 20.0,
         "RA": 174.21321,
         "dec": -8.02557,
         "object": "2022adpu_P1",

@@ -50,7 +50,7 @@ DESIRT_50_grz (50 -15) (50 min)
 ####
 !!! 23:20
 C3 [52, -28] 11 min 
-YSE 353 [63 -10] 8 min  
+YSE 353 [63 -10] 8 min     ### skip if behind schedule!
 YSE 253 [67, -26] 17 min  
 DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) DROP Z BAND TO SAVE TIME
 ### YSE 2022tmo [69 -13] 3 min 

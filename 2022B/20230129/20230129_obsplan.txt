@@ -1,0 +1,107 @@
+MOON ILLUMINATION: 0.36
+UT -16 deg twilight: 2023-01-27T01:04:16.209 2023-01-27T08:47:44.949
+UT -15 deg twilight: 2023-01-27T00:58:46.315 2023-01-27T08:53:15.275
+UT -14 deg twilight: 2023-01-27T00:53:18.650 2023-01-27T08:58:42.284
+UT -12 deg twilight: 2023-01-27T00:42:32.564 2023-01-27T09:09:28.249
+UT -10 deg twilight: 2023-01-27T00:31:56.595 2023-01-27T09:20:04.368
+LOCAL -16 deg twilight: 01/26/2023,   22:04:16   05:47:44
+LOCAL -15 deg twilight: 01/26/2023,   21:58:46   05:53:15
+LOCAL -14 deg twilight: 01/26/2023,   21:53:18   05:58:42
+LOCAL -12 deg twilight: 01/26/2023,   21:42:32   06:09:28
+LOCAL -10 deg twilight: 01/26/2023,   21:31:56   06:20:04
+LOCAL night MIDPOINT: 01/27/2023,   01:56:00
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them 									  ***
+*********************************************************
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+
+
+!!! 21:53:18
+### YSE 296 [17 -17] 8 min  
+X123_moon.json [34, -4] 22 min  
+### YSE 2022abvt [22 -31] 4 min HST  HIGH PRIORITY
+DEBASS/EVERYTHING/2023E_P1 [18 -49] (4min) DROP Z BAND TO SAVE TIME
+
+### !!! 23:06
+### S1S2_moon.json   [42, 0] 22 min 
+### YSE 2022uto [41 17] 3 min  HST
+### YSE 401 [37 0] 14 min         
+
+!!! 22:20
+### YSE 403 [50 -2] 17 min 
+### YSE 2022abom [55 -2] 4 min  HIGH PRIORITY
+DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) DROP Z BAND TO SAVE TIME
+### YSE 2022adqz [56 -19] 4 min HIGH PRIORITY
+DESIRT_50_grz (50 -15) (50 min)
+
+####
+!!! 23:20
+C3 [52, -28] 11 min 
+YSE 353 [63 -10] 8 min     ### skip if behind schedule!
+YSE 253 [67, -26] 17 min  
+DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) DROP Z BAND TO SAVE TIME
+### YSE 2022tmo [69 -13] 3 min 
+### YSE 2022xkq [76 -12] 3 min HST  
+
+!!! 00:00
+YSE 257 [85 -25] 17 min             
+DECaPSWest A+B [116 -26] 30 min
+Shen SCVZ [90 -66] 12 min            
+etale.r.15min.json [160 -60] 15 min  
+
+!!! 01:20
+YSE 311 [123 -17] 17 min    
+DEBASS/EVERYTHING/2022aefd_P1 [124 -7] (4min) DROP Z BAND TO SAVE TIME
+YSE 412 [115 -2] 17 min    
+YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
+YSE 2022vqx  [112 17] 4 min HST
+### eFEDS [129 1] 30 min  
+DEBASS/EVERYTHING/2022aebw_P1 [130 5] (4min) OPTIONAL
+
+!!! 03:09
+YSE 2022adcf [156 9] (4 min) HST
+cosmos_ddf_seq_A, +B, +C [150 2] 1.5h  
+
+!!! 04:43
+DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL
+YSE 2023ed [145 -30]  (4 min) HST HIGH PRIORITY
+YSE 2022aduk [159 -17]  (4 min) HST HIGH PRIORITY
+YSE 2023bu [178 -18]  (4 min) HST HIGH PRIORITY
+DEBASS/EVERYTHING/2023ze_P1 [174 -11] (4min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2023wl_P1 [169 0] (4min) DROP ZBAND TO SAVE TIME
+
+!!! 04:08
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+
+!!! 05:04
+DEBASS/EVERYTHING/2023yv_P1 [185 -7] (4min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) DROP i BAND TO SAVE TIME
+### YSE 2022aczp [191 -15] 4 min   ###  HST 
+YSE 2023da [195 -16]  (4 min) HST HIGH PRIORITY
+YSE 2022zut [175 11] 4 min     ###  HST 
+YSE 525 [189 10] 34 min  HIGH PRIORITY
+DEBASS/EVERYTHING/2023aez_P1 [219 11] (4min) DROP Z BAND TO SAVE TIME
+
+!!! 05:58:42 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+YSE 2022aczp [191 -15] 4 min   ###  HST 
+DESIRT_50_g (12 min) IF EXTRA TIME
+DESIRT_165_g (14 min) IF EXTRA TIME

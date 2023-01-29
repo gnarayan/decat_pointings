@@ -58,7 +58,7 @@ DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min) DROP Z TO SAVE TIME
 ### YSE 2022xkq [76 -12] 3 min HST  
 
 !!! 00:15
-YSE 257 [85 -25] 17 min             
+YSE 257 [85 -25] 17 min                 ### drop r band if behind      
 DECaPSWest A+B [116 -26] 30 min
 ### Shen SCVZ [90 -66] 12 min            
 ### etale.r.15min.json [160 -60] 15 min  
@@ -101,5 +101,6 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-DESIRT_50_g (12 min) IF EXTRA TIME
+YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
+YSE 2022adcf [156 9] (4 min) HST
 DESIRT_165_g (14 min) IF EXTRA TIME

@@ -17,6 +17,8 @@ def run(verbose=True):
     os.system('rm obslogs/*~ >& dump')
     os.system('rm 2021A/*/*~ >& dump')
     os.system('rm 2022A/*/*~ >& dump')
+    os.system('rm 2022B/*/*~ >& dump')
+    os.system('rm 2023A/*/*~ >& dump')
 
     ysedict = {}
     ysedict2 = {}

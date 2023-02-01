@@ -171,7 +171,7 @@ class mkjsonclass(txttableclass):
                           help='base exposure times of single dither. If comma-separated list, then corresponds to filters (default=%default)')
         parser.add_option('-f','--filter'  , default='r' , type="string",
                           help='filters, comma-separated list (default=%default)')
-        parser.add_option('--propid'  , default='2021A-0275' , type="string",
+        parser.add_option('--propid'  , default='2023A-237157' , type="string",
                           help='proposal ID (default=%default)')
         parser.add_option('-n','--Ndithers'  , default=1 , type="int",
                           help='base number of dithers (default=%default)')

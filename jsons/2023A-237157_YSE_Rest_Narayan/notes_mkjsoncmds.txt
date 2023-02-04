@@ -15,6 +15,22 @@ mkjson_yse_nofilterswitch.py  -f r,i,z 2022xkq 2022adqz -d 230201 -e 25 -n 1
 git add 230201
 git add 230201/*.json
 
+mkdir 20230204
+cp obsplan_fullnight.txt 20230204/20230204_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230204/20230204_obsplan.txt 
+subl 20230204/20230204_obsplan.txt
+git add 20230204/20230204_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i   448 296 -d 230204
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 230204
+mkjson_yse_nofilterswitch.py  -f r,i    353   -d 230204
+mkjson_yse_nofilterswitch.py  -f r,i  253   -d 230204
+mkjson_yse_nofilterswitch.py  -f i   257 412 311 -d 230204
+mkjson_yse_nofilterswitch.py  -f i,z    525 -d 230204
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl -d 230204 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022adcf 2023wl 2023R 2023wl -d 230204 -e 25 -n 1
+git add 230204
+git add 230204/*.json
 
 YSE 2023dk [78 -1] (4 min)
 YSE 2023R [150 -5]  (4 min)
@@ -87,6 +103,7 @@ YSE_pointings2fieldcenters.py --addSN 2023da 194.8965270 -16.3576044 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2023R 150.2680952 -5.1297609 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2023wl 168.9494958 0.8524472 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2023dk 77.7763195 -1.0803025 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023bee 134.0484475 -3.3255556 -vv --overw
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan

@@ -1,0 +1,20 @@
+## Feb 1
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+	
+## Feb 4	
+
+DESIRT_50_riz (50 -15) (53 min)
+DESIRT_165_riz (165 -6) (56 min)
+
+## Feb 7	
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_190_rz_bright [195 +7] (29 min)
+DESIRT_MBHB1_rz [203.5 +17.5] (13 min)
+DESIRT_G15_r [~215 -1] (8 min)
+DESIRT_G15_z [~215 -1] (10 min)
+
+## Feb 10	

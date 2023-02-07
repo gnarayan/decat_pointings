@@ -65,9 +65,9 @@ DEBASS/EVERYTHING/2023azu_P1 [111 -84]  (4min)
 ### etale.i.15min.json [160 -60] 15 min  
 !!! DROP EXPOSURES HERE IF YOU ARE BEHIND !!!
 if very good conditions (no clouds, seeing<=1.1"):
-etale.iz.30min.json
-if not very good conditions:
-etale.i.closefields135degDec2021_A.json
+etale.iz.30min.json [160 -60] 30 min  
+otherwise:
+etale.i.closefields135deg_A.json [160 -60] 30 min  
 
 !!! 02:12
 DECaPSWest A+B [116 -26] 30 min
@@ -113,6 +113,6 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-repeat if extra time:
+etale.i.closefields135deg_B.json [160 -60] 30 min 
 DESIRT_G15_r [~215 -1] (8 min)
 DESIRT_G15_z [~215 -1] (10 min)

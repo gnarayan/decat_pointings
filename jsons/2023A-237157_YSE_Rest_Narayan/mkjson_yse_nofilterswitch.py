@@ -185,6 +185,8 @@ class mkjsonclass(txttableclass):
 #                          help='Nstars value for which exptime gets 1/3 (default=%default)')
         parser.add_option('--pointings'  , default=None , type="string",
                           help='comma-separated list of pointings (default=%default)')
+        parser.add_option('--sortbyra'  , default=False , action="store_true",
+                          help='sort the output table by RA')
         
         parser.add_option('--d1'  , default=None , nargs=2, type="string",
                           help='1st dither in RA and DEC direction (default=%default)')
@@ -274,7 +276,7 @@ class mkjsonclass(txttableclass):
                     
         return(exposures4object,t)
 
-    def mkjsonscript4all(self,targets,combineFlag=False,outrootdir=None,outsuffix=None,outsubdir=None,repeatfilters=[]):
+    def mkjsonscript4all(self,targets,combineFlag=False,outrootdir=None,outsuffix=None,outsubdir=None,repeatfilters=[],sortbyra=False):
 
         def outfile(basename,outrootdir=None,outsuffix=None,outsubdir=None):
             outfilename = outrootdir
@@ -347,7 +349,8 @@ class mkjsonclass(txttableclass):
             rmfile(outfilename)
             print('Saving ', outfilename)
             open(outfilename,'w').writelines('[\n' + ',\n'.join(exposures)+ '\n]\n')
-                        
+        
+        if sortbyra: keysused = self.sortkeysbycols(keysused,'RA')
         self.printtxttable(keys=keysused)
         print('!!! setting propID: %s !!!' % self.options.propid)
         
@@ -481,7 +484,8 @@ if __name__=='__main__':
                             outrootdir=mkjson.options.outrootdir,
                             outsuffix=mkjson.options.outsuffix,
                             outsubdir=outsubdir,
-                            repeatfilters=repeatfilters)
+                            repeatfilters=repeatfilters,
+                            sortbyra=mkjson.options.sortbyra)
     
     if outdate!='':
         print(f'MOON ILLUMINATION: {mkjson.illum:.2f}')

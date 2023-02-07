@@ -18,3 +18,30 @@ DESIRT_G15_r [~215 -1] (8 min)
 DESIRT_G15_z [~215 -1] (10 min)
 
 ## Feb 10	
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_165_grz (165 -6) (56 min)
+
+## Feb 13	2nd Half
+
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+
+## Feb 16	
+
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_190_grz (53 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Feb 22	1st half
+
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Feb 25	2nd half
+
+DESIRT_190_grz (165 -6) (53 min)
+
+## Feb 28	
+
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_190_grz (165 -6) (53 min)
+DESIRT_165_g (14 min) IF EXTRA TIME

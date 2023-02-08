@@ -44,8 +44,8 @@ mkjson_yse_nofilterswitch.py  -f g,i  253 257  -d 230207
 mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 230207
 mkjson_yse_nofilterswitch.py  -f i,z    525 -d 230207
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl -d 230207 -e 15 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f r,i,z 2023da 2022aczp 2023bu -d 230207 -e 25 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl 2023jb 2023nj -d 230207 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z 2023da 2022aczp 2023bu 2023jb 2023nj -d 230207 -e 10 -n 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023bee -d 230207 -e 2 -n 1
 git add 230207
 git add 230207/*.json
@@ -59,7 +59,8 @@ mkjson_dosc.py  -f z OMLApex -d 230207 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5
 YSE 2023dk [78 -1] (4 min)
 YSE 2023R [150 -5]  (4 min)
 YSE 2023wl [169 1] (4 min)
-
+YSE 2023jb [156 18] (4 min)
+YSE 2023nj [143 -5] (4 min)
 
 mkjson_dosc.py  -f g,r,i OMLApex -d 230201 -n 3 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
 mkjson_dosc.py  -f i OMLApex -d 230201 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i
@@ -128,6 +129,9 @@ YSE_pointings2fieldcenters.py --addSN 2023R 150.2680952 -5.1297609 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2023wl 168.9494958 0.8524472 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2023dk 77.7763195 -1.0803025 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2023bee 134.0484475 -3.3255556 -vv --overw
+
+YSE_pointings2fieldcenters.py --addSN 2023jb 156.5479250 18.5120028 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023nj 143.2047465 -5.5360933 -vv --overw
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan

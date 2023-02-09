@@ -12,14 +12,14 @@ DESIRT_165_riz (165 -6) (56 min)
 ## Feb 7	
 
 DESIRT_50_grz (50 -15) (50 min)
-DESIRT_190_rz_bright [195 +7] (29 min)
+DESIRT_190_iz_bright [195 +7] (29 min)
 DESIRT_MBHB1_rz [203.5 +17.5] (13 min)
 DESIRT_G15_r [~215 -1] (8 min)
 DESIRT_G15_z [~215 -1] (10 min)
 
 ## Feb 10	
 DESIRT_50_grz (50 -15) (50 min)
-DESIRT_165_grz (165 -6) (56 min)
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
 
 ## Feb 13	2nd Half
 
@@ -28,7 +28,8 @@ DESIRT_165_grz_Jan23 (165 -6) (56 min)
 ## Feb 16	
 
 DESIRT_165_grz_Jan23 (165 -6) (56 min)
-DESIRT_190_grz (53 min)
+DESIRT_190_grz_1 [195 +7] (27 min)
+DESIRT_190_grz_2 [195 +7] (27 min)
 DESIRT_165_g (14 min) IF EXTRA TIME
 
 ## Feb 22	1st half
@@ -43,5 +44,6 @@ DESIRT_190_grz (165 -6) (53 min)
 ## Feb 28	
 
 DESIRT_165_grz_Jan23 (165 -6) (56 min)
-DESIRT_190_grz (165 -6) (53 min)
+DESIRT_190_grz_1 [195 +7] (27 min)
+DESIRT_190_grz_2 [195 +7] (27 min)
 DESIRT_165_g (14 min) IF EXTRA TIME

@@ -23,16 +23,14 @@ LOCAL night MIDPOINT: 02/08/2023,   01:57:31
 *** can do them 									  ***
 *********************************************************
 
-
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 21:43:34
-DEBASS/EVERYTHING/2023E_P1 [18 -49] (4min) HIGH PRIORITY 
 YSE 2022abvt [22 -31] 4 min HST  HIGH PRIORITY
-DEBASS/EVERYTHING/2023Q_P1 [30 0] (4min) HIGH PRIORITY 
+DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min)
 X123.json [34, -4] 34 min  
 
 !!! 22:30
@@ -42,23 +40,25 @@ YSE 403 [50 -2] 17 min
 YSE 2022abom [55 -2] 4 min  HIGH PRIORITY
 
 !!! 23:20
-DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL FILLER
-DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022acyd_P2 [60 6] (4min) OPTIONAL
+DEBASS/EVERYTHING/2022aecb_P1 [74 0] (4min)
 DESIRT_50_grz (50 -15) (50 min)
 YSE 2022adqz [56 -19] 4 min HIGH PRIORITY
 
 !!! 00:22
 C3 [52, -28] 11 min 
+#DEBASS/EVERYTHING/2023bbv_P2 [56 -51] (4min) OPTIONAL
 ### YSE 353 [63 -10] 17 min     
+DEBASS/EVERYTHING/2022aeed_P1 [62 -30] (4min)
 YSE 253 [67, -26] 17 min  
 YSE 2022xkq [76 -12] 4 min HST  
 YSE 2023dk [78 -1] (4 min)
 
 !!! 01:00
 YSE 257 [85 -25] 17 min                  
-DEBASS/EVERYTHING/2023bgj_P2 [96 -38] OPTIONAL FILLER  (4min)
+DEBASS/EVERYTHING/2023bgj_P1 [96 -38] (4min)
 Shen SCVZ [90 -66] 12 min            
-DEBASS/EVERYTHING/2023azu_P1 [111 -84]  (4min)
+DEBASS/EVERYTHING/2023azu_P1 [111 -84] (4min)
 
 !!! 01:37
 ### etale.iz.30min.json [160 -60] 30 min  
@@ -72,11 +72,12 @@ etale.i.closefields135deg_A.json [160 -60] 30 min
 !!! 02:08
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 17 min    
+#DEBASS/EVERYTHING/2022aefd_P2 [124 -7] (4min) OPTIONAL
 YSE 412 [115 -2] 17 min    
 YSE 2022aajn [107 21] 4 min HST  	HIGH PRIORITY		
 YSE 2022vqx  [112 17] 4 min HST
 DEBASS/EVERYTHING/2023aoz_P1 [120 11] (4min)
-DEBASS/EVERYTHING/2022aebw_P2 [130 5] OPTIONAL FILLER (4min)
+DEBASS/EVERYTHING/2022aebw_P2 [130 5] (4min) OPTIONAL
 ### eFEDS [129 1] 30 min  
 
 !!! 03:28
@@ -84,6 +85,7 @@ DEBASS/EVERYTHING/2023bee_P1 [134 -3] (4min) HIGH PRIORITY
 YSE 2023nj [143 -5] (4 min) HST HIGH PRIORITY
 ### YSE 2023R [150 -5]  (4 min) HST
 DEBASS/EVERYTHING/2022advr_P2 [155 3] (4min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2023wl_P1 [169 0] (4min)
 ### cosmos_ddf_seq_A, +B, (NOT C!!!) [150 2] 1h  
 ### YSE 2022adcf [156 9] (3 min) HST
 ### YSE 2023jb [156 18] (4 min)
@@ -94,11 +96,10 @@ YSE 2023ed [145 -30]  (4 min) HST HIGH PRIORITY
 DOSC OMLApex.z1.json [167 -25] (30 min)
 DOSC OMLApex.z2.json [167 -25] (30 min)
 YSE 2023bu [178 -18]  (3 min) HST HIGH PRIORITY
+DEBASS/EVERYTHING/2023ze_P1 [174 -11] (4min)
 
 !!! 04:53
 YSE 2023da [195 -16]  (3 min) HST HIGH PRIORITY
-DEBASS/EVERYTHING/2023alf_P1 [208 -12] (4min) HIGH PRIORITY
-DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) High Priority
 YSE 2022aczp [191 -15] 3 min   ###  HST 
 ### YSE 2022zut [175 11] 4 min     ###  HST 
 ### YSE 525 [189 10] 34 min  HIGH PRIORITY

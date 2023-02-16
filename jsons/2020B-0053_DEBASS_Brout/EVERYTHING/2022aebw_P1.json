@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 50.0,
+        "exptime": 30.0,
         "RA": 130.72786,
         "dec": 5.3443,
         "object": "2022aebw_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 50.0,
+        "exptime": 30.0,
         "RA": 130.72786,
         "dec": 5.3443,
         "object": "2022aebw_P1",

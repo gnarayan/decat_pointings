@@ -1,18 +1,6 @@
 [
 {
     "expType": "object",
-    "object": "COSMOS_N419_R1.6_focus",
-    "filter": "N419",
-    "RA": 149.4812886,
-    "dec": 3.6578207,
-    "propid": "2020B-0201",
-    "expTime": 60
-},
-{
-    "break": "True"
-},
-{
-    "expType": "object",
     "object": "COSMOS_N419_R1.6_089",
     "filter": "N419",
     "RA": 149.4812886,
@@ -62,42 +50,6 @@
     "filter": "N419",
     "RA": 151.4384559,
     "dec": 1.3043177,
-    "propid": "2020B-0201",
-    "expTime": 1200
-},
-{
-    "expType": "object",
-    "object": "COSMOS_N419_R1.6_059",
-    "filter": "N419",
-    "RA": 151.2411727,
-    "dec": 3.3047758,
-    "propid": "2020B-0201",
-    "expTime": 1200
-},
-{
-    "expType": "object",
-    "object": "COSMOS_N419_R1.6_088",
-    "filter": "N419",
-    "RA": 149.240359,
-    "dec": 3.532088,
-    "propid": "2020B-0201",
-    "expTime": 1200
-},
-{
-    "expType": "object",
-    "object": "COSMOS_N419_R1.6_055",
-    "filter": "N419",
-    "RA": 150.2811193,
-    "dec": 3.7716886,
-    "propid": "2020B-0201",
-    "expTime": 1200
-},
-{
-    "expType": "object",
-    "object": "COSMOS_N419_R1.6_056",
-    "filter": "N419",
-    "RA": 150.5477095,
-    "dec": 3.7182059,
     "propid": "2020B-0201",
     "expTime": 1200
 }

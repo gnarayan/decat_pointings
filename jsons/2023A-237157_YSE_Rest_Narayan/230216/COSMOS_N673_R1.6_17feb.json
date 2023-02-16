@@ -1,0 +1,95 @@
+[
+{
+    "expType": "object",
+    "object": "COSMOS_N673_R1.6_focus",
+    "filter": "N673",
+    "RA": 150.22658,
+    "dec": 3.7769434,
+    "propid": "2020B-0201",
+    "expTime": 60
+},
+{
+    "break": "True"
+},
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_68",
+  "filter": "N673",
+  "RA": 150.22658,
+  "dec": 3.7769434,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_67",
+  "filter": "N673",
+  "RA": 150.03666,
+  "dec": 3.7806937,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_80",
+  "filter": "N673",
+  "RA": 151.69745,
+  "dec": 2.2916421,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_71",
+  "filter": "N673",
+  "RA": 150.77509,
+  "dec": 3.6329637,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_69",
+  "filter": "N673",
+  "RA": 150.41472,
+  "dec": 3.7507735,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_109",
+  "filter": "N673",
+  "RA": 148.53960,
+  "dec": 2.5415269,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.0_46",
+  "filter": "N673",
+  "RA": 149.16623,
+  "dec": 1.8225734,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.0_57",
+  "filter": "N673",
+  "RA": 149.31171,
+  "dec": 2.7982011,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.0_49",
+  "filter": "N673",
+  "RA": 149.10303,
+  "dec": 2.0957606,
+  "propid": "2020B-0201",
+  "expTime": 1200
+ }
+]

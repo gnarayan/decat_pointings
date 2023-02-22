@@ -100,6 +100,27 @@ mkjson_yse_nofilterswitch.py  -f r,i,z 2023da 2022aczp 2023bu 2023jb 2023nj -d 2
 git add 230216
 git add 230216/*.json
 
+mkjson_yse_nofilterswitch.py  -f g,i    525 -d 230217
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl 2023jb 2023nj -d 230217 -e 10 -n 1 --sortbyra
+
+
+mkdir 20230222
+cp obsplan_fullnight.txt 20230222/20230222_obsplan.txt
+cp 20230216/20230216_obsplan.txt 20230222/20230222_obsplan.txt 
+subl 20230222/20230222_obsplan.txt
+git add 20230222/20230222_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g  403 401 -d 230222
+mkjson_yse_nofilterswitch.py  -f r    353   -d 230222
+mkjson_yse_nofilterswitch.py  -f r  253 257  -d 230222
+mkjson_yse_nofilterswitch.py  -f r    412 311 -d 230222
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 230222
+mkjson_yse_nofilterswitch.py  -f g   477 583 531  -d 230222
+#
+mkjson_yse_nofilterswitch.py  -f g,r 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl 2023jb 2023nj -d 230222 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z 2023da 2022aczp 2023bu 2023jb 2023nj -d 230222 -e 10 -n 1
+git add 230222
+git add 230222/*.json
+
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Feb23.txt
@@ -108,6 +129,9 @@ mkjson_dosc.py -f g,r,i OMLApex -d 230213 -n 3 -e 200,400,360 --d1 E5 N3 --d2 W7
 mkjson_dosc.py -f i OMLApex -d 230213 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i
 mkjson_dosc.py  -f z OMLApex -d 230207 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix z1
 mkjson_dosc.py  -f z OMLApex -d 230207 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix z2
+
+mkjson_dosc.py -f g,r OMLApex -d 230221 -n 3 -e 200,400 --d1 E5 N3 --d2 W7 S7
+2UKCEPuxXX6ggDD%
 
 YSE 2023dk [78 -1] (4 min)
 YSE 2023R [150 -5]  (4 min)
@@ -120,29 +144,6 @@ mkjson_dosc.py  -f i OMLApex -d 230201 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_
 
 mkjson_yse.py  -f g,r,i,z,Y  2022ngb  -d 220621 -e 200,100,100,100,200
 mkjson_yse.py  -f r,i hotshit123 -d 220624 -e 150,150 -n 3
-
- mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2021-12-27  &
-
-mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B2ndhalf.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2022-01-15  &
-
-mkjson_yse_nofilterswitch.py  -f g,r    474 423 376 477  -d 230121
-
-mkjson_yse.py  -f r,i 353  -d 220309
-mkjson_yse.py  -f i,z 403 -d 220309
-mkjson_yse.py  -f g,r 257  -d 220309
-mkjson_yse_nofilterswitch.py  -f g,r,i   365 418  -d 220309 -e 100
-mkjson_yse.py  -f g,r,i  2021agji  618 468 -d 220309
-22:35 YSE 365 [09:10 -11:24] 32m 
-23:05 YSE 418 [10:21 -04:12] 32m
-23:35 YSE 2021agji [09:27 +24:01] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
-      YSE 618 [09:25 +27:41] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
-      YSE 468 [10:24 +03:00] 7m 
-
-mkjson_yse.py  -f g,i 257  -d 220310
-mkjson_yse_nofilterswitch.py  -f g,r,i   365 418  -d 220310 -e 100
-mkjson_yse.py  -f g,r,i  2021agji  618 468 -d 220310
-mkjson_yse.py  -f g,r,i  618 468 -d 220310
-/Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest/220310
 
 
 mkjson_yse.py  -f g,r,i,z 415 418 423 474 523 525 575 577  -d 220330 --propid 2022A-193378

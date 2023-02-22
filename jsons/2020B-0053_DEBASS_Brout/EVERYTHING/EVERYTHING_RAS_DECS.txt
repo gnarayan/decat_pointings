@@ -3,6 +3,7 @@
 2023azu_P1 [111 -84]
 2023boc_P1 [116 8]
 2023aoz_P1 [120 11]
+2023bvw_P1 [122 11]
 2023bee_P1 [134 -3]
 2023ze_P1 [174 -11]
 2023bsa_P1 [165 9]
@@ -32,5 +33,5 @@ Shapley_Skymapper_P1 [203 -31]
 2023bes_P3 [245 10]
 
 2022acyi_TCTM [18 7]
-EVERYTHING	112.6 minutes
-EVERYTHING_P1	49.8 minutes
+EVERYTHING	115.6 minutes
+EVERYTHING_P1	52.7 minutes

@@ -28,5 +28,5 @@ Shapley_Skymapper_P1 [203 -31]
 2023bbp_P3 [172 22]
 2023bes_P3 [245 10]
 
-EVERYTHING	93.9 minutes
-EVERYTHING_P1	44.7 minutes
+EVERYTHING	85.6 minutes
+EVERYTHING_P1	36.5 minutes

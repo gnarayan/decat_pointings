@@ -64,8 +64,8 @@ YSE 2023R [150 -5]  (2 min) HST
 cosmos_ddf_seq_A, B, (NOT C!!!) [150 2] 1h  
 
 !!! 00:16
-YSE 2022adcf [156 9] (2 min) HST   #####    drop if necessary
-YSE 2023jb [156 18] (2 min)  HST   #####    drop if necessary
+YSE 2022adcf [156 9] (2 min) HST   
+YSE 2023jb [156 18] (2 min)  HST   
 DEBASS/EVERYTHING/2023bsa_P1 [165 9] (2 min)
 YSE 2023wl [169 1] (2 min) HST
 DESIRT_165_grz_Jan23 (165 -6) (56 min)

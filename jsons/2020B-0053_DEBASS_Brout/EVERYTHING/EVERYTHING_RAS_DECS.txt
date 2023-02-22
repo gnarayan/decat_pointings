@@ -1,4 +1,3 @@
-2022aecb_P1 [74 0]
 2023bgj_P1 [96 -38]
 2023azu_P1 [111 -84]
 2023boc_P1 [116 8]
@@ -14,9 +13,7 @@ Shapley_Skymapper_P1 [203 -31]
 2023alf_P1 [208 -12]
 2023aez_P1 [219 11]
 
-2022acyd_P2 [60 6]
 2022aefd_P2 [124 -7]
-2022advr_P2 [155 3]
 2023wl_P2 [169 0]
 
 2023E_P3 [18 -49]
@@ -29,9 +26,7 @@ Shapley_Skymapper_P1 [203 -31]
 2022aduk_P3 [160 -17]
 2022adpu_P3 [174 -8]
 2023bbp_P3 [172 22]
-2023aw_P3 [196 -22]
 2023bes_P3 [245 10]
 
-2022acyi_TCTM [18 7]
-EVERYTHING	115.6 minutes
-EVERYTHING_P1	52.7 minutes
+EVERYTHING	93.9 minutes
+EVERYTHING_P1	44.7 minutes

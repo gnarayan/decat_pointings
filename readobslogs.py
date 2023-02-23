@@ -13,6 +13,7 @@ def run(verbose=True):
     ignore = [i.strip() for i in ignoref]
 
     outtxt = open('debass/debass_sne.txt','w')
+    outtxtexp = open('debass/debass_sne_wexpnums.txt','w')
     
     os.system('rm obslogs/*~ >& dump')
     os.system('rm 2021A/*/*~ >& dump')
@@ -144,6 +145,7 @@ def run(verbose=True):
         if k in rysedict.keys():
             if verbose: print('SNID',k,'YSE_Field',rysedict[k],'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
             outtxt.write(' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'CCD',str(c.ccdmap[k]),'\n']))
+            outtxtexp.write(' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'CCD',str(c.ccdmap[k]),'\n']))
             returndict[k] = ' '.join(['SNID',str(k),'YSE_Field',rysedict[k],'RA',str(v['ra']),'DEC',str(v['dec']),'\n\n'])
         else:
             if verbose: print('SNID',k,'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
@@ -155,18 +157,25 @@ def run(verbose=True):
         for date in np.sort(np.unique(v['dates'])):
             ww = np.array(v['dates']) == date
             filts = np.array(v['filts'])[ww]
+            exps = np.array(v['expnums'])[ww]
             if verbose: print(date+':',filts,'Avg Teff %.2f'%np.nanmean(np.array(v['teffs'])[ww]),)
             outstr = date+':'+str(filts)+'\n'
+            outstre = date+':'+str(filts)+str(exps)+'\n'
             outtxt.write(outstr)
+            outtxtexp.write(outstre)
             returndict[k] += date+': ' + str(filts) + ' Avg Teff %.2f'%np.nanmean(np.array(v['teffs'])[ww])+'\n'
 
         outtxt.write('\n')
+        outtxtexp.write('\n')
         if verbose: print()
         #print('Dates',v['dates'])
         if verbose: print('-'*25)
         outtxt.write('-'*25)
         outtxt.write('\n')
+        outtxtexp.write('-'*25)
+        outtxtexp.write('\n')
     outtxt.close()
+    outtxtexp.close()
     if verbose: print('Total SNe %d'%cnt)
 
     if verbose: print('-'*1000)

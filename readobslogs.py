@@ -150,6 +150,7 @@ def run(verbose=True):
         else:
             if verbose: print('SNID',k,'CCD',c.ccdmap[k],'RA',v['ra'],'DEC',v['dec'])
             outtxt.write(' '.join(['SNID',str(k),'CCD',str(c.ccdmap[k]),'\n']))
+            outtxtexp.write(' '.join(['SNID',str(k),'CCD',str(c.ccdmap[k]),'\n']))
             returndict[k] = ' '.join(['SNID',str(k),'RA',str(v['ra']),'DEC',str(v['dec']),'\n\n'])
         #cnt += 1
         if len(np.unique(v['dates'])) > 1:

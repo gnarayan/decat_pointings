@@ -34,7 +34,7 @@ YSE 2023ed [145 -30]  (3 min) HST HIGH PRIORITY
 DEBASS/EVERYTHING/2023bee_P1 [134 -3] (3min)
 
 !!! 02:43
-eFEDS_feb25 [129 1] 15 min  
+eFEDS_feb25 [129 1] 15 min  ### SEE SLACK for json file!!!! ####
 YSE 2023nj [143 -5] (3 min) HST HIGH PRIORITY
 YSE 2023R [150 -5]  (3 min) HST HIGH PRIORITY
 

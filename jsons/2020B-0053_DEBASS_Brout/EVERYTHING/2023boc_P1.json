@@ -40,5 +40,19 @@
         "comment": "2023boc",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 116.22189,
+        "dec": 8.05181,
+        "object": "2023boc_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023boc",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

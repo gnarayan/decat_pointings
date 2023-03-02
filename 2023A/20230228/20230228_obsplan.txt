@@ -34,20 +34,20 @@ YSE 2022adqz [56 -19] 2 min HST
 YSE 353 [63 -10] 8 min       #####    drop if necessary
 YSE 253 [67, -26] 8 min  
 YSE 2023dk [78 -1] 2 min HST  
-
-!!! 21:53
 YSE 257 [85 -25] 8 min                  
 Shen SCVZ [90 -66] 12 min            
-
-### !!! 00:53
-### etale.g.30min.json [160 -60] 30 min  
-### etale.i.15min.json [160 -60] 15 min  
-
-!!! 22:21
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 8 min    #####    drop if necessary
+
+!!! 22:41    #### IMPORTANT HIGH PRIORITY: Guillermo will observe for 15 minute for a CTIO program!!! 
+!!! 22:56
+
+
 ### YSE 412 [115 -2] 8 min 
 ### YSE 2022aajn [107 21] 2 min HST  			
+###
+### etale.g.30min.json [160 -60] 30 min  
+### etale.i.15min.json [160 -60] 15 min  
 
 !!! 23:00
 eFEDS [129 1] 30 min  

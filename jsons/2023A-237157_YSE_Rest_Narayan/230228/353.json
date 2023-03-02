@@ -58,5 +58,45 @@
 "RA": "67.5107",
 "dec": "-7.7969",
 "propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "353.C.a",
+"filter": "i",
+"expTime": 50,
+"RA": "63.2112",
+"dec": "-11.3952",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "353.D.a",
+"filter": "i",
+"expTime": 50,
+"RA": "63.1642",
+"dec": "-8.2967",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "353.E.a",
+"filter": "i",
+"expTime": 50,
+"RA": "66.3095",
+"dec": "-10.8957",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "353.F.a",
+"filter": "i",
+"expTime": 50,
+"RA": "67.5107",
+"dec": "-7.7969",
+"propid": "2023A-237157"
 }
 ]

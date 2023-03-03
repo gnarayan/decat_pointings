@@ -28,7 +28,6 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-
 !!! 21:18:03
 YSE 2022abom [55 -2] 4 min  HST 
 YSE 2022adqz [56 -19] 4 min HST 
@@ -40,7 +39,6 @@ YSE 2023dk [78 -1] 2 min HST
 !!! 21:43
 YSE 257 [85 -25] 8 min                  
 Shen SCVZ [90 -66] 12 min            
-DEBASS/EVERYTHING2023azu_P1 [111 -84] (4min)
 
 ### !!! 00:53
 ### etale.g.30min.json [160 -60] 30 min  
@@ -49,9 +47,6 @@ DEBASS/EVERYTHING2023azu_P1 [111 -84] (4min)
 !!! 22:10
 DECaPSWest A+B [116 -26] 30 min
 ### YSE 311 [123 -17] 8 min    
-DEBASS/EVERYTHING2023boc_P1 [116 8] (4min)
-DEBASS/EVERYTHING2023aoz_P1 [120 11] (4min)
-DEBASS/EVERYTHING2023bvw_P1 [122 11] (4min)
 ### YSE 412 [115 -2] 8 min 
 ### YSE 2022aajn [107 21] 2 min HST  			
 ###
@@ -61,10 +56,10 @@ DEBASS/EVERYTHING2023bvw_P1 [122 11] (4min)
 !!! 23:05
 ### eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2023bee_P2 [134 -3] (3min) drop z band to save time
-DEBASS/EVERYTHING2023com_P1 [141 6] (4min)
+DEBASS/EVERYTHING/2023com_P2 [141 6] (4min) CAN SKIP TO SAVE TIME
 YSE 2023nj [143 -5] (2 min) HST 
 YSE 2023R [150 -5]  (2 min) HST
-DEBASS/EVERYTHING2023clz_P1 [155 -6] (4min)
+DEBASS/EVERYTHING/2023clz_P1 [155 -6] (4min)
 
 !!! 23:50
 cosmos_ddf_seq_A, B, C [150 2] 1.5h  
@@ -74,10 +69,9 @@ cosmos_ddf_seq_A, B, C [150 2] 1.5h
 ### YSE 2023jb [156 18] (2 min)  HST   
 YSE 2023wl [169 1] (2 min) HST
 DESIRT_165_grz_Jan23 (165 -6) (56 min)
-DEBASS/EVERYTHING2023col_P1 [173 -1] (4min)
-DEBASS/EVERYTHING2023ze_P2 [174 -11] OPTIONAL (4min)
-DEBASS/EVERYTHING2023con_P1 [168 6] (4min)
-DEBASS/EVERYTHING2023bsa_P1 [165 9] (4min)
+DEBASS/EVERYTHING/2023col_P2 [173 -1] (4min) CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING/2023con_P2 [168 6] (4min) CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING/2023bsa_P1 [165 9] (4min)
 
 !!! 02:30
 YSE 2023ed [145 -30]  (2 min) HST 
@@ -87,6 +81,7 @@ YSE 2022aduk [160 -17] (4 min)
 YSE 2023bu [178 -18]  (2 min) HST 
 
 !!! 03:40
+DEBASS/EVERYTHING/2021fxy_P1 [198 -19] (5min) CAN SKIP TO SAVE TIME (dont drop bands, i want all griz bands)
 YSE 2023da [195 -16]  (4 min) HST 
 YSE 2022aczp [191 -15] 4 min   ###  HST 
 YSE 2022zut [175 11] 2 min     ###  HST 
@@ -97,15 +92,16 @@ DESIRT_190_grz_2 [195 +7] (27 min)
 
 !!! 04:42
 DEBASS/EVERYTHING2023cog_P1 [190 -1] (4min)
-DEBASS/EVERYTHING2023yv_P2 [185 -7] OPTIONAL (4min)
 DEBASS/EVERYTHING2023bpg_P1 [193 -15] (4min)
 DEBASS/EVERYTHINGShapley_Skymapper_P1 [203 -31] (4min)
-DEBASS/EVERYTHING2023cqm_P1 [218 -24] (4min)
+DEBASS/EVERYTHING/2023cqm_P2 [218 -24] (4min) CAN SKIP TO SAVE TIME
 
 YSE 2023alf [207 -13] 4 min HST HIGH PRIORITY
-DEBASS/EVERYTHING2023alf_P2 [207 -12] OPTIONAL (4min)
 YSE 477 [214 5] 17 min
-DEBASS/EVERYTHING2023aez_P2 [219 11] OPTIONAL (4min)
+DEBASS/EVERYTHING/2021dnl_P1 [221 1] (5min) CAN SKIP TO SAVE TIME (dont drop bands, i want all griz bands)
+DEBASS/EVERYTHING/2021fqb_P1 [227 5] (5min) CAN SKIP TO SAVE TIME (dont drop bands, i want all griz bands)
+DEBASS/EVERYTHING/2021gwa_P1 [235 6] (5min) CAN SKIP TO SAVE TIME (dont drop bands, i want all griz bands)
+DEBASS/EVERYTHING/2023csk_P1 [238 10] (4min)
 
 !!! 05:20
 YSE 531 [230 11] 17 min

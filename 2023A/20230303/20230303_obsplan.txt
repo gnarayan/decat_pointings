@@ -44,7 +44,7 @@ Shen SCVZ [90 -66] 12 min
 ### etale.g.30min.json [160 -60] 30 min  
 ### etale.i.15min.json [160 -60] 15 min  
 
-!!! 22:10
+!!! 22:00
 DECaPSWest A+B [116 -26] 30 min
 ### YSE 311 [123 -17] 8 min    
 ### YSE 412 [115 -2] 8 min 
@@ -53,7 +53,7 @@ DECaPSWest A+B [116 -26] 30 min
 ### etale.g.30min.json [160 -60] 30 min  
 ### etale.i.15min.json [160 -60] 15 min  
 
-!!! 23:05
+!!! 22:30
 ### eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2023bee_P2 [134 -3] (3min) drop z band to save time
 DEBASS/EVERYTHING/2023com_P2 [141 6] (4min) CAN SKIP TO SAVE TIME
@@ -61,10 +61,10 @@ YSE 2023nj [143 -5] (2 min) HST
 YSE 2023R [150 -5]  (2 min) HST
 DEBASS/EVERYTHING/2023clz_P1 [155 -6] (4min)
 
-!!! 23:50
+!!! 22:45
 cosmos_ddf_seq_A, B, C [150 2] 1.5h  
 
-!!! 01:20
+!!! 00:15
 ### YSE 2022adcf [156 9] (2 min) HST   
 ### YSE 2023jb [156 18] (2 min)  HST   
 YSE 2023wl [169 1] (2 min) HST
@@ -73,29 +73,32 @@ DEBASS/EVERYTHING/2023col_P2 [173 -1] (4min) CAN SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2023con_P2 [168 6] (4min) CAN SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2023bsa_P1 [165 9] (4min)
 
-!!! 02:30
+!!! 01:25
 YSE 2023ed [145 -30]  (2 min) HST 
 DOSC OMLApex.z1.json [167 -25] (36 min)
 DOSC OMLApex.z2.json [167 -25] (30 min)
 YSE 2022aduk [160 -17] (4 min)
 YSE 2023bu [178 -18]  (2 min) HST 
 
-!!! 03:40
+!!! 02:40
 DEBASS/EVERYTHING/2021fxy_P1 [198 -19] (5min) CAN SKIP TO SAVE TIME (dont drop bands, i want all griz bands)
 YSE 2023da [195 -16]  (4 min) HST 
 YSE 2022aczp [191 -15] 4 min   ###  HST 
 YSE 2022zut [175 11] 2 min     ###  HST 
 YSE 525 [189 10] 34 min  HIGH PRIORITY
+
+!!! 03:30
 DEBASS/EVERYTHING2023bhb_P1 [183 18] (4min)
 DESIRT_190_grz_1 [195 +7] (27 min)
 DESIRT_190_grz_2 [195 +7] (27 min)
 
-!!! 04:42
+!!! 04:30
 DEBASS/EVERYTHING2023cog_P1 [190 -1] (4min)
 DEBASS/EVERYTHING2023bpg_P1 [193 -15] (4min)
 DEBASS/EVERYTHINGShapley_Skymapper_P1 [203 -31] (4min)
 DEBASS/EVERYTHING/2023cqm_P2 [218 -24] (4min) CAN SKIP TO SAVE TIME
 
+!!! 04:45
 YSE 2023alf [207 -13] 4 min HST HIGH PRIORITY
 YSE 477 [214 5] 17 min
 DEBASS/EVERYTHING/2021dnl_P1 [221 1] (5min) CAN SKIP TO SAVE TIME (dont drop bands, i want all griz bands)
@@ -103,7 +106,7 @@ DEBASS/EVERYTHING/2021fqb_P1 [227 5] (5min) CAN SKIP TO SAVE TIME (dont drop ban
 DEBASS/EVERYTHING/2021gwa_P1 [235 6] (5min) CAN SKIP TO SAVE TIME (dont drop bands, i want all griz bands)
 DEBASS/EVERYTHING/2023csk_P1 [238 10] (4min)
 
-!!! 05:20
+!!! 05:22
 YSE 531 [230 11] 17 min
 YSE 583 [236 20] 17 min
 

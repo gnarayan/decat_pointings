@@ -31,51 +31,54 @@ Script will finish on its own or at -14 deg twilight.
 !!! 21:15:35
 ### YSE 2022abom [55 -2] 2 min  HST 
 ### YSE 2022adqz [56 -19] 2 min HST 
+DEBASS/EVERYTHING/2023crx_P1 [69 0] (4min) 
 YSE 353 [63 -10] 17 min       
 YSE 253 [67, -26] 17 min  
 YSE 2022xkq [76 -12] 2 min HST  
 YSE 2023dk [78 -1] 2 min HST  
 
-!!! 21:54
+!!! 22:00
 YSE 257 [85 -25] 17 min                  
 Shen SCVZ [90 -66] 12 min            
+DEBASS/EVERYTHING/2023azu_P1 [111 -84] (4min) 
 
 ### !!! 00:53
 ### etale.g.30min.json [160 -60] 30 min  
 ### etale.i.15min.json [160 -60] 15 min  
 
-!!! 22:24
+!!! 22:30
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 8 min    			### drop if necessary
 ### YSE 412 [115 -2] 8 min 
+DEBASS/EVERYTHING/2023boc_P1 [116 8] (4min) 
+DEBASS/EVERYTHING/2023bvw_P2 [122 11] (4min) SKIP TO SAVE TIME
 YSE 2022aajn [107 21] 2 min HST  			
 ###
 ### etale.g.30min.json [160 -60] 30 min  
 etale.i.15min.json [160 -60] 15 min  
 
-!!! 22:45
+!!! 22:35
 ### eFEDS [129 1] 30 min  
-DEBASS/EVERYTHING/2023bee_P2 [134 -3] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023com_P2 [141 6] (4min) CAN SKIP TO SAVE TIME
 YSE 2023nj [143 -5] (2 min) HST 
 YSE 2023R [150 -5]  (2 min) HST
-DEBASS/EVERYTHING/2023clz_P1 [155 -6] (4min)
 cosmos_ddf_seq_AB_short [150 2] 1h  
 
-!!! 00:00
+!!! 23:40
 ### YSE 2022adcf [156 9] (2 min) HST   
 ### YSE 2023jb [156 18] (2 min)  HST   
 YSE 2023wl [169 1] (2 min) HST
 DESIRT_165_grz_Jan23 (165 -6) (56 min)
-DEBASS/EVERYTHING/2023col_P2 [173 -1] (4min) CAN SKIP TO SAVE TIME
-DEBASS/EVERYTHING/2023con_P2 [168 6] (4min) CAN SKIP TO SAVE TIME
-DEBASS/EVERYTHING/2023bsa_P1 [165 9] (4min)
+DEBASS/EVERYTHING/2023bsa_P2 [165 9] (4min) SKIP TO SAVE TIME
 
-!!! 01:10
+!!! 00:45
 YSE 2023ed [145 -30]  (2 min) HST 
 DOSC OMLApex.json [167 -25] (30 min)
 ### YSE 2022aduk [160 -17] (4 min)
 YSE 2023bu [178 -18]  (4 min) HST 
+DEBASS/EVERYTHING/2023bpg_P2 [193 -15] (4min) SKIP TO SAVE TIME
+DEBASS/EVERYTHING/2023cog_P1 [190 -1] (4min) 
+DEBASS/EVERYTHING/2023cqz_P1 [173 24] (4min) 
+DEBASS/EVERYTHING/Shapley_Skymapper_P2 [203 -31] (4min) OPTIONAL
 
 ####
 LOCAL night MIDPOINT: 03/05/2023,   01:55:01

@@ -8,3 +8,12 @@ DESIRT_MBHB1_grz_short [203.5 +17.5] (14 min)
 ## Mar 4 (1st half)	
 
 DESIRT_165_riz (165 -6) (56 min)
+
+## Mar 6 
+
+DESIRT_190_iz_bright (165 -6) (37 min)
+DESIRT_MBHB1_riz [203.5 +17.5] (19 min) 
+DESIRT_G15_r [~215 -1] (8 min)
+DESIRT_G15_i [~215 -1] (9 min)
+DESIRT_G15_z [~215 -1] (10 min)
+DESIRT_220_iz_bright [~220 8] (37 min) 

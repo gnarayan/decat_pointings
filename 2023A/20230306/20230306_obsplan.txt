@@ -71,7 +71,7 @@ cosmos_ddf_seq_A, B, C [150 2] 1.5h
 !!! 00:15
 ### YSE 2022adcf [156 9] (2 min) HST   
 ### YSE 2023jb [156 18] (2 min)  HST   
-YSE 2023wl [169 1] (2 min) HST
+### YSE 2023wl [169 1] (2 min) HST
 DESIRT_165_grz_Jan23 (165 -6) (56 min)
 
 !!! 01:25
@@ -84,7 +84,7 @@ YSE 2023bu [178 -18]  (2 min) HST
 !!! 02:40
 YSE 2023da [195 -16]  (4 min) HST 
 YSE 2022aczp [191 -15] 4 min   ###  HST 
-YSE 2022zut [175 11] 2 min     ###  HST 
+### YSE 2022zut [175 11] 2 min     ###  HST 
 DEBASS/EVERYTHING/2023cqz_P2 [173 24]  (5min) CAN SKIP TO SAVE TIME
 YSE 525 [189 10] 34 min  HIGH PRIORITY
 

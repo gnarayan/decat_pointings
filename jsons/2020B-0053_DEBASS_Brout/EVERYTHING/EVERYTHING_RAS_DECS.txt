@@ -1,27 +1,27 @@
-2023crx_P1 [69 0]
-2023azu_P1 [111 -84]
 2023boc_P1 [116 8]
-2023cqz_P1 [173 24]
+2023bvw_P1 [122 11]
+2023com_P1 [141 6]
+2023clz_P1 [155 -6]
+2023bpg_P1 [193 -15]
 2023cog_P1 [190 -1]
+Shapley_Skymapper_P1 [203 -31]
+2023cqm_P1 [218 -24]
 
-2023bvw_P2 [122 11]
-2023bsa_P2 [165 9]
-2023bpg_P2 [193 -15]
-Shapley_Skymapper_P2 [203 -31]
+2023crx_P2 [69 0]
+2023azu_P2 [111 -84]
+2023cqz_P2 [173 24]
+2023aez_P2 [219 11]
+2023csk_P2 [238 10]
 
 2023aoz_P3 [120 11]
 2023bee_P3 [134 -3]
-2023com_P3 [141 6]
-2023clz_P3 [155 -6]
 2023ze_P3 [174 -11]
 2023col_P3 [173 -1]
 2023con_P3 [168 6]
+2023bsa_P3 [165 9]
 2023bhb_P3 [183 18]
 2023yv_P3 [185 -7]
 2023alf_P3 [207 -12]
-2023cqm_P3 [218 -24]
-2023aez_P3 [219 11]
-2023csk_P3 [238 10]
 
-EVERYTHING	74.6 minutes
-EVERYTHING_P1	19.8 minutes
+EVERYTHING	74.3 minutes
+EVERYTHING_P1	27.5 minutes

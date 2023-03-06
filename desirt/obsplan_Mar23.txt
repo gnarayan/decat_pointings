@@ -1,7 +1,7 @@
 ## Mar 3	
 
 DESIRT_165_grz_Jan23 (165 -6) (56 min)
-DESIRT_190_grz (165 -6) (53 min)
+DESIRT_190_grz (190 6) (53 min)
 DESIRT_165_g (14 min) IF EXTRA TIME
 DESIRT_MBHB1_grz_short [203.5 +17.5] (14 min)
 
@@ -11,7 +11,7 @@ DESIRT_165_riz (165 -6) (56 min)
 
 ## Mar 6 
 
-DESIRT_190_iz_bright (165 -6) (37 min)
+DESIRT_190_iz_bright (190 6) (37 min)
 DESIRT_MBHB1_riz [203.5 +17.5] (19 min) 
 DESIRT_G15_r [~215 -1] (8 min)
 DESIRT_G15_i [~215 -1] (9 min)

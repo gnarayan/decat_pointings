@@ -50,7 +50,7 @@ DEBASS/EVERYTHING/2023azu_P2 [111 -84]  (5min) CAN SKIP TO SAVE TIME
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 8 min    
 YSE 412 [115 -2] 8 min 
-### YSE 2022aajn [107 21] 2 min HST  			
+YSE 2022aajn [107 21] 2 min HST  			
 
 !!! 22:30
 eFEDS [129 1] 30 min  

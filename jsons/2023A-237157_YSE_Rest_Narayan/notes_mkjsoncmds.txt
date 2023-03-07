@@ -207,8 +207,10 @@ mkjson_yse_nofilterswitch.py  -f r,i    525 -d 230306
 mkjson_yse_nofilterswitch.py  -f i   477   -d 230306
 mkjson_yse_nofilterswitch.py  -f r,i    583 531  -d 230306
 #
-mkjson_yse_nofilterswitch.py  -f r,i  2022xkq 2022zut 2022aajn 2022aaaw 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl 2023jb 
-2023nj 2023alf -d 230306 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i  2022xkq 2022zut 2022aajn 2022aaaw 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl 2023jb 2023nj 2023alf -d 230306 -e 10 -n 1 --sortbyra
+
+mkjson_yse_nofilterswitch.py  -f i,z 2023nj 2023R 2022aajn -d 230306 -e 10 -n 1 --sortbyra
+
 git add 230306
 git add 230306/*.json
 

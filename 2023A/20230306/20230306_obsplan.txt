@@ -48,15 +48,12 @@ DEBASS/EVERYTHING/2023azu_P2 [111 -84]  (5min) CAN SKIP TO SAVE TIME
 
 !!! 22:00
 DECaPSWest A+B [116 -26] 30 min
-### YSE 311 [123 -17] 8 min    
-### YSE 412 [115 -2] 8 min 
+YSE 311 [123 -17] 8 min    
+YSE 412 [115 -2] 8 min 
 ### YSE 2022aajn [107 21] 2 min HST  			
-###
-### etale.g.30min.json [160 -60] 30 min  
-### etale.i.15min.json [160 -60] 15 min  
 
 !!! 22:30
-### eFEDS [129 1] 30 min  
+eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2023boc_P1 [116 8] (4min)
 DEBASS/EVERYTHING/2023bvw_P1 [122 11] (4min)
 DEBASS/EVERYTHING/2023bee_P3 [134 -3] (3min) DO FOR YSE. drop z band to save time
@@ -64,9 +61,6 @@ DEBASS/EVERYTHING/2023com_P1 [141 6] (4min)
 YSE 2023nj [143 -5] (2 min) HST 
 YSE 2023R [150 -5]  (2 min) HST
 DEBASS/EVERYTHING/2023clz_P1 [155 -6] (4min)
-
-!!! 22:45
-cosmos_ddf_seq_A, B, C [150 2] 1.5h  
 
 !!! 00:15
 ### YSE 2022adcf [156 9] (2 min) HST   
@@ -76,6 +70,7 @@ cosmos_ddf_seq_A, B, C [150 2] 1.5h
 YSE 2023ed [145 -30]  (2 min) HST 
 DOSC OMLApex.z1.json [167 -25] (36 min)
 DOSC OMLApex.z2.json [167 -25] (30 min)
+etale.z.15min.json [160 -60] 15 min  
 YSE 2022aduk [160 -17] (4 min)
 YSE 2023bu [178 -18]  (2 min) HST 
 

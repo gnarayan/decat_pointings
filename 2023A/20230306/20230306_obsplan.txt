@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.84
-UT -16 deg twilight: 2023-03-03T00:27:45.619 2023-03-03T09:23:09.599
-UT -15 deg twilight: 2023-03-03T00:22:54.401 2023-03-03T09:28:01.232
-UT -14 deg twilight: 2023-03-03T00:18:03.743 2023-03-03T09:32:51.757
-UT -12 deg twilight: 2023-03-03T00:08:26.060 2023-03-03T09:42:29.754
-UT -10 deg twilight: 2023-03-02T23:58:52.073 2023-03-03T09:52:04.080
-LOCAL -16 deg twilight: 03/02/2023,   21:27:45   06:23:09
-LOCAL -15 deg twilight: 03/02/2023,   21:22:54   06:28:01
-LOCAL -14 deg twilight: 03/02/2023,   21:18:03   06:32:51
-LOCAL -12 deg twilight: 03/02/2023,   21:08:26   06:42:29
-LOCAL -10 deg twilight: 03/02/2023,   20:58:52   06:52:04
-LOCAL night MIDPOINT: 03/03/2023,   01:55:27
+MOON ILLUMINATION: 1.00
+UT -16 deg twilight: 2023-03-07T00:22:43.113 2023-03-07T09:26:25.628
+UT -15 deg twilight: 2023-03-07T00:17:54.301 2023-03-07T09:31:14.311
+UT -14 deg twilight: 2023-03-07T00:13:06.991 2023-03-07T09:36:02.050
+UT -12 deg twilight: 2023-03-07T00:03:34.443 2023-03-07T09:45:34.925
+UT -10 deg twilight: 2023-03-06T23:54:05.033 2023-03-07T09:55:04.685
+LOCAL -16 deg twilight: 03/06/2023,   21:22:43   06:26:25
+LOCAL -15 deg twilight: 03/06/2023,   21:17:54   06:31:14
+LOCAL -14 deg twilight: 03/06/2023,   21:13:06   06:36:02
+LOCAL -12 deg twilight: 03/06/2023,   21:03:34   06:45:34
+LOCAL -10 deg twilight: 03/06/2023,   20:54:05   06:55:04
+LOCAL night MIDPOINT: 03/07/2023,   01:54:34
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -28,7 +28,7 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 21:18:03
+!!! 21:13:06
 YSE 2022abom [55 -2] 4 min  HST 
 YSE 2022adqz [56 -19] 4 min HST 
 YSE 353 [63 -10] 8 min       #####    drop if necessary
@@ -120,7 +120,7 @@ DEBASS/EVERYTHING/2021hji_P2 [252 22]  OPTIONAL (5min) DO NOT DROP ANY BANDS...
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2021hvo_P2 [200 -41]  OPTIONAL (5min) DO NOT DROP ANY BANDS... 
 
-!!! 06:32:51 slew to Asteroid fields
+!!! 06:36:02 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

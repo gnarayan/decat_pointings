@@ -72,38 +72,40 @@ cosmos_ddf_seq_A, B, C [150 2] 1.5h
 ### YSE 2022adcf [156 9] (2 min) HST   
 ### YSE 2023jb [156 18] (2 min)  HST   
 ### YSE 2023wl [169 1] (2 min) HST
-DESIRT_165_grz_Jan23 (165 -6) (56 min)
 
-!!! 01:25
 YSE 2023ed [145 -30]  (2 min) HST 
 DOSC OMLApex.z1.json [167 -25] (36 min)
 DOSC OMLApex.z2.json [167 -25] (30 min)
 YSE 2022aduk [160 -17] (4 min)
 YSE 2023bu [178 -18]  (2 min) HST 
 
-!!! 02:40
+!!! 01:25
 YSE 2023da [195 -16]  (4 min) HST 
 YSE 2022aczp [191 -15] 4 min   ###  HST 
 ### YSE 2022zut [175 11] 2 min     ###  HST 
 DEBASS/EVERYTHING/2023cqz_P2 [173 24]  (5min) CAN SKIP TO SAVE TIME
 YSE 525 [189 10] 34 min  HIGH PRIORITY
 
-!!! 03:30
-DESIRT_190_grz (165 -6) (53 min)
+!!! 02:05
+DESIRT_190_iz_bright (190 6) (37 min)
 
-!!! 04:30
+!!! 02:45
 DEBASS/EVERYTHING2023cog_P1 [190 -1] (4min)
 DEBASS/EVERYTHING2023bpg_P1 [193 -15] (4min)
 DEBASS/EVERYTHINGShapley_Skymapper_P1 [203 -31] (4min)
 DEBASS/EVERYTHING/2023cqm_P1 [218 -24] (4min)
 
-!!! 04:45
+!!! 03:00
 YSE 2023alf [207 -13] 4 min HST HIGH PRIORITY
 DEBASS/EVERYTHING/2021gqc_P2 [226 -9]  OPTIONAL (5min) DO NOT DROP ANY BANDS... 
 YSE 477 [214 5] 17 min
 
-DESIRT_MBHB1_grz_short [203.5 +17.5] (14 min)
 DEBASS/EVERYTHING/2023aez_P2 [219 11]  (5min) CAN SKIP TO SAVE TIME
+DESIRT_MBHB1_riz [203.5 +17.5] (19 min)
+DESIRT_G15_r [~215 -1] (8 min)
+DESIRT_G15_i [~215 -1] (9 min)
+DESIRT_G15_z [~215 -1] (10 min)
+DESIRT_220_iz_bright [~220 8] (37 min)
 
 !!! 05:22
 YSE 531 [230 11] 17 min

@@ -215,6 +215,24 @@ mkjson_yse_nofilterswitch.py  -f r,i,z  -d 230306 -e 10 -n 1 --sortbyra
 git add 230306
 git add 230306/*.json
 
+mkdir 20230309
+cp obsplan_fullnight.txt 20230309/20230309_obsplan.txt
+cp 20230303/20230303_obsplan.txt 20230309/20230309_obsplan.txt 
+subl 20230309/20230309_obsplan.txt
+git add 20230309/20230309_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  353 253 257  -d 230309
+mkjson_yse_nofilterswitch.py  -f r,i   412 311 -d 230309
+mkjson_yse_nofilterswitch.py  -f z    525 -d 230309
+mkjson_yse_nofilterswitch.py  -f i   477   -d 230309
+mkjson_yse_nofilterswitch.py  -f r,i    583   -d 230309
+mkjson_yse_nofilterswitch.py  -f i     531  -d 230309
+#
+mkjson_yse_nofilterswitch.py  -f g,r  2022xkq 2022zut 2022aajn  2022aajn 2022abom  2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da 2023dk 2023R 2023wl 2023jb 2023nj 2023alf -d 230309 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z   2022zut 2023wl 2022aduk 2023jb 2022adcf 2023R -d 230309 -e 10 -n 1 --sortbyra
+git add 230309
+git add 230309/*.json
+
+
 
 mkjson_yse_nofilterswitch.py 2022xkq 2023dk 2022abom 2022adqz -f g,i  -d 230304 -e 10 -n 1
 
@@ -224,7 +242,8 @@ git add 230304/*.json
 
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
-more /Users/arest/observing/decat_pointings/desirt/obsplan_Feb23.txt
+more /Users/arest/observing/decat_pointings/desirt/obsplan_Mar23.txt
+
 
 mkjson_dosc.py -f g,r,i OMLApex -d 230228 -n 3 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
 mkjson_dosc.py -f i OMLApex -d 230228 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i
@@ -232,8 +251,8 @@ mkjson_dosc.py -f i OMLApex -d 230228 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i
 mkjson_dosc.py -f z OMLApex -d 230303 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --d5 W2 N2 --outsuffix z1
 mkjson_dosc.py -f z OMLApex -d 230303 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix z2
 
-mkjson_dosc.py -f i OMLApex -d 230306 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --d5 W2 N2 --outsuffix i1
-mkjson_dosc.py -f i OMLApex -d 230306 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix i2
+mkjson_dosc.py -f i OMLApex -d 230309 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --d5 W2 N2 --outsuffix i1
+mkjson_dosc.py -f i OMLApex -d 230309 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix i2
 
 
 mkjson_dosc.py  -f z OMLApex -d 230207 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix z1

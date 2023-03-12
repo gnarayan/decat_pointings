@@ -28,15 +28,7 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-DEBASS/EVERYTHING/2023cvn_P1 [79 6] (4min)
-DEBASS/EVERYTHING/2023boc_P1 [116 8] (4min)
-DEBASS/EVERYTHING/2023yv_P1 [185 -7] (4min)
-DEBASS/EVERYTHING/2023cog_P1 [190 -1] (4min)
-DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min)
 
-DEBASS/EVERYTHING/2023cwd_P2 [125 -19] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023bee_P2 [134 -3] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023bpg_P2 [193 -15] (3min) OPTIONAL
 
 
 
@@ -44,6 +36,7 @@ DEBASS/EVERYTHING/2023bpg_P2 [193 -15] (3min) OPTIONAL
 YSE 2022abom [55 -2] 3 min  HST 
 YSE 2022adqz [56 -19] 3 min HST 
 YSE 353 [63 -10] 17 min       
+DEBASS/EVERYTHING/2023cvn_P1 [79 6] (4min)
 YSE 253 [67, -26] 17 min  
 DEBASS/EVERYTHING/2023ctf_P2 [65 -39]   (3min) OPTIONAL
 ### YSE 2022xkq [76 -12] 3 min HST  
@@ -61,8 +54,10 @@ DEBASS/EVERYTHING/2023azu_P2 [111 -84] (3min) OPTIONAL
 !!! 22:38
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 17 min    
+DEBASS/EVERYTHING/2023cwd_P2 [125 -19] (3min) OPTIONAL
 YSE 412 [115 -2] 17 min 
 ### YSE 2022aajn [107 21] 3 min HST  			
+DEBASS/EVERYTHING/2023boc_P1 [116 8] (4min)
 DEBASS/EVERYTHING/2023cun_P1 [117 22] (4min)
 
 !!! 23:50
@@ -92,10 +87,14 @@ etale.i.15min.json [160 -60] 15 min        CAN SKIP TO SAVE TIME
 YSE 2022aduk [160 -17] (3 min)
 YSE 2023bu [178 -18]  (3 min) HST 
 DESIRT_165_riz (165 -6) (56 min)
+DEBASS/EVERYTHING/2023yv_P1 [185 -7] (4min)
 
 !!! 04:14
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min)
 YSE 2023da [195 -16]  (3 min) HST 
+DEBASS/EVERYTHING/2023bpg_P2 [193 -15] (3min) OPTIONAL
 YSE 2022aczp [191 -15] 3 min   ###  HST 
+DEBASS/EVERYTHING/2023cog_P1 [190 -1] (4min)
 YSE 2022zut [175 11] 3 min     ###  HST 
 DEBASS/EVERYTHING/2023col_P1 [173 -1] (3min) 
 DEBASS/EVERYTHING/2023bsa_P2 [165 9] (3min) 

@@ -29,7 +29,7 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 01:51:21
-DEBASS/EVERYTHING/2023clz_P2 [155 -6] (4min) CAN SKIP TO SAVE TIME
+DEBASS/EVERYTHING/2023clz_P2 [155 -6] (4min)
 DOSC OMLApex.json [167 -25] (35 min)
 
 !!! 02:30

@@ -26,5 +26,19 @@
         "comment": "2023dtn",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 212.92349,
+        "dec": 19.52316,
+        "object": "2023dtn_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023dtn",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

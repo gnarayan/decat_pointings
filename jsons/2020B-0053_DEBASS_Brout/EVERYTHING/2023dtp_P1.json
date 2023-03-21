@@ -26,5 +26,19 @@
         "comment": "2023dtp",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 218.50373,
+        "dec": 22.24485,
+        "object": "2023dtp_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023dtp",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

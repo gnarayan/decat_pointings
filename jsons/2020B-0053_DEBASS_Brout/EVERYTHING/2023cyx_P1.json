@@ -40,19 +40,5 @@
         "comment": "2023cyx",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 206.8154,
-        "dec": 4.20035,
-        "object": "2023cyx_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023cyx",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

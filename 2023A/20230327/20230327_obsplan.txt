@@ -31,7 +31,7 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 20:46:51
 YSE 2022adqz [56 -19] 2 min HST 
-DEBASS/EVERYTHING/2023cvn_P2 [79 6] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023cvn_P2 [79 6] (3min) 
 ### YSE 253 [67, -26] 8 min  
 YSE 2023dk [78 -1] 2 min HST  
 DEBASS/EVERYTHING/2023dof_P1 [82 -8] (3min)
@@ -49,8 +49,8 @@ DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 8 min        
 YSE 412 [115 -2] 8 min 		
 YSE 2022aajn [107 21] 2 min HST  			
-DEBASS/EVERYTHING/2023cun_P2 [117 22] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023bvw_P2 [122 11] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023cun_P2 [117 22] (3min) 
+DEBASS/EVERYTHING/2023bvw_P2 [122 11] (3min) 
 DEBASS/EVERYTHING/2023cqz_P1 [173 24] (3min)
 DEBASS/EVERYTHING/2023dtz_P1 [189 14] (3min)
 
@@ -59,13 +59,13 @@ eFEDS [129 1] 30 min
 DEBASS/EVERYTHING/2023com_P1 [141 6] (3min)
 YSE 2022adcf [156 9] (2 min) HST   
 YSE 2023jb [156 18] (2 min)  HST   
-DEBASS/EVERYTHING/2023bsa_P2 [165 9] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023bsa_P2 [165 9] (3min) 
 YSE 2023wl [169 1] (2 min) HST
 
 !!! 23:02
 cosmos_ddf_seq_A, B, C [150 2] 1.5h  
 YSE 2023R [150 -5]  (2 min) HST
-DEBASS/EVERYTHING/2023clz_P2 [155 -6] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023clz_P2 [155 -6] (3min) 
 DEBASS/EVERYTHING/2023dxj_P1 [146 -2] (3min)
 YSE 2023nj [143 -5] (2 min) HST 
 
@@ -90,38 +90,39 @@ DESIRT_190_gz (190 6) (35 min)
 DESIRT_MBHB1_gz [203.5 +17.5] (15 min)
 YSE 477 [214 5] 8 min
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-!!! 03:13
+!!! 04:02
 DEBASS/EVERYTHING/2023dtr_P1 [194 -17] (3min)
 DEBASS/EVERYTHING/2023dmp_P1 [195 -19] (3min)
 DEBASS/EVERYTHING/2023dtd_P1 [204 -24] (3min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 4min [203 -31] 
 DEBASS/EVERYTHING/2023dwc_P1 [203 -35] (3min)
-### YSE 2023da [195 -16]  (2 min) HST 
-### YSE 2022aczp [191 -15] 2 min   ###  HST 
+YSE 2023da [195 -16]  (2 min) HST           ### DROP IF BEHIND!
+YSE 2022aczp [191 -15] 2 min  HST           ### DROP IF BEHIND! 
 
 ### !!! 03:41
 ### YSE 2022zut [175 11] 2 min     ###  HST 
 ### YSE 2023clx [175 15] (2 min)   
 
-!!! 03:50
-DEBASS/EVERYTHING/2023cog_P2 [190 -1] (3min) OPTIONAL
+!!! 04:22
+DEBASS/EVERYTHING/2023cog_P2 [190 -1] (3min) ### DROP IF BEHIND!
 DEBASS/EVERYTHING/2023cyx_P1 [206 4] (3min)
-YSE 2023alf [207 -13] 2 min HST HIGH PRIORITY
+YSE 2023alf [207 -13] 2 min HST              ### DROP IF BEHIND!
 DEBASS/EVERYTHING/2023day_P1 [213 -6] (3min)
 
-!!! 04:23
+!!! 04:31
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min)
 DESIRT_220_gr [~220 8] (18 min) ####  !!!! DROP EXPOSURES HERE IF BEHIND!!!!
 
-!!! 05:41
-YSE 531 [230 11] 17 min         ####  DROP EXPOSURES HERE IF BEHIND!!!!           
-YSE 583 [236 20] 17 min         ####  DROP EXPOSURES HERE IF BEHIND!!!!      
+!!! 05:04
+YSE 531 [230 11] 17 min                    
+YSE 583 [236 20] 17 min            
+YSE 376	[224 -8] 17 min 	
+YSE 428	[228 -4] 17 min      
 
-!!! 06:16
+!!! 06:12
 DECaPSEast [270 -29] 30 min
+YSE 440	[314 -4] 8 min        
 
 !!! 06:50:29 slew to Asteroid fields
 using morning twilight asteroid script in

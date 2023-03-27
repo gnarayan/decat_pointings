@@ -72,8 +72,8 @@ YSE 2023nj [143 -5] (2 min) HST
 !!! 00:42
 YSE 2023ed [145 -30]  (2 min) HST 
 DEBASS/EVERYTHING/2023dtm_P1 [135 -41] (3min)
-DOSC OMLApex.z1.json [167 -25] (36 min)
-DOSC OMLApex.z2.json [167 -25] (30 min)
+DOSC OMLApex.json [167 -25] (54 min)
+DOSC OMLApex.extra_i.json [167 -25] (14 min)
 
 !!! 01:53
 ### etale.z.15min.json [160 -60] 15 min  

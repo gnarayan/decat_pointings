@@ -334,8 +334,8 @@ more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Mar23.txt
 
 
-mkjson_dosc.py -f g,r,i OMLApex -d 230312 -n 3 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
-mkjson_dosc.py -f i OMLApex -d 230312 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i
+mkjson_dosc.py -f g,r,i OMLApex -d 230327 -n 3 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
+mkjson_dosc.py -f i OMLApex -d 230327 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i
 
 
 mkjson_dosc.py -f g,r,i OMLApex -d 230228 -n 3 -e 200,400,360 --d1 E5 N3 --d2 W7 S7

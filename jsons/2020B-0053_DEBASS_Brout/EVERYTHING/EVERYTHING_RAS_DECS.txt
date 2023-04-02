@@ -14,6 +14,8 @@ Shapley_Skymapper_P1 [203 -31]
 2023cyx_P1 [206 4]
 2023dxk_P1 [221 9]
 
+2023elb_P2 [158 -43]
+2023eip_P2 [252 23]
 
 2023boc_P3 [116 8]
 2023bvw_P3 [122 11]
@@ -25,5 +27,5 @@ Shapley_Skymapper_P1 [203 -31]
 2023bhb_P3 [183 18]
 2023cog_P3 [190 -1]
 
-EVERYTHING	84.5 minutes
+EVERYTHING	92.2 minutes
 EVERYTHING_P1	53.2 minutes

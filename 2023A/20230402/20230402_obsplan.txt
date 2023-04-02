@@ -38,14 +38,14 @@ YSE 2023dk [78 -1] 2 min HST
 DEBASS/EVERYTHING/2023dof_P1 [82 -8] (3min) DROP z band to save time
 YSE 2022xkq [76 -12] 2 min HST  
 
-!!! 21:07
+!!! 20:07
 ### YSE 257 [85 -25] 17 min 
 DEBASS/EVERYTHING/2023ctf_P1 [65 -39] (3min) DROP z band to save time
 DEBASS/EVERYTHING/2023cul_P1 [87 -34] (3min) DROP z band to save time
 Shen SCVZ [90 -66] 12 min            
 DEBASS/EVERYTHING/2023cum_P1 [103 -51] (3min) DROP z band to save time
 
-!!! 21:45
+!!! 20:45
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 8 min      ### if there is more time, do 311.ri.json (17 min)   
 YSE 412 [115 -2] 8 min 		 ### if there is more time, do 412.ri.json (17 min)    
@@ -53,14 +53,16 @@ YSE 2022aajn [107 21] 2 min HST
 DEBASS/EVERYTHING/2023cun_P1 [117 22] (3min) DROP z band to save time
 DEBASS/EVERYTHING/2023dtz_P1 [190 14] (3min) DROP z band to save time
 
-### !!! 22:21
+### !!! 21:40
 eFEDS [129 1] 30 min  
 ### YSE 2022adcf [156 9] (2 min) HST   
 YSE 2023jb [156 18] (2 min)  HST   
 YSE 2023wl [169 1] (2 min) HST
 
-!!! 22:21
-cosmos_ddf_moon.json [150 2] 1.5h  
+!!! 22:15
+cosmos_ddf_moon.json [150 2] 1.5h 
+
+!!! 23:45
 DEBASS/EVERYTHING/2023dyl_P1 [150 1] (3min) DROP z band to save time
 ### YSE 2023R [150 -5]  (2 min) HST
 DEBASS/EVERYTHING/2023dut_P1 [144 -9] (3min) DROP z band to save time
@@ -75,12 +77,12 @@ DEBASS/EVERYTHING/2023elb_P2 [158 -43] (3min) DROP z band to save time
 ### etale.z.15min.json [160 -60] 15 min  
 ### etale.i.15min.json [160 -60] 15 min        
 
-!!! 01:26
+!!! 01:40
 ### YSE 2022aduk [160 -17] (2 min)
 YSE 2023bu [178 -18]  (2 min) HST 
 DESIRT_165_iz_bright (165 -6) (32 min)
 
-!!! 02:05
+!!! 02:15
 ### YSE 2022zut [175 11] 2 min     ###  HST 
 ### YSE 2023clx [175 15] (2 min)   
 ### YSE 525 [189 10] 34 min                   
@@ -88,7 +90,7 @@ DESIRT_190_rz_bright (190 6) (36 min)
 DESIRT_MBHB1_rz [203.5 +17.5] (13 min)
 YSE 477 [214 5] 17 min
 
-!!! 03:42
+!!! 03:25
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min) DROP z band to save time
 DEBASS/EVERYTHING/2023dwc_P1 [203 -35] (3min) DROP z band to save time
 YSE 2023da [195 -16]  (2 min) HST           ### DROP IF BEHIND!
@@ -97,21 +99,21 @@ DEBASS/EVERYTHING/2023cyx_P1 [206 4] (3min) DROP z band to save time
 YSE 2023alf [207 -13] 2 min HST          
 DEBASS/EVERYTHING/2023day_P1 [213 -6] (3min) DROP z band to save time
 
-!!! 04:02
+!!! 03:40
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min)
 DESIRT_G15_z [~215 -1] (10 min) 
 DESIRT_220_gr [~220 8] (30 min)
 DEBASS/EVERYTHING/2023dxk_P1 [221 9] (3min) DROP z band to save time
 
-!!! 04:57
-YSE 531 [230 11] 17 min        ####  !!!! DROP if behind schedule!            
-YSE 583 [236 20] 17 min        ####  !!!! DROP if behind schedule!    
+!!! 04:35
+EXTRA: YSE 531 [230 11] 17 min        #### EXTRA !!!! DROP if behind schedule!            
+EXTRA: YSE 583 [236 20] 17 min        #### EXTRA !!!! DROP if behind schedule!    
 DEBASS/EVERYTHING/2023eip_P2 [252 23] (3min) DROP z band to save time
 YSE 376	[224 -8] 17 min 	   # Don't drop
 YSE 428	[228 -4] 17 min        # Don't drop
 
-!!! 06:05
+!!! 05:07
 DECaPSEast [270 -29] 30 min
 YSE 440	[314 -4] 17 min        # Don't drop
 

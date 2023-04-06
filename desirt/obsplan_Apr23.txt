@@ -8,6 +8,13 @@ DESIRT_G15_r [~215 -1] (7 min)
 DESIRT_G15_z [~215 -1] (10 min) 
 DESIRT_220_gr [~220 8] (30 min)
 
+## Apr 7 
+
+DESIRT_165_rz (165 -6) (39 min) 
+DESIRT_190_iz_bright (190 6) (37 min)
+DESIRT_MBHB1_iz [203.5 +17.5] (13 min)
+DESIRT_220_iz_bright [~220 8] (34 min)
+
 ## Apr 8
 
 DESIRT_165_gz (165 -6) (39 min) 

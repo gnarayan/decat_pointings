@@ -365,6 +365,25 @@ mkjson_yse_nofilterswitch.py  -f g,r  2022abom 2022adqz 2022xkq 2023dk -d 230402
 git add 230402
 git add 230402/*.json
 
+mkdir 20230407
+cp obsplan_fullnight.txt 20230407/20230407_obsplan.txt
+cp 20230330/20230330_obsplan.txt 20230407/20230407_obsplan.txt 
+subl 20230407/20230407_obsplan.txt
+git add 20230407/20230407_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   253  257 -d 230407
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230407
+mkjson_yse_nofilterswitch.py  -f i,z    525  -d 230407
+#mkjson_yse_nofilterswitch.py  -f r,i     477 -d 230407
+mkjson_yse_nofilterswitch.py  -f z    583 531 -d 230407
+#mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 230407
+mkjson_yse_nofilterswitch.py  -f g,i     440 544  -d 230407
+#
+mkjson_yse_nofilterswitch.py  -f r,i  2022abom 2022adqz 2022xkq 2023dk 2022aajn 2023ed 2023R 2022adcf 2023jb 2022aduk 2023wl 2022zut 2023bu 2022aczp 2023da 2023alf  -d 230407 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2022abom 2022adqz 2022xkq 2023dk 2022aajn   -d 230407 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2023ed 2023R 2022adcf 2023jb 2022aduk 2023wl 2022zut 2023bu  -d 230407 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2023emq -d 230407 -e 3 -n 1 --sortbyra
+git add 230407
+git add 230407/*.json
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Apr23.txt
@@ -380,8 +399,8 @@ mkjson_dosc.py -f i OMLApex -d 230228 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i
 mkjson_dosc.py -f z OMLApex -d 230303 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --d5 W2 N2 --outsuffix z1
 mkjson_dosc.py -f z OMLApex -d 230303 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix z2
 
-mkjson_dosc.py -f i OMLApex -d 230402 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --d5 W2 N2 --outsuffix i1
-mkjson_dosc.py -f i OMLApex -d 230402 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix i2
+mkjson_dosc.py -f i OMLApex -d 230407 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --d5 W2 N2 --outsuffix i1
+mkjson_dosc.py -f i OMLApex -d 230407 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix i2
 
 
 mkjson_dosc.py  -f z OMLApex -d 230207 -n 6 -e 327 --d1 E6 N4 --d2 W7 S7 --d3 W5 N10 --d4 W10 S8 --outsuffix z1
@@ -447,6 +466,9 @@ YSE_pointings2fieldcenters.py --addSN 2023nj 143.2047465 -5.5360933 -vv --overw
 
 YSE_pointings2fieldcenters.py --addSN  2023alf  207.4633167     -13.2039389  -vv --overw
 YSE_pointings2fieldcenters.py --addSN  2023clx 175.03935 +15.32751  -vv --overw
+
+YSE_pointings2fieldcenters.py --addSN  2023emq 203.591803 -23.73091 -vv --overw
+YSE_pointings2fieldcenters.py --addSN  2023day 213.402625878 -5.73039693542 -vv --overw
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
 

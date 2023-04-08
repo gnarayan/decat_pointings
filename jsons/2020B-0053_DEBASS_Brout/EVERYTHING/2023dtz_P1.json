@@ -1,20 +1,6 @@
 [
     {
         "count": 1,
-        "filter": "g",
-        "exptime": 15.0,
-        "RA": 190.01599,
-        "dec": 14.64882,
-        "object": "2023dtz_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023dtz",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
         "filter": "r",
         "exptime": 15.0,
         "RA": 190.01599,

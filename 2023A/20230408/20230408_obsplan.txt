@@ -67,9 +67,9 @@ YSE 253 [67, -26] 17 min
 !!! 19:56 (00:07 UTC)
 YSE 257 [85 -25] 17 min 
 DEBASS/EVERYTHING/2023eod_P2 [74 -46] (3min) DROP TO SAVE TIME
-DEBASS/EVERYTHING/2023cul_P2 [87 -34] (3min) DROP TO SAVE TIME
 Shen SCVZ [90 -66] 12 min            
 DEBASS/EVERYTHING/2023cum_P2 [103 -51] (3min) DROP TO SAVE TIME
+DEBASS/EVERYTHING/2023cul_P2 [87 -34] (3min) DROP TO SAVE TIME
 
 !!! 20:34 (00:45 UTC)
 DECaPSWest A+B [116 -26] 30 min
@@ -98,20 +98,20 @@ DOSC OMLApex.z2.json [167 -25] (30 min)
 DESIRT_165_gz (165 -6) (39 min) 
 DEBASS/EVERYTHING/2023col_P2 [173 -1] (3min) DROP TO SAVE TIME
 
-!!! 01:30 (06:15 UTC)
+!!! 01:32 (06:15 UTC)
 YSE 2022zut [175 11] 3 min    HST ### DROP IF BEHIND!!
 YSE 2023clx [175 15] (3 min)   
 YSE 525 [189 10] 34 min                   
 DEBASS/EVERYTHING/2023cqz_P1 [173 24] (3min) 
 
 
-!!! 02:13
+!!! 02:15
 DESIRT_190_rz_bright (190 6) (36 min)
 DEBASS/EVERYTHING/2023cyx_P1 [206 4] (3min) 
 DESIRT_MBHB1_rz [203.5 +17.5] (13 min)
 YSE 477 [214 5] 8 min                   ### DROP IF BEHIND!!
 
-!!! 03:13 (07:25 UTC)
+!!! 03:15 (07:25 UTC)
 YSE 2023day [213 -5] (3 min)
 YSE 2023emq [203 -23] (3 min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min) 
@@ -121,7 +121,7 @@ YSE 2023da [195 -16]  (3 min) HST
 YSE 2022aczp [191 -15] 3 min  HST           
 YSE 2023alf [207 -13] 3 min HST          
 
-!!! 03:37 (07:40 UTC)
+!!! 03:39 (07:40 UTC)
 DESIRT_G15_i [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (7 min)
 DESIRT_220_rz_bright [~220 8] (32 min)

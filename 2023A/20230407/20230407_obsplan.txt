@@ -1,28 +1,15 @@
-MOON ILLUMINATION: 0.95
-UT -16 deg twilight: 2023-04-07T23:43:07.963 2023-04-08T09:47:44.014
-UT -15 deg twilight: 2023-04-07T23:38:30.528 2023-04-08T09:52:21.756
-UT -14 deg twilight: 2023-04-07T23:33:53.144 2023-04-08T09:56:59.479
-UT -12 deg twilight: 2023-04-07T23:24:38.320 2023-04-08T10:06:14.986
-UT -10 deg twilight: 2023-04-07T23:15:23.268 2023-04-08T10:15:30.758
-LOCAL -16 deg twilight: 04/07/2023,   19:43:07   05:47:44
-LOCAL -15 deg twilight: 04/07/2023,   19:38:30   05:52:21
-LOCAL -14 deg twilight: 04/07/2023,   19:33:53   05:56:59
-LOCAL -12 deg twilight: 04/07/2023,   19:24:38   06:06:14
-LOCAL -10 deg twilight: 04/07/2023,   19:15:23   06:15:30
-LOCAL night MIDPOINT: 04/08/2023,   00:45:25
-2023 04 07 2023cqz_P1	0.96 illum	60 degr from obj
-2023 04 07     YSE525	0.96 illum	39 degr from obj
-2023 04 07     YSE477	0.96 illum	19 degr from obj
-2023 04 07     YSE583	0.96 illum	39 degr from obj
-2023 04 07     YSE531	0.96 illum	28 degr from obj
-2023 04 07 DESIRT_220	0.96 illum	23 degr from obj
-2023 04 07 DESIRT_MBHB1_gr	0.96 illum	37 degr from obj
-2023 04 07     YSE376	0.96 illum	9 degr from obj
-2023 04 07     YSE428	0.96 illum	14 degr from obj
-2023 04 07     YSE632	0.96 illum	47 degr from obj
-2023 04 07     YSE440	0.96 illum	93 degr from obj
-2023 04 07     YSE544	0.96 illum	104 degr from obj
-2023 04 07     YSE494	0.96 illum	129 degr from obj
+MOON ILLUMINATION: 0.90
+UT -16 deg twilight: 2023-04-08T23:42:00.417 2023-04-09T09:48:18.248
+UT -15 deg twilight: 2023-04-08T23:37:23.009 2023-04-09T09:52:55.969
+UT -14 deg twilight: 2023-04-08T23:32:45.619 2023-04-09T09:57:33.697
+UT -12 deg twilight: 2023-04-08T23:23:30.728 2023-04-09T10:06:49.282
+UT -10 deg twilight: 2023-04-08T23:14:15.521 2023-04-09T10:16:05.224
+LOCAL -16 deg twilight: 04/08/2023,   19:42:00   05:48:18
+LOCAL -15 deg twilight: 04/08/2023,   19:37:23   05:52:55
+LOCAL -14 deg twilight: 04/08/2023,   19:32:45   05:57:33
+LOCAL -12 deg twilight: 04/08/2023,   19:23:30   06:06:49
+LOCAL -10 deg twilight: 04/08/2023,   19:14:15   06:16:05
+LOCAL night MIDPOINT: 04/09/2023,   00:45:09
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -41,7 +28,7 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 19:33:53
+!!! 19:32:45
 YSE 2022adqz [56 -19] 3 min HST 
 DEBASS/EVERYTHING/2023cvn_P1 [79 6] (3min) OPTIONAL
 YSE 253 [67, -26] 17 min  
@@ -81,9 +68,10 @@ YSE 2023ed [145 -30]  (3 min) HST
 DEBASS/EVERYTHING/2023dxj_P1 [146 -2] (3min) drop z to save time
 
 !!! 23:57 (4:00 UTC)
-DOSC OMLApex.i1.json [167 -25] (36 min)
+OMLApex.z1.json 
+OMLApex.z2.json
 ### etale.z.15min.json [160 -60] 15 min  
-etale.i.15min.json [160 -60] 15 min        
+### etale.i.15min.json [160 -60] 15 min        
 
 !!! 01:48 (5:40 UTC)
 YSE 2022aduk [160 -17] (3 min) HST ### DROP IF BEHIND!!
@@ -130,7 +118,7 @@ YSE 440	[314 -4] 17 min        # Don't drop
 YSE 544 [321 9] 17 min        # Don't drop
 DEBASS/EVERYTHING/2023ehl_P2 [307 4] (3min) 
 
-!!! 05:57 slew to Asteroid fields
+!!! 05:57:33 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

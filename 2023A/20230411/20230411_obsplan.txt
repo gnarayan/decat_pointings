@@ -61,17 +61,17 @@ YSE 2023ed [145 -30]  (3 min) HST
 OMLApex_230411.json [166 -24]   (54 min)
 OMLApex.extra_i_230411.json (14 min)
 ### etale.z.15min.json [160 -60] 15 min  
-### etale.i.15min.json [160 -60] 15 min SKIP IF RUNNIG BEHIND     
-etale.r.15min.json [160 -60] 15 min SKIP IF RUNNIG BEHIND    
+### etale.i.15min.json [160 -60] 15 min S    
+etale.r.15min.json [160 -60] 15 min     
 
 !!! 00:30 (5:40 UTC)
-YSE 2022aduk [160 -17] (3 min) HST ### DROP IF BEHIND!!
-YSE 2023bu [178 -18]  (3 min) HST ### DROP IF BEHIND!!
+YSE 2022aduk [160 -17] (3 min) HST         ### DROP IF BEHIND!!
+YSE 2023bu [178 -18]  (3 min) HST 
 DESIRT_165_gr (165 -6) (32 min) 
 DEBASS/EVERYTHING/2023dva_P1 [173 -10] (3min) drop z band to save time
 
 !!! 01:12 (06:15 UTC)
-YSE 2022zut [175 11] 3 min    HST ### DROP IF BEHIND!!
+YSE 2022zut [175 11] 3 min    HST          ### DROP IF BEHIND!!
 YSE 2023clx [175 15] (3 min)   
 YSE 525 [189 10] 34 min                   
 DEBASS/EVERYTHING/2023dtz_P1 [189 14] (3min) drop z band to save time
@@ -84,15 +84,14 @@ DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
 YSE 477 [214 5] 17 min                   
 
 !!! 03:03 (07:25 UTC)
-YSE 2023day [213 -5] (3 min)
 YSE 2023emq [203 -23] (3 min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min) drop i band to save time
 DEBASS/EVERYTHING/2023dwc_P1 [203 -35] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023fdj_P2 [208 -37] (2min) CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2023eob_P2 [233 -30] (2min) CAN SKIP IF NEEDED
-DEBASS/EVERYTHING/2023day_P2 [213 -6] (2min) CAN SKIP IF NEEDED
+DEBASS/EVERYTHING/2023fdj_P2 [208 -37] (2min) 
+DEBASS/EVERYTHING/2023eob_P2 [233 -30] (2min) 
+DEBASS/EVERYTHING/2023day_P2 [213 -6] (2min) 
 YSE 2023da [195 -16]  (3 min) HST           
-YSE 2022aczp [191 -15] 3 min  HST           
+YSE 2022aczp [191 -15] 3 min  HST           ### DROP IF BEHIND!!
 YSE 2023alf [207 -13] 3 min HST          
 
 !!! 03:30 (07:40 UTC)
@@ -110,10 +109,10 @@ YSE 428	[228 -4] 17 min
 !!! 05:35
 ### DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min) drop z band to save time
-YSE 440	[314 -4] 8 min        
-YSE 544 [321 9] 8 min        
+YSE 440	[314 -4] 8 min               ### DROP IF BEHIND!!
+YSE 544 [321 9] 8 min                ### DROP IF BEHIND!!
 DEBASS/EVERYTHING/2023ehl_P1 [306 4] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023fdk_P2 [317 -22] (2min) CAN SKIP IF NEEDED
+DEBASS/EVERYTHING/2023fdk_P2 [317 -22] (2min) 
 
 !!! 05:59:15 slew to Asteroid fields
 using morning twilight asteroid script in

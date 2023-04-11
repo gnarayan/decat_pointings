@@ -1,3 +1,15 @@
+MOON ILLUMINATION: 0.63
+UT -16 deg twilight: 2023-04-11T23:38:42.022 2023-04-12T09:49:59.973
+UT -15 deg twilight: 2023-04-11T23:34:04.567 2023-04-12T09:54:37.740
+UT -14 deg twilight: 2023-04-11T23:29:27.106 2023-04-12T09:59:15.570
+UT -12 deg twilight: 2023-04-11T23:20:11.836 2023-04-12T10:08:31.535
+UT -10 deg twilight: 2023-04-11T23:10:55.996 2023-04-12T10:17:48.085
+LOCAL -16 deg twilight: 04/11/2023,   19:38:42   05:49:59
+LOCAL -15 deg twilight: 04/11/2023,   19:34:04   05:54:37
+LOCAL -14 deg twilight: 04/11/2023,   19:29:27   05:59:15
+LOCAL -12 deg twilight: 04/11/2023,   19:20:11   06:08:31
+LOCAL -10 deg twilight: 04/11/2023,   19:10:55   06:17:48
+LOCAL night MIDPOINT: 04/12/2023,   00:44:20
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -17,7 +29,7 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 
-!!! 19:32:45
+!!! 19:29:27
 YSE 2022aajn [107 21] 3 min HST  			
 DEBASS/EVERYTHING/2023cvn_P2 [79 6] (3min) DROP TO SAVE TIME
 ### YSE 253 [67, -26] 17 min  
@@ -101,7 +113,7 @@ YSE 440	[314 -4] 8 min
 YSE 544 [321 9] 8 min        
 DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min) 
 
-!!! 05:57:33 slew to Asteroid fields
+!!! 05:59:15 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

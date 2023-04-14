@@ -89,3 +89,4 @@ jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
 etale.i.15min.json [160 -60] 15 min     
+DECaPSEast [270 -29] 30 min

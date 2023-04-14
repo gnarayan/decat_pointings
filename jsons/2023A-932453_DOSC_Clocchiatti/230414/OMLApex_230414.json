@@ -58,35 +58,5 @@
 "deltaDEC": "S0.000000",
 "deltaRA": "E0.000000",
 "propid": "2023A-932453"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "OMLApex",
-"filter": "g",
-"expTime": 200,
-"deltaDEC": "S7",
-"deltaRA": "W7",
-"propid": "2023A-932453"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "OMLApex",
-"filter": "r",
-"expTime": 400,
-"deltaDEC": "S0.000000",
-"deltaRA": "E0.000000",
-"propid": "2023A-932453"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "OMLApex",
-"filter": "i",
-"expTime": 360,
-"deltaDEC": "S0.000000",
-"deltaRA": "E0.000000",
-"propid": "2023A-932453"
 }
 ]

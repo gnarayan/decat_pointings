@@ -10,27 +10,25 @@
 2023dyl_P1 [150 1]
 2023cqz_P1 [173 24]
 2023fnj_P1 [176 6]
-2023fot_P1 [184 10]
 Shapley_Skymapper_P1 [203 -31]
+2023dxk_P1 [221 9]
 2023eob_P1 [233 -30]
 2023env_P1 [286 -24]
 2023ehl_P1 [306 4]
 
-2023eod_P2 [74 -46]
 2023fpa_P2 [88 -32]
 2023dva_P2 [173 -10]
+2023fot_P2 [184 10]
 2023fou_P2 [190 -10]
 2023fyq_P2 [185 13]
-2023dtz_P2 [190 14]
-2023dxk_P2 [221 9]
-2023epe_P2 [279 -42]
-2023fdk_P2 [317 -23]
+2023fdk_P2 [317 -22]
 
-2023fna_P3 [4 -73]
-2023fon_P3 [180 -1]
+2023eod_P3 [74 -46]
+2023dtz_P3 [189 14]
 2023dwc_P3 [203 -35]
 2023day_P3 [213 -6]
 2023cyx_P3 [206 4]
+2023epe_P3 [279 -42]
 
-EVERYTHING	118.6 minutes
-EVERYTHING_P1	71.9 minutes
+EVERYTHING	96.6 minutes
+EVERYTHING_P1	61.6 minutes

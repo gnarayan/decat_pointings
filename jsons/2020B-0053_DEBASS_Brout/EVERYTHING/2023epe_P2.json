@@ -1,9 +1,23 @@
 [
     {
         "count": 1,
+        "filter": "g",
+        "exptime": 15.0,
+        "RA": 279.49616,
+        "dec": -42.44586,
+        "object": "2023epe_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023epe",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
         "filter": "r",
         "exptime": 15.0,
-        "RA": 279.46838,
+        "RA": 279.49616,
         "dec": -42.44586,
         "object": "2023epe_P2",
         "program": "DECAT",
@@ -17,7 +31,7 @@
         "count": 1,
         "filter": "i",
         "exptime": 15.0,
-        "RA": 279.46838,
+        "RA": 279.49616,
         "dec": -42.44586,
         "object": "2023epe_P2",
         "program": "DECAT",

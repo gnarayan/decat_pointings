@@ -66,8 +66,8 @@ cosmos_ddf.json [150 2] 1.5h
 !!! 00:06
 YSE 2023R [150 -5]  (3 min) HST
 YSE 2023ed [145 -30]  (3 min) HST    
-OMLApex.z1_230417.json [166 -24]   (54 min)
-OMLApex.z2_230417.json (14 min)
+OMLApex.json [166 -24]   (54 min)
+OMLApex.extra_i.json (14 min)
 ### etale.z.15min.json [160 -60] 15 min  
 ### etale.i.15min.json [160 -60] 15 min     
 ### etale.r.15min.json [160 -60] 15 min     

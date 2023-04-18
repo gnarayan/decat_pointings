@@ -46,8 +46,8 @@ DEBASS/EVERYTHING/2023cum_P1 [103 -51] (3min)
 
 !!! 20:19 
 DECaPSWest A+B [116 -26] 30 min
-YSE 311 [123 -17] 8 min         
-YSE 412 [115 -2] 8 min 		  
+YSE 311 [123 -17] 8 min  If you are behind, remove the g band from these two fields       
+YSE 412 [115 -2] 8 min 	If you are behind, remove the g band from these two fields	  
 eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2023cun_P1 [117 22] (3min)
 DEBASS/EVERYTHING/2023ftr_P1 [138 19] (3min)

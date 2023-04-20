@@ -450,8 +450,8 @@ cp obsplan_fullnight.txt 20230417/20230417_obsplan.txt
 cp 20230411/20230411_obsplan.txt 20230417/20230417_obsplan.txt 
 subl 20230417/20230417_obsplan.txt
 git add 20230417/20230417_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f r   253  257 -d 230417
-mkjson_yse_nofilterswitch.py  -f r   412 311 -d 230417
+mkjson_yse_nofilterswitch.py  -f g,r   253  257 -d 230417
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230417
 mkjson_yse_nofilterswitch.py  -f g,r    525  -d 230417
 mkjson_yse_nofilterswitch.py  -f g,r     477 -d 230417
 mkjson_yse_nofilterswitch.py  -f g,r    583 531 -d 230417
@@ -465,9 +465,32 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023emq -d 230417 -e 3 -n 1 --sortbyra
 git add 230417
 git add 230417/*.json
 
+mkdir 20230420
+cp obsplan_fullnight.txt 20230420/20230420_obsplan.txt
+cp 20230414/20230414_obsplan.txt 20230420/20230420_obsplan.txt 
+subl 20230420/20230420_obsplan.txt
+git add 20230420/20230420_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   253  257 -d 230420
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230420
+mkjson_yse_nofilterswitch.py  -f i    525  -d 230420
+mkjson_yse_nofilterswitch.py  -f i     477 -d 230420
+mkjson_yse_nofilterswitch.py  -f i    583 531 -d 230420
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 230420
+mkjson_yse_nofilterswitch.py  -f g,i     440 544  -d 230420
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2022xkq 2023dk 2022aajn 2023ed 2023R 2022adcf 2023jb 2022aduk 2023ext 2023wl 2022zut 2023bu 2022aczp 2023da 2023emq 2023alf 2023day   -d 230420 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2022abom 2022adqz 2022xkq 2023dk 2022aajn   -d 230420 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2023ed 2023R 2022adcf 2023jb 2022aduk 2023wl 2022zut 2023bu  -d 230420 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023emq -d 230420 -e 3 -n 1 --sortbyra
+git add 230420
+git add 230420/*.json
+
+mkjson_yse_nofilterswitch.py  -f g,i    583 531 -d 230420 --outsuffix two_filters
+
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Apr23.txt
 
+mkjson_dosc.py -f g,r,i OMLApex -d 230420 -n 2 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
 
 mkjson_dosc.py -f g,r,i OMLApex -d 230417 -n 3 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
 mkjson_dosc.py -f i OMLApex -d 230417 -n 2 -e 360 --d1 W5 S5 --outsuffix extra_i

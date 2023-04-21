@@ -1,0 +1,2 @@
+#expid  ra     dec   ut  fil time secz  psf  sky  cloud  teff Object
+MJD = 60055 (Apr 20/Apr 21)

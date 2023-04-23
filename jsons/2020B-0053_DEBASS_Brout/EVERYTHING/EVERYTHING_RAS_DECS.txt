@@ -1,7 +1,10 @@
+2023cun_P1 [117 22]
 2023fnj_P1 [176 6]
 2023fud_P1 [193 -17]
 2023dwc_P1 [203 -35]
 Shapley_Skymapper_P1 [203 -31]
+2023day_P1 [213 -6]
+2023cyx_P1 [206 4]
 2023eob_P1 [233 -30]
 2023env_P1 [286 -24]
 2023ehl_P1 [307 4]
@@ -12,17 +15,9 @@ Shapley_Skymapper_P1 [203 -31]
 2023fyq_P2 [185 13]
 2023dtz_P2 [190 14]
 2023gfo_P2 [197 -8]
-2023day_P2 [213 -6]
-2023cyx_P2 [206 4]
 
 2023eod_P3 [74 -46]
-2023ctf_P3 [65 -39]
-2023dof_P3 [82 -8]
-2023cvn_P3 [79 6]
-2023cul_P3 [87 -34]
 2023fpa_P3 [88 -32]
-2023cum_P3 [103 -51]
-2023cun_P3 [117 22]
 2023dut_P3 [144 -9]
 2023ftr_P3 [138 19]
 2023dxj_P3 [146 -2]
@@ -33,5 +28,5 @@ Shapley_Skymapper_P1 [203 -31]
 2023epe_P3 [279 -42]
 2023fdk_P3 [317 -22]
 
-EVERYTHING	111.9 minutes
-EVERYTHING_P1	27.7 minutes
+EVERYTHING	94.5 minutes
+EVERYTHING_P1	41.8 minutes

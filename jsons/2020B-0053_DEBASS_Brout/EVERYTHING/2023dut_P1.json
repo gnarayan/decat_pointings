@@ -40,19 +40,5 @@
         "comment": "2023dut",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 144.63232,
-        "dec": -9.39215,
-        "object": "2023dut_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023dut",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

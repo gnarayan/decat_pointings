@@ -1,129 +1,112 @@
-
-mjd 60058, date 20230423, Site CTIO, UT-offset 4 hr
-Current local time 15:40 -04     UT 19:40     SidTim 05:03
-Event      Local-Time  Greenwich  Sidereal-Time
-Sunset     18:22 -04  22:22 UT   07:46  116 deg  
-Eve. -10   18:57 -04  22:57 UT   08:21  125 deg  Zeropoint; standards
-Eve. -14   19:16 -04  23:16 UT   08:40  130 deg  Begin obstac
-Eve. -18   19:35 -04  23:35 UT   08:59  135 deg  Last chance standards
-Moonset    20:43 -04  00:43 UT   10:07  152 deg  
-Midpoint   00:41 -04  04:41 UT   14:05  211 deg  
-Morn -18   05:48 -04  09:48 UT   19:12  288 deg  Begin astronomical twilight
-Morn -14   06:05 -04  10:05 UT   19:29  292 deg  End obstac; begin standards
-Morn -10   06:25 -04  10:25 UT   19:49  297 deg  
-Sunrise    07:01 -04  11:01 UT   20:24  306 deg  
-
+MOON ILLUMINATION: 0.18
+UT -16 deg twilight: 2023-04-23T23:26:42.447 2023-04-24T09:56:37.099
+UT -15 deg twilight: 2023-04-23T23:22:03.512 2023-04-24T10:01:16.355
+UT -14 deg twilight: 2023-04-23T23:17:24.367 2023-04-24T10:05:55.909
+UT -12 deg twilight: 2023-04-23T23:08:05.021 2023-04-24T10:15:16.018
+UT -10 deg twilight: 2023-04-23T22:58:44.189 2023-04-24T10:24:37.706
+LOCAL -16 deg twilight: 04/23/2023,   19:26:42   05:56:37
+LOCAL -15 deg twilight: 04/23/2023,   19:22:03   06:01:16
+LOCAL -14 deg twilight: 04/23/2023,   19:17:24   06:05:55
+LOCAL -12 deg twilight: 04/23/2023,   19:08:05   06:15:16
+LOCAL -10 deg twilight: 04/23/2023,   18:58:44   06:24:37
+LOCAL night MIDPOINT: 04/24/2023,   00:41:39
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
 *** Note: Local Chilean time is now EST ***
 *********************************************
-
 *********************************************************
 *** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
 *** These are commented out.                          ***
 *** However, if you are running short on targets you  *** 
 *** can do them ***
 *********************************************************
-
 Start with Pointing the Telescope 1 to 2 hours in RA to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
-
-
-!!! 19:16:10
+!!! 19:17:24
 YSE 2023dk [78 -1] 3 min HST  
-YSE 2022xkq [76 -12] 3 min HST  
+### YSE 2022xkq [76 -12] 3 min HST  
 DEBASS/EVERYTHING/2023dof_P1 [82 -8] (3min)
-YSE 257 [85 -25] 8 min 
+### YSE 257 [85 -25] 8 min 
 DEBASS/EVERYTHING/2023fpa_P1 [88 -32] (3min)
-YSE 253 [67, -26] 8 min  
-YSE 2022aajn [107 21] 3 min HST  			
-
-!!! 20:04 
+### YSE 253 [67, -26] 8 min  
+### YSE 2022aajn [107 21] 3 min HST             
+!!! 19:27
 Shen SCVZ [90 -66] 12 min            
-
-!!! 20:19 
+!!! 19:39 
 DECaPSWest A+B [116 -26] 30 min
-YSE 311 [123 -17] 8 min  If you are behind, remove the g band from these two fields       
-YSE 412 [115 -2] 8 min 	If you are behind, remove the g band from these two fields	  
+YSE 311 [123 -17] 8 min         
+YSE 412 [115 -2] 8 min        
 eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2023ftr_P1 [138 19] (3min)
-
-!!! 21:45 
+!!! 20:58 
 YSE 2023jb [156 18] (2 min)  HST   
 ### YSE 2022adcf [156 9] (2 min) HST   
 YSE 2023ext  [165.0128   8] (3 min) HST   
-DESIRT_165_gz (165 -6) (39 min) 
-
-!!! 22:28
+!!! 21:03
 DEBASS/EVERYTHING/2023dut_P1 [144 -9] (3min)
 DEBASS/EVERYTHING/2023dxj_P1 [146 -2] (3min)
 DEBASS/EVERYTHING/2023dyl_P1 [150 1] (3min)
 cosmos_ddf.json [150 2] 1.5h 
-
-!!! 00:06
+!!! 22:42
 YSE 2023R [150 -5]  (3 min) HST
 YSE 2023ed [145 -30]  (3 min) HST    
-OMLApex.json [166 -24]   (54 min)
-OMLApex.extra_i.json (14 min)
 ### etale.z.15min.json [160 -60] 15 min  
 ### etale.i.15min.json [160 -60] 15 min     
 ### etale.r.15min.json [160 -60] 15 min     
 ### YSE 2022aduk [160 -17] (3 min) HST         
-### YSE 2023bu [178 -18]  (3 min) HST 
+DESIRT_165_gz (165 -6) (39 min) 
+YSE 2023bu [178 -18]  (3 min) HST 
 DEBASS/EVERYTHING/2023dva_P1 [173 -10] (3min)
-
-!!! 01:26 
+!!! 23:34 
 DEBASS/EVERYTHING/2023fnj_P1 [176 6] (3min)
 ### YSE 2022zut [175 11] 3 min    HST          
-### YSE 2023clx [175 15] (3 min)   
-YSE 525 [189 10] 34 min                   
+YSE 2023clx [175 15] (3 min)   
 DEBASS/EVERYTHING/2023dtz_P1 [189 14] (3min)
-
-!!! 02:12
+YSE 525 [189 10] 34 min                   
+XXXXXXXXXXXXX
+!!! 00:15 SHARP at this time, Guillermo will be online!
+ORCASat (15 min)
+XXXXXXXXXXXXX
+!!! 00:30
+OMLApex.json [166 -24]   (54 min)
+OMLApex.extra_i.json (14 min)
+!!! 01:38
 DESIRT_190_gz (190 6) (35 min)
 DEBASS/EVERYTHING/2023gfs_P1 [194 -13] (3min)
 DESIRT_MBHB1_gz [203.5 +17.5] (12 min)
+!!! 02:28
 DEBASS/EVERYTHING/2023cyx_P2 [206 4] (3min) OPTIONAL
 YSE 477 [214 5] 17 min                   
 DEBASS/EVERYTHING/2023ggw_P1 [225 16] (3min)
 DEBASS/EVERYTHING/2023day_P2 [213 -6] (3min) OPTIONAL
-
-!!! 03:16 
+!!! 02:54 
 YSE 2023emq [203 -23] (3 min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min)
 DEBASS/EVERYTHING/2023dwc_P1 [203 -35] (3min)
 DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min)
-### YSE 2023da [195 -16]  (3 min) HST           
+YSE 2023da [195 -16]  (3 min) HST           
 ### YSE 2022aczp [191 -15] 3 min  HST          
-### YSE 2023alf [207 -13] 3 min HST          
-
-!!! 03:25 
+YSE 2023alf [207 -13] 3 min HST          
+!!! 03:15 
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min)
 DESIRT_220_gr [~220 8] (30 min)
 DEBASS/EVERYTHING/2023dxk_P1 [221 9] (3min)
-
-!!! 04:11 
-YSE 531 [230 11] 17 min                   
-YSE 583 [236 20] 17 min           		 
-YSE 376	[224 -8] 17 min 	   ### DROP IF BEHIND!!
-YSE 428	[228 -4] 17 min        ### DROP IF BEHIND!!
-
-!!! 05:19
+!!! 04:01
+YSE 531 [230 11] 8 min                   
+YSE 583 [236 20] 8 min                   
+YSE 376 [224 -8] 17 min        
+YSE 428 [228 -4] 17 min        
+!!! 4:52
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min)
-YSE 440	[314 -4] 17 min               
+YSE 440 [314 -4] 17 min               
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)
 DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min)
 YSE 544 [321 9] 17 min                
-
-!!! 06:05:36 slew to Asteroid fields
+!!! 06:05:55 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
-
-####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 2023da [195 -16]  (3 min) HST           
-YSE 2022aczp [191 -15] 3 min  HST          
-YSE 2023alf [207 -13] 3 min HST          
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:  

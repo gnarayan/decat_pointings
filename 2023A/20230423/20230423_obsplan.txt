@@ -45,8 +45,8 @@ Shen SCVZ [90 -66] 12 min
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 8 min         
 YSE 412 [115 -2] 8 min 		  
-eFEDS [129 1] 30 min  
 DEBASS/EVERYTHING/2023ftr_P1 [138 19] (3min)
+eFEDS [129 1] 30 min  
 
 !!! 20:58 
 YSE 2023jb [156 18] (2 min)  HST   

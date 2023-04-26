@@ -92,11 +92,12 @@ DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min)
 !!! 02:42
 YSE 2023emq [203 -23] (3 min)    ### high priority!
 DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min)
-### YSE 2023da [195 -16]  (3 min) HST           
+### YSE 2023da [195 -16]  (3 min) HST   ### observe if extra time!        
 YSE 2022aczp [191 -15] 3 min  HST          
-### YSE 2023alf [207 -13] 3 min HST          
+### YSE 2023alf [207 -13] 3 min HST     ### observe if extra time!          
 
 !!! 02:51 
+YSE 2023day [213 -6] (3 min) 
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (10 min)
 DESIRT_220_gz [~220 8] (36 min)

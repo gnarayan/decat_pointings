@@ -49,7 +49,7 @@ YSE 2022adcf [156 9] (3 min) HST          ### DROP if behind schedule
 YSE 2023ext  [165.0128   8] (3 min) HST   ### DROP if behind schedule
 
 !!! 20:57
-cosmos_ddf_seq_AB_short.json [150 2] 45 min
+cosmos_ddf_seq_230427.json [150 2] 45 min
 
 !!! 21:43
 ### YSE 2023R [150 -5]  (3 min) HST

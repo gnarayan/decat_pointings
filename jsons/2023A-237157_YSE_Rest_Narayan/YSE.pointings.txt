@@ -287,3 +287,6 @@
           2023day   <NA> 213.40047  -5.64341     0       NaN                    NaN     2023day      N4          35
           2023ftr   <NA> 139.20585  20.26534     0       NaN                    NaN     2023ftr      N4          35
           2023ext   <NA> 165.01278   8.25377     0       NaN                    NaN     2023ext      N4          35
+          2023gft   <NA> 321.50336  -3.71125     0       NaN                    NaN     2023gft      N4          35
+          2023gfs   <NA> 194.59295 -12.49281     0       NaN                    NaN     2023gfs      N4          35
+          2023ggw   <NA> 225.72441  17.23373     0       NaN                    NaN     2023ggw      N4          35

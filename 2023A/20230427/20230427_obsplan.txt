@@ -44,9 +44,10 @@ YSE 412 [115 -2] 8 min
 ### eFEDS [129 1] 30 min  
 
 !!! 20:49 
+YSE 2023ftr [138 19] (4min)  HST       ### high priority
 YSE 2023jb [156 18] (3 min)  HST          ### DROP if behind schedule
 YSE 2022adcf [156 9] (3 min) HST          ### DROP if behind schedule
-YSE 2023ext  [165.0128   8] (3 min) HST   ### DROP if behind schedule
+YSE 2023ext  [165 8] (3 min) HST   		  ### DROP if behind schedule
 
 !!! 20:57
 cosmos_ddf_seq_230427.json [150 2] 45 min
@@ -55,13 +56,14 @@ cosmos_ddf_seq_230427.json [150 2] 45 min
 ### YSE 2023R [150 -5]  (3 min) HST
 ### YSE 2023ed [145 -30]  (3 min) HST    
 ### etale.z.15min.json [160 -60] 15 min  
-### etale.i.15min.json [160 -60] 15 min     
+### etale.i.15min.json [160 -60] 15 min 
 etale.r.15min.json [160 -60] 15 min     
 ### YSE 2022aduk [160 -17] (3 min) HST         
+OMLApex_230427.json [166 -24]   (27 min)    
 DESIRT_165_gr (165 -6) (32 min) 
 YSE 2023bu [178 -18]  (3 min) HST               ### DROP if behind schedule
 
-!!! 22:33 
+!!! 23:02 
 ### YSE 2022zut [175 11] 3 min    HST          
 ### YSE 2023clx [175 15] (3 min)   
 DEBASS/EVERYTHING/2023cqz_P2 [173 24] (3min)
@@ -69,16 +71,15 @@ DEBASS/EVERYTHING/2023dtz_P1 [189 14] (3min)
 YSE 525 [189 10] 34 min                       ### DROP r band if behind schedule
 DESIRT_190_gz (190 6) (35 min)
 
-!!! 23:48
+!!! 00:13
 DEBASS/EVERYTHING/2023cyx_P2 [206 4] (3min)
 DEBASS/EVERYTHING/2023dxk_P2 [221 9] (3min)
-DEBASS/EVERYTHING/2023day_P2 [213 -6] (3min)
+YSE 2023ggw [225  17] (4 min)     ### high priority
+DEBASS/EVERYTHING/2023day_P2 [213 -6] (3min)   ### DROP if behind schedule (observed yesterday)
+YSE 2023gfs [194  -12] (4 min)    ### high priority
 DEBASS/EVERYTHING/2023gss_P2 [211 -27] (3min)
-YSE 2023emq [203 -23] (3 min)    ### high priority!
+### YSE 2023emq [203 -23] (3 min)    
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min)
 DEBASS/EVERYTHING/2023dwc_P2 [203 -35] (3min)
-
-!!! 00:10
-OMLApex_230427.json [166 -24]   (30 min)
 
 00:40:59 end of half night

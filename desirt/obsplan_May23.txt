@@ -70,11 +70,12 @@ DESIRT_330_z [332 -3]  (23 min)
 
 ## May 29	
 
-DESIRT_190_gz (190 6) (36 min)
 DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (9 min)
 DESIRT_G15_r [~215 -1] (7 min) 
 DESIRT_220_gz [~220 8] (36 min)
+DESIRT_220_r [~220 8] (16 min)
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) # Last exposure is optional, cut if there is no extra time

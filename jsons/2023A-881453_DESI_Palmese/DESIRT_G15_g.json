@@ -1,7 +1,7 @@
 [
     {
         "object": "TILEID: 1261",
-        "expTime": 90,
+        "expTime": 50,
         "RA": 214.461,
         "dec": 0.0,
         "filter": "g",
@@ -15,7 +15,7 @@
     },
     {
         "object": "TILEID: 1240",
-        "expTime": 90,
+        "expTime": 50,
         "RA": 216.099,
         "dec": 0.0,
         "filter": "g",
@@ -29,7 +29,7 @@
     },
     {
         "object": "TILEID: 1241",
-        "expTime": 90,
+        "expTime": 50,
         "RA": 216.921,
         "dec": -1.604,
         "filter": "g",
@@ -43,7 +43,7 @@
     },
     {
         "object": "TILEID: 1262",
-        "expTime": 90,
+        "expTime": 50,
         "RA": 215.288,
         "dec": -1.597,
         "filter": "g",

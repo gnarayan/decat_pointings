@@ -10,10 +10,10 @@ Shapley_Skymapper_P1 [203 -31]
 2023goe_P1 [237 12]
 2023env_P1 [286 -24]
 2023ehl_P1 [306 4]
+2023gqi_P1 [323 -21]
 2023gft_P1 [322 -3]
 
 2023dof_P2 [82 -8]
-2023gss_P2 [211 -27]
 
 2023cun_P3 [117 22]
 2023dut_P3 [144 -9]
@@ -25,7 +25,6 @@ Shapley_Skymapper_P1 [203 -31]
 2023dtz_P3 [189 14]
 2023day_P3 [213 -6]
 2023cyx_P3 [206 4]
-2023gqi_P3 [323 -21]
 
-EVERYTHING	94.8 minutes
-EVERYTHING_P1	49.2 minutes
+EVERYTHING	92.0 minutes
+EVERYTHING_P1	52.3 minutes

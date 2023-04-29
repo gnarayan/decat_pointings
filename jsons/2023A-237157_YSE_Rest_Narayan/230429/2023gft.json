@@ -3,6 +3,16 @@
 "count": 1,
 "expType": "object",
 "object": "2023gft",
+"filter": "g",
+"expTime": 15,
+"RA": "321.5034",
+"dec": "-3.7113",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023gft",
 "filter": "r",
 "expTime": 15,
 "RA": "321.5034",

@@ -115,6 +115,7 @@ YSE 440	[314 -4] 17 min
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)
 DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min)
 YSE 544 [321 9] 17 min                
+DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min)
 
 !!! 06:09:13 slew to Asteroid fields
 using morning twilight asteroid script in

@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "2023day",
 "filter": "g",
-"expTime": 15,
+"expTime": 30,
 "RA": "213.4005",
 "dec": "-5.6434",
 "propid": "2023A-237157"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "2023day",
 "filter": "r",
-"expTime": 15,
+"expTime": 30,
 "RA": "213.4005",
 "dec": "-5.6434",
 "propid": "2023A-237157"
@@ -24,7 +24,7 @@
 "expType": "object",
 "object": "2023day",
 "filter": "i",
-"expTime": 15,
+"expTime": 30,
 "RA": "213.4005",
 "dec": "-5.6434",
 "propid": "2023A-237157"
@@ -34,7 +34,7 @@
 "expType": "object",
 "object": "2023day",
 "filter": "z",
-"expTime": 15,
+"expTime": 30,
 "RA": "213.4005",
 "dec": "-5.6434",
 "propid": "2023A-237157"

@@ -80,37 +80,36 @@ YSE 2023emq [203 -23] (3 min)    ### high priority!
 DESIRT_190_gz (190 6) (35 min)
 DESIRT_MBHB1_grz [203.5 17.5] (17 min)
 
-!!! 01:19
+!!! 01:31
 YSE 477 [214 5] 8 min   
 DEBASS/EVERYTHING/2023dxk_P1 [221 9] (3min)                
 DEBASS/EVERYTHING/2023ggw_P1 [225 16] (3min)
 DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min) 
 
-!!! 02:52 
+!!! 01:48 
 DESIRT_220_gr [~220 8] (30 min)
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (9 min)
 DESIRT_G15_r [~215 -1] (7 min) ## last 2 exposures optional - delete if behind schedule
 
-
-!!! 03:48
-### YSE 531 [230 11] 17 min                   
-### YSE 583 [236 20] 17 min           		 
+!!! 02:40
+YSE 583 [236 20] 17 min         ### skip g band if behind schedule    		 
+YSE 531 [230 11] 17 min         ### skip g band if behind schedule          
 YSE 376	[224 -8] 17 min 	   
 YSE 428	[228 -4] 17 min        
 DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
 DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min)
 
-!!! 04:56
+!!! 03:54  ### latest at 04:34 go to these fields!!!!!
 luhman.may09.json [270 -14] (22 min)
 ### DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023hnl_P1 [325 -33] (3min)
 DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min)
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)
-YSE 440	[314 -4] 8 min               
+YSE 440	[314 -4] 17 min          ### skip i band if behind schedule     
 DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min)
-YSE 544 [321 9] 17 min                
-YSE 494 [330 3] 17 min
+YSE 544 [321 9] 25 min          ### skip r band if behind schedule        
+YSE 494 [330 3] 25 min 			### skip r band if behind schedule 
 DESIRT_330_z [332 -3]  (23 min)
 
 !!! 06:14:38 slew to Asteroid fields

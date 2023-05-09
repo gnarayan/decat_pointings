@@ -52,13 +52,14 @@ cosmos_ddf_seq_A, B, C [150 2] 1.5h
 DEBASS/EVERYTHING/2023dyl_P1 [150 1] (3min)
 DEBASS/EVERYTHING/2023dxj_P1 [146 -2] (3min)
 DEBASS/EVERYTHING/2023dut_P1 [144 -9] (3min)
+YSE 2023grn 152 -13   (3min)       
 ### etale.z.15min.json [160 -60] 15 min  
 ### etale.i.15min.json [160 -60] 15 min     
 ### etale.r.15min.json [160 -60] 15 min     
 ### DESIRT_165_gz (165 -6) (39 min) 
 YSE 2023bu [178 -18]  (3 min) HST      
 
-!!! 22:40
+!!! 22:43
 YSE 2023ggg [174 3] (3min) 
 YSE 2023clx [175 15] (3 min) 
 YSE 2022zut [175 11] 3 min    HST          
@@ -67,7 +68,7 @@ YSE 2023fot [185 10] (3 min)  HST    ### high priority
 YSE 525 [189 10] 17 min                   
 DEBASS/EVERYTHING/2023dtz_P1 [189 14] (3min)
 
-!!! 23:15
+!!! 23:18
 OMLApex.json [166 -24]   (54 min)
 OMLApex.extra_i.json (14 min)
 DEBASS/EVERYTHING/2023dva_P2 [173 -10] OPTIONAL FILLER (3min)
@@ -76,23 +77,23 @@ DEBASS/EVERYTHING/2023hro_P2 [189 -20] OPTIONAL FILLER (3min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P2 [203 -31] OPTIONAL FILLER (3min)
 YSE 2023emq [203 -23] (3 min)    ### high priority!
 
-!!! 00:39
+!!! 00:42
 DESIRT_190_gz (190 6) (35 min)
 DESIRT_MBHB1_grz [203.5 17.5] (17 min)
 
-!!! 01:31
+!!! 01:34
 YSE 477 [214 5] 8 min   
 DEBASS/EVERYTHING/2023dxk_P1 [221 9] (3min)                
 DEBASS/EVERYTHING/2023ggw_P1 [225 16] (3min)
 DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min) 
 
-!!! 01:48 
+!!! 01:51 
 DESIRT_220_gr [~220 8] (30 min)
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (9 min)
 DESIRT_G15_r [~215 -1] (7 min) ## last 2 exposures optional - delete if behind schedule
 
-!!! 02:40
+!!! 02:43
 YSE 583 [236 20] 17 min         ### skip g band if behind schedule    		 
 YSE 531 [230 11] 17 min         ### skip g band if behind schedule          
 YSE 376	[224 -8] 17 min 	   
@@ -100,13 +101,15 @@ YSE 428	[228 -4] 17 min
 DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
 DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min)
 
-!!! 03:54  ### latest at 04:34 go to these fields!!!!!
+!!! 03:57  ### latest at 04:34 go to these fields!!!!!
+YSE 2023gxf [257 19] (4 min)
 luhman.may09.json [270 -14] (22 min)
 ### DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023hnl_P1 [325 -33] (3min)
 DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min)
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)
-YSE 440	[314 -4] 17 min          ### skip i band if behind schedule     
+YSE 440	[314 -4] 17 min          ### skip i band if behind schedule  
+YSE 2023hcx [302 5] (3 min) HST   
 DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min)
 YSE 544 [321 9] 25 min          ### skip r band if behind schedule        
 YSE 494 [330 3] 25 min 			### skip r band if behind schedule 
@@ -117,4 +120,3 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE494 [347 9] 17 min

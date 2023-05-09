@@ -582,9 +582,10 @@ mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 230509
 mkjson_yse_nofilterswitch.py  -f i,z     440  -d 230509
 mkjson_yse_nofilterswitch.py  -f r,i,z     544  494 -d 230509
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i  2022xkq 2023bee 2023ftr 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023emq  -d 230509 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2022xkq 2023bee 2023ftr 2023grn 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023emq 2023gxf 2023hcx -d 230509 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i  2023emq  -d 230509 -e 50 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i   2023ggg -d 230509 -e 50 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2023gxf -d 230509 -e 30 -n 1 --sortbyra
 git add 230509
 git add 230509/*.json
 
@@ -690,6 +691,10 @@ YSE_pointings2fieldcenters.py --addSN  2023ggg 173.9473917     3.4839889 -vv --o
 YSE_pointings2fieldcenters.py --addSN   2023exu 158.1667125     12.1803861 -vv --overw
 YSE_pointings2fieldcenters.py --addSN   2023fot 185.4481542     10.5914194 -vv --overw
 YSE_pointings2fieldcenters.py --addSN    2023goe 237.8879667     13.3235917 -vv --overw
+YSE_pointings2fieldcenters.py --addSN   2023hcx 302.3468250     5.1321639 -vv --overw
+YSE_pointings2fieldcenters.py --addSN   2023grn 151.8840500     -12.9605472 -vv --overw
+YSE_pointings2fieldcenters.py --addSN   2023gxf 257.2254167     19.1723333 -vv --overw
+
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
 

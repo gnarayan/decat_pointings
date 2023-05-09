@@ -294,3 +294,6 @@
           2023exu   <NA> 158.16452  12.26738     0       NaN                    NaN     2023exu      N4          35
           2023fot   <NA> 185.44597  10.67841     0       NaN                    NaN     2023fot      N4          35
           2023goe   <NA> 237.88576  13.41058     0       NaN                    NaN     2023goe      N4          35
+          2023hcx   <NA> 302.34467   5.21915     0       NaN                    NaN     2023hcx      N4          35
+          2023grn   <NA> 151.88185 -12.87356     0       NaN                    NaN     2023grn      N4          35
+          2023gxf   <NA> 257.22315  19.25932     0       NaN                    NaN     2023gxf      N4          35

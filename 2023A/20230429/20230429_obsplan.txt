@@ -80,6 +80,7 @@ DESIRT_190_gr (190 6) (30 min)
 DEBASS/EVERYTHING/2023gfs_P1 [194 -13] (3min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min)
 DEBASS/EVERYTHING/2023dwc_P1 [203 -35] (3min)
+YSE 2023emq [203 -23] (3 min)    ### high priority!
 DESIRT_MBHB1_gz [203.5 +17.5] (12 min)
 
 !!! 02:11
@@ -89,7 +90,6 @@ DEBASS/EVERYTHING/2023ggw_P1 [225 16] (3min)
 DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min) 
 
 !!! 02:37
-YSE 2023emq [203 -23] (3 min)    ### high priority!
 DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min)
 YSE 2023da [195 -16]  (3 min) HST       
 YSE 2022aczp [191 -15] 3 min  HST          
@@ -101,6 +101,8 @@ DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min)
 DESIRT_G15_z [~215 -1] (10 min) 
 DESIRT_220_gr [~220 8] (30 min)
+YSE 2023ggw [225  17] (4 min)     ### high priority
+
 
 !!! 03:48
 YSE 531 [230 11] 17 min                   
@@ -111,10 +113,12 @@ YSE 428	[228 -4] 17 min
 !!! 04:56
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min)
-YSE 440	[314 -4] 17 min               
+DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min)
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)
+YSE 440	[314 -4] 17 min               
 DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min)
-YSE 544 [321 9] 17 min                
+YSE 544 [321 9] 8 min                
+YSE 494 [330 3] 8 min
 
 !!! 06:09:13 slew to Asteroid fields
 using morning twilight asteroid script in

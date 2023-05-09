@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.72
-UT -16 deg twilight: 2023-04-29T23:21:33.812 2023-04-30T09:59:51.359
-UT -15 deg twilight: 2023-04-29T23:16:53.551 2023-04-30T10:04:31.982
-UT -14 deg twilight: 2023-04-29T23:12:12.841 2023-04-30T10:09:13.041
-UT -12 deg twilight: 2023-04-29T23:02:50.176 2023-04-30T10:18:36.539
-UT -10 deg twilight: 2023-04-29T22:53:25.588 2023-04-30T10:28:02.010
-LOCAL -16 deg twilight: 04/29/2023,   19:21:33   05:59:51
-LOCAL -15 deg twilight: 04/29/2023,   19:16:53   06:04:31
-LOCAL -14 deg twilight: 04/29/2023,   19:12:12   06:09:13
-LOCAL -12 deg twilight: 04/29/2023,   19:02:50   06:18:36
-LOCAL -10 deg twilight: 04/29/2023,   18:53:25   06:28:02
-LOCAL night MIDPOINT: 04/30/2023,   00:40:42
+MOON ILLUMINATION: 0.76
+UT -16 deg twilight: 2023-05-09T23:14:27.286 2023-05-10T10:05:10.802
+UT -15 deg twilight: 2023-05-09T23:09:44.337 2023-05-10T10:09:54.344
+UT -14 deg twilight: 2023-05-09T23:05:00.366 2023-05-10T10:14:38.450
+UT -12 deg twilight: 2023-05-09T22:55:31.113 2023-05-10T10:24:08.474
+UT -10 deg twilight: 2023-05-09T22:45:59.274 2023-05-10T10:33:41.137
+LOCAL -16 deg twilight: 05/09/2023,   19:14:27   06:05:10
+LOCAL -15 deg twilight: 05/09/2023,   19:09:44   06:09:54
+LOCAL -14 deg twilight: 05/09/2023,   19:05:00   06:14:38
+LOCAL -12 deg twilight: 05/09/2023,   18:55:31   06:24:08
+LOCAL -10 deg twilight: 05/09/2023,   18:45:59   06:33:41
+LOCAL night MIDPOINT: 05/10/2023,   00:39:49
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -28,104 +28,92 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-
-
-
-!!! 19:12:12
-YSE 2023dk [78 -1] 3 min HST  
-YSE 2022xkq [76 -12] 3 min HST  
-YSE 257 [85 -25] 17 min 
+!!! 19:05:00
+YSE 257 [85 -25] 8 min 
 DEBASS/EVERYTHING/2023fpa_P1 [88 -32] (3min)
-YSE 2022aajn [107 21] 3 min HST  			
 
-!!! 19:53
+!!! 19:17
 Shen SCVZ [90 -66] 12 min            
 
-!!! 20:05 
+!!! 19:29 
 DECaPSWest A+B [116 -26] 30 min
 YSE 311 [123 -17] 8 min                 
-YSE 412 [115 -2] 8 min 		            
-eFEDS [129 1] 30 min  
-### YSE 2023jb [156 18] (3 min)  HST         
-### YSE 2022adcf [156 9] (3 min) HST   
-### YSE 2023ext  [165 8] (3 min) HST   
+YSE 412 [115 -2] 8 min 
 
-!!! 21:25
-cosmos_ddf_moon.json [150 2] 1.5h 
+!!! 20:15		            
+eFEDS [129 1] 30 min 
+YSE 2023bee [134 -3]  (3 min) 
+YSE 2023ftr [138 19] (3 min)  HST      
+YSE 2023exu [158 12]  (3 min) HST  
+YSE 2023ext  [165 8] (3 min) HST   
+
+!!! 20:57
+cosmos_ddf_seq_A, B, C [150 2] 1.5h 
 DEBASS/EVERYTHING/2023dyl_P1 [150 1] (3min)
-
-!!! 22:55
-YSE 2023R [150 -5]  (3 min) HST        
 DEBASS/EVERYTHING/2023dxj_P1 [146 -2] (3min)
 DEBASS/EVERYTHING/2023dut_P1 [144 -9] (3min)
-YSE 2023ed [145 -30]  (3 min) HST      
 ### etale.z.15min.json [160 -60] 15 min  
 ### etale.i.15min.json [160 -60] 15 min     
 ### etale.r.15min.json [160 -60] 15 min     
-YSE 2022aduk [160 -17] (3 min) HST         
-DESIRT_165_gz (165 -6) (39 min) 
+### DESIRT_165_gz (165 -6) (39 min) 
 YSE 2023bu [178 -18]  (3 min) HST      
 
-!!! 23:46 
+!!! 22:40
 YSE 2023ggg [174 3] (3min) 
-DEBASS/EVERYTHING/2023fnj_P1 [176 6] (3min)
+YSE 2023clx [175 15] (3 min) 
 YSE 2022zut [175 11] 3 min    HST          
-### YSE 2023clx [175 15] (3 min)   
+DEBASS/EVERYTHING/2023fnj_P1 [176 6] (3min)
+YSE 2023fot [185 10] (3 min)  HST    ### high priority
 YSE 525 [189 10] 17 min                   
 DEBASS/EVERYTHING/2023dtz_P1 [189 14] (3min)
 
-!!! 00:12
-OMLApex.z1_230429.json [166 -24]   (37 min) 
-OMLApex.z2_230429.json [166 -24]   (31 min)
+!!! 23:15
+OMLApex.json [166 -24]   (54 min)
+OMLApex.extra_i.json (14 min)
 DEBASS/EVERYTHING/2023dva_P2 [173 -10] OPTIONAL FILLER (3min)
-
-!!! 01:20
-DESIRT_190_gr (190 6) (30 min)
 DEBASS/EVERYTHING/2023gfs_P1 [194 -13] (3min)
 DEBASS/EVERYTHING/2023hro_P2 [189 -20] OPTIONAL FILLER (3min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P2 [203 -31] OPTIONAL FILLER (3min)
 YSE 2023emq [203 -23] (3 min)    ### high priority!
-DESIRT_MBHB1_gz [203.5 +17.5] (12 min)
 
-!!! 02:11
-YSE 477 [214 5] 17 min   
+!!! 00:39
+DESIRT_190_gz (190 6) (35 min)
+DESIRT_MBHB1_grz [203.5 17.5] (17 min)
+
+!!! 01:19
+YSE 477 [214 5] 8 min   
 DEBASS/EVERYTHING/2023dxk_P1 [221 9] (3min)                
 DEBASS/EVERYTHING/2023ggw_P1 [225 16] (3min)
 DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min) 
 
-!!! 02:37
-DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min)
-DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
-YSE 2023da [195 -16]  (3 min) HST       
-YSE 2022aczp [191 -15] 3 min  HST          
-YSE 2023alf [207 -13] 3 min HST           
-
 !!! 02:52 
-YSE 2023day [213 -6] (3 min) 
-DESIRT_G15_g [~215 -1] (6 min)
-DESIRT_G15_r [~215 -1] (7 min)
-DESIRT_G15_z [~215 -1] (10 min) 
 DESIRT_220_gr [~220 8] (30 min)
-YSE 2023ggw [225  17] (4 min)     ### high priority
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_G15_r [~215 -1] (7 min) ## last 2 exposures optional - delete if behind schedule
 
 
 !!! 03:48
-YSE 531 [230 11] 17 min                   
-YSE 583 [236 20] 17 min           		 
+### YSE 531 [230 11] 17 min                   
+### YSE 583 [236 20] 17 min           		 
 YSE 376	[224 -8] 17 min 	   
 YSE 428	[228 -4] 17 min        
+DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
+DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min)
 
 !!! 04:56
-DECaPSEast [270 -29] 30 min
+luhman.may09.json [270 -14] (22 min)
+### DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023hnl_P1 [325 -33] (3min)
 DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min)
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)
-YSE 440	[314 -4] 17 min               
+YSE 440	[314 -4] 8 min               
 DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min)
-YSE 544 [321 9] 8 min                
-YSE 494 [330 3] 8 min
+YSE 544 [321 9] 17 min                
+YSE 494 [330 3] 17 min
+DESIRT_330_z [332 -3]  (23 min)
 
-!!! 06:09:13 slew to Asteroid fields
+!!! 06:14:38 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

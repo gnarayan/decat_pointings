@@ -5,7 +5,7 @@
 "filter": "VR",
 "RA": 270.4,
 "dec": -16.26,
-"expTime": 130,
+"expTime": 125,
 "count": 2,
 "propid": "2023A-921384"
 },
@@ -15,7 +15,7 @@
 "filter": "VR",
 "deltaRA": "+60.0",
 "deltaDEC": "+60.0",
-"expTime": 130,
+"expTime": 125,
 "count": 2,
 "propid": "2023A-921384"
 },
@@ -25,7 +25,7 @@
 "filter": "VR",
 "RA": 270.4,
 "dec": -12.74,
-"expTime": 130,
+"expTime": 125,
 "count": 2,
 "propid": "2023A-921384"
 },
@@ -35,7 +35,7 @@
 "filter": "VR",
 "deltaRA": "+60.0",
 "deltaDEC": "+60.0",
-"expTime": 130,
+"expTime": 125,
 "count": 2,
 "propid": "2023A-921384"
 },
@@ -45,7 +45,7 @@
 "filter": "VR",
 "RA": 271.95,
 "dec": -13.62,
-"expTime": 130,
+"expTime": 125,
 "count": 2,
 "propid": "2023A-921384"
 },
@@ -55,7 +55,7 @@
 "filter": "VR",
 "deltaRA": "+60.0",
 "deltaDEC": "+60.0",
-"expTime": 130,
+"expTime": 125,
 "count": 2,
 "propid": "2023A-921384"
 }

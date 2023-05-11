@@ -40,5 +40,19 @@
         "comment": "Shapley_Skymapper",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 203.0,
+        "dec": -31.5,
+        "object": "Shapley_Skymapper",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "Shapley_Skymapper",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

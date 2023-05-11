@@ -99,9 +99,9 @@ YSE 428	[228 -4] 17 min
 DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
 DEBASS/EVERYTHING/2023eob_P2 [233 -30] (3min) CAN SKIP IF NECESSARY
 
-!!! 03:47  ### latest at 04:17 go to these fields!!!!!
+!!! 03:47  ### latest at 04:00 go to these fields!!!!!
 YSE 2023gxf [257 19] (4 min)
-luhman.may11.json [270 -14] (17 min)
+luhman.may11.json [270 -14] (33 min)
 DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min)
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)

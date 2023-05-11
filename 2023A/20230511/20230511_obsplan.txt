@@ -73,35 +73,35 @@ DEBASS/EVERYTHING/2023dva_P2 [173 -10] (3min) CAN SKIP IF NECESSARY
 DEBASS/EVERYTHING/2023gfs_P1 [194 -12] (3min)
 DEBASS/EVERYTHING/2023hro_P1 [189 -20] (3min)
 DEBASS/EVERYTHING/Shapley_Skymapper_P3 [203 -31] OPTIONAL FILLER (3min)
+YSE 2023hym 213 -45 (5 min)                   ### HIGH PRIORITY!
 YSE 2023emq [203 -23] (3 min)    ### high priority!
 
-!!! 00:06
+!!! 00:09
 DESIRT_190_grz_1 (190 6) (27 min)
 DESIRT_190_grz_2 (190 6) (26 min)
 DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
 
-!!! 01:16
+!!! 01:19
 YSE 477 [214 5] 17 min   
 
-!!! 01:33 
+!!! 01:36 
 DESIRT_220_gr [~220 8] (30 min)
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (9 min)
 DESIRT_G15_r [~215 -1] (7 min) ## last 2 exposures optional - delete if no extra time
 
-!!! 02:25
+!!! 02:28
 DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min)
 YSE 583 [236 20] 17 min            		 
 YSE 531 [230 11] 17 min                  
 YSE 376	[224 -8] 17 min 	   
 YSE 428	[228 -4] 17 min        
 DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
-YSE 2023hym 213 -45 (5 min)                   ### HIGH PRIORITY!
 DEBASS/EVERYTHING/2023eob_P2 [233 -30] (3min) CAN SKIP IF NECESSARY
 
-!!! 03:47  ### latest at 04:12 go to these fields!!!!!
+!!! 03:47  ### latest at 04:17 go to these fields!!!!!
 YSE 2023gxf [257 19] (4 min)
-luhman.may09.json [270 -14] (22 min)
+luhman.may11.json [270 -14] (17 min)
 DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min)
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)

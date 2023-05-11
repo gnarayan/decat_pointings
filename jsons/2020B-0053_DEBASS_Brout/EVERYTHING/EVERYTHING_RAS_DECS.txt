@@ -8,6 +8,8 @@
 2023gft_P1 [322 -3]
 
 2023dva_P2 [173 -10]
+2023hsw_P2 [166 10]
+2023hsy_P2 [167 10]
 2023eob_P2 [233 -30]
 
 2023cun_P3 [117 22]
@@ -21,5 +23,5 @@ Shapley_Skymapper_P3 [203 -31]
 2023gqi_P3 [323 -21]
 
 2023hnl_TCTM [325 -33]
-EVERYTHING	85.8 minutes
-EVERYTHING_P1	29.2 minutes
+EVERYTHING	90.5 minutes
+EVERYTHING_P1	28.9 minutes

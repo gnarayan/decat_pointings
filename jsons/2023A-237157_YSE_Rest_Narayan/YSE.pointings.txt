@@ -211,6 +211,18 @@
           719.D.a    719 220.16515  42.08131     0       NaN           719.D.a.json        719D     NaN        <NA>
           719.E.a    719 224.15053  38.98321     0       NaN           719.E.a.json        719E     NaN        <NA>
           719.F.a    719 224.34316  42.08131     0       NaN           719.F.a.json        719F     NaN        <NA>
+          393.A.a    393 342.47540 -11.39534     0       NaN                    NaN        393A     NaN        <NA>
+          393.B.a    393 342.47670  -8.29664     0       NaN                    NaN        393B     NaN        <NA>
+          393.C.a    393 345.62178 -11.39534     0       NaN                    NaN        393C     NaN        <NA>
+          393.D.a    393 345.62308  -8.29664     0       NaN                    NaN        393D     NaN        <NA>
+          393.E.a    393 348.76816 -11.39534     0       NaN                    NaN        393E     NaN        <NA>
+          393.F.a    393 348.76946  -8.29664     0       NaN                    NaN        393F     NaN        <NA>
+          495.A.a    495 335.64160   2.99909     0       NaN                    NaN        495A     NaN        <NA>
+          495.B.a    495 335.64277   6.09792     0       NaN                    NaN        495B     NaN        <NA>
+          495.C.a    495 338.75140   2.99909     0       NaN                    NaN        495C     NaN        <NA>
+          495.D.a    495 338.75257   6.09792     0       NaN                    NaN        495D     NaN        <NA>
+          495.E.a    495 341.86120   2.99909     0       NaN                    NaN        495E     NaN        <NA>
+          495.F.a    495 341.86237   6.09792     0       NaN                    NaN        495F     NaN        <NA>
      618.C.21aggu    618 137.73455  18.03640     0  2021aggu                    NaN    2021aggu     NaN        <NA>
              CDFS   <NA>  52.65000 -28.13500     0       NaN           CDFS.gi.json        CDFS     NaN        <NA>
        GRB210919A   <NA>  80.30970   1.33940     0       NaN        GRB210919A.json  GRB210919A     NaN        <NA>

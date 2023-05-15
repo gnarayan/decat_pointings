@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.54
-UT -16 deg twilight: 2023-05-11T23:13:16.266 2023-05-12T10:06:14.059
-UT -15 deg twilight: 2023-05-11T23:08:32.654 2023-05-12T10:10:58.245
-UT -14 deg twilight: 2023-05-11T23:03:48.042 2023-05-12T10:15:43.022
-UT -12 deg twilight: 2023-05-11T22:54:17.368 2023-05-12T10:25:14.480
-UT -10 deg twilight: 2023-05-11T22:44:43.983 2023-05-12T10:34:48.699
-LOCAL -16 deg twilight: 05/11/2023,   19:13:16   06:06:14
-LOCAL -15 deg twilight: 05/11/2023,   19:08:32   06:10:58
-LOCAL -14 deg twilight: 05/11/2023,   19:03:48   06:15:43
-LOCAL -12 deg twilight: 05/11/2023,   18:54:17   06:25:14
-LOCAL -10 deg twilight: 05/11/2023,   18:44:43   06:34:48
-LOCAL night MIDPOINT: 05/12/2023,   00:39:45
+MOON ILLUMINATION: 0.22
+UT -16 deg twilight: 2023-05-14T23:11:39.179 2023-05-15T10:07:48.170
+UT -15 deg twilight: 2023-05-14T23:06:54.392 2023-05-15T10:12:33.316
+UT -14 deg twilight: 2023-05-14T23:02:08.981 2023-05-15T10:17:19.095
+UT -12 deg twilight: 2023-05-14T22:52:36.164 2023-05-15T10:26:52.681
+UT -10 deg twilight: 2023-05-14T22:43:00.459 2023-05-15T10:36:29.198
+LOCAL -16 deg twilight: 05/14/2023,   19:11:39   06:07:48
+LOCAL -15 deg twilight: 05/14/2023,   19:06:54   06:12:33
+LOCAL -14 deg twilight: 05/14/2023,   19:02:08   06:17:19
+LOCAL -12 deg twilight: 05/14/2023,   18:52:36   06:26:52
+LOCAL -10 deg twilight: 05/14/2023,   18:43:00   06:36:29
+LOCAL night MIDPOINT: 05/15/2023,   00:39:43
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -106,25 +106,25 @@ DEBASS/EVERYTHING/2023eob_P2 [233 -30] (3min) CAN SKIP IF NECESSARY
 !!! 03:47  ### latest at 04:00 go to these fields!!!!!
 YSE 2023gxf [257 19] (4 min)
 DEBASS/EVERYTHING/2023hwg_P1 [252 10] (3min) 
-luhman.may11.json [270 -14] (33 min)
+luhman.may14.32min.json [270 -14] (33 min)
 DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min)
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023ehl_P1 [306 4] (3min) 
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min)
 
 ### 05:14
-### YSE 440	[314 -4] 8 min          
+YSE 440	[314 -4] 17 min         ### skip r band if behind schedule 
 YSE 2023hcx [302 5] (3 min) HST   
 YSE 544 [321 9] 17 min          ### skip i band if behind schedule        
-YSE 494 [330 3] 17 min 			### skip i band if behind schedule 
+### YSE 494 [330 3] 17 min 			
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
 DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min) 
 DEBASS/EVERYTHING/2023hnl_P1 [325 -33] (3min) 
 
-!!! 06:14:38 slew to Asteroid fields
+!!! 06:17:19 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 440	[314 -4] 8 min          
+YSE 494 [330 3] 17 min 

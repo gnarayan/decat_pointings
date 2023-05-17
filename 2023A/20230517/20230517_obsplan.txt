@@ -57,7 +57,7 @@ YSE 2023grn [152 -13]   (3min)
 ### etale.r.15min.json [160 -60] 15 min     
 
 !!! 21:45
-YSE 2023ggg [174 3] (3min) 
+### YSE 2023ggg [174 3] (3min) 
 DEBASS/EVERYTHING/2023fnj_P1 [176 6] (3min) DROP z to save time
 ### YSE 2023clx [175 15] (3 min) 
 YSE 2022zut [175 11] 3 min    HST          
@@ -65,7 +65,7 @@ YSE 2023fot [185 10] (3 min)  HST    ### high priority
 DEBASS/EVERYTHING/2023iek_P1 [188 10] (3min)
 YSE 525 [189 10] 17 min                   
 
-!!! 22:18
+!!! 22:15
 OMLApex.z1_230517.json  [166 -24]   (37 min) 
 OMLApex.z2_230517.json  [166 -24]   (31 min) 
 YSE 2023bu [178 -18]  (3 min) HST      
@@ -74,15 +74,15 @@ DEBASS/EVERYTHING/2023gfs_P1 [194 -13] (3min) DROP z to save time
 YSE 2023huy [199 -16] (3 min)
 YSE 2023emq [203 -23] (3 min)    ### high priority!
 
-!!! 00:09
+!!! 23:38
 DESIRT_190_gr (190 6) (30 min)
 DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
 
-!!! 01:19
+!!! 00:25
 YSE 477 [214 5] 17 min   
 DEBASS/EVERYTHING/2023hzy_P1 [207 0] (3min)
 
-!!! 01:36 
+!!! 00:45 
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_220_gr [~220 8] (30 min)
 DESIRT_G15_z [~215 -1] (9 min)
@@ -90,7 +90,7 @@ DESIRT_G15_r [~215 -1] (7 min)
 DESIRT_G15_g [~215 -1] (6 min)
 
 
-!!! 02:28
+!!! 01:45
 DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min) DROP z to save time
 YSE 583 [236 20] 17 min            		 
 DEBASS/EVERYTHING/2023ggw_P2 [225 16] (3min) CAN SKIP IF NECESSARY
@@ -101,26 +101,30 @@ DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
 DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min) DROP z to save time
 DEBASS/EVERYTHING/2023inb_P1 [240 -31] (3min)
 
-!!! 03:47  ### latest at 04:00 go to these fields!!!!!
+!!! 03:08  
 YSE 2023gxf [257 19] (4 min)
 DEBASS/EVERYTHING/2023hwg_P1 [252 10] (3min)
 luhman.may17.32min.txt [270 -14] (33 min)
 DECaPSEast [270 -29] 30 min
+
+### 04:20
+YSE 2023hcx [302 5] (3 min) HST   
 DEBASS/EVERYTHING/2023ehl_P1 [306 4] (3min) DROP z to save time
 DEBASS/EVERYTHING/2023gft_P1 [322 -3]  (3min) DROP z to save time
+DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min) DROP z to save time
+YSE 440	[314 -4] 17 min         
+YSE 544 [321 9] 17 min                  
+YSE 494 [330 3] 17 min 
 
-### 05:14
-YSE 440	[314 -4] 17 min         ### skip r band if behind schedule 
-YSE 2023hcx [302 5] (3 min) HST   
-YSE 544 [321 9] 17 min          ### skip i band if behind schedule        
-### YSE 494 [330 3] 17 min 			
+### 05:24
+YSE 495 [339 5]   (8 min)
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_z [332 -3]  (23 min)
-DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min) DROP z to save time
+YSE 393 [346 -10] (8 min)
 
 !!! 06:18:54 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 494 [330 3] 17 min 
+Y

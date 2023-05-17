@@ -43,7 +43,7 @@ DECaPSWest A+B [116 -26] 30 min
 ### YSE 412 [115 -2] 8 min 
 
 !!! 19:50		            
-### eFEDS [129 1] 30 min 
+eFEDS [129 1] 30 min 
 ### YSE 2023bee [134 -3]  (3 min) 
 YSE 2023ftr [138 19] (3 min)  HST      
 YSE 2023exu [158 12]  (3 min) HST  

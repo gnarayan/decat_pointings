@@ -651,7 +651,7 @@ mkjson_yse_nofilterswitch.py  -f g,r   440  544  494 -d 230517
 mkjson_yse_nofilterswitch.py  -f g     495 393  -d 230517
 mkjson_yse_nofilterswitch.py  -f g,r     296 448 -d 230517
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i  2022xkq 2023bee 2023ftr 2023grn 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023emq 2023gxf 2023hcx -d 230517 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2022xkq 2023bee 2023ftr 2023grn 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023huy 2023emq 2023gxf 2023hcx  -d 230517 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i  2023emq  -d 230517 -e 50 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i   2023ggg -d 230517 -e 50 -n 1 --sortbyra
 git add 230517

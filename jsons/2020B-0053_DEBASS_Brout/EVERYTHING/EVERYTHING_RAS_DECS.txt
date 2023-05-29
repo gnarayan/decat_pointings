@@ -1,6 +1,7 @@
 2023iwu_P1 [154 -5]
 2023iol_P1 [150 -5]
 2023hka_P1 [212 -26]
+2023jkr_P1 [218 5]
 2023inb_P1 [240 -31]
 2023ivv_P1 [235 4]
 2023hwg_P1 [252 10]
@@ -27,5 +28,5 @@
 2023hnl_P3 [325 -33]
 
 2023hnl_TCTM [325 -33]
-EVERYTHING	100.3 minutes
-EVERYTHING_P1	39.1 minutes
+EVERYTHING	102.5 minutes
+EVERYTHING_P1	41.5 minutes

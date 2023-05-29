@@ -5,6 +5,7 @@
 2023ivv_P1 [235 4]
 2023hwg_P1 [252 10]
 2023iks_P1 [263 7]
+2023jnj_P1 [310 -27]
 2023gft_P1 [322 -3]
 
 2023jpm_P2 [92 -33]
@@ -26,5 +27,5 @@
 2023hnl_P3 [325 -33]
 
 2023hnl_TCTM [325 -33]
-EVERYTHING	98.0 minutes
-EVERYTHING_P1	35.9 minutes
+EVERYTHING	100.3 minutes
+EVERYTHING_P1	39.1 minutes

@@ -105,7 +105,7 @@ YSE 440	[314 -4] 34 min
 !!! 04:30
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
-DESIRT_330_z [332 -3]  (23 min) # Last 2 exposures are optional, cut if there is no extra time
+DESIRT_330_z [332 -3]  (23 min) 
 
 !!! 05:25
 YSE 393 [346 -10] (17 min)      

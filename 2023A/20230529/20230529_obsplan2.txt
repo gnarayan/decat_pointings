@@ -102,14 +102,14 @@ DEBASS/EVERYTHING/2023jnj_P1 [310 -27] (3min) HIGH PRIORITY
 YSE 440	[314 -4] 34 min         
 ### YSE 494 [330 3] 34 min          
 
-!!! 04:30
+!!! 04:45 ### possible you will have to start at 05:00 if the airmass is still too high
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
 
-!!! 05:25
+!!! 05:40
 YSE 393 [346 -10] (17 min)      
-YSE 495 [339 5]   (17 min)           
+### YSE 495 [339 5]   (17 min)           
 DEBASS/EVERYTHING/2023joj_P2 [354 -3] (3min) HIGH PRIORITY
 
 !!! 06:00

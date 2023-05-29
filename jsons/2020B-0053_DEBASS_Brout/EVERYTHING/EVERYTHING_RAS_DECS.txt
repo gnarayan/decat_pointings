@@ -14,6 +14,7 @@
 2023hro_P2 [189 -20]
 2023ito_P2 [191 13]
 2023hzy_P2 [207 0]
+2023jgq_P2 [223 19]
 2023ggw_P2 [225 16]
 2023goe_P2 [237 12]
 2023gqi_P2 [323 -21]
@@ -28,5 +29,5 @@
 2023hnl_P3 [325 -33]
 
 2023hnl_TCTM [325 -33]
-EVERYTHING	102.5 minutes
+EVERYTHING	105.6 minutes
 EVERYTHING_P1	41.5 minutes

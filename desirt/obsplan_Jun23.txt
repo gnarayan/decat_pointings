@@ -10,3 +10,72 @@ DESIRT_330_i [332 -3]  (17 min)  ## Last 2 exposures optional
 
 EXTRA 
 DESIRT_G15_i [~215 -1] (6 min)
+
+## June 7
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_190_gr (190 6) (30 min)
+DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_330_iz_short [332 -3]  (30 min)
+
+
+## June 13	
+
+DESIRT_190_gz (190 6) (37 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_220_gr [~220 8] (30 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) 
+
+
+## June 16	1st 
+
+DESIRT_190_gr (190 6) (30 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_220_gr [~220 8] (30 min)
+
+## June 19	
+
+DESIRT_190_gz (190 6) (37 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) 
+
+## June 22 1st
+
+DESIRT_190_gr (190 6) (30 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_220_gr [~220 8] (30 min)
+
+## June 25	
+
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) OPTIONAL
+DESIRT_S82_2_g [~0 0] (13 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+
+## June 28	
+
+DESIRT_220_iz_bright [~220 8] (33 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+DESIRT_S82_2_g [~0 0] (13 min)

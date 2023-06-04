@@ -1,0 +1,12 @@
+## June 4
+
+DESIRT_190_rz (190 6) (40 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_rz_bright [~220 8] (36 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_330_i [332 -3]  (17 min)  ## Last 2 exposures optional
+
+EXTRA 
+DESIRT_G15_i [~215 -1] (6 min)

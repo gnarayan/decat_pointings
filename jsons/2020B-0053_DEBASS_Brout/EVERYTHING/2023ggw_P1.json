@@ -40,19 +40,5 @@
         "comment": "2023ggw",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 30.0,
-        "RA": 225.56645,
-        "dec": 16.4207,
-        "object": "2023ggw_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023ggw",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

@@ -20,5 +20,5 @@
 
 2023fnj_P3 [176 6]
 
-EVERYTHING	80.1 minutes
-EVERYTHING_P1	77.0 minutes
+EVERYTHING	78.6 minutes
+EVERYTHING_P1	75.5 minutes

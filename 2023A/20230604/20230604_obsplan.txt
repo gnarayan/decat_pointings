@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.74
-UT -16 deg twilight: 2023-05-29T23:06:24.466 2023-05-30T10:15:15.306
-UT -15 deg twilight: 2023-05-29T23:01:35.187 2023-05-30T10:20:04.914
-UT -14 deg twilight: 2023-05-29T22:56:44.956 2023-05-30T10:24:55.329
-UT -12 deg twilight: 2023-05-29T22:47:02.109 2023-05-30T10:34:38.730
-UT -10 deg twilight: 2023-05-29T22:37:15.610 2023-05-30T10:44:25.830
-LOCAL -16 deg twilight: 05/29/2023,   19:06:24   06:15:15
-LOCAL -15 deg twilight: 05/29/2023,   19:01:35   06:20:04
-LOCAL -14 deg twilight: 05/29/2023,   18:56:44   06:24:55
-LOCAL -12 deg twilight: 05/29/2023,   18:47:02   06:34:38
-LOCAL -10 deg twilight: 05/29/2023,   18:37:15   06:44:25
-LOCAL night MIDPOINT: 05/30/2023,   00:40:49
+MOON ILLUMINATION: 0.98
+UT -16 deg twilight: 2023-06-04T23:05:36.808 2023-06-05T10:17:52.783
+UT -15 deg twilight: 2023-06-04T23:00:46.227 2023-06-05T10:22:43.781
+UT -14 deg twilight: 2023-06-04T22:55:54.358 2023-06-05T10:27:35.630
+UT -12 deg twilight: 2023-06-04T22:46:08.370 2023-06-05T10:37:22.034
+UT -10 deg twilight: 2023-06-04T22:36:18.513 2023-06-05T10:47:12.323
+LOCAL -16 deg twilight: 06/04/2023,   19:05:36   06:17:52
+LOCAL -15 deg twilight: 06/04/2023,   19:00:46   06:22:43
+LOCAL -14 deg twilight: 06/04/2023,   18:55:54   06:27:35
+LOCAL -12 deg twilight: 06/04/2023,   18:46:08   06:37:22
+LOCAL -10 deg twilight: 06/04/2023,   18:36:18   06:47:12
+LOCAL night MIDPOINT: 06/05/2023,   00:41:44
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -23,119 +23,118 @@ LOCAL night MIDPOINT: 05/30/2023,   00:40:49
 *** can do them ***
 *********************************************************
 
-Start with Pointing the Telescope 1 to 2 hours in RA to the West.
-After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
-jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
-Script will finish on its own or at -14 deg twilight.
 
+!!! after pointing is done
+YSE 2023ftr [138 19] (3 min)  HST    
+repeat until 18:45!!!!
 
+!!! 18:45  
+YSE 2023bee [134 -3]  (3 min) 
 
-!!! 18:56:44
-YSE 412 [115 -2] 8 min 
+!!! 18:50
 YSE 311 [123 -17] 8 min                 
-
-!!! 19:17		            
 eFEDS [129 1] 30 min 
-### YSE 2023bee [134 -3]  (3 min) 
-YSE 2023ftr [138 19] (3 min)  HST      
+
+!!! 19:28
 YSE 2023exu [158 12]  (3 min) HST  
 YSE 2023ext  [165 8] (3 min) HST   
 DEBASS/EVERYTHING/2023hsw_P1 [166 10] (3min)  DROP Z-BAND TO SAVE TIME
 
-!!! 20:00
+!!! 19:40
 2022A-499674_Shen/COSMOS.json [150 2] 0.5h 
 
-!!! 20:30
+!!! 20:10
 DEBASS/EVERYTHING/2023iol_P1 [150 -5] (3min) 
 DEBASS/EVERYTHING/2023iwu_P1 [154 -5] (3min) 
 YSE 2023grn [152 -13]   (3min)       
-etale.z.15min.json [160 -60] 15 min     ### skip if behind!
-### etale.i.15min.json [160 -60] 15 min     
+### etale.z.15min.json [160 -60] 15 min    
+etale.i.15min.json [160 -60] 15 min      ### skip if behind!
 ### etale.r.15min.json [160 -60] 15 min     
 ### etale.g.30min.json [160 -60] 30 min     
 
-!!! 20:53
-### YSE 2023ggg [174 3] (3min) 
-### YSE 2023clx [175 15] (3 min) 
-### YSE 2022zut [175 11] 3 min    HST          
-### YSE 2023fot [185 10] (3 min)  HST    ### high priority
-### YSE 525 [189 10] 34 min                   
+!!! 20:35
+YSE 2023ggg [174 3] (3min) 
+YSE 2023clx [175 15] (3 min) 
+YSE 2022zut [175 11] 3 min    HST          
+YSE 2023fot [185 10] (3 min)  HST    
+YSE 525 [189 10] 34 min                   
 
-!!! 20:53
-OMLApex.z1_230529.json  [166 -24]   (OMLApex total 68 min) 
-OMLApex.z2_230529.json  [166 -24]   
-YSE 2023bu [178 -18]  (2 min) HST      
+!!! 21:23
+OMLApex.z1_230604.json  [166 -24]   (OMLApex total 68 min) 
+OMLApex.z2_230604.json  [166 -24]   
+YSE 2023bu [178 -18]  (3 min) HST      
 DEBASS/EVERYTHING/2023hro_P1 [189 -20] (3min) DROP Z-BAND TO SAVE TIME
-YSE 2023huy [199 -16] (2 min)
+YSE 2023huy [199 -16] (3 min)
 DEBASS/EVERYTHING/2023gfs_P1 [194 -12] (3min) OPTIONAL
-YSE 2023emq [203 -23] (2 min)    			  ### high priority!
+YSE 2023emq [203 -23] (3 min)    			  ### high priority!
 YSE 2023hym 213 -45 (3 min)                   ### HIGH PRIORITY!
 
-!!! 22:15
+!!! 22:48
 DEBASS/EVERYTHING/2023hzy_P1 [207 0] (3min)  DROP Z-BAND TO SAVE TIME
 DEBASS/EVERYTHING/2023ito_P1 [191 13] (3min) 
 DEBASS/EVERYTHING/2023iek_P1 [188 10] (3min) 
-DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
+DESIRT_190_rz (190 6) (40 min)
 
-!!! 22:35
-### YSE 477 [214 5] 17 min   
+!!! 23:40
+YSE 477 [214 5] 17 min   
 
-!!! 22:55
-DESIRT_220_gz [~220 8] (37 min)
-DESIRT_220_r [~220 8] (16 min)
-DESIRT_G15_g [~215 -1] (6 min)
-DESIRT_G15_z [~215 -1] (9 min)
+!!! 23:57
+DESIRT_220_rz_bright [~220 8] (36 min)
 DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
 
 
-!!! 00:10
+!!! 00:50
 DEBASS/EVERYTHING/2023ggw_P1 [225 16] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023jgq_P1 [223 19] (3min) 
 DEBASS/EVERYTHING/2023goe_P1 [237 12] (3min) OPTIONAL
-YSE 583 [236 20] 8 min            ### SKIP IF BEHIND but only if skipping  428/376 is not enough!!!!	 
-YSE 531 [230 11] 8 min 			  ### SKIP IF BEHIND but only if skipping  428/376 is not enough!!!!
+YSE 583 [236 20] 8 min            ### SKIP IF BEHIND !!!!	 
+YSE 531 [230 11] 8 min 			  ### SKIP IF BEHIND !!!!
 
-!!! 00:35                 
+!!! 01:15                 
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (3min) 
 YSE 428	[228 -4] 8 min             ### SKIP IF BEHIND !!!!
 YSE 376	[224 -8] 8 min             ### SKIP IF BEHIND !!!! 	    
 DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)  DROP Z-BAND TO SAVE TIME
 DEBASS/EVERYTHING/2023inb_P1 [240 -31] (3min) 
 
-!!! 01:00  
+!!! 01:40  
 DEBASS/EVERYTHING/2023hwg_P1 [252 10] (3min)  DROP Z-BAND TO SAVE TIME
 YSE 2023gxf [257 19] (4 min)
 DEBASS/EVERYTHING/2023iks_P1 [263 7] (3min) 
-luhman.may29.32min.json [270 -14] (33 min)
-DECaPSEast [270 -29] 30 min
+### luhman.may29.32min.json [270 -14] (33 min)
+### DECaPSEast [270 -29] 30 min
 
-!!! 02:13
+!!! 01:50
 YSE 2023hcx [302 5] (3 min) HST   
 DEBASS/EVERYTHING/2023gft_P1 [322 -3] (3min) 
 DEBASS/EVERYTHING/2023gqi_P1 [323 -21] (3min) 
-YSE 440	[314 -4] 17 min         
+YSE 440	[314 -4] 25 min   
+*** Repeat YSE 440 until 02:50am!!!!  ******
+
+!!! 02:50  ##### not before 02:50!!! otherwise to high airmass!
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_330_i [332 -3]  (17 min)  ## Last 2 exposures optional
+
+!!! 03:50      
 YSE 544 [321 9] 17 min                  
 YSE 494 [330 3] 17 min 
 
-!!! 03:20
-DESIRT_330_g [332 -3]  (13 min)
-DESIRT_330_r [332 -3]  (17 min)
-DESIRT_330_z [332 -3]  (23 min) # Last 2 exposures are optional, cut if there is no extra time
 
-!!! 04:17
+!!! 04:24
 YSE 495 [339 5]   (17 min)     
 YSE 393 [346 -10] (17 min)
 
 !!! 04:54
 elais_ddf_seq_A/B  [8, -43] 1h
 
-
 !!! 05:54
-YSE 296 [17 -17] (17 min)   ### Skip r filter if behind!
-YSE 448 [16 3] (17 min)     ### Skip if behind!
+YSE 296 [17 -17] (17 min)   ### Skip g filter if behind!
+YSE 448 [16 3] (17 min)     ### Skip g filter if behind!
 
 
-!!! 06:24:55 slew to Asteroid fields
+!!! 06:27:35 slew to Asteroid fields
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

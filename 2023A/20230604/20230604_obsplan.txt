@@ -134,8 +134,6 @@ YSE 296 [17 -17] (17 min)   ### Skip g filter if behind!
 YSE 448 [16 3] (17 min)     ### Skip g filter if behind!
 
 
-!!! 06:27:35 slew to Asteroid fields
-using morning twilight asteroid script in
-jsons/2021B-0909_Twilight_Sheppard
+06:37:22: end of observation
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

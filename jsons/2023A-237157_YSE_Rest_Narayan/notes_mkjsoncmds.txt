@@ -750,6 +750,8 @@ mkjson_yse_nofilterswitch.py  -f g,r,i  2023bee 2023ftr 2023grn 2023exu 2023ext 
 mkjson_yse_nofilterswitch.py  -f r,i,z 2023hym 2023gxf 2023hcx -d 230604 -e 25 -n 2 --sortbyra
 mkjson_yse_nofilterswitch.py  -f r,i  2023emq  -d 230604 -e 50 -n 2 --sortbyra
 mkjson_yse_nofilterswitch.py  -f z,i,r  2023ftr  -d 230604 -e 15 -n 2 --sortbyra
+
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2021lwx  -d 230604 -e 50 -n 1 --sortbyra
 git add 230604
 git add 230604/*.json
 
@@ -864,6 +866,8 @@ YSE_pointings2fieldcenters.py --addSN    2023hym 213.396583 -45.429044 -vv --ove
 YSE_pointings2fieldcenters.py --addSN    2023hro 190.9442708     -20.1582333 -vv --overw
 YSE_pointings2fieldcenters.py --addSN    2023hwg 251.9231583     9.6699222 -vv --overw
 YSE_pointings2fieldcenters.py --addSN    2023huy 198.9616208     -16.2050694 -vv --overw
+
+YSE_pointings2fieldcenters.py --addSN    2021lwx 318.451701636 +27.4306881629 -vv --overw
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan

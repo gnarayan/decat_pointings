@@ -119,6 +119,7 @@ DESIRT_330_i [332 -3]  (17 min)  ## Last 2 exposures optional
 
 !!! 03:50      
 YSE 544 [321 9] 17 min                  
+2021lwx [318 +27] 5 min
 YSE 494 [330 3] 17 min 
 
 

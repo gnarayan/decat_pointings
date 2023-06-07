@@ -1,0 +1,123 @@
+MOON ILLUMINATION: 0.78
+UT -16 deg twilight: 2023-06-07T23:05:29.079 2023-06-08T10:19:04.670
+UT -15 deg twilight: 2023-06-07T23:00:37.936 2023-06-08T10:23:56.219
+UT -14 deg twilight: 2023-06-07T22:55:45.431 2023-06-08T10:28:48.635
+UT -12 deg twilight: 2023-06-07T22:45:58.165 2023-06-08T10:38:36.224
+UT -10 deg twilight: 2023-06-07T22:36:06.945 2023-06-08T10:48:27.768
+LOCAL -16 deg twilight: 06/07/2023,   19:05:29   06:19:04
+LOCAL -15 deg twilight: 06/07/2023,   19:00:37   06:23:56
+LOCAL -14 deg twilight: 06/07/2023,   18:55:45   06:28:48
+LOCAL -12 deg twilight: 06/07/2023,   18:45:58   06:38:36
+LOCAL -10 deg twilight: 06/07/2023,   18:36:06   06:48:27
+LOCAL night MIDPOINT: 06/08/2023,   00:42:16
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them ***
+*********************************************************
+
+
+!!! after pointing is done
+YSE 2023exu [158 12]  (4 min) HST  
+DEBASS/EVERYTHING/2023iwu_P1 [154 -5] (3min)
+DEBASS/EVERYTHING/2023iol_P1 [150 -5] (3min)
+YSE 2023ext  [165 8] (3 min) HST   
+
+!!! 18:55
+### YSE 311 [123 -17] 8 min                 
+eFEDS [129 1] 30 min 
+
+!!! 19:25
+2022A-499674_Shen/COSMOS.json [150 2] 0.5h 
+YSE 2023grn [152 -13]   (3min)       
+### etale.z.15min.json [160 -60] 15 min    
+### etale.i.15min.json [160 -60] 15 min      
+### etale.r.15min.json [160 -60] 15 min     
+### etale.g.30min.json [160 -60] 30 min     
+
+!!! 20:09
+DEBASS/EVERYTHING/2023jvm_P1 [164 9] (3min)
+DEBASS/EVERYTHING/2023jwj_P1 [170 0] (3min)
+### YSE 2023ggg [174 3] (3min) 
+### YSE 2023clx [175 15] (3 min) 
+### YSE 2022zut [175 11] 3 min    HST          
+YSE 2023fot [185 10] (3 min)  HST    
+YSE 525 [189 10] 34 min 
+DEBASS/EVERYTHING/2023iek_P1 [188 10] (3min)
+DEBASS/EVERYTHING/2023ito_P1 [191 13] (3min)
+DEBASS/EVERYTHING/2023gfs_P1 [194 -12] (3min)
+
+
+!!! 20:55
+OMLApex_230607.json  [166 -24]   (OMLApex total 68 min) 
+OMLApex.extra_i_230607.json  [166 -24]   
+
+!!! 22:04
+### YSE 2023bu [178 -18]  (3 min) HST      
+YSE 2023huy [199 -16] (3 min)
+YSE 2023emq [203 -23] (6 min)  
+DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)  			  
+YSE 2023hym 213 -45 (3 min)                   
+
+!!! 22:25
+DESIRT_190_gr (190 6) (30 min)
+DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
+
+!!! 23:21
+YSE 477 [214 5] 17 min   
+
+!!! 23:38
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+
+
+!!! 00:43
+YSE 583 [236 20] 17 min            	 
+YSE 531 [230 11] 17 min 			  
+
+!!! 01:26                 
+YSE 428	[228 -4] 8 min             
+YSE 376	[224 -8] 8 min                 
+
+!!! 01:40  
+YSE 2023gxf [257 19] (3 min)
+luhman.jun07.32min.json [270 -14] (33 min)
+DECaPSEast [270 -29] 30 min
+
+!!! 01:50
+YSE 2023hcx [302 5] (2 min) HST
+### YSE 440	[314 -4] 25 min
+
+!!! 02:50  ##### not before 02:50!!! otherwise to high airmass!
+DESIRT_330_iz_short [332 -3]  (30 min)
+
+!!! 03:50      
+YSE 544 [321 9] 8 min      ### Skip if behind!            
+YSE 494 [330 3] 8 min      ### Skip if behind!
+
+
+!!! 04:24
+YSE 495 [339 5]   (8 min)  ### Skip if behind!     
+YSE 393 [346 -10] (8 min)  ### Skip if behind! 
+
+!!! 04:54
+elais_ddf_seq_A/B  [8, -43] 1h
+
+!!! 05:54
+YSE 296 [17 -17] (17 min)   
+YSE 448 [16 3] (17 min)     ### Skip g filter if behind!
+
+
+06:37:22: end of observation
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

@@ -25,16 +25,16 @@ LOCAL night MIDPOINT: 06/08/2023,   00:42:16
 
 
 !!! after pointing is done
-YSE 2023exu [158 12]  (4 min) HST  
+YSE 2023exu [158 12]  (3 min) HST  
 DEBASS/EVERYTHING/2023iwu_P1 [154 -5] (3min)
 DEBASS/EVERYTHING/2023iol_P1 [150 -5] (3min)
 YSE 2023ext  [165 8] (3 min) HST   
 
-!!! 18:55
+!!! 18:57
 ### YSE 311 [123 -17] 8 min                 
 eFEDS [129 1] 30 min 
 
-!!! 19:25
+!!! 19:27
 2022A-499674_Shen/COSMOS.json [150 2] 0.5h 
 YSE 2023grn [152 -13]   (3min)       
 ### etale.z.15min.json [160 -60] 15 min    
@@ -42,8 +42,9 @@ YSE 2023grn [152 -13]   (3min)
 ### etale.r.15min.json [160 -60] 15 min     
 ### etale.g.30min.json [160 -60] 30 min     
 
-!!! 20:09
+!!! 20:00
 DEBASS/EVERYTHING/2023jvm_P1 [164 9] (3min)
+DEBASS/EVERYTHING/2023hsw_P2 [166 10] (4min)
 DEBASS/EVERYTHING/2023jwj_P1 [170 0] (3min)
 ### YSE 2023ggg [174 3] (3min) 
 ### YSE 2023clx [175 15] (3 min) 
@@ -53,9 +54,10 @@ YSE 525 [189 10] 34 min
 DEBASS/EVERYTHING/2023iek_P1 [188 10] (3min)
 DEBASS/EVERYTHING/2023ito_P1 [191 13] (3min)
 DEBASS/EVERYTHING/2023gfs_P1 [194 -12] (3min)
+DEBASS/EVERYTHING/2023hro_P1 [189 -20] (4min) 
 
 
-!!! 20:55
+!!! 21:00
 OMLApex_230607.json  [166 -24]   (OMLApex total 68 min) 
 OMLApex.extra_i_230607.json  [166 -24]   
 
@@ -67,8 +69,13 @@ DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)
 YSE 2023hym 213 -45 (3 min)                   
 
 !!! 22:25
+DEBASS/EVERYTHING/2023hzy_P2 [207 0] (4min)
 DESIRT_190_gr (190 6) (30 min)
-DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
+DEBASS/EVERYTHING/2023jvj_P1 [208 16] (3min)
+### DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
+DEBASS/EVERYTHING/2023jgq_P1 [223 19] (3min)
+DEBASS/EVERYTHING/2023jwr_P1 [230 11] (3min)
+DEBASS/EVERYTHING/2023goe_P2 [237 12] (4min)
 
 !!! 23:21
 YSE 477 [214 5] 17 min   
@@ -82,24 +89,30 @@ DESIRT_G15_z [~215 -1] (9 min)
 
 
 !!! 00:43
-YSE 583 [236 20] 17 min            	 
-YSE 531 [230 11] 17 min 			  
+### YSE 583 [236 20] 17 min            	 
+### YSE 531 [230 11] 17 min 			  
 
 !!! 01:26                 
 YSE 428	[228 -4] 8 min             
 YSE 376	[224 -8] 8 min                 
 
-!!! 01:40  
+!!! 01:40 
+DEBASS/EVERYTHING/2023ivv_P1 [235 4] (3min)
+DEBASS/EVERYTHING/2023hwg_P1 [252 10] (3min) 
 YSE 2023gxf [257 19] (3 min)
+DEBASS/EVERYTHING/2023iks_P1 [263 7] (3min)
+DEBASS/EVERYTHING/2023jww_P1 [270 18] (3min)
 luhman.jun07.32min.json [270 -14] (33 min)
+DEBASS/EVERYTHING/2023inb_P1 [240 -31] (3min)
 DECaPSEast [270 -29] 30 min
 
 !!! 01:50
 YSE 2023hcx [302 5] (2 min) HST
-### YSE 440	[314 -4] 25 min
+### YSE 440	[314 -4] 17 min
 
 !!! 02:50  ##### not before 02:50!!! otherwise to high airmass!
 DESIRT_330_iz_short [332 -3]  (30 min)
+DEBASS/EVERYTHING/2023jsb_P1 [326 14] (3min)
 
 !!! 03:50      
 YSE 544 [321 9] 8 min      ### Skip if behind!            
@@ -110,14 +123,14 @@ YSE 494 [330 3] 8 min      ### Skip if behind!
 YSE 495 [339 5]   (8 min)  ### Skip if behind!     
 YSE 393 [346 -10] (8 min)  ### Skip if behind! 
 
-!!! 04:54
+!!! 05:04
 elais_ddf_seq_A/B  [8, -43] 1h
 
-!!! 05:54
+!!! 06:04
 YSE 296 [17 -17] (17 min)   
-YSE 448 [16 3] (17 min)     ### Skip g filter if behind!
+YSE 448 [16 3] (17 min)     
 
 
-06:37:22: end of observation
+06:38:36: end of observation
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

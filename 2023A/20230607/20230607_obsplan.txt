@@ -112,10 +112,10 @@ DESIRT_330_iz_short [332 -3]  (30 min)
 DEBASS/EVERYTHING/2023jsb_P1 [326 14] (3min)
 
 !!! 03:40      
-YSE 544 [321 9] 8 min      ### Skip if behind!            
-YSE 494 [330 3] 8 min      ### Skip if behind!
-YSE 495 [339 5]   (8 min)  ### Skip if behind!     
-YSE 393 [346 -10] (8 min)  ### Skip if behind! 
+YSE 544 [321 9] 8 min      ### Skip if behind!  skip i band first          
+YSE 494 [330 3] 8 min      ### Skip if behind!  skip i band first  
+YSE 495 [339 5]   (8 min)  ### Skip if behind!  skip i band first       
+YSE 393 [346 -10] (8 min)  ### Skip if behind!  skip i band first   
 
 ***** extra time *****
 

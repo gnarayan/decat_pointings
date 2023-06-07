@@ -61,14 +61,14 @@ DEBASS/EVERYTHING/2023hro_P1 [189 -20] (4min)
 OMLApex_230607.json  [166 -24]   (OMLApex total 68 min) 
 OMLApex.extra_i_230607.json  [166 -24]   
 
-!!! 22:04
+!!! 22:08
 ### YSE 2023bu [178 -18]  (3 min) HST      
 YSE 2023huy [199 -16] (3 min)
 YSE 2023emq [203 -23] (6 min)  
 DEBASS/EVERYTHING/2023hka_P1 [212 -26] (3min)  			  
 YSE 2023hym 213 -45 (3 min)                   
 
-!!! 22:25
+!!! 22:23
 DEBASS/EVERYTHING/2023hzy_P2 [207 0] (4min)
 DESIRT_190_gr (190 6) (30 min)
 DEBASS/EVERYTHING/2023jvj_P1 [208 16] (3min)
@@ -77,10 +77,10 @@ DEBASS/EVERYTHING/2023jgq_P1 [223 19] (3min)
 DEBASS/EVERYTHING/2023jwr_P1 [230 11] (3min)
 DEBASS/EVERYTHING/2023goe_P2 [237 12] (4min)
 
-!!! 23:21
+!!! 23:10
 YSE 477 [214 5] 17 min   
 
-!!! 23:38
+!!! 23:27
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_220_gz [~220 8] (37 min)
 DESIRT_G15_g [~215 -1] (6 min)
@@ -88,16 +88,16 @@ DESIRT_G15_r [~215 -1] (7 min)
 DESIRT_G15_z [~215 -1] (9 min)
 
 
-!!! 00:43
-### YSE 583 [236 20] 17 min            	 
-### YSE 531 [230 11] 17 min 			  
-
-!!! 01:26                 
-YSE 428	[228 -4] 8 min             
-YSE 376	[224 -8] 8 min                 
-
-!!! 01:40 
+!!! 00:33
+YSE 583 [236 20] 17 min            	 
+YSE 531 [230 11] 17 min 			  
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (3min)
+
+!!! 01:10                
+YSE 428	[228 -4] 17 min             
+YSE 376	[224 -8] 17 min                 
+
+!!! 01:44 
 DEBASS/EVERYTHING/2023hwg_P1 [252 10] (3min) 
 YSE 2023gxf [257 19] (3 min)
 DEBASS/EVERYTHING/2023iks_P1 [263 7] (3min)
@@ -106,22 +106,18 @@ luhman.jun07.32min.json [270 -14] (33 min)
 DEBASS/EVERYTHING/2023inb_P1 [240 -31] (3min)
 DECaPSEast [270 -29] 30 min
 
-!!! 01:50
-YSE 2023hcx [302 5] (2 min) HST
-### YSE 440	[314 -4] 17 min
-
-!!! 02:50  ##### not before 02:50!!! otherwise to high airmass!
+!!! 03:05
+YSE 2023hcx [302 5] (2 min) HST   
 DESIRT_330_iz_short [332 -3]  (30 min)
 DEBASS/EVERYTHING/2023jsb_P1 [326 14] (3min)
 
-!!! 03:50      
+!!! 03:40      
 YSE 544 [321 9] 8 min      ### Skip if behind!            
 YSE 494 [330 3] 8 min      ### Skip if behind!
-
-
-!!! 04:24
 YSE 495 [339 5]   (8 min)  ### Skip if behind!     
 YSE 393 [346 -10] (8 min)  ### Skip if behind! 
+
+***** extra time *****
 
 !!! 05:04
 elais_ddf_seq_A/B  [8, -43] 1h

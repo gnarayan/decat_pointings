@@ -124,6 +124,7 @@ elais_ddf_seq_A/B  [8, -43] 1h
 
 !!! 06:32
 YSE 296 [17 -17] (8 min)   
+DESIRT_triple_rz [35 -32] (5 min)
 ### YSE 448 [16 3] (17 min)     
 
 

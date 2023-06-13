@@ -112,17 +112,17 @@ DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
 DEBASS/EVERYTHING/2023jsb_P1 [326 14]  (3min) drop z to save time
 
-!!! 04:10      
+!!! 04:20      
 YSE 544 [321 9] 17 min               
 YSE 494 [330 3] 17 min      
 YSE 495 [339 5]   (17 min)       
 YSE 393 [346 -10] (17 min)  
 DEBASS/EVERYTHING/2023kll_P2 [42 -39] (3min) OPTIONAL
 
-!!! 05:23
+!!! 05:32
 elais_ddf_seq_A/B  [8, -43] 1h
 
-!!! 06:23
+!!! 06:32
 YSE 296 [17 -17] (8 min)   
 ### YSE 448 [16 3] (17 min)     
 

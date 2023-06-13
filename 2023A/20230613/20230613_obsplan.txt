@@ -105,6 +105,7 @@ DEBASS/EVERYTHING/2023gqi_P2 [323 -21] (3min) OPTIONAL
 
 !!! 03:10
 YSE 2023hcx [302 5] (2 min) HST   
+YSE 440	[314 -4] 8 min
 DEBASS/EVERYTHING/2023gft_P2 [322 -3] (3min) OPTIONAL
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
@@ -122,7 +123,7 @@ DEBASS/EVERYTHING/2023kll_P2 [42 -39] (3min) OPTIONAL
 elais_ddf_seq_A/B  [8, -43] 1h
 
 !!! 06:23
-YSE 296 [17 -17] (17 min)   
+YSE 296 [17 -17] (8 min)   
 ### YSE 448 [16 3] (17 min)     
 
 

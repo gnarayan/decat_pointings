@@ -8,6 +8,7 @@
 2023hka_P1 [212 -26]
 2023hzy_P1 [207 0]
 2023jvj_P1 [208 16]
+2023kbu_P1 [221 18]
 2023jgq_P1 [223 19]
 2023jwr_P1 [230 11]
 2023inb_P1 [240 -31]
@@ -18,9 +19,13 @@
 
 2023kll_P2 [42 -39]
 2023jwj_P2 [170 0]
+2023kjw_P2 [200 -22]
+2023kml_P2 [248 5]
+2023kin_P2 [296 -58]
 2023gqi_P2 [323 -21]
 2023gft_P2 [322 -3]
 
+2023kmn_P3 [157 8]
 2023jwk_P3 [175 -2]
 2023fnj_P3 [176 6]
 2023gfs_P3 [194 -12]
@@ -28,5 +33,5 @@
 2023goe_P3 [237 12]
 2023jww_P3 [270 17]
 
-EVERYTHING	95.1 minutes
-EVERYTHING_P1	63.7 minutes
+EVERYTHING	107.8 minutes
+EVERYTHING_P1	64.5 minutes

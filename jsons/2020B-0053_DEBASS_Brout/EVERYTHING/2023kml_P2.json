@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "g",
+        "exptime": 15.0,
+        "RA": 248.36274,
+        "dec": 5.53669,
+        "object": "2023kml_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023kml",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 248.36274,
+        "dec": 5.53669,
+        "object": "2023kml_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023kml",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

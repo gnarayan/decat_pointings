@@ -51,6 +51,7 @@ DESIRT_220_gz [~220 8] (37 min)
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_triple_gr [35 -32] (4 min)
 
 ## June 22 1st
 

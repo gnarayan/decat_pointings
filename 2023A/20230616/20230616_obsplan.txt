@@ -43,6 +43,7 @@ DEBASS/EVERYTHING/2023jvm_P1 [164 9] (2min)
 DEBASS/EVERYTHING/2023hsw_P1 [166 10] (2min)
 DEBASS/EVERYTHING/2023jwj_P1 [170 0] (2min)
 YSE 2023ggg [174 3] (3min) 
+DEBASS/EVERYTHING/2023kos_P2 [171 18] (2min) OPTIONAL
 YSE 2023clx [175 15] (3 min) 
 YSE 2022zut [175 11] 3 min    HST          
 YSE 2023fot [185 10] (3 min)  HST    
@@ -65,6 +66,7 @@ YSE 2023hym 213 -45 (3 min)
 DESIRT_190_gz (190 6) (37 min)
 DEBASS/EVERYTHING/2023jvj_P1 [208 16] (2min)
 DEBASS/EVERYTHING/2023kbu_P1 [221 18] (2min)
+DEBASS/EVERYTHING/2023ggw_P2 [225 16] (2min) OPTIONAL
 DEBASS/EVERYTHING/2023jgq_P1 [223 19] (2min)
 DEBASS/EVERYTHING/2023jwr_P1 [230 11] (2min)
 
@@ -80,6 +82,7 @@ DESIRT_G15_r [~215 -1] (7 min)
 ### YSE 583 [236 20] 8 min               	 
 ### YSE 531 [230 11] 8 min 	      	  
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (2min)
+DEBASS/EVERYTHING/2023kbe_P1 [242 3] (2min)
 DEBASS/EVERYTHING/2023kml_P2 [248 5] (2min) OPTIONAL
 ### YSE 428	[228 -4] 8 min      ### skip if behind schedule          
 ### YSE 376	[224 -8] 8 min      ### skip if behind schedule             

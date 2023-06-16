@@ -40,19 +40,5 @@
         "comment": "2023kbu",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 221.99289,
-        "dec": 18.36251,
-        "object": "2023kbu_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023kbu",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

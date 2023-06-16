@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.16
-UT -16 deg twilight: 2023-06-13T23:05:44.424 2023-06-14T10:21:12.028
-UT -15 deg twilight: 2023-06-13T23:00:52.382 2023-06-14T10:26:04.355
-UT -14 deg twilight: 2023-06-13T22:55:59.021 2023-06-14T10:30:57.571
-UT -12 deg twilight: 2023-06-13T22:46:09.883 2023-06-14T10:40:46.830
-UT -10 deg twilight: 2023-06-13T22:36:16.664 2023-06-14T10:50:40.138
-LOCAL -16 deg twilight: 06/13/2023,   19:05:44   06:21:12
-LOCAL -15 deg twilight: 06/13/2023,   19:00:52   06:26:04
-LOCAL -14 deg twilight: 06/13/2023,   18:55:59   06:30:57
-LOCAL -12 deg twilight: 06/13/2023,   18:46:09   06:40:46
-LOCAL -10 deg twilight: 06/13/2023,   18:36:16   06:50:40
-LOCAL night MIDPOINT: 06/14/2023,   00:43:28
+MOON ILLUMINATION: 0.01
+UT -16 deg twilight: 2023-06-16T23:06:06.567 2023-06-17T10:22:06.126
+UT -15 deg twilight: 2023-06-16T23:01:14.200 2023-06-17T10:26:58.670
+UT -14 deg twilight: 2023-06-16T22:56:20.635 2023-06-17T10:31:52.108
+UT -12 deg twilight: 2023-06-16T22:46:30.934 2023-06-17T10:41:41.837
+UT -10 deg twilight: 2023-06-16T22:36:37.112 2023-06-17T10:51:35.841
+LOCAL -16 deg twilight: 06/16/2023,   19:06:06   06:22:06
+LOCAL -15 deg twilight: 06/16/2023,   19:01:14   06:26:58
+LOCAL -14 deg twilight: 06/16/2023,   18:56:20   06:31:52
+LOCAL -12 deg twilight: 06/16/2023,   18:46:30   06:41:41
+LOCAL -10 deg twilight: 06/16/2023,   18:36:37   06:51:35
+LOCAL night MIDPOINT: 06/17/2023,   00:44:06
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -25,77 +25,76 @@ LOCAL night MIDPOINT: 06/14/2023,   00:43:28
 
 
 !!! after pointing is done 18:40+
+YSE 311 [123 -17] 8 min              *** skip if after 18:48   
 YSE 2023exu [158 12]  (3 min) HST  
-DEBASS/EVERYTHING/2023iwu_P1 [154 -5] (2min)
-DEBASS/EVERYTHING/2023iol_P1 [150 -5] (2min)
-YSE 2023ext  [165 8] (3 min) HST   
 
-!!! 18:56
+!!! 18:52
 2022A-499674_Shen/COSMOS.json [150 2] 0.5h 
+DEBASS/EVERYTHING/2023iol_P1 [150 -5] (2min)
+DEBASS/EVERYTHING/2023iwu_P1 [154 -5] (2min)
+
+!!! 19:30
+YSE 2023ext  [165 8] (3 min) HST   
 YSE 2023grn [152 -13]   (3min)       
 ### etale.z.15min.json [160 -60] 15 min    
 ### etale.i.15min.json [160 -60] 15 min      
-### etale.r.15min.json [160 -60] 15 min     
-etale.g.30min.json [160 -60] 30 min     
+etale.r.15min.json [160 -60] 15 min     
+### etale.g.30min.json [160 -60] 30 min     
 
-!!! 20:00
+!!! 19:51
 DEBASS/EVERYTHING/2023jvm_P1 [164 9] (2min)
 DEBASS/EVERYTHING/2023hsw_P1 [166 10] (2min)
 DEBASS/EVERYTHING/2023jwj_P1 [170 0] (2min)
-YSE 2023ggg [174 3] (3min) 
+### YSE 2023ggg [174 3] (3min) 
 DEBASS/EVERYTHING/2023kos_P2 [171 18] (2min) OPTIONAL
-YSE 2023clx [175 15] (3 min) 
-YSE 2022zut [175 11] 3 min    HST          
+### YSE 2023clx [175 15] (3 min) 
+### YSE 2022zut [175 11] 3 min    HST          
 YSE 2023fot [185 10] (3 min)  HST    
-### YSE 525 [189 10] 34 min 
+YSE 525 [189 10] 34 min 
 DEBASS/EVERYTHING/2023iek_P1 [188 10] (2min)
 DEBASS/EVERYTHING/2023ito_P1 [191 13] (2min)
 
 
-!!! 20:30
-OMLApex.z1_230613.json  [166 -24]   (OMLApex total 68 min) 
-OMLApex.z2_230613.json  [166 -24]   
-
-!!! 21:38
+!!! 20:41
+OMLApex_230616.json  [166 -24]   (36 min) 
 ### YSE 2023bu [178 -18]  (3 min) HST      
-YSE 2023huy [199 -16] (3 min)
-YSE 2023emq [203 -23] (6 min)  
+### YSE 2023huy [199 -16] (3 min)
+### YSE 2023emq [203 -23] (6 min)  
 YSE 2023hym 213 -45 (3 min)                   
 
-!!! 22:00
-DESIRT_190_gz (190 6) (37 min)
+!!! 21:21
+DESIRT_190_gr (190 6) (30 min)
 DEBASS/EVERYTHING/2023jvj_P1 [208 16] (2min)
 DEBASS/EVERYTHING/2023kbu_P1 [221 18] (2min)
 DEBASS/EVERYTHING/2023ggw_P2 [225 16] (2min) OPTIONAL
 DEBASS/EVERYTHING/2023jgq_P1 [223 19] (2min)
 DEBASS/EVERYTHING/2023jwr_P1 [230 11] (2min)
 
-!!! 22:52
+!!! 22:01
 YSE 477 [214 5] 8 min   
 DESIRT_220_gr [~220 8] (30 min)
 DESIRT_G15_g [~215 -1] (6 min)
-DESIRT_G15_z [~215 -1] (9 min)
 DESIRT_G15_r [~215 -1] (7 min) 
 
-
-!!! 23:52
-### YSE 583 [236 20] 8 min               	 
-### YSE 531 [230 11] 8 min 	      	  
+!!! 22:54
+YSE 583 [236 20] 8 min               	 
+YSE 531 [230 11] 8 min 	      	  
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (2min)
 DEBASS/EVERYTHING/2023kbe_P1 [242 3] (2min)
 DEBASS/EVERYTHING/2023kml_P2 [248 5] (2min) OPTIONAL
-### YSE 428	[228 -4] 8 min      ### skip if behind schedule          
-### YSE 376	[224 -8] 8 min      ### skip if behind schedule             
+YSE 428	[228 -4] 8 min                
+YSE 376	[224 -8] 8 min                  
 
-!!! 00:00
+!!! 23:32
 YSE 2023gxf [257 19] (3 min)
 DEBASS/EVERYTHING/2023iks_P1 [263 7] (2min)
-luhman.jun13.32min.txt [270 -14] (33 min)
+luhman.jun16.32min.txt [270 -14] (33 min)
+DECaPSEast [270 -29] 30 min
 
-!!! 00:42
+!!! 00:40
 DEBASS/EVERYTHING/2023inb_P2 [240 -31] (2min) OPTIONAL
 DEBASS/EVERYTHING/2023kin_P2 [296 -58] (2min) OPTIONAL
 
-MIDPOINT
+MIDPOINT 00:44:06
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

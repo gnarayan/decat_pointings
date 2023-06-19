@@ -26,8 +26,8 @@ LOCAL night MIDPOINT: 06/14/2023,   00:43:28
 
 !!! after pointing is done 18:40+
 YSE 2023exu [158 12]  (3 min) HST  
-DEBASS/EVERYTHING/2023iwu_P1 [154 -5]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023iol_P1 [150 -5]  (3min) drop z to save time
+DEBASS/EVERYTHING/2023iwu_P1 [154 -5] (2min) 
+DEBASS/EVERYTHING/2023iol_P1 [150 -5] (2min)
 YSE 2023ext  [165 8] (3 min) HST   
 
 !!! 18:56
@@ -39,17 +39,15 @@ YSE 2023grn [152 -13]   (3min)
 etale.g.30min.json [160 -60] 30 min     
 
 !!! 20:00
-DEBASS/EVERYTHING/2023jvm_P1 [164 9]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023hsw_P1 [166 10]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023jwj_P2 [170 0] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023jvm_P1 [164 9] (2min)
+DEBASS/EVERYTHING/2023jwj_P1 [170 0] (2min)
 YSE 2023ggg [174 3] (3min) 
 YSE 2023clx [175 15] (3 min) 
+DEBASS/EVERYTHING/2023kos_P1 [171 18] (2min)
 YSE 2022zut [175 11] 3 min    HST          
 YSE 2023fot [185 10] (3 min)  HST    
 ### YSE 525 [189 10] 34 min 
-DEBASS/EVERYTHING/2023iek_P1 [188 10]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023ito_P1 [191 13]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023hro_P1 [189 -20]  (3min) drop z to save time
+DEBASS/EVERYTHING/2023ito_P1 [191 13] (2min)
 
 
 !!! 20:30
@@ -59,18 +57,17 @@ OMLApex.z2_230613.json  [166 -24]
 !!! 21:38
 ### YSE 2023bu [178 -18]  (3 min) HST      
 YSE 2023huy [199 -16] (3 min)
-DEBASS/EVERYTHING/2023kjw_P2 [200 -22] (3min) OPTIONAL
 YSE 2023emq [203 -23] (6 min)  
-DEBASS/EVERYTHING/2023hka_P1 [212 -26]  (3min) drop z to save time
 YSE 2023hym 213 -45 (3 min)                   
 
 !!! 22:00
-DEBASS/EVERYTHING/2023hzy_P1 [207 0]  (3min) drop z to save time
 DESIRT_190_gz (190 6) (37 min)
-DEBASS/EVERYTHING/2023jvj_P1 [208 16]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023kbu_P1 [221 18]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023jgq_P1 [223 19]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023jwr_P1 [230 11]  (3min) drop z to save time
+DEBASS/EVERYTHING/2023jvj_P1 [208 16] (2min)
+DEBASS/EVERYTHING/2023kbu_P1 [222 18] (2min)
+DEBASS/EVERYTHING/2023jgq_P1 [223 19] (2min)
+DEBASS/EVERYTHING/2023ggw_P2 [225 16] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023jwr_P1 [230 11] (2min)
+DEBASS/EVERYTHING/2023kmj_P1 [225 5] (2min)
 
 !!! 22:52
 YSE 477 [214 5] 8 min   
@@ -78,46 +75,45 @@ DESIRT_220_gr [~220 8] (30 min)
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (9 min)
 DESIRT_G15_r [~215 -1] (7 min) 
+DEBASS/EVERYTHING/2023kyb_P1 [217 -28] (2min)
 
 
 !!! 23:52
 ### YSE 583 [236 20] 8 min               	 
 ### YSE 531 [230 11] 8 min 	      	  
-DEBASS/EVERYTHING/2023ivv_P1 [235 4]  (3min) drop z to save time
-DEBASS/EVERYTHING/2023kml_P2 [248 5] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023ivv_P1 [235 4] (2min)
+DEBASS/EVERYTHING/2023kbe_P1 [242 3] (2min)
+DEBASS/EVERYTHING/2023kml_P1 [248 5] (2min)
 ### YSE 428	[228 -4] 8 min      ### skip if behind schedule          
 ### YSE 376	[224 -8] 8 min      ### skip if behind schedule             
 
 !!! 00:00
-DEBASS/EVERYTHING/2023hwg_P1 [252 10]  (3min) drop z to save time
 YSE 2023gxf [257 19] (3 min)
-DEBASS/EVERYTHING/2023iks_P1 [263 7]  (3min) drop z to save time
+DEBASS/EVERYTHING/2023iks_P1 [263 7] (2min)
 luhman.jun13.32min.txt [270 -14] (33 min)
 
 !!! 00:42
-DEBASS/EVERYTHING/2023inb_P1 [240 -31]  (3min) drop z to save time
 DECaPSEast [270 -29] 30 min
 
 !!! 01:15
 2023A-627924_Piatti/230613.json [273 -32] 109 min
-DEBASS/EVERYTHING/2023kin_P2 [296 -58] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023gqi_P2 [323 -21] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023kin_P1 [296 -58] (2min)
 
 !!! 03:10
 YSE 2023hcx [302 5] (2 min) HST   
 YSE 440	[314 -4] 8 min
-DEBASS/EVERYTHING/2023gft_P2 [322 -3] (3min) OPTIONAL
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
-DEBASS/EVERYTHING/2023jsb_P1 [326 14]  (3min) drop z to save time
+DEBASS/EVERYTHING/2023jsb_P1 [326 14] (2min)
 
 !!! 04:20      
 YSE 544 [321 9] 17 min               
 YSE 494 [330 3] 17 min      
 YSE 495 [339 5]   (17 min)       
+DEBASS/EVERYTHING/2023kxq_P2 [348 16] (3min) OPTIONAL
 YSE 393 [346 -10] (17 min)  
-DEBASS/EVERYTHING/2023kll_P2 [42 -39] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023kno_P1 [336 -12] (2min)
 
 !!! 05:32
 elais_ddf_seq_A/B  [8, -43] 1h

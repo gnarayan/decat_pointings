@@ -76,51 +76,56 @@ DESIRT_G15_z [~215 -1] (9 min)
 DEBASS/EVERYTHING/2023kyb_P1 [217 -28] (2min)
 
 !!! 23:07
-### YSE 583 [236 20] 8 min               	 
-### YSE 531 [230 11] 8 min 	      	  
+YSE 583 [236 20] 8 min               	 
+YSE 531 [230 11] 8 min 	      	  
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (2min)
 DEBASS/EVERYTHING/2023kbe_P1 [242 3] (2min)
 DEBASS/EVERYTHING/2023kml_P1 [248 5] (2min)
-### YSE 428	[228 -4] 8 min      ### skip if behind schedule          
-### YSE 376	[224 -8] 8 min      ### skip if behind schedule             
+YSE 428	[228 -4] 8 min           
+YSE 376	[224 -8] 17 min      ### skip g band if behind schedule             
 
-!!! 00:00
+!!! 23:55
 YSE 2023gxf [257 19] (3 min)
 DEBASS/EVERYTHING/2023iks_P1 [263 7] (2min)
 luhman.jun19.32min.json [270 -14] (33 min)
 
-!!! 00:42
+!!! 00:33
 DECaPSEast [270 -29] 30 min
 
-!!! 01:15
-2023A-627924_Piatti/230613.json [273 -32] 109 min
+!!! 01:03
+2023A-627924_Piatti/230619.json [273 -32] 37 min
 DEBASS/EVERYTHING/2023kin_P1 [296 -58] (2min)
 
-!!! 03:10
+!!! 01:43
 YSE 2023hcx [302 5] (2 min) HST   
 YSE 440	[314 -4] 8 min
+
+!!! 01:53   
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
 DEBASS/EVERYTHING/2023jsb_P1 [326 14] (2min)
 
-!!! 04:20      
-2021lwx [318 +27] 5 min  # high priority
+!!! 02:48      
 YSE 544 [321 9] 17 min               
 YSE 494 [330 3] 17 min      
 YSE 495 [339 5]   (17 min)       
 DEBASS/EVERYTHING/2023kxq_P2 [348 16] (3min) OPTIONAL
-YSE 393 [346 -10] (17 min)  
+2021lwx [318 27] 5 min  # high priority. This one needs to be done at 4am+- 30 min due to airmass
 DEBASS/EVERYTHING/2023kno_P1 [336 -12] (2min)
+YSE 393 [346 -10] (17 min)  
 
-!!! 05:32
+!!! 04:06
 elais_ddf_seq_A/B  [8, -43] 1h
 
-!!! 06:32:39  -14 deg twilight
+!!! 05:06
 YSE 296 [17 -17] (17 min)   
-YSE 448 [16 3] (17 min)     
-DESIRT_triple_rz [35 -32] (5 min)
+YSE 448 [16 3] (17 min)
 
+!!! 05:40
+X123.json [34, -4] 34 min  
+DESIRT_triple_rz [35 -32] (5 min)
+C3 [52, -28] 11 min 
 
 06:32:39: end of observation
 

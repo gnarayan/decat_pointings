@@ -32,5 +32,5 @@
 2023hwg_P3 [252 10]
 2023gft_P3 [322 -3]
 
-EVERYTHING	115.8 minutes
-EVERYTHING_P1	70.4 minutes
+EVERYTHING	111.2 minutes
+EVERYTHING_P1	65.7 minutes

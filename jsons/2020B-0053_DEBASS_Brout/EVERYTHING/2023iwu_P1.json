@@ -1,20 +1,6 @@
 [
     {
         "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 154.27261,
-        "dec": -5.92674,
-        "object": "2023iwu_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023iwu",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
         "filter": "i",
         "exptime": 15.0,
         "RA": 154.27261,

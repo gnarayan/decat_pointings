@@ -26,10 +26,9 @@ LOCAL night MIDPOINT: 06/20/2023,   00:44:45
 
 !!! after pointing is done 18:42+
 YSE 2023exu [158 12]  (3 min) HST  
-DEBASS/EVERYTHING/2023iwu_P1 [154 -5] (2min) 
-DEBASS/EVERYTHING/2023iol_P1 [150 -5] (2min)
 YSE 2023ext  [165 8] (3 min) HST   
 YSE 2023grn [152 -13]   (3min)       
+DEBASS/EVERYTHING/2023liz_P1 [159 -26] (2min)
 
 !!! 18:56:51  -14 deg twilight
 ### etale.z.15min.json [160 -60] 15 min    
@@ -38,7 +37,6 @@ etale.r.15min.json [160 -60] 15 min
 # etale.g.30min.json [160 -60] 30 min     
 
 !!! 19:15
-DEBASS/EVERYTHING/2023jvm_P1 [164 9] (2min)
 DEBASS/EVERYTHING/2023jwj_P1 [170 0] (2min)
 ### YSE 2023ggg [174 3] (3min) 
 ### YSE 2023clx [175 15] (3 min) 
@@ -46,7 +44,7 @@ DEBASS/EVERYTHING/2023kos_P1 [171 18] (2min)
 ### YSE 2022zut [175 11] 3 min    HST          
 YSE 2023fot [185 10] (3 min)  HST    
 YSE 525 [189 10] 34 min 
-DEBASS/EVERYTHING/2023ito_P1 [191 13] (2min)
+DEBASS/EVERYTHING/2023ito_P2 [191 13] (2min) OPTIONAL
 
 
 !!! 20:00
@@ -56,16 +54,17 @@ OMLApex_230619.extra_i.json  [166 -24]
 !!! 21:08
 ### YSE 2023bu [178 -18]  (3 min) HST      
 YSE 2023huy [199 -16] (3 min)
+DEBASS/EVERYTHING/2023kyb_P2 [217 -28] (2min) OPTIONAL
 ### YSE 2023emq [203 -23] (6 min)  
 YSE 2023hym 213 -45 (3 min)                   
 
 !!! 21:14
 DESIRT_190_gz (190 6) (37 min)
-DEBASS/EVERYTHING/2023jvj_P1 [208 16] (2min)
+DEBASS/EVERYTHING/2023ldi_P1 [204 1] (2min)
+DEBASS/EVERYTHING/2023jvj_P1 [208 16] (3min) drop z-band to save time
 DEBASS/EVERYTHING/2023kbu_P1 [222 18] (2min)
 DEBASS/EVERYTHING/2023jgq_P1 [223 19] (2min)
-DEBASS/EVERYTHING/2023ggw_P2 [225 16] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023jwr_P1 [230 11] (2min)
+DEBASS/EVERYTHING/2023jwr_P1 [230 11] (3min)  drop z-band to save time
 DEBASS/EVERYTHING/2023kmj_P1 [225 5] (2min)
 
 !!! 22:04
@@ -73,21 +72,21 @@ YSE 477 [214 5] 8 min
 DESIRT_220_gz [~220 8] (37 min)
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_z [~215 -1] (9 min)
-DEBASS/EVERYTHING/2023kyb_P1 [217 -28] (2min)
 
 !!! 23:07
 YSE 583 [236 20] 8 min               	 
 YSE 531 [230 11] 8 min 	      	  
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (2min)
-DEBASS/EVERYTHING/2023kbe_P1 [242 3] (2min)
-DEBASS/EVERYTHING/2023kml_P1 [248 5] (2min)
+DEBASS/EVERYTHING/2023kbe_P1 [242 3] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2023kml_P1 [248 5] (3min) drop z-band to save time
 YSE 428	[228 -4] 8 min           
 YSE 376	[224 -8] 17 min      ### skip g band if behind schedule             
 
 !!! 23:55
 YSE 2023gxf [257 19] (3 min)
-DEBASS/EVERYTHING/2023iks_P1 [263 7] (2min)
+DEBASS/EVERYTHING/2023iks_P2 [263 7] (2min) OPTIONAL
 luhman.jun19.32min.json [270 -14] (33 min)
+DEBASS/EVERYTHING/2023kin_P1 [296 -58] (2min) drop z-band to save time
 
 !!! 00:33
 DECaPSEast [270 -29] 30 min

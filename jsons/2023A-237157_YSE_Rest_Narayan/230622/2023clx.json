@@ -2,31 +2,31 @@
 {
 "count": 1,
 "expType": "object",
-"object": "2023exu",
-"filter": "g",
-"expTime": 25,
-"RA": "158.1645",
-"dec": "12.2674",
-"propid": "2023A-237157"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2023exu",
+"object": "2023clx",
 "filter": "r",
 "expTime": 25,
-"RA": "158.1645",
-"dec": "12.2674",
+"RA": "175.0371",
+"dec": "15.4145",
 "propid": "2023A-237157"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2023exu",
+"object": "2023clx",
 "filter": "i",
 "expTime": 25,
-"RA": "158.1645",
-"dec": "12.2674",
+"RA": "175.0371",
+"dec": "15.4145",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023clx",
+"filter": "z",
+"expTime": 25,
+"RA": "175.0371",
+"dec": "15.4145",
 "propid": "2023A-237157"
 }
 ]

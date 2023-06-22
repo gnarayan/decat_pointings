@@ -3,16 +3,6 @@
 "count": 1,
 "expType": "object",
 "object": "2023exu",
-"filter": "g",
-"expTime": 25,
-"RA": "158.1645",
-"dec": "12.2674",
-"propid": "2023A-237157"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2023exu",
 "filter": "r",
 "expTime": 25,
 "RA": "158.1645",
@@ -24,6 +14,16 @@
 "expType": "object",
 "object": "2023exu",
 "filter": "i",
+"expTime": 25,
+"RA": "158.1645",
+"dec": "12.2674",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023exu",
+"filter": "z",
 "expTime": 25,
 "RA": "158.1645",
 "dec": "12.2674",

@@ -44,7 +44,6 @@ DEBASS/EVERYTHING/2023jwj_P1 [170 0] (2min)
 ### YSE 2023clx [175 15] (3 min) 
 DEBASS/EVERYTHING/2023kos_P1 [171 18] (2min)
 ### YSE 2022zut [175 11] 3 min    HST          
-YSE 2023fot [185 10] (3 min)  HST    
 YSE 525 [189 10] 34 min 
 DEBASS/EVERYTHING/2023ito_P1 [191 13] (2min)
 

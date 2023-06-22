@@ -27,6 +27,8 @@ LOCAL night MIDPOINT: 06/23/2023,   00:45:23
 !!! after pointing is done 18:42+
 ### YSE 2023exu [158 12]  (3 min) HST  
 ### YSE 2023ext  [165 8] (3 min) HST   
+DEBASS/EVERYTHING/2023iwu_P2 [154 -5] (2min)
+DEBASS/EVERYTHING/2023iol_P2 [150 -5] (2min)
 YSE 2023grn [152 -13]   (3min)       
 DEBASS/EVERYTHING/2023liz_P1 [159 -26] (2min)
 ### etale.z.15min.json [160 -60] 15 min    
@@ -34,7 +36,7 @@ etale.i.15min.json [160 -60] 15 min
 # etale.r.15min.json [160 -60] 15 min     
 # etale.g.30min.json [160 -60] 30 min     
 
-!!! 19:20
+!!! 19:00
 DEBASS/EVERYTHING/2023jwj_P1 [170 0] (2min)
 ### YSE 2023ggg [174 3] (3min) 
 ### YSE 2023clx [175 15] (3 min) 
@@ -42,20 +44,20 @@ DEBASS/EVERYTHING/2023kos_P1 [171 18] (2min)
 YSE 2022zut [175 11] 3 min    HST          
 YSE 2023fot [185 10] (3 min)  HST    
 YSE 525 [189 10] 17 min 
-DEBASS/EVERYTHING/2023ito_P2 [191 13] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023ito_P2 [191 13] (2min) skip if behind
 
 
-!!! 20:15
+!!! 19:36
 OMLApex_230622.json  [166 -24]   (OMLApex total 34 min) 
 
-!!! 20:50
+!!! 20:10
 YSE 2023bu [178 -18]  (3 min) HST      
 YSE 2023huy [199 -16] (3 min)
 DEBASS/EVERYTHING/2023kyb_P2 [217 -28] (2min) OPTIONAL
 ### YSE 2023emq [203 -23] (6 min)  
 YSE 2023hym 213 -45 (3 min)                   
 
-!!! 21:01
+!!! 20:30
 DESIRT_190_gr (190 6) (30 min)
 DEBASS/EVERYTHING/2023ldi_P1 [204 1] (2min)
 DEBASS/EVERYTHING/2023jvj_P1 [208 16] (3min) drop z-band to save time
@@ -64,13 +66,13 @@ DEBASS/EVERYTHING/2023jgq_P1 [223 19] (2min)
 DEBASS/EVERYTHING/2023jwr_P1 [230 11] (3min)  drop z-band to save time
 DEBASS/EVERYTHING/2023kmj_P1 [225 5] (2min)
 
-!!! 21:46
+!!! 21:15
 YSE 477 [214 5] 17 min   
 DESIRT_220_gr [~220 8] (30 min)
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min) 
 
-!!! 22:46
+!!! 22:15
 YSE 583 [236 20] 17 min               	 
 YSE 531 [230 11] 17 min 	      	  
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (2min)
@@ -79,14 +81,16 @@ DEBASS/EVERYTHING/2023kml_P1 [248 5] (3min) drop z-band to save time
 YSE 428	[228 -4] 8 min      ### skip if behind schedule           
 YSE 376	[224 -8] 8 min      ### skip if behind schedule             
 
-!!! 23:37
+!!! 23:15
 YSE 2023gxf [257 19] (3 min)
 DEBASS/EVERYTHING/2023iks_P2 [263 7] (2min) OPTIONAL
 luhman.jun22.32min.json [270 -14] (33 min)
 DEBASS/EVERYTHING/2023kin_P1 [296 -58] (2min) drop z-band to save time
 
-!!! 00:15
+!!! 23:45
 DECaPSEast [270 -29] 30 min
+
+!!! 00:15
 
 midpoint 00:45:23
 

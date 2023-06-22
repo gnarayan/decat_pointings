@@ -1,5 +1,7 @@
+2023liz_P1 [159 -26]
 2023jwj_P1 [170 0]
 2023kos_P1 [171 18]
+2023ldi_P1 [204 1]
 2023jvj_P1 [208 16]
 2023kbu_P1 [222 18]
 2023jgq_P1 [223 19]
@@ -27,5 +29,5 @@
 2023jsb_P3 [326 14]
 2023kno_P3 [336 -12]
 
-EVERYTHING	82.4 minutes
-EVERYTHING_P1	32.1 minutes
+EVERYTHING	86.5 minutes
+EVERYTHING_P1	36.1 minutes

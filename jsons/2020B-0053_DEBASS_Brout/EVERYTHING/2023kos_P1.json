@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "z",
+        "filter": "i",
         "exptime": 15.0,
-        "RA": 171.00965,
-        "dec": 18.42646,
+        "RA": 171.03742,
+        "dec": 18.45424,
         "object": "2023kos_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "z",
         "exptime": 15.0,
-        "RA": 171.00965,
-        "dec": 18.42646,
+        "RA": 171.03742,
+        "dec": 18.45424,
         "object": "2023kos_P1",
         "program": "DECAT",
         "expType": "object",

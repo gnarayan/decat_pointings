@@ -5,7 +5,7 @@
 "filter": "VR",
 "RA": 270.40,
 "dec": -16.26,
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -15,7 +15,7 @@
 "filter": "VR",
 "deltaRA": "+4.0",
 "deltaDEC": "+4.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -25,7 +25,7 @@
 "filter": "VR",
 "deltaRA": "+56.0",
 "deltaDEC": "+56.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -35,7 +35,7 @@
 "filter": "VR",
 "deltaRA": "+4.0",
 "deltaDEC": "+4.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -45,7 +45,7 @@
 "filter": "VR",
 "RA": 270.40,
 "dec": -21.96,
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -55,7 +55,7 @@
 "filter": "VR",
 "deltaRA": "+4.0",
 "deltaDEC": "+4.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -65,7 +65,7 @@
 "filter": "VR",
 "deltaRA": "+56.0",
 "deltaDEC": "+56.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -75,7 +75,7 @@
 "filter": "VR",
 "deltaRA": "+4.0",
 "deltaDEC": "+4.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -85,7 +85,7 @@
 "filter": "VR",
 "RA": 270.40,
 "dec": -23.86,
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -95,7 +95,7 @@
 "filter": "VR",
 "deltaRA": "+4.0",
 "deltaDEC": "+4.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -105,7 +105,7 @@
 "filter": "VR",
 "deltaRA": "+56.0",
 "deltaDEC": "+56.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 },
@@ -115,7 +115,7 @@
 "filter": "VR",
 "deltaRA": "+4.0",
 "deltaDEC": "+4.0",
-"expTime": 125,
+"expTime": 100,
 "count": 1,
 "propid": "2023A-921384"
 }

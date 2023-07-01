@@ -3,8 +3,8 @@
 "count": 1,
 "expType": "object",
 "object": "2023emq",
-"filter": "i",
-"expTime": 150,
+"filter": "r",
+"expTime": 25,
 "RA": "203.5895",
 "dec": "-23.6439",
 "propid": "2023A-237157"
@@ -14,19 +14,19 @@
 "expType": "object",
 "object": "2023emq",
 "filter": "i",
-"expTime": 150,
-"deltaDEC": "S60.000000",
-"deltaRA": "E60.000000",
+"expTime": 25,
+"RA": "203.5895",
+"dec": "-23.6439",
 "propid": "2023A-237157"
 },
 {
 "count": 1,
 "expType": "object",
 "object": "2023emq",
-"filter": "i",
-"expTime": 150,
-"deltaDEC": "S20.000000",
-"deltaRA": "W40.000000",
+"filter": "z",
+"expTime": 25,
+"RA": "203.5895",
+"dec": "-23.6439",
 "propid": "2023A-237157"
 }
 ]

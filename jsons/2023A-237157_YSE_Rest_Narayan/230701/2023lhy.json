@@ -2,31 +2,31 @@
 {
 "count": 1,
 "expType": "object",
-"object": "2023hym",
+"object": "2023lhy",
 "filter": "r",
 "expTime": 25,
-"RA": "213.3935",
-"dec": "-45.3421",
+"RA": "242.4574",
+"dec": "15.6856",
 "propid": "2023A-237157"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2023hym",
+"object": "2023lhy",
 "filter": "i",
 "expTime": 25,
-"RA": "213.3935",
-"dec": "-45.3421",
+"RA": "242.4574",
+"dec": "15.6856",
 "propid": "2023A-237157"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2023hym",
+"object": "2023lhy",
 "filter": "z",
 "expTime": 25,
-"RA": "213.3935",
-"dec": "-45.3421",
+"RA": "242.4574",
+"dec": "15.6856",
 "propid": "2023A-237157"
 }
 ]

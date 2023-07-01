@@ -3,6 +3,6 @@
 DESIRT_220_rz_bright [~220 8] (36 min)
 DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min)
-DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_i [332 -3]  (17 min) 
 DESIRT_S82_2_rz [~0 0] (30 min)
 DESIRT_S82_2_g [~0 0] (13 min)

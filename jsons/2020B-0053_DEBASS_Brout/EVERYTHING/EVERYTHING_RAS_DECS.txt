@@ -19,6 +19,7 @@
 2023iks_P1 [263 7]
 2023kin_P1 [296 -58]
 2023jsb_P1 [326 14]
+2023lxj_P1 [348 14]
 
 2023hka_P2 [212 -26]
 2023inb_P2 [240 -31]
@@ -28,5 +29,5 @@
 2023kmj_P3 [225 5]
 2023kno_P3 [336 -12]
 
-EVERYTHING	115.5 minutes
-EVERYTHING_P1	92.5 minutes
+EVERYTHING	120.3 minutes
+EVERYTHING_P1	97.3 minutes

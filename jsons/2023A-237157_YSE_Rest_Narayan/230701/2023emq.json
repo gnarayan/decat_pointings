@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2023emq",
+"filter": "i",
+"expTime": 150,
+"RA": "203.5895",
+"dec": "-23.6439",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023emq",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023emq",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
+"propid": "2023A-237157"
+}
+]

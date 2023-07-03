@@ -20,9 +20,23 @@ LOCAL night MIDPOINT: 07/04/2023,   00:47:34
 *** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
 *** These are commented out.                          ***
 *** However, if you are running short on targets you  *** 
-*** can do them ***
+*** can do them                                       ***
 *********************************************************
 
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
 !!! after pointing is done ~18:46+
 YSE 2023exu [158 12]  (3 min) HST  
@@ -111,11 +125,11 @@ DEBASS/EVERYTHING/2023jsb_P1 [326 14] (3min)
 DEBASS/EVERYTHING/2023lxj_P1 [348 13] (3min)
 
 !!! 01:52      
-YSE 544 [321 9] 17 min               
-YSE 494 [330 3] 17 min      
-YSE 495 [339 5]   (17 min)       
+YSE 544 [321 9] 17 min      ### skip z band if behind schedule        
+YSE 494 [330 3] 17 min      ### skip z band if behind schedule 
+YSE 495 [339 5]   (17 min)  ### skip z band if behind schedule     
 ### 2021lwx [318 27] 5 min  # high priority. This one needs to be done at 4am+- 30 min due to airmass
-YSE 393 [346 -10] (17 min)  
+YSE 393 [346 -10] (17 min)  ### skip z band if behind schedule 
 
 !!! 03:00
 elais_ddf_seq_A/B  [8, -43] 1h

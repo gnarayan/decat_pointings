@@ -136,8 +136,7 @@ elais_ddf_seq_A/B  [8, -43] 1h
 
 !!! 04:00
 DEBASS/EVERYTHING/2023lnh_P1 [7 -9] (3min)
-DESIRT_S82_2_r [~0 0] (40 min)    
-DESIRT_S82_2_iz [~0 0] (40 min)
+DESIRT_S82_2_riz [~0 0] (66 min)    
 DEBASS/EVERYTHING/2023mbs_P1 [2 12] (3min)
 
 !!! 05:25

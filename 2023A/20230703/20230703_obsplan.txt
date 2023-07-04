@@ -133,19 +133,19 @@ YSE 393 [346 -10] (17 min)  ### skip z band if behind schedule
 
 !!! 03:00
 elais_ddf_seq_A/B  [8, -43] 1h
-
-!!! 04:00
 DEBASS/EVERYTHING/2023lnh_P1 [7 -9] (3min)
+
+!!! 04:03
 DESIRT_S82_2_riz [~0 0] (66 min)    
 DEBASS/EVERYTHING/2023mbs_P1 [2 12] (3min)
 
-!!! 05:25
-YSE 296 [17 -17] (17 min)          ### skip r band if behind schedule 
+!!! 05:23
 YSE 448 [16 3] (17 min)            ### skip r band if behind schedule 
+YSE 296 [17 -17] (17 min)          ### skip r band if behind schedule 
 
-!!! 06:00
+!!! 05:57
 X123.json [34, -4] 34 min  
-DEBASS/EVERYTHING/2023mha_P1 [34 -25] (3min)
+DEBASS/EVERYTHING/2023mha_P1 [34 -25] (4min)
 C3 [52, -28] 11 min 
 
 06:50 end of observation

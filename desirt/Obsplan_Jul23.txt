@@ -28,3 +28,5 @@ DESIRT_220_gr [~220 8] (30 min)
 DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
 DESIRT_50_grz (50 -15) (50 min)
+
+DESIRT_triple_rz (3 min) OPTIONAL

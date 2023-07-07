@@ -18,3 +18,13 @@ DESIRT_S82_2_iz [~0 0] (40 min)
 EXTRA TARGETS
 DESIRT_G15_r [~215 -1] (7 min) 
 DESIRT_G15_z [~215 -1] (9 min)
+
+### July 7
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gr [~220 8] (30 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_50_grz (50 -15) (50 min)

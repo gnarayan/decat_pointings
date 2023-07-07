@@ -155,6 +155,6 @@ DEBASS/EVERYTHING/2023mha_P2 [34 -25] (4min) OPTIONAL
 C3 [52, -28] 11 min 
 DESIRT_50_grz (50 -15) (50 min)
 
-06:50 end of observation
+~06:50 end of night. Observe until the sky background gets >7000 counts. Repeat the z band observations if script ends earlier.
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

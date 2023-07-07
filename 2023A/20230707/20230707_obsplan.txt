@@ -40,10 +40,10 @@ LOCAL night MIDPOINT: 07/04/2023,   00:47:34
 
 Other observers for 1.5hr skip # and start below at 20:30
 
-#!!! after pointing is done ~18:46+
-#YSE 2023exu [158 12]  (3 min) HST  
-#YSE 2023ext  [165 8] (3 min) HST   
-#YSE 2023grn [152 -13]   (3min)       
+### !!! after pointing is done ~18:46+
+### YSE 2023exu [158 12]  (3 min) HST  
+### YSE 2023ext  [165 8] (3 min) HST   
+### YSE 2023grn [152 -13]   (3min)       
 
 ### !!! 19:00 or after -14 deg twilight
 ### etale.z.15min.json [160 -60] 15 min      
@@ -51,27 +51,30 @@ Other observers for 1.5hr skip # and start below at 20:30
 ### etale.r.15min.json [160 -60] 15 min     
 ### etale.g.30min.json [160 -60] 30 min     
 
-#!!! 19:00
+### !!! 19:00
 ### YSE 2023ggg [174 3] (3 min) 
 ### YSE 2023clx [175 15] (3 min) 
-#YSE 2022zut [175 11] 3 min    HST          
-#YSE 525 [189 10] 34 min 
+### YSE 2022zut [175 11] 3 min    HST          
+### YSE 525 [189 10] 34 min 
 
-#!!! 19:54
-#OMLApex_230703.extra_i.json  [166 -24]   (OMLApex total 68 min) 
-#OMLApex_230703.json  [166 -24]   
+### !!! 19:54
+### OMLApex_230703.extra_i.json  [166 -24]   (OMLApex total 68 min) 
+### OMLApex_230703.json  [166 -24]   
 
 
-!!!20:30
+!!! 20:30
 DEBASS/EVERYTHING/2023mdv_P1 [150 -34] (3min) 
+OMLApex_230707.json [166 -24] (36 min)
+
+!!! 21:09
 YSE 2023bu [178 -18]  (3 min) HST      
 DEBASS/EVERYTHING/2023mjr_P1 [184 -12] (3min) 
 YSE 2023huy [199 -16] (3 min)
 ### YSE 2023emq [203 -23] (10 min)  
-DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (3min) 
 YSE 2023hym 213 -45 (3 min)                   
+DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (3min) 
 
-!!! 21:11
+!!! 21:24
 DEBASS/EVERYTHING/2023hzy_P2 [207 0] (4min) OPTIONAL
 DEBASS/EVERYTHING/2023mjq_P1 [212 9] (3min) 
 DEBASS/EVERYTHING/2023mgq_P2 [217 10] (4min) OPTIONAL
@@ -80,16 +83,19 @@ DEBASS/EVERYTHING/2023mhs_P2 [206 18] (4min) OPTIONAL
 DEBASS/EVERYTHING/2023kbu_P1 [221 18] (3min) 
 DEBASS/EVERYTHING/2023jgq_P2 [223 19] (4min) OPTIONAL
 DEBASS/EVERYTHING/2023mbz_P2 [225 11] (4min) OPTIONAL
-DEBASS/EVERYTHING/2023jwr_P1 [230 11] (3min) 
 
-!!! 21:27
-DESIRT_220_rz [~220 8] (40 min)
+!!! 21:55
+DESIRT_220_gr [~220 8] (30 min)
 YSE 477 [214 5] 17 min   
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
 
-!!! 22:27
-YSE 583 [236 20] 17 min      ### skip z band if behind schedule           	 
-YSE 531 [230 11] 17 min 	 ### skip z band if behind schedule        	  
+!!! 23:05
+DEBASS/EVERYTHING/2023jwr_P1 [230 11] (3min) 
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (3min) 
+YSE 583 [236 20] 17 min                 	 
+YSE 531 [230 11] 17 min 	         	  
 DEBASS/EVERYTHING/2023kbe_P1 [242 3] (3min) 
 DEBASS/EVERYTHING/2023kml_P1 [248 5] (3min) 
 YSE 2023lhy [242 15]  (3 min) HST
@@ -97,60 +103,58 @@ DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min)
 DEBASS/EVERYTHING/2023hwg_P2 [252 10] (4min) OPTIONAL
 DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min) 
 
-!!! 23:23
+!!! 00:05
 YSE 428	[228 -4] 17 min             
 YSE 376	[224 -8] 17 min                  
 DEBASS/EVERYTHING/2023inb_P1 [240 -31] (3min) 
 
-!!! 00:05
+!!! 00:43
 YSE 2023gxf [257 19] (3 min)
 DEBASS/EVERYTHING/2023iks_P2 [263 7] (4min) OPTIONAL
-### luhman.jun19.32min.json [270 -14] (33 min)
+luhman.jul07.27min.json [270 -14] (28 min)
 
-### !!! 01:20
-### DECaPSEast [270 -29] 30 min
+!!! 01:18
+DECaPSEast [270 -29] 30 min
 
-!!! 00:11
-2023A-627924_Piatti/230703.json [263 -67] 37 min
+### !!! 00:11
+### 2023A-627924_Piatti/230703.json [263 -67] 37 min
 
-!!! 00:48
+!!! 01:48
 DEBASS/EVERYTHING/2023kin_P1 [296 -58] (3min) 
 YSE 2023hcx [302 5] (3 min) HST   
 YSE 440	[314 -4] 8 min           ### skip if behind schedule 
 DEBASS/EVERYTHING/2023mgy_P1 [318 -5] (3min) 
 
-!!! 01:05   
+!!! 02:05   
 DESIRT_330_r [332 -3]  (17 min)
-DESIRT_330_z [332 -3]  (23 min)
+DESIRT_330_z [332 -3]  (23 min) 
 DEBASS/EVERYTHING/2023jsb_P1 [326 14] (3min) 
 DEBASS/EVERYTHING/2023mjx_P1 [346 21] (3min) 
 DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min) 
 
-!!! 01:52      
-YSE 544 [321 9] 17 min      ### skip z band if behind schedule        
-YSE 494 [330 3] 17 min      ### skip z band if behind schedule 
-YSE 495 [339 5]   (17 min)  ### skip z band if behind schedule     
+!!! 02:55      
+YSE 544 [321 9] 17 min             ### skip i band if behind schedule        
+YSE 494 [330 3] 17 min             ### skip i band if behind schedule  
+### YSE 495 [339 5]   (17 min)  
 ### 2021lwx [318 27] 5 min  # high priority. This one needs to be done at 4am+- 30 min due to airmass
-YSE 393 [346 -10] (17 min)  ### skip z band if behind schedule 
+### YSE 393 [346 -10] (17 min)  
 
-!!! 03:00
+!!! 03:30
 elais_ddf_seq_A/B  [8, -43] 1h
 
-!!! 04:03
-DESIRT_S82_2_riz [~0 0] (66 min)    
+!!! 04:30
 DEBASS/EVERYTHING/2023mbs_P2 [3 12] (4min) OPTIONAL
+YSE 448 [16 3] (17 min)            ### skip i band if behind schedule 
+YSE 296 [17 -17] (17 min)          ### skip i band if behind schedule 
 
-!!! 05:23
-YSE 448 [16 3] (17 min)            ### skip r band if behind schedule 
-YSE 296 [17 -17] (17 min)          ### skip r band if behind schedule 
-
-!!! 05:57
+!!! 05:10
 X123.json [34, -4] 34 min  
 DEBASS/EVERYTHING/2023mha_P2 [34 -25] (4min) OPTIONAL
+
+!!! 05:48
 C3 [52, -28] 11 min 
+DESIRT_50_grz (50 -15) (50 min)
 
 06:50 end of observation
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-DESIRT_G15_r [~215 -1] (7 min)    
-DESIRT_G15_z [~215 -1] (9 min)   

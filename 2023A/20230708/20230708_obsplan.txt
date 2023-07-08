@@ -45,9 +45,9 @@ YSE 2023ext  [165 8] (3 min) HST
 DEBASS/EVERYTHING/2023jwj_P1 [170 0] (3min)
 YSE 2023grn [152 -13]   (3min)       
 
-!!! 18:55
+!!! 19:00
 kleyna/kleyna20230708.json (2h)
-*** Repeat this script at the minimum 4x, up to 6x, until 20:55!!! ***
+*** Repeat this script at the minimum 4x, up to 6x, until 21:00!!! ***
 
 
 ### !!! 19:00 or after -14 deg twilight
@@ -67,11 +67,11 @@ kleyna/kleyna20230708.json (2h)
 ### OMLApex_230703.json  [166 -24]   
 
 
-!!! 20:55
+!!! 21:00
 DEBASS/EVERYTHING/2023mdv_P1 [150 -34] (3min)
 OMLApex_230708.json [166 -24] (18 min)
 
-!!! 21:17
+!!! 21:20
 YSE 2023bu [178 -18]  (3 min) HST      
 DEBASS/EVERYTHING/2023mjr_P2 [184 -12] (3min)
 YSE 2023huy [199 -16] (3 min)
@@ -79,7 +79,7 @@ YSE 2023huy [199 -16] (3 min)
 YSE 2023hym 213 -45 (3 min)                   
 DEBASS/EVERYTHING/2023mkt_P2 [228 -24] (3min) SKIP TO SAVE TIME
 
-!!! 21:42
+!!! 21:45
 DEBASS/EVERYTHING/2023hzy_P2 [207 0] (3min)
 DEBASS/EVERYTHING/2023mjq_P2 [212 9] (3min)
 DEBASS/EVERYTHING/2023mgq_P2 [217 10] (3min) SKIP TO SAVE TIME
@@ -89,14 +89,14 @@ DEBASS/EVERYTHING/2023kbu_P1 [221 18] (3min)
 DEBASS/EVERYTHING/2023jgq_P1 [223 19] (3min)
 DEBASS/EVERYTHING/2023mbz_P2 [225 11] (3min) SKIP TO SAVE TIME
 
-!!! 22:11
+!!! 22:10
 DESIRT_220_gz [~220 8] (37 min)
 YSE 477 [214 5] 17 min   
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min) 
 DESIRT_G15_z [~215 -1] (9 min)
 
-!!! 23:22
+!!! 23:25
 DEBASS/EVERYTHING/2023jwr_P1 [230 11] (3min)
 DEBASS/EVERYTHING/2023ivv_P1 [235 4] (3min)
 YSE 583 [236 20] 17 min                 	 
@@ -107,32 +107,32 @@ YSE 2023lhy [242 15]  (3 min) HST
 DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min)
 DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min)
 
-!!! 00:23
+!!! 00:20
 YSE 428	[228 -4] 17 min             
 YSE 376	[224 -8] 17 min                  
 
-!!! 01:00
+!!! 00:55
 YSE 2023gxf [257 19] (3 min)
 luhman.jul07.27min.json [270 -14] (28 min)
 
-!!! 01:35
+!!! 01:30
 DECaPSEast [270 -29] 30 min
 
 ### !!! 00:11
 ### 2023A-627924_Piatti/230703.json [263 -67] 37 min
 
-!!! 02:05
+!!! 02:00
 YSE 2023hcx [302 5] (3 min) HST   
 YSE 440	[314 -4] 17 min           ### skip if behind schedule 
 DEBASS/EVERYTHING/2023mgy_P1 [318 -5] (3min)
 
-!!! 02:22   
+!!! 02:23   
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_z [332 -3]  (23 min) 
 DEBASS/EVERYTHING/2023mjx_P2 [346 21] (3min) SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2023lxj_P2 [348 14] (3min) SKIP TO SAVE TIME
 
-!!! 03:12    
+!!! 03:05    
 YSE 544 [321 9] 17 min             ### skip i band if behind schedule        
 YSE 494 [330 3] 17 min             ### skip i band if behind schedule  
 YSE 495 [339 5]   (8 min)          ### 20 deg from Moon so skip entirely if behind schedule  
@@ -140,14 +140,14 @@ YSE 495 [339 5]   (8 min)          ### 20 deg from Moon so skip entirely if behi
 YSE 393 [346 -10] (8 min)          ### 20 deg from Moon so skip entirely if behind schedule  
 DEBASS/EVERYTHING/2023lnh_P1 [7 -9] (3min)
 
-!!! 04:02
+!!! 04:00
 elais_ddf_seq_A/B  [8, -43] 1h
 
-!!! 05:02
+!!! 05:00
 ### YSE 448 [16 3] (17 min)            ### skip i band if behind schedule 
 ### YSE 296 [17 -17] (8 min)              
 
-!!! 05:14
+!!! 05:00
 X123_moon.json [34, -4] 34 min  
 DEBASS/EVERYTHING/2023mha_P2 [34 -25] (3min) SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2023mmb_P1 [48 -24] (3min)

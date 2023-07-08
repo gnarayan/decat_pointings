@@ -30,3 +30,15 @@ DESIRT_330_z [332 -3]  (23 min)
 DESIRT_50_grz (50 -15) (50 min)
 
 DESIRT_triple_rz (3 min) OPTIONAL
+
+### Jul 8
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_50_grz (50 -15) (50 min)
+
+

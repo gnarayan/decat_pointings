@@ -90,7 +90,7 @@ DEBASS/EVERYTHING/2023jgq_P2 [223 19] (4min) OPTIONAL
 DEBASS/EVERYTHING/2023mbz_P2 [225 11] (4min) OPTIONAL
 
 !!! 22:11
-DESIRT_220_gr [~220 8] (30 min)
+DESIRT_220_gz [~220 8] (37 min)
 YSE 477 [214 5] 17 min   
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min) 
@@ -131,7 +131,7 @@ YSE 440	[314 -4] 17 min           ### skip if behind schedule
 DEBASS/EVERYTHING/2023mgy_P1 [318 -5] (3min) 
 
 !!! 02:22   
-DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_z [332 -3]  (23 min) 
 DEBASS/EVERYTHING/2023jsb_P1 [326 14] (3min) 
 DEBASS/EVERYTHING/2023mjx_P1 [346 21] (3min) 

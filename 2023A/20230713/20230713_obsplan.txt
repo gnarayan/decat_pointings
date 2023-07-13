@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.37
-UT -16 deg twilight: 2023-07-10T23:13:21.530 2023-07-11T10:23:58.745
-UT -15 deg twilight: 2023-07-10T23:08:31.491 2023-07-11T10:28:48.841
-UT -14 deg twilight: 2023-07-10T23:03:40.059 2023-07-11T10:33:39.759
-UT -12 deg twilight: 2023-07-10T22:53:55.123 2023-07-11T10:43:24.215
-UT -10 deg twilight: 2023-07-10T22:44:06.397 2023-07-11T10:53:12.434
-LOCAL -16 deg twilight: 07/10/2023,   19:13:21   06:23:58
-LOCAL -15 deg twilight: 07/10/2023,   19:08:31   06:28:48
-LOCAL -14 deg twilight: 07/10/2023,   19:03:40   06:33:39
-LOCAL -12 deg twilight: 07/10/2023,   18:53:55   06:43:24
-LOCAL -10 deg twilight: 07/10/2023,   18:44:06   06:53:12
-LOCAL night MIDPOINT: 07/11/2023,   00:48:40
+MOON ILLUMINATION: 0.12
+UT -16 deg twilight: 2023-07-13T23:14:38.442 2023-07-14T10:23:25.592
+UT -15 deg twilight: 2023-07-13T23:09:49.166 2023-07-14T10:28:14.920
+UT -14 deg twilight: 2023-07-13T23:04:58.463 2023-07-14T10:33:05.047
+UT -12 deg twilight: 2023-07-13T22:55:15.118 2023-07-14T10:42:47.843
+UT -10 deg twilight: 2023-07-13T22:45:28.091 2023-07-14T10:52:34.296
+LOCAL -16 deg twilight: 07/13/2023,   19:14:38   06:23:25
+LOCAL -15 deg twilight: 07/13/2023,   19:09:49   06:28:14
+LOCAL -14 deg twilight: 07/13/2023,   19:04:58   06:33:05
+LOCAL -12 deg twilight: 07/13/2023,   18:55:15   06:42:47
+LOCAL -10 deg twilight: 07/13/2023,   18:45:28   06:52:34
+LOCAL night MIDPOINT: 07/14/2023,   00:49:02
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -38,16 +38,15 @@ LOCAL night MIDPOINT: 07/11/2023,   00:48:40
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! after pointing is done ~18:45+
+!!! after pointing is done ~18:48+
 YSE 2023exu [158 12]  (3 min) HST  
 DEBASS/EVERYTHING/2023jvm_P1 [164 9] (3min) 
 YSE 2023ext  [165 8] (3 min) HST   
 DEBASS/EVERYTHING/2023jwj_P1 [170 0] (3min) 
-### YSE 2023grn [152 -13]   (3min)       
-DEBASS/EVERYTHING/2023mdv_P1 [150 -34] (3min) 
+YSE 2023grn [152 -13]   (3min)       
 
 !!! 19:00
-kleyna/kleyna20230710.json (2h)
+kleyna/kleyna20230713.json (2h)
 *** Repeat this script at the minimum 4x, up to 6x, until 21:00!!! ***
 
 
@@ -69,9 +68,10 @@ kleyna/kleyna20230710.json (2h)
 
 
 !!! 21:00
-OMLApex_230710.json [166 -24] (18 min)
+DEBASS/EVERYTHING/2023mdv_P1 [150 -34] (3min) 
+OMLApex_230713.json [166 -24] (18 min)
 
-!!! 21:18
+!!! 21:21
 YSE 2023bu [178 -18]  (3 min) HST      
 DEBASS/EVERYTHING/2023mjr_P1 [184 -12] (3min) 
 YSE 2023huy [199 -16] (3 min)
@@ -79,21 +79,21 @@ YSE 2023huy [199 -16] (3 min)
 YSE 2023hym 213 -45 (3 min)                   
 DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (3min) 
 
-!!! 21:33
+!!! 21:36
 DEBASS/EVERYTHING/2023mjq_P1 [212 9] (3min) 
 DEBASS/EVERYTHING/2023mgq_P1 [217 10] (3min) 
 DEBASS/EVERYTHING/2023kbu_P1 [222 18] (3min) 
 DEBASS/EVERYTHING/2023mla_P1 [234 17] (3min) 
 DEBASS/EVERYTHING/2023mbz_P1 [225 11] (3min) 
 
-!!! 21:54
-DESIRT_220_gr [~220 8] (30 min)
-YSE 477 [214 5] 17 min   
+!!! 21:51
+DESIRT_220_gz [~220 8] (37 min)
+### YSE 477 [214 5] 17 min   
 DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min) 
 DESIRT_G15_z [~215 -1] (9 min)
 
-!!! 23:02
+!!! 22:50
 DEBASS/EVERYTHING/2023jwr_P2 [230 11] (3min) OPTIONAL FILLER
 YSE 583 [236 20] 17 min                 	 
 DEBASS/EVERYTHING/2023mog_P1 [235 14] (3min) 
@@ -104,17 +104,17 @@ YSE 2023lhy [242 15]  (3 min) HST
 DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min) 
 DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min) 
 
-!!! 23:54
+!!! 23:45
 DEBASS/EVERYTHING/2023mmo_P1 [240 -2] (3min) 
 YSE 428	[228 -4] 17 min             
 YSE 376	[224 -8] 17 min                  
 DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min) 
 
-!!! 00:28
+!!! 00:25
 YSE 2023gxf [257 19] (3 min)          OPTIONAL FILLER
 luhman.jul07.27min.json [270 -14] (28 min)
 
-!!! 01:00
+!!! 00:57
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023mvl_P1 [295 -22] (3min) 
 DEBASS/EVERYTHING/2023kin_P2 [296 -58] (3min) OPTIONAL FILLER
@@ -128,37 +128,37 @@ YSE 440	[314 -4] 17 min
 
 !!! 01:55   
 DESIRT_330_g [332 -3]  (13 min)
-DESIRT_330_r [332 -3]  (17 min) 
-DESIRT_330_z [332 -3]  (23 min) ## LAST 2 EXPOSURES OPTIONAL - REMOVE IF RUNNING BEHIND 
+DESIRT_330_z [332 -3]  (23 min) 
 DEBASS/EVERYTHING/2023mjx_P1 [346 21] (3min) 
 DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min) 
 
-!!! 02:55    
-YSE 544 [321 9] 17 min                   
-YSE 494 [330 3] 17 min              
+!!! 02:35      
+YSE 544 [321 9] 8 min                   
+YSE 494 [330 3] 8 min              
 YSE 495 [339 5]   (17 min)            
 ### 2021lwx [318 27] 5 min  # high priority. This one needs to be done at 4am+- 30 min due to airmass
 YSE 393 [346 -10] (17 min)          
 
-!!! 04:03
+!!! 03:25
 DEBASS/EVERYTHING/2023lnh_P1 [7 -9] (3min) 
 DEBASS/EVERYTHING/2023mkg_P2 [29 -21]  (3min) can skip if necessary
 elais_ddf_seq_A/B  [8, -43] 1h
 
-!!! 05:07
-DESIRT_S82_2_g [~0 0] (13 min)
-DESIRT_S82_2_rz [~0 0] (30 min)
+!!! 04:31
 DEBASS/EVERYTHING/2023mbs_P1 [2 12] (3min) 
-### YSE 448 [16 3] (8 min)             
+YSE 448 [16 3] (17 min)             
 
-!!! 05:50
-X123_moon.json [34, -4] 34 min  
+!!! 04:51
+X123.json [34, -4] 34 min  
 DEBASS/EVERYTHING/2023mmb_P1 [48 -24] (3min) 
 
-!!! 06:30
+!!! 05:29
 C3 [52, -28] 11 min 
 DEBASS/EVERYTHING/2023mma_P1 [60 -27] (3min) 
-YSE 296 [17 -17] (8 min)           ### skip if behind schedule     
+YSE 296 [17 -17] (17 min)           
+
+!!! 06:00
+DESIRT_50_grz (50 -15) (50 min)
 
 ~06:50 end of night. Observe until the sky background gets >7000 counts. Repeat the z band observations if script ends earlier.
 

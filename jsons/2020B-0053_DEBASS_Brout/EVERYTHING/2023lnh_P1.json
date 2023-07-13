@@ -3,7 +3,7 @@
         "count": 1,
         "filter": "g",
         "exptime": 3.0,
-        "RA": 7.44783,
+        "RA": 7.47561,
         "dec": -9.61103,
         "object": "2023lnh_P1",
         "program": "DECAT",
@@ -13,11 +13,11 @@
         "wait": "False",
         "propid": "2020B-0053"
     },
-    {
+        {
         "count": 1,
         "filter": "r",
         "exptime": 3.0,
-        "RA": 7.44783,
+        "RA": 7.47561,
         "dec": -9.61103,
         "object": "2023lnh_P1",
         "program": "DECAT",
@@ -27,11 +27,11 @@
         "wait": "False",
         "propid": "2020B-0053"
     },
-    {
+        {
         "count": 1,
         "filter": "i",
         "exptime": 3.0,
-        "RA": 7.44783,
+        "RA": 7.47561,
         "dec": -9.61103,
         "object": "2023lnh_P1",
         "program": "DECAT",
@@ -41,11 +41,11 @@
         "wait": "False",
         "propid": "2020B-0053"
     },
-    {
+        {
         "count": 1,
         "filter": "z",
         "exptime": 3.0,
-        "RA": 7.44783,
+        "RA": 7.47561,
         "dec": -9.61103,
         "object": "2023lnh_P1",
         "program": "DECAT",

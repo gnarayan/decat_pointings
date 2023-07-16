@@ -1,4 +1,5 @@
 2023mdv_P1 [150 -34]
+2023mtq_P1 [191 -6]
 2023mjq_P1 [212 9]
 2023mgq_P1 [217 10]
 2023mkt_P1 [228 -24]
@@ -34,5 +35,5 @@
 2023jsb_P3 [326 14]
 2023lxj_P3 [348 14]
 
-EVERYTHING	103.4 minutes
-EVERYTHING_P1	35.4 minutes
+EVERYTHING	106.3 minutes
+EVERYTHING_P1	38.4 minutes

@@ -53,6 +53,7 @@ Script will finish on its own or at -14 deg twilight.
 ### YSE 2023grn [152 -13]   (3min)       
 
 !!! 19:06
+DEBASS/EVERYTHING/2023mdv_P1 [150 -34] (3min)
 kleyna/kleyna20230713.json (2h)
 *** Repeat this script at the minimum 4x, up to 6x, until 21:06!!! ***
 
@@ -80,18 +81,15 @@ kleyna/kleyna20230713.json (2h)
 
 !!! 21:06
 YSE 2023bu [178 -18]  (2 min) HST      
-DEBASS/EVERYTHING/2023mjr_P1 [184 -12] (3min) 
+DEBASS/EVERYTHING/2023mtq_P1 [191 -6] (3min)
 YSE 2023huy [199 -16] (2 min)
 ### YSE 2023emq [203 -23] (10 min)  
 YSE 2023hym 213 -45 (2 min)                   
-DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (3min) 
+DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (3min)
 
 !!! 21:28
-DEBASS/EVERYTHING/2023mjq_P1 [212 9] (3min) 
-DEBASS/EVERYTHING/2023mgq_P1 [217 10] (3min) 
-DEBASS/EVERYTHING/2023kbu_P1 [222 18] (3min) 
-DEBASS/EVERYTHING/2023mla_P1 [234 17] (3min) 
-DEBASS/EVERYTHING/2023mbz_P1 [225 11] (3min) 
+DEBASS/EVERYTHING/2023mgq_P1 [217 10] (3min)
+DEBASS/EVERYTHING/2023mbz_P1 [226 11] (3min)
 
 !!! 21:43
 DESIRT_220_gr [~220 8] (30 min)
@@ -100,21 +98,20 @@ DESIRT_G15_g [~215 -1] (6 min)
 DESIRT_G15_r [~215 -1] (7 min) 
 
 !!! 22:43
-DEBASS/EVERYTHING/2023jwr_P2 [230 11] (3min) OPTIONAL FILLER
 YSE 583 [236 20] 8 min                 	     
-DEBASS/EVERYTHING/2023mog_P1 [235 14] (3min) 
+DEBASS/EVERYTHING/2023mog_P2 [235 14] (3min) OPTiONAL FILLER
 YSE 531 [230 11] 8 min 	         	         
-DEBASS/EVERYTHING/2023kbe_P2 [242 3] (3min) OPTIONAL FILLER
-DEBASS/EVERYTHING/2023kml_P2 [248 5] (3min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2023kbe_P1 [242 3] (3min)
 YSE 2023lhy [242 15]  (2 min) HST
-DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min) 
-DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min) 
+DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min)
+DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min)
 
 !!! 23:20
-DEBASS/EVERYTHING/2023mmo_P1 [240 -2] (3min) 
+DEBASS/EVERYTHING/2023mmo_P2 [240 -2] (3min) OPTiONAL FILLER
+ [240 -2] (3min) 
 YSE 428	[228 -4] 8 min             
 YSE 376	[224 -8] 8 min                  
-DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min) 
+DEBASS/EVERYTHING/2023mnw_P2 [239 -13] (3min) OPTiONAL FILLER
 
 !!! 23:42
 YSE 2023gxf [257 19] (2 min)          OPTIONAL FILLER
@@ -122,8 +119,8 @@ luhman.jul16.27min.json [270 -14] (14 min)
 
 !!! 00:00
 DECaPSEast [270 -29] 30 min
-DEBASS/EVERYTHING/2023mvl_P1 [295 -22] (3min) 
-DEBASS/EVERYTHING/2023kin_P2 [296 -58] (3min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2023mvl_P1 [295 -22] (3min)
+DEBASS/EVERYTHING/2023kin_P1 [296 -58] (3min)
 DESIRT_330_g [332 -3]  (13 min)
 
 !!! night midpoint: 00:49:19

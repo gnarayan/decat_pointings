@@ -1025,6 +1025,29 @@ git add 230716
 git add 230716/*.json
 
 
+mkdir 20230719
+cp obsplan_fullnight.txt 20230719/20230719_obsplan.txt
+cp 20230713/20230713_obsplan.txt 20230719/20230719_obsplan.txt 
+subl 20230719/20230719_obsplan.txt
+git add 20230719/20230719_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r    525  -d 230719
+mkjson_yse_nofilterswitch.py  -f g,i     477 -d 230719
+mkjson_yse_nofilterswitch.py  -f r    583 531 -d 230719
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 230719
+mkjson_yse_nofilterswitch.py  -f g,i   440   -d 230719
+mkjson_yse_nofilterswitch.py  -f g,r 544 494 -d 230719
+mkjson_yse_nofilterswitch.py  -f g,i     495 393  -d 230719
+mkjson_yse_nofilterswitch.py  -f g,i    296 448 -d 230719
+#
+mkjson_yse_nofilterswitch.py  -f g,r  2023grn 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023huy 2023emq 2023hym 2023lhy 2023gxf 2023hcx  -d 230719 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2023hcx  -d 230719 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f z,z,i,r  2023exu   -d 230719 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i  2023emq  -d 230719 -e 150 -n 3 --sortbyra
+mkjson_yse.py  -f u,g  2021lwx  -d 230719 -e 150,30 -n 1 
+git add 230719
+git add 230719/*.json
+
+
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Jul23.txt
 

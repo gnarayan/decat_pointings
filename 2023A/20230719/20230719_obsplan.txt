@@ -144,9 +144,7 @@ DEBASS/EVERYTHING/2023nii_P1 [340 10] (3min) OPTIONAL
 YSE 393 [346 -10] (8 min)          
 
 !!! 03:10
-DESIRT_S82_2_g [~0 0] (13 min)
-DESIRT_S82_2_rz [~0 0] (30 min)
-
+DESIRT_S82_2_gr [~0 0] (28 min)
 
 !!! 03:38
 DEBASS/EVERYTHING/2023ngb_P1 [6 -1] (3min) 

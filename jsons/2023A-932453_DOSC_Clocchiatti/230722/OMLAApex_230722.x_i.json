@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApex",
+"filter": "i",
+"expTime": 360,
+"RA": "354.6000",
+"dec": "11.9000",
+"propid": "2023A-932453"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApex",
+"filter": "i",
+"expTime": 360,
+"deltaDEC": "S5",
+"deltaRA": "W5",
+"propid": "2023A-932453"
+}
+]

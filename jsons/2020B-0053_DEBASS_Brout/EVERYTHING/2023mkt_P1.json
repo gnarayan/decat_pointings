@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 2.0,
+        "exptime": 3.0,
         "RA": 228.70551,
         "dec": -24.48596,
         "object": "2023mkt_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 2.0,
+        "exptime": 3.0,
         "RA": 228.70551,
         "dec": -24.48596,
         "object": "2023mkt_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 2.0,
+        "exptime": 3.0,
         "RA": 228.70551,
         "dec": -24.48596,
         "object": "2023mkt_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 2.0,
+        "exptime": 3.0,
         "RA": 228.70551,
         "dec": -24.48596,
         "object": "2023mkt_P1",

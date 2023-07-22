@@ -104,7 +104,6 @@ DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min) drop z to save some time
 DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min) drop z to save some time
 
 !!! 23:20
-DEBASS/EVERYTHING/2023mmo_P2 [240 -2] (3min) OPTIONAL drop z to save some time
 YSE 428	[228 -4] 17 min             
 YSE 376	[224 -8] 17 min                  
 DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min) drop z to save some time

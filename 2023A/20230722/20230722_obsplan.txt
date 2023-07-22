@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.06
-UT -16 deg twilight: 2023-07-19T23:17:20.826 2023-07-20T10:21:45.058
-UT -15 deg twilight: 2023-07-19T23:12:32.784 2023-07-20T10:26:32.683
-UT -14 deg twilight: 2023-07-19T23:07:44.256 2023-07-20T10:31:21.041
-UT -12 deg twilight: 2023-07-19T22:58:04.564 2023-07-20T10:41:00.094
-UT -10 deg twilight: 2023-07-19T22:48:21.446 2023-07-20T10:50:42.512
-LOCAL -16 deg twilight: 07/19/2023,   19:17:20   06:21:45
-LOCAL -15 deg twilight: 07/19/2023,   19:12:32   06:26:32
-LOCAL -14 deg twilight: 07/19/2023,   19:07:44   06:31:21
-LOCAL -12 deg twilight: 07/19/2023,   18:58:04   06:41:00
-LOCAL -10 deg twilight: 07/19/2023,   18:48:21   06:50:42
-LOCAL night MIDPOINT: 07/20/2023,   00:49:32
+MOON ILLUMINATION: 0.25
+UT -16 deg twilight: 2023-07-22T23:18:44.922 2023-07-23T10:20:37.198
+UT -15 deg twilight: 2023-07-22T23:13:57.584 2023-07-23T10:25:23.897
+UT -14 deg twilight: 2023-07-22T23:09:10.217 2023-07-23T10:30:11.297
+UT -12 deg twilight: 2023-07-22T22:59:32.529 2023-07-23T10:39:48.332
+UT -10 deg twilight: 2023-07-22T22:49:51.564 2023-07-23T10:49:28.593
+LOCAL -16 deg twilight: 07/22/2023,   19:18:44   06:20:37
+LOCAL -15 deg twilight: 07/22/2023,   19:13:57   06:25:23
+LOCAL -14 deg twilight: 07/22/2023,   19:09:10   06:30:11
+LOCAL -12 deg twilight: 07/22/2023,   18:59:32   06:39:48
+LOCAL -10 deg twilight: 07/22/2023,   18:49:51   06:49:28
+LOCAL night MIDPOINT: 07/23/2023,   00:49:41
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -43,22 +43,20 @@ LOCAL night MIDPOINT: 07/20/2023,   00:49:32
 ### YSE 2023ext  [165 8] (3 min) HST   
 ### YSE 2023grn [152 -13]   (3min)       
 
-!!! after pointing ~18:50
+!!! after pointing ~18:52
 Start with Pointing the Telescope to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 19:07 (-14 deg twilight)
-kleyna/kleyna20230713.json (2h)
-*** Repeat this script at the minimum 4x, up to 6x, until 21:07!!! ***
 
 
-### !!! 19:00 or after -14 deg twilight
+!!! 19:09:10
+OMLApex_230719.json [166 -24] (18 min)
 ### etale.z.15min.json [160 -60] 15 min      
 ### etale.i.15min.json [160 -60] 15 min       
-### etale.r.15min.json [160 -60] 15 min     
-### etale.g.30min.json [160 -60] 30 min     
+etale.r.15min.json [160 -60] 15 min     
+etale.g.30min.json [160 -60] 30 min     
 
 ### !!! 19:00
 ### YSE 2023ggg [174 3] (3 min) 
@@ -66,67 +64,61 @@ kleyna/kleyna20230713.json (2h)
 ### YSE 2022zut [175 11] 3 min    HST          
 ### YSE 525 [189 10] 34 min 
 
-### !!! 19:54
-### OMLApex_230703.extra_i.json  [166 -24]   (OMLApex total 68 min) 
-### OMLApex_230703.json  [166 -24]   
-
-
-!!! 21:07
-OMLApex_230719.json [166 -24] (18 min)
-
-!!! 21:25
-### YSE 2023bu [178 -18]  (3 min) HST      
-YSE 2023huy [199 -16] (3 min)
+!!! 20:12
+YSE 2023bu [178 -18]  (2 min) HST      
+YSE 2023huy [199 -16] (2 min)
 ### YSE 2023emq [203 -23] (10 min)  
 YSE 2023hym 213 -45 (3 min)                   
 DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (3min) drop z to save some time
-DEBASS/EVERYTHING/2023nlq_P2 [236 -17] (3min)OPTIONAL  drop z to save some time
+DEBASS/EVERYTHING/2023nlq_P2 [236 -17] (3min) OPTIONAL  drop z to save some time
 
-!!! 21:37
+!!! 20:25
 DEBASS/EVERYTHING/2023mgq_P1 [217 10] (3min) drop z to save some time
 DEBASS/EVERYTHING/2023kbu_P2 [222 18] (3min) OPTIONAL drop z to save some time
 DEBASS/EVERYTHING/2023nlo_P2 [225 16] (3min) OPTIONAL drop z to save some time
 DEBASS/EVERYTHING/2023mbz_P1 [226 11] (3min) drop z to save some time
 
-!!! 21:52
-DESIRT_220_gz [~220 8] (37 min)
-### YSE 477 [214 5] 17 min   
+!!! 20:37
+DESIRT_220_gr [~220 8] (30 min)
+YSE 477 [214 5] 8 min   
 DESIRT_G15_g [~215 -1] (6 min)
-DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_G15_r [~215 -1] (7 min) 
 
-!!! 22:42
-YSE 583 [236 20] 8 min                 	 
-YSE 531 [230 11] 8 min 	         	  
+!!! 21:28
+YSE 583 [236 20] 17 min                 	 
+YSE 531 [230 11] 17 min 	         	  
 DEBASS/EVERYTHING/2023kbe_P1 [242 3] (3min) drop z to save some time
 DEBASS/EVERYTHING/2023kml_P2 [248 5] (3min) OPTIONAL drop z to save some time
-YSE 2023lhy [242 15]  (3 min) HST
+YSE 2023lhy [242 15]  (4 min) HST
 DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min) drop z to save some time
 DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min) drop z to save some time
 
-!!! 23:20
-YSE 428	[228 -4] 17 min             
-YSE 376	[224 -8] 17 min                  
+!!! 22:20
+YSE 428	[228 -4] 8 min             
+YSE 376	[224 -8] 8 min                  
 DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min) drop z to save some time
 
-!!! 00:00
-YSE 2023gxf [257 19] (3 min)          OPTIONAL FILLER
-luhman.jul19.27min.json [270 -14] (28 min)
+!!! 22:40
+YSE 2023gxf [257 19] (4 min)          
+luhman.jul22.28min.json [270 -14] (28 min)
 
-!!! 00:31
+!!! 23:12
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYTHING/2023mvl_P1 [295 -22] (3min) drop z to save some time
 
-### !!! 00:11
-### 2023A-627924_Piatti/230703.json [263 -67] 37 min
-
-!!! 01:04
-#YSE 2023hcx [302 5] (3 min) HST   
+!!! 23:45
+YSE 2023hcx [302 5] (4 min) HST   
 DEBASS/EVERYTHING/2023mzb_P1 [300 -26] (3min) drop z to save some time
 DEBASS/EVERYTHING/2023nkq_P1 [306 -3] (3min) drop z to save some time
 DEBASS/EVERYTHING/2023njx_P1 [334 -20] (3min) drop z to save some time
 DEBASS/EVERYTHING/2023nof_P2 [339 -15] (3min) OPTIONAL LAST TARGET OF HALF NIGHT
-#YSE 440	[314 -4] 8 min           
+YSE 440	[314 -4] 17 min           
 
-!!! 00:49 MIDPOINT!!!!
+!!! 00:19
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+
+
+!!! 00:49:41 MIDPOINT!!!!
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

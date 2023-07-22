@@ -49,8 +49,6 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-
-
 !!! 19:09:10
 OMLApex_230719.json [166 -24] (18 min)
 ### etale.z.15min.json [160 -60] 15 min      

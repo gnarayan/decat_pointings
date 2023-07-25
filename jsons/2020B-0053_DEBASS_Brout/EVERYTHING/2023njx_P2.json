@@ -1,15 +1,15 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
-        "RA": 236.17088,
-        "dec": -17.3839,
-        "object": "2023nlq_P2",
+        "RA": 334.41623,
+        "dec": -20.12734,
+        "object": "2023njx_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2023nlq",
+        "comment": "2023njx",
         "wait": "False",
         "propid": "2020B-0053"
     },
@@ -17,13 +17,13 @@
         "count": 1,
         "filter": "i",
         "exptime": 15.0,
-        "RA": 236.17088,
-        "dec": -17.3839,
-        "object": "2023nlq_P2",
+        "RA": 334.41623,
+        "dec": -20.12734,
+        "object": "2023njx_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2023nlq",
+        "comment": "2023njx",
         "wait": "False",
         "propid": "2020B-0053"
     }

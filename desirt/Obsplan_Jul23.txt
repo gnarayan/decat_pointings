@@ -109,7 +109,7 @@ DESIRT_330_r [332 -3]  (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
 DESIRT_S82_2_g [~0 0] (13 min)
 DESIRT_S82_2_rz [~0 0] (30 min)
-
+DESIRT_IC230724 [32 -1] (8 min)
 
 ### July 31	
 

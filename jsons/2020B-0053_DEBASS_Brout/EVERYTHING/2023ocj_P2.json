@@ -1,15 +1,15 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 306.58459,
-        "dec": -3.8639,
-        "object": "2023nkq_P2",
+        "RA": 221.52203,
+        "dec": 0.23544,
+        "object": "2023ocj_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2023nkq",
+        "comment": "2023ocj",
         "wait": "False",
         "propid": "2020B-0053"
     },
@@ -17,13 +17,13 @@
         "count": 1,
         "filter": "i",
         "exptime": 15.0,
-        "RA": 306.58459,
-        "dec": -3.8639,
-        "object": "2023nkq_P2",
+        "RA": 221.52203,
+        "dec": 0.23544,
+        "object": "2023ocj_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
-        "comment": "2023nkq",
+        "comment": "2023ocj",
         "wait": "False",
         "propid": "2020B-0053"
     }

@@ -76,7 +76,9 @@ for i,row in df.iterrows():
             print(obsdict[row['snid']])
         except:
             print('NO OBSERVATIONS YET')
+
         print('SPEC CLASS: %s'%row['TNS class'])
+        print('WiFeS Spectrum of transient: %s'%row['WiFeS Spectrum of transient'])
         print('Redshift: %s'%row['Redshift'])
         print()
         print('Comment: %s'%row['Comment'])

@@ -114,6 +114,7 @@ DESIRT_IC230724 [32 -1] (8 min)
 ### July 31	
 
 DESIRT_220_rz [~220 8] (40 min)
-DESIRT_S82_rz (40 min)
+DESIRT_330_iz_short [332 -3]  (30 min)
+DESIRT_S82_rz (27 min) # LAST r+z expsoure OPTIONAL (+~3 min)
 DESIRT_S82_2_rz [~0 0] (30 min)
 DESIRT_IC230724 [32 -1] (7 min) # DELETE G BAND POINTING FROM QUEUE

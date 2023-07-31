@@ -318,3 +318,5 @@
           2023lhy   <NA> 242.45742  15.68558     0       NaN                    NaN     2023lhy      N4          35
           OMLApex   <NA> 166.68000 -24.98000     0       NaN                    NaN     OMLApex     NaN        <NA>
           2023fyq   <NA> 186.43891  12.75051     0       NaN                    NaN     2023fyq      N4          35
+          2023mzb   <NA> 300.35632 -25.11894     0       NaN                    NaN     2023mzb      N4          35
+      YSE_Deep_01   <NA>  43.52070 -70.38995     0       NaN                    NaN YSE_Deep_01      N4          35

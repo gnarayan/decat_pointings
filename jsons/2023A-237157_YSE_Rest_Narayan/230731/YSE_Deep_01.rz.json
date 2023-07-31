@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "YSE_Deep_01",
+"filter": "r",
+"expTime": 150,
+"RA": "43.5207",
+"dec": "-70.3899",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "YSE_Deep_01",
+"filter": "z",
+"expTime": 150,
+"RA": "43.5207",
+"dec": "-70.3899",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "YSE_Deep_01",
+"filter": "r",
+"expTime": 150,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "YSE_Deep_01",
+"filter": "z",
+"expTime": 150,
+"deltaDEC": "S0.000000",
+"deltaRA": "E0.000000",
+"propid": "2023A-237157"
+}
+]

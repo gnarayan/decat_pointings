@@ -56,32 +56,37 @@ etale.i.15min.json [160 -60] 15 min
 
 !!! 19:35
 ### YSE 2023huy [199 -16] (3 min)
-### YSE 2023hym 213 -45 (3 min)                   
+### YSE 2023hym 213 -45 (3 min) 
+YSE 2023mjq [213 10] (4 min)                 
 DEBASS/EVERYTHING/2023mgq_P1 [217 10] (3min)
+YSE 2023iuc [220 2] (7 min)
 DEBASS/EVERYTHING/2023mbz_P1 [225 11] (3min)
 
-!!! 19:41
+!!! 19:52
 DESIRT_220_rz [~220 8] (40 min) 
 YSE 477 [214 5] 8 min   
 DEBASS/EVERYHTING/2023ocj_P1 [221 0] (3min)
 DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (3min)
 DEBASS/EVERYHTING/2023mnw_P2 [239 -13] (3min) OPTIONAL
+YSE 2023nlq [237 -17] (4 min)          ## high priority
 
-!!! 20:40
+!!! 20:54
 YSE 583 [236 20] 8 min                 	 
 YSE 531 [230 11] 8 min 	         	   
 ### YSE 2023lhy [242 15]  (3 min) HST
+YSE 2023nnx [243 27] 4 min              ## high priority
 DEBASS/EVERYHTING/2023lhq_P2 [253 18] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023nlk_P1 [259 22] (3min)
 ### YSE 2023gxf [257 19] (3 min)          OPTIONAL FILLER
 DEBASS/EVERYHTING/2023mde_P2 [257 13] (3min) OPTIONAL
 
-!!! 21:05  
+!!! 21:25  
 YSE 428	[228 -4] 8 min             
 YSE 376	[224 -8] 8 min                  
 
-!!! 21:22
+!!! 21:41
 DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min)
+YSE 2022esa [253 -10]    (7 min)   
 ### luhman.julXX.28min.json [270 -14] (28 min)
 DECaPSEast [270 -29] 30 min
 DEBASS/EVERYHTING/2023mzb_P1 [299 -26] (3min)
@@ -99,8 +104,9 @@ DEBASS/EVERYTHING/2023nls_P1 [333 -23] (3min)
 ### YSE 544 [321 9] 17 min                ### DROP i band if behind schedule!   
 ### YSE 494 [330 3] 17 min                
 ### YSE 495 [339 5] (17 min)              
-DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min)
 DEBASS/EVERYTHING/2023nuv_P1 [340 0] (3min)
+DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min)
+YSE 2023mxn [351 11] (4 min)
 ### YSE 393 [346 -10] (17 min)          
 
 

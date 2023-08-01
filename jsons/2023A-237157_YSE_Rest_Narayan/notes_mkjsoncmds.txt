@@ -1155,7 +1155,10 @@ mkjson_yse_nofilterswitch.py  -f g   376 428  -d 230801
 mkjson_yse_nofilterswitch.py  -f g,i    296 448 -d 230801
 mkjson_yse_nofilterswitch.py  -f g,r    401 403 353 -d 230801
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i  2023grn 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023huy 2023emq 2023hym 2023lhy 2023gxf 2023mzb 2023hcx  -d 230801 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023grn 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023huy 2023emq 2023hym  2023nlq 2023lhy 2023nnx 2023gxf 2023nlk 2023mzb 2023hcx 2023mxn -d 230801 -e 25 -n 1 --sortbyra
+
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023mjq  -d 230801 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i   2023iuc 2022esa -d 230801 -e 150 -n 1 --sortbyra
 
 
 mkjson_yse_nofilterswitch.py  -f i,z  2023bu 2023huy  -d 230801 -e 20 -n 1 --sortbyra
@@ -1286,8 +1289,18 @@ YSE_pointings2fieldcenters.py --addSN  2023mzb 300.3586881     -25.2059335  -vv 
 
 YSE_pointings2fieldcenters.py --addSN  YSE_Deep_01 43.52708 -70.47694  -vv --overw
 
-OMLApex
+YSE_pointings2fieldcenters.py -a 2023nlk 259.70995 22.63456 -vv
+YSE_pointings2fieldcenters.py -a 2023mzb 299.99799 -26.12379 -vv
+YSE_pointings2fieldcenters.py --addSN  2023nnx 243.2585000     26.9778583  -vv 
+YSE_pointings2fieldcenters.py --addSN  2023nlq 236.5049250     -16.8218472  -vv 
+YSE_pointings2fieldcenters.py --addSN  2023mxn 350.9391750     11.4387167  -vv 
 
+YSE_pointings2fieldcenters.py -a 2023mjq 212.775160 9.629090 -vv
+YSE_pointings2fieldcenters.py --addSN  2023iuc 219.7318563     2.2872700 -vv
+YSE_pointings2fieldcenters.py --addSN  2022esa 253.4900105     -9.7028338 -vv 
+YSE_pointings2fieldcenters.py --addSN  2023iwy 270.0775966     26.4088993 -vv
+YSE_pointings2fieldcenters.py --addSN  2023lkm 340.4449948     36.1082291 -vv
+YSE_pointings2fieldcenters.py --addSN  2022ywf 20.5508128     0.9565554 -vv
 
 YSE 2023lhy [242 15]  (4 min) HST 
 

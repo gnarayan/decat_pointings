@@ -92,18 +92,15 @@ DEBASS/EVERYTHING/2023nkq_P1 [306 -3] (3min)
 ### YSE 440	[314 -4] 25 min               
 
 !!! 23:21  
+DEBASS/EVERYTHING/2023nls_P1 [333 -23] (3min)
 DESIRT_330_iz_short [332 -3]  (30 min)
-DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min)
-
-!!! 23:55      
 YSE 544 [321 9] 17 min                ### DROP i band if behind schedule!   
 YSE 494 [330 3] 17 min                
 YSE 495 [339 5] (17 min)              
+DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min)
+YSE 393 [346 -10] (17 min)          
 DEBASS/EVERYTHING/2023nuv_P1 [340 0] (3min)
 
-!!! 00:50
-DEBASS/EVERYTHING/2023nls_P1 [333 -23] (3min)
-YSE 393 [346 -10] (17 min)          
 
 !!! 01:10
 OMLAApex_230731.z1.json      [355 12] (68 min total)

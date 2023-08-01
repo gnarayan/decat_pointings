@@ -141,16 +141,16 @@ DEBASS/EVERYTHING/2023nnz_P1 [36 19] (3min)
 
 *** 30 min extra ***
 
-!!! 03:55
+!!! 03:45
 DESIRT_IC230724 [32 -1] (7 min) # DELETE G BAND POINTING FROM QUEUE
 X123.json [34, -4] 34 min  
 YSE401 [37 0] 17 min  
 YSE403 [50 -2] 17 min 
 
-!!! 05:10
+!!! 05:00
 C3 [52, -28] 11 min 
 
-!!! 05:21
+!!! 05:11
 DESIRT_50_riz [50 -15] (53 min)
 YSE353 [63 -10] 17 min
 DEBASS/EVERYTHING/2023nxz_P1 [76 -36] (3min) LAST TARGET

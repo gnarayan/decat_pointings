@@ -71,20 +71,21 @@ DEBASS/EVERYHTING/2023mnw_P2 [239 -13] (3min) OPTIONAL
 YSE 2023nlq [237 -17] (4 min)          ## high priority
 
 !!! 20:54
-YSE 583 [236 20] 8 min                 	 
-YSE 531 [230 11] 8 min 	         	   
-### YSE 2023lhy [242 15]  (3 min) HST
+YSE 583 [236 20] 17 min                 	 
+YSE 531 [230 11] 17 min 	         	   
+YSE 2023lhy [242 15]  (4 min) HST
 YSE 2023nnx [243 27] 4 min              ## high priority
 DEBASS/EVERYHTING/2023lhq_P2 [253 18] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023nlk_P1 [259 22] (3min)
-### YSE 2023gxf [257 19] (3 min)          OPTIONAL FILLER
+YSE 2023gxf [257 19] (4 min)          OPTIONAL FILLER
 DEBASS/EVERYHTING/2023mde_P2 [257 13] (3min) OPTIONAL
+YSE 2023iwy [270 26] (4 min)
 
-!!! 21:25  
-YSE 428	[228 -4] 8 min             
-YSE 376	[224 -8] 8 min                  
+!!! 21:40  
+YSE 428	[228 -4] 17 min             
+YSE 376	[224 -8] 17 min                  
 
-!!! 21:41
+!!! 22:15
 DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min)
 YSE 2022esa [253 -10]    (7 min)   
 ### luhman.julXX.28min.json [270 -14] (28 min)
@@ -92,13 +93,13 @@ DECaPSEast [270 -29] 30 min
 DEBASS/EVERYHTING/2023mzb_P1 [299 -26] (3min)
 DEBASS/EVERYHTING/2023mvl_P1 [295 -21] (3min)
 
-!!! 23:10
+!!! 23:00
 ### YSE 2023hcx [302 5] (3 min) HST   
 DEBASS/EVERYHTING/2023nqd_P1 [310 0] (3min)
 DEBASS/EVERYTHING/2023nkq_P1 [306 -3] (3min)
 ### YSE 440	[314 -4] 25 min               
 
-!!! 23:21  
+!!! 23:06
 DEBASS/EVERYTHING/2023nls_P1 [333 -23] (3min)
 ### DESIRT_330_iz_short [332 -3]  (30 min)
 ### YSE 544 [321 9] 17 min                ### DROP i band if behind schedule!   
@@ -110,16 +111,16 @@ YSE 2023mxn [351 11] (4 min)
 ### YSE 393 [346 -10] (17 min)          
 
 
-!!! 01:10
+!!! 23:19
 OMLAApex_230731.z1.json      [355 12] (68 min total)
 OMLAApex_230731.z2.json
 DEBASS/EVERYHTING/2023mbs_P2 [3 12] (3min) OPTIONAL
 
-!!! 02:21
+!!! 00:30
 DESIRT_S82_rz (27 min)
 DESIRT_S82_2_rz [~0 0] (30 min)
 
-!!! 03:18
+!!! 01:27
 DEBASS/EVERYTHING/2023ngb_P1 [6 -1] (3min)
 DEBASS/EVERYHTING/2023lnh_P1 [7 -9] (3min)
 YSE 296 [17 -17] (14 min)           ###  skip i band if behind schedule!       
@@ -127,22 +128,29 @@ DEBASS/EVERYTHING/2023ndf_P1 [23 -17] (3min)
 DEBASS/EVERYTHING/2023mkg_P1 [29 -21] (3min)
 DEBASS/EVERYTHING/2023mha_P1 [34 -25] (3min)
 DEBASS/EVERYHTING/2023oho_P1 [37 -11] (3min)
+
+!!! 02:00
 elais_ddf_seq_A/B  [8, -43] 1h
 ### YSE_Deep_01.json [43, -70] 13min         ### high priority!!!!
 
-!!! 04:45
+!!! 03:00
 YSE 448 [16 3] (17 min)             ### skip i band if behind schedule!
+YSE 2022ywf [20 1] (4 min)
 DEBASS/EVERYTHING/2023nzu_P1 [27 22] (3min)
 DEBASS/EVERYTHING/2023nnz_P1 [36 19] (3min)
 
-!!! 05:09
+*** 30 min extra ***
+
+!!! 03:55
 DESIRT_IC230724 [32 -1] (7 min) # DELETE G BAND POINTING FROM QUEUE
 X123.json [34, -4] 34 min  
 YSE401 [37 0] 17 min  
 YSE403 [50 -2] 17 min 
 
-!!! 05:56
+!!! 05:10
 C3 [52, -28] 11 min 
+
+!!! 05:21
 DESIRT_50_riz [50 -15] (53 min)
 YSE353 [63 -10] 17 min
 DEBASS/EVERYTHING/2023nxz_P1 [76 -36] (3min) LAST TARGET

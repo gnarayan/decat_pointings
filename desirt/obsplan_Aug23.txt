@@ -1,6 +1,6 @@
 ## Aug 1
 
-DESIRT_220_rz [~220 8] (40 min)
+DESIRT_220_rz [~220 8] (40 min) # Whatever fits in schedule given we have -3h
 DESIRT_S82_rz (27 min)
 DESIRT_S82_2_rz [~0 0] (30 min)
 DESIRT_IC230724 [32 -1] (7 min) # DELETE G BAND POINTING FROM QUEUE

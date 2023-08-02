@@ -84,13 +84,16 @@ LOCAL night MIDPOINT: 08/02/2023,   00:49:28
 #!!! 21:40  
 #YSE 428	[228 -4] 17 min             
 
+SKIP FIRST 3 HOURS
 
-
-
+!!! 22:00
+DEBASS/EVERYTHING/2023mkt_P1 [228 -24] 3min 
 YSE 376	[224 -8] 17 min                  
 
 !!! 22:15
-DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min)
+DEBASS/EVERYTHING/2023mnw_P1 [239 -13] 3min 
+DEBASS/EVERYTHING/2023lhq_P1 [253 18] 3min 
+DEBASS/EVERYTHING/2023nlk_P1 [259 22] 3min 
 YSE 2022esa [253 -10]    (7 min)   
 ### luhman.julXX.28min.json [270 -14] (28 min)
 DECaPSEast [270 -29] 30 min
@@ -104,19 +107,17 @@ DEBASS/EVERYTHING/2023nkq_P1 [306 -3] (3min)
 ### YSE 440	[314 -4] 25 min               
 
 !!! 23:06
-DEBASS/EVERYTHING/2023nls_P1 [333 -23] (3min)
 ### DESIRT_330_iz_short [332 -3]  (30 min)
 ### YSE 544 [321 9] 17 min                ### DROP i band if behind schedule!   
 ### YSE 494 [330 3] 17 min                
 ### YSE 495 [339 5] (17 min)              
-DEBASS/EVERYTHING/2023nuv_P1 [340 0] (3min)
-DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min)
+DEBASS/EVERYTHING/2023lxj_P2 [348 14] 3min OPTIONAL
 YSE 2023mxn [351 11] (4 min)
 ### YSE 393 [346 -10] (17 min)          
 
 
 !!! 23:19
-DEBASS/EVERYHTING/2023mbs_P2 [3 12] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023mbs_P1 [2 12] 3min 
 
 !!! 23:23
 DESIRT_S82_rz (27 min)
@@ -140,7 +141,7 @@ YSE 448 [16 3] (24 min)             ### skip r band if behind schedule!
 *** a few extra minutes until the next time block. If not behind schedule, you can do 448.z.json and 296.z.json *****
 YSE 2022ywf [20 1] (4 min)
 DEBASS/EVERYTHING/2023nzu_P1 [27 22] (3min)
-DEBASS/EVERYTHING/2023nnz_P1 [36 19] (3min)
+DEBASS/EVERYTHING/2023nnz_P2 [36 19] 3min OPTIONAL
 
 
 !!! 02:56
@@ -157,7 +158,7 @@ C3 [52, -28] 11 min
 !!! 04:55
 DESIRT_50_riz [50 -15] (53 min)
 YSE353 [63 -10] 33 min          # if behind schedule, remove z, then i
-DEBASS/EVERYTHING/2023nxz_P1 [76 -36] (3min) LAST TARGET
+DEBASS/EVERYTHING/2023nxz_P1 [76 -36] (3min) HIGH PRIORITY
 
 !!! 06:24:53  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in

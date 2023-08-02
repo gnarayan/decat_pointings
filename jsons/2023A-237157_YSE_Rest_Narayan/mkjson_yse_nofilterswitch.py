@@ -492,7 +492,11 @@ if __name__=='__main__':
 
         for horizon in mkjson.horizons:
             print('UT %d deg twilight: %s %s' % (-horizon,mkjson.twi[horizon][0].to_value('isot'),mkjson.twi[horizon][1].to_value('isot')))
-        
+            #if horizon==14:
+            #    dt_14_h=(mkjson.twi[horizon][1]-mkjson.twi[horizon][0]).to_value('hour')
+            #    print(f'time between {-horizon} deg twilight: {dt_14_h:.2f}h')
+            #    sys.exit(0)
+
         ctiotz = timezone('America/Santiago')
         for horizon in mkjson.horizons:
             dt0 = mkjson.twi[horizon][0].to_datetime(timezone=ctiotz)

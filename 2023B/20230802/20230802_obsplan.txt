@@ -72,17 +72,16 @@ YSE 2023mxn [351 11] (4 min)
 ### OMLAApex_230802.z2.json
 ### YSE 393 [346 -10] (17 min)          
 
-*** extra 10 min ***
-
-!!! 01:07
+!!! 00:57
 DEBASS/EVERYTHING/2023mbs_P1 [2 12] 3min 
 DESIRT_S82_rz (27 min)
 DESIRT_S82_2_rz [~0 0] (30 min)
+YSE 2022jli [7 -8] 17 min
 
-!!! 02:07 
+!!! 02:14 
 DEBASS/EVERYTHING/2023ngb_P1 [6 -1] (3min)
 DEBASS/EVERYHTING/2023lnh_P1 [7 -9] (3min)
-YSE 296 [17 -17] (17 min)                      ### drop z if behind
+YSE 296 [17 -17] (8 min)                      ### drop z if behind
 DEBASS/EVERYTHING/2023ndf_P1 [23 -17] (3min)
 DEBASS/EVERYTHING/2023mkg_P1 [29 -21] (3min)
 DEBASS/EVERYTHING/2023mha_P1 [34 -25] (3min)

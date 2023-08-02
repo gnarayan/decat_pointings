@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 5.0,
         "RA": 37.70599,
         "dec": -11.17739,
         "object": "2023oho_P1",
@@ -16,7 +16,35 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 15.0,
+        "exptime": 5.0,
+        "RA": 37.70599,
+        "dec": -11.17739,
+        "object": "2023oho_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023oho",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 5.0,
+        "RA": 37.70599,
+        "dec": -11.17739,
+        "object": "2023oho_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023oho",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 5.0,
         "RA": 37.70599,
         "dec": -11.17739,
         "object": "2023oho_P1",
@@ -27,4 +55,6 @@
         "wait": "False",
         "propid": "2020B-0053"
     }
+
+
 ]

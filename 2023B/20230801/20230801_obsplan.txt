@@ -139,7 +139,7 @@ YSE 2022ywf [20 1] (4 min)
 DEBASS/EVERYTHING/2023nzu_P1 [27 22] (3min)
 DEBASS/EVERYTHING/2023nnz_P1 [36 19] (3min)
 
-*** 30 min extra ***
+*** 15 min extra ***
 
 !!! 03:45
 DESIRT_IC230724 [32 -1] (7 min) # DELETE G BAND POINTING FROM QUEUE
@@ -161,3 +161,6 @@ jsons/2021B-0909_Twilight_Sheppard
 
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+401.i.json
+403.i.json
+353.i.json

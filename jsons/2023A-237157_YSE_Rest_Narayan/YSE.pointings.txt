@@ -318,5 +318,15 @@
           2023lhy   <NA> 242.45742  15.68558     0       NaN                    NaN     2023lhy      N4          35
           OMLApex   <NA> 166.68000 -24.98000     0       NaN                    NaN     OMLApex     NaN        <NA>
           2023fyq   <NA> 186.43891  12.75051     0       NaN                    NaN     2023fyq      N4          35
-          2023mzb   <NA> 300.35632 -25.11894     0       NaN                    NaN     2023mzb      N4          35
       YSE_Deep_01   <NA>  43.52070 -70.38995     0       NaN                    NaN YSE_Deep_01      N4          35
+          2023nlk   <NA> 259.70995  22.63456     0       NaN                    NaN     2023nlk     NaN        <NA>
+          2023mzb   <NA> 299.99799 -26.12379     0       NaN                    NaN     2023mzb     NaN        <NA>
+          2023nnx   <NA> 243.25609  27.06485     0       NaN                    NaN     2023nnx      N4          35
+          2023nlq   <NA> 236.50269 -16.73486     0       NaN                    NaN     2023nlq      N4          35
+          2023mxn   <NA> 350.93699  11.52571     0       NaN                    NaN     2023mxn      N4          35
+          2023mjq   <NA> 212.77516   9.62909     0       NaN                    NaN     2023mjq     NaN        <NA>
+          2023iuc   <NA> 219.72971   2.37426     0       NaN                    NaN     2023iuc      N4          35
+          2022esa   <NA> 253.48784  -9.61584     0       NaN                    NaN     2022esa      N4          35
+          2023iwy   <NA> 270.07520  26.49589     0       NaN                    NaN     2023iwy      N4          35
+          2023lkm   <NA> 340.44234  36.19522     0       NaN                    NaN     2023lkm      N4          35
+          2022ywf   <NA>  20.54867   1.04355     0       NaN                    NaN     2022ywf      N4          35

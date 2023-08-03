@@ -65,7 +65,8 @@ YSE 2023huy [199 -16] (3 min)
 
 !!! 20:13
 YSE 477 [214 5] 8 min   
-DESIRT_220_grz_1, DESIRT_220_grz_2 [~220 8] (53 min) ## DELETE g BAND IF AFTER MOONRISE
+DESIRT_220_g [~220 8] (13 min) 
+DESIRT_220_rz [~220 8] (40 min) 
 
 !!! 21:14
 DEBASS/EVERYHTING/2023ocj_P1 [221 0] (3min)

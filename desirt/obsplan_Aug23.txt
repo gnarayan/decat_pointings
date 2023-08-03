@@ -16,6 +16,7 @@ DESIRT_50_riz_short (50 -15) (52 min)
 
 ## Aug 3
 
-DESIRT_220_grz_1, DESIRT_220_grz_2 [~220 8] (53 min) ## DELETE g BAND IF AFTER MOONRISE
+DESIRT_220_g (13 min) ## g BAND EARLY IN THE NIGHT
+DESIRT_220_rz [~220 8] (40 min) 
 DESIRT_IC230724_short  [32 -1] (5 min)
 DESIRT_50_riz_short (50 -15) (52 min)

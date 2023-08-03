@@ -130,7 +130,7 @@ DEBASS/EVERYTHING/2023mmb_P1 [48 -24] (3min)
 
 *** extra 35 min! ****
 
-!!! 02:00 *** not before 1:00am!!! ***
+!!! 02:00 *** not before 2:00am!!! ***
 DEBASS/EVERYTHING/2023ngb_P2 [6 -1] (3min) LOW PRIORITY
 YSE 448 [16 3] (8 min)             ### skip if behind schedule, close to Moon! This is just a filler
 ### YSE 2022ywf [20 1] (18 min)

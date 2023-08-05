@@ -27,3 +27,8 @@ DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min) OPTIONAL
 DESIRT_330_z [332 -3]  (23 min) 
 DESIRT_S82_rz (36 min)
+
+EXTRA TARGETS
+DESIRT_S82_2_rz_short  [~0 0] (37 min)
+DESIRT_IC230724_short  [32 -1] (5 min)
+DESIRT_50_riz_short (50 -15) (52 min)

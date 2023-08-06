@@ -3,12 +3,14 @@
 2023ono_P1 [44 -21]
 2023oho_P1 [37 -11]
 2023mmb_P1 [48 -24]
+2023ooz_P1 [80 -37]
 2023nxz_P1 [76 -36]
 2023oci_P1 [188 -3]
 2023ocj_P1 [221 0]
 2023mgq_P1 [217 10]
 2023mkt_P1 [228 -24]
 2023mbz_P1 [225 11]
+2023omv_P1 [238 5]
 2023nlk_P1 [259 22]
 2023mzb_P1 [299 -26]
 2023mvl_P1 [295 -21]
@@ -40,5 +42,5 @@
 2023lxj_P3 [348 13]
 
 2023mzb_TCTM [299 -26]
-EVERYTHING	131.3 minutes
-EVERYTHING_P1	63.8 minutes
+EVERYTHING	136.4 minutes
+EVERYTHING_P1	68.9 minutes

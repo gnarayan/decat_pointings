@@ -17,6 +17,7 @@
 2023oky_P1 [300 -9]
 2023nkq_P1 [306 -3]
 2023nqd_P1 [310 0]
+2023ons_P1 [331 -46]
 2023nls_P1 [333 -23]
 2023nuv_P1 [340 0]
 
@@ -42,5 +43,5 @@
 2023lxj_P3 [348 13]
 
 2023mzb_TCTM [299 -26]
-EVERYTHING	136.4 minutes
-EVERYTHING_P1	68.9 minutes
+EVERYTHING	140.2 minutes
+EVERYTHING_P1	72.6 minutes

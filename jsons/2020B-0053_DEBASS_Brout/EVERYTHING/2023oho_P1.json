@@ -2,8 +2,8 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 5.0,
-        "RA": 37.70599,
+        "exptime": 4.0,
+        "RA": 37.67822,
         "dec": -11.17739,
         "object": "2023oho_P1",
         "program": "DECAT",
@@ -16,8 +16,8 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 5.0,
-        "RA": 37.70599,
+        "exptime": 4.0,
+        "RA": 37.67822,
         "dec": -11.17739,
         "object": "2023oho_P1",
         "program": "DECAT",
@@ -30,8 +30,8 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 5.0,
-        "RA": 37.70599,
+        "exptime": 4.0,
+        "RA": 37.67822,
         "dec": -11.17739,
         "object": "2023oho_P1",
         "program": "DECAT",
@@ -44,8 +44,8 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 5.0,
-        "RA": 37.70599,
+        "exptime": 4.0,
+        "RA": 37.67822,
         "dec": -11.17739,
         "object": "2023oho_P1",
         "program": "DECAT",

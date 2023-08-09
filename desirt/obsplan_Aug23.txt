@@ -32,3 +32,13 @@ EXTRA TARGETS
 DESIRT_S82_2_rz_short  [~0 0] (37 min)
 DESIRT_IC230724_short  [32 -1] (5 min)
 DESIRT_50_riz_short (50 -15) (52 min)
+
+## Aug 9
+
+DESIRT_220_gr [~220 8] (30 min) OPTIONAL
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_S82_gr [~0 0] (33 min)
+DESIRT_S82_2_gz [~0 0] (40 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_gz (50 -15) (34 min)

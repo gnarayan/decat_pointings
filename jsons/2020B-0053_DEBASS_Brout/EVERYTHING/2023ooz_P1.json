@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
         "RA": 80.24189,
-        "dec": -37.33685,
+        "dec": -37.36463,
         "object": "2023ooz_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "r",
         "exptime": 15.0,
         "RA": 80.24189,
-        "dec": -37.33685,
+        "dec": -37.36463,
         "object": "2023ooz_P1",
         "program": "DECAT",
         "expType": "object",

@@ -2,9 +2,9 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 300.02577,
-        "dec": -26.09601,
+        "dec": -26.12379,
         "object": "2023mzb_P1",
         "program": "DECAT",
         "expType": "object",
@@ -16,9 +16,9 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 300.02577,
-        "dec": -26.09601,
+        "dec": -26.12379,
         "object": "2023mzb_P1",
         "program": "DECAT",
         "expType": "object",

@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 310.6992,
         "dec": 0.51405,
         "object": "2023nqd_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 310.6992,
         "dec": 0.51405,
         "object": "2023nqd_P1",

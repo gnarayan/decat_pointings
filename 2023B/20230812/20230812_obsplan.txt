@@ -69,7 +69,7 @@ DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3]  (17 min) OPTIONAL
 DESIRT_330_z [332 -3]  (23 min) 
 
-!!! 02:15
+!!! 02:00
 DEBASS/EVERYTHING/2023nuv_P1 [340 0] (2min)
 YSE 494 [330 3] 8 min                
 YSE 495 [339 5] (8 min)              
@@ -78,13 +78,14 @@ OMLAApex_230812.json      [355 12] (36 min total)
 YSE 393 [346 -10] (17 min)          # drop r band if behind schedule      
 
 
-!!! 03:30
-DESIRT_S82_rz (36 min)
+!!! 03:15
+DESIRT_S82_gr [~0 0] (33 min)
 DEBASS/EVERYTHING/2023ngb_P1 [6 -1] (2min)
 DEBASS/EVERYTHING/2023okd_P1 [5 8] (2min)
 ### YSE 2022jli [7 -8] 17 min
+DESIRT_S82_2_gr [~0 0] (33 min) # drop last couple of exposures if behind schedule
 
-!!! 4:20  
+!!! 4:25  
 DEBASS/EVERYTHING/2023lnh_P1 [7 -9] (2min)
 YSE 296 [17 -17] (8 min)            # drop if behind schedule
 DEBASS/EVERYTHING/2023ovl_P2 [21 -15] (2min) OPTIONAL
@@ -101,22 +102,23 @@ DEBASS/EVERYTHING/2023nnz_P1 [36 19] (2min)
 ### YSE 2022ywf [20 1] (18 min)
 
 
-### !!! 05:05
+### !!! 05:03
 X123.json [34, -4] 34 min  
 
-### !!! 05:35
-YSE401 [37 0] 8 min            
+### !!! 05:37
+YSE401 [37 0] 8 min       
+DESIRT_IC230724_short  [32 -1] (6 min) OPTIONAL
 DEBASS/EVERYTHING/2023olz_P1 [54 15] (2min)
 YSE403 [50 -2] 8 min          
 
 !!! 05:55
 C3 [52, -28] 11 min 
 
-!!! 06:00
+!!! 06:06
 ### YSE353 [63 -10] 17 min          
 YSE253 [67, -26] 8 min         
 
-!!! 06:10
+!!! 06:14
 DEBASS/EVERYTHING/2023nxz_P1 [76 -36] (2min)
 ### YSE257 [85 -25] 17 min  
 

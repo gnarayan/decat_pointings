@@ -42,3 +42,12 @@ DESIRT_S82_gr [~0 0] (33 min)
 DESIRT_S82_2_gz [~0 0] (40 min)
 DESIRT_IC230724_short  [32 -1] (6 min)
 DESIRT_50_gz (50 -15) (34 min)
+
+## Aug 12 (2nd half)
+
+DESIRT_S82_gr [~0 0] (33 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS
+DESIRT_S82_2_gz [~0 0] (40 min)

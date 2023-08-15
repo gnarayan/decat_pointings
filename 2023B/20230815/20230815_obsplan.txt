@@ -167,3 +167,5 @@ jsons/2021B-0909_Twilight_Sheppard
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
 DESIRT_330_z [332 -3]  (23 min)
 DESIRT_50_z (50 -15) (21 min) 
+YSE353 [63 -10] 8 min  
+YSE257 [85 -25] 8 min              

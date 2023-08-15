@@ -1315,7 +1315,7 @@ mkjson_yse_nofilterswitch.py  -f r     403 -d 230815
 mkjson_yse_nofilterswitch.py  -f g  353  257   -d 230815
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i  2023grn 2023exu 2023ext 2023bu 2023ggg 2022zut  2023clx 2023fot 2023huy 2023emq 2023hym  2023nlq 2023lhy 2023osu 2023nnx 2023gxf 2023nlk 2023mzb 2023hcx 2023mxn -d 230815 -e 25 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f g,r 2023mxn 2023hcx  -d 230815 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i 2023mxn 2023hcx  -d 230815 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i  2023hcx 2023iwy 2023mjq -d 230815 -e 25 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f r,i   2023iuc 2022esa 2022ywf 2022jli -d 230815 -e 150 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g   2022esa  -d 230815 -e 150 -n 3 --sortbyra

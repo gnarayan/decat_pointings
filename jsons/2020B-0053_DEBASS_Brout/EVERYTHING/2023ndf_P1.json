@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 23.87151,
-        "dec": -17.7759,
+        "RA": 23.84373,
+        "dec": -17.80368,
         "object": "2023ndf_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
         "exptime": 15.0,
-        "RA": 23.87151,
-        "dec": -17.7759,
+        "RA": 23.84373,
+        "dec": -17.80368,
         "object": "2023ndf_P1",
         "program": "DECAT",
         "expType": "object",

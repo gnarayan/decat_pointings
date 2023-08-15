@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "r",
-        "exptime": 30.0,
-        "RA": 6.43698,
-        "dec": -1.63993,
+        "filter": "g",
+        "exptime": 15.0,
+        "RA": 6.4092,
+        "dec": -1.61215,
         "object": "2023ngb_P1",
         "program": "DECAT",
         "expType": "object",
@@ -16,9 +16,9 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 30.0,
-        "RA": 6.43698,
-        "dec": -1.63993,
+        "exptime": 15.0,
+        "RA": 6.4092,
+        "dec": -1.61215,
         "object": "2023ngb_P1",
         "program": "DECAT",
         "expType": "object",

@@ -58,6 +58,7 @@ YSE 2023huy [199 -16] (2 min)
 
 !!! 19:33
 YSE 477 [214 5] 8 min   
+DEBASS/EVERYTHING/2023ocj_P1 [221 0] (2min)
 DEBASS/EVERYTHING/2023mkt_P1 [228 -24] (2min) CAN SKIP IF REALLY BEHIND
 YSE 2023nlq [237 -17] (2 min)  
 YSE 2023osu [245 0]  (2 min) HST         
@@ -68,25 +69,21 @@ YSE 2023nnx [243 27] 2 min
 YSE 583 [236 20] 8 min                 	 
 YSE 531 [230 11] 8 min 	         	   
 ### YSE 2023gxf [257 19] (2 min)          
-DEBASS/EVERYTHING/2023mde_P2 [257 13] (2min) OPTIONAL Drop if behind 
-DEBASS/EVERYTHING/2023lhq_P2 [253 18] (2min) OPTIONAL Drop if behind 
-DEBASS/EVERYTHING/2023nlk_P1 [259 22] (2min) can drop i band to save time
+DEBASS/EVERYTHING/2023nlk_P1 [259 22] (2min)
 YSE 2023iwy [270 26] (2 min)
 
 !!! 21:15
 YSE 428	[228 -4] 8 min             
 YSE 376	[224 -8] 8 min                  
-DEBASS/EVERYTHING/2023mnw_P2 [239 -13] (2min) OPTIONAL Drop if behind 
 
 !!! 21:33
 YSE 2023hcx [302 5] (2 min) HST   
-DEBASS/EVERYTHING/2023nqd_P1 [310 0] (2min)
+DEBASS/EVERYTHING/2023nqd_P2 [310 0] (2min) OPTIONAL
 DEBASS/EVERYTHING/2023ols_P1 [301 1] (2min)
 DEBASS/EVERYTHING/2023nkq_P2 [306 -3] (2min) OPTIONAL Drop if behind 
-DEBASS/EVERYTHING/2023mvl_P1 [295 -21] (2min)
-DEBASS/EVERYTHING/2023mzb_P1 [300 -26] (2min)
-DEBASS/EVERYTHING/2023nup_P1 [309 -22] (2min)
-DEBASS/EVERYTHING/2023ons_P1 [331 -46] (2min) can drop i band to save time
+DEBASS/EVERYTHING/2023mvl_P2 [295 -21] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023mzb_P2 [299 -26] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023ons_P1 [331 -46] (2min)
 ### YSE 440	[314 -4] 8 min                  
 
 !!! 21:50
@@ -96,16 +93,15 @@ DESIRT_330_r [332 -3] (17 min)
 DESIRT_330_z [332 -3]  (23 min) 
 
 !!! 22:45
-DEBASS/EVERYTHING/2023opn_P2 [311 12] (2min) OPTIONAL Drop if behind 
+DEBASS/EVERYTHING/2023opn_P1 [311 12] (2min)
 YSE 544 [321 9] 8 min                
-DEBASS/EVERYTHING/2023pbe_P1 [327 14] (2min) can drop i band to save time
+DEBASS/EVERYTHING/2023pbe_P1 [327 14] (2min)
 YSE 494 [330 3] 8 min                
 YSE 495 [339 5] 7 min                 ### Drop if behind 
-DEBASS/EVERYTHING/2023ozl_P2 [341 10] (2min) OPTIONAL Drop if behind 
+DEBASS/EVERYTHING/2023ozl_P1 [341 10] (2min)
 
 !!! 23:15          
 DEBASS/EVERYTHING/2023nuv_P1 [340 0] (2min)
-DEBASS/EVERYTHING/2023lxj_P2 [348 13] (2min) OPTIONAL
 YSE 2023mxn [351 11] (2 min)
 OMLAApexd.230818.json     [355 12] (46 min total)
 
@@ -115,15 +111,11 @@ DESIRT_S82_gr [~0 0] (20 min)  ### Cut this block down to 20 min!!!!!
 ### Cut this block down to 20 min!!!!!
 
 !!! 00:27
-DEBASS/EVERYTHING/2023ngb_P1 [6 -1] (2min)
-DEBASS/EVERYTHING/2023okd_P1 [5 8] (2min) can drop i band to save time
-DEBASS/EVERYTHING/2023ndf_P1 [23 -17] (2min)
-DEBASS/EVERYTHING/2023mkg_P1 [29 -21] (2min)
-DEBASS/EVERYTHING/2023oho_P1 [37 -11] (2min)
+DEBASS/EVERYTHING/2023ngb_P2 [6 -1] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023okd_P2 [5 8] (2min) OPTIONAL
 DEBASS/EVERYTHING/2023ono_P1 [44 -21] (2min)
-DEBASS/EVERYTHING/2023pbk_P1 [43 -35] (2min) can drop i band to save time
 DEBASS/EVERYTHING/2023nzu_P1 [27 22] (2min)
-DEBASS/EVERYTHING/2023nnz_P1 [36 19] (2min)
+DEBASS/EVERYTHING/2023nxz_P1 [76 -36] (2min)
 
 middle of night: 00:46:52
 

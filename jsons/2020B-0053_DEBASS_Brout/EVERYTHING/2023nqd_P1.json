@@ -26,5 +26,19 @@
         "comment": "2023nqd",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 310.6992,
+        "dec": 0.54182,
+        "object": "2023nqd_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023nqd",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

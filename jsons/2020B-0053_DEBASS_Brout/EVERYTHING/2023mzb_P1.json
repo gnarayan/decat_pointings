@@ -26,5 +26,19 @@
         "comment": "2023mzb",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 299.99799,
+        "dec": -26.09601,
+        "object": "2023mzb_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023mzb",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

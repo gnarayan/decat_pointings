@@ -40,5 +40,19 @@
         "comment": "2023pgu",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 36.75502,
+        "dec": -13.36228,
+        "object": "2023pgu_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023pgu",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

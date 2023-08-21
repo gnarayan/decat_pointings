@@ -40,5 +40,19 @@
         "comment": "2023oho",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 37.70599,
+        "dec": -11.20517,
+        "object": "2023oho_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023oho",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

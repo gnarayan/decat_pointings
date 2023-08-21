@@ -40,19 +40,5 @@
         "comment": "2023olz",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 54.25503,
-        "dec": 15.30907,
-        "object": "2023olz_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023olz",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

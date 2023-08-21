@@ -55,9 +55,9 @@ YSE 2023huy [199 -16] (3 min)
 ### YSE 477 [214 5] 17 min   
 YSE 2023nlq [237 -17] (3 min)  
 YSE 2023osu [245 0]  (3 min) HST         
-YSE 531 [230 11] 8 min 	         	   
+YSE 531 [230 11] 8 min OPTIONAL      	   
 YSE 2023lhy [242 15]  (3 min) HST
-YSE 583 [236 20] 8 min                 	 
+YSE 583 [236 20] 8 min  OPTIONAL        	 
 YSE 2023nnx [243 27] 3 min              
 
 !!! 19:55
@@ -84,7 +84,7 @@ YSE 440	[314 -4] 17 min
 DEBASS/EVERYTHING/2023nls_P1 [333 -23] (2min)
 DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_r [332 -3] (17 min)
-DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_330_z [332 -3]  (23 min) OPTIONAL
 
 !!! 21:25
 DEBASS/EVERYTHING/2023nqd_P1 [310 0] (2min)
@@ -143,7 +143,7 @@ C3 [52, -28] 11 min
 !!! 03:30
 DESIRT_50_z (50 -15) (21 min)
 DESIRT_50_g (50 -15) (13 min)
-DESIRT_50_r (50 -15) (15 min) 
+DESIRT_50_r (50 -15) (15 min) OPTIONAL
 
 !!! 04:20
 YSE353 [63 -10] 17 min              

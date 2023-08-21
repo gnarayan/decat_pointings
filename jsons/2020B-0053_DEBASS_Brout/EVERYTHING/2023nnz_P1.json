@@ -40,19 +40,5 @@
         "comment": "2023nnz",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 36.87362,
-        "dec": 19.96847,
-        "object": "2023nnz_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023nnz",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

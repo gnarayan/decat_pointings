@@ -47,5 +47,5 @@
 2023nkq_P3 [306 -3]
 2023lxj_P3 [348 13]
 
-EVERYTHING	146.0 minutes
-EVERYTHING_P1	71.7 minutes
+EVERYTHING	154.4 minutes
+EVERYTHING_P1	80.1 minutes

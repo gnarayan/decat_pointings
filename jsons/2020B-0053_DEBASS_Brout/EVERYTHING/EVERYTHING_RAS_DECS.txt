@@ -1,3 +1,4 @@
+2023qdz_P1 [0 -31]
 2023pru_P1 [10 -17]
 2023ngb_P1 [6 -1]
 2023okd_P1 [5 8]
@@ -14,9 +15,11 @@
 2023nlk_P1 [259 22]
 2023mzb_P1 [299 -26]
 2023ols_P1 [301 1]
+2023qfq_P1 [307 -27]
 2023nup_P1 [309 -22]
 2023nqd_P1 [310 0]
 2023opn_P1 [311 12]
+2023qov_P1 [318 -49]
 2023pwl_P1 [326 -50]
 2023ons_P1 [331 -46]
 2023nls_P1 [333 -23]
@@ -47,5 +50,5 @@
 2023nkq_P3 [306 -3]
 2023lxj_P3 [348 13]
 
-EVERYTHING	154.4 minutes
-EVERYTHING_P1	80.1 minutes
+EVERYTHING	164.9 minutes
+EVERYTHING_P1	89.2 minutes

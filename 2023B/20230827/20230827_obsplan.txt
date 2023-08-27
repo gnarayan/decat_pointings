@@ -47,6 +47,7 @@ Script will finish on its own or at -14 deg twilight.
 !!! 19:26:50
 YSE 2023hym 213 -45 (2 min) 
 YSE 2023mjq [213 10] (2 min)                 
+DEBASS/EVERYTHING/2023ocj_P1 [221 0] (3min)
 ### YSE 2023iuc [220 2] (7 min)
 ### YSE 2023emq [203 -23] (10 min)  
 YSE 2023huy [199 -16] (2 min)
@@ -60,85 +61,81 @@ YSE 2023lhy [242 15]  (3 min) HST
 ### YSE 583 [236 20] 8 min          	 
 ### YSE 2023nnx [243 27] 3 min              
 
-!!! 19:55
+!!! 19:35
 YSE 2023gxf [257 19] (2 min)          
-DEBASS/EVERYTHING/2023nlk_P1 [259 22] (2min)
+DEBASS/EVERYTHING/2023nlk_P1 [259 22] (3min)
 YSE 2023iwy [270 26] (2 min)
 
-!!! 20:05
+!!! 19:42
 ### YSE 428	[228 -4] 8 min             
 ### YSE 376	[224 -8] 8 min                  
 
-!!! 20:05
+!!! 19:42
 YSE 2023hcx [302 5] (2 min) HST   
-DEBASS/EVERYTHING/2023ols_P1 [301 1] (2min)
-DEBASS/EVERYTHING/2023nup_P1 [309 -22] (2min)
-DEBASS/EVERYTHING/2023qfq_P1 [307 -27] (3min)
+DEBASS/EVERYTHING/2023ols_P1 [301 1] (3min)
 DEBASS/EVERYTHING/2023qov_P1 [318 -49] (3min)
-DEBASS/EVERYTHING/2023pwl_P1 [326 -50] (2min)
-DEBASS/EVERYTHING/2023ons_P1 [331 -46] (2min)
+DEBASS/EVERYTHING/2023pwl_P1 [326 -50] (3min)
+DEBASS/EVERYTHING/2023ons_P1 [331 -46] (3min)
 ### YSE 440	[314 -4] 8 min                  
-
-!!! 20:45
-DEBASS/EVERYTHING/2023nls_P1 [333 -23] (2min)
 DEBASS/EVERYTHING/2023qdz_P1 [0 -31] (3min)
+
+!!! 20:00
 DESIRT_330_rz_short [332 -3]  (30 min) 
 
-!!! 21:35
-DEBASS/EVERYTHING/2023nqd_P1 [310 0] (2min)
-DEBASS/EVERYTHING/2023opn_P1 [311 12] (2min)
+!!! 20:20
+DEBASS/EVERYTHING/2023opn_P1 [311 12] (3min)
 YSE 544 [321 9] 17 min               ### Remove if behind schedule   
-DEBASS/EVERYTHING/2023pbe_P1 [327 14] (2min)
+DEBASS/EVERYTHING/2023pbe_P1 [327 14] (3min)
+DEBASS/EVERYTHING/2023qec_P2 [337 17] (3min) OPTIONAL
 YSE 494 [330 3] 17 min               ### Remove if behind schedule 
 YSE 495 [339 5] 17 min               ### Remove if behind schedule 
-DEBASS/EVERYTHING/2023pdy_P1 [338 23] (2min)
-DEBASS/EVERYTHING/2023ozl_P1 [341 10] (2min)
-
-!!! 22:35          
-DEBASS/EVERYTHING/2023nuv_P1 [340 0] (2min)
+DEBASS/EVERYTHING/2023ozl_P1 [341 10] (3min)
 YSE 2023mxn [351 11] (2 min)
 
-!!! 22:40
+!!! 21:30
 OMLAApexd.230827*.json      [355 12] (113 min total)
 
-!!! 00:40
+!!! 23:25
 YSE 393 [346 -10] (17 min)          
 DESIRT_S82_rz [~0 0] (41 min)
 DESIRT_S82_2_rz [~0 0] (40 min)
-DEBASS/EVERYTHING/2023ngb_P1 [6 -1] (2min)
 ### YSE 2022jli [7 -8] 10 min
-DEBASS/EVERYTHING/2023okd_P1 [5 8] (2min)
-DEBASS/EVERYTHING/2023pru_P1 [10 -17] (2min)
 
-!!! 02:10
+!!! 01:05
+DEBASS/EVERYTHING/2023okd_P1 [5 8] (3min)
+DEBASS/EVERYTHING/2023nzu_P1 [27 22] (3min)
+DEBASS/EVERYTHING/2023nnz_P1 [36 19] (3min)
+DEBASS/EVERYTHING/2023pru_P1 [10 -17] (3min)
+
+!!! 01:20
 E12.json [9 -45] (28 min)
 YSE 296 [17 -17] (17 min)                
-DEBASS/EVERYTHING/2023pgu_P1 [36 -13] (2min)
-DEBASS/EVERYTHING/2023oho_P1 [37 -11] (2min)
-DEBASS/EVERYTHING/2023ptg_P1 [38 -5] (2min)
-DEBASS/EVERYTHING/2023ono_P1 [44 -21] (2min)
+DEBASS/EVERYTHING/2023ndf_P2 [23 -17] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023oho_P1 [37 -11] (3min)
+DEBASS/EVERYTHING/2023ptg_P1 [38 -5] (3min)
+DEBASS/EVERYTHING/2023ono_P1 [44 -21] (3min)
+DEBASS/EVERYTHING/2023mmb_P2 [48 -24] (3min) OPTIONAL
 
-!!! 02:45
+!!! 02:25
 YSE 448 [16 3] (17 min)             
 ### YSE 2022ywf [20 1] (10 min)
-DEBASS/EVERYTHING/2023pew_P1 [30 11] (2min)
-DEBASS/EVERYTHING/2023olz_P1 [54 15] (2min)
+DEBASS/EVERYTHING/2023olz_P1 [54 15] (3min)
 
-!!! 03:15
+!!! 02:45
 DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
-!!! 03:55
+!!! 03:25
 YSE401 [37 0] 17 min              
 S12 [42,0] 22min
 YSE403 [50 -2] 17 min                
 C3 [52, -28] 11 min 
 
-!!! 04:25
+!!! 04:30
 DESIRT_50_z (50 -15) (21 min) 
 DESIRT_50_g (50 -15) (13 min)
 
-!!! 05:15
+!!! 05:00
 YSE353 [63 -10] 17 min              
 YSE253 [67, -26] 17 min             
 YSE257 [85 -25] 17 min              

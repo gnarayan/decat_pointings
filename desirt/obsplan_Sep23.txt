@@ -1,0 +1,8 @@
+## Sep 02 
+
+DESIRT_330_r [332 -3] (17 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_S82_rz (36 min)
+DESIRT_S82_2_rz_short  [~0 0] (34 min)
+DESIRT_50_z (50 -15) (21 min) 
+DESIRT_50_r (50 -15) (15 min) 

@@ -150,3 +150,5 @@ jsons/2021B-0909_Twilight_Sheppard
 
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+YSE 428	[228 -4] 8 min             
+YSE 376	[224 -8] 8 min                  

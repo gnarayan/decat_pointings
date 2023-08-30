@@ -1412,7 +1412,7 @@ mkdir 20230827
 cp 20230824/20230824_obsplan.txt 20230827/20230827_obsplan.txt 
 subl 20230827/20230827_obsplan.txt
 git add 20230827/20230827_obsplan.txt
-# mkjson_yse_nofilterswitch.py  -f z   376 428  -d 230827
+# mkjson_yse_nofilterswitch.py  -f r   376 428  -d 230827
 # mkjson_yse_nofilterswitch.py  -f r   440   -d 230827 
 mkjson_yse_nofilterswitch.py  -f i,z  544 494   495   -d 230827
 mkjson_yse_nofilterswitch.py  -f i,z   393  -d 230827

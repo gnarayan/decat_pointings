@@ -78,14 +78,13 @@ DEBASS/EVERYTHING/2023ons_P1 [331 -46] (3min)
 YSE 440	[314 -4] 16 min    
 
 !!! 21:10
-DESIRT_330_r [332 -3] (17 min)
-DESIRT_330_z [332 -3]  (23 min) 
 
-!!! 21:50
 DEBASS/EVERYTHING/2023nqd_P2 [310 0] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023opn_P1 [311 12] (3min)
 YSE 544 [321 9] 17 min                  
 DEBASS/EVERYTHING/2023pbe_P1 [327 14] (3min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3]  (23 min) 
 YSE 494 [330 3] 17 min                
 YSE 495 [339 5] 17 min                         
 
@@ -99,8 +98,8 @@ YSE 393 [346 -10] (17 min)
 DEBASS/EVERYTHING/2023nuv_P1 [340 0] (3min) OPTIONAL
 
 !!! 01:05
-DESIRT_S82_rz (36 min)
-DESIRT_S82_2_rz_short  [~0 0] (34 min)
+DESIRT_S82_gz [~350 0] (40 min)
+DESIRT_S82_2_gr [~0 0] (36 min)
 
 !!! 02:15
 DEBASS/EVERYTHING/2023qnz_P1 [0 -10] (3min)
@@ -123,7 +122,7 @@ DEBASS/EVERYTHING/2023nnz_P2 [36 19] (3min) OPTIONAL
 
 !!! 03:45
 ### DESIRT_30_riz_short [30 -15] (45 min)
-### DESIRT_IC230724_bright  [32 -1] (6 min)
+DESIRT_IC230724_bright  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
 !!! 04:20

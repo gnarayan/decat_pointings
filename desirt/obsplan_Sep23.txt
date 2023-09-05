@@ -6,3 +6,91 @@ DESIRT_S82_rz (36 min)
 DESIRT_S82_2_rz_short  [~0 0] (34 min)
 DESIRT_50_z (50 -15) (21 min) 
 DESIRT_50_r (50 -15) (15 min) 
+
+
+## Sep 08 (2nd half)
+
+DESIRT_S82_2_gz [~0 0] (40 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (21 min)
+
+## Sep 11 
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3] (17 min)
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min) OPTIONAL
+DESIRT_50_z (50 -15) (21 min)
+
+EXTRA TARGETS
+DESIRT_330_z [332 -3] (21 min)
+
+
+## Sep 14
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3] (21 min)
+DESIRT_S82_gz [~350 0] (41 min)
+DESIRT_S82_2_gr [~0 0] (36 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min) 
+DESIRT_50_z (50 -15) (21 min) OPTIONAL
+
+EXTRA TARGETS
+DESIRT_330_r [332 -3] (17 min)
+
+
+## Sep 17 
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3] (17 min)
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min) OPTIONAL
+DESIRT_50_z (50 -15) (21 min)
+
+EXTRA TARGETS
+DESIRT_330_z [332 -3] (21 min)
+
+## Sep 20 
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3] (21 min)
+DESIRT_S82_gz [~350 0] (41 min)
+DESIRT_S82_2_gr [~0 0] (36 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min) 
+DESIRT_50_z (50 -15) (21 min) OPTIONAL
+
+EXTRA TARGETS
+DESIRT_330_r [332 -3] (17 min)
+
+
+## Sep 23 
+
+DESIRT_330_z [332 -3] (21 min)
+DESIRT_330_r [332 -3] (17 min)
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min) OPTIONAL
+DESIRT_50_z (50 -15) (21 min)
+
+EXTRA TARGETS
+DESIRT_330_z [332 -3] (21 min)
+
+## Sep 26 
+
+DESIRT_S82_2_iz_short_aug30
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_30_riz_short [30 -15] (40 min)
+DESIRT_50_riz (50 -15) (48 min)

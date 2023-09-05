@@ -1,0 +1,11 @@
+## Oct 02
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3] (17 min)
+DESIRT_S82_gz [~350 0] (40 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_riz_short (50 -15) (43 min)
+
+EXTRA TARGETS
+DESIRT_330_z [332 -3] (21 min)

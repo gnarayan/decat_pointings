@@ -87,7 +87,7 @@ DESIRT_50_z (50 -15) (21 min)
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min      CAN SKIP TO MAKE IT ALL FIT                   
 YSE 257 [85 -25] 17 min            ### remove g band if behind schedule        
-DESIRT_230906 (79 -47) (6 min)
+DESIRT_230906 (79 -47) (6 min)      # Skip second pointing (2 exposures) if behind schedule
 Shen SCVZ [90 -66] 13 min 
 ### YSE 412 [116 -2] 8 min           
 

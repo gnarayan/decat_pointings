@@ -30,8 +30,8 @@
     {
         "object": "DESIRT 230906 B",
         "expTime": 90,
-        "RA": "79.318442",
-        "dec": "-48.215864",
+        "RA": "79.678",
+        "dec": "-48.0806",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -44,8 +44,8 @@
     {
         "object": "DESIRT 230906 B",
         "expTime": 180,
-        "RA": "79.318442",
-        "dec": "-48.215864",
+        "RA": "79.678",
+        "dec": "-48.0806",
         "filter": "i",
         "count": 1,
         "expType": "object",

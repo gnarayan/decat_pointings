@@ -41,45 +41,49 @@ LOCAL night MIDPOINT: 09/09/2023,   01:40:35
 LOCAL night MIDPOINT: 09/09/2023,   01:40:35
 
 
-!!! 01:00
+!!! 01:41
+DEBASS/EVERYTHING/2023ols_P2 [301 1] (2min)
+DEBASS/EVERYTHING/2023reh_P1 [314 17] (2min)
+DEBASS/EVERYTHING/2023pbe_P1 [327 14] (2min)
+DEBASS/EVERYTHING/2023nup_P2 [309 -22] (2min)
+DEBASS/EVERYTHING/2023qfq_P1 [307 -27] (2min)
+DEBASS/EVERYTHING/2023ons_P2 [331 -46] (2min)
+DEBASS/EVERYTHING/2023pwl_P1 [326 -50] (2min)
+DEBASS/EVERYTHING/2023qov_P1 [318 -49] (2min)
+DEBASS/EVERYTHING/2023nuv_P2 [340 0] (2min)
 DESIRT_S82_2_gz [~0 0] (40 min)
+DEBASS/EVERYTHING/2023okd_P2 [5 8] (2min) OPTIONAL
 
-!!! 02:16
-DEBASS/EVERYTHING/2023qnz_P1 [0 -10] (3min)
-DEBASS/EVERYTHING/2023qdz_P1 [0 -31] (3min)
-DEBASS/EVERYTHING/2023rdq_P1 [11 -31] (3min)
+!!! 02:41
 ### YSE 2022jli [7 -8] 10 min
 E12.json [9 -45] (28 min)
-DEBASS/EVERYTHING/2023pru_P1 [10 -18] (3min)
+DEBASS/EVERYTHING/2023pru_P1 [10 -18] (2min)
 
-!!! 03:00
+!!! 03:10
 ### YSE 296 [17 -17] (15 min)                      
-DEBASS/EVERYTHING/2023ndf_P2 [23 -17] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023oho_P1 [37 -11] (3min)
-DEBASS/EVERYTHING/2023ptg_P1 [38 -5] (3min)
-DEBASS/EVERYTHING/2023qyr_P2 [35 -2] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023oho_P1 [37 -11] (2min)
+DEBASS/EVERYTHING/2023ptg_P1 [38 -5] (2min)
 ### YSE 448 [16 3] (16 min)                   
-DEBASS/EVERYTHING/2023nzu_P2 [27 22] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023nnz_P2 [36 19] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023nzu_P2 [27 22] (2min) OPTIONAL
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 03:40
+!!! 03:26
 ### DESIRT_30_riz_short [30 -15] (45 min)
 ### DESIRT_IC230724_bright  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
-!!! 04:20
+!!! 04:00
 YSE401 [37 0] 17 min                
 S12 [42,0] 22min
 YSE 403 [50 -2] 17 min                        
 C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2023ono_P1 [44 -21] (3min)
+DEBASS/EVERYTHING/2023ono_P1 [44 -21] (2min)
 
-!!! 05:00
+!!! 05:10
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (21 min)
 
-!!! 05:35
+!!! 05:40
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min      CAN SKIP TO MAKE IT ALL FIT                   
 YSE 257 [85 -25] 17 min            ### remove g band if behind schedule        
@@ -87,7 +91,7 @@ DESIRT_230906 (79 -47) (6 min)
 Shen SCVZ [90 -66] 13 min 
 ### YSE 412 [116 -2] 8 min           
 
-!!! 05:55  -14 deg twilight: slew to Asteroid fields!!!
+!!! 06:48:18  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

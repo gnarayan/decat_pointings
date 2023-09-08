@@ -1522,6 +1522,33 @@ mkjson_yse_nofilterswitch.py  -f i 2023emq -e 250 -n 2 --sortbyra
 git add 230905
 git add 230905/*.json
 
+mkdir 20230908
+cp 20230905/20230905_obsplan.txt 20230908/20230908_obsplan.txt 
+subl 20230908/20230908_obsplan.txt
+git add 20230908/20230908_obsplan.txt
+# mkjson_yse_nofilterswitch.py  -f g   583 531 -d 230908 
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 230908 
+mkjson_yse_nofilterswitch.py  -f g,r   440   -d 230908 
+mkjson_yse_nofilterswitch.py  -f g,r  544 494      -d 230908
+mkjson_yse_nofilterswitch.py  -f g,r  495 393  -d 230908
+mkjson_yse_nofilterswitch.py  -f g,i    296 448 -d 230908
+mkjson_yse_nofilterswitch.py  -f g,i   401  403  -d 230908 
+mkjson_yse_nofilterswitch.py  -f g,i    253  353 -d 230908 
+mkjson_yse_nofilterswitch.py  -f g,i    257   -d 230908 
+# mkjson_yse_nofilterswitch.py  -f i    412   -d 230908 
+#
+mkjson_yse_nofilterswitch.py  -f g,r   2023huy 2023emq 2023hym  2023nlq 2023lhy 2023osu 2023nnx 2023gxf 2023nlk 2023mzb 2023hcx 2023mxn 2023mjq -d 230908 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023huy 2023emq 2023hym  2023nlq 2023lhy 2023osu 2023nnx 2023gxf 2023nlk 2023mzb 2023hcx 2023mxn 2023mjq -d 230908 -e 20 -n 1 --sortbyra -s long
+mkjson_yse_nofilterswitch.py  -f g,r  2023mxn  -d 230908 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r  2023hcx 2023iwy 2023mjq -d 230908 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023hcx 2023iwy 2023mjq -d 230908 -e 20 -n 1 --sortbyra -l long
+mkjson_yse_nofilterswitch.py  -f i   2023iuc 2022esa 2022ywf 2022jli -d 230908 -e 150 -n 3 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g   2022esa  -d 230908 -e 150 -n 3 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r 2022jli 2022ywf -d 230908 -e 150 -n 3 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i 2023emq -e 250 -n 2 --sortbyra
+git add 230908
+git add 230908/*.json
+
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Sep23.txt

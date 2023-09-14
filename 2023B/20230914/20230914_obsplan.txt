@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.07
-UT -16 deg twilight: 2023-09-11T23:43:44.427 2023-09-12T09:35:21.404
-UT -15 deg twilight: 2023-09-11T23:39:05.968 2023-09-12T09:39:59.528
-UT -14 deg twilight: 2023-09-11T23:34:27.823 2023-09-12T09:44:37.452
-UT -12 deg twilight: 2023-09-11T23:25:11.854 2023-09-12T09:53:52.822
-UT -10 deg twilight: 2023-09-11T23:15:56.274 2023-09-12T10:03:07.745
-LOCAL -16 deg twilight: 09/11/2023,   20:43:44   06:35:21
-LOCAL -15 deg twilight: 09/11/2023,   20:39:05   06:39:59
-LOCAL -14 deg twilight: 09/11/2023,   20:34:27   06:44:37
-LOCAL -12 deg twilight: 09/11/2023,   20:25:11   06:53:52
-LOCAL -10 deg twilight: 09/11/2023,   20:15:56   07:03:07
-LOCAL night MIDPOINT: 09/12/2023,   01:39:32
+MOON ILLUMINATION: 0.00
+UT -16 deg twilight: 2023-09-14T23:45:22.302 2023-09-15T09:31:35.756
+UT -15 deg twilight: 2023-09-14T23:40:43.362 2023-09-15T09:36:14.438
+UT -14 deg twilight: 2023-09-14T23:36:04.663 2023-09-15T09:40:52.851
+UT -12 deg twilight: 2023-09-14T23:26:47.953 2023-09-15T09:50:09.000
+UT -10 deg twilight: 2023-09-14T23:17:31.915 2023-09-15T09:59:24.454
+LOCAL -16 deg twilight: 09/14/2023,   20:45:22   06:31:35
+LOCAL -15 deg twilight: 09/14/2023,   20:40:43   06:36:14
+LOCAL -14 deg twilight: 09/14/2023,   20:36:04   06:40:52
+LOCAL -12 deg twilight: 09/14/2023,   20:26:47   06:50:09
+LOCAL -10 deg twilight: 09/14/2023,   20:17:31   06:59:24
+LOCAL night MIDPOINT: 09/15/2023,   01:38:29
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -44,62 +44,53 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 20:34:27
-YSE 2023hym 213 -45 (2 min) 
-YSE 2023lhy [242 15]  (2 min) HST
-YSE 2023osu [245 0]  (2 min) HST         
-YSE 2023nlq [237 -17] (2 min)  
-
-!!! 20:50
+!!! 20:36:04
 DEBASS/EVERYTHING/2023rah_P2 [240 13] (3min) 
-YSE 2023gxf [257 19] (2 min)          
-YSE 2023iwy [270 26] (2 min)
+YSE 2023osu [245 0]  (3 min) HST         
+YSE 2023nlq [237 -17] (3 min)  
+
+!!! 20:44
+DEBASS/EVERYTHING/2023ols_P2 [301 1] (3min) 
+YSE 2023hcx [302 5] (3 min) HST   
+YSE 2023qre [312 6] (3 min) HST
+DEBASS/EVERYTHING/2023opn_P1 [311 12] (3min)
+DEBASS/EVERYTHING/2023reh_P1 [314 17] (3min)
+
 
 !!! 21:00
-YSE 428	[228 -4] 8 min             
-YSE 376	[224 -8] 8 min                  
-
-!!! 21:16
-YSE 2023hcx [302 5] (2 min) HST   
-YSE 2023qre [312 6] (2 min) HST
-DEBASS/EVERYTHING/2023reh_P1 [314 17] (3min)
-DEBASS/EVERYTHING/2023ols_P2 [301 1] (3min) 
+YSE 440	[314 -4] 17 min    
 DEBASS/EVERYTHING/2023qfq_P1 [307 -27] (3min)
 DEBASS/EVERYTHING/2023qov_P1 [318 -49] (3min)
 DEBASS/EVERYTHING/2023pwl_P1 [326 -50] (3min)
 DEBASS/EVERYTHING/2023ons_P2 [331 -46] (3min) 
-YSE 440	[314 -4] 8 min    
 
-!!! 21:55
-DEBASS/EVERYTHING/2023opn_P1 [311 12] (3min)
-YSE 544 [321 9] 8 min                  
+!!! 21:29
+YSE 544 [321 9] 17 min                  
 DEBASS/EVERYTHING/2023pbe_P1 [327 14] (3min)
 DESIRT_330_g [332 -3]  (13 min)
-DESIRT_330_r [332 -3] (17 min)
+DESIRT_330_z [332 -3] (21 min)
 
-!!! 22:40
-YSE 494 [330 3] 8 min                
-YSE 495 [339 5] 8 min                         
+!!! 22:23
+YSE 494 [330 3] 17 min                
+YSE 495 [339 5] 17 min                         
 DEBASS/EVERYTHING/2023sei_P1 [343 -3] (3min)
 
-!!! 22:56
-YSE 2023mxn [351 11] (2 min)
-OMLAApex*.230911.json      [355 12] (115 min total)
-
-!!! 00:54
-DEBASS/EVERYTHING/2023okd_P1 [5 8] (3min)
+!!! 23:00
 YSE 393 [346 -10] (8 min)                     
+YSE 2023mxn [351 11] (3 min)
+OMLAApex*.230914.json      [355 12] (115 min total)
 
-!!! 01:08
-DESIRT_S82_gr [~350 0] (36 min)
-DESIRT_S82_2_gz [~0 0] (41 min)
+!!! 01:12
+DEBASS/EVERYTHING/2023okd_P1 [5 8] (3min)
+DESIRT_S82_gz [~350 0] (41 min)
+DESIRT_S82_2_gr [~0 0] (36 min)
 
-!!! 02:25
+!!! 02:32
 ### YSE 2022jli [7 -8] 10 min
 E12.json [9 -45] (28 min)
 DEBASS/EVERYTHING/2023pru_P1 [10 -18] (3min)
 
-!!! 02:56
+!!! 03:03
 YSE 296 [17 -17] (15 min)                      
 DEBASS/EVERYTHING/2023oho_P1 [37 -11] (3min)
 DEBASS/EVERYTHING/2023ptg_P1 [38 -5] (3min)
@@ -108,44 +99,45 @@ DEBASS/EVERYTHING/2023rzy_P1 [18 1] (3min)
 DEBASS/EVERYTHING/2023rzh_P1 [18 12] (3min)
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 03:36
-### DESIRT_30_riz_short [30 -15] (45 min)
-### DESIRT_IC230724_bright  [32 -1] (6 min)
+!!! 03:58
+DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
-!!! 04:10
+!!! 04:38
 DEBASS/EVERYTHING/2023rno_P2 [32 5] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023nzu_P2 [27 22] (3min) OPTIONAL
 YSE 401 [37 0] 16 min                
 S12 [42,0] 22min
 DEBASS/EVERYTHING/2023nnz_P1 [36 19] (3min)
 
-!!! 04:54
+!!! 05:25
 YSE 403 [50 -2] 16 min                        
 C3 [52, -28] 11 min 
 DEBASS/EVERYTHING/2023ono_P1 [44 -21] (3min)
 
 !!! 05:24
 DESIRT_50_g (50 -15) (13 min)
-DESIRT_50_z (50 -15) (21 min)
+DESIRT_50_r (50 -15) (15 min) 
+DESIRT_50_z (50 -15) (21 min) OPTIONAL
 
-!!! 05:58
+!!! 06:14
 YSE 353 [63 -10] 8 min                   
-YSE 253 [67, -26] 8 min                    
-YSE 257 [85 -25] 8 min
+### YSE 253 [67, -26] 8 min                    
+### YSE 257 [85 -25] 8 min
 
-!!! 06:22               
-DESIRT_230906 (79 -47) (10 min) FIRST 2 EXPORSURES HIGH PRIORITY
+!!! 06:25               
 Shen SCVZ [90 -66] 13 min 
 ### YSE 412 [116 -2] 8 min           
 DEBASS/EVERYTHING/2023scr_P2 [120 12] (3min) OPTIONAL
 
 
-!!! 06:44:37  -14 deg twilight: slew to Asteroid fields!!!
+!!! 06:40:52  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+YSE 253 [67, -26] 8 min                    
+YSE 257 [85 -25] 8 min
 YSE 412 [116 -2] 8 min           
 DESIRT_50_r (50 -15) (15 min) OPTIONAL

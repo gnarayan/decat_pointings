@@ -122,7 +122,7 @@ DESIRT_50_r (50 -15) (15 min)    ### OPTIONAL, skip if behind schedule
 !!! 05:57
 YSE 353 [63 -10] 8 min                   
 YSE 253 [67, -26] 8 min                    
-YSE 257 [85 -25] 8 min
+YSE 257 [85 -25] 8 min           ### skip if behind schedule
 DEBASS/EVERYTHING/2023srm_P1 [91 -13]  (3min)
 
 !!! 06:24               

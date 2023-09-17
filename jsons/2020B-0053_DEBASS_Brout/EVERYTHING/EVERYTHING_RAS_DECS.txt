@@ -1,10 +1,16 @@
+2023spg_P1 [2 -7]
 2023rzh_P1 [18 12]
 2023ono_P1 [44 -21]
 2023ptg_P1 [38 -5]
+2023srm_P1 [91 -13]
 2023rah_P1 [240 13]
+2023sga_P1 [246 11]
+2023seg_P1 [266 19]
 2023qfq_P1 [307 -27]
 2023reh_P1 [314 17]
 2023qov_P1 [318 -49]
+2023shy_P1 [317 -26]
+2023snn_P1 [331 -15]
 2023sei_P1 [343 -3]
 
 2023pru_P2 [10 -18]
@@ -22,5 +28,5 @@
 2023opn_P3 [311 12]
 2023pbe_P3 [327 14]
 
-EVERYTHING	78.8 minutes
-EVERYTHING_P1	29.6 minutes
+EVERYTHING	98.7 minutes
+EVERYTHING_P1	49.2 minutes

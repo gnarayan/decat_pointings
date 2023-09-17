@@ -85,6 +85,8 @@ for i,row in df.iterrows():
         print()
         print('Got Template? %s'%row['Got Template?'])
         print()
+        print('WiFeS Time Series %s'%row['Following up with time-series spectroscopy'])
+        print()
 
         if (row['YSE Field'] != '') & (row['YSE Field'] != '?') & (str(row['YSE Field'])!='nan'): print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
         mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)

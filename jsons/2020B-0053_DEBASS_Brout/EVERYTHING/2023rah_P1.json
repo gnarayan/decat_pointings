@@ -40,19 +40,5 @@
         "comment": "2023rah",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "g",
-        "exptime": 15.0,
-        "RA": 240.83398,
-        "dec": 13.47776,
-        "object": "2023rah_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023rah",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

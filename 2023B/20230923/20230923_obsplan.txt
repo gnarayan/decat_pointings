@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.34
-UT -16 deg twilight: 2023-09-20T23:48:47.042 2023-09-21T09:23:54.124
-UT -15 deg twilight: 2023-09-20T23:44:06.602 2023-09-21T09:28:34.486
-UT -14 deg twilight: 2023-09-20T23:39:26.336 2023-09-21T09:33:14.417
-UT -12 deg twilight: 2023-09-20T23:30:07.169 2023-09-21T09:42:33.139
-UT -10 deg twilight: 2023-09-20T23:20:49.253 2023-09-21T09:51:50.573
-LOCAL -16 deg twilight: 09/20/2023,   20:48:47   06:23:54
-LOCAL -15 deg twilight: 09/20/2023,   20:44:06   06:28:34
-LOCAL -14 deg twilight: 09/20/2023,   20:39:26   06:33:14
-LOCAL -12 deg twilight: 09/20/2023,   20:30:07   06:42:33
-LOCAL -10 deg twilight: 09/20/2023,   20:20:49   06:51:50
-LOCAL night MIDPOINT: 09/21/2023,   01:36:20
+MOON ILLUMINATION: 0.66
+UT -16 deg twilight: 2023-09-23T23:50:34.727 2023-09-24T09:19:59.603
+UT -15 deg twilight: 2023-09-23T23:45:52.999 2023-09-24T09:24:41.033
+UT -14 deg twilight: 2023-09-23T23:41:11.889 2023-09-24T09:29:21.950
+UT -12 deg twilight: 2023-09-23T23:31:50.930 2023-09-24T09:38:42.406
+UT -10 deg twilight: 2023-09-23T23:22:31.541 2023-09-24T09:48:01.278
+LOCAL -16 deg twilight: 09/23/2023,   20:50:34   06:19:59
+LOCAL -15 deg twilight: 09/23/2023,   20:45:52   06:24:41
+LOCAL -14 deg twilight: 09/23/2023,   20:41:11   06:29:21
+LOCAL -12 deg twilight: 09/23/2023,   20:31:50   06:38:42
+LOCAL -10 deg twilight: 09/23/2023,   20:22:31   06:48:01
+LOCAL night MIDPOINT: 09/24/2023,   01:35:17
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -44,20 +44,16 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 20:39:26
+!!! 20:41:11
 DEBASS/EVERYTHING/2023rah_P1 [240 13] (2min)
 DEBASS/EVERYTHING/2023seg_P2 [266 19] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
-### YSE 2023osu [245 0]  (3 min) HST         
-### YSE 2023nlq [237 -17] (3 min)  
-
-!!! 20:46
-YSE 2023hcx [302 5] (3 min) HST   
-### YSE 2023qre [312 6] (3 min) HST
+YSE 2023osu [245 0]  (2 min) HST         
+YSE 2023nlq [237 -17] (2 min)  
+### YSE 2023hcx [302 5] (3 min) HST   
 DEBASS/EVERYTHING/2023reh_P1 [314 17] (2min)
 
-
-!!! 20:58
-YSE 440	[314 -4] 17 min    
+!!! 20:54
+### YSE 440	[314 -4] 17 min    
 DEBASS/EVERYTHING/2023teb_P2 [306 -40] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
 DEBASS/EVERYTHING/2023slw_P1 [292 -54] (2min)
 DEBASS/EVERYTHING/2023pwl_P2 [326 -50] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
@@ -65,85 +61,83 @@ DEBASS/EVERYTHING/2023tfg_P1 [333 -52] (2min)
 DEBASS/EVERYTHING/2023snn_P1 [331 -15] (2min)
 DEBASS/EVERYTHING/2023swf_P1 [317 -15] (2min)
 
-!!! 21:20
-YSE 544 [321 9] 17 min                  
+!!! 21:06
+### YSE 544 [321 9] 8 min                  
 DEBASS/EVERYTHING/2023pbe_P2 [327 14] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
-DESIRT_330_g [332 -3]  (13 min)
 DESIRT_330_z [332 -3] (21 min)
+DESIRT_330_r [332 -3] (17 min)
 
-!!! 22:14
-YSE 494 [330 3] 17 min                
-YSE 495 [339 5] 8 min                         
+!!! 21:56
+### YSE 494 [330 3] 8 min                
+YSE 495 [339 5] 17 min                         
 DEBASS/EVERYTHING/2023sei_P1 [343 -3] (2min)
+YSE 393 [346 -10] (17 min)                     
+YSE 2023mxn [351 11] (2 min)
 
-!!! 22:42
-YSE 393 [346 -10] (8 min)                     
-YSE 2023mxn [351 11] (3 min)
-OMLAApex*.23<date>.json      [355 12] (112 min total)
+!!! 22:35
+OMLAApex*.23<date>.json      [355 12] (114 min total)
 
-!!! 00:45
-DESIRT_S82_gz [~350 0] (41 min)
-DESIRT_S82_2_gr [~0 0] (36 min)
+!!! 00:30
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
 
-!!! 02:02
+!!! 01:47
 ### YSE 2022jli [7 -8] 10 min
 DEBASS/EVERYTHING/2023pru_P2 [10 -17] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
 E12.json [9 -45] (28 min)
 DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (2min)
 DEBASS/EVERYTHING/2023snj_P1 [21 -56] (2min)
 
-!!! 02:33
-YSE 296 [17 -17] (7 min)                      
+!!! 02:25
+YSE 296 [17 -17] (17 min)                      
 DEBASS/EVERYTHING/2023ptg_P1 [38 -5] (2min)
-YSE 448 [16 3] (8 min)                   
+YSE 448 [16 3] (17 min)                   
 DEBASS/EVERYTHING/2023rzh_P1 [18 12] (2min)
 DEBASS/EVERYTHING/2023sqs_P2 [29 14] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 02:54
+!!! 03:05
 DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
-!!! 03:34
-YSE 401 [37 0] 16 min                
+!!! 03:45
+YSE 401 [37 0] 17 min                
 S12 [42,0] 22min
 DEBASS/EVERYTHING/2023nnz_P2 [36 19] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
 
-!!! 04:17
-YSE 403 [50 -2] 16 min                        
+!!! 04:25
+YSE 403 [50 -2] 17 min                        
 C3 [52, -28] 11 min 
 DEBASS/EVERYTHING/2023tgz_P1 [38 -64] (2min)
 DEBASS/EVERYTHING/2023rwy_P1 [39 -21] (2min)
 DEBASS/EVERYTHING/2023ssb_P1 [48 -20] (2min)
 DEBASS/EVERYTHING/2023ski_P1 [49 -13] (2min)
 
-!!! 04:47
-DESIRT_50_g (50 -15) (13 min)
-DESIRT_50_r (50 -15) (15 min) 
-DESIRT_50_z (50 -15) (21 min)     ###  OPTIONAL SKIP IF BEHIND SCHEDULE!
+!!! 05:00
+DESIRT_50_g (50 -15) (13 min)      
+DESIRT_50_z (50 -15) (21 min)     ### OPTIONAL SKIP IF BEHIND SCHEDULE!
 DEBASS/EVERYTHING/2023suh_P1 [54 -10] (2min)
 DEBASS/EVERYTHING/2023teu_P1 [67 0] (2min)
 
-!!! 05:27
+!!! 05:29
 YSE 353 [63 -10] 17 min                   
-YSE 253 [67, -26] 17 min                    
-YSE 257 [85 -25] 8 min           ### OPTIONAL SKIP IF BEHIND SCHEDULE!
+YSE 253 [67, -26] 17 min 
+
+!!! 06:03                   
+YSE 257 [85 -25] 8 min           
 DEBASS/EVERYTHING/2023tjv_P1 [87 -25] (2min)
 DEBASS/EVERYTHING/2023tib_P2 [89 -25] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
 DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (2min)
 
-!!! 06:12               
+!!! 06:17               
 Shen SCVZ [90 -66] 13 min 
-YSE 412 [116 -2] 8 min           
 
-
-!!! 06:33:14  -14 deg twilight: slew to Asteroid fields!!!
+!!! 06:29:21  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 253 [67, -26] 8 min                    
-YSE 257 [85 -25] 8 min
-YSE 412 [116 -2] 8 min           
-DESIRT_50_r (50 -15) (15 min) OPTIONAL
+DESIRT_330_z [332 -3] (21 min)
+DESIRT_50_r (50 -15) (15 min)     ###  OPTIONAL SKIP IF BEHIND SCHEDULE!
+YSE 412 [116 -2] 8 min          

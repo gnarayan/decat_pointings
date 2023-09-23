@@ -1,6 +1,20 @@
 [
     {
         "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 292.39756,
+        "dec": -54.15026,
+        "object": "2023slw_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023slw",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
         "filter": "i",
         "exptime": 15.0,
         "RA": 292.39756,

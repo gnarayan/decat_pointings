@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2023osu",
+"filter": "r",
+"expTime": 25,
+"RA": "245.1071",
+"dec": "0.3890",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023osu",
+"filter": "i",
+"expTime": 25,
+"RA": "245.1071",
+"dec": "0.3890",
+"propid": "2023A-237157"
+}
+]

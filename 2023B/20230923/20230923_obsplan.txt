@@ -115,7 +115,7 @@ DEBASS/EVERYTHING/2023ski_P1 [49 -13] (2min)
 
 !!! 05:00
 DESIRT_50_g (50 -15) (13 min)      
-DESIRT_50_z (50 -15) (21 min)     ### OPTIONAL SKIP IF BEHIND SCHEDULE!
+DESIRT_50_z (50 -15) (21 min)     ### OPTIONAL SKIP IF BEHIND SCHEDULE! Cut this one down to 12 minutes!
 DEBASS/EVERYTHING/2023suh_P1 [54 -10] (2min)
 DEBASS/EVERYTHING/2023teu_P1 [67 0] (2min)
 

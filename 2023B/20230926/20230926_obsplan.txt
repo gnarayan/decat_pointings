@@ -44,7 +44,7 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 20:41:11
+!!! 20:43:00
 DEBASS/EVERYTHING/2023rah_P1 [240 13] (2min)
 DEBASS/EVERYTHING/2023seg_P2 [266 19] (2min) OPTIONAL SKIP IF BEHIND SCHEDULE!
 YSE 2023osu [245 0]  (5 min) HST         
@@ -132,7 +132,7 @@ DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (2min)
 Shen SCVZ [90 -66] 13 min 
 YSE 412 [116 -2] 17 min          
 
-!!! 06:29:21  -14 deg twilight: slew to Asteroid fields!!!
+!!! 06:25:28  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

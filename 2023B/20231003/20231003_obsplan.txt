@@ -71,7 +71,7 @@ YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
 !!! 04:43
-DESIRT_50_riz_short (50 -15) (43 min)
+DESIRT_50_rz (50 -15) (37 min)
 DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min)   DROP g to save time.
 DEBASS/EVERYTHING/2023teu_P1 [67 0] (4min) 
 

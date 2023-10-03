@@ -67,15 +67,15 @@ S12 [42,0] 22 min
 
 !!! 04:29
 ### YSE 403 [50 -2] 17 min                        
-YSE 2023ono [44 -22] (HST) 2 min
+YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 04:42
+!!! 04:43
 DESIRT_50_riz_short (50 -15) (43 min)
 DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min)   DROP g to save time.
 DEBASS/EVERYTHING/2023teu_P1 [67 0] (4min) 
 
-!!! 05:32 
+!!! 05:33 
 ### YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 8 min 
 YSE 257 [85 -25] 8 min           

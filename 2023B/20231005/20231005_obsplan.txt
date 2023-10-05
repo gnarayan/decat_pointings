@@ -58,25 +58,25 @@ DEBASS/EVERYTHING/2023sqs_P1 [29 14] (3min) DROP Z BAND TO SAVE TIME
 DEBASS/EVERYTHING/2023tyl_P1 [26 20] (3min) DROP Z BAND TO SAVE TIME
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 03:27
+!!! 02:57
 DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
-!!! 04:07
+!!! 03:40
 YSE 401 [37 0] 17 min                
 S12 [42,0] 22 min
 
-!!! 04:29
+!!! 04:20
 YSE 403 [50 -2] 17 min                        
 YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 04:43
+!!! 04:51
 DESIRT_50_rz (50 -15) (37 min)
 DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min) DROP Z BAND TO SAVE TIME
 DEBASS/EVERYTHING/2023teu_P1 [67 0] (3min) DROP Z BAND TO SAVE TIME
 
-!!! 05:33 
+!!! 05:35 
 YSE 353 [63 -10] 17 min           ###  skip r band if behind              
 YSE 253 [67, -26] 8 min 
 YSE 257 [85 -25] 8 min           

@@ -9,3 +9,9 @@ DESIRT_50_riz_short (50 -15) (43 min)
 
 EXTRA TARGETS
 DESIRT_330_z [332 -3] (21 min)
+
+## Oct 5 
+
+DESIRT_S82_2_gr [~0 0] (36 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)

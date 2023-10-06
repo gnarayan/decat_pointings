@@ -15,3 +15,84 @@ DESIRT_330_z [332 -3] (21 min)
 DESIRT_S82_2_gr [~0 0] (36 min)
 DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
+
+
+## Oct 08 
+
+DESIRT_330_g [332 -3]  (13 min) OPTIONAL
+DESIRT_330_z [332 -3] (21 min) OPTIONAL
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_Arp [47 2] (7 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS
+DESIRT_330_r [332 -3] (17 min)
+
+## Oct 11  
+
+DESIRT_330_g [332 -3]  (13 min) OPTIONAL
+DESIRT_330_r [332 -3] (17 min) OPTIONAL
+DESIRT_S82_gz [~350 0] (41 min)
+DESIRT_S82_2_gr [~0 0] (36 min)
+DESIRT_Arp [47 2] (7 min)
+DESIRT_50_gr (50 -15) (28 min)
+
+EXTRA TARGETS
+DESIRT_330_z [332 -3] (21 min)
+
+
+## Oct 14 
+
+DESIRT_330_g [332 -3]  (13 min) OPTIONAL
+DESIRT_330_z [332 -3] (21 min) OPTIONAL
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_Arp [47 2] (7 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS
+DESIRT_330_r [332 -3] (17 min)
+
+## Oct 17  ~10 min left
+
+DESIRT_330_g [332 -3]  (13 min) OPTIONAL
+DESIRT_330_r [332 -3] (17 min) OPTIONAL
+DESIRT_S82_gz [~350 0] (41 min)
+DESIRT_S82_2_gr [~0 0] (36 min)
+DESIRT_Arp [47 2] (7 min)
+DESIRT_50_gr (50 -15) (28 min)
+
+EXTRA TARGETS
+DESIRT_330_z [332 -3] (21 min)
+
+## Oct 20
+
+DESIRT_330_g [332 -3]  (13 min) OPTIONAL
+DESIRT_330_z [332 -3] (21 min) OPTIONAL
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_Arp [47 2] (7 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS
+DESIRT_330_r [332 -3] (17 min)
+
+## Oct 23 
+
+DESIRT_S82_rz_short [~350 0] (35 min)
+DESIRT_S82_2_rz [~0 0] (40 min)
+DESIRT_Arp [47 2] (7 min)
+DESIRT_50_gr (50 -15) (28 min)
+
+## Oct 25 
+
+DESIRT_50_riz (50 -15) (48 min)
+DESIRT_Arp_rz [47 2] (5 min)
+
+## Oct 31 
+
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min)
+DESIRT_Arp [47 2] (7 min)
+DESIRT_50_gz (50 -15) (34 min)

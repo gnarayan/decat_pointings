@@ -32,10 +32,10 @@ DESIRT_330_r [332 -3] (17 min)
 
 ## Oct 11  
 
-DESIRT_330_20_Oct11 [330 -20] (11 min)
+DESIRT_330_20_Oct11 [330 -20] (17 min) 
 DESIRT_S82_gz [~350 0] (41 min)
 DESIRT_S82_2_gr [~0 0] (36 min)
-DESIRT_Arp [47 2] (7 min)
+DESIRT_Arp [47 2] (7 min) OPTIONAL
 DESIRT_50_gr (50 -15) (28 min)
 
 EXTRA TARGETS
@@ -56,10 +56,11 @@ DESIRT_50_gz (50 -15) (34 min)
 EXTRA TARGETS
 DESIRT_330_r [332 -3] (17 min)
 
-## Oct 17  ~10 min left
+## Oct 17  
 
 DESIRT_330_g [332 -3]  (13 min) OPTIONAL
 DESIRT_330_r [332 -3] (17 min) OPTIONAL
+DESIRT_330_20_Oct8 [330 -20] (11 min)
 DESIRT_S82_gz [~350 0] (41 min)
 DESIRT_S82_2_gr [~0 0] (36 min)
 DESIRT_Arp [47 2] (7 min)

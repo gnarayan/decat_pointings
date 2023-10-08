@@ -30,6 +30,8 @@ LOCAL night MIDPOINT: 10/09/2023,   01:30:28
 ***                            ### skip XYZ if behind schedule
 ***                            FILLER. COMPLETELY OPTIONAL
 ***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
 *** XYZ can be "z band" or other things
 *** If you fall behind schedule, and if the airmass alllows it, keep observing 
 *** according to schedule until you hit one of targets marked like that, and 
@@ -134,3 +136,6 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3] (21 min)
+DESIRT_330_r [332 -3] (17 min)

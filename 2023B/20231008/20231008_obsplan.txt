@@ -70,7 +70,7 @@ DEBASS/EVERYTHING/2023sei_P1 [343 -3] (3min) drop z band to save time
 
 !!! 21:56
 YSE 544 [321 9] 17 min				                 
-DESIRT_330_20 [330 -20] (11 min)
+DESIRT_330_20_Oct8 [330 -20] (11 min)
 
 !!! 22:24
 YSE 494 [330 3] 17 min                

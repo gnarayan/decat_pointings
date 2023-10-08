@@ -19,7 +19,7 @@ DESIRT_50_r (50 -15) (15 min)
 
 ## Oct 08 
 
-DESIRT_330_20_g [330 -20] (11 min)
+DESIRT_330_20 [330 -20] (11 min)
 DESIRT_S82_gr [~350 0] (36 min)
 DESIRT_S82_2_gz [~0 0] (41 min)
 DESIRT_Arp [47 2] (7 min)

@@ -115,12 +115,12 @@ C3 [52, -28] 11 min
 
 !!! 04:30
 DESIRT_50_gr (50 -15) (28 min)
-DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min)
-DEBASS/EVERYTHING/2023teu_P1 [67 0] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min) drop z band if necessary to save time
+DEBASS/EVERYTHING/2023teu_P1 [67 0] (3min) HIGH PRIORITY drop z band if necessary to save time
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min 
 YSE 257 [85 -25] 17 min           
-DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) HIGH PRIORITY drop z band if necessary to save time
 
 !!! 05:54               
 Shen SCVZ [90 -66] 13 min 

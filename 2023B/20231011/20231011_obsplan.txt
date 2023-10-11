@@ -50,85 +50,80 @@ Script will finish on its own or at -14 deg twilight.
 YSE 2023osu [245 0]  (2 min) HST         
 YSE 2023nlq [237 -17] (2 min)  
 ### YSE 2023hcx [302 5] (2 min) HST   
-DEBASS/EVERYTHING/2023uda_P1 [306 9] (3min) drop z band to save time
+DEBASS/EVERYTHING/2023uda_P1 [306 9] (3min)
 YSE 2023rbf [306 19.5] (HST) 2 min 
-DEBASS/EVERYTHING/2023reh_P1 [314 17] (3min) drop z band to save time
 
-!!! 21:10
+!!! 21:05
 YSE 440	[314 -4] 8 min                
 
-!!! 21:27
-DEBASS/EVERYTHING/2023qfq_P1 [307 -27] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023qov_P1 [318 -49] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023pwl_P2 [326 -50] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023tfg_P2 [333 -52] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023tml_P1 [355 -26] (3min) drop z band to save time
+!!! 21:15
+DEBASS/EVERYTHING/2023ulq_P1 [335 -11] (3min)
+DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (3min)
+DEBASS/EVERYTHING/2023urc_P1 [301 -60] (3min)
+DEBASS/EVERYTHING/2023tfg_P1 [333 -52] (3min)
+DEBASS/EVERYTHING/2023umr_P1 [345 -25] (3min)
+DEBASS/EVERYTHING/2023tml_P1 [355 -26] (3min)
 YSE 2023snn [332 -16.5] (HST) 2 min
 YSE 2023ryf [339 -8.2] (HST) 2 min
-DEBASS/EVERYTHING/2023sei_P1 [343 -3] (3min) drop z band to save time
 
-!!! 21:56
+!!! 21:40
 YSE 544 [321 9] 8 min				                 
 DESIRT_330_20_Oct11 [330 -20] (17 min) 
 
-!!! 22:24
+!!! 22:00
 ### YSE 494 [330 3] 8 min                
 YSE 495 [339 5] 8 min                         
 YSE 393 [346 -10] (8 min)                     
 ### YSE 2023mxn [351 11] (2 min)
 
-!!! 23:18
+!!! 22:15
 OMLAApex*.23<date>.json      [355 12] (110 min total)
 
-!!! 01:08
+!!! 00:05
 DESIRT_S82_gz [~350 0] (41 min)
 DESIRT_S82_2_gr [~0 0] (36 min)
-DEBASS/EVERYTHING/2023pru_P2 [10 -17] (3min) OPTIONAL
 
-!!! 02:28
+!!! 01:25
 ### YSE 2022jli [7 -8] 10 min
 E12.json [9 -45] (28 min)
 E12.json [9 -45] (28 min) 
-DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023snj_P1 [21 -56] (3min) drop z band to save time
+DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (3min)
 
-!!! 03:30
-DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (3min) drop z band to save time
+!!! 02:25
+DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (3min)
 ### YSE 296 [17 -17] (8 min)                      
 YSE 448 [16 3] (8 min)                   
-DEBASS/EVERYTHING/2023rzh_P1 [18 12] (3min) drop z band to save time
-### DEBASS/EVERYTHING/2023sqs_P2 [29 14] (3min) OPTIONAL
-DEBASS/EVERYTHING/2023tyl_P1 [25 20] (3min) drop z band to save time
+DEBASS/EVERYTHING/2023rzh_P1 [18 12] (3min)
+DEBASS/EVERYTHING/2023sqs_P1 [29 14] (3min)
+DEBASS/EVERYTHING/2023tyl_P1 [26 20] (3min)
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 03:53
+!!! 02:45
 ### DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
-DEBASS/EVERYTHING/2023ptg_P2 [38 -5] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023ptg_P2 [38 -5] (3min) CAN SKIP TO SAVE TIME
 
-!!! 04:30
+!!! 03:20
 YSE 401 [37 0] 17 min                
 S12 [42,0] 22 min
-DESIRT_Arp [47 2] (7 min) OPTIONAL
+DESIRT_Arp [47 2] (7 min) OPTIONAL, (LOOKS LIKE IT WONT FIT ON OCT 11th)
 
-!!! 04:57
+!!! 04:00
 YSE 403 [50 -2] 17 min                        
 YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 05:11
+!!! 04:30
 DESIRT_50_gr (50 -15) (28 min)
-DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min) drop z band to save time
-DEBASS/EVERYTHING/2023teu_P1 [67 0] (3min) drop z band to save time
+DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min)
+DEBASS/EVERYTHING/2023teu_P1 [67 0] (3min) HIGH PRIORITY
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min 
 YSE 257 [85 -25] 17 min           
-DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) drop z band to save time
+DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) HIGH PRIORITY
 
 !!! 05:54               
 Shen SCVZ [90 -66] 13 min 
-DEBASS/EVERYTHING/2023txv_P1 [102 -64] (3min) drop z band to save time
 ### YSE 412 [116 -2] 8 min          
 
 !!! 06:06:07  -14 deg twilight: slew to Asteroid fields!!!

@@ -40,19 +40,5 @@
         "comment": "2023urc",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 301.6826,
-        "dec": -60.34691,
-        "object": "2023urc_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023urc",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

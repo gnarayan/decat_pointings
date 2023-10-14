@@ -1,41 +1,44 @@
 !!! 01:25
 ### YSE 2022jli [7 -8] 10 min
+DEBASS/EVERYTHING/2023uda_P1 [306 9] (2min)
+DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (2min)
+DEBASS/EVERYTHING/2023tfg_P1 [333 -52] (2min)
+DEBASS/EVERYTHING/2023tml_P1 [355 -26] (2min)
 E12.json [9 -45] (28 min)
-E12.json [9 -45] (28 min) 
-DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (3min)
+DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (2min)
+DEBASS/EVERYTHING/2023snj_P1 [21 -56] (2min)
 
-!!! 02:25
-DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (3min)
+!!! 02:05
+DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (2min)
 ### YSE 296 [17 -17] (8 min)                      
 YSE 448 [16 3] (8 min)                   
-DEBASS/EVERYTHING/2023rzh_P1 [18 12] (3min)
-DEBASS/EVERYTHING/2023sqs_P1 [29 14] (3min)
-DEBASS/EVERYTHING/2023tyl_P1 [26 20] (3min)
+DEBASS/EVERYTHING/2023rzh_P2 [18 12] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023sqs_P2 [29 14] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023tyl_P1 [26 20] (2min)
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 02:45
+!!! 02:25
 ### DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
-DEBASS/EVERYTHING/2023ptg_P2 [38 -5] (3min) CAN SKIP TO SAVE TIME
 
-!!! 03:20
+!!! 03:00
 YSE 401 [37 0] 17 min                
 S12 [42,0] 22 min
-DESIRT_Arp [47 2] (7 min) OPTIONAL, (LOOKS LIKE IT WONT FIT ON OCT 11th)
+DESIRT_Arp [47 2] (7 min) OPTIONAL
 
-!!! 04:00
+!!! 03:50
 YSE 403 [50 -2] 17 min                        
 YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 04:30
+!!! 04:20
 DESIRT_50_gr (50 -15) (28 min)
-DEBASS/EVERYTHING/2023suh_P1 [54 -10] (3min) drop z band if necessary to save time
-DEBASS/EVERYTHING/2023teu_P1 [67 0] (3min) HIGH PRIORITY drop z band if necessary to save time
+DEBASS/EVERYTHING/2023suh_P1 [54 -10] (2min)
+DEBASS/EVERYTHING/2023teu_P1 [67 0] (2min)
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min 
 YSE 257 [85 -25] 17 min           
-DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) HIGH PRIORITY drop z band if necessary to save time
+DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (2min)
 
 !!! 05:54               
 Shen SCVZ [90 -66] 13 min 

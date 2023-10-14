@@ -1,46 +1,69 @@
-!!! 01:25
-### YSE 2022jli [7 -8] 10 min
+MOON ILLUMINATION: 0.06
+UT -16 deg twilight: 2023-10-12T00:02:58.176 2023-10-12T08:56:24.045
+UT -15 deg twilight: 2023-10-11T23:58:05.375 2023-10-12T09:01:16.262
+UT -14 deg twilight: 2023-10-11T23:53:14.604 2023-10-12T09:06:07.337
+UT -12 deg twilight: 2023-10-11T23:43:35.347 2023-10-12T09:15:46.320
+UT -10 deg twilight: 2023-10-11T23:33:59.897 2023-10-12T09:25:21.493
+LOCAL -16 deg twilight: 10/11/2023,   21:02:58   05:56:24
+LOCAL -15 deg twilight: 10/11/2023,   20:58:05   06:01:16
+LOCAL -14 deg twilight: 10/11/2023,   20:53:14   06:06:07
+LOCAL -12 deg twilight: 10/11/2023,   20:43:35   06:15:46
+LOCAL -10 deg twilight: 10/11/2023,   20:33:59   06:25:21
+LOCAL night MIDPOINT: 10/12/2023,   01:29:41
+
+!!! 01:29:41
 DEBASS/EVERYTHING/2023uda_P1 [306 9] (2min)
 DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (2min)
 DEBASS/EVERYTHING/2023tfg_P1 [333 -52] (2min)
+YSE 2023snn [332 -16.5] (HST) 2 min
+YSE 2023ryf [339 -8.2] (HST) 2 min
+
+!!! 01:40
+#### ONLY DO 20 minutes of DESIRT_S82_2_gz !!!!
+DESIRT_S82_2_gz [~0 0] (20 min)  #### This is a 41 minutes script, only do 20 minutes of this script
+#### ^^^^ ONLY DO 20 minutes of DESIRT_S82_2_gz !!!!
+
+!!! 02:00
 DEBASS/EVERYTHING/2023tml_P1 [355 -26] (2min)
 E12.json [9 -45] (28 min)
 DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (2min)
 DEBASS/EVERYTHING/2023snj_P1 [21 -56] (2min)
 
-!!! 02:05
+!!! 02:35
 DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (2min)
 ### YSE 296 [17 -17] (8 min)                      
-YSE 448 [16 3] (8 min)                   
+### YSE 448 [16 3] (8 min)                   
 DEBASS/EVERYTHING/2023rzh_P2 [18 12] (2min) OPTIONAL
 DEBASS/EVERYTHING/2023sqs_P2 [29 14] (2min) OPTIONAL
 DEBASS/EVERYTHING/2023tyl_P1 [26 20] (2min)
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 02:25
+!!! 02:45
 ### DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
-!!! 03:00
-YSE 401 [37 0] 17 min                
+!!! 03:20
+### YSE 401 [37 0] 17 min                
 S12 [42,0] 22 min
-DESIRT_Arp [47 2] (7 min) OPTIONAL
+DESIRT_Arp [47 2] (7 min)
 
 !!! 03:50
 YSE 403 [50 -2] 17 min                        
 YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 04:20
-DESIRT_50_gr (50 -15) (28 min)
+!!! 04:22
+DESIRT_50_gz (50 -15) (34 min)
 DEBASS/EVERYTHING/2023suh_P1 [54 -10] (2min)
 DEBASS/EVERYTHING/2023teu_P1 [67 0] (2min)
+
+!!! 05:00
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min 
 YSE 257 [85 -25] 17 min           
 DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (2min)
 
-!!! 05:54               
+!!! 05:53               
 Shen SCVZ [90 -66] 13 min 
 ### YSE 412 [116 -2] 8 min          
 
@@ -49,6 +72,4 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-DESIRT_330_g [332 -3]  (13 min)
-DESIRT_330_z [332 -3] (21 min)
 DESIRT_330_r [332 -3] (17 min)

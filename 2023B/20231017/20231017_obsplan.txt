@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.06
-UT -16 deg twilight: 2023-10-12T00:02:58.176 2023-10-12T08:56:24.045
-UT -15 deg twilight: 2023-10-11T23:58:05.375 2023-10-12T09:01:16.262
-UT -14 deg twilight: 2023-10-11T23:53:14.604 2023-10-12T09:06:07.337
-UT -12 deg twilight: 2023-10-11T23:43:35.347 2023-10-12T09:15:46.320
-UT -10 deg twilight: 2023-10-11T23:33:59.897 2023-10-12T09:25:21.493
-LOCAL -16 deg twilight: 10/11/2023,   21:02:58   05:56:24
-LOCAL -15 deg twilight: 10/11/2023,   20:58:05   06:01:16
-LOCAL -14 deg twilight: 10/11/2023,   20:53:14   06:06:07
-LOCAL -12 deg twilight: 10/11/2023,   20:43:35   06:15:46
-LOCAL -10 deg twilight: 10/11/2023,   20:33:59   06:25:21
-LOCAL night MIDPOINT: 10/12/2023,   01:29:41
+MOON ILLUMINATION: 0.12
+UT -16 deg twilight: 2023-10-18T00:07:50.934 2023-10-18T08:48:48.976
+UT -15 deg twilight: 2023-10-18T00:02:53.948 2023-10-18T08:53:46.438
+UT -14 deg twilight: 2023-10-17T23:57:57.311 2023-10-18T08:58:42.473
+UT -12 deg twilight: 2023-10-17T23:48:09.040 2023-10-18T09:08:30.583
+UT -10 deg twilight: 2023-10-17T23:38:25.502 2023-10-18T09:18:13.923
+LOCAL -16 deg twilight: 10/17/2023,   21:07:50   05:48:48
+LOCAL -15 deg twilight: 10/17/2023,   21:02:53   05:53:46
+LOCAL -14 deg twilight: 10/17/2023,   20:57:57   05:58:42
+LOCAL -12 deg twilight: 10/17/2023,   20:48:09   06:08:30
+LOCAL -10 deg twilight: 10/17/2023,   20:38:25   06:18:13
+LOCAL night MIDPOINT: 10/18/2023,   01:28:19
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -46,18 +46,13 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 20:50:00
-YSE 2023osu [245 0]  (2 min) HST         
-YSE 2023nlq [237 -17] (2 min)  
+!!! 20:57:57
 ### YSE 2023hcx [302 5] (2 min) HST   
 DEBASS/EVERYTHING/2023uda_P1 [306 9] (3min) drop z band to save time
 YSE 2023rbf [306 19.5] (HST) 2 min 
 DEBASS/EVERYTHING/2023reh_P1 [314 17] (3min) drop z band to save time
 
-!!! 21:02
-YSE 440	[314 -4] 8 min                
-
-!!! 21:10
+!!! 21:06
 DEBASS/EVERYTHING/2023ulq_P1 [335 -11] (3min) drop z band to save time
 DEBASS/EVERYTHING/2023snn_P1 [331 -15] (3min) drop z band to save time
 DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (3min) drop z band to save time
@@ -67,42 +62,41 @@ YSE 2023snn [332 -16.5] (HST) 2 min
 YSE 2023ryf [339 -8.2] (HST) 2 min
 DEBASS/EVERYTHING/2023sei_P1 [343 -3] (3min) drop z band to save time
 
-!!! 21:35
-YSE 544 [321 9] 8 min				                 
+!!! 21:28
+### YSE 544 [321 9] 8 min				                 
 DESIRT_330_20_Oct8 [330 -20] (11 min)
 
-!!! 21:55
+!!! 21:40
 ### YSE 494 [330 3] 8 min                
 YSE 495 [339 5] 8 min                         
 DEBASS/EVERYTHING/2023uqw_P1 [357 17] (3min) drop z band to save time
 YSE 393 [346 -10] (8 min)                     
 ### YSE 2023mxn [351 11] (2 min)
 
-!!! 22:15
+!!! 22:00
 OMLAApex*.23<date>.json      [355 12] (110 min total)
 DEBASS/EVERYTHING/2023vag_P2 [1 11] (3min) OPTIONAL
 
-!!! 00:10
+!!! 23:53
 DESIRT_S82_gz [~350 0] (41 min)
 DESIRT_S82_2_gr [~0 0] (36 min)
 
-!!! 01:30
+!!! 01:10
 ### YSE 2022jli [7 -8] 10 min
 E12.json [9 -45] (28 min)
-E12.json [9 -45] (28 min) 
 DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (3min) drop z band to save time
 DEBASS/EVERYTHING/2023snj_P1 [21 -56] (3min) drop z band to save time
 
-!!! 02:30
+!!! 01:44
 DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (3min) drop z band to save time
-### YSE 296 [17 -17] (8 min)                      
-YSE 448 [16 3] (8 min)                   
+YSE 296 [17 -17] (17 min)                      
+YSE 448 [16 3] (17 min)                   
 DEBASS/EVERYTHING/2023rzh_P1 [18 12] (3min) drop z band to save time
 DEBASS/EVERYTHING/2023sqs_P2 [29 14] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023tyl_P1 [26 20] (3min) drop z band to save time
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 02:50
+!!! 02:30
 ### DESIRT_IC230724_short  [32 -1] (6 min)
 X123.json [34, -4] 34 min  
 
@@ -132,7 +126,7 @@ DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) drop z band to save time
 Shen SCVZ [90 -66] 13 min 
 ### YSE 412 [116 -2] 8 min          
 
-!!! 06:12:07  -14 deg twilight: slew to Asteroid fields!!!
+!!! 05:58:42  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

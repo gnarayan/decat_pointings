@@ -63,6 +63,66 @@
 "count": 1,
 "expType": "object",
 "object": "403.A.a",
+"filter": "r",
+"expTime": 50,
+"RA": "49.3569",
+"dec": "-4.1982",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "403.B.a",
+"filter": "r",
+"expTime": 50,
+"RA": "49.3581",
+"dec": "-1.0994",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "403.C.a",
+"filter": "r",
+"expTime": 50,
+"RA": "52.4569",
+"dec": "-4.1982",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "403.D.a",
+"filter": "r",
+"expTime": 50,
+"RA": "52.4581",
+"dec": "-1.0994",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "403.E.a",
+"filter": "r",
+"expTime": 50,
+"RA": "48.5643",
+"dec": "2.1993",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "403.F.a",
+"filter": "r",
+"expTime": 50,
+"RA": "45.5054",
+"dec": "-1.0494",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "403.A.a",
 "filter": "i",
 "expTime": 50,
 "RA": "49.3569",

@@ -90,6 +90,7 @@ DESIRT_50_gr (50 -15) (28 min)
 
 ## Oct 25 
 
+DESIRT_330_20_Oct25 [330 -20] (67 min)
 DESIRT_50_riz (50 -15) (48 min)
 DESIRT_Arp_rz [47 2] (5 min)
 

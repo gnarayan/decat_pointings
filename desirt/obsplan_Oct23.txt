@@ -94,6 +94,9 @@ DESIRT_330_20_Oct25 [330 -20] (67 min)
 DESIRT_50_riz (50 -15) (48 min)
 DESIRT_Arp_rz [47 2] (5 min)
 
+EXTRA TARGETS
+DESIRT_330_20_Oct25_extra
+
 ## Oct 31 
 
 DESIRT_S82_gr [~350 0] (36 min)

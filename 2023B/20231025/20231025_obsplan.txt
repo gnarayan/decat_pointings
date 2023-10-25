@@ -58,6 +58,8 @@ DEBASS/EVERYTHING/2023ulq_P2 [335 -11] (4min) OPTIONAL
 YSE 544 [321 9] 17 min				                 
 DEBASS/EVERYTHING/2023pbe_P2 [327 14] (4min) OPTIONAL
 DEBASS/EVERYTHING/2023reh_P2 [314 17] (4min) OPTIONAL
+
+!!! 22:00:00
 DESIRT_330_20_Oct25 [330 -20] (67 min)
 DESIRT_330_20_Oct25_extra (48 min)           ### optional, this is a FILLER!!!! cut if behind schedule !!!!!!
 YSE 494 [330 3] 17 min                
@@ -65,21 +67,21 @@ YSE 494 [330 3] 17 min
 ### YSE 393 [346 -10] (8 min)                     
 ### YSE 2023mxn [351 11] (4 min)
 
-!!! 21:21
+!!! 00:15
 DEBASS/EVERYTHING/2023uqw_P1 [357 17] (4min)
 ### OMLAApex*.23<date>.json      [355 12] (110 min total)
 
-!!! 23:14
+### !!! 00:20
 ### DESIRT_S82_rz_short [~350 0] (35 min)
 ### DESIRT_S82_2_rz [~0 0] (40 min)
 
-!!! 00:32
+!!! 00:20
 ### YSE 2022jli [7 -8] 10 min
 E12.json [9 -45] (28 min)
 DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (4min)
 DEBASS/EVERYTHING/2023snj_P1 [21 -56] (4min)
 
-!!! 01:00
+!!! 00:55
 DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (4min)
 ### YSE 296 [17 -17] (17 min)                    
 ### YSE 448 [16 3] (17 min)                   
@@ -88,38 +90,38 @@ DEBASS/EVERYTHING/2023tyl_P1 [25 20] (4min)
 DEBASS/EVERYTHING/2023sqs_P2 [29 14] (4min) OPTIONAL
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 01:50
+!!! 01:10
 X123.json [34, -4] 34 min  
 DEBASS/EVERYTHING/2023ptg_P2 [38 -5] (4min) OPTIONAL
 
-!!! 02:24
+!!! 01:40
 YSE 401 [37 0] 17 min                
 S12 [42,0] 22 min
 DESIRT_Arp_rz [47 2] (5 min)
 
-!!! 03:10
+!!! 02:25
 YSE 403 [50 -2] 17 min                        
 YSE 2023ono [44 -22] (HST) 4 min
 C3 [52, -28] 11 min 
 
-!!! 03:42
+!!! 02:55
 DESIRT_50_riz (50 -15) (48 min)
 DEBASS/EVERYTHING/2023suh_P1 [54 -10] (4min)
 DEBASS/EVERYTHING/2023teu_P1 [67 0] (4min)
 
-!!! 04:13
+!!! 3:45
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min            
 
-!!! 04:52
+!!! 04:20
 DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (4min)
 YSE 257 [85 -25] 25 min             
 DEBASS/EVERYTHING/2023vch_P2 [78 -23] (4min) OPTIONAL
 DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (4min)
 
-!!! 05:26               
+!!! 04:57               
 Shen SCVZ [90 -66] 13 min 
-YSE 412 [116 -2] 34 min              ### THIS IS A FILLER
+YSE 412 [116 -2] 34 min              ### THIS IS A FILLER. Cut short to make the next 2 targets fit before twilight.
 DEBASS/EVERYTHING/2023vus_P1 [138 -8] (4min)
 DEBASS/EVERYTHING/2023vuj_P1 [159 -12] (4min)
 

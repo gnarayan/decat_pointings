@@ -1,3 +1,4 @@
+2023wbw_P1 [8 10]
 2023vpo_P1 [7 13]
 2023tnb_P1 [19 -24]
 2023tyl_P1 [26 20]
@@ -6,6 +7,7 @@
 2023vus_P1 [138 -8]
 2023vuj_P1 [159 -12]
 2023tvp_P1 [302 -37]
+2023vyp_P1 [310 0]
 2023uda_P1 [306 9]
 2023vyl_P1 [349 16]
 2023tml_P1 [355 -26]
@@ -34,5 +36,5 @@
 2023sei_P3 [343 -3]
 2023vlu_P3 [357 -10]
 
-EVERYTHING	127.4 minutes
-EVERYTHING_P1	46.8 minutes
+EVERYTHING	132.9 minutes
+EVERYTHING_P1	52.4 minutes

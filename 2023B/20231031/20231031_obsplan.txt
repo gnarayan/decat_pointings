@@ -91,35 +91,35 @@ DEBASS/EVERYTHING/2023tyl_P1 [26 20] (3min)
 X123.json [34, -4] 34 min  
 
 !!! 02:32
-YSE 401 [37 0] 17 min                
+YSE 401 [37 0] 9 min                
 S12 [42,0] 22 min
 DESIRT_Arp [47 2] (7 min)
 
-!!! 03:18
-YSE 403 [50 -2] 17 min                        
+!!! 03:10
+YSE 403 [50 -2] 8 min                        
 YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 03:49
+!!! 03:32
 DESIRT_50_gz (50 -15) (34 min)
 ### DEBASS/EVERYTHING/2023suh_P2 [54 -10] (3min) OPTIONAL
 
-!!! 04:23
+!!! 04:06
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min            
 
-!!! 04:57
+!!! 04:40
 DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (3min)
 YSE 257 [85 -25] 17 min             
 DEBASS/EVERYTHING/2023vch_P1 [78 -23] (3min)
 DEBASS/EVERYTHING/2023tfj_P2 [72 -46] (3min) OPTIONAL
 
-!!! 05:23               
+!!! 05:06               
 Shen SCVZ [90 -66] 13 min 
+etale.i.15min.json [160 -60] 15 min    ### high priority!
 ### YSE 412 [116 -2] 17 min              
-DEBASS/EVERYTHING/2023vus_P1 [138 -8] (3min)
 DEBASS/EVERYTHING/2023vuj_P1 [159 -12] (3min)
-
+DEBASS/EVERYTHING/2023vus_P1 [138 -8] (3min)
 
 !!! 05:42:57  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in

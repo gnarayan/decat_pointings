@@ -47,28 +47,29 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 21:04:49
-DEBASS/EVERYTHING/2023uda_P1 [306 9] (4min)
+DEBASS/EVERYTHING/2023uda_P1 [306 9] (3min)
 YSE 2023rbf [306 19.5] (HST) 4 min 
-DEBASS/EVERYTHING/2023qfq_P2 [307 -27] (4min) OPTIONAL
-DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (4min)
-DEBASS/EVERYTHING/2023tfg_P1 [333 -52] (4min)
-DEBASS/EVERYTHING/2023snn_P1 [331 -15] (4min)
-DEBASS/EVERYTHING/2023ulq_P2 [335 -11] (4min) OPTIONAL
+DEBASS/EVERYTHING/2023vyp_P1 [310 0] (3min)
+DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (3min)
+DEBASS/EVERYTHING/2023snn_P2 [331 -15] (3min) OPTIONAL
 ### YSE 2023ryf [339 -8.2] (HST) 2 min
 YSE 544 [321 9] 17 min				                 
-DEBASS/EVERYTHING/2023pbe_P2 [327 14] (4min) OPTIONAL
-DEBASS/EVERYTHING/2023reh_P2 [314 17] (4min) OPTIONAL
+DEBASS/EVERYTHING/2023vyl_P1 [349 16] (3min)
 
 !!! 22:00:00
 DESIRT_330_20_Oct25 [330 -20] (67 min)
 DESIRT_330_20_Oct25_extra (48 min)           ### optional, this is a FILLER!!!! cut if behind schedule !!!!!!
+DEBASS/EVERYTHING/2023tfg_P2 [333 -52] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023tml_P1 [355 -26] (3min)
 YSE 494 [330 3] 17 min                
 ### YSE 495 [339 5] 8 min                         
 ### YSE 393 [346 -10] (8 min)                     
 ### YSE 2023mxn [351 11] (4 min)
 
 !!! 00:15
-DEBASS/EVERYTHING/2023uqw_P1 [357 17] (4min)
+DEBASS/EVERYTHING/2023uqw_P1 [357 17] (3min)
+DEBASS/EVERYTHING/2023wbw_P1 [8 10] (3min)
+DEBASS/EVERYTHING/2023rzh_P2 [18 12] (3min) OPTIONAL
 ### OMLAApex*.23<date>.json      [355 12] (110 min total)
 
 ### !!! 00:20
@@ -78,21 +79,20 @@ DEBASS/EVERYTHING/2023uqw_P1 [357 17] (4min)
 !!! 00:20
 ### YSE 2022jli [7 -8] 10 min
 E12.json [9 -45] (28 min)
-DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (4min)
-DEBASS/EVERYTHING/2023snj_P1 [21 -56] (4min)
+DEBASS/EVERYTHING/2023tfc_P2 [10 -43] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023snj_P2 [21 -56] (3min) OPTIONAL
 
 !!! 00:55
-DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (4min)
+DEBASS/EVERYTHING/2023tnb_P1 [19 -24] (3min)
 ### YSE 296 [17 -17] (17 min)                    
 ### YSE 448 [16 3] (17 min)                   
-DEBASS/EVERYTHING/2023vpo_P1 [7 13] (4min)
-DEBASS/EVERYTHING/2023tyl_P1 [25 20] (4min)
-DEBASS/EVERYTHING/2023sqs_P2 [29 14] (4min) OPTIONAL
+DEBASS/EVERYTHING/2023vpo_P1 [7 13] (3min)
+DEBASS/EVERYTHING/2023tyl_P1 [26 20] (3min)
+DEBASS/EVERYTHING/2023sqs_P2 [29 14] (3min) OPTIONAL
 ### YSE 2022ywf [20 1] (10 min)
 
 !!! 01:10
 X123.json [34, -4] 34 min  
-DEBASS/EVERYTHING/2023ptg_P2 [38 -5] (4min) OPTIONAL
 
 !!! 01:40
 YSE 401 [37 0] 17 min                
@@ -106,28 +106,23 @@ C3 [52, -28] 11 min
 
 !!! 02:55
 DESIRT_50_riz (50 -15) (48 min)
-DEBASS/EVERYTHING/2023suh_P1 [54 -10] (4min)
-DEBASS/EVERYTHING/2023teu_P1 [67 0] (4min)
+DEBASS/EVERYTHING/2023suh_P2 [54 -10] (3min) OPTIONAL
 
 !!! 3:45
 YSE 353 [63 -10] 17 min                   
 YSE 253 [67, -26] 17 min            
 
 !!! 04:20
-DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (4min)
+DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (3min)
 YSE 257 [85 -25] 25 min             
-DEBASS/EVERYTHING/2023vch_P2 [78 -23] (4min) OPTIONAL
-DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (4min)
+DEBASS/EVERYTHING/2023vch_P1 [78 -23] (3min)
+DEBASS/EVERYTHING/2023tfj_P2 [72 -46] (3min) OPTIONAL
 
 !!! 04:57               
 Shen SCVZ [90 -66] 13 min 
 YSE 412 [116 -2] 34 min              ### THIS IS A FILLER. Cut short to make the next 2 targets fit before twilight.
-DEBASS/EVERYTHING/2023vus_P1 [138 -8] (4min)
-DEBASS/EVERYTHING/2023vuj_P1 [159 -12] (4min)
-
-!!! LAST OBJECT BEFORE ASTEROID FIELDS
-!!! 05:48
-DEBASS/EVERYTHING/2023vik_P3 [150 14] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023vus_P1 [138 -8] (3min)
+DEBASS/EVERYTHING/2023vuj_P1 [159 -12] (3min)
 
 
 !!! 05:49:21  -14 deg twilight: slew to Asteroid fields!!!

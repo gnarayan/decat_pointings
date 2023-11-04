@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 30.0,
         "RA": 72.99654,
         "dec": -46.24377,
         "object": "2023tfj_P2",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 15.0,
+        "exptime": 30.0,
         "RA": 72.99654,
         "dec": -46.24377,
         "object": "2023tfj_P2",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 15.0,
+        "exptime": 30.0,
         "RA": 72.99654,
         "dec": -46.24377,
         "object": "2023tfj_P2",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 15.0,
+        "exptime": 30.0,
         "RA": 72.99654,
         "dec": -46.24377,
         "object": "2023tfj_P2",

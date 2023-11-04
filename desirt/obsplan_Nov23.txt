@@ -1,0 +1,8 @@
+## Nov 4 (2nd half)
+
+DESIRT_30_gr (30 -15) (31 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_50_r (50 -15) (15 min)

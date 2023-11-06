@@ -20,20 +20,15 @@
 2023suh_P2 [54 -10]
 2023tfj_P2 [72 -46]
 
-2023pru_P3 [10 -17]
 2023sqs_P3 [29 14]
-2023ptg_P3 [38 -5]
 2023vus_P3 [138 -8]
 2023vuj_P3 [159 -12]
 2023txg_P3 [262 -55]
 2023ujr_P3 [257 12]
-2023qfq_P3 [307 -27]
 2023reh_P3 [314 17]
-2023qov_P3 [318 -49]
 2023snn_P3 [331 -15]
-2023pbe_P3 [327 14]
 2023ulq_P3 [335 -11]
 2023sei_P3 [343 -3]
 
-EVERYTHING	140.9 minutes
-EVERYTHING_P1	55.4 minutes
+EVERYTHING	124.8 minutes
+EVERYTHING_P1	58.7 minutes

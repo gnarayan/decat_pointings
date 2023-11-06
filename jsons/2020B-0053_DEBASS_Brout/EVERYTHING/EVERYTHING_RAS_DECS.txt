@@ -6,6 +6,7 @@
 2023suh_P1 [54 -10]
 2023tfj_P1 [72 -46]
 2023vcr_P1 [68 -33]
+2023wtp_P1 [74 0]
 2023vch_P1 [78 -23]
 2023tvp_P1 [302 -37]
 2023uda_P1 [306 9]
@@ -15,6 +16,7 @@
 2023uqw_P1 [357 17]
 
 2023rzh_P2 [18 12]
+2023wqf_P2 [141 -4]
 2023snn_P2 [331 -15]
 
 2023wbw_P3 [8 10]
@@ -28,5 +30,5 @@
 2023ulq_P3 [335 -11]
 2023sei_P3 [343 -3]
 
-EVERYTHING	104.1 minutes
-EVERYTHING_P1	57.6 minutes
+EVERYTHING	109.7 minutes
+EVERYTHING_P1	59.1 minutes

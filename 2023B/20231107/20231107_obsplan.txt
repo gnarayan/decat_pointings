@@ -72,7 +72,7 @@ DESIRT_S82_2_gz [~0 0] (41 min) # last exposure optional
 
 !!! 00:32
 ### YSE 2022jli [7 -8] 10 min
-E12.json [9 -45] (28 min)
+E1E2.json [9 -45] (19 min)
 DEBASS/EVERYTHING/2023tfc_P1 [10 -43] (3min)
 DEBASS/EVERYTHING/2023snj_P1 [21 -56] (3min)
 

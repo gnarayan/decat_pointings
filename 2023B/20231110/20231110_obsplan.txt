@@ -72,10 +72,10 @@ C3 [52, -28] 11 min
 
 !!! 03:30
 DESIRT_50_gz (50 -15) (34 min)
-DEBASS/EVERYTHING/2023suh_P3 [54 -10] (3min) OPTIONAL FILLER
-DEBASS/EVERYTHING/2023ver_P2 [57 0] (3min) 
+### DEBASS/EVERYTHING/2023suh_P3 [54 -10] (3min) OPTIONAL FILLER
+YSE 2023ver [57 0] (3min) 
 
-!!! 04:02
+!!! 04:07
 YSE 353 [63 -10] 8 min                   
 DEBASS/EVERYTHING/2023teu_P2 [67 0] (3min) 
 DEBASS/EVERYTHING/2023wtp_P1 [74 0] (3min)
@@ -103,4 +103,4 @@ YSE 2022abom [55 -2] 8 min  HST
 YSE 2022wiv [66  1] 8 min  
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-
+DEBASS/EVERYTHING/2023suh_P3 [54 -10] (3min) OPTIONAL FILLER

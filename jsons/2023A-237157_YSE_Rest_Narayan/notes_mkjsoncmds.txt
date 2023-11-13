@@ -1974,7 +1974,7 @@ subl 20231113/20231113_obsplan.txt
 git add 20231113/20231113_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f g    296 448 -d 231113
 mkjson_yse_nofilterswitch.py  -f g  401  403  -d 231113 
-mkjson_yse_nofilterswitch.py  -f r   353 253 257  -d 231113 
+mkjson_yse_nofilterswitch.py  -f g,r   353 253 257  -d 231113 
 mkjson_yse_nofilterswitch.py  -f i    412   -d 231113 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i     2023nlq  2023osu  2023nnx 2023gxf 2023mzb 2023hcx 2023qre 2023mxn 2023iwy -d 231113 -e 25 -n 1 --sortbyra

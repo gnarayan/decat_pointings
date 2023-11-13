@@ -89,7 +89,7 @@ DEBASS/EVERYTHING/2023vch_P1 [78 -23] (3min)
 
 !!! 05:00               
 Shen SCVZ [90 -66] 13 min 
-etale.r.15min.json [160 -60] 15 min    ### high priority!  **** g band, make sure you use the right json file! ***
+etale.r.15min.json [160 -60] 15 min    ### high priority!  **** r band, make sure you use the right json file! ***
 YSE 2023dtc [128 -23] 3 min
 ### YSE 412 [116 -2] 8 min              
 

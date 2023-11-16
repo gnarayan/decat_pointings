@@ -41,9 +41,9 @@ DESIRT_50_r (50 -15) (15 min)
 
 ## Nov 16
 
-DESIRT_330_20_16Nov [~330 -20] (5 min)
+DESIRT_330_20_16Nov [~330 -20] (7 min)
 DESIRT_S82_gr [~350 0] (36 min)
-DESIRT_S82_2_gr [~0 0] (36 min) # Cut last 15 min if running out of time
+DESIRT_S82_2_gr [~0 0] (36 min) # Cut last ~15 min if running out of time
 DESIRT_30_gr (30 -15) (31 min) 
 DESIRT_50_gr (50 -15) (28 min) 
 

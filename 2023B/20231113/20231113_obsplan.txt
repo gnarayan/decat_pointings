@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.05
-UT -16 deg twilight: 2023-11-11T00:31:07.754 2023-11-11T08:22:58.281
-UT -15 deg twilight: 2023-11-11T00:25:42.188 2023-11-11T08:28:23.485
-UT -14 deg twilight: 2023-11-11T00:20:20.896 2023-11-11T08:33:45.428
-UT -12 deg twilight: 2023-11-11T00:09:44.551 2023-11-11T08:44:21.022
-UT -10 deg twilight: 2023-11-10T23:59:17.477 2023-11-11T08:54:47.715
-LOCAL -16 deg twilight: 11/10/2023,   21:31:07   05:22:58
-LOCAL -15 deg twilight: 11/10/2023,   21:25:42   05:28:23
-LOCAL -14 deg twilight: 11/10/2023,   21:20:20   05:33:45
-LOCAL -12 deg twilight: 11/10/2023,   21:09:44   05:44:21
-LOCAL -10 deg twilight: 11/10/2023,   20:59:17   05:54:47
-LOCAL night MIDPOINT: 11/11/2023,   01:27:03
+MOON ILLUMINATION: 0.01
+UT -16 deg twilight: 2023-11-14T00:34:20.724 2023-11-14T08:20:31.742
+UT -15 deg twilight: 2023-11-14T00:28:52.220 2023-11-14T08:26:00.136
+UT -14 deg twilight: 2023-11-14T00:23:26.759 2023-11-14T08:31:25.681
+UT -12 deg twilight: 2023-11-14T00:12:43.935 2023-11-14T08:42:08.808
+UT -10 deg twilight: 2023-11-14T00:02:10.937 2023-11-14T08:52:42.227
+LOCAL -16 deg twilight: 11/13/2023,   21:34:20   05:20:31
+LOCAL -15 deg twilight: 11/13/2023,   21:28:52   05:26:00
+LOCAL -14 deg twilight: 11/13/2023,   21:23:26   05:31:25
+LOCAL -12 deg twilight: 11/13/2023,   21:12:43   05:42:08
+LOCAL -10 deg twilight: 11/13/2023,   21:02:10   05:52:42
+LOCAL night MIDPOINT: 11/14/2023,   01:27:26
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -47,60 +47,62 @@ LOCAL night MIDPOINT: 11/11/2023,   01:27:03
 #Script will finish on its own or at -14 deg twilight.
 
 
-!!! 01:27:03
+!!! 01:27:26
 DEBASS/EVERYTHING/2023tvp_P1 [302 -37] (3min) 
 DEBASS/EVERYTHING/2023uqw_P1 [357 17] (3min) 
-### YSE 448 [16 3] (8 min)                   
-### YSE 296 [17 -17] (8 min)                    
+YSE 448 [16 3] (8 min)                   
+YSE 296 [17 -17] (8 min)                    
 DEBASS/EVERYTHING/2023vpo_P1 [7 13] (3min)
 ### YSE 2022ywf [20 1] (10 min)
 
-!!! 01:37
+!!! 01:53
 X123.json [34, -4] 34 min  
-### DEBASS/EVERYTHING/2023wlj_P3 [29 -9] (3min) OPTIONAL FILLER
-DESIRT_30_gr (30 -15) (31 min)
+DEBASS/EVERYTHING/2023wlj_P3 [29 -9] (3min) OPTIONAL FILLER
+DESIRT_30_gz (30 -15) (37 min)
 
-!!! 02:42
-YSE 401 [37 0] 8 min                
+!!! 03:10
+### YSE 401 [37 0] 8 min                
 S12 [42,0] 22 min
 ### DESIRT_Arp [47 2] (7 min)
 
-!!! 03:12
-YSE 403 [50 -2] 8 min                        
+!!! 03:32
+### YSE 403 [50 -2] 8 min                        
 YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 03:30
-DESIRT_50_gz (50 -15) (34 min)
-### DEBASS/EVERYTHING/2023suh_P3 [54 -10] (3min) OPTIONAL FILLER
+!!! 03:43
+DESIRT_50_gr (50 -15) (27 min)
+DEBASS/EVERYTHING/2023suh_P3 [54 -10] (3min) OPTIONAL FILLER
 YSE 2023ver [57 0] (3min) 
 
-!!! 04:07
-### YSE 353 [63 -10] 8 min                   
+!!! 04:16
+YSE 353 [63 -10] 17 min                   
 DEBASS/EVERYTHING/2023teu_P2 [67 0] (3min) 
 DEBASS/EVERYTHING/2023wtp_P1 [74 0] (3min)
-YSE 253 [67, -26] 8 min            
+### YSE 253 [67, -26] 17 min            
 
-!!! 04:24
+!!! 04:37
 DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (3min)
-YSE 257 [85 -25] 8 min             
+YSE 257 [85 -25] 17 min             
 DEBASS/EVERYTHING/2023vch_P1 [78 -23] (3min)
-DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) OPTIONAL FILLER
+### DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) OPTIONAL FILLER
 
-!!! 04:41               
+!!! 05:00               
 Shen SCVZ [90 -66] 13 min 
-etale.g.15min.json [160 -60] 30 min    ### high priority!  **** g band, make sure you use the right json file! ***
+etale.r.15min.json [160 -60] 15 min    ### high priority!  **** r band, make sure you use the right json file! ***
 YSE 2023dtc [128 -23] 3 min
-YSE 412 [116 -2] 8 min              
+### YSE 412 [116 -2] 8 min              
 
-!!! 05:33:45  -14 deg twilight: slew to Asteroid fields!!!
+!!! 05:31:25  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
-#### If the conditions are good (<1.1", no or little clouds), substitute these json files for YSE 253 257 412
+#### If the conditions are good (<1.1", no or little clouds), substitute these json files for YSE  257 353
 YSE 2022adqz [56 -19] 8 min HST 
 YSE 2022abom [55 -2] 8 min  HST 
 YSE 2022wiv [66  1] 8 min  
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-DEBASS/EVERYTHING/2023suh_P3 [54 -10] (3min) OPTIONAL FILLER
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_50_r (50 -15) (15 min)
+DEBASS/EVERYTHING/2023tfj_P1 [72 -46] (3min) OPTIONAL FILLER

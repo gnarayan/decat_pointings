@@ -1,3 +1,4 @@
+2023ype_P1 [66 -63]
 2023vcr_P1 [68 -33]
 2023wtp_P1 [74 0]
 2023vch_P1 [78 -23]
@@ -27,5 +28,5 @@
 2023vyl_P3 [349 16]
 2023tml_P3 [355 -26]
 
-EVERYTHING	106.9 minutes
-EVERYTHING_P1	25.6 minutes
+EVERYTHING	110.8 minutes
+EVERYTHING_P1	30.3 minutes

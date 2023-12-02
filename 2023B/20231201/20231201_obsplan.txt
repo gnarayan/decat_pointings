@@ -1,0 +1,82 @@
+MOON ILLUMINATION: 0.77
+UT -16 deg twilight: 2023-12-02T00:53:19.986 2023-12-02T08:11:19.634
+UT -15 deg twilight: 2023-12-02T00:47:29.647 2023-12-02T08:17:09.592
+UT -14 deg twilight: 2023-12-02T00:41:44.396 2023-12-02T08:22:55.745
+UT -12 deg twilight: 2023-12-02T00:30:24.217 2023-12-02T08:34:16.639
+UT -10 deg twilight: 2023-12-02T00:19:17.525 2023-12-02T08:45:22.267
+LOCAL -16 deg twilight: 12/01/2023,   21:53:19   05:11:19
+LOCAL -15 deg twilight: 12/01/2023,   21:47:29   05:17:09
+LOCAL -14 deg twilight: 12/01/2023,   21:41:44   05:22:55
+LOCAL -12 deg twilight: 12/01/2023,   21:30:24   05:34:16
+LOCAL -10 deg twilight: 12/01/2023,   21:19:17   05:45:22
+LOCAL night MIDPOINT: 12/02/2023,   01:32:19
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+1 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! 01:32:19
+YSE 296 [17 -17] (8 min)                    
+### YSE 448 [16 3] (8 min)                   
+X123.json [34, -4] 34 min  
+### DESIRT_30_gr (30 -15) (31 min) 
+
+!!! 02:15
+### YSE 401 [37 0] 8 min                
+S12 [42,0] 22 min
+
+!!! 02:37
+YSE 403 [50 -2] 8 min                        
+YSE 2023ono [44 -22] (HST) 3 min
+C3 [52, -28] 11 min 
+
+!!! 02:59
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+
+!!! 03:48
+YSE 353 [63 -10] 8 min                   
+### YSE 253 [67, -26] 8 min  
+DEBASS/EVERYTHING/2023wtp_P1 [74 0] (4min)
+DEBASS/EVERYTHING/2023vch_P1 [78 -23] (4min)          
+YSE 257 [85 -25] 8 min             
+
+!!! 04:12               
+DEBASS/EVERYTHING/2023ype_P1 [66 -63] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (4min)
+Shen SCVZ [90 -66] 13 min 
+etale.i.15min.json [160 -60] 15 min    ### high priority!
+DEBASS/EVERYTHING/2023yhh_P1 [100 -37] (4min) HIGH PRIORITY
+YSE 2023dtc [128 -23] 3 min
+### YSE 412 [116 -2] 8 min              
+
+!!! ~05:00  -18 deg twilight: Guillermo Damke takes over!
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_165_rz (165 -6) (43 min)   

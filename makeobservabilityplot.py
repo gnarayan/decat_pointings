@@ -7,7 +7,7 @@ from astropy import units as u
 from astropy.coordinates import SkyCoord, get_moon, EarthLocation
 import pytz
 from astropy.utils.iers import conf
-conf.['auto_max_age'] = None
+conf.auto_max_age = None
 
 def doplot(timestr='2021-04-29',ra=125.203408,dec=-12.598140,name='2021koj',site='CTIO',block=True):
 

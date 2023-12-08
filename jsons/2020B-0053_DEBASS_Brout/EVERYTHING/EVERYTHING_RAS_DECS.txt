@@ -10,7 +10,6 @@
 2023tfc_P3 [10 -43]
 2023wbw_P3 [8 10]
 2023vpo_P3 [7 13]
-2023snj_P3 [21 -56]
 2023tnb_P3 [19 -24]
 2023sqs_P3 [29 14]
 2023tyl_P3 [25 20]
@@ -28,5 +27,5 @@
 2023vyl_P3 [349 16]
 2023tml_P3 [355 -26]
 
-EVERYTHING	110.8 minutes
+EVERYTHING	105.6 minutes
 EVERYTHING_P1	30.3 minutes

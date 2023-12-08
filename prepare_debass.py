@@ -89,7 +89,7 @@ for i,row in df.iterrows():
         print()
 
         if (row['YSE Field'] != '') & (row['YSE Field'] != '?') & (str(row['YSE Field'])!='nan'): print('THIS IS SHARED WITH YSE: %s'%row['YSE Field'])
-        mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False,auto_max_age='None')
+        mop.doplot(datestr,ra=float(row['RA']),dec=float(row['DEC']),name=row['snid'],block=False)
         priority = input('\nPlease enter a priority for this object (1 2 3 TCTM)\n')
         if not priority in ['1','2','3','TCTM']:
             priority = input('Please enter a valid priority for this object (1 2 3 TCTM)\n')

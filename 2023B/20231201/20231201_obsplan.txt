@@ -66,14 +66,14 @@ YSE 353 [63 -10] 8 min
 DEBASS/EVERYTHING/2023wtp_P1 [74 0] (4min)
 DEBASS/EVERYTHING/2023vch_P1 [78 -23] (4min)          
 YSE 257 [85 -25] 8 min             
+YSE 2023dtc [128 -23] 3 min
 
 !!! 04:12               
 DEBASS/EVERYTHING/2023ype_P1 [66 -63] (4min) HIGH PRIORITY
 DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (4min)
-Shen SCVZ [90 -66] 13 min 
+Shen SCVZ [90 -66] 13 min 			   ### skip if behind!!!
 etale.i.15min.json [160 -60] 15 min    ### high priority!
 DEBASS/EVERYTHING/2023yhh_P1 [100 -37] (4min) HIGH PRIORITY
-YSE 2023dtc [128 -23] 3 min
 ### YSE 412 [116 -2] 8 min              
 
 !!! ~05:00  -18 deg twilight: Guillermo Damke takes over!

@@ -18,10 +18,11 @@ DESIRT_30_z (30 -15) (23 min)
 
 ## Dec 13
 
+DESIRT_330_20_12Dec (330 -20) (4 min)
 DESIRT_30_gz (30 -15) (37 min)
 DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
-DESIRT_50_z (50 -15) (20 min)
+DESIRT_50_z (50 -15) (20 min) #LAST 2 EXPOSURES OPTIONAL
 DESIRT_165_gr (165 -6) (34 min)
 
 EXTRA TARGETS 
@@ -40,8 +41,9 @@ EXTRA TARGETS
 DESIRT_30_z (30 -15) (23 min)
 DESIRT_165_r (165 -6) (18 min)
 
-## Dec 19 (2nd half) - can add 3 min and more  if remove a band from 165
+## Dec 19 (2nd half) 
 
+DESIRT_330_20_12Dec (330 -20) (4 min)
 DESIRT_165_grz (165 -6) (57 min)
 
 EXTRA TARGETS 
@@ -49,11 +51,12 @@ DESIRT_165_g (165 -6) (15 min)
 
 ## Dec 22 
 
+DESIRT_330_20_12Dec (330 -20) (4 min)
 DESIRT_30_r  (30 -15) (17 min)
 DESIRT_30_z  (30 -15) (23 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min)
-DESIRT_165_grz (165 -6) (57 min)
+DESIRT_165_gz (165 -6) (39 min)
 
 ## Dec 26 
 

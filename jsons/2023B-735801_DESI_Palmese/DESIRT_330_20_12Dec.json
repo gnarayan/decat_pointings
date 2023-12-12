@@ -1,0 +1,17 @@
+[
+    {
+		"count": 1,
+		"filter": "g",
+		"exptime": 60.000000,
+		"RA": 331.611940,
+		"dec": -28.439210,
+		"object": "DESIRT 330 20",
+		"program": "DESIRT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023B-735801",
+		"wait": "False",
+		"proposer": "Palmese Wang",
+		"propid": "2023B-735801"
+	}
+]

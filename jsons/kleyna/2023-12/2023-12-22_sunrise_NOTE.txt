@@ -1,7 +1,7 @@
 2023-12-22 sunrise observing
 
-START UT 2023-12-22T07:18:48    at sun elevation -24.3
-END   UT 2023-12-22T08:24:48    at sun elevation -14.0
+START UT 2023-12-23T07:19:18    at sun elevation -24.3
+END   UT 2023-12-23T08:25:18    at sun elevation -14.0
 TOTAL TIME: 1.10 hours (66.0 minutes) 
 
 Some fields may be at telescope pointing limit but should be observable

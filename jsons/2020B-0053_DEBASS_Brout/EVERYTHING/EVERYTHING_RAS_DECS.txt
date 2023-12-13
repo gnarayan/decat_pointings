@@ -1,5 +1,8 @@
 2023yzw_P1 [20 -1]
 2023zbo_P1 [26 -17]
+2023zem_P1 [82 -15]
+2023zjm_P1 [80 5]
+2023zoh_P1 [88 -38]
 2023ytn_P1 [130 -5]
 2023zce_P1 [141 -30]
 2023zax_P1 [145 7]
@@ -10,6 +13,7 @@
 
 2023wtp_P2 [74 0]
 2023yzu_P2 [81 -19]
+2023zid_P2 [135 -16]
 
 2023vpo_P3 [7 13]
 2023tyl_P3 [26 20]
@@ -17,5 +21,5 @@
 2023txg_P3 [262 -55]
 2023ujr_P3 [257 12]
 
-EVERYTHING	64.8 minutes
-EVERYTHING_P1	34.5 minutes
+EVERYTHING	75.8 minutes
+EVERYTHING_P1	44.2 minutes

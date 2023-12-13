@@ -49,74 +49,74 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 21:51:55
 kleyna/2023-12/Kleyna2023-12-XY_sunset.json 
+START UT 2023-12-14T00:50:30    at sun elevation -14.0
+END   UT 2023-12-14T01:54:42    at sun elevation -24.1
 **** Repeat this script until the next block starts ***
 
-!!! 23:00:00
-DEBASS/EVERYTHING/2023yoo_P1 [329 -13] (4min)
+!!! 22:54:00
+DEBASS/EVERYTHING/2023yoo_P1 [329 -13] (3min)
 ### YSE 2023snn [332 -16.5] (HST) 3 min
 ### YSE 2023ryf [339 -8.2] (HST) 3 min
 ### YSE 393 [346 -10] (8 min)             # Drop if behind!
+DEBASS/EVERYTHING/2023yrx_P1 [345 15] (3min)
+DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (3min)
 
-!!! 22:08
-DEBASS/EVERYTHING/2023yrx_P2 [345 15] (4min) 
-DEBASS/EVERYTHING/2023uqw_P1 [357 17] (4min)
-DEBASS/EVERYTHING/2023vpo_P1 [7 13] (4min)
-DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (4min)
-
-!!! 22:24
+!!! 23:04
 ### YSE 2022jli [7 -8] 10 min
 E1E2.json [9 -45] (19 min)
 
-!!! 22:44
+!!! 23:24
 ### YSE 448 [16 3] (17 min)                   
 ### YSE 296 [17 -17] (17 min)                    
-DEBASS/EVERYTHING/2023zbo_P1 [26 -17] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023zbo_P1 [26 -17] (3min)
 ### YSE 2022ywf [20 1] (10 min)
-
-!!! 23:20
 X123.json [34, -4] 34 min  
+
+!!! 00:00
 DESIRT_30_gz (30 -15) (37 min)
 
-!!! 00:25
+!!! 00:37
 YSE 401 [37 0] 17 min                
 S12 [42,0] 22 min
 
-!!! 01:05
+!!! 01:20
 ### YSE 403 [50 -2] 17 min                        
 ### YSE 2023ono [44 -22] (HST) 3 min
 C3 [52, -28] 11 min 
 
-!!! 01:36
+!!! 01:31
 DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min) # REMOVER LAST 2 EXPOSURES 
 
-!!! 02:25
-### YSE 353 [63 -10] 17 min                   
-DEBASS/EVERYTHING/2023wtp_P1 [74 0] (4min)
-### YSE 253 [67, -26] 17 min            
+!!! 02:20
+YSE 353 [63 -10] 17 min                   
+YSE 253 [67, -26] 17 min            
 
-!!! 03:03
-DEBASS/EVERYTHING/2023yzu_P1 [81 -19] (4min)
+!!! 03:00
 ### YSE 257 [85 -25] 17 min             
 
-!!! 03:25               
+!!! 03:00               
+DEBASS/EVERYTHING/2023zjm_P1 [80 5] (3min)
+DEBASS/EVERYTHING/2023zem_P1 [82 -15] (3min)
+DEBASS/EVERYTHING/2023zoh_P1 [88 -38] (3min)
 Shen SCVZ [90 -66] 13 min 
-DEBASS/EVERYTHING/2023yhh_P1 [100 -37] (4min)
 ### YSE 2023dtc [128 -23] 3 min
-DEBASS/EVERYTHING/2023zce_P1 [141 -30] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023zce_P1 [141 -30] (3min)
 
-!!! 03:45
+!!! 03:25
 etale.r.15min.json [160 -60] 15 min    ### high priority!
 ### YSE 412 [116 -2] 17 min              
-DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (4min)
-DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (3min)
+DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min)
 
-!!! 04:43
+!!! 03:49
 DESIRT_165_gr (165 -6) (34 min)
 
-!!! 04:13
+!!! 04:23
 kleyna/2023-12/Kleyna2023-12-XY_sunrise.json 
+START UT 2023-12-14T07:21:54    at sun elevation -23.5
+END   UT 2023-12-14T08:21:54    at sun elevation -14.0
 **** Repeat this script until -14 deg twilight ***
 
 !!! 05:23:14  -14 deg twilight: slew to Asteroid fields!!!
@@ -124,4 +124,4 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-DESIRT_30_z (30 -15) (23 min)
+YSE 257 [85 -25] 17 min          

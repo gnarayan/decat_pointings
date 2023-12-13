@@ -1,7 +1,8 @@
 2023-12-13 sunset observing
 
 START UT 2023-12-14T00:50:30    at sun elevation -14.0
-END   UT 2023-12-14T02:08:30    at sun elevation -26.0
+END   UT 2023-12-14T01:54:42    at sun elevation -24.1
+TOTAL TIME: 1.07 hours (64.2 minutes) 
 
 Some fields may be at telescope pointing limit but should be observable
 If not, please skip to next observable field, or wait if too difficult.

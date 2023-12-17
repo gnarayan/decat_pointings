@@ -86,4 +86,4 @@ DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min)
 DESIRT_190_z (190 7) (23 min)
 DESIRT_190_r (190 7) (17 min)
-DESIRT_231119 (237 -35) (3 min)
+DESIRT_237 (237 -35) (3 min) # HIGH PRIORITY, BAD AIRMASS, execute at very enf of night

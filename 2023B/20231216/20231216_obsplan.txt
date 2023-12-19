@@ -49,11 +49,9 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 21:53:58
 OMLAApexd.231216_x_i.json (21 min)
-DEBASS/EVERYTHING/2023yoo_P1 [329 -13] (3min)
 ### YSE 2023snn [332 -16.5] (HST) 3 min
 ### YSE 2023ryf [339 -8.2] (HST) 3 min
 ### YSE 393 [346 -10] (8 min)             # Drop if behind!
-DEBASS/EVERYTHING/2023yrx_P1 [345 15] (3min)
 DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (3min)
 
 !!! 22:25
@@ -74,6 +72,7 @@ DESIRT_30_z (30 -15) (23 min)
 !!! 00:34
 ### YSE 401 [37 0] 17 min                
 S12 [42,0] 22 min
+DEBASS/EVERYTHING/2023zzi_P1 [43 16] (3min)
 
 !!! 00:56
 YSE 403 [50 -2] 17 min                        
@@ -91,8 +90,10 @@ YSE 253 [67, -26] 8 min
 ### YSE 257 [85 -25] 17 min             
 
 !!! 02:30               
+DEBASS/EVERYTHING/2023wtp_P2 [74 0] (4min) CAN SKIP TO SAVE TIME
 DEBASS/EVERYTHING/2023zjm_P1 [80 5] (3min)
 DEBASS/EVERYTHING/2023zem_P1 [82 -15] (3min)
+DEBASS/EVERYTHING/2023yzu_P1 [81 -19] (3min)
 DEBASS/EVERYTHING/2023zoh_P1 [88 -38] (3min)
 Shen SCVZ [90 -66] 13 min 
 ### YSE 2023dtc [128 -23] 3 min
@@ -103,6 +104,7 @@ DEBASS/EVERYTHING/2023zce_P1 [141 -30] (3min)
 ### YSE 412 [116 -2] 17 min              
 DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (3min)
 DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min)
+DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (3min)
 ### DESIRT_165_gr (165 -6) (34 min)
 OMLApex.231216*json (70 min)
 

@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.23
-UT -16 deg twilight: 2023-12-17T01:05:53.238 2023-12-17T08:12:12.147
-UT -15 deg twilight: 2023-12-17T00:59:54.255 2023-12-17T08:18:11.505
-UT -14 deg twilight: 2023-12-17T00:53:58.244 2023-12-17T08:24:06.720
-UT -12 deg twilight: 2023-12-17T00:42:21.410 2023-12-17T08:35:45.410
-UT -10 deg twilight: 2023-12-17T00:30:59.648 2023-12-17T08:47:06.147
-LOCAL -16 deg twilight: 12/16/2023,   22:05:53   05:12:12
-LOCAL -15 deg twilight: 12/16/2023,   21:59:54   05:18:11
-LOCAL -14 deg twilight: 12/16/2023,   21:53:58   05:24:06
-LOCAL -12 deg twilight: 12/16/2023,   21:42:21   05:35:45
-LOCAL -10 deg twilight: 12/16/2023,   21:30:59   05:47:06
-LOCAL night MIDPOINT: 12/17/2023,   01:39:02
+MOON ILLUMINATION: 0.55
+UT -16 deg twilight: 2023-12-20T01:07:43.922 2023-12-20T08:13:21.661
+UT -15 deg twilight: 2023-12-20T01:01:43.335 2023-12-20T08:19:21.376
+UT -14 deg twilight: 2023-12-20T00:55:46.162 2023-12-20T08:25:16.960
+UT -12 deg twilight: 2023-12-20T00:44:08.539 2023-12-20T08:36:56.399
+UT -10 deg twilight: 2023-12-20T00:32:46.219 2023-12-20T08:48:18.479
+LOCAL -16 deg twilight: 12/19/2023,   22:07:43   05:13:21
+LOCAL -15 deg twilight: 12/19/2023,   22:01:43   05:19:21
+LOCAL -14 deg twilight: 12/19/2023,   21:55:46   05:25:16
+LOCAL -12 deg twilight: 12/19/2023,   21:44:08   05:36:56
+LOCAL -10 deg twilight: 12/19/2023,   21:32:46   05:48:18
+LOCAL night MIDPOINT: 12/20/2023,   01:40:32
 
 
 *********************************************
@@ -42,47 +42,50 @@ LOCAL night MIDPOINT: 12/17/2023,   01:39:02
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
 
-!!! 01:39
+!!! 01:40:32
 DEBASS/EVERYTHING/2023zbo_P1 [26 -17] (2min) DO FIRST, SETTING!
 DEBASS/EVERYTHING/2023zzi_P1 [43 16] (2min) DO FIRST, SETTING!
+C3 [52, -28] 11 min 
 DEBASS/EVERYTHING/2023aajf_P1 [65 -51] (2min)
-
 #DESIRT_50_g (50 -15) (13 min)
 #DESIRT_50_r (50 -15) (15 min)
 #DESIRT_50_z (50 -15) (20 min)
 
-!!! 02:12
+!!! 01:58
 YSE 353 [63 -10] 8 min                   
 YSE 253 [67, -26] 8 min            
-### YSE 257 [85 -25] 17 min             
+YSE 257 [85 -25] 17 min             
 
-!!! 02:30               
+!!! 02:32               
 DEBASS/EVERYTHING/2023zjm_P1 [80 5] (3min)
 DEBASS/EVERYTHING/2023yzu_P1 [81 -19] (3min)
 Shen SCVZ [90 -66] 13 min 
-### YSE 2023dtc [128 -23] 3 min
+YSE 2023dtc [128 -23] 3 min
 DEBASS/EVERYTHING/2023zce_P1 [141 -30] (3min)
 
-!!! 02:57
-### etale.i.15min.json [160 -60] 15 min    ### high priority!
+!!! 02:48
+etale.i.15min.json [160 -60] 15 min    ### high priority!
 ### YSE 412 [116 -2] 17 min              
 DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (3min)
 DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min)
 DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (3min)
 DEBASS/EVERYTHING/2023zvn_P1 [160 19] (2min)
-### DESIRT_165_gr (165 -6) (34 min)
-OMLApex.231216*json (70 min)
 
-!!! 04:14
+!!! 03:15
+OMLApex.231219_x_i.json (13 min)
+DESIRT_165_grz (165 -6) (57 min)
+
+!!! 04:15
 kleyna/2023-12/Kleyna2023-12-XY_sunrise.json 
-START UT 2023-12-17T07:16:42    at sun elevation -24.3
-END   UT 2023-12-17T08:22:42    at sun elevation -14.0
+START UT 2023-12-20T07:17:48    at sun elevation -24.3
+END   UT 2023-12-20T08:23:48    at sun elevation -14.0
 TOTAL TIME: 1.10 hours (66.0 minutes) 
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.
 **** Repeat this script until -14 deg twilight ***
 
-!!! 05:24:06  -14 deg twilight: slew to Asteroid fields!!!
+!!! 05:25:16  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 ####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
-YSE 257 [85 -25] 17 min          

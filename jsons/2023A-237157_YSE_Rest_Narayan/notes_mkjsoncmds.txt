@@ -2075,9 +2075,9 @@ cp 20231213/20231213_obsplan.txt 20231216/20231216_obsplan.txt
 subl 20231216/20231216_obsplan.txt
 git add 20231216/20231216_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f r    393 -d 231216
-mkjson_yse_nofilterswitch.py  -f g,r    296 448 -d 231216
-mkjson_yse_nofilterswitch.py  -f g,r  401  403  -d 231216 
-mkjson_yse_nofilterswitch.py  -f g,r   353 253 257  -d 231216 
+mkjson_yse_nofilterswitch.py  -f i    296 448 -d 231216
+mkjson_yse_nofilterswitch.py  -f g,i  401  403  -d 231216 
+mkjson_yse_nofilterswitch.py  -f g   353 253 257  -d 231216 
 mkjson_yse_nofilterswitch.py  -f g,r    412   -d 231216 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i     2023nlq  2023osu  2023nnx 2023gxf 2023mzb 2023hcx 2023qre 2023mxn 2023iwy -d 231216 -e 25 -n 1 --sortbyra

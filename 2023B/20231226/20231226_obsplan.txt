@@ -58,7 +58,7 @@ DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (3min)
 E1E2.json [9 -45] (19 min)
 
 !!! 22:40
-DEBASS/EVERYTHING/2023zbo_P2 [26 -17] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023zbo_P1 [26 -17]  (3min)
 X123_moon.json [34, -4] 34 min  
 
 !!! 23:18
@@ -68,6 +68,7 @@ DESIRT_30_z  (30 -15) (23 min)
 !!! 00:00
 ### YSE 401 [37 0] 17 min                
 S12_moon.json [42,0] 22 min
+DEBASS/EVERYTHING/2023zzi_P1 [43 16]  (3min)
 YSE 403 [50 -2] 9 min         		### Optional, close to Moon, skip if behind schedule !!!               
 C3 [52, -28] 11 min 
 
@@ -107,7 +108,7 @@ OMLApex.231222.json [167 -25] (54 min)
 #### CUT DESIRT_165_gz DOWN TO 20 min MAX!!
 DESIRT_165_gz (165 -6) (20 min)  #### CUT THIS DOWN TO 20 min MAX!! cut if behind schedule!!!!
 #### CUT DESIRT_165_gz DOWN TO 20 min MAX!!
-DEBASS/EVERYTHING/2023aanh_P1 [175 -4] (3min)
+DEBASS/EVERYTHING/2023aanh_P2 [175 -4]  (3min) CAN DROP FILTERS IF NECESSARY TO SAVE TIME
 
 !!! 04:20
 kleyna/2023-12/Kleyna2023-12-XY_sunrise.json 

@@ -97,7 +97,6 @@ etale.z.15min.json [160 -60] 15 min
 YSE 412 [116 -2] 8 min                     #### Skip if behind schedule, close to Moon!
 ### YSE 2023dtc [128 -23] 3 min
 DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (3min)
-DEBASS/EVERYTHING/2023aald_P1 [122 14] (3min)
 DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (3min)
 DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min)
 DEBASS/EVERYTHING/2023aait_P1 [147 -14] (3min)
@@ -106,7 +105,7 @@ DEBASS/EVERYTHING/2023aait_P1 [147 -14] (3min)
 YSE 2023xqm [159 -27] (4 min)            ### high priority, don't skip!
 OMLApex.2312*.json [167 -25] (70 min)
 DESIRT_165_rz (165 -6) (43 min)
-DEBASS/EVERYTHING/2023aanh_P2 [175 -4]  (3min) CAN DROP FILTERS IF NECESSARY TO SAVE TIME
+DEBASS/EVERYTHING/2023aanh_P2 [175 -4] (3min) OPTIONAL
 
 !!! 05:29:07  -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in

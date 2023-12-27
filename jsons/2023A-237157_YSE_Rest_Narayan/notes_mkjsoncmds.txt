@@ -2136,15 +2136,30 @@ subl 20231226/20231226_obsplan.txt
 git add 20231226/20231226_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f r,i    296 448 -d 231226
 mkjson_yse_nofilterswitch.py  -f i  401  403  -d 231226 
-mkjson_yse_nofilterswitch.py  -f i    253   -d 231226 
-mkjson_yse_nofilterswitch.py  -f i   353 257  -d 231226 
+mkjson_yse_nofilterswitch.py  -f r,i    253   -d 231226 
+mkjson_yse_nofilterswitch.py  -f r,i   353 257  -d 231226 
 mkjson_yse_nofilterswitch.py  -f z    412   -d 231226 
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xzq 2023ver -d 231226 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xzq 2023ver 2023zaz -d 231226 -e 25 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 231226 -e 5 -n 1 --sortbyra
 git add 231226
 git add 231226/*.json
 
+mkdir 20231227
+cp 20231213/20231213_obsplan.txt 20231227/20231227_obsplan.txt 
+subl 20231227/20231227_obsplan.txt
+git add 20231227/20231227_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i    296 448 -d 231227
+mkjson_yse_nofilterswitch.py  -f r  401  403  -d 231227 
+mkjson_yse_nofilterswitch.py  -f i,z    253   -d 231227 
+mkjson_yse_nofilterswitch.py  -f i   353 257  -d 231227 
+mkjson_yse_nofilterswitch.py  -f z    412   -d 231227 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xzq 2023ver -d 231227 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 231227 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 231227 -e 50 -n 1 --sortbyra
+git add 231227
+git add 231227/*.json
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Dec23.txt
@@ -2291,6 +2306,7 @@ YSE_pointings2fieldcenters.py --addSN  2023dtc 128.323125 -22.962519  -vv
 YSE_pointings2fieldcenters.py --addSN  2023xzq 16.3449372     -8.9510968  -vv
 YSE_pointings2fieldcenters.py --addSN  2023xqm 158.6457917     -27.6509194  -vv
 
+YSE_pointings2fieldcenters.py --addSN  2023zaz 59.7309250     -26.0574417 -vv
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
 

@@ -2167,7 +2167,7 @@ subl 20231228/20231228_obsplan.txt
 git add 20231228/20231228_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f r,i    296 448 -d 231228
 mkjson_yse_nofilterswitch.py  -f r,i  401  403  -d 231228 
-mkjson_yse_nofilterswitch.py  -f i,z    253   -d 231228 
+mkjson_yse_nofilterswitch.py  -f i    253   -d 231228 
 mkjson_yse_nofilterswitch.py  -f i   353 257  -d 231228 
 mkjson_yse_nofilterswitch.py  -f z    412   -d 231228 
 #

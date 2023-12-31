@@ -48,6 +48,7 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 21:58:57
 DESIRT_330_20_12Dec (330 -20) (4 min)
+DEBASS/EVERYTHING/2023acfs_P2 [356 -28] (3min)
 YSE 448 [16 3] (17 min)                   
 YSE 296 [17 -17] (15 min)    
 YSE 2023xzq [16 -9] (4 min)                
@@ -55,6 +56,7 @@ DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (3min)
 
 !!! 22:55
 E1E2.json [9 -45] (19 min)
+DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (3min)
 
 !!! 23:15
 DEBASS/EVERYTHING/2023zbo_P1 [26 -17]  (3min)
@@ -76,21 +78,23 @@ DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min)
 C3 [52, -28] 11 min 
+DEBASS/EVERYTHING/2023abjs_P2 [55 -34] (3min)
 
 !!! 01:54
 YSE 253 [67, -26] 8 min            
 YSE 353 [63 -10] 8 min                   
 
 !!! 02:10     
+DEBASS/EVERYTHING/2023wtp_P1 [74 0] (3min)
 DEBASS/EVERYTHING/2023zjm_P1 [80 5] (3min)
-DEBASS/EVERYTHING/2023yzu_P1 [81 -19] (3min)
+DEBASS/EVERYTHING/2023yzu_P2 [81 -19] (3min) CAN DROP IF NECESSARY
 YSE 257 [85 -25] 9 min             
 
 !!! 02:25
 ### Block below Dec<=-30
 DEBASS/EVERYTHING/2023aajf_P1 [65 -51] (3min)
 Shen SCVZ [90 -66] 13 min 
-DEBASS/EVERYTHING/2023zce_P1 [141 -30] (3min)
+DEBASS/EVERYTHING/2023zce_P2 [141 -30] (3min) CAN DROP IF NECESSARY
 
 !!! 02:45
 ### etale.i.15min.json [160 -60] 15 min    
@@ -98,8 +102,6 @@ etale.z.15min.json [160 -60] 15 min
 ### YSE 412 [116 -2] 8 min                     #### Skip if behind schedule, close to Moon!
 DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (3min)
 DEBASS/EVERYTHING/2023aald_P1 [122 14] (3min)
-DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (3min)
-DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min)
 DEBASS/EVERYTHING/2023aait_P1 [147 -14] (3min)
 
 !!! 03:15
@@ -108,7 +110,6 @@ OMLApex.2312*.json [167 -25] (60 min)
 
 !!! 04:19
 DESIRT_165_rz (165 -6) (43 min)
-DEBASS/EVERYTHING/2023aanh_P2 [175 -4]  (3min) CAN DROP FILTERS IF NECESSARY TO SAVE TIME
 
 !!! 05:05
 DESIRT_190_z (190 7) (23 min) # LAST 4 EXPOSURES OPTIONAL

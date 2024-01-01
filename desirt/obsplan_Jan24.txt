@@ -1,10 +1,11 @@
 Jan 03 
 
+DESIRT_330_20_12Dec (330 -20) (4 min) # HIGH PRIORITY, BAD AIRMASS, execute at very beginning of night
 DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min)
 DESIRT_165_grz (165 -6) (57 min)
-DESIRT_237 (237 -35) (5 min) # HIGH PRIORITY, BAD AIRMASS, execute at very enf of night
+DESIRT_237 (237 -35) (5 min) # HIGH PRIORITY, BAD AIRMASS, execute at very end of night
 
 Jan 06  (2nd half)
 

@@ -1,22 +1,21 @@
 2023aaqu_P1 [5 -52]
-2023yzw_P1 [20 -1]
 2023zbo_P1 [26 -17]
 2023zzi_P1 [43 16]
 2023aajf_P1 [65 -51]
-2023wtp_P1 [74 0]
 2023zjm_P1 [80 5]
 2023aald_P1 [122 14]
 2023ytn_P1 [130 -5]
 2023aait_P1 [147 -14]
+2023zax_P1 [145 7]
 
+2023yzw_P2 [20 -1]
 2023abjs_P2 [55 -34]
+2023wtp_P2 [74 0]
 2023yzu_P2 [81 -19]
-2023zce_P2 [141 -30]
 2023acfs_P2 [356 -28]
 
-2023zax_P3 [145 7]
 2023aaaa_P3 [149 10]
 2023aanh_P3 [175 -4]
 
-EVERYTHING	64.9 minutes
-EVERYTHING_P1	35.7 minutes
+EVERYTHING	61.9 minutes
+EVERYTHING_P1	29.0 minutes

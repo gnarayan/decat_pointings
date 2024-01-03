@@ -2193,9 +2193,24 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2023fyq -d 231231 -e 50 -n 1 --sortbyra
 git add 231231
 git add 231231/*.json
 
+mkdir 20240103
+cp 20231226/20231226_obsplan.txt 20240103/20240103_obsplan.txt 
+subl 20240103/20240103_obsplan.txt
+git add 20240103/20240103_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r    296 448 -d 240103
+mkjson_yse_nofilterswitch.py  -f g,r  401  403  -d 240103 
+mkjson_yse_nofilterswitch.py  -f r    253   -d 240103 
+mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 240103 
+mkjson_yse_nofilterswitch.py  -f g,i   412   -d 240103 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq 2023ver 2023zaz -d 240103 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240103 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i 2023fyq -d 240103 -e 50 -n 1 --sortbyra
+git add 240103
+git add 240103/*.json
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
-more /Users/arest/observing/decat_pointings/desirt/obsplan_Dec23.txt
+more /Users/arest/observing/decat_pointings/desirt/obsplan_Jan24.txt
 
 mkjson_yse_nofilterswitch.py  -f g,i    583 531 -d 230420 --outsuffix two_filters
 mkjson_dosc.py -f g,r,i OMLApex -d 230420 -n 2 -e 200,400,360 --d1 E5 N3 --d2 W7 S7

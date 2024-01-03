@@ -54,25 +54,26 @@ TOTAL TIME: 1.20 hours (72.0 minutes)
 **** Repeat this script until 23:12, then go to the next block!!! ***
 
 !!! 23:12:00
-### DEBASS/EVERYTHING/2023acfs_P2 [356 -28] (3min)
+DEBASS/EVERYTHING/2023acfs_P1 [356 -28] (3min)
 ### YSE 448 [16 3] (17 min)                   
 YSE 296 [17 -17] (8 min)    
 YSE 2023xzq [16 -9] (4 min)                
-DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (3min)
+DEBASS/EVERYTHING/2024F_P1 [18 1] (3min)
 
 !!! 22:27
 E1E2.json [9 -45] (19 min)
 DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (3min)
 
 !!! 23:49
-DEBASS/EVERYTHING/2023zbo_P1 [26 -17]  (3min)
+DEBASS/EVERYTHING/2023zbo_P1 [26 -17] (3min)
 X123.json [34, -4] 34 min  
 
 !!! 00:16
 ### YSE 401 [37 0] 17 min                
 S12.json [42,0] 22 min
-DEBASS/EVERYTHING/2023zzi_P1 [43 16]  (3min)
+DEBASS/EVERYTHING/2023zzi_P1 [43 16] (3min)
 YSE 2023ver [57 0] (4 min)           
+DEBASS/EVERYTHING/2023acgf_P1 [56 -3] (3min)
 
 !!! 00:45
 YSE 403 [50 -2] 17 min  
@@ -82,7 +83,6 @@ DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min)
 C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2023abjs_P2 [55 -34] (3min)
 
 !!! 02:04
 2023zaz [60 -26]  4 min
@@ -90,16 +90,16 @@ YSE 253 [67, -26] 17 min
 YSE 353 [63 -10] 8 min                   
 
 !!! 02:33     
-DEBASS/EVERYTHING/2023wtp_P1 [74 0] (3min)
+DEBASS/EVERYTHING/2023wtp_P2 [74 0] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023zjm_P1 [80 5] (3min)
-DEBASS/EVERYTHING/2023yzu_P2 [81 -19] (3min) CAN DROP IF NECESSARY
+DEBASS/EVERYTHING/2023yzu_P2 [81 -19] (3min) OPTIONAL
 YSE 257 [85 -25] 9 min             
 
 !!! 02:51
 ### Block below Dec<=-30
 DEBASS/EVERYTHING/2023aajf_P1 [65 -51] (3min)
 Shen SCVZ [90 -66] 13 min 
-DEBASS/EVERYTHING/2023zce_P2 [141 -30] (3min) CAN DROP IF NECESSARY
+DEBASS/EVERYTHING/2023zce_P1 [141 -30] (3min)
 
 !!! 03:10
 ### etale.i.15min.json [160 -60] 15 min    
@@ -107,6 +107,8 @@ DEBASS/EVERYTHING/2023zce_P2 [141 -30] (3min) CAN DROP IF NECESSARY
 YSE 412 [116 -2] 8 min                     #### Skip if behind schedule, close to Moon!
 DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (3min)
 DEBASS/EVERYTHING/2023aald_P1 [122 14] (3min)
+DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min)
+DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (3min)
 DEBASS/EVERYTHING/2023aait_P1 [147 -14] (3min)
 
 !!! 03:27

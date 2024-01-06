@@ -1,0 +1,8 @@
+2024-01-27 sunset observing
+
+START UT 2024-01-28T00:51:48    at sun elevation -14.0
+END   UT 2024-01-28T01:51:48    at sun elevation -24.4
+TOTAL TIME: 1.00 hours (60.0 minutes) 
+
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.

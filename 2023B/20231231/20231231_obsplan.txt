@@ -120,7 +120,7 @@ OMLApex.2312*.json [167 -25] (68 min)
 DESIRT_190_z (190 7) (23 min)
 DESIRT_190_r (190 7) (17 min)       ### CUT EXPOSURES HERE IF BEHIND SCHEDULE, so that you can still get the next objects
 
-!!! 05:19
+!!! 05:
 2023fyq [186 12] 6 min              ### high priority, don't skip!
 DESIRT_237 (237 -35) (7 min) # HIGH PRIORITY, BAD AIRMASS, execute at very end of night
 

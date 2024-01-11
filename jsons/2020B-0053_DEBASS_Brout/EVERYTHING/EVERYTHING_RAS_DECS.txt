@@ -1,26 +1,26 @@
 2023aaqu_P1 [5 -52]
-2023yzw_P1 [20 -1]
+2023zbo_P1 [26 -17]
 2023zzi_P1 [43 16]
 2023abjs_P1 [55 -34]
 2023acgf_P1 [56 -3]
-2023yzu_P1 [81 -19]
-2024ql_P1 [88 -34]
+2023aajf_P1 [65 -51]
 2023aald_P1 [122 14]
 2024ev_P1 [124 21]
+2023ytn_P1 [130 -5]
 2023aait_P1 [147 -14]
-2023zax_P1 [145 7]
 2023aaaa_P1 [149 10]
-2024uj_P1 [167 -20]
 2024gy_P1 [183 12]
 2024jz_P1 [233 -2]
 
-2023zbo_P2 [26 -17]
-2023aajf_P2 [65 -51]
 2023zjm_P2 [80 5]
-2023ytn_P2 [130 -5]
 2023zce_P2 [141 -30]
+2023zax_P2 [145 7]
 
+2023yzw_P3 [20 -1]
+2023yzu_P3 [81 -19]
+2024ql_P3 [88 -34]
+2024uj_P3 [167 -20]
 2024hf_P3 [191 -27]
 
-EVERYTHING	84.7 minutes
-EVERYTHING_P1	58.2 minutes
+EVERYTHING	86.4 minutes
+EVERYTHING_P1	53.1 minutes

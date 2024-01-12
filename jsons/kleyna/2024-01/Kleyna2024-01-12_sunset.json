@@ -130,17 +130,5 @@
   "epoch": 2000.00,
   "RA": "01:04:51.14",
   "dec": "-03:55:39.7"
- },
- {
-  "propid": "2023B-809270",
-  "proposer": "Kleyna",
-  "expType": "object",
-  "object": "FEa12",
-  "expTime": 50.00,
-  "filter": "r",
-  "count": 1,
-  "epoch": 2000.00,
-  "RA": "01:02:03.49",
-  "dec": "-02:16:06.1"
  }
 ]

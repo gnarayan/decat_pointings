@@ -43,23 +43,19 @@ LOCAL night MIDPOINT: 01/16/2024,   01:52:51
 
 !!! 01:52:51
 ### Block below Dec<=-30
-DEBASS/EVERYTHING/2024tt_P1 [14 -75] (3min)
-DEBASS/EVERYTHING/2023abjs_P1 [55 -34] (3min)
-DEBASS/EVERYTHING/2023aajf_P1 [65 -51] (3min)
 DEBASS/EVERYTHING/2024hl_P1 [88 -35] (3min)
-DEBASS/EVERYTHING/2024ql_P1 [88 -34] (3min) OPTIONAL
 Shen SCVZ [90 -66] 13 min 
 
 !!! 02:20
 YSE 257 [85 -25] 17 min             
 YSE 412 [116 -2] 17 min                     
 DEBASS/EVERYTHING/2024pi_P1 [118 15] (3min)
-DEBASS/EVERYTHING/2023aald_P2 [122 14] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023aald_P1 [122 14] (3min) 
 DEBASS/EVERYTHING/2024ev_P1 [124 21] (3min)
 
 !!! 03:03
 Cosmos [150 2] (34 min)
-### DEBASS/EVERYTHING/2023aait_P2 [147 -14] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023aait_P1 [147 -14] (2min)
 
 !!! 03:37
 YSE 2023xqm [159 -27] (3 min)            ### high priority, don't skip!

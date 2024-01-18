@@ -66,23 +66,23 @@ DEBASS/EVERYTHING/2023zbo_P1 [26 -17] (3min) OPTIonaL
 X123_moon.json [34, -4] 34 min  
 ### YSE 401 [37 0] 9 min                
 ### S12.json [42,0] 22 min
-DEBASS/EVERYTHING/2023zzi_P1 [43 16] (3min) OPTIonaL
+### DEBASS/EVERYTHING/2023zzi_P1 [43 16] (3min) OPTIonaL
 ### YSE 2023ver [57 0] (4 min)           
 DEBASS/EVERYTHING/2023acgf_P1 [56 -3] (3min)
 ### YSE 403 [50 -2] 8 min  
 
-!!! 23:38       		             
+!!! 23:35       		             
 DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min)
 DESIRT_50_g (50 -15) (13 min)
 
 
-!!! 00:40
+!!! 00:37
 C3 [52, -28] 11 min 
 DEBASS/EVERYTHING/2023abjs_P1 [55 -34] (3min)
 
-!!! 00:54
+!!! 00:51
 YSE 2023zaz [60 -26]  3 min
 ### YSE 253 [67, -26] 17 min            
 YSE 353 [63 -10] 8 min                   

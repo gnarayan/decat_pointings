@@ -2271,6 +2271,21 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2023fyq -d 240115 -e 50 -n 1 --sortbyra
 git add 240115
 git add 240115/*.json
 
+mkdir 20240118
+cp 20231226/20231226_obsplan.txt 20240118/20240118_obsplan.txt 
+subl 20240118/20240118_obsplan.txt
+git add 20240118/20240118_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  401  403  -d 240118 
+mkjson_yse_nofilterswitch.py  -f g,r    253   -d 240118 
+mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 240118 
+mkjson_yse_nofilterswitch.py  -f g,i   412   -d 240118 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240118 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240118 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i 2023fyq -d 240118 -e 50 -n 1 --sortbyra
+git add 240118
+git add 240118/*.json
+
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Jan24.txt

@@ -59,12 +59,12 @@ If not, please skip to next observable field, or wait if too difficult.
 !!! 22:28
 ### YSE 448 [16 3] (8 min)                   
 ### YSE 296 [17 -17] (8 min)    
-DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (3min)
+DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (2min)
 YSE 2023xzq [16 -9] (3 min)                
 E1E2.json [9 -45] (21 min)
 
 !!! 22:55
-DEBASS/EVERYTHING/2023zbo_P1 [26 -17] (3min) OPTIonaL
+DEBASS/EVERYTHING/2023zbo_P2 [26 -17] (2min) OPTIONAL
 X123_moon.json [34, -4] 34 min  
 ### YSE 401 [37 0] 9 min                
 ### S12.json [42,0] 22 min
@@ -82,23 +82,28 @@ DESIRT_50_g (50 -15) (13 min)
 
 !!! 00:37
 C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2023abjs_P1 [55 -34] (3min)
+DEBASS/EVERYTHING/2023abjs_P1 [55 -34] (2min)
 
 !!! 00:51
 YSE 2023zaz [60 -26]  3 min
 ### YSE 253 [67, -26] 17 min            
 YSE 353 [63 -10] 8 min                   
-### DEBASS/EVERYTHING/2023zjm_P2 [80 5] (3min) OPTIonaL
+DEBASS/EVERYTHING/2023zjm_P1 [80 5] (2min)
 YSE 257 [85 -25] 17 min             
-DEBASS/EVERYTHING/2024hl_P1 [88 -35] (3min)
+DEBASS/EVERYTHING/2024hl_P1 [88 -35] (2min)
+DEBASS/EVERYTHING/2024pi_P1 [118 15] (2min)
+DEBASS/EVERYTHING/2023aald_P1 [122 14] (2min)
+DEBASS/EVERYTHING/2024ev_P1 [124 21] (2min)
 
 !!! 01:23
 ### Block below Dec<=-30
-DEBASS/EVERYTHING/2023aajf_P2 [65 -51] (2min) OPTIONAL
 ### Shen SCVZ [90 -66] 13 min 
 etale.r.15min.json [160 -60] 15 min    
 ### etale.g.30min.json [160 -60] 30 min    
-DEBASS/EVERYTHING/2023zce_P2 [141 -30] (3min) OPTIonaL
+DEBASS/EVERYTHING/2023zce_P2 [141 -30] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023aait_P1 [147 -14] (2min) TRY TO SQUEEZE IN
+DEBASS/EVERYTHING/2023zax_P1 [145 7] (2min) TRY TO SQUEEZE IN
+DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (2min) TRY TO SQUEEZE IN
 
 
 ### 01:53:51 end observations

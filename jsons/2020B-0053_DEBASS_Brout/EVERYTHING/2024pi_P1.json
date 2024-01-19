@@ -40,19 +40,5 @@
         "comment": "2024pi",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 118.54242,
-        "dec": 15.42873,
-        "object": "2024pi_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2024pi",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

@@ -40,19 +40,5 @@
         "comment": "2023aaqu",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "g",
-        "exptime": 15.0,
-        "RA": 5.98238,
-        "dec": -52.15985,
-        "object": "2023aaqu_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2023aaqu",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.88
-UT -16 deg twilight: 2024-01-22T01:07:37.163 2024-01-22T08:41:52.850
-UT -15 deg twilight: 2024-01-22T01:02:00.030 2024-01-22T08:47:29.396
-UT -14 deg twilight: 2024-01-22T00:56:25.541 2024-01-22T08:53:02.767
-UT -12 deg twilight: 2024-01-22T00:45:27.426 2024-01-22T09:04:00.614
-UT -10 deg twilight: 2024-01-22T00:34:41.279 2024-01-22T09:14:47.559
-LOCAL -16 deg twilight: 01/21/2024,   22:07:37   05:41:52
-LOCAL -15 deg twilight: 01/21/2024,   22:02:00   05:47:29
-LOCAL -14 deg twilight: 01/21/2024,   21:56:25   05:53:02
-LOCAL -12 deg twilight: 01/21/2024,   21:45:27   06:04:00
-LOCAL -10 deg twilight: 01/21/2024,   21:34:41   06:14:47
-LOCAL night MIDPOINT: 01/22/2024,   01:54:45
+MOON ILLUMINATION: 0.98
+UT -16 deg twilight: 2024-01-27T01:04:26.663 2024-01-27T08:47:29.002
+UT -15 deg twilight: 2024-01-27T00:58:56.564 2024-01-27T08:53:00.024
+UT -14 deg twilight: 2024-01-27T00:53:28.535 2024-01-27T08:58:27.261
+UT -12 deg twilight: 2024-01-27T00:42:41.932 2024-01-27T09:09:13.670
+UT -10 deg twilight: 2024-01-27T00:32:05.490 2024-01-27T09:19:50.211
+LOCAL -16 deg twilight: 01/26/2024,   22:04:26   05:47:29
+LOCAL -15 deg twilight: 01/26/2024,   21:58:56   05:53:00
+LOCAL -14 deg twilight: 01/26/2024,   21:53:28   05:58:27
+LOCAL -12 deg twilight: 01/26/2024,   21:42:41   06:09:13
+LOCAL -10 deg twilight: 01/26/2024,   21:32:05   06:19:50
+LOCAL night MIDPOINT: 01/27/2024,   01:55:57
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -40,44 +40,50 @@ LOCAL night MIDPOINT: 01/22/2024,   01:54:45
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! 01:52:51
+!!! 01:55:57
 ### Block below Dec<=-30
 DEBASS/EVERYTHING/2024hl_P1 [88 -35] (2min)
 Shen SCVZ [90 -66] 13 min 
 
-!!! 02:20
-YSE 257 [85 -25] 17 min             
-YSE 412 [116 -2] 17 min                     
-
-!!! 03:03
-Cosmos [150 2] (34 min)
+!!! 02:12
+YSE 257 [85 -25] 25 min  
+GRB210114A  [119 -12]   10 min      
+YSE 412 [116 -2] 9 min                     
+### Cosmos [150 2] (34 min)
 DEBASS/EVERYTHING/2024apt_P1 [156 -2] (2min)
 DEBASS/EVERYTHING/2023aait_P1 [147 -14] (2min) 
 
-!!! 03:37
+!!! 03:00
+GRB181208A [113 -70]    8 min
+etale.i.15min.json [160 -60] 15 min    
+etale.z.15min.json [160 -60] 15 min    
 YSE 2023xqm [159 -27] (3 min)            ### high priority, don't skip!
-etale.r.15min.json [160 -60] 15 min    
 ### OMLApex.2401*.json [167 -25] (67 min)
-OMLApex.240115.json [167 -25] (53 min)
+### OMLApex.240115.json [167 -25] (53 min)
 
-!!! 04:49
-DESIRT_165_gr (165 -6) (30 min)
+!!! 03:41
+DESIRT_165_rz (165 -6) (35 min) ### skip exposures here if behind schedule!!!   
+
+!!! 04:19
 DEBASS/EVERYTHING/2024ahf_P1 [166 2] (2min)
-
-!!! 05:19
 ### skip exposures here if behind schedule!!!
-DESIRT_190_gr (190 6) (15 min) # skip exposures here if behind schedule!!!
+DESIRT_190_z (190 7) (23 min)
+DESIRT_190_r (190 7) (17 min)
 ### skip exposures here if behind schedule!!!
 
-!!! 05:34
+!!! 05:02
 DEBASS/EVERYTHING/2024gy_P1 [183 12] (2min) HIGH PRIROITY DO NOT SKIP
-### 2023fyq [186 12] 6 min              ### high priority, don't skip!
+2023fyq [186 12] 9 min              ### high priority, don't skip!
+
+!!! 05:13
+YSE525 [189 10] (33 min)
 DEBASS/EVERYTHING/2024atk_P1 [200 -15] (2min) HIGH PRIROITY DO NOT SKIP
 DEBASS/EVERYTHING/2024aoj_P1 [208 5] (2min) HIGH PRIROITY DO NOT SKIP
 DEBASS/EVERYTHING/2024jz_P1 [233 -2] (2min) HIGH PRIROITY DO NOT SKIP
-DESIRT_237_Jan15 (237 -35) (6 min) #HIGH PRIORITY
+DESIRT_237 (237 -35) (5 min)
 
-!!! 05:46:41 -14 deg twilight: slew to Asteroid fields!!!
+
+!!! 05:58:27 -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 

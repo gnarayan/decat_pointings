@@ -7,7 +7,7 @@ Created on Tue Apr 13 10:45:35 2021
 """
 import sys
 
-default_semester = '2023A'
+default_semester = '2024A'
 
 class semesterinfoclass:
     def __init__(self,semester=None):
@@ -312,6 +312,30 @@ class semesterinfoclass:
                 sum+=self.nights[k]
             print('total cumulative nights:',sum)
             #sys.exit(0)
+        elif semester=='2024A':
+            # main programs and assigned night hours
+
+            self.programlist = {
+                'YSE':75.0,
+                'Shen':20.0
+                }
+            # patterns to assign Objects 
+            self.program2fieldpattern = {
+                'Shen':      ['^SN\-C3','^S\-CVZ','SN\-X\d','^CO\d$'],
+                'YSE':       ['^\d\d\d\.\w+\.[abcde]','^YSE$','^\d\d\d\.\w+\.2021']
+                }
+            self.nights={
+                '20240215':1.0,
+                '20240315':1.0,
+                '20240415':1.0,
+                '20240515':1.0,
+                '20240615':1.0,
+                '20240715':1.0,
+                 }
+            sum=0.0
+            for k in self.nights:
+                sum+=self.nights[k]
+            print('total cumulative nights:',sum)
         else:
             raise RuntimeError('%s IS NOT A VALID SEMESTER! ' % semester)
         return(0)

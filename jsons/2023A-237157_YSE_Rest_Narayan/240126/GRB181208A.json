@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "GRB181208A",
+"filter": "g",
+"expTime": 120,
+"RA": "113.3567",
+"dec": "-70.0030",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "GRB181208A",
+"filter": "r",
+"expTime": 120,
+"RA": "113.3567",
+"dec": "-70.0030",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "GRB181208A",
+"filter": "i",
+"expTime": 120,
+"RA": "113.3567",
+"dec": "-70.0030",
+"propid": "2023A-237157"
+}
+]

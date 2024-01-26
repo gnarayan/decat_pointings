@@ -2302,6 +2302,26 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2023fyq -d 240121 -e 50 -n 1 --sortbyra
 git add 240121
 git add 240121/*.json
 
+mkdir 20240126
+cp 20231226/20231226_obsplan.txt 20240126/20240126_obsplan.txt 
+subl 20240126/20240126_obsplan.txt
+git add 20240126/20240126_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i  401    -d 240126 
+mkjson_yse_nofilterswitch.py  -f i,z    403  -d 240126 
+mkjson_yse_nofilterswitch.py  -f i,z    253    -d 240126 
+mkjson_yse_nofilterswitch.py  -f r,i,z   353 257  -d 240126 
+mkjson_yse_nofilterswitch.py  -f z   412   -d 240126 
+mkjson_yse_nofilterswitch.py  -f i,z   525   -d 240126 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240126 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240126 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z 2023fyq -d 240126 -e 100 -n 2 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z GRB210114A -d 240126 -e 60 -n 2 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i GRB181208A -d 240126 -e 120 -n 1 --sortbyra
+
+git add 240126
+git add 240126/*.json
+
 
 more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
 more /Users/arest/observing/decat_pointings/desirt/obsplan_Jan24.txt
@@ -2449,6 +2469,13 @@ YSE_pointings2fieldcenters.py --addSN  2023xzq 16.3449372     -8.9510968  -vv
 YSE_pointings2fieldcenters.py --addSN  2023xqm 158.6457917     -27.6509194  -vv
 
 YSE_pointings2fieldcenters.py --addSN  2023zaz 59.7309250     -26.0574417 -vv
+
+YSE_pointings2fieldcenters.py --addSN  GRB191016A      30.2695 24.5099 --over
+YSE_pointings2fieldcenters.py --addSN  GRB181208A      113.363 -70.090 --over
+YSE_pointings2fieldcenters.py --addSN  GRB210114A      118.792 -12.431 --over
+YSE_pointings2fieldcenters.py --addSN  GRB220310A      168.26  23.252 --over
+YSE_pointings2fieldcenters.py --addSN  GRB180807A      348.786 -45.328 --over
+
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
 

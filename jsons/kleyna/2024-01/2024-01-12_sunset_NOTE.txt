@@ -6,3 +6,5 @@ TOTAL TIME: 1.05 hours (63.0 minutes)
 
 Some fields may be at telescope pointing limit but should be observable
 If not, please skip to next observable field, or wait if too difficult.
+
+Keep repeating field (JSON FILE) until alloted time is up.

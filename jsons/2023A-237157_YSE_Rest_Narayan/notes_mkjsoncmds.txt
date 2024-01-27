@@ -2326,11 +2326,11 @@ mkdir 20240127
 cp 20231226/20231226_obsplan.txt 20240127/20240127_obsplan.txt 
 subl 20240127/20240127_obsplan.txt
 git add 20240127/20240127_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f g,i  401  403  -d 240127 
-mkjson_yse_nofilterswitch.py  -f g,i    253    -d 240127 
-mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 240127 
+mkjson_yse_nofilterswitch.py  -f r  401  403  -d 240127 
+mkjson_yse_nofilterswitch.py  -f g,r,i    253    -d 240127 
+mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 240127 
 mkjson_yse_nofilterswitch.py  -f i,z   412   -d 240127 
-mkjson_yse_nofilterswitch.py  -f i,z   525   -d 240127 
+mkjson_yse_nofilterswitch.py  -f z   525   -d 240127 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240127 -e 25 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240127 -e 5 -n 1 --sortbyra

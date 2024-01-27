@@ -47,6 +47,7 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 21:52:48
+kleyna/2024-01/Kleyna2024-01-XY_sunset.json 
 START UT 2024-01-28T00:51:48    at sun elevation -14.0
 END   UT 2024-01-28T01:39:48    at sun elevation -22.5
 TOTAL TIME: 0.80 hours (48.0 minutes) 

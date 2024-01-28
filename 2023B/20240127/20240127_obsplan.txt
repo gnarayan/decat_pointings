@@ -68,7 +68,7 @@ If not, please skip to next observable field, or wait if too difficult.
 DEBASS/EVERYTHING/2023zbo_P2 [26 -17] (3min)
 DEBASS/EVERYTHING/2024agf_P2 [31 1] (3min) 
 DEBASS/EVERYTHING/2023zzi_P1 [43 16] (3min)
-S12.json [42,0] 22 min
+S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min)
 DEBASS/EVERYTHING/2023acgf_P1 [56 -3] (3min)
 YSE 2023ver [57 0] (4 min)           

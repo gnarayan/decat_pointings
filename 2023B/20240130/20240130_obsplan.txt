@@ -59,18 +59,15 @@ If not, please skip to next observable field, or wait if too difficult.
 **** Repeat this script until 22:40, then go to the next block!!! ***
 
 !!! 22:41
-### DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (3min)
+DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (3min)
 ### YSE 2023xzq [16 -9] (3 min)                
-### DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (3min)
+DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (3min)
 ### E1E2.json [9 -45] (21 min)
 ### X123.json [34, -4] 34 min  
 ### YSE 401 [37 0] 17 min                
-DEBASS/EVERYTHING/2023zbo_P2 [26 -17] (3min)
-DEBASS/EVERYTHING/2024agf_P2 [31 1] (3min) 
-DEBASS/EVERYTHING/2023zzi_P1 [43 16] (3min)
+DEBASS/EVERYTHING/2024agf_P1 [31 1] (3min)
 S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min)
-DEBASS/EVERYTHING/2023acgf_P1 [56 -3] (3min)
 YSE 2023ver [57 0] (4 min)           
 YSE 403 [50 -2] 8 min  
 
@@ -79,7 +76,6 @@ DESIRT_50_g (50 -15) (13 min)
 DESIRT_50_r (50 -15) (15 min)
 DESIRT_50_z (50 -15) (20 min)
 C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2023abjs_P1 [55 -34] (3min)
 
 !!! 00:33
 YSE 353 [63 -10] 17 min                   
@@ -88,16 +84,15 @@ YSE 253 [67, -26] 25 min
 
 
 !!! 01:20
-DEBASS/EVERYTHING/2023zjm_P2 [80 5] (3min)    
 DEBASS/EVERYTHING/2024pi_P1 [118 15] (3min)
+DEBASS/EVERYTHING/2023aald_P2 [122 14] (3min)
+DEBASS/EVERYTHING/2024ev_P1 [124 21] (3min)
 YSE 412 [116 -2] 17 min                     
-DEBASS/EVERYTHING/2023yzu_P2 [81 -19] (3min) 
 YSE 257 [85 -25] 17 min             
 
 !!! 02:08
 ### Block below Dec<=-30
-DEBASS/EVERYTHING/2024hl_P2 [88 -35] (3min)     
-DEBASS/EVERYTHING/2023aajf_P1 [65 -51] (3min)
+DEBASS/EVERYTHING/2024hl_P1 [88 -35] (3min)
 Shen SCVZ [90 -66] 13 min 
 
 !!! 02:27
@@ -116,7 +111,7 @@ OMLApex.2401*.json [167 -25] (55 min)
 
 !!! 04:32
 DESIRT_165_gz (165 -6) (37 min)          ### skip g-band exposures here if behind schedule!!!
-DEBASS/EVERYTHING/2024gy_P1 [183 13] (3min) HIGH PRIORITY DONT SKIP
+DEBASS/EVERYTHING/2024gy_P3 [183 12] (3min) HIGH PRIORITY DONT SKIP
 
 !!! 05:12
 ### skip exposures here if behind schedule!!!
@@ -125,7 +120,7 @@ DESIRT_190_gr (190 6) (30 min) ### skip exposures here if behind schedule!!!
 
 !!! 05:42
 ### YSE 2023fyq [186 12] 6 min             
-DEBASS/EVERYTHING/2024aoj_P1 [208 5] (3min)
+DEBASS/EVERYTHING/2024aoj_P2 [208 5] (3min)
 DEBASS/EVERYTHING/2024jz_P1 [233 -2] (3min)
 DESIRT_237 (237 -35) (6 min)
 

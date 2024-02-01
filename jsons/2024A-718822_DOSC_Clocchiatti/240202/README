@@ -1,1 +1,5 @@
 jsons to observe on Feb 2, 2024
+
+Each json lasts 1800 secs (30 minutes)
+
+I request only the deep field since we have 1st half of night and region will be accesible just towards the end of the first half. Adding the shallow fields will put a lot of stress in sheduling.

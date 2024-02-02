@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 1.0,
         "RA": 183.07875,
         "dec": 12.85294,
         "object": "2024gy_P3",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 15.0,
+        "exptime": 1.0,
         "RA": 183.07875,
         "dec": 12.85294,
         "object": "2024gy_P3",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 15.0,
+        "exptime": 1.0,
         "RA": 183.07875,
         "dec": 12.85294,
         "object": "2024gy_P3",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 15.0,
+        "exptime": 2.0,
         "RA": 183.07875,
         "dec": 12.85294,
         "object": "2024gy_P3",

@@ -83,7 +83,7 @@ DEBASS/EVERYTHING/2024hl_P1 [88 -35] (3min)
 DEBASS/EVERYTHING/2024bha_P1 [83 -38] (3min)
 Shen SCVZ [90 -66] 13 min 
 etale.i.15min.json [160 -60] 15 min    
-etale.z.15min.json [160 -60] 15 min    
+etale.z.15min.json [160 -60] 15 min       ### skip exposures here if behind schedule 
 ### etale.g.30min.json [160 -60] 30 min    
 ### DECaPSWest A+B [116 -26] 30 min
 DEBASS/EVERYTHING/2023aald_P2 [122 14] (3min) OPTIONAL
@@ -103,7 +103,7 @@ DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
 DEBASS/EVERYTHING/2024ahf_P1 [166 2] (3min)
 
 !!! 04:50
-2023fyq [186 12] 6 min              ### high priority, don't skip!
+YSE 2023fyq [186 12] 6 min             
 YSE525 [189 10] (34 min)
 
 !!! 05:29

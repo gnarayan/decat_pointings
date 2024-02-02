@@ -3,26 +3,6 @@
 "count": 1,
 "expType": "object",
 "object": "2023fyq",
-"filter": "i",
-"expTime": 100,
-"RA": "186.4389",
-"dec": "12.7505",
-"propid": "2023A-237157"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2023fyq",
-"filter": "i",
-"expTime": 100,
-"deltaDEC": "S60.000000",
-"deltaRA": "E60.000000",
-"propid": "2023A-237157"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2023fyq",
 "filter": "z",
 "expTime": 100,
 "RA": "186.4389",
@@ -37,6 +17,16 @@
 "expTime": 100,
 "deltaDEC": "S60.000000",
 "deltaRA": "E60.000000",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023fyq",
+"filter": "z",
+"expTime": 100,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
 "propid": "2023A-237157"
 }
 ]

@@ -2363,15 +2363,15 @@ mkdir 20240202
 cp 20231226/20231226_obsplan.txt 20240202/20240202_obsplan.txt 
 subl 20240202/20240202_obsplan.txt
 git add 20240202/20240202_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f g,i  401  403  -d 240202 
-mkjson_yse_nofilterswitch.py  -f g,i    253    -d 240202 
-mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 240202 
-mkjson_yse_nofilterswitch.py  -f r,i   412   -d 240202 
-mkjson_yse_nofilterswitch.py  -f z   525   -d 240202 
+mkjson_yse_nofilterswitch.py  -f g,r  401  403  -d 240202 
+mkjson_yse_nofilterswitch.py  -f g,r    253    -d 240202 
+mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 240202 
+mkjson_yse_nofilterswitch.py  -f g,r   412   -d 240202 
+mkjson_yse_nofilterswitch.py  -f r,i   525   -d 240202 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240202 -e 25 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240202 -e 5 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f i,z 2023fyq -d 240202 -e 100 -n 2 --sortbyra
+mkjson_yse_nofilterswitch.py  -f z 2023fyq -d 240202 -e 100 -n 3 --sortbyra
 mkjson_yse_nofilterswitch.py  -f r,i,z GRB210114A -d 240202 -e 60 -n 2 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i GRB181208A -d 240202 -e 120 -n 1 --sortbyra
 git add 240202

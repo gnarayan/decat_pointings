@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.75
-UT -16 deg twilight: 2024-01-31T01:01:26.496 2024-01-31T08:51:57.834
-UT -15 deg twilight: 2024-01-31T00:55:59.911 2024-01-31T08:57:23.813
-UT -14 deg twilight: 2024-01-31T00:50:38.031 2024-01-31T09:02:46.987
-UT -12 deg twilight: 2024-01-31T00:40:00.211 2024-01-31T09:13:24.566
-UT -10 deg twilight: 2024-01-31T00:29:31.779 2024-01-31T09:23:52.523
-LOCAL -16 deg twilight: 01/30/2024,   22:01:26   05:51:57
-LOCAL -15 deg twilight: 01/30/2024,   21:55:59   05:57:23
-LOCAL -14 deg twilight: 01/30/2024,   21:50:38   06:02:46
-LOCAL -12 deg twilight: 01/30/2024,   21:40:00   06:13:24
-LOCAL -10 deg twilight: 01/30/2024,   21:29:31   06:23:52
-LOCAL night MIDPOINT: 01/31/2024,   01:56:42
+MOON ILLUMINATION: 0.47
+UT -16 deg twilight: 2024-02-03T00:58:55.400 2024-02-03T08:55:18.425
+UT -15 deg twilight: 2024-02-03T00:53:33.299 2024-02-03T09:00:40.093
+UT -14 deg twilight: 2024-02-03T00:48:14.258 2024-02-03T09:05:59.213
+UT -12 deg twilight: 2024-02-03T00:37:43.093 2024-02-03T09:16:30.341
+UT -10 deg twilight: 2024-02-03T00:27:20.731 2024-02-03T09:26:52.822
+LOCAL -16 deg twilight: 02/02/2024,   21:58:55   05:55:18
+LOCAL -15 deg twilight: 02/02/2024,   21:53:33   06:00:40
+LOCAL -14 deg twilight: 02/02/2024,   21:48:14   06:05:59
+LOCAL -12 deg twilight: 02/02/2024,   21:37:43   06:16:30
+LOCAL -10 deg twilight: 02/02/2024,   21:27:20   06:26:52
+LOCAL night MIDPOINT: 02/03/2024,   01:57:06
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -46,35 +46,25 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 21:50:38
-kleyna/2024-01/Kleyna2024-01-XY_sunset.json 
-START UT 2024-01-31T00:49:36    at sun elevation -14.0
-END   UT 2024-01-31T01:37:36    at sun elevation -22.6
-TOTAL TIME: 0.80 hours (48.0 minutes) 
-PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
-Some fields may be at telescope pointing limit but should be observable
-If not, please skip to next observable field, or wait if too difficult.
-**** Repeat this script until 22:39, then go to the next block!!! ***
-
-!!! 22:39
+!!! 21:48:14
 DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (3min)
-### YSE 2023xzq [16 -9] (3 min)                
-### E1E2.json [9 -45] (21 min)
-### X123.json [34, -4] 34 min  
-### YSE 401 [37 0] 17 min                
+2023A-643849_EtaCar_Rest/smc.json [13 -73] (13 min)
+
+!!! 22:05
 DEBASS/EVERYTHING/2024agf_P1 [31 1] (3min)
+X123.json [34, -4] 34 min 
+
+!!! 22:42 
+### YSE 401 [37 0] 17 min                
 S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min)
 YSE 2023ver [57 0] (4 min)           
 YSE 403 [50 -2] 17 min  
 
-!!! 23:26       		             
-DESIRT_50_g (50 -15) (13 min)
-DESIRT_50_r (50 -15) (15 min)
-DESIRT_50_z (50 -15) (20 min)   ### Cut off DESIRT50 at 00:15, otherwise airmass is getting too high!!
+!!! 23:30       		             
 C3 [52, -28] 11 min 
 
-!!! 00:26
+!!! 23:41
 YSE 353 [63 -10] 17 min                   
 YSE 2023zaz [60 -26]  3 min
 YSE 253 [67, -26] 17 min            
@@ -82,22 +72,47 @@ DEBASS/EVERYTHING/2024axd_P1 [74 -11] (3min)
 DEBASS/EVERYTHING/2024bhi_P1 [120 -13] (3min)
 
 
-!!! 01:04
+!!! 00:23
 DEBASS/EVERYTHING/2024pi_P1 [118 15] (3min)
 YSE 412 [116 -2] 17 min                     
 YSE 257 [85 -25] 17 min             
 
-!!! 01:47
+!!! 01:00
 ### Block below Dec<=-30
 DEBASS/EVERYTHING/2024hl_P1 [88 -35] (3min)
 DEBASS/EVERYTHING/2024bha_P1 [83 -38] (3min)
-2023A-643849_EtaCar_Rest/lmc.40min.json [79 -69] (40 min)
 Shen SCVZ [90 -66] 13 min 
-
+etale.i.15min.json [160 -60] 15 min    
+etale.z.15min.json [160 -60] 15 min    
+### etale.g.30min.json [160 -60] 30 min    
+### DECaPSWest A+B [116 -26] 30 min
 DEBASS/EVERYTHING/2023aald_P2 [122 14] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024ev_P2 [124 21] (3min) OPTIONAL
 DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (3min)
-DEBASS/EVERYTHING/2023aait_P2 [147 -14] (3min) OPTIONAL
+
+!!! 02:00
+2023A-716082_DDF_Nir/cosmos_ddf_seq_A, +B, +C [150 2] 1.5h  
+### Cosmos [150 2] (34 min)
+DEBASS/EVERYTHING/2023aait_P2 [147 -14] (3min) 
+YSE 2023xqm [159 -27] (3 min)            ### high priority, don't skip!
+
+!!! 03:38        
+DOSC OMLApex.240????.json [167 -25] (53 min)
+DOSC OMLApex.240????_x_i.json [167 -25] (13 min)
 DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
 DEBASS/EVERYTHING/2024ahf_P1 [166 2] (3min)
 
+!!! 04:50
+2023fyq [186 12] 6 min              ### high priority, don't skip!
+YSE525 [189 10] (34 min)
+
+!!! 05:29
+DOSC ShallowApex.24????.json [213 -34] (36 min)
+
+
+!!! 06:05:59
+!!! just finish the last exposure that fits into the time of the block, and slew
+!!! to the asteroid fields in time! Otherwise the images will be useless
+!!! 06:02:46 -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard

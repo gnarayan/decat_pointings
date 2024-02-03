@@ -110,7 +110,7 @@ YSE525 [189 10] (34 min)
 DOSC ShallowApex.24????.json [213 -34] (36 min)
 ### !!! Do not go over the end time of this block, make sure that you start the twilight Asteroid block in time!!!
 
-!!! 06:05:59
+!!! 06:05:59 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

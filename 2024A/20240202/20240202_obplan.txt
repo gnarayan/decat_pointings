@@ -108,11 +108,11 @@ YSE525 [189 10] (34 min)
 
 !!! 05:29
 DOSC ShallowApex.24????.json [213 -34] (36 min)
-
+### !!! Do not go over the end time of this block, make sure that you start the twilight Asteroid block in time!!!
 
 !!! 06:05:59
-!!! just finish the last exposure that fits into the time of the block, and slew
-!!! to the asteroid fields in time! Otherwise the images will be useless
-!!! 06:02:46 -14 deg twilight: slew to Asteroid fields!!!
+### just finish the last exposure that fits into the time of the previous block, and slew
+### to the asteroid fields in time! Otherwise the images will be useless
+### 06:02:46 -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard

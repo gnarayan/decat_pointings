@@ -113,6 +113,6 @@ DOSC ShallowApex.24????.json [213 -34] (36 min)
 !!! 06:05:59
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
-### 06:02:46 -14 deg twilight: slew to Asteroid fields!!!
+### At -14 deg twilight: slew to Asteroid fields!!!
 using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard

@@ -74,9 +74,9 @@ DOSC ShallowApex.24????.json [213 -34] (36 min)     #### Cut exposures here if b
 YSE 525 [189 10] (34 min)                           #### Cut exposures here if behind!
 
 !!! 06:09:10  -14 deg twilight
+DEBASS/EVERYTHING/2024gy_P1 [183 13] (3min) HIGH PRIORITY DONT SKIP
 YSE 2023fyq [186 12] 8 min             
 DEBASS/EVERYTHING/2024jz_P1 [233 -2] (2min)
-DEBASS/EVERYTHING/2024gy_P1 [183 13] (3min) HIGH PRIORITY DONT SKIP
 
 
 -------------------

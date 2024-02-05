@@ -2377,6 +2377,25 @@ mkjson_yse_nofilterswitch.py  -f g,r,i GRB181208A -d 240202 -e 120 -n 1 --sortby
 git add 240202
 git add 240202/*.json
 
+mkdir 20240205
+cp 20231226/20231226_obsplan.txt 20240205/20240205_obsplan.txt 
+subl 20240205/20240205_obsplan.txt
+git add 20240205/20240205_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  401  403  -d 240205 
+mkjson_yse_nofilterswitch.py  -f g,r    253    -d 240205 
+mkjson_yse_nofilterswitch.py  -f i   353 257  -d 240205 
+mkjson_yse_nofilterswitch.py  -f r   412   -d 240205 
+mkjson_yse_nofilterswitch.py  -f g,r   525   -d 240205 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240205 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240205 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240205 -e 70 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z GRB210114A -d 240205 -e 60 -n 2 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i GRB181208A -d 240205 -e 120 -n 1 --sortbyra
+git add 240205
+git add 240205/*.json
+
+
 mv OMLApex.240112.json    OMLApex.240202.json       
 mv OMLApex.240112_x_i.json  OMLApex.240202_x_i.json 
 mv ShallowApex.240112.json ShallowApex.240202.json

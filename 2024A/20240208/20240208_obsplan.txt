@@ -51,17 +51,17 @@ Script will finish on its own or at -14 deg twilight.
 DEBASS/EVERYTHING/2024agf_P1 [31 1] (3min)
 X123.json [34, -4] 34 min 
 
-!!! 22:55 
+!!! 22:20 
 YSE 401 [37 0] 17 min                
 S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min)
 YSE 403 [50 -2] 8 min  
 DEBASS/EVERYTHING/2023acgf_P1 [56 -3] (3min)
 
-!!! 23:49      		             
+!!! 23:13     		             
 C3 [52, -28] 11 min 
 
-!!! 00:00
+!!! 23:24
 YSE 353 [63 -10] 17 min                   
 ### YSE 2023zaz [60 -26]  3 min
 YSE 253 [67, -26] 17 min            
@@ -69,14 +69,14 @@ DEBASS/EVERYTHING/2024axd_P2 [74 -11] (3min)
 DEBASS/EVERYTHING/2024bhi_P1 [120 -13] (3min)
 
 
-!!! 00:43
+!!! 00:08
 DEBASS/EVERYTHING/2024pi_P2 [118 15] (3min) 
 YSE 412 [116 -2] 17 min                     
 YSE GRB210114A  [119 -12]   6 min
 DECaPSWest A+B [116 -26] 30 min
 YSE 257 [85 -25] 17 min             
 
-!!! 01:55
+!!! 01:21
 ### Block below Dec<=-30
 DEBASS/EVERYTHING/2024hl_P3 [88 -35] (3min)
 DEBASS/EVERYTHING/2024bha_P1 [83 -38] (3min)
@@ -87,24 +87,24 @@ etale.g.30min.json [160 -60] 30 min
 DEBASS/EVERYTHING/2024ev_P1 [124 21] (3min)
 DEBASS/EVERYTHING/2023zax_P2 [145 7] (3min) OPTIONAL
 
-!!! 02:55
+!!! 02:16
 ### 2023A-716082_DDF_Nir/cosmos_ddf_seq_A, +B, +C [150 2] 1.5h  
 2022A-499674_Shen/COSMOS.json [150 2] (34 min)
 
-!!! 03:35       
+!!! 02:50      
 DOSC OMLApex.240????.json [167 -25] (53 min)
 DOSC OMLApex.240????_x_i.json [167 -25] (13 min)
 DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
 DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
 YSE GRB220310A [168  23] (8 min)
 
-!!! 04:55
+!!! 04:10
 YSE 2023fyq [186 12] 6 min             
 YSE 525 [189 10] (34 min)
 DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
 DEBASS/EVERYTHING/2024jz_P1 [233 -2] (3min)
 
-!!! 05:35
+!!! 04:55
 DOSC ShallowApex.24????.json [213 -34] (36 min)
 2024A-496962_DEFSuS_Newman_Penny/defsus_main_feb_30m00s.json  ### Do whatever you can from this block!!!
 ### !!! Do not go over the end time of this block, make sure that you start the twilight Asteroid block in time!!!

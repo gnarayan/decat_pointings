@@ -2395,6 +2395,26 @@ mkjson_yse_nofilterswitch.py  -f g,r,i GRB181208A -d 240205 -e 120 -n 1 --sortby
 git add 240205
 git add 240205/*.json
 
+mkdir 20240208
+cp 20240202/20240202_obplan.txt 20240208/20240208_obsplan.txt 
+subl 20240208/20240208_obsplan.txt
+git add 20240208/20240208_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  401    -d 240208 
+mkjson_yse_nofilterswitch.py  -f i    403  -d 240208 
+mkjson_yse_nofilterswitch.py  -f g,i    253    -d 240208 
+mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 240208 
+mkjson_yse_nofilterswitch.py  -f g,i   412   -d 240208 
+mkjson_yse_nofilterswitch.py  -f g,i   525   -d 240208 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240208 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240208 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240208 -e 30 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r GRB210114A -d 240208 -e 120 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i GRB181208A -d 240208 -e 120 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i GRB220310A -d 240208 -e 120 -n 1 --sortbyra
+git add 240208
+git add 240208/*.json
+
 
 mv OMLApex.240112.json    OMLApex.240202.json       
 mv OMLApex.240112_x_i.json  OMLApex.240202_x_i.json 
@@ -2554,7 +2574,7 @@ YSE_pointings2fieldcenters.py --addSN  GRB210114A      118.792 -12.431 --over
 YSE_pointings2fieldcenters.py --addSN  GRB220310A      168.26  23.252 --over
 YSE_pointings2fieldcenters.py --addSN  GRB180807A      348.786 -45.328 --over
 
-
+YSE_pointings2fieldcenters.py --addSN  2024axd 75.0508625     -11.3478667 --over
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
 

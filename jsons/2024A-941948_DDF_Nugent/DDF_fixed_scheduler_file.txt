@@ -8,7 +8,6 @@
 2024-02-11 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-02-14 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
 2024-02-14 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
-2024-02-14 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-02-17 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-02-17 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-02-17 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
@@ -55,7 +54,6 @@
 2024-04-05 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-04-08 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
 2024-04-08 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
-2024-04-08 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-04-11 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-04-11 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-04-11 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
@@ -68,11 +66,13 @@
 2024-04-14 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-04-17 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-04-17 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
-2024-04-18 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
+2024-04-17 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
 2024-04-18 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
 2024-04-18 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-04-20 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-04-20 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
+2024-04-20 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
+2024-04-20 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
 2024-04-23 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-04-23 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-04-23 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
@@ -80,6 +80,9 @@
 2024-04-23 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-04-26 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-04-26 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
+2024-04-26 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
+2024-04-26 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
+2024-04-26 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-04-29 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-04-29 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-04-29 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
@@ -89,7 +92,6 @@
 2024-05-02 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-05-02 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
 2024-05-02 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
-2024-05-02 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-05-05 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-05-05 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-05-05 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
@@ -104,7 +106,6 @@
 2024-05-11 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-05-11 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
 2024-05-11 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
-2024-05-11 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-05-14 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-05-14 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-05-14 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
@@ -112,11 +113,13 @@
 2024-05-14 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-05-17 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-05-17 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
-2024-05-18 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
+2024-05-17 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
 2024-05-18 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
 2024-05-18 COSMOS-DDF-SEQ-C 150.78 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_C.json 
 2024-05-19 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-05-19 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
+2024-05-19 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
+2024-05-19 COSMOS-DDF-SEQ-B 149.22 +1.75    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_B.json 
 2024-05-29 DECaPSWest-DDF-A 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_A.json 
 2024-05-29 DECaPSWest-DDF-B 116.32 -26.25   0.27 h 1.2 1.5 1.6 decapswest_ddf_B.json 
 2024-05-29 COSMOS-DDF-SEQ-A 150.00 +3.10    0.50 h 1.2 1.5 1.6 cosmos_ddf_seq_A.json 
@@ -167,10 +170,8 @@
 2024-07-13 ELAIS-DDF-SEQ-A  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
 2024-07-13 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
 2024-07-14 ELAIS-DDF-SEQ-A  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
-2024-07-14 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
 2024-07-15 DECaPSEast-DDF-A 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_A.json 
 2024-07-15 DECaPSEast-DDF-B 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_B.json 
-2024-07-15 ELAIS-DDF-SEQ-A  7.8746 -43.0096 0.50 h 1.2 1.5 1.6 elais_ddf_seq_A.json 
 2024-07-15 ELAIS-DDF-SEQ-B  9.5000 -43.9980 0.50 h 1.2 1.5 1.6 elais_ddf_seq_B.json 
 2024-07-16 DECaPSEast-DDF-A 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_A.json 
 2024-07-16 DECaPSEast-DDF-B 270.89 -29.53   0.27 h 1.2 1.5 1.6 decapseast_ddf_B.json 

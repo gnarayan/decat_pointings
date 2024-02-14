@@ -2432,14 +2432,30 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240211 -e 30 -n 1 --sortbyra
 git add 240211
 git add 240211/*.json
 
+mkdir 20240214
+cp 20240208/20240208_obsplan.txt 20240214/20240214_obsplan.txt 
+subl 20240214/20240214_obsplan.txt
+git add 20240214/20240214_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i  401    -d 240214 
+mkjson_yse_nofilterswitch.py  -f r,i    403  -d 240214 
+mkjson_yse_nofilterswitch.py  -f g,r    253    -d 240214 
+mkjson_yse_nofilterswitch.py  -f g   353 257  -d 240214 
+mkjson_yse_nofilterswitch.py  -f g,i   412   -d 240214 
+mkjson_yse_nofilterswitch.py  -f g,r   525   -d 240214 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240214 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240214 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240214 -e 30 -n 1 --sortbyra
+git add 240214
+git add 240214/*.json
+
 
 mv OMLApex.240112.json    OMLApex.240202.json       
 mv OMLApex.240112_x_i.json  OMLApex.240202_x_i.json 
 mv ShallowApex.240112.json ShallowApex.240202.json
 
 
-more /Users/arest/observing/decat_pointings/jsons/2023A-716082_DDF_Nir/DDF_fixed_scheduler_file.txt 
-more /Users/arest/observing/decat_pointings/desirt/obsplan_Jan24.txt
+more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
 
 mkjson_yse_nofilterswitch.py  -f g,i    583 531 -d 230420 --outsuffix two_filters
 mkjson_dosc.py -f g,r,i OMLApex -d 230420 -n 2 -e 200,400,360 --d1 E5 N3 --d2 W7 S7

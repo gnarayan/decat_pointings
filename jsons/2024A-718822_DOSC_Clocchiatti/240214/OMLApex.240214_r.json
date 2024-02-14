@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 400,
+"RA": "166.6800",
+"dec": "-24.9800",
+"propid": "2023B-489953"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 400,
+"deltaDEC": "S5",
+"deltaRA": "W5",
+"propid": "2023B-489953"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 400,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
+"propid": "2023B-489953"
+}
+]

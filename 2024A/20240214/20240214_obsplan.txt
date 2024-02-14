@@ -63,17 +63,17 @@ DEBASS/EVERYTHING/2023zax_P2 [145 7] (3min) OPTIONAL
 
 !!! 03:54      
 DOSC OMLApex.240214_r.json [167 -25] (21 min)
+DOSC OMLApex.240214_i.json [167 -25] (26min)
 DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
 DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
 
-!!! 04:21
+!!! 04:47
 ### YSE 2023fyq [186 12] 6 min             
 YSE 525 [189 10] (34 min)
 DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
 DEBASS/EVERYTHING/2024jz_P1 [233 -2] (3min)
 
-!!! 05:01
-DOSC OMLApex.240214_i.json [167 -25] (26min)
+!!! 05:27
 DOSC ShallowApex.240214.json [213 -34] (14 min)
 2024A-496962_DEFSuS_Newman_Penny/defsus_main_feb_30m00s.json  ### Do whatever you can from this block!!!
 ### !!! Do not go over the end time of this block, make sure that you start the twilight Asteroid block in time!!!

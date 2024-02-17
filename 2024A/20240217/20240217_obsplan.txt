@@ -48,14 +48,13 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 21:33:35
 ### 2023A-643849_EtaCar_Rest/smc.json [13 -73] (13 min)
-DEBASS/EVERYTHING/2024agf_P1 [31 1] (3min)
+DEBASS/EVERYTHING/2024agf_P1 [31 1] (3min) 
 YSE 401 [37 0] 17 min                
 S1S2.json [42,0] 22 min
 
 !!! 22:17
-DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min)
+DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min) 
 YSE 403 [50 -2] 17 min  
-DEBASS/EVERYTHING/2023acgf_P1 [56 -3] (3min)
 
 !!! 22:41     		             
 C3 [52, -28] 11 min 
@@ -64,42 +63,40 @@ C3 [52, -28] 11 min
 YSE 353 [63 -10] 17 min                   
 ### YSE 2023zaz [60 -26]  3 min
 YSE 253 [67, -26] 17 min            
-DEBASS/EVERYTHING/2024axd_P2 [74 -11] (3min) 
-DEBASS/EVERYTHING/2024bhi_P1 [120 -13] (3min)
+DEBASS/EVERYTHING/2024axd_P1 [74 -11] (3min) 
+DEBASS/EVERYTHING/2024bhi_P1 [120 -13] (3min) 
 
 
 !!! 23:33
-DEBASS/EVERYTHING/2024pi_P2 [118 15] (3min) 
 YSE 412 [116 -2] 17 min                     
 DECaPSWest A+B [116 -26] 30 min
 YSE 257 [85 -25] 17 min             
 
 !!! 00:41
 ### Block below Dec<=-30
-DEBASS/EVERYTHING/2024hl_P3 [88 -35] (3min)
-DEBASS/EVERYTHING/2024bha_P1 [83 -38] (3min)
+DEBASS/EVERYTHING/2024hl_P2 [88 -35] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024bha_P1 [83 -38] (3min) 
 Shen SCVZ [90 -66] 13 min 
 ### etale.i.15min.json [160 -60] 15 min    
 ### etale.z.15min.json [160 -60] 15 min       
 etale.g.30min.json [160 -60] 30 min       
-
-!!! 01:31
-DEBASS/EVERYTHING/2024ev_P1 [124 21] (3min)
-DEBASS/EVERYTHING/2023zax_P2 [145 7] (3min) OPTIONAL
 
 !!! 01:38
 2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B, +C [150 2] 1.5h   
 
 !!! 03:10     
 DOSC OMLApex.240*.json [167 -25] (67 min)
+DEBASS/EVERYTHING/2024ctl_P2 [154 -17] (3min) SKIP IF NECESSARY
 DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
+DEBASS/EVERYTHING/2024cvb_P1 [153 -2] (3min) 
 DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
 
 !!! 04:23
 ### YSE 2023fyq [186 12] 6 min             
+DEBASS/EVERYTHING/2024gy_P1 [183 12] (3min) 
 YSE 525 [189 10] (34 min)
 DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
-DEBASS/EVERYTHING/2024jz_P1 [233 -2] (3min)
+DEBASS/EVERYTHING/2024jz_P2 [233 -2] (3min) OPTIONAL
 
 !!! 05:05
 DOSC ShallowApex.24????.json [213 -34] (45 min)

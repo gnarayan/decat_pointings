@@ -2466,6 +2466,23 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240217 -e 30 -n 1 --sortbyra
 git add 240217
 git add 240217/*.json
 
+mkdir 20240220
+cp 20240217/20240217_obsplan.txt 20240220/20240220_obsplan.txt 
+subl 20240220/20240220_obsplan.txt
+git add 20240220/20240220_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g  401    -d 240220 
+mkjson_yse_nofilterswitch.py  -f r,i    403  -d 240220 
+mkjson_yse_nofilterswitch.py  -f r,i    253  257  -d 240220 
+mkjson_yse_nofilterswitch.py  -f r,i   353   -d 240220 
+mkjson_yse_nofilterswitch.py  -f i,z   412   -d 240220 
+mkjson_yse_nofilterswitch.py  -f r,i,z   525   -d 240220 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240220 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240220 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240220 -e 30 -n 1 --sortbyra
+git add 240220
+git add 240220/*.json
+
 
 mv OMLApex.240112.json    OMLApex.240202.json       
 mv OMLApex.240112_x_i.json  OMLApex.240202_x_i.json 

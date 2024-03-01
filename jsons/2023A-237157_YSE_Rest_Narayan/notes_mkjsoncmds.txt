@@ -2498,6 +2498,7 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240229 -e 5 -n 1 --sortbyr
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240229 -e 30 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f i,z  2023ftr 2020jfo 2023clx 2021foa 2020acct -d 240229 -e 100 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022aajn -d 240229 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z 2023exu 2023fot 2023bu 2023da 2023bee 2023nj 2023ggg 2023hro 2023huy -d 240229 -e 100 -n 1 --sortbyra
 git add 240229
 git add 240229/*.json
 

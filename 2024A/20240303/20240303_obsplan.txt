@@ -48,13 +48,13 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 21:15:06
 kleyna/2024-03/Kleyna2024-03-03_sunset.json
-!!! Repeat this json file for 0.8 hours until 22:04
+!!! *** Repeat this json file for 0.8 hours until 22:04 ***
 
 
 ###!!! 21:15:53
 ### 2023A-643849_EtaCar_Rest/smc.json [13 -73] (13 min)
-DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min) 
-YSE 403 [50 -2] 17 min  
+### DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min) 
+### YSE 403 [50 -2] 17 min  
 
 ###!!! 21:37     		             
 ###C3 [52, -28] 11 min 

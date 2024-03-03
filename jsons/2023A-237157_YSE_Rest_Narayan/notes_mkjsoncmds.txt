@@ -2490,8 +2490,9 @@ git add 20240229/20240229_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f g,r    403  -d 240229 
 mkjson_yse_nofilterswitch.py  -f g,r    253  257  -d 240229 
 mkjson_yse_nofilterswitch.py  -f g,r   353   -d 240229 
-mkjson_yse_nofilterswitch.py  -f g,r   412   -d 240229 
+mkjson_yse_nofilterswitch.py  -f g,r,i   412   -d 240229 
 mkjson_yse_nofilterswitch.py  -f i,z   525   -d 240229 
+mkjson_yse_nofilterswitch.py  -f i,z   428 376 531  -d 240229 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240229 -e 25 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240229 -e 5 -n 1 --sortbyra
@@ -2501,6 +2502,28 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022aajn -d 240229 -e 100 -n 1 --sortby
 mkjson_yse_nofilterswitch.py  -f i,z 2023exu 2023fot 2023bu 2023da 2023bee 2023nj 2023ggg 2023hro 2023huy -d 240229 -e 100 -n 1 --sortbyra
 git add 240229
 git add 240229/*.json
+
+mkdir 20240303
+cp 20240229/20240229_obsplan.txt 20240303/20240303_obsplan.txt 
+subl 20240303/20240303_obsplan.txt
+git add 20240303/20240303_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i    403  -d 240303 
+mkjson_yse_nofilterswitch.py  -f g,i    253  257  -d 240303 
+mkjson_yse_nofilterswitch.py  -f g,i   353   -d 240303 
+mkjson_yse_nofilterswitch.py  -f g,i   412   -d 240303 
+mkjson_yse_nofilterswitch.py  -f r,i   525   -d 240303 
+mkjson_yse_nofilterswitch.py  -f i,z   428 376 531  -d 240303 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240303 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240303 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240303 -e 30 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023ftr 2020jfo 2023clx 2021foa 2020acct -d 240303 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022aajn -d 240303 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z 2023exu 2023fot 2023bu 2023da 2023bee 2023nj 2023ggg 2023hro 2023huy -d 240303 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r 2023ftr 2023bee 2023nj 2023exu -d 240303 -e 100 -n 1 --sortbyra
+git add 240303
+git add 240303/*.json
+
 
 Top Priority (people already working on them):
 -----------------------------------------
@@ -2524,7 +2547,21 @@ Event    RA         Dec
 2023hro  190.94199  -20.07124
 2023huy  198.95939  -16.11808
 
+428 15:13:50.16 -03:47:06.46
+376 14:55:35.61 -08:26:31.70
+531 15:22:38.09 +10:12:00.00
 
+
+632 16:08:49.89 +24:36:00.00
+428 15:13:50.16 -03:47:06.46
+376 14:55:35.61 -08:26:31.70
+531 15:22:38.09 +10:12:00.00
+679 16:32:13.22 +32:13:20.45
+and on PS2:
+722P2 16:07:51.37 +38:56:43.23
+681P2 17:08:43.58 +31:45:54.34
+585P2 16:43:48.87 +17:23:10.50
+484P2 17:20:23.10 +02:41:21.67
 
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
 

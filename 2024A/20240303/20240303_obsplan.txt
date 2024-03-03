@@ -47,28 +47,28 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 21:15:53
-### 2023A-643849_EtaCar_Rest/smc.json [13 -73] (13 min)
-DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min) 
-YSE 403 [50 -2] 17 min  
+kleyna/2024-03   (30 min)
+### DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min) 
+### YSE 403 [50 -2] 17 min  
 
-!!! 21:37     		             
+!!! 21:46     		             
 C3 [52, -28] 11 min 
 YSE 353 [63 -10] 17 min                   
 
-!!! 22:05
+!!! 22:14
 ### YSE 2023zaz [60 -26]  3 min
 YSE 253 [67, -26] 17 min            
 DEBASS/EVERYTHING/2024axd_P1 [74 -11] (3min) 
 
 
-!!! 22:25
+!!! 22:34
 ### YSE 2022aajn [107 21] 9 min
 YSE 412 [116 -2] 17 min                     
 DEBASS/EVERYTHING/2024bhi_P1 [120 -13] (3min) 
 DECaPSWest A+B [116 -26] 30 min
 YSE 257 [85 -25] 17 min             
 
-!!! 23:32
+!!! 23:42
 ### Block below Dec<=-30
 DEBASS/EVERYTHING/2024hl_P2 [88 -35] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024bha_P1 [83 -38] (3min) 
@@ -77,23 +77,23 @@ etale.g.30min.json [160 -60] 30 min
 etale.i.15min.json [160 -60] 15 min    
 ### etale.r.15min.json [160 -60] 15 min       
 
-!!! 00:43
+!!! 00:50
 YSE 2023bee  [134 -3] 5 min
 YSE 2023nj   [143  -5] 5 min
 YSE 2023ftr [139 20] 5 min
 YSE 2023exu  [158  12] 5 min
-2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B, +C [150 2] 1.5h     #### Drop exposures here if behind schedule!!!
+2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B [150 2] 1h     #### DO NOT DO "C"!!!!!
 
-!!! 02:34     
+!!! 02:10     
 DOSC OMLApex.240*.json [167 -25] (74 min)
 
-!!! 03:48
+!!! 03:25
 DEBASS/EVERYTHING/2024ctl_P2 [154 -17] (3min) SKIP IF NECESSARY
 DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
 DEBASS/EVERYTHING/2024cvb_P1 [153 -2] (3min) 
 DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
 
-!!! 04:01
+!!! 03:37
 ### YSE 2023clx [175 15] 5 min    
 ### YSE 2020jfo [185 5] 5 min                    
 DEBASS/EVERYTHING/2024gy_P1 [183 12] (3min) 
@@ -101,9 +101,13 @@ YSE 525 [189 10] (34 min)
 DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
 DEBASS/EVERYTHING/2024jz_P2 [233 -2] (3min) OPTIONAL
 
-!!! 04:45
+!!! 04:20
 DOSC ShallowApex.24????.json [213 -34] (40 min)
-2024A-496962_DEFSuS_Newman_Penny/defsus_main_feb_30m00s.json  [266 -26] (at least 60 min, repeat until twilight -14 deg!)
+2024A-496962_DEFSuS_Newman_Penny/defsus_main_feb_30m00s.json  [266 -26] (at least 60 min)  !!!! repeat until next block !!!!
+!!! repeat ^ until next block at 06:04 !!!!!!
+
+!!! 06:04
+kleyna/2024-03   (30 min)
 ### !!! Do not go over the end time of this block, make sure that you start the twilight Asteroid block in time!!!
 
 !!! 06:34:16 (-14 deg twilight)

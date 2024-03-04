@@ -1,7 +1,7 @@
-2024-03-03 sunset observing
+2024-03-09 sunset observing
 
-START UT 2024-03-04T00:15:06    at sun elevation -14.0
-END   UT 2024-03-04T01:03:06    at sun elevation -23.8
+START UT 2024-03-10T00:07:36    at sun elevation -14.0
+END   UT 2024-03-10T00:55:36    at sun elevation -23.9
 TOTAL TIME: 0.80 hours (48.0 minutes) 
 
 PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes

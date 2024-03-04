@@ -46,6 +46,7 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
+<<<<<<< HEAD
 !!! 21:15:53
 kleyna/2024-03   (30 min)
 ### DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min) 
@@ -54,6 +55,21 @@ kleyna/2024-03   (30 min)
 !!! 21:46     		             
 C3 [52, -28] 11 min 
 YSE 353 [63 -10] 17 min                   
+=======
+!!! 21:15:06
+kleyna/2024-03/Kleyna2024-03-03_sunset.json
+!!! *** Repeat this json file for 0.8 hours until 22:04 ***
+
+
+###!!! 21:15:53
+### 2023A-643849_EtaCar_Rest/smc.json [13 -73] (13 min)
+### DEBASS/EVERYTHING/2024any_P1 [47 -2] (3min) 
+### YSE 403 [50 -2] 17 min  
+
+###!!! 21:37     		             
+###C3 [52, -28] 11 min 
+###YSE 353 [63 -10] 17 min                   
+>>>>>>> 79866ca1ee2d352e02cd208ee86dda06c1fe93c6
 
 !!! 22:14
 ### YSE 2023zaz [60 -26]  3 min

@@ -2524,6 +2524,27 @@ mkjson_yse_nofilterswitch.py  -f g,r 2023ftr 2023bee 2023nj 2023exu -d 240303 -e
 git add 240303
 git add 240303/*.json
 
+mkdir 20240306
+cp 20240303/20240303_obsplan.txt 20240306/20240306_obsplan.txt 
+subl 20240306/20240306_obsplan.txt
+git add 20240306/20240306_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i    403  -d 240306 
+mkjson_yse_nofilterswitch.py  -f g,r    253  257  -d 240306 
+mkjson_yse_nofilterswitch.py  -f g,r   353   -d 240306 
+mkjson_yse_nofilterswitch.py  -f g,r   412   -d 240306 
+mkjson_yse_nofilterswitch.py  -f g,r   525   -d 240306 
+mkjson_yse_nofilterswitch.py  -f g,r   428 376 531  -d 240306 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2023xzq  2023zaz -d 240306 -e 25 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023xqm  -d 240306 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023fyq -d 240306 -e 30 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023ftr 2020jfo 2023clx 2021foa 2020acct -d 240306 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022aajn -d 240306 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z 2023exu 2023fot 2023bu 2023da 2023bee 2023nj 2023ggg 2023hro 2023huy -d 240306 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r 2023ftr 2023bee 2023nj 2023exu -d 240306 -e 100 -n 1 --sortbyra
+git add 240306
+git add 240306/*.json
+
 
 Top Priority (people already working on them):
 -----------------------------------------

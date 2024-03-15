@@ -2589,7 +2589,7 @@ git add 20240315/20240315_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f r,i    253  257  -d 240315 
 mkjson_yse_nofilterswitch.py  -f i,z   353   -d 240315 
 mkjson_yse_nofilterswitch.py  -f g,r   412   -d 240315 
-mkjson_yse_nofilterswitch.py  -f g,r   525   -d 240315 
+mkjson_yse_nofilterswitch.py  -f r   525   -d 240315 
 mkjson_yse_nofilterswitch.py  -f g,r   428 376 531  -d 240315 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021smj 2023fot 2023bu 2023da  2023huy 2023ggg -d 240315 -e 100 -n 1 --sortbyra

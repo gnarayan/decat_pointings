@@ -1,0 +1,50 @@
+[
+{
+  "count": 1,
+  "expType": "object",
+  "object": "ETNOfilter",
+  "filter": "VR",
+  "RA": "11:20:00.0",
+  "dec": "-10:00:00.0",
+  "expTime": 10,
+  "propid": "2024A-463033", 
+  "program": "ETNOs", 
+  "proposer": "Sheppard"
+},
+{
+  "count": 1,
+  "expType": "object",
+  "object": "ETNO0191",
+  "filter": "VR",
+  "RA": "09:45:50.4",
+  "dec": "+10:39:36.0",
+  "expTime": 480,
+  "propid": "2024A-463033", 
+  "program": "ETNOs", 
+  "proposer": "Sheppard"
+},
+{
+  "count": 1,
+  "expType": "object",
+  "object": "ETNO2",
+  "filter": "VR",
+  "RA": "09:52:14.4",
+  "dec": "+09:16:48.0",
+  "expTime": 480,
+  "propid": "2024A-463033", 
+  "program": "ETNOs", 
+  "proposer": "Sheppard"
+},
+{
+  "count": 1,
+  "expType": "object",
+  "object": "ETNO3",
+  "filter": "VR",
+  "RA": "10:01:16.8",
+  "dec": "+09:27:36.0",
+  "expTime": 480,
+  "program": "ETNOs", 
+  "proposer": "Sheppard",
+  "propid": "2024A-463033"
+}
+]

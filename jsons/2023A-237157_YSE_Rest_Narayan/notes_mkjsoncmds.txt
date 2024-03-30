@@ -2603,21 +2603,39 @@ mkdir 20240329
 cp 20240312/20240312_obsplan.txt 20240329/20240329_obsplan.txt 
 subl 20240329/20240329_obsplan.txt
 git add 20240329/20240329_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f g,r,i    253  257  -d 240329 
-mkjson_yse_nofilterswitch.py  -f g,r   353   -d 240329 
-mkjson_yse_nofilterswitch.py  -f g,i   412   -d 240329 
-mkjson_yse_nofilterswitch.py  -f r,i,z   525   -d 240329 
 mkjson_yse_nofilterswitch.py  -f z   428 376 531  -d 240329 
 mkjson_yse_nofilterswitch.py  -f r,i,z   440  -d 240329 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021smj 2023fot 2023bu 2023da  2023huy 2023ggg -d 240329 -e 100 -n 1 --sortbyra
 2023hro
-mkjson_yse_nofilterswitch.py  -f i,z  2023bu 2023da 2023ggg 2023huy -d 240329 -e 100 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f g,r 2023hro  -d 240329 -e 100 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023zaz 2024cgd 2024eyo 2024uj -d 240329 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z   2023da  2023huy 2023hro -d 240329 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023bu  2023ggg  -d 240329 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023zaz 2024cgd  -d 240329 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024eyo  -d 240329 -e 2 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024uj -d 240329 -e 40 -n 1 --sortbyra
 git add 240329
 git add 240329/*.json
 
+mkdir 20240330
+cp 20240329/20240329_obsplan.txt 20240330/20240330_obsplan.txt 
+subl 20240330/20240330_obsplan.txt
+git add 20240330/20240330_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   353 253 257 -d 240330 
+mkjson_yse_nofilterswitch.py  -f g,r,i   412   -d 240330 
+mkjson_yse_nofilterswitch.py  -f g,r,i  525   -d 240330 
+mkjson_yse_nofilterswitch.py  -f i,z   428 376   -d 240330 
+mkjson_yse_nofilterswitch.py  -f r,i,z    531  -d 240330 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   440  -d 240330 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021smj 2023fot 2023bu 2023da  2023huy 2023ggg -d 240330 -e 100 -n 1 --sortbyra
+2023hro
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2023da  2023huy 2023hro -d 240330 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023bu  2023ggg  -d 240330 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2023zaz 2024cgd -d 240330 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024eyo  -d 240330 -e 2 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024uj -d 240330 -e 40 -n 1 --sortbyra
+git add 240330
+git add 240330/*.json
 
 Top Priority (people already working on them):
 -----------------------------------------

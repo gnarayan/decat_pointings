@@ -84,31 +84,32 @@ YSE 2023bu [178 -18] (9 min)
 YSE 2023ggg  [174   3]  (9 min)    
 DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
 DEBASS/EVERYTHING/2024gy_P1 [183 12] (3min) 
+YSE 2024exw [183 14] (3 min)
 
-!!! 03:12
+!!! 04:15
 YSE 525 [189 10] (49 min)
 
-!!! 04:01
+!!! 05:05
 YSE 2023da   [195 -16]  (9 min)     
 YSE 2023huy  [199 -16]  (9 min)     
 YSE 2023hro [191  -20] (9 min)
 
-!!! 04:28
+!!! 05:32
 DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
 DOSC ShallowApex.24????.json [213 -34] (28 min)
 DEBASS/EVERYTHING/2024jz_P2 [233 -2] (3min) 
 
-!!! 05:02
-YSE 428	[228 -4] 17 min                         
-YSE 376	[224 -8] 17 min 						
-YSE 531 [230 11] 17 min 	
+!!! 06:06
+YSE 428	[228 -4] 8 min                         
+YSE 376	[224 -8] 8 min 						
+YSE 531 [230 11] 8 min                	
 
-!!! 05:38					
+!!! 06:30					
 YSE 2024cgd [216 23] (4 min)
 YSE 2024eyo [311 -46] (5 min)
 ### DECaPSEast [270 -29] 30 min         ### drop exposures here if behind schedule!    
-YSE 440	[314 -4] 33 min                      
-### YSE 544 [321 9] 17 min                
+YSE 440	[314 -4] 17 min                      
+### YSE 544 [321 9] 17 min             ### drop z band if behind    
 
 ### !!! 05:50
 ### 2024A-496962_DEFSuS_Newman_Penny/defsus_main_feb_30m00s.json  [266 -26] (at least 60 min)  !!!! repeat until next block !!!!

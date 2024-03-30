@@ -106,10 +106,10 @@ YSE 531 [230 11] 8 min
 
 !!! 06:30					
 YSE 2024cgd [216 23] (4 min)
-YSE 2024eyo [311 -46] (5 min)
+YSE 2024eyo [311 -46] (4 min)           ### high priority
 ### DECaPSEast [270 -29] 30 min         ### drop exposures here if behind schedule!    
-YSE 440	[314 -4] 17 min                      
-### YSE 544 [321 9] 17 min             ### drop z band if behind    
+YSE 440	[314 -4] 17 min                 ### drop exposures here if behind schedule! 
+### YSE 544 [321 9] 17 min                
 
 ### !!! 05:50
 ### 2024A-496962_DEFSuS_Newman_Penny/defsus_main_feb_30m00s.json  [266 -26] (at least 60 min)  !!!! repeat until next block !!!!

@@ -66,28 +66,28 @@ etale.g.30min.json [160 -60] 30 min
 DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
 DEBASS/EVERYTHING/2024cvb_P1 [153 -2] (3min) 
 DEBASS/EVERYTHING/2024ctl_P2 [154 -17] (3min) 
-DOSC OMLApex.240*.json [167 -25] (89 min)
-YSE 2024uj [167 -20] (4 min)               ### high priority
+DOSC OMLApex.240*.json [167 -25] (73 min)      ### skip exposures in OMLApex.240402_g.json if behind schedule!
+YSE 2024uj [167 -20] (4 min)                   ### high priority
 YSE 2023bu [178 -18] (5 min)     
 
 
-!!! 01:40
+!!! 01:23
 YSE 2023ggg  [174   3]  (5 min)    
 DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
 DEBASS/EVERYTHING/2024gy_P1 [183 12] (3min) 
 YSE 2024exw [183 14] (3 min)
 
-!!! 01:55
+!!! 01:38
 YSE 525 [189 10] (33 min)
 
-!!! 02:27
+!!! 02:11
 YSE 2023da   [195 -16]  (5 min)     
 YSE 2023huy  [199 -16]  (5 min)     
 YSE 2023hro [191  -20] (5 min)
 
-!!! 02:42
+!!! 02:27
 DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
-DOSC ShallowApex.24????.json [213 -34] (28 min)
+DOSC ShallowApex.24????.json [213 -34] (43 min)
 
 !!! 03:16
 YSE 376	[224 -8] 17 min 						

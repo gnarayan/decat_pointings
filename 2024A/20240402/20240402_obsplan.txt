@@ -51,65 +51,80 @@ YSE 412 [116 -2] 8 min
 DECaPSWest A+B [116 -26] 30 min
 YSE 257 [85 -25] 8 min             
 
-!!! 21:29
+!!! 21:35
 ### Block below Dec<=-30
 DEBASS/EVERYTHING/2024hl_P2 [88 -35] (3min) 
 Shen SCVZ [90 -66] 13 min 
-### etale.g.30min.json [160 -60] 30 min       
+etale.g.30min.json [160 -60] 30 min       
 ### etale.i.15min.json [160 -60] 15 min    
 ### etale.r.15min.json [160 -60] 15 min       
 
-!!! 21:46
+!!! 22:20
 2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B, cosmos23_feb_ddf_seq_C.json [150 2] 1.5h    
 
-!!! 23:16     
-### DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
-### DEBASS/EVERYTHING/2024cvb_P1 [153 -2] (3min) 
-### DEBASS/EVERYTHING/2024ctl_P2 [154 -17] (3min) 
+!!! 23:50     
+DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
+DEBASS/EVERYTHING/2024cvb_P1 [153 -2] (3min) 
+DEBASS/EVERYTHING/2024ctl_P2 [154 -17] (3min) 
 DOSC OMLApex.240*.json [167 -25] (89 min)
 YSE 2024uj [167 -20] (4 min)               ### high priority
 YSE 2023bu [178 -18] (5 min)     
 
 
-!!! 00:54
+!!! 01:40
 YSE 2023ggg  [174   3]  (5 min)    
-### DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
+DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
 DEBASS/EVERYTHING/2024gy_P1 [183 12] (3min) 
 YSE 2024exw [183 14] (3 min)
 
-!!! 01:05
+!!! 01:55
 YSE 525 [189 10] (33 min)
 
-!!! 01:38
+!!! 02:27
 YSE 2023da   [195 -16]  (5 min)     
 YSE 2023huy  [199 -16]  (5 min)     
 YSE 2023hro [191  -20] (5 min)
 
-!!! 01:53
+!!! 02:42
 DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
 DOSC ShallowApex.24????.json [213 -34] (28 min)
 
-!!! 02:24
+!!! 03:16
 YSE 376	[224 -8] 17 min 						
 YSE 428	[228 -4] 17 min                         
-### DEBASS/EVERYTHING/2024jz_P2 [233 -2] (3min) 
+DEBASS/EVERYTHING/2024jz_P2 [233 -2] (3min) 
 YSE 531 [230 11] 17 min                	
 
-!!! 03:14					
-### YSE 2024cgd [216 23] (4 min)
+!!! 04:10					
+YSE 2024cgd [216 23] (4 min)              !!! Skip if behind schedule!!!
 luhman1.json [260 -20] (19 min)
 luhman2.json [260 -20] (19 min)
 luhman3.json [260 -20] (19 min)
 luhman4.json [260 -20] (19 min)
-### DECaPSEast [270 -29] 30 min         ### drop exposures here if behind schedule!    
-### YSE 440	[314 -4] 9 min                 ### drop exposures here if behind schedule! 
-### YSE 544 [321 9] 17 min                
-YSE 2024eyo [311 -46] (4 min)           ### high priority
 
-!!! 04:34
-2024A-496962_DEFSuS_Newman_Penny/defsus_main_feb_30m00s.json  [266 -26] (at least 60 min)  !!!! repeat until next block !!!!
-!!! repeat ^ until next block at 06:53:56 !!!!!!
-!!! Do not go over the end time of this block, make sure that you start the twilight Asteroid block in time!!!
+!!! 05:30
+!!! Run these only if photometric !!!!
+!!! (ask observer to check if you can't see any clouds on the all sky camera. !!!!
+!!! If you can see clouds it's not photometric) !!!!
+2024A-496962_DEFSuS_Newman_Penny/defsus_std_e5a_griz.json [181 -45] (4 min) !!! Skip if later than 05:30, replace with defsus_std_sdssj1442_griz.json !!!!
+2024A-496962_DEFSuS_Newman_Penny/defsus_std_e6a_griz.json [221 -45] (4 min) 
+!!! If it is not photometric, and you are not behind schedule, run these instead of the standard stars ^:
+YSE 440	[314 -4] 9 min
+
+!!! Run in any conditions !!!
+2024A-496962_DEFSuS_Newman_Penny/defsus_20240402_cal_32m00s.json [266 -35] (34 min)
+2024A-496962_DEFSuS_Newman_Penny/defsus_20240402_36m00.json [266 -35] (36 min) !!! Skip exposures here if behind schedule!!!
+
+!!! Run only if photometric !!!
+### 2024A-496962_DEFSuS_Newman_Penny/defsus_std_e8a_griz.json [302 -44] (4 min) !!! Run if there is time !!!!
+!!! finish this block at 06:49, do not go over!!
+
+!!! 06:49
+### DECaPSEast [270 -29] 30 min         
+### YSE 440	[314 -4] 9 min                 
+### YSE 544 [321 9] 17 min                
+YSE 2024eyo [311 -46] (5 min)           ### high priority
+
 
 !!! 06:54:31 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew

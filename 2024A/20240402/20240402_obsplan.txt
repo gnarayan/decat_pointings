@@ -53,7 +53,6 @@ YSE 257 [85 -25] 8 min
 
 !!! 21:35
 ### Block below Dec<=-30
-DEBASS/EVERYTHING/2024hl_P2 [88 -35] (3min) 
 Shen SCVZ [90 -66] 13 min 
 etale.g.30min.json [160 -60] 30 min       
 ### etale.i.15min.json [160 -60] 15 min    
@@ -63,18 +62,15 @@ etale.g.30min.json [160 -60] 30 min
 2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B, cosmos23_feb_ddf_seq_C.json [150 2] 1.5h    
 
 !!! 23:50     
-DEBASS/EVERYTHING/2024apt_P1 [156 -2] (3min)
 DEBASS/EVERYTHING/2024cvb_P1 [153 -2] (3min) 
-DEBASS/EVERYTHING/2024ctl_P2 [154 -17] (3min) 
+DEBASS/EVERYTHING/2024ctl_P1 [154 -17] (3min) 
 DOSC OMLApex.240*.json [167 -25] (73 min)      ### skip exposures in OMLApex.240402_g.json if behind schedule!
 YSE 2024uj [167 -20] (4 min)                   ### high priority
 YSE 2023bu [178 -18] (5 min)     
-
+DEBASS/EVERYTHING/2024fcd_P1 [177 0]  (4 min)  
 
 !!! 01:23
 YSE 2023ggg  [174   3]  (5 min)    
-DEBASS/EVERYTHING/2024bqu_P1 [164 11] (3min)
-DEBASS/EVERYTHING/2024gy_P1 [183 12] (3min) 
 YSE 2024exw [183 14] (3 min)
 
 !!! 01:38
@@ -84,19 +80,18 @@ YSE 525 [189 10] (33 min)
 YSE 2023da   [195 -16]  (5 min)     
 YSE 2023huy  [199 -16]  (5 min)     
 YSE 2023hro [191  -20] (5 min)
+DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (4min)
 
 !!! 02:27
-DEBASS/EVERYTHING/2024bks_P1 [197 -27] (3min)
 DOSC ShallowApex.24????.json [213 -34] (43 min)
 
 !!! 03:16
 YSE 376	[224 -8] 17 min 						
 YSE 428	[228 -4] 17 min                         
-DEBASS/EVERYTHING/2024jz_P2 [233 -2] (3min) 
 YSE 531 [230 11] 17 min                	
 
 !!! 04:10					
-YSE 2024cgd [216 23] (4 min)              !!! Skip if behind schedule!!!
+YSE 2024cgd [216 23] (4 min)             ### high priority
 luhman1.json [260 -20] (19 min)
 luhman2.json [260 -20] (19 min)
 luhman3.json [260 -20] (19 min)

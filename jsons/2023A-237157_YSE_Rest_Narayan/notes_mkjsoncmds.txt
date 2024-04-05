@@ -2657,6 +2657,23 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024uj -d 240402 -e 40 -n 1 --sortbyra
 git add 240402
 git add 240402/*.json
 
+mkdir 20240405
+cp 20240402/20240402_obsplan.txt 20240405/20240405_obsplan.txt 
+subl 20240405/20240405_obsplan.txt
+git add 20240405/20240405_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i   353 253  -d 240405 
+mkjson_yse_nofilterswitch.py  -f g,i   257 -d 240405 
+mkjson_yse_nofilterswitch.py  -f g,i   412   -d 240405 
+mkjson_yse_nofilterswitch.py  -f g,i  525   -d 240405 
+mkjson_yse_nofilterswitch.py  -f g,i   428 376 531  -d 240405 
+mkjson_yse_nofilterswitch.py  -f r,i   440  -d 240405 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024cgd -d 240405 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024eyo 2024exw -d 240405 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024uj -d 240405 -e 40 -n 1 --sortbyra
+git add 240405
+git add 240405/*.json
+
 Top Priority (people already working on them):
 -----------------------------------------
 Event    RA         Dec

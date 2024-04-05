@@ -94,29 +94,5 @@
   "expTime": 50,
   "proposer": "Newman-Penny",
   "propid": "2024A-496962"
- },
- {
-  "count": 1,
-  "comment": "N40 r DEFSuS",
-  "expType": "object",
-  "object": "DEFSuS_N40",
-  "filter": "r",
-  "RA": 268.45,
-  "dec": -22.7,
-  "expTime": 70,
-  "proposer": "Newman-Penny",
-  "propid": "2024A-496962"
- },
- {
-  "count": 1,
-  "comment": "N40 z DEFSuS",
-  "expType": "object",
-  "object": "DEFSuS_N40",
-  "filter": "z",
-  "RA": 268.45,
-  "dec": -22.7,
-  "expTime": 50,
-  "proposer": "Newman-Penny",
-  "propid": "2024A-496962"
  }
 ]

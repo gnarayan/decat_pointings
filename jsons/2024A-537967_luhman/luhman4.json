@@ -78,5 +78,25 @@
 "expTime": 150,
 "count": 1,
 "propid": "2024A-537967"
+},
+{
+"object": "pos80a",
+"expType": "object",
+"filter": "r",
+"RA": 269.471,
+"dec": -17.200,
+"expTime": 150,
+"count": 1,
+"propid": "2024A-537967"
+},
+{
+"object": "pos80b",
+"expType": "object",
+"filter": "r",
+"deltaRA": "+60.0",
+"deltaDEC": "+60.0",
+"expTime": 150,
+"count": 1,
+"propid": "2024A-537967"
 }
 ]

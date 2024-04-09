@@ -1,0 +1,93 @@
+MOON ILLUMINATION: 0.00
+UT -16 deg twilight: 2024-04-08T23:41:09.746 2024-04-09T09:48:44.490
+UT -15 deg twilight: 2024-04-08T23:36:32.345 2024-04-09T09:53:22.206
+UT -14 deg twilight: 2024-04-08T23:31:54.943 2024-04-09T09:57:59.946
+UT -12 deg twilight: 2024-04-08T23:22:39.980 2024-04-09T10:07:15.609
+UT -10 deg twilight: 2024-04-08T23:13:24.636 2024-04-09T10:16:31.698
+LOCAL -16 deg twilight: 04/08/2024,   19:41:09   05:48:44
+LOCAL -15 deg twilight: 04/08/2024,   19:36:32   05:53:22
+LOCAL -14 deg twilight: 04/08/2024,   19:31:54   05:57:59
+LOCAL -12 deg twilight: 04/08/2024,   19:22:39   06:07:15
+LOCAL -10 deg twilight: 04/08/2024,   19:13:24   06:16:31
+LOCAL night MIDPOINT: 04/09/2024,   00:44:57
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! 00:44:57
+2024A-941948_DDF_Nugent/cosmos_ddf_seq_A [150 2] 0.5h    
+DEBASS/EVERYTHING/2024cvb_P1 [153 -2] (3min) 
+DEBASS/EVERYTHING/2024ctl_P1 [154 -17] (3min) 
+YSE 2024uj [167 -20] (4 min)                   ### high priority
+DEBASS/EVERYTHING/2024fcd_P1 [177 0]  (4 min)  
+YSE 2024exw [183 14] (3 min)
+YSE 525 [189 10] (17 min)
+
+!!! 01:50
+DOSC OMLApex.240*.json [167 -25] (52 min)      
+DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (4min)
+DOSC ShallowApex.24????.json [213 -34] (6 min)   ### drop exposures here if you are behind schedule!
+
+!!! 02:52
+YSE 376	[224 -8] 17 min 						
+YSE 428	[228 -4] 17 min                         
+YSE 2024cgd [216 23] (4 min)             ### high priority
+YSE 531 [230 11] 17 min                	
+
+!!! 03:46					
+luhman1.json [260 -20] (19 min)
+luhman2.json [260 -20] (19 min)
+luhman3.json [260 -20] (19 min)
+
+!!! 04:44
+defsus_main_20240405_30m00s.json [264 -29] (34 min)
+defsus_main_20240405_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
+!!! STOP THESE OBSERVATIONS at 05:31 !!!!
+
+!!! 05:31
+!!! CUT DECaPSEast TO 15 MIN!!!
+DECaPSEast [270 -29] 15 min             ### CUT THIS OBSERVATIONS TO 15 MIN!!!
+!!! CUT DECaPSEast TO 15 MIN!!!
+YSE 440	[314 -4] 8 min                  ### drop exposures here if you are behind schedule!
+### YSE 544 [321 9] 17 min                
+YSE 2024eyo [311 -46] (4 min)           ### high priority
+!!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
+
+
+!!! 05:57:59 (-14 deg twilight)
+### just finish the last exposure that fits into the time of the previous block, and slew
+### to the asteroid fields in time! Otherwise the images will be useless
+### At -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+!!!!!!!! EXTRA TARGETS !!!!!
+defsus_extra_20240405_12m30s.json [272 -27] (13 min) 
+
+

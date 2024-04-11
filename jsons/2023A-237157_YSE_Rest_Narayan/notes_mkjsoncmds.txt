@@ -2692,27 +2692,24 @@ mkjson_yse_nofilterswitch.py  -f g,i  2024uj -d 240408 -e 80 -n 1 --sortbyra
 git add 240408
 git add 240408/*.json
 
-Top Priority (people already working on them):
------------------------------------------
-Event    RA         Dec
-## 2020jfo  185.45818  4.56867
-## 2023clx  175.03713  15.4145
-2021foa  199.29926  -17.17016
-2020acct 146.23106  31.18303
-Lower Priority (just needed in general)
---------------------------------------
-Event    RA         Dec
-## 2023ftr  139.20585  20.26534
-## 2023exu  158.16452  12.26738
-** 2023fot  185.44597  10.67841
-## 2022aajn 107.06252  21.15958
-2023bu   178.29473  -17.75575
-2023da   194.8943   -16.27061
-## 2023bee  134.0463   -3.23856
-## 2023nj   143.20259  -5.4491
-2023ggg  173.94525  3.57098
-** 2023hro  190.94199  -20.07124
-2023huy  198.95939  -16.11808
+mkdir 20240411
+cp 20240405/20240405_obsplan.txt 20240411/20240411_obsplan.txt 
+subl 20240411/20240411_obsplan.txt
+git add 20240411/20240411_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i   353 253  -d 240411 
+mkjson_yse_nofilterswitch.py  -f g,r   257 -d 240411 
+mkjson_yse_nofilterswitch.py  -f g,r   412   -d 240411 
+mkjson_yse_nofilterswitch.py  -f g,i  525   -d 240411 
+mkjson_yse_nofilterswitch.py  -f g,i   428 376 531  -d 240411 
+mkjson_yse_nofilterswitch.py  -f g,i   440  -d 240411 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240411 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024exw -d 240411 -e 2 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024eyo  -d 240411 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,i  2024uj -d 240411 -e 80 -n 1 --sortbyra
+git add 240411
+git add 240411/*.json
+
 
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
 

@@ -1,19 +1,19 @@
-MOON ILLUMINATION: 0.09
-UT -16 deg twilight: 2024-04-05T23:44:32.562 2024-04-06T09:47:01.122
-UT -15 deg twilight: 2024-04-05T23:39:55.087 2024-04-06T09:51:38.907
-UT -14 deg twilight: 2024-04-05T23:35:17.672 2024-04-06T09:56:16.646
-UT -12 deg twilight: 2024-04-05T23:26:02.889 2024-04-06T10:05:32.093
-UT -10 deg twilight: 2024-04-05T23:16:47.988 2024-04-06T10:14:47.689
-LOCAL -16 deg twilight: 04/05/2024,   20:44:32   06:47:01
-LOCAL -15 deg twilight: 04/05/2024,   20:39:55   06:51:38
-LOCAL -14 deg twilight: 04/05/2024,   20:35:17   06:56:16
-LOCAL -12 deg twilight: 04/05/2024,   20:26:02   07:05:32
-LOCAL -10 deg twilight: 04/05/2024,   20:16:47   07:14:47
-LOCAL night MIDPOINT: 04/06/2024,   01:45:46
+MOON ILLUMINATION: 0.16
+UT -16 deg twilight: 2024-04-11T23:37:53.242 2024-04-12T09:50:26.230
+UT -15 deg twilight: 2024-04-11T23:33:15.751 2024-04-12T09:55:04.036
+UT -14 deg twilight: 2024-04-11T23:28:38.260 2024-04-12T09:59:41.925
+UT -12 deg twilight: 2024-04-11T23:19:22.853 2024-04-12T10:08:58.055
+UT -10 deg twilight: 2024-04-11T23:10:06.813 2024-04-12T10:18:14.839
+LOCAL -16 deg twilight: 04/11/2024,   19:37:53   05:50:26
+LOCAL -15 deg twilight: 04/11/2024,   19:33:15   05:55:04
+LOCAL -14 deg twilight: 04/11/2024,   19:28:38   05:59:41
+LOCAL -12 deg twilight: 04/11/2024,   19:19:22   06:08:58
+LOCAL -10 deg twilight: 04/11/2024,   19:10:06   06:18:14
+LOCAL night MIDPOINT: 04/12/2024,   00:44:09
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
-*** Note: Local Chilean time is now EDT+1 ***
+*** Note: Local Chilean time is now EDT   ***
 *********************************************
 
 *********************************************************
@@ -40,70 +40,69 @@ LOCAL night MIDPOINT: 04/06/2024,   01:45:46
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! after pointing ~20:25 (NOTE: CHILEAN LOCAL TIME!!!)
+!!! after pointing ~19:15 (NOTE: CHILEAN LOCAL TIME!!!)
 Start with Pointing the Telescope to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 20:35:17 
+!!! 19:28:38
 YSE 412 [116 -2] 17 min                     
 DECaPSWest A+B [116 -26] 30 min
+YSE 2017gci [102 -27] 6 min
 YSE 257 [85 -25] 17 min             
 
-!!! 21:40
+!!! 21:39
 ### Block below Dec<=-30
 Shen SCVZ [90 -66] 13 min 
-### etale.g.30min.json [160 -60] 30 min       
+etale.g.30min.json [160 -60] 30 min       
 ### etale.i.15min.json [160 -60] 15 min    
-etale.r.15min.json [160 -60] 15 min       
+### etale.r.15min.json [160 -60] 15 min       
 
-!!! 22:10
+!!! 22:22
 2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B, +C [150 2] 1.5h    
 
-!!! 23:40     
+!!! 00:03     
 DEBASS/EVERYTHING/2024ctl_P2 [154 -17] (3min) CAN SKIP IF NECESSARY
-DOSC OMLApex.240*.json [167 -25] (73 min)      ### skip exposures in OMLApex.240405_g.json if behind schedule!
-YSE 2024uj [167 -20] (4 min)                   ### high priority
+DOSC OMLApex.240*.json [167 -25] (113 min)      ### skip exposures in OMLApex.240405_g.json if behind schedule!
+### YSE 2024uj [167 -20] (4 min)                   
 DEBASS/EVERYTHING/2024fcd_P1 [177 0] (3min)
 DEBASS/EVERYTHING/2024gda_P1 [162 12] (3min)
 DEBASS/EVERYTHING/2024fwj_P1 [182 13] (3min)
 
-!!! 01:08
+!!! 02:09
 YSE 2024exw [183 14] (3 min)
 YSE 525 [189 10] (33 min)
 DEBASS/EVERYTHING/2024gbt_P1 [188 -26] (3min)
-
-!!! 01:45
 DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (3min)
-DOSC ShallowApex.24????.json [213 -34] (43 min)
+### DOSC ShallowApex.24????.json [213 -34] (43 min)
 
-!!! 02:33
+!!! 02:54
 YSE 376	[224 -8] 17 min 						
 YSE 428	[228 -4] 17 min                         
 YSE 531 [230 11] 17 min                	
 
-!!! 03:25					
+!!! 03:42					
 YSE 2024cgd [216 23] (4 min)             ### high priority
 luhman1.json [260 -20] (19 min)
 luhman2.json [260 -20] (19 min)
 luhman3.json [260 -20] (19 min)
 luhman4.json [260 -20] (19 min)
 
-!!! 04:45
-defsus_main_20240405_30m00s.json [264 -29] (34 min)
-defsus_main_20240405_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
-defsus_extra_20240405_12m30s.json [272 -27] (13 min) 
+!!! 05:02
+defsus_main_2024*_30m00s.json [264 -29] (32 min)
+defsus_main_2024*_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
+defsus_extra_2024*_12m30s.json [272 -27] (13 min) 
 
-!!! 06:05
+!!! 06:17
 DECaPSEast [270 -29] 30 min             ### drop exposures here if you are behind schedule!
-YSE 440	[314 -4] 17 min                  ### drop exposures here if you are behind schedule!
+YSE 440	[314 -4] 8 min                  ### drop exposures here if you are behind schedule!
 ### YSE 544 [321 9] 17 min                
 YSE 2024eyo [311 -46] (4 min)           ### high priority
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
 
-!!! 06:56:16 (-14 deg twilight)
+!!! 05:59:41 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

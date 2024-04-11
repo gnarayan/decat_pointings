@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2017gci",
+"filter": "i",
+"expTime": 80,
+"RA": "101.6852",
+"dec": "-27.1619",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2017gci",
+"filter": "z",
+"expTime": 80,
+"RA": "101.6852",
+"dec": "-27.1619",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2017gci",
+"filter": "y",
+"expTime": 80,
+"RA": "101.6852",
+"dec": "-27.1619",
+"propid": "2023A-237157"
+}
+]

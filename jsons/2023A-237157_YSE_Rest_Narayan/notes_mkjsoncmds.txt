@@ -2701,12 +2701,13 @@ mkjson_yse_nofilterswitch.py  -f g,r   257 -d 240411
 mkjson_yse_nofilterswitch.py  -f g,r   412   -d 240411 
 mkjson_yse_nofilterswitch.py  -f g,i  525   -d 240411 
 mkjson_yse_nofilterswitch.py  -f g,i   428 376 531  -d 240411 
-mkjson_yse_nofilterswitch.py  -f g,i   440  -d 240411 
+mkjson_yse_nofilterswitch.py  -f g   440  -d 240411 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240411 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024exw -d 240411 -e 2 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024eyo  -d 240411 -e 1 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,i  2024uj -d 240411 -e 80 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z,y  2017gci -d 240411 -e 80,80,200 -n 1 --sortbyra
 git add 240411
 git add 240411/*.json
 
@@ -2870,6 +2871,9 @@ YSE_pointings2fieldcenters.py --addSN  2024cgd 216.1875417     23.1347389 --over
 YSE_pointings2fieldcenters.py --addSN  2024uj 166.9544270     -20.0261782 --over
 YSE_pointings2fieldcenters.py --addSN  2024eyo 311.1566542     -45.9810528 --over
 YSE_pointings2fieldcenters.py --addSN  2024exw 183.3640292     14.7778889 --over
+
+Sebastian:
+YSE_pointings2fieldcenters.py --addSN 2017gci 101.687625 -27.24885  --over
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
 

@@ -1,0 +1,52 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "z",
+"expTime": 160,
+"RA": "166.6800",
+"dec": "-24.9800",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "z",
+"expTime": 160,
+"deltaRA": "N10",
+"deltaDEC": "E10",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "z",
+"expTime": 160,
+"deltaRA": "S20",
+"deltaDEC": "W20",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "z",
+"expTime": 160,
+"deltaRA": "N20",
+"deltaDEC": "W0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "z",
+"expTime": 160,
+"deltaRA": "S20",
+"deltaDEC": "E20",
+"propid": "2024A-718822"
+}
+]

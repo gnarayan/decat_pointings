@@ -46,42 +46,32 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 19:16:42
-YSE 412 [116 -2] 17 min                     
-DECaPSWest A+B [116 -26] 30 min
-YSE 257 [85 -25] 17 min             
-
-!!! 20:22
-### Block below Dec<=-30
-Shen SCVZ [90 -66] 13 min 
-### etale.g.30min.json [160 -60] 30 min       
-etale.i.15min.json [160 -60] 15 min    
-etale.z.15min.json [160 -60] 15 min       
-
-!!! 21:05
-2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B, +C [150 2] 1.5h    
-
-!!! 22:36     
-DOSC OMLApex.240*.json [167 -25] (115 min)      
-### YSE 2024uj [167 -20] (4 min)                   
-DEBASS/EVERYTHING/2024gra_P1 [179 -11] (3min)
-DEBASS/EVERYTHING/2024fcd_P1 [177 0] (3min)
+!!! 22:58
 DEBASS/EVERYTHING/2024gda_P1 [162 12] (3min)
 DEBASS/EVERYTHING/2024fwj_P1 [182 13] (3min)
+DEBASS/EVERYTHING/2024fcd_P1 [177 0] (3min)
+DEBASS/EVERYTHING/2024gra_P1 [179 -11] (3min)
 
-!!! 00:43
+!!! 23:10
+DOSC OMLApex_240423_i.json  51.0 minutes [167 -25] (50 min) 
+OMLApex_240423_z1.json  12.5 minutes
+OMLApex_240423_z2.json  12.5 minutes           ### drop if behind schedule!!!
+OMLApex_240423_z3.json  12.5 minutes           ### drop if behind schedule!!!
+### YSE 2024uj [167 -20] (4 min)                   
+
+!!! 00:45
 YSE 2024exw [183 14] (3 min)
 YSE 525 [189 10] (33 min)                         
 DEBASS/EVERYTHING/2024gbt_P1 [188 -26] (3min)
 DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (3min)
 ### DOSC ShallowApex.24????.json [213 -34] (43 min)
 
-!!! 01:25
+!!! 01:29
 ### YSE 376	[224 -8] 17 min 						
-YSE 428	[228 -4] 7 min                ### close to the Moon, skip exposures here if behind schedule!                              
+### YSE 428	[228 -4] 7 min                                          
 YSE 531 [230 11] 8 min                	
 
-!!! 01:40					
+!!! 01:37					
 YSE 2024cgd [216 23] (4 min)             ### high priority
 DEBASS/EVERYTHING/2024gpq_P1 [256 9] (3min)
 luhman1.json [260 -20] (19 min)
@@ -89,15 +79,15 @@ luhman2.json [260 -20] (19 min)
 luhman3.json [260 -20] (19 min)
 luhman4.json [260 -20] (30 min)
 
-!!! 03:15
+!!! 03:12
 defsus_main_2024*_30m00s.json [264 -29] (32 min)
 defsus_main_2024*_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
 defsus_extra_2024*_12m30s.json [272 -27] (13 min) 
 
-!!! 04:30
+!!! 04:28
 DECaPSEast [270 -29] 30 min             ### drop exposures here if you are behind schedule!
-YSE 440	[314 -4] 25 min                 ### drop i band exposures here if you are behind schedule!
-YSE 544 [321 9] 25 min                  ### drop i band exposures here if you are behind schedule!
+YSE 440	[314 -4] 17 min                 ### drop g band exposures here if you are behind schedule!
+YSE 544 [321 9] 17 min                  ### drop g band exposures here if you are behind schedule!
 YSE 2024eyo [311 -46] (4 min)           ### high priority
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 

@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "RA": "166.6800",
 "dec": "-24.9800",
 "propid": "2024A-718822"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "deltaDEC": "N3",
 "deltaRA": "E5",
 "propid": "2024A-718822"
@@ -24,7 +24,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "deltaDEC": "S7",
 "deltaRA": "W7",
 "propid": "2024A-718822"
@@ -34,7 +34,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "deltaDEC": "N100.000000",
 "deltaRA": "W80.000000",
 "propid": "2024A-718822"
@@ -44,7 +44,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "deltaDEC": "N60.000000",
 "deltaRA": "W20.000000",
 "propid": "2024A-718822"
@@ -54,7 +54,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "deltaDEC": "S20.000000",
 "deltaRA": "E20.000000",
 "propid": "2024A-718822"
@@ -64,7 +64,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "deltaDEC": "S20.000000",
 "deltaRA": "W40.000000",
 "propid": "2024A-718822"
@@ -74,7 +74,7 @@
 "expType": "object",
 "object": "OMLApex",
 "filter": "z",
-"expTime": 100,
+"expTime": 80,
 "deltaDEC": "S20.000000",
 "deltaRA": "W20.000000",
 "propid": "2024A-718822"

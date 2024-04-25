@@ -64,13 +64,14 @@ YSE 531 [230 11] 17 min
 !!! 02:33					
 YSE 2024cgd [216 23] (4 min)             ### high priority
 DEBASS/EVERYTHING/2024gpq_P1 [256 9] (3min)
-luhman1.json [280 -20] (19 min)
+luhman1.json [280 -20] (19 min)			
 luhman2.json [280 -20] (19 min)
 luhman3.json [280 -20] (19 min)
 luhman4.json [280 -20] (30 min)
 
 !!! 04:10
-defsus_*.json [274 -30] (60 min)
+defsus_cal*.json [274 -30] (29 min)     ### short exposures close to moon, keep an  eye on sky values in image health, especially g
+defsus_main*.json [274 -30] (30 min)    ### long exposures close to moon, only run if sky <100 ADU/s in short exposures 
 
 !!! 05:10
 ### DECaPSEast [270 -29] 30 min         

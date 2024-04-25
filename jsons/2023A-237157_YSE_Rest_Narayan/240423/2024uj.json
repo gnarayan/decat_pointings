@@ -13,10 +13,30 @@
 "count": 1,
 "expType": "object",
 "object": "2024uj",
+"filter": "i",
+"expTime": 80,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2024uj",
 "filter": "z",
 "expTime": 80,
 "RA": "166.9521",
 "dec": "-19.9392",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2024uj",
+"filter": "z",
+"expTime": 80,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2023A-237157"
 }
 ]

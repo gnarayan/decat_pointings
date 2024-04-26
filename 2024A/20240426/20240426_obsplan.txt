@@ -84,6 +84,7 @@ DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (3min)
 YSE 531 [230 11] 17 min                		       ### close to Moon, drop z band exposures here if behind schedule!!!
 
 !!! 01:46					
+DEBASS/EVERYTHING/2024gve_P1 [221 11] (3min)
 YSE 2024cgd [216 23] (4 min)             ### high priority
 DEBASS/EVERYTHING/2024gpq_P1 [256 9] (3min)
 luhman1.json [260 -20] (19 min)

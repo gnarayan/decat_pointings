@@ -68,7 +68,7 @@ DEBASS/EVERYTHING/2024fcd_P1 [177 0] (3min)
 DEBASS/EVERYTHING/2024gra_P1 [179 -11] (3min)
 
 !!! 22:45
-DOSC OMLApex_240426*.json  [167 -25] (115 min) 
+DOSC OMLApex_240*.json  [167 -25] (115 min) 
 YSE 2024uj [167 -20] (4 min)                   
 
 !!! 00:45

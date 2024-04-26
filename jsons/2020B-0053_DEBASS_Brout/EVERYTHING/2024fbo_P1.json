@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 5.0,
+        "exptime": 15.0,
         "RA": 197.06663,
         "dec": -29.92906,
         "object": "2024fbo_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 5.0,
+        "exptime": 15.0,
         "RA": 197.06663,
         "dec": -29.92906,
         "object": "2024fbo_P1",

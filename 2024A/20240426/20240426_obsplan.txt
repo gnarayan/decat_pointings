@@ -114,3 +114,5 @@ using morning twilight asteroid script in
 jsons/2021B-0909_Twilight_Sheppard
 
 !!!!!!!! EXTRA TARGETS !!!!!
+YSE 376	[224 -8] 7 min 					       ### close to Moon
+YSE 428	[228 -4] 7 min                         ### close to Moon               

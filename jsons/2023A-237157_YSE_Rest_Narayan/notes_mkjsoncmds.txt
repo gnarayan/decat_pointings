@@ -2794,8 +2794,8 @@ mkjson_yse_nofilterswitch.py  -f g,r   412 257 -d 240426
 mkjson_yse_nofilterswitch.py  -f g,r  525   -d 240426 
 mkjson_yse_nofilterswitch.py  -f z  428 376   -d 240426 
 mkjson_yse_nofilterswitch.py  -f i,z  531  -d 240426 
-mkjson_yse_nofilterswitch.py  -f g,r  440  544  -d 240426 
-mkjson_yse_nofilterswitch.py  -f g,i 494  -d 240426 
+mkjson_yse_nofilterswitch.py  -f g,r,i  440  544  -d 240426 
+mkjson_yse_nofilterswitch.py  -f g,r,i 494  -d 240426 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024cgd -d 240426 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240426 -e 1 -n 1 --sortbyra

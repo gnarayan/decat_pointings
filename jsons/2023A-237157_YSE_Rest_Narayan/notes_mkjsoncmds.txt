@@ -2814,13 +2814,24 @@ mkjson_yse_nofilterswitch.py  -f r,i,z  531  -d 240429
 mkjson_yse_nofilterswitch.py  -f z  440    -d 240429 
 mkjson_yse_nofilterswitch.py  -f i,z 544 494  -d 240429 
 #
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  428 376   -d 240429 -s 33min
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  531  -d 240429  -s 33min
+mkjson_yse_nofilterswitch.py  -f r,i,z 544 494  -d 240429  -s 25min
+#
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024cgd -d 240429 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240429 -e 1 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f r  2024uj -d 240429 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq -d 240429 -e 90 -n 1 --sortbyra
 git add 240429
 git add 240429/*.json
 
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
+
+YSE 2023emq [203 -24] (5 min)
+YSE 2023mkt [229 -24] (5 min)
+YSE 2023vyl [350 17] (5 min)
+YSE 2024jz [233 -2] (5 min)
+
 
 mkjson_yse_nofilterswitch.py  -f g,i    583 531 -d 230420 --outsuffix two_filters
 mkjson_dosc.py -f g,r,i OMLApex -d 230420 -n 2 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
@@ -2845,6 +2856,8 @@ mkjson_dosc.py  -f z OMLApex -d 230207 -n 5 -e 327 --d1 E5 N3 --d2 W7 S7 --d3 W5
 mkjson_dosc.py -f g,r OMLApex -d 230221 -n 3 -e 200,400 --d1 E5 N3 --d2 W7 S7
 mkjson_dosc.py -f g,r OMLApex -d 230222 -n 3 -e 200,350 --d1 E5 N3 --d2 W7 S7
 2UKCEPuxXX6ggDD%
+
+
 
 YSE 2023dk [78 -1] (4 min)
 YSE 2023R [150 -5]  (4 min)

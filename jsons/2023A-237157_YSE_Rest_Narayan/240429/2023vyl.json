@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 90.0,
+		"RA": 349.239940,
+		"dec": 16.794270,
+		"object": "2023vyl_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023vyl",
+		"wait": "False",
+		"propid": "2023A-237157"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 90.0,
+		"RA": 349.239940,
+		"dec": 16.794270,
+		"object": "2023vyl_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023vyl",
+		"wait": "False",
+		"propid": "2023A-237157"
+	}
+]

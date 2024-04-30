@@ -1,0 +1,13 @@
+ blockID          assigned_program     program UTfirst UTlast dt_block_h dt_prevgap_sec dt_nextgap_sec dt_gaps_sec dt_block_full_h twi  dt_charged_h
+     1.0  DEBASS                    DOWNTIME01     NaN    NaN     1.4616              0              0           0          1.4616   0      1.461608
+     2.0  TECHSETUP1                         -   00:47  00:47     0.0092              0            267         267          0.0833   0      0.083333
+     3.0  DEBASS                             -   00:52  00:59     0.1286              0             77          38          0.1393   0      0.139306
+     4.0  DDF                                -   01:01  01:05     0.1106             77            142         110          0.1410   0      0.140972
+     5.0  EtaCar                             -   01:10  01:14     0.1022            142            172         157          0.1458   0      0.145833
+     6.0  DDF                                -   01:19  01:29     0.1911            172              0          86          0.2150   0      0.215000
+     7.0  DESI                      DOWNTIME02     NaN    NaN     3.5293              0              0           0          3.5293   0      3.529278
+     8.0  YSE                       DOWNTIME03     NaN    NaN     2.2578              0              0           0          2.2578   0      2.257778
+     9.0  DDF                       DOWNTIME04     NaN    NaN     1.8511              0              0           0          1.8511   0      1.851078
+    10.0  EtaCar                    DOWNTIME05     NaN    NaN     0.4678              0              0           0          0.4678   0      0.467778
+    11.0  Shen                      DOWNTIME06     NaN    NaN     0.2002              0              0           0          0.2002   0      0.200178
+    12.0  DEBASS                    DOWNTIME07     NaN    NaN     0.3088              0              0           0          0.3088   0      0.308774

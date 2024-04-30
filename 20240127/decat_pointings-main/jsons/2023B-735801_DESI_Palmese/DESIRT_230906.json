@@ -1,0 +1,58 @@
+[
+    {
+        "object": "DESIRT 230906 A",
+        "expTime": 90,
+        "RA": "79.748662",
+        "dec": "-47.302832",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23B",
+        "wait": "False",
+        "propid": "2023B-735801",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT 230906"
+    },
+    {
+        "object": "DESIRT 230906 A",
+        "expTime": 180,
+        "RA": "79.748662",
+        "dec": "-47.302832",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23B",
+        "wait": "False",
+        "propid": "2023B-735801",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT 230906"
+    },
+    {
+        "object": "DESIRT 230906 B",
+        "expTime": 90,
+        "RA": "79.678",
+        "dec": "-48.0806",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23B",
+        "wait": "False",
+        "propid": "2023B-735801",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT 230906"
+    },
+    {
+        "object": "DESIRT 230906 B",
+        "expTime": 180,
+        "RA": "79.678",
+        "dec": "-48.0806",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23B",
+        "wait": "False",
+        "propid": "2023B-735801",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT 230906"
+    }
+]

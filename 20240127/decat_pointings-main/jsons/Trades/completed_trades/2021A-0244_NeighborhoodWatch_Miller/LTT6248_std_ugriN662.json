@@ -1,0 +1,112 @@
+[
+{
+    "object": "LTT6248 S4",
+    "filter": "u",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.675762083333332,
+    "expTime": 10,
+    "count": 1
+},
+{
+    "object": "LTT6248 S4",
+    "filter": "g",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.675762083333332,
+    "expTime": 2,
+    "count": 1
+},
+{
+    "object": "LTT6248 S4",
+    "filter": "r",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.675762083333332,
+    "expTime": 1,
+    "count": 1
+},
+{
+    "object": "LTT6248 S4",
+    "filter": "i",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.675762083333332,
+    "expTime": 1,
+    "count": 1
+},
+{
+    "object": "LTT6248 S4",
+    "filter": "N662",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.675762083333332,
+    "expTime": 8,
+    "count": 1
+},
+{
+    "object": "LTT6248 N4",
+    "filter": "u",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.511460138888886,
+    "expTime": 10,
+    "count": 1
+},
+{
+    "object": "LTT6248 N4",
+    "filter": "g",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.511460138888886,
+    "expTime": 2,
+    "count": 1
+},
+{
+    "object": "LTT6248 N4",
+    "filter": "r",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.511460138888886,
+    "expTime": 1,
+    "count": 1
+},
+{
+    "object": "LTT6248 N4",
+    "filter": "i",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.511460138888886,
+    "expTime": 1,
+    "count": 1
+},
+{
+    "object": "LTT6248 N4",
+    "filter": "N662",
+    "expType": "standard",
+    "comment": "Standard Star",
+    "program": "Neighborhood Watch: A Survey of Baryonic Substructures in the Nearby Universe",
+    "RA": 234.74854166666663,
+    "dec": -28.511460138888886,
+    "expTime": 8,
+    "count": 1
+}
+]

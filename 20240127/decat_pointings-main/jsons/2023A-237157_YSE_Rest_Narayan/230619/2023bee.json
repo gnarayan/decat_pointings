@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2023bee",
+"filter": "g",
+"expTime": 25,
+"RA": "134.0463",
+"dec": "-3.2386",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023bee",
+"filter": "r",
+"expTime": 25,
+"RA": "134.0463",
+"dec": "-3.2386",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023bee",
+"filter": "i",
+"expTime": 25,
+"RA": "134.0463",
+"dec": "-3.2386",
+"propid": "2023A-237157"
+}
+]

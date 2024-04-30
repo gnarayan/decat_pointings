@@ -1,0 +1,108 @@
+mjd 59510, date 20211022, Site CTIO, UT-offset 3 hr
+Current local time 22:43 -03     UT 01:43     SidTim 23:06
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     20:05 -03  23:05 UT   20:28  307 deg  
+Eve. -10   20:42 -03  23:42 UT   21:05  316 deg  Zeropoint; standards
+Eve. -14   21:01 -03  00:01 UT   21:25  321 deg  Begin obstac
+
+
+As early as possible:
+2021B-0909_Twilight_Sheppard [207, -20]
+Twilight asteroid program ends at ~20:58 (23:38UT)
+
+*** ALL YSE SCRIPTS ARE IN THE decat_pointings/jsons/2021A-0275_YSE_Rest/combined directories!!
+
+20:58: DECaPSEast 30 min [270, -29] 
+  
+21:30: 
+DEBASS 2021yuj_P1 [299 -22]
+YSE 440	[314, -4] decat_pointings/jsons/2021A-0275_YSE_Rest/combined/440.json
+DEBASS 2021zfs_P1 [324 5]
+YSE 544 [321, 9]
+DEBASS 2021zax_P1 [333 13]
+DEBASS 2021yrz_P1 [338 19]
+YSE 494.F.2021aabp [347 9]
+2021abds_P1 [356 -16]
+
+
+22:45 SMC [11 -73] (*** FILLER UNTIL 00:00 ***)
+short exposure json files are here (~2min each file): #25min total
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/SMC_short
+long exposure json files are here (~35min each file):
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/SMC_long
+
+SMC_long/SMC_c02_d4.json (38 min)
+SMC_long/SMC_c02_d5.json (38 min)
+if time:
+SMC_short/SMC_c05_d4.json
+SMC_short/SMC_c05_d5.json
+SMC_short/SMC_c05_d6.json
+
+
+00:00 ELAIS 1h [9, -43]
+      
+---------
+01:00
+YSE 550 [3, 17]
+YSE 600 [1, 24]
+YSE 448 [13, 3]
+
+02:00
+DEBASS 2021abmp_P1 [11 -38]
+DEBASS 2021zgf_P1 [26 -43]
+DEBASS 2021aafz_P1 [30 -44]
+YSE 296 [17, -19] 16min
+
+02:25 
+YSE 401 [40, -1] 20 min - replace 401.D with 401.D.2021aaqn.json
+S12  [42, 0] 22 min
+
+03:10 am
+  DEBASS 2021abko_P1 [31 23] 
+  YSE 505.A.2021zby [44 11] ** high priority **
+  YSE 403 [52, -4] 20 min 
+  DEBASS 2021zqo_P1 [44 -18] DONT SKIP!!
+  
+3:50 am
+  Shen C3 [52, -28] 7 min  
+  YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json) (*** This can be dropped if necessary!)
+
+4:15 am
+  DEBASS 2021abva_P1 [67 -32]
+  DEBASS 2021aazj_P1 [75 -16] 
+
+04:20
+  GRB210919A.json [80 1] 18 min ** high priority **
+
+4:40: YSE 257 [91, -26] (20 min)
+      DEBASS 2021aaga_P1 [85 -41]
+
+set the guider exposure time to 100ms for this crowded field
+5:05: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+*** stop DECaPSWest at 5:22 hard! otherwise we won't be able to to the rest of the targets ***
+
+5:22: 
+  DEBASS 2021aatq_P1 [114 -2] 
+  DEBASS 2021abiu_P1 [119 -2] 
+  DEBASS 2021abxh_P1 [141 -20]
+
+5:34 Eta Car i band [161 -60]
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.i.15min.json
+
+5:55: Sheppard asteroids
+
+6:05AM hard stop
+--------------
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+CDFS [52, -28] (15 min)
+YSE 353 [63, -11] (20 min)
+
+if necessary, can use these for more filler (but not high priority at all)
+DEBASS 2021zdx_P2 [46 -15] (4min)
+DEBASS 2021zfr_P2 [45 -15] (4min)
+DEBASS 2021aabw_P2 [83 -24] (4min)
+DEBASS 2021zsz_P2 [93 -14] (4min)

@@ -1,0 +1,7 @@
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ YSE                      0.2236    NaN         NaN 0.0000 0.0000 0.2132 0.0000
+ Miller_TRADE             2.3333    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ STANDARDS1               0.0000    NaN         NaN 0.0000 0.0000 0.0000 0.1703
+ TECHSETUP1               0.0000    NaN         NaN 0.0000 0.0000 0.0000 0.1667
+ UNKNOWN1                 4.2833    NaN         NaN 0.0000 0.1750 0.3622 0.0000
+ UNKNOWN2                 1.7681    NaN         NaN 0.0000 0.3521 0.0000 0.0000

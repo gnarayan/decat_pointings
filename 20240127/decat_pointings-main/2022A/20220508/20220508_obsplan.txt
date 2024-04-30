@@ -1,0 +1,92 @@
+MOON ILLUMINATION: 0.52
+UT -16 deg twilight: 2022-05-08T23:14:56.635 2022-05-09T10:04:48.188
+UT -15 deg twilight: 2022-05-08T23:10:13.863 2022-05-09T10:09:31.488
+UT -14 deg twilight: 2022-05-08T23:05:30.201 2022-05-09T10:14:15.341
+UT -12 deg twilight: 2022-05-08T22:56:01.481 2022-05-09T10:23:44.824
+UT -10 deg twilight: 2022-05-08T22:46:30.222 2022-05-09T10:33:16.897
+LOCAL -16 deg twilight: 05/08/2022,   19:14:56   06:04:48
+LOCAL -15 deg twilight: 05/08/2022,   19:10:13   06:09:31
+LOCAL -14 deg twilight: 05/08/2022,   19:05:30   06:14:15
+LOCAL -12 deg twilight: 05/08/2022,   18:56:01   06:23:44
+LOCAL -10 deg twilight: 05/08/2022,   18:46:30   06:33:16
+LOCAL night MIDPOINT: 05/09/2022,   00:39:52
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+
+### 19:05 
+Debass/everything/2022jmn_P1 [21 -43] 
+Shen SCVZ [90 -66] 12 min 
+
+etale.i.15min.json [160 -60] 15 min
+etale.r.15min.json [160 -60] 15 min
+
+Debass/everything/ 2022hqs_P2 [166 -12]
+
+DECaPSWest [116 -26] 30 min
+
+### 20:20
+YSE 415 [137 2] 17 min 
+YSE 365 [147 -9] 17 min 
+
+### 20:55
+COSMOS [150 2] 1.5h
+
+### 22:25
+YSE 418 [158 -1] 17 min
+
+YSE 525 [189 10] 33 min
+Debass/everything/ 2022hrs_P1 [190 10]
+
+### 23:25
+DESIRT_190_grz_1 [~195 7] (27 min)
+DESIRT_190_grz_2 (27 min)
+DESIRT_190_g (13 min)
+
+### 00:40
+
+AT2022cmc [204 33] 19 min
+
+YSE 423 [193 -2] 17 min  ### drop this one if necessary
+
+**** DEBASS/STATIC/ all three jsons and run them twice!!!!!!
+
+YSE 477 [214 3] 17 min 
+
+### 02:00
+DESIRT_G15_grz [~215 -1] (22 min)
+DESIRT_G15_g (6 min)
+
+
+!!! YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 02:55
+DESIRT_220_grz_1 [225 7] (27 min)
+DESIRT_220_grz_2 (27 min)
+DESIRT_220_g (13 min)
+YSE 376 [224 -8] 17 min 
+YSE 428 [228 -4] 17 min 
+
+Debass/everything/ 2022iem_P1 [261 6]
+
+Debass/everything/ 2022itd_P1 [273 11]
+
+### 04:45 start this field NO LATER than 5:10!!
+DECaPSEast [270 -29] 30 min
+
+
+Debass/everything/ 2022jmr_P2 [315 -23]
+
+YSE 440 [314 -4] 17 min
+YSE 544 [321 9] 17 min
+!!! YSE 494 [347 9] 17 min  #### ADD this if there is extra time!
+
+### 06:14 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard

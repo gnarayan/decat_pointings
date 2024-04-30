@@ -1,0 +1,38 @@
+[
+{
+  "expType": "object",
+  "object": "COSMOS_N673_focus",
+  "filter": "N673",
+  "RA": 149.51397,
+  "dec": 2.9926668,
+  "propid": "2020B-0201",
+  "expTime": 60
+},
+{
+  "expType": "object",
+  "object": "COSMOS_N673_R1.0_60",
+  "filter": "N673",
+  "RA": 149.51397,
+  "dec": 2.9926668,
+  "propid": "2020B-0201",
+  "expTime": 1200,
+},
+{
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_77",
+  "filter": "N673",
+  "RA": 151.55955,
+  "dec": 2.8405976,
+  "propid": "2020B-0201",
+  "expTime": 1200,
+ },
+ {
+  "expType": "object",
+  "object": "COSMOS_N673_R1.6_103",
+  "filter": "N673",
+  "RA": 148.68343,
+  "dec": 1.4367202,
+  "propid": "2020B-0201",
+  "expTime": 1200,
+ }
+]

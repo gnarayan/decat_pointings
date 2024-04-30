@@ -1,0 +1,32 @@
+[
+    {
+        "count": 1,
+        "filter": "g",
+        "exptime": 60.0,
+        "RA": 341.83233,
+        "dec": -29.1286,
+		"object": "DESIRT 330 20",
+		"program": "DESIRT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023B-735801",
+		"wait": "False",
+		"proposer": "Palmese Wang",
+		"propid": "2023B-735801"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 80.0,
+        "RA": 341.83233,
+        "dec": -29.1286,
+		"object": "DESIRT 330 20",
+		"program": "DESIRT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023B-735801",
+		"wait": "False",
+		"proposer": "Palmese Wang",
+		"propid": "2023B-735801"
+    }
+]

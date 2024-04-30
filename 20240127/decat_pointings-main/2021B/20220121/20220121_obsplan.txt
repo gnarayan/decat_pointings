@@ -1,0 +1,71 @@
+MOON ILLUMINATION: 0.83
+UT -16 deg twilight: 2022-01-22T01:07:19.764 2022-01-22T08:42:23.681
+UT -15 deg twilight: 2022-01-22T01:01:43.371 2022-01-22T08:47:59.785
+UT -14 deg twilight: 2022-01-22T00:56:09.292 2022-01-22T08:53:32.720
+UT -12 deg twilight: 2022-01-22T00:45:12.450 2022-01-22T09:04:29.717
+UT -10 deg twilight: 2022-01-22T00:34:27.211 2022-01-22T09:15:15.845
+LOCAL -16 deg twilight: 01/21/2022,   22:07:19   05:42:23
+LOCAL -15 deg twilight: 01/21/2022,   22:01:43   05:47:59
+LOCAL -14 deg twilight: 01/21/2022,   21:56:09   05:53:32
+LOCAL -12 deg twilight: 01/21/2022,   21:45:12   06:04:29
+LOCAL -10 deg twilight: 01/21/2022,   21:34:27   06:15:15
+LOCAL night MIDPOINT: 01/22/2022,   01:54:51
+
+
+2022 01 21     YSE353	0.83 illum	111 degr from obj
+2022 01 21         C3	0.83 illum	121 degr from obj
+2022 01 21     YSE257	0.83 illum	87 degr from obj
+2022 01 21 DECaPSWest	0.83 illum	65 degr from obj
+2022 01 21       SCVZ	0.83 illum	95 degr from obj
+2022 01 21     EtaCar	0.83 illum	70 degr from obj
+2022 01 21      eFEDS	0.83 illum	39 degr from obj
+2022 01 21     YSE415	0.83 illum	37 degr from obj
+2022 01 21     YSE365	0.83 illum	32 degr from obj
+2022 01 21     YSE418	0.83 illum	18 degr from obj
+2022 01 21     Cosmos	0.83 illum	24 degr from obj
+2022 01 21    2021gno	0.83 illum	11 degr from obj
+2022 01 21     YSE525	0.83 illum	14 degr from obj
+2022 01 21     2021zj	0.83 illum	20 degr from obj
+2022 01 21     YSE423	0.83 illum	23 degr from obj
+2022 01 21     YSE477	0.83 illum	41 degr from obj
+
+01:54:51
+YSE 353 [63, -11] 9 min 
+YSE 257 [91, -26] 18 min
+DEBASS EVERYTHING/2022qi_P1 [98 -17]
+DEBASS EVERYTHING/2021aglk_P1 [98 -36]
+
+02:40
+set the guider exposure time to 100ms for this crowded field
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+03:10
+Shen SCVZ [90,-66] 11 min
+
+03:20
+eFEDS [135, 1] 30  (6 day cadence)
+
+03:45
+YSE 618.C.21aggu [137,18] 3min  ** optional **
+YSE 2021agji [140,24] 3min ** optional **
+
+04:00
+YSE 415 [137, 1]  18 min
+YSE 365 [147, -9] 18 min
+
+04:45
+YSE 423 [193, -2] 25 min   *** less priority than YSE 477, so cut here if you can't do both! cut first the 'r' band exposures ***
+
+05:15 *** start this field at this time, stop previous fields if necessary!
+YSE 477 [214, 3] 35 min   
+
+05:53
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+EtaCar [161, -60] 30min
+jsons/2021B-0325_EtaCar_Rest/etale.iz.30min.json

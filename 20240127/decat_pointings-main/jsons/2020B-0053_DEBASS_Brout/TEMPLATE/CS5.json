@@ -1,0 +1,44 @@
+[
+    {
+        "count": 1,
+        "filter": "g",
+        "exptime": 50.0,
+        "RA": 46.10,
+        "dec": -20.44,
+        "object": "CS5",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "CS5",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 50.0,
+        "RA": 46.10,
+        "dec": -20.44,
+        "object": "CS5",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "CS5",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 50.0,
+        "RA": 46.10,
+        "dec": -20.44,
+        "object": "CS5",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "CS5",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

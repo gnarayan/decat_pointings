@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "CDFS",
+"filter": "g",
+"expTime": 270,
+"RA": "52.6500",
+"dec": "-28.1350",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "CDFS",
+"filter": "i",
+"expTime": 270,
+"RA": "52.6500",
+"dec": "-28.1350",
+"propid": "2021A-0275"
+}
+]

@@ -1,0 +1,8 @@
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DDF                      0.6417    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ DEBASS                   0.1771    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      0.8590    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ Drlica_TRADE             3.5014    NaN         NaN 0.0000 0.2333 0.0997 0.0000
+ STANDARDS1               0.0000    NaN         NaN 0.0000 0.0000 0.1506 0.0453
+ TECHSETUP1               0.0000    NaN         NaN 0.0000 0.0000 0.0000 0.1500
+ UNKNOWN1                 3.8917    NaN         NaN 0.0000 0.1750 0.2872 0.0000

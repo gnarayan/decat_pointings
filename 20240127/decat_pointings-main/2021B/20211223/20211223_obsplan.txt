@@ -1,0 +1,101 @@
+mjd 59572, date 20211223, Site CTIO, UT-offset 3 hr
+Current local time 17:01 -03     UT 20:01     SidTim 21:29
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     20:53 -03  23:53 UT   01:21   20 deg
+Eve. -10   21:34 -03  00:34 UT   02:02   30 deg  Zeropoint; standards
+Eve. -14   21:57 -03  00:57 UT   02:25   36 deg  Begin obstac
+Eve. -18   22:21 -03  01:21 UT   02:49   42 deg  Last chance standards
+Moonrise   00:19 -03  03:19 UT   04:47   72 deg
+Midpoint   01:42 -03  04:42 UT   06:10   92 deg
+Morn -18   05:03 -03  08:03 UT   09:31  143 deg  Begin astronomical twilight
+Morn -14   05:28 -03  08:28 UT   09:55  149 deg  End obstac; begin standards
+Morn -10   05:51 -03  08:51 UT   10:19  155 deg
+Sunrise    06:32 -03  09:32 UT   11:00  165 deg
+Moon position (deg): RA 152.8, Dec 17.6 Phase: 0.679
+
+
+ -10 degree twilight, the telescope observer on the montain will start the
+ pointing correction at that time.
+********  IMPORTANT!!!! ****** 
+The Asteroid fields are very far to the West, therefore it's good to check the
+pointing of the telescope at the beginning of the night to the West, so the
+telescope dome does not have to rotate much, but do not check the pointing at
+the fields as they are too far over for that. Pls tell this to telescope
+observer on the mountain!!! 
+***
+As soon the pointing correction is done, start the Asteroid fields:
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
+at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
+
+22:00
+DEBASS EVERYTHING/2021aglf_P1 [22 20]
+DEBASS EVERYTHING/2021agjd_P1 [12 14]
+YSE 448 [13, 3] 
+DEBASS EVERYTHING/2021aclv_P1 [14 -5]
+YSE 296 [17, -19] 16min!
+DEBASS EVERYTHING/2021agey_P1 [25 -15]
+DEBASS EVERYTHING/2021agbv_P2 [28 -14] <-- optional if time
+DEBASS EVERYTHING/2021aexp_P2 [24 -29] <-- optional if time
+DEBASS EVERYTHING/2021agle_P1 [31 -28]
+
+23:00
+elais_ddf_seq_A/B.json [9, -43] 1h
+
+00:00
+X123 [34, -4]  35 min
+YSE 401 [40, -1] 20 min
+
+01:00
+S12  [42, 0] 22 min  
+YSE 505.A.2021zby [44 11] 9 min ** high priority **
+DEBASS EVERYTHING/2021addd_P2 [48 5] <-- optional
+YSE 403 [52, -4] 18 min  
+DEBASS EVERYTHING/2021aexy_P1 [49 -23]
+
+
+02:00
+C3 [52, -28] 11 min
+YSE 353 [63, -11] 18 min 
+YSE 257 [91, -26] 18 min
+DEBASS EVERYTHING/2021aglk_P1 [98 -36]
+
+03:00
+set the guider exposure time to 100ms for this crowded field
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+03:30
+Shen SCVZ [90,-66] 11 min
+
+EtaCar SE [161, -60] 26 min
+jsons/2021B-0325_EtaCar_Rest/etale.i.SE.json
+
+eFEDS [135, 1] 30 
+
+04:05
+Cosmos [150,3] 25
+jsons/2019A-0065_SDSSV_Shen/COSMOS.json
+
+04:30
+DEBASS EVERYTHING/2021acnt_P2 [145 -28] <-- optional if time
+
+04:40 Try to get through these three targets if possible. 
+If that means dropping i bands and just getting g,r thats better than missing a full pointing
+  DEBASS STATIC/SP1_203-31.7.json 
+  DEBASS STATIC/SP2_199-31.7.json
+  DEBASS STATIC/SP3_196-34.5.json
+
+05:00
+* you can always do another set of Eta Car observations here in *** different *** filter 
+than the one already observed to fill time until -14deg
+
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+DEBASS EVERYTHING/2021adlt_P2 [68 6]
+DEBASS EVERYTHING/2021acnx_P2 [70 6]
+
+

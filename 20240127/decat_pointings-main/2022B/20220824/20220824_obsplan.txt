@@ -1,0 +1,65 @@
+MOON ILLUMINATION: 0.04
+UT -16 deg twilight: 2022-08-24T23:34:45.911 2022-08-25T09:55:48.868
+UT -15 deg twilight: 2022-08-24T23:30:07.674 2022-08-25T10:00:26.793
+UT -14 deg twilight: 2022-08-24T23:25:29.157 2022-08-25T10:05:04.894
+UT -12 deg twilight: 2022-08-24T23:16:11.531 2022-08-25T10:14:21.735
+UT -10 deg twilight: 2022-08-24T23:06:52.815 2022-08-25T10:23:39.606
+LOCAL -16 deg twilight: 08/24/2022,   19:34:45   05:55:48
+LOCAL -15 deg twilight: 08/24/2022,   19:30:07   06:00:26
+LOCAL -14 deg twilight: 08/24/2022,   19:25:29   06:05:04
+LOCAL -12 deg twilight: 08/24/2022,   19:16:11   06:14:21
+LOCAL -10 deg twilight: 08/24/2022,   19:06:52   06:23:39
+LOCAL night MIDPOINT: 08/25/2022,   00:45:17
+
+
+
+
+### 00:45
+DEBASS/EVERYTHING/2022rfn_P1 [287 -16] 3min
+DEBASS/EVERYTHING/2022ryd_P1 [299 2] 3min
+DEBASS/EVERYTHING/2022rky_P1 [319 -8] 3min
+DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_rz (40 min)
+DEBASS/EVERYTHING/2022qoa_P1 [334 -2] 4min
+
+## 01:50
+DEBASS/EVERYTHING/2022pdq_P1 [355 -9] 4min
+DESIRT_S82_2_g [~0 0] (13 min)
+DESIRT_S82_2_r (17 min)
+
+### 02:25
+elais_ddf_seq_A.json [8, -43] 30 min
+elais_ddf_seq_B.json [8, -43] 30 min
+
+### 03:25
+YSE 550 [4 18] 17 min 
+DEBASS/EVERYTHING/2022ppj_P1 [11 20] 4min
+## YSE 448 [16 3] 17 min 
+DEBASS/EVERYTHING/2022qke_P1 [17 -1] 4min
+## YSE 296 [17 -17] 14 min  
+DEBASS/EVERYTHING/2022rnu_P1 [25 -14] 4min
+
+### 03:50
+X123 [34, -4]  35 min 
+YSE401 [37 0] 17 min  
+
+### 04:45
+DEBASS/EVERYTHING/2022qwx_P1 [30 -20] (4min) 
+DEBASS/EVERYTHING/2022qsn_P1 [41 -18] (4min)
+
+### 04:55
+S1S2   [42, 0] 22 min
+YSE403 [50 -2] 17 min 
+
+### 05:35
+C3 [52, -28] 11 min    *** drop if necessary ***
+YSE353 [63 -10] 17 min *** do not drop ***
+
+### 06:05 slew to Asteroid fields at -14 deg twilight
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (17 min)
+DESIRT_50_z (50 -15) (23 min)

@@ -1,0 +1,41 @@
+all times in local time (+1h compared to EDT)
+
+01:35am
+
+2021yuj_P1 [299 -22]
+2021yzz_P1 [331 -19]
+2021zfs_P1 [323 5]
+2021zax_P1 [333 13]
+
+ELAIS [9, -43] 1h 
+2021zgf_P1 [26 -43]
+
+YSE 296 [17, -19] 16min
+
+
+X123 [34, -4]  35 min
+YSE 401 [40, -1] 16 min
+2021zdx_P1 [46 -15]
+
+
+C3 [52, -28] 7 min
+YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
+
+YSE 403 [52, -4] 20 min
+
+2021ypa_P2 [69 -13]
+2021ymn_P2 [78 -17]
+
+alfredo 3 exposures if time.
+
+5:25: SCVZ [90,-66] 11 min 	
+2021yyq [92 -44]
+5:35: DECaPSWest [116, -26] 0.5h 
+
+6:05AM hard stop
+--------------
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS: OBSERVE THESE FIELDS:
+YSE 353 [63, -11]
+YSE 257 [91, -26]

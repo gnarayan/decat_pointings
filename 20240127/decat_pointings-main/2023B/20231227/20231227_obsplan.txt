@@ -1,0 +1,94 @@
+MOON ILLUMINATION: 0.98
+UT -16 deg twilight: 2023-12-28T01:11:11.568 2023-12-28T08:17:53.195
+UT -15 deg twilight: 2023-12-28T01:05:10.219 2023-12-28T08:23:52.315
+UT -14 deg twilight: 2023-12-28T00:59:16.702 2023-12-28T08:29:47.306
+UT -12 deg twilight: 2023-12-28T00:47:39.397 2023-12-28T08:41:25.308
+UT -10 deg twilight: 2023-12-28T00:36:17.392 2023-12-28T08:52:45.462
+LOCAL -16 deg twilight: 12/27/2023,   22:11:11   05:17:53
+LOCAL -15 deg twilight: 12/27/2023,   22:05:10   05:23:52
+LOCAL -14 deg twilight: 12/27/2023,   21:59:16   05:29:47
+LOCAL -12 deg twilight: 12/27/2023,   21:47:39   05:41:25
+LOCAL -10 deg twilight: 12/27/2023,   21:36:17   05:52:45
+LOCAL night MIDPOINT: 12/28/2023,   01:44:32
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! after pointing ~21:40 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+!!! 01:30
+YSE 2023ver [57 0] (4 min)           
+### YSE 403 [50 -2] 17 min         		             
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+C3 [52, -28] 11 min 
+
+!!! 02:20
+YSE 2023zaz [60 -26]  4 min
+YSE 253 [67, -26] 17 min            
+YSE 353 [63 -10] 8 min                   
+
+!!! 02:49     
+DEBASS/EVERYTHING/2023zjm_P1 [80 5] (3min)
+DEBASS/EVERYTHING/2023yzu_P1 [81 -19] (3min)
+YSE 257 [85 -25] 8 min                        #### Skip exposures if behind schedule
+
+!!! 03:00
+### Block below Dec<=-30
+DEBASS/EVERYTHING/2023aajf_P1 [65 -51] (3min)
+Shen SCVZ [90 -66] 13 min 
+DEBASS/EVERYTHING/2023zce_P1 [141 -30] (3min)
+
+!!! 03:18
+etale.i.15min.json [160 -60] 15 min    
+etale.z.15min.json [160 -60] 15 min            #### Skip if behind schedule
+### YSE 412 [116 -2] 8 min                     
+DEBASS/EVERYTHING/2023ytn_P1 [130 -5] (3min)
+DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (3min)
+DEBASS/EVERYTHING/2023zax_P1 [145 7] (3min)
+DEBASS/EVERYTHING/2023aait_P1 [147 -14] (3min)
+
+!!! 04:00
+YSE 2023xqm [159 -27] (4 min)            ### high priority, don't skip!
+OMLApex.2312*.json [167 -25] (34 min)
+DESIRT_165_rz (165 -6) (43 min)         #### Skip if behind schedule
+DEBASS/EVERYTHING/2023aanh_P2 [175 -4] (3min) OPTIONAL
+YSE 2023fyq [186 12] 6 min              ### high priority, don't skip!
+
+!!! 05:29:47  -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_190_z (190 7) (23 min)
+DESIRT_190_r (190 7) (17 min)

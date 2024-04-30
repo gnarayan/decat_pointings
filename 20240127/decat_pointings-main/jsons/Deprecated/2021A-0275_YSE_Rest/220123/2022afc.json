@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2022afc",
+"filter": "g",
+"expTime": 30,
+"RA": "119.1852",
+"dec": "26.9723",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022afc",
+"filter": "r",
+"expTime": 30,
+"RA": "119.1852",
+"dec": "26.9723",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022afc",
+"filter": "i",
+"expTime": 30,
+"RA": "119.1852",
+"dec": "26.9723",
+"propid": "2021A-0275"
+}
+]

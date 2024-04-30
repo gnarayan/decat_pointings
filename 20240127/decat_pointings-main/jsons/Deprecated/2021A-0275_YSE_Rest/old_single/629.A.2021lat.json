@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 50.0,
+        "RA": 220.38288,
+        "dec": 24.21769,
+        "object": "629.A.2021lat",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021lat",
+        "wait": "False",
+        "propid": "2021A-0275"
+    },
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 50.0,
+        "RA": 220.38288,
+        "dec": 24.21769,
+        "object": "629.A.2021lat",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2021lat",
+        "wait": "False",
+        "propid": "2021A-0275"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "object": "DESIRT Arp 147",
+        "expTime": 50,
+        "RA": "47.142667",
+        "dec": "1.721583",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23B",
+        "wait": "False",
+        "propid": "2023B-735801",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT Arp"
+    },
+    {
+        "object": "DESIRT Arp 147",
+        "expTime": 70,
+        "RA": "47.142667",
+        "dec": "1.721583",
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23B",
+        "wait": "False",
+        "propid": "2023B-735801",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT Arp"
+    },
+    {
+        "object": "DESIRT Arp 147",
+        "expTime": 110,
+        "RA": "47.142667",
+        "dec": "1.721583",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23B",
+        "wait": "False",
+        "propid": "2023B-735801",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT Arp"
+    }
+]

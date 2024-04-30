@@ -1,0 +1,84 @@
+MOON ILLUMINATION: 0.12
+UT -16 deg twilight: 2023-02-23T00:37:33.849 2023-02-23T09:16:05.751
+UT -15 deg twilight: 2023-02-23T00:32:35.642 2023-02-23T09:21:04.402
+UT -14 deg twilight: 2023-02-23T00:27:38.226 2023-02-23T09:26:01.580
+UT -12 deg twilight: 2023-02-23T00:17:48.177 2023-02-23T09:35:51.852
+UT -10 deg twilight: 2023-02-23T00:08:03.061 2023-02-23T09:45:37.201
+LOCAL -16 deg twilight: 02/22/2023,   21:37:33   06:16:05
+LOCAL -15 deg twilight: 02/22/2023,   21:32:35   06:21:04
+LOCAL -14 deg twilight: 02/22/2023,   21:27:38   06:26:01
+LOCAL -12 deg twilight: 02/22/2023,   21:17:48   06:35:51
+LOCAL -10 deg twilight: 02/22/2023,   21:08:03   06:45:37
+LOCAL night MIDPOINT: 02/23/2023,   01:56:49
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them 									  ***
+*********************************************************
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+!!! 21:27:38
+YSE 2022abvt [22 -31] 2 min HST  HIGH PRIORITY
+C3 [52, -28] 11 min 
+YSE 2022adqz [56 -19] 2 min HST HIGH PRIORITY
+YSE 2022abom [55 -2] 2 min  HST HIGH PRIORITY
+### YSE 253 [67, -26] 8 min  
+YSE 353 [63 -10] 6 min     
+YSE 2023dk [78 -1] 2 min HST  HIGH PRIORITY
+
+!!! 21:52
+YSE 257 [85 -25] 8 min                  
+DEBASS/EVERYTHING/2023bgj_P1 [96 -38] (2min)
+Shen SCVZ [90 -66] 12 min            
+DEBASS/EVERYTHING/2023azu_P1 [111 -84] (2min)
+
+
+!!! 22:16
+### DECaPSWest A+B [116 -26] 30 min
+YSE 311 [123 -17] 8 min    
+YSE 412 [115 -2] 8 min 
+DEBASS/EVERYTHING/2023boc_P1 [116 8] (2 min)
+YSE 2022aajn [107 21] 2 min HST  	HIGH PRIORITY
+DEBASS/EVERYTHING/2023aoz_P1 [120 11] (2 min)
+DEBASS/EVERYTHING/2023bvw_P1 [122 11] (2 min)
+
+
+!!! 22:40
+eFEDS [129 1] 30 min           ### cut here if behind!!! ###
+DEBASS/EVERYTHING/2023bee_P1 [134 -3] (2min)
+YSE 2023nj [143 -5] (2 min) HST HIGH PRIORITY
+YSE 2023R [150 -5]  (2 min) HST
+
+!!! 23:16
+cosmos_ddf_seq_A, B, (NOT C!!!) [150 2] 1h  
+
+!!! 00:16
+YSE 2022adcf [156 9] (2 min) HST   
+YSE 2023jb [156 18] (2 min)  HST   
+DEBASS/EVERYTHING/2023bsa_P1 [165 9] (2 min)
+YSE 2023wl [169 1] (2 min) HST
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+
+!!! 01:20
+DOSC OMLApex.json [167 -25] (30 min)
+DEBASS/EVERYTHING/2023bhb_P1 [183 18] (2min)
+DEBASS/EVERYTHING/2023bpg_P1 [193 -15] (2min)
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (2min)
+
+finish at 01:56:49!!!
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DEBASS/EVERYTHING/2023alf_P1 [208 -12] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023aez_P1 [219 11] (2min) OPTIONAL
+(eDESIRT_165_g (14 min) IF EXTRA TIME

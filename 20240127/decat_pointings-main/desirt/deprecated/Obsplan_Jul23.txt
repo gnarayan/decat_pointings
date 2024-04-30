@@ -1,0 +1,120 @@
+### July 1	
+
+DESIRT_220_rz_bright [~220 8] (36 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min)
+DESIRT_330_i [332 -3]  (17 min) 
+DESIRT_S82_2_rz [~0 0] (30 min)
+DESIRT_S82_2_g [~0 0] (13 min)
+
+### July 3	
+
+DESIRT_220_rz [~220 8] (40 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min)
+DESIRT_S82_2_r [~0 0] (40 min)
+DESIRT_S82_2_iz [~0 0] (40 min)
+
+EXTRA TARGETS
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+
+### July 7
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gr [~220 8] (30 min)
+DESIRT_330_r [332 -3]  (17 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_50_grz (50 -15) (50 min)
+
+DESIRT_triple_rz (3 min) OPTIONAL
+
+### Jul 8
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_50_grz (50 -15) (50 min)
+
+### July 10	
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gr [~220 8] (30 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+DESIRT_330_z [332 -3]  (23 min) ## LAST 2 EXPOSURES OPTIONAL - REMOVE IF RUNNING BEHIND 
+DESIRT_S82_2_g [~0 0] (13 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+
+### July 13	
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_50_grz (50 -15) (50 min)
+
+### July 16	1st
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_220_gr [~220 8] (30 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+
+### July 19	
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (9 min)
+DESIRT_220_gz [~220 8] (37 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+DESIRT_330_z [332 -3]  (23 min) ## LAST 2 EXPOSURES OPTIONAL - REMOVE IF RUNNING BEHIND 
+DESIRT_S82_2_g [~0 0] (13 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+
+
+### July 22	1st
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min) 
+DESIRT_220_gr [~220 8] (30 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+
+### July 25	
+
+DESIRT_220_rz [~220 8] (40 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+DESIRT_330_z [332 -3]  (23 min)
+DESIRT_S82_2_g [~0 0] (13 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+DESIRT_330_g [332 -3]  (13 min) SECOND HALF OF EXPOSURES OPTIONAL
+
+### July 28	
+
+DESIRT_220_rz [~220 8] (40 min)
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_S82_2_g [~0 0] (13 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+DESIRT_IC230724 [32 -1] (8 min)
+
+### July 31	
+
+DESIRT_220_rz [~220 8] (40 min)
+DESIRT_330_iz_short [332 -3]  (30 min)
+DESIRT_S82_rz (27 min) # LAST r+z expsoure OPTIONAL (+~3 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+DESIRT_IC230724 [32 -1] (7 min) # DELETE G BAND POINTING FROM QUEUE

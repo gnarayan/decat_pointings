@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "618.C.21aggu",
+"filter": "g",
+"expTime": 20,
+"RA": "137.7346",
+"dec": "18.0364",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "618.C.21aggu",
+"filter": "r",
+"expTime": 20,
+"RA": "137.7346",
+"dec": "18.0364",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "618.C.21aggu",
+"filter": "i",
+"expTime": 20,
+"RA": "137.7346",
+"dec": "18.0364",
+"propid": "2021A-0275"
+}
+]

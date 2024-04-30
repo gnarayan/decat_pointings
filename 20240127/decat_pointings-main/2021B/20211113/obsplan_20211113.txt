@@ -1,0 +1,59 @@
+UT -16 deg twilight: 2021-11-14T00:34:51.944 2021-11-14T08:20:10.008
+UT -14 deg twilight: 2021-11-14T00:23:56.857 2021-11-14T08:31:04.915
+UT -12 deg twilight: 2021-11-14T00:13:13.009 2021-11-14T08:41:48.966
+UT -10 deg twilight: 2021-11-14T00:02:39.074 2021-11-14T08:52:23.263
+LOCAL -16 deg twilight: 11/13/2021,   21:34:51   05:20:10
+LOCAL -14 deg twilight: 11/13/2021,   21:23:56   05:31:04
+LOCAL -12 deg twilight: 11/13/2021,   21:13:13   05:41:48
+LOCAL -10 deg twilight: 11/13/2021,   21:02:39   05:52:23
+LOCAL night MIDPOINT: 11/14/2021,   01:27:30
+
+
+01:27 ELAIS 1h [9, -43]
+      DEBASS 2021abmp_P1 [11 -38]
+
+02:36
+    YSE 296 [17, -19] 8min!
+
+02:45 am
+  S12  [42, 0] 22 min   
+  YSE 505.A.2021zby [44 11] ** high priority **
+  DEBASS 2021addd_P2 [48 5]
+
+
+03:15 am
+  DEBASS 2021adlt_P1 [68 6]
+  YSE 403 [52, -4] 18 min  
+  C3 [52, -28] 11 min
+  DEBASS 2021aefx_P1 [64 -54]
+
+03:55 am 
+  YSE 257 [91, -26] 18 min
+
+
+set the guider exposure time to 100ms for this crowded field
+04:15 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+
+04:45 Shen SCVZ [90,-66] 11 min
+
+04:55 Eta Car: r band and i band, each is 15 min, so in total 30 min!
+etale.r.15min.json [160 -60]
+etale.i.15min.json
+
+05:25 #these are high priority targets so please try to fit in before -12
+DEBASS 2021adlz_P1 [157 11]
+DEBASS 2021adoz_P1 [125 7]
+DEBASS 2021adlv_P1 [127 -4]
+
+*** extra time *** put in YSE 353 [63, -11] 18 min if possible. 
+
+--------------
+
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+YSE 353 [63, -11] 18 min
+CDFS g,r [52, -28] (15 min)

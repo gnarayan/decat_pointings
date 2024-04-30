@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 50.0,
+		"RA": 211.943270,
+		"dec": -39.626870,
+		"object": "181.A 2021ltk",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021ltk",
+		"wait": "False",
+		"propid": "2021A-0275"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 50.0,
+		"RA": 211.943270,
+		"dec": -39.626870,
+		"object": "181.A 2021ltk",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2021ltk",
+		"wait": "False",
+		"propid": "2021A-0275"
+	}
+]

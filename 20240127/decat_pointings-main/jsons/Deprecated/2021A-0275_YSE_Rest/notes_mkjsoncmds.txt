@@ -1,0 +1,1900 @@
+mkjson_yse_nofilterswitch.py  -f g,i  448 296 401 403 257 353 525 -d 220102
+mkjson_yse_nofilterswitch.py  -f g,r,i 418.D.21agfq 618.C.21aggu -e 20 -d 220102
+mkjson_yse_nofilterswitch.py  -f g,i  525 -d 220102 -e 40
+
+cp obsplan_halfnight.txt 20220105/20220105_obsplan.txt
+git add 20220105/20220105_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 353 -d 220105
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji 418.D.21agfq 618.C.21aggu -e 20 -d 220105
+mkjson_yse_nofilterswitch.py  -f g,r  525 -d 220105 -e 40
+git add 220105
+git add 220105/*.json
+
+cp obsplan_halfnight.txt 20220108/20220108_obsplan.txt
+subl 20220108/20220108_obsplan.txt
+git add 20220108/20220108_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  353 -d 220108
+mkjson_yse_nofilterswitch.py  -f g,i  257  -d 220108
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji 418.D.21agfq 618.C.21aggu -e 20 -d 220108
+mkjson_yse_nofilterswitch.py  -f g,i  525 -d 220108 -e 40
+git add 220108
+git add 220108/*.json
+
+cp obsplan_fullnight.txt 20220112/20220112_obsplan.txt
+subl 20220112/20220112_obsplan.txt
+git add 20220112/20220112_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  448 -d 220112
+mkjson_yse_nofilterswitch.py  -f g,r  296 -d 220112
+mkjson_yse_nofilterswitch.py  -f i,z  401 -d 220112
+mkjson_yse_nofilterswitch.py  -f z  403  -d 220112
+mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220112
+
+mkjson_yse_nofilterswitch.py  -f r,i  353 -d 220112
+mkjson_yse_nofilterswitch.py  -f g,r  257  -d 220112
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji 418.D.21agfq 618.C.21aggu -e 20 -d 220112
+mkjson_yse_nofilterswitch.py  -f g,r  525 -d 220112 -e 40
+git add 220112
+git add 220112/*.json
+
+
+cp obsplan_fullnight.txt 20220114/20220114_obsplan.txt
+subl 20220114/20220114_obsplan.txt
+git add 20220114/20220114_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  448 296 401 403 353 257 525 -d 220114
+mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220114
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji 418.D.21agfq 618.C.21aggu -e 20 -d 220114
+git add 220114
+git add 220114/*.json
+
+cp obsplan_halfnight.txt 20220115/20220115_obsplan.txt
+subl 20220115/20220115_obsplan.txt
+git add 20220115/20220115_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 220115
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220115
+#mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220115
+mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji 418.D.21agfq 618.C.21aggu -e 20 -d 220115
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021gno -e 100,200,200 -d 220115
+git add 220115
+git add 220115/*.json
+
+cp obsplan_halfnight.txt 20220116/20220116_obsplan.txt
+subl 20220116/20220116_obsplan.txt
+git add 20220116/20220116_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 220116
+mkjson_yse_nofilterswitch.py  -f g,i    525 -d 220116
+mkjson_yse_nofilterswitch.py  -f r,i    418 365 -d 220116
+mkjson_yse_nofilterswitch.py  -f r,i,z  418.D.21agfq  -e 20 -d 220116
+mkjson_yse_nofilterswitch.py  -f r,i,z  2021zj  -e 150 -d 220116
+git add 220116
+git add 220116/*.json
+
+cp obsplan_fullnight.txt 20220117/20220117_obsplan.txt
+subl 20220117/20220117_obsplan.txt
+git add 20220117/20220117_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  448 296 401 403  -d 220117
+mkjson_yse_nofilterswitch.py  -f r,i  353 257 525 -d 220117
+mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220117
+mkjson_yse_nofilterswitch.py  -f r,i,z 418.D.21agfq 618.C.21aggu -e 20 -d 220117
+mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji -e 30 -d 220117
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ys -e 20 -d 220117
+
+
+git add 220117
+git add 220117/*.json
+
+cp obsplan_fullnight.txt 20220120/20220120_obsplan.txt
+subl 20220120/20220120_obsplan.txt
+git add 20220120/20220120_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  403  -d 220120
+mkjson_yse_nofilterswitch.py  -f g,i  353 257 -d 220120
+mkjson_yse_nofilterswitch.py  -f i,z  415 365 -d 220120
+mkjson_yse_nofilterswitch.py  -f i,z  525 -d 220120
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  477 -d 220120
+mkjson_yse_nofilterswitch.py  -f r,i,z  423 -d 220120
+mkjson_yse_nofilterswitch.py  -f g,r,i  505.A.2021zby  -e 100 -d 220120
+mkjson_yse_nofilterswitch.py  -f r,i,z 418.D.21agfq 618.C.21aggu -e 20 -d 220120
+mkjson_yse_nofilterswitch.py  -f r,i,z 2021agji -e 30 -d 220120
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021zny -e 50 -d 220120
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ys -e 20 -d 220120
+mkjson_yse_nofilterswitch.py  -f r,i,z  2021zj  -e 150 -d 220120
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022aau -e 20 -d 220120
+mkjson_yse_nofilterswitch.py  -f r,i  grb211227A  -e 100 -d 220120
+
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zi  -e 20 -d 220120
+
+git add 220120
+git add 220120/*.json
+
+cp obsplan_halfnight.txt 20220121/20220121_obsplan.txt
+subl 20220121/20220121_obsplan.txt
+git add 20220121/20220121_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g   353   -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 220121
+mkjson_yse_nofilterswitch.py  -f i,z  415 365 -d 220121
+#mkjson_yse_nofilterswitch.py  -f g,r    525 -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r,i    618.C.21aggu 2021agji -e 20 -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  477 -d 220121
+mkjson_yse_nofilterswitch.py  -f r,i,z  423 -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zi  -e 8 -d 220121
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022aal  -e 20 -d 220121
+
+git add 220121
+git add 220121/*.json
+
+cp obsplan_halfnight.txt 20220122/20220122_obsplan.txt
+subl 20220122/20220122_obsplan.txt
+git add 20220122/20220122_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r   353   -d 2201212
+mkjson_yse_nofilterswitch.py  -f g,i    257  -d 220122
+mkjson_yse_nofilterswitch.py  -f r,i  415 365 -d 220122
+mkjson_yse_nofilterswitch.py  -f z  418 -d 220122
+mkjson_yse_nofilterswitch.py  -f g,r,i   618.C.21aggu -e 30 -d 220122
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji -e 30 -d 220122
+mkjson_yse_nofilterswitch.py  -f i,z  477 -d 220122
+git add 220122
+git add 220122/*.json
+
+
+
+cp obsplan_halfnight.txt 20220123/20220123_obsplan.txt
+subl 20220123/20220123_obsplan.txt
+git add 20220123/20220123_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  403  -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r  353 257 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r  415 365 -d 220123
+mkjson_yse_nofilterswitch.py  -f r,i  418 -d 220123
+mkjson_yse_nofilterswitch.py  -f z  525 -d 220123
+mkjson_yse_nofilterswitch.py  -f z  477 -d 220123
+
+mkjson_yse_nofilterswitch.py  -f g,r,i 505.A.2021zby  -e 100 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 618.C.21aggu -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021agji -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021zny -e 50 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022afc -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022ys -e 20 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022zi  -e 50 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022aal  -e 70 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022aau  -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022afc -e 30 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2021zj  -e 200 -d 220123
+mkjson_yse_nofilterswitch.py  -f g,r,i 2022zj -e 60 -d 220123
+
+
+YSE 2022aal [65, -66] 5 min
+YSE 2022zi [90, -58] 4 min
+YSE 2021zj [169, 29] 12 min
+YSE 2022zj [106, -71] 4 min
+
+git add 220123
+git add 220123/*.json
+
+
+cp obsplan_halfnight.txt 20220420/20220420_obsplan.txt
+subl 20220420/20220420_obsplan.txt
+git add 20220420/20220420_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 415 365 418 525  -d 220420
+mkjson_yse_nofilterswitch.py  -f g,i  423 477 632 583 531 494 -d 220420
+mkjson_yse_nofilterswitch.py  -f r,i  376 428 440 544   -d 220420
+
+cp obsplan_fullnight.txt 20220423/20220423_obsplan.txt
+subl 20220423/20220423_obsplan.txt
+git add 20220423/20220423_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  257 415 365 418 525  -d 220423
+mkjson_yse_nofilterswitch.py  -f g,r  423 477 632 583 531 494 376 428 -d 220423
+mkjson_yse_nofilterswitch.py  -f i,z  440 544   -d 220423
+git add 220423
+git add 220423/*.json
+
+mkdir 20220426
+cp obsplan_fullnight.txt 20220426/20220426_obsplan.txt
+subl 20220426/20220426_obsplan.txt
+git add 20220426/20220426_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 415 365 418 525  -d 220426
+mkjson_yse_nofilterswitch.py  -f g,i  423 477 632 583 531 494 376 428 -d 220426
+mkjson_yse_nofilterswitch.py  -f r,i  440 544   -d 220426
+git add 220426
+git add 220426/*.json
+
+mkdir 20220429
+cp obsplan_fullnight.txt 20220429/20220429_obsplan.txt
+subl 20220429/20220429_obsplan.txt
+git add 20220429/20220429_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 415 365 418 525  -d 220429
+mkjson_yse_nofilterswitch.py  -f g,r  423 477 632 583 531 494 376 428 -d 220429
+mkjson_yse_nofilterswitch.py  -f g,r  440 544   -d 220429
+git add 220429
+git add 220429/*.json
+
+mkdir 20220502
+cp obsplan_fullnight.txt 20220502/20220502_obsplan.txt
+subl 20220502/20220502_obsplan.txt
+git add 20220502/20220502_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  257 415 365 418 525  -d 220502
+mkjson_yse_nofilterswitch.py  -f g,i  423 477 632 583 531 494 376 428 -d 220502
+mkjson_yse_nofilterswitch.py  -f g,i  440 544   -d 220502
+git add 220502
+git add 220502/*.json
+
+mkdir 20220505
+cp obsplan_fullnight.txt 20220505/20220505_obsplan.txt
+subl 20220505/20220505_obsplan.txt
+git add 20220505/20220505_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  257 415 365 418 525  -d 220505
+mkjson_yse_nofilterswitch.py  -f g,r  423 477 632 583 531 494 376 428 -d 220505
+mkjson_yse_nofilterswitch.py  -f g,r  440 544   -d 220505
+git add 220505
+git add 220505/*.json
+
+mkdir 20220508
+cp obsplan_fullnight.txt 20220508/20220508_obsplan.txt
+subl 20220508/20220508_obsplan.txt
+git add 20220508/20220508_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  257 365 525  -d 220508
+mkjson_yse_nofilterswitch.py  -f i,z  418 415  -d 220508
+mkjson_yse_nofilterswitch.py  -f g,i  423 477 632 583 531 494 376 428 -d 220508
+mkjson_yse_nofilterswitch.py  -f g,i  440 544   -d 220508
+git add 220508
+git add 220508/*.json
+
+mkdir 20220511
+cp obsplan_fullnight.txt 20220511/20220511_obsplan.txt
+subl 20220511/20220511_obsplan.txt
+git add 20220511/20220511_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r 257   -d 220511
+mkjson_yse_nofilterswitch.py  -f r,i  365 525 415  -d 220511
+mkjson_yse_nofilterswitch.py  -f i,z  418 423  -d 220511
+mkjson_yse_nofilterswitch.py  -f r,i  477 632 583 531  376 428 -d 220511
+mkjson_yse_nofilterswitch.py  -f g,r  440 544 494  -d 220511
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220511
+git add 220511
+git add 220511/*.json
+
+mkdir 20220514
+cp obsplan_fullnight.txt 20220514/20220514_obsplan.txt
+subl 20220514/20220514_obsplan.txt
+git add 20220514/20220514_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r 257   -d 220514
+mkjson_yse_nofilterswitch.py  -f g,r  365 415 418 525 -d 220514
+mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220514
+mkjson_yse_nofilterswitch.py  -f i,z  477 632 583 531  376 428 -d 220514
+mkjson_yse_nofilterswitch.py  -f g,i  440 544 494  -d 220514
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220514 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022jli  -d 220514 -e 2
+git add 220514
+git add 220514/*.json
+
+mkdir 20220517
+cp obsplan_fullnight.txt 20220517/20220517_obsplan.txt
+subl 20220517/20220517_obsplan.txt
+git add 20220517/20220517_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  365  415 418 525 -d 220517
+mkjson_yse_nofilterswitch.py  -f g,r   423 477 -d 220517
+mkjson_yse_nofilterswitch.py  -f r,i   632 583 531  
+mkjson_yse_nofilterswitch.py  -f r,i   376 428 440 -d 220517
+mkjson_yse_nofilterswitch.py  -f g,r   544 494 296 448 -d 220517
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220517 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220517 -e 20,2,2,2,2,10
+git add 220517
+git add 220517/*.json
+
+mkdir 20220520
+cp obsplan_fullnight.txt 20220520/20220520_obsplan.txt
+subl 20220520/20220520_obsplan.txt
+git add 20220520/20220520_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220520
+mkjson_yse_nofilterswitch.py  -f g,i   423 477 -d 220520
+mkjson_yse_nofilterswitch.py  -f g,r   632 583 531  
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 220520
+mkjson_yse_nofilterswitch.py  -f i,z   440   -d 220520
+mkjson_yse_nofilterswitch.py  -f r,i 544 494   -d 220520
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 -d 220520
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220520 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220520 -e 2,2,2,2,10
+git add 220520
+git add 220520/*.json
+
+mkdir 20220523
+cp obsplan_fullnight.txt 20220523/20220523_obsplan.txt
+subl 20220523/20220523_obsplan.txt
+git add 20220523/20220523_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  365  415 418 525 -d 220523
+mkjson_yse_nofilterswitch.py  -f g,r   423 477 -d 220523
+mkjson_yse_nofilterswitch.py  -f g,i   632 583 531  
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220523
+mkjson_yse_nofilterswitch.py  -f r,i   440   -d 220523
+mkjson_yse_nofilterswitch.py  -f i,z 544 494   -d 220523
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 -d 220523
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220523 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220523 -e 2,2,2,2,10
+git add 220523
+git add 220523/*.json
+
+mkdir 20220526
+cp obsplan_fullnight.txt 20220526/20220526_obsplan.txt
+subl 20220526/20220526_obsplan.txt
+git add 20220526/20220526_obsplan.txt
+#mkjson_yse_nofilterswitch.py  -f g,i  365  415 418 525 -d 220526
+mkjson_yse_nofilterswitch.py  -f g,i   423 477 -d 220526
+mkjson_yse_nofilterswitch.py  -f g,r   632 583 531  
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 220526
+
+mkjson_yse_nofilterswitch.py  -f g,r   440   -d 220526
+mkjson_yse_nofilterswitch.py  -f g,r 544 494   -d 220526
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 -d 220526
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220526 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220526 -e 20,2,2,2,2,10
+git add 220526
+git add 220526/*.json
+
+mkdir 20220529
+cp obsplan_fullnight.txt 20220529/20220529_obsplan.txt
+subl 20220529/20220529_obsplan.txt
+git add 20220529/20220529_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220529
+mkjson_yse_nofilterswitch.py  -f g,r   423 477 -d 220529
+mkjson_yse_nofilterswitch.py  -f g,r   632 583 531  
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220529
+mkjson_yse_nofilterswitch.py  -f g,r   440   -d 220529
+mkjson_yse_nofilterswitch.py  -f g,r 544 494   -d 220529
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 -d 220529
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220529 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220529 -e 20,2,2,2,2,10
+git add 220529
+git add 220529/*.json
+
+mkdir 20220601
+cp obsplan_fullnight.txt 20220601/20220601_obsplan.txt
+subl 20220601/20220601_obsplan.txt
+git add 20220601/20220601_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220601
+mkjson_yse_nofilterswitch.py  -f g,r   423 477 -d 220601
+mkjson_yse_nofilterswitch.py  -f g,r   632 583 531  
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 220601
+mkjson_yse_nofilterswitch.py  -f g,i   440   -d 220601
+mkjson_yse_nofilterswitch.py  -f g,i 544 494   -d 220601
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 -d 220601
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220601 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220601 -e 20,2,2,2,2,10
+git add 220601
+git add 220601/*.json
+
+mkdir 20220607
+cp obsplan_fullnight.txt 20220607/20220607_obsplan.txt
+subl 20220607/20220607_obsplan.txt
+git add 20220607/20220607_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z  365  415 418 525 -d 220607
+mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220607
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531  
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 220607
+mkjson_yse_nofilterswitch.py  -f g,i   440   -d 220607
+mkjson_yse_nofilterswitch.py  -f g,i 544 494   -d 220607
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220607
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220607 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220607 -e 20,2,2,2,2,10
+git add 220607
+git add 220607/*.json
+
+
+mkdir 20220608
+cp obsplan_fullnight.txt 20220608/20220608_obsplan.txt
+subl 20220608/20220608_obsplan.txt
+git add 20220608/20220608_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z  365  415 418 525 -d 220608
+mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220608
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531  
+mkjson_yse_nofilterswitch.py  -f r,i   376 428  -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r   440   -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r   544 494   -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220608
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220608 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220608 -e 20,2,2,2,2,10
+git add 220608
+git add 220608/*.json
+
+mkdir 20220610
+cp obsplan_fullnight.txt 20220610/20220610_obsplan.txt
+subl 20220610/20220610_obsplan.txt
+git add 20220610/20220610_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z  365  415 418 525 -d 220610
+mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220610
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531  
+mkjson_yse_nofilterswitch.py  -f r,i   376 428  -d 220610
+mkjson_yse_nofilterswitch.py  -f g,i   440   -d 220610
+mkjson_yse_nofilterswitch.py  -f g,i   544 494   -d 220610
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220610
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220610 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220610 -e 20,2,2,2,2,10
+git add 220610
+git add 220610/*.json
+
+mkdir 20220611
+cp obsplan_fullnight.txt 20220611/20220611_obsplan.txt
+subl 20220611/20220611_obsplan.txt
+git add 20220611/20220611_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z  365  415 418 525 -d 220611
+mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220611
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531  
+mkjson_yse_nofilterswitch.py  -f r,i   376 428  -d 220611
+mkjson_yse_nofilterswitch.py  -f g,r   440   -d 220611
+mkjson_yse_nofilterswitch.py  -f g,r   544 494   -d 220611
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220611
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220611 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220611 -e 20,2,2,2,2,10
+git add 220611
+git add 220611/*.json
+
+mkdir 20220612
+cp obsplan_fullnight.txt 20220612/20220612_obsplan.txt
+subl 20220612/20220612_obsplan.txt
+git add 20220612/20220612_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z  365  415 418 525 -d 220612
+mkjson_yse_nofilterswitch.py  -f i,z   423  -d 220612
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531   -d 220612
+mkjson_yse_nofilterswitch.py  -f z   376 428  -d 220612
+mkjson_yse_nofilterswitch.py  -f g,i   440   -d 220612
+mkjson_yse_nofilterswitch.py  -f g,i   544 494   -d 220612
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220612
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220612 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220612 -e 20,2,2,2,2,10
+git add 220612
+git add 220612/*.json
+
+mkdir 20220613
+cp obsplan_fullnight.txt 20220613/20220613_obsplan.txt
+subl 20220613/20220613_obsplan.txt
+git add 20220613/20220613_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220613
+mkjson_yse_nofilterswitch.py  -f i   376 428  -d 220613
+mkjson_yse_nofilterswitch.py  -f r   440   -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r   544 494   -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220613
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220613 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220613 -e 20,2,2,2,2,10
+git add 220613
+git add 220613/*.json
+
+mkdir 20220615
+cp obsplan_fullnight.txt 20220615/20220615_obsplan.txt
+subl 20220615/20220615_obsplan.txt
+git add 20220615/20220615_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220615
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220615
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220615
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220615
+mkjson_yse_nofilterswitch.py  -f i   440   -d 220615
+mkjson_yse_nofilterswitch.py  -f r,i   544 494   -d 220615
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220615
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220615 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220615 -e 2,2,2,2,10
+git add 220615
+git add 220615/*.json
+
+mkdir 20220617
+cp obsplan_fullnight.txt 20220617/20220617_obsplan.txt
+subl 20220617/20220617_obsplan.txt
+git add 20220617/20220617_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220617
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220617
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220617
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220617
+mkjson_yse_nofilterswitch.py  -f g,i   440   -d 220617
+mkjson_yse_nofilterswitch.py  -f i,z   544 494   -d 220617
+mkjson_yse_nofilterswitch.py  -f r,i   296 448 550 -d 220617
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220617 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220617 -e 2,2,2,2,10
+git add 220617
+git add 220617/*.json
+
+mkdir 20220618
+cp obsplan_fullnight.txt 20220618/20220618_obsplan.txt
+subl 20220618/20220618_obsplan.txt
+git add 20220618/20220618_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220618
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220618
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220618
+mkjson_yse_nofilterswitch.py  -f i   376 428  -d 220618
+mkjson_yse_nofilterswitch.py  -f i   440   -d 220618
+mkjson_yse_nofilterswitch.py  -f i,z   544  -d 220618
+mkjson_yse_nofilterswitch.py  -f z   494   -d 220618
+mkjson_yse_nofilterswitch.py  -f r,i   296 448 550 -d 220618
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220618 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220618 -e 2,2,2,2,10
+git add 220618
+git add 220618/*.json
+
+mkdir 20220619
+cp obsplan_fullnight.txt 20220619/20220619_obsplan.txt
+subl 20220619/20220619_obsplan.txt
+git add 20220619/20220619_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220619
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220619
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220619
+mkjson_yse_nofilterswitch.py  -f i   376 428  -d 220619
+mkjson_yse_nofilterswitch.py  -f g,r   440   -d 220619
+mkjson_yse_nofilterswitch.py  -f g,r   544  -d 220619
+mkjson_yse_nofilterswitch.py  -f i   494   -d 220619
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 -d 220619
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220619 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220619 -e 20,2,2,2,2,10
+git add 220619
+git add 220619/*.json
+
+mkdir 20220621
+cp obsplan_fullnight.txt 20220621/20220621_obsplan.txt
+subl 20220621/20220621_obsplan.txt
+git add 20220621/20220621_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220621
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220621
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220621
+mkjson_yse_nofilterswitch.py  -f g,r  376 428  -d 220621
+mkjson_yse_nofilterswitch.py  -f r,i   440 544   494   -d 220621
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 -d 220621
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220621 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220621 -e 20,2,2,2,2,10
+git add 220621
+git add 220621/*.json
+
+mkdir 20220624
+cp obsplan_fullnight.txt 20220624/20220624_obsplan.txt
+subl 20220624/20220624_obsplan.txt
+git add 20220624/20220624_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220624
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220624
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220624
+mkjson_yse_nofilterswitch.py  -f g,r  376 428  -d 220624
+mkjson_yse_nofilterswitch.py  -f g,r   440 544   494   -d 220624
+mkjson_yse_nofilterswitch.py  -f r,i   296 448 550 -d 220624
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220624 -e 15
+mkjson_yse_nofilterswitch.py  -f u,g,r,i,z,Y  2022jli  -d 220624 -e 20,2,2,2,2,10
+git add 220624
+git add 220624/*.json
+
+mkdir 20220627
+cp obsplan_fullnight.txt 20220627/20220627_obsplan.txt
+subl 20220627/20220627_obsplan.txt
+git add 20220627/20220627_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  365  415 418 525 -d 220627
+mkjson_yse_nofilterswitch.py  -f g,i   423  -d 220627
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531   -d 220627
+mkjson_yse_nofilterswitch.py  -f g,i  376 428  -d 220627
+mkjson_yse_nofilterswitch.py  -f g,i   440 544   494   -d 220627
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220627
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220627 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220627 -e 2,2,2,2,10
+git add 220627
+git add 220627/*.json
+
+mkdir 20220630
+cp obsplan_fullnight.txt 20220630/20220630_obsplan.txt
+subl 20220630/20220630_obsplan.txt
+git add 20220630/20220630_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  365  415 418 525 -d 220630
+mkjson_yse_nofilterswitch.py  -f g,r   423  -d 220630
+mkjson_yse_nofilterswitch.py  -f g,r   477 632 583 531   -d 220630
+mkjson_yse_nofilterswitch.py  -f g,r  376 428  -d 220630
+mkjson_yse_nofilterswitch.py  -f g,r   440 544   494   -d 220630
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220630
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220630 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220630 -e 2,2,2,2,10
+git add 220630
+git add 220630/*.json
+
+mkdir 20220703
+cp obsplan_fullnight.txt 20220703/20220703_obsplan.txt
+subl 20220703/20220703_obsplan.txt
+git add 20220703/20220703_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  365  415 418 525 -d 220703
+mkjson_yse_nofilterswitch.py  -f g,i   423  -d 220703
+mkjson_yse_nofilterswitch.py  -f g,i   477 632 583 531   -d 220703
+mkjson_yse_nofilterswitch.py  -f g,i  376 428  -d 220703
+mkjson_yse_nofilterswitch.py  -f g,i   440 544   494   -d 220703
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220703
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220703 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220703 -e 2,2,2,2,10
+git add 220703
+git add 220703/*.json
+
+mkdir 20220706
+cp obsplan_fullnight.txt 20220706/20220706_obsplan.txt
+subl 20220706/20220706_obsplan.txt
+git add 20220706/20220706_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f z   525 -d 220706
+mkjson_yse_nofilterswitch.py  -f i,z   477    -d 220706
+mkjson_yse_nofilterswitch.py  -f r,i  632 583 531   -d 220706
+mkjson_yse_nofilterswitch.py  -f i,z  376 428  -d 220706
+mkjson_yse_nofilterswitch.py  -f g,r   440 544   494   -d 220706
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220706
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220706 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220706 -e 2,2,2,2,10
+git add 220706
+git add 220706/*.json
+
+mkdir 20220713
+cp obsplan_fullnight.txt 20220713/20220713_obsplan.txt
+subl 20220713/20220713_obsplan.txt
+git add 20220713/20220713_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   525 -d 220713
+mkjson_yse_nofilterswitch.py  -f g,i   477    -d 220713
+mkjson_yse_nofilterswitch.py  -f g,i  632 583 531   -d 220713
+mkjson_yse_nofilterswitch.py  -f g,i  376 428  -d 220713
+mkjson_yse_nofilterswitch.py  -f z   440  -d 220713
+mkjson_yse_nofilterswitch.py  -f i,z 544   494   -d 220713
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220713
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220713 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220713 -e 2,2,2,2,10
+git add 220713
+git add 220713/*.json
+
+mkdir 20220802
+cp obsplan_fullnight.txt 20220802/20220802_obsplan.txt
+subl 20220802/20220802_obsplan.txt
+git add 20220802/20220802_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f z   525 -d 220802
+mkjson_yse_nofilterswitch.py  -f i,z   477    -d 220802
+mkjson_yse_nofilterswitch.py  -f r,i  632 583 531   -d 220802
+mkjson_yse_nofilterswitch.py  -f r,i  376 428  -d 220802
+mkjson_yse_nofilterswitch.py  -f g,r   440  -d 220802
+mkjson_yse_nofilterswitch.py  -f g,r 544   494   -d 220802
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220802
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220802 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220802 -e 2,2,2,2,10
+git add 220802
+git add 220802/*.json
+
+mkdir 20220807
+cp obsplan_fullnight.txt 20220807/20220807_obsplan.txt
+subl 20220807/20220807_obsplan.txt
+git add 20220807/20220807_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f z   525 -d 220807
+mkjson_yse_nofilterswitch.py  -f r,i   477    -d 220807
+mkjson_yse_nofilterswitch.py  -f r,i  632 583 531   -d 220807
+mkjson_yse_nofilterswitch.py  -f r,i  376 428  -d 220807
+mkjson_yse_nofilterswitch.py  -f r,i   440  -d 220807
+mkjson_yse_nofilterswitch.py  -f g,r 544   494   -d 220807
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220807
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220807 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220807 -e 2,2,2,2,10
+git add 220807
+git add 220807/*.json
+
+mkdir 20220816
+cp obsplan_fullnight.txt 20220816/20220816_obsplan.txt
+subl 20220816/20220816_obsplan.txt
+git add 20220816/20220816_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i  632 583 531   -d 220816
+mkjson_yse_nofilterswitch.py  -f r,i  376 428  -d 220816
+mkjson_yse_nofilterswitch.py  -f r,i   440  -d 220816
+mkjson_yse_nofilterswitch.py  -f g,r 544   494   -d 220816
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 -d 220816
+mkjson_yse_nofilterswitch.py  -f i,z   401 403 353 -d 220816
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220816 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220816 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220816 -e 270 -n 6
+git add 220816
+git add 220816/*.json
+
+mkdir 20220820
+cp obsplan_fullnight.txt 20220820/20220820_obsplan.txt
+subl 20220820/20220820_obsplan.txt
+git add 20220820/20220820_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  376 428  -d 220820
+mkjson_yse_nofilterswitch.py  -f g,r  632 583 531   -d 220820
+mkjson_yse_nofilterswitch.py  -f g,r   440 544 494   -d 220820
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220820
+mkjson_yse_nofilterswitch.py  -f r,i   401 403 353 -d 220820
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220820 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220820 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220820 -e 270 -n 6
+git add 220820
+git add 220820/*.json
+
+mkdir 20220824
+cp obsplan_fullnight.txt 20220824/20220824_obsplan.txt
+subl 20220824/20220824_obsplan.txt
+git add 20220824/20220824_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  376 428  -d 220824
+mkjson_yse_nofilterswitch.py  -f g,i  632 583 531   -d 220824
+mkjson_yse_nofilterswitch.py  -f g,i   440 544 494   -d 220824
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220824
+mkjson_yse_nofilterswitch.py  -f g,r   401 403 353 -d 220824
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220824 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220824 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220824 -e 270 -n 6
+git add 220824
+git add 220824/*.json
+
+mkdir 20220828
+cp obsplan_fullnight.txt 20220828/20220828_obsplan.txt
+subl 20220828/20220828_obsplan.txt
+git add 20220828/20220828_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  632 583  -d 220828
+mkjson_yse_nofilterswitch.py  -f g,i   531 376 428  -d 220828
+mkjson_yse_nofilterswitch.py  -f g,i   440 544 494   -d 220828
+mkjson_yse_nofilterswitch.py  -f g,i   296 448 550 -d 220828
+mkjson_yse_nofilterswitch.py  -f g,i   401 403 353 257 -d 220828
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220828 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220828 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220828 -e 270 -n 6
+git add 220828
+git add 220828/*.json
+
+mkdir 20220907
+cp obsplan_fullnight.txt 20220907/20220907_obsplan.txt
+subl 20220907/20220907_obsplan.txt
+git add 20220907/20220907_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r    376 428  -d 220907
+mkjson_yse_nofilterswitch.py  -f i,z   440 544 494   -d 220907
+mkjson_yse_nofilterswitch.py  -f r,i   296 448 550 -d 220907
+mkjson_yse_nofilterswitch.py  -f g,r   401 403 353 257 -d 220907
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220907 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220907 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220907 -e 270 -n 6
+git add 220907
+git add 220907/*.json
+
+mkdir 20220908
+cp obsplan_fullnight.txt 20220908/20220908_obsplan.txt
+subl 20220908/20220908_obsplan.txt
+git add 20220908/20220908_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r    376 428  -d 220908
+mkjson_yse_nofilterswitch.py  -f i,z   440 544 494   -d 220908
+mkjson_yse_nofilterswitch.py  -f r,i   296 448 550 -d 220908
+mkjson_yse_nofilterswitch.py  -f g,i   401 403 353 257 -d 220908
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220908 -e 15
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220908 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220908 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220908 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2020pju  -d 220908 -e 100 -n 1
+git add 220908
+git add 220908/*.json
+
+mkdir 20220910
+cp obsplan_fullnight.txt 20220910/20220910_obsplan.txt
+cp 20220908/20220908_obsplan.txt 20220910/20220910_obsplan.txt 
+subl 20220910/20220910_obsplan.txt
+git add 20220910/20220910_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 220910
+mkjson_yse_nofilterswitch.py  -f r,i   440 544 494   -d 220910
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 -d 220910
+mkjson_yse_nofilterswitch.py  -f r,i   401 403 353 257 -d 220910
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220910 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220910 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220910 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220910 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2020pju  -d 220910 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ssk  -d 220910 -e 35 -n 1
+git add 220910
+git add 220910/*.json
+
+mkdir 20220911
+cp obsplan_fullnight.txt 20220911/20220911_obsplan.txt
+cp 20220910/20220910_obsplan.txt 20220911/20220911_obsplan.txt 
+subl 20220911/20220911_obsplan.txt
+git add 20220911/20220911_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220911
+mkjson_yse_nofilterswitch.py  -f r,i   440 544 494   -d 220911
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 401 -d 220911
+mkjson_yse_nofilterswitch.py  -f r,i   403 353 257 -d 220911
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220911 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220911 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220911 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220911 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2020pju  -d 220911 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ssk  -d 220911 -e 35 -n 1
+git add 220911
+git add 220911/*.json
+
+mkdir 20220913
+cp obsplan_fullnight.txt 20220913/20220913_obsplan.txt
+cp 20220911/20220911_obsplan.txt 20220913/20220913_obsplan.txt 
+subl 20220913/20220913_obsplan.txt
+git add 20220913/20220913_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   376 428  -d 220913
+mkjson_yse_nofilterswitch.py  -f g,i   440 544 494   -d 220913
+mkjson_yse_nofilterswitch.py  -f i,z   296 448 550 -d 220913
+mkjson_yse_nofilterswitch.py  -f z   403 401 -d 220913
+mkjson_yse_nofilterswitch.py  -f r,i    353 257 253 -d 220913
+mkjson_yse_nofilterswitch.py  -f r,i    412 311 -d 220913
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220913 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220913 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220913 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220913 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 220913 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022ssk  -d 220913 -e 35 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 220913 -e 20 -n 1
+git add 220913
+git add 220913/*.json
+
+mkdir 20220916
+cp obsplan_fullnight.txt 20220916/20220916_obsplan.txt
+cp 20220913/20220913_obsplan.txt 20220916/20220916_obsplan.txt 
+subl 20220916/20220916_obsplan.txt
+git add 20220916/20220916_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   376 428  -d 220916
+mkjson_yse_nofilterswitch.py  -f g,r   440 544 494   -d 220916
+mkjson_yse_nofilterswitch.py  -f i   296 448 550 -d 220916
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 220916
+mkjson_yse_nofilterswitch.py  -f r,i    353 257 253 -d 220916
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220916 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220916 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220916 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220916 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 220916 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 220916 -e 20 -n 1
+git add 220916
+git add 220916/*.json
+
+mkdir 20220919
+cp obsplan_fullnight.txt 20220919/20220919_obsplan.txt
+cp 20220913/20220913_obsplan.txt 20220919/20220919_obsplan.txt 
+subl 20220919/20220919_obsplan.txt
+git add 20220919/20220919_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   440 544 494   -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r    353 257 253 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 220919
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 220919 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 220919 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 220919 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 220919 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 220919 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 220919 -e 20 -n 1
+git add 220919
+git add 220919/*.json
+
+
+mkdir 20221001
+cp obsplan_fullnight.txt 20221001/20221001_obsplan.txt
+cp 20220919/20220919_obsplan.txt 20221001/20221001_obsplan.txt 
+subl 20221001/20221001_obsplan.txt
+git add 20221001/20221001_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544 494   -d 221001
+mkjson_yse_nofilterswitch.py  -f g,r   296 448 550 -d 221001
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221001
+mkjson_yse_nofilterswitch.py  -f g,r    353 257 253 -d 221001
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221001
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221001 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221001 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f i hotshit0817 -d 221001 -e 270 -n 6
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221001 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221001 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 221001 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022uto  -d 221001 -e 15 -n 1
+git add 221001
+git add 221001/*.json
+
+mkdir 20221005
+cp obsplan_fullnight.txt 20221005/20221005_obsplan.txt
+cp 20221001/20221001_obsplan.txt 20221005/20221005_obsplan.txt 
+subl 20221005/20221005_obsplan.txt
+git add 20221005/20221005_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z   440 544 494   -d 221005
+mkjson_yse_nofilterswitch.py  -f r,i   296 448 550 -d 221005
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 221005
+mkjson_yse_nofilterswitch.py  -f g,i    353 257 253 -d 221005
+mkjson_yse_nofilterswitch.py  -f g,i    412 311 -d 221005
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221005 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221005 -e 2,2,2,2,10
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221005 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221005 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 221005 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022uto  2022pda -d 221005 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y 2017gkp -d 221005 -e 180,120,120,120,120 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2018ibb  2020uew  2020xga  2020zbf  2021ek   2021fpl  2021ynn   -d 221005 -e 150 -n 2
+git add 221005
+git add 221005/*.json
+
+mkdir 20221007
+cp obsplan_fullnight.txt 20221007/20221007_obsplan.txt
+cp 20221001/20221001_obsplan.txt 20221007/20221007_obsplan.txt 
+subl 20221007/20221007_obsplan.txt
+git add 20221007/20221007_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544    -d 221007
+mkjson_yse_nofilterswitch.py  -f z   494   -d 221007
+mkjson_yse_nofilterswitch.py  -f z   296 448 550 -d 221007
+mkjson_yse_nofilterswitch.py  -f i,z   403 401 -d 221007
+mkjson_yse_nofilterswitch.py  -f r,i    353 257 253 -d 221007
+mkjson_yse_nofilterswitch.py  -f g,r,i    412 311 -d 221007
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221007 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221007 -e 5,5,5,5,20
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221007 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221007 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 221007 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z   2022pda -d 221007 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022tiv 2022uto  -d 221007 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2017gkp -d 221007 -e 180,120,120,120 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221007 -e 150 -n 3
+git add 221007
+git add 221007/*.json
+
+mkdir 20221009
+cp obsplan_fullnight.txt 20221009/20221009_obsplan.txt
+cp 20221001/20221001_obsplan.txt 20221009/20221009_obsplan.txt 
+subl 20221009/20221009_obsplan.txt
+git add 20221009/20221009_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z   440 544  494  -d 221009
+mkjson_yse_nofilterswitch.py  -f z   296 448 550 -d 221009
+mkjson_yse_nofilterswitch.py  -f z   403 401 -d 221009
+mkjson_yse_nofilterswitch.py  -f i,z    353 257 253 -d 221009
+mkjson_yse_nofilterswitch.py  -f r,i    412 311 -d 221009
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221009 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221009 -e 5,5,5,5,20
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221009 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221009 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tmo  -d 221009 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z   2022pda -d 221009 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022tiv 2022uto  -d 221009 -e 20 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2017gkp -d 221009 -e 200,200 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221009 -e 150 -n 3
+git add 221009
+git add 221009/*.json
+
+mkdir 20221010
+cp obsplan_fullnight.txt 20221010/20221010_obsplan.txt
+cp 20221001/20221001_obsplan.txt 20221010/20221010_obsplan.txt 
+subl 20221010/20221010_obsplan.txt
+git add 20221010/20221010_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i,z   440   -d 221010
+mkjson_yse_nofilterswitch.py  -f i,z    544  494  -d 221010
+mkjson_yse_nofilterswitch.py  -f z   296  -d 221010
+mkjson_yse_nofilterswitch.py  -f z   448 550 -d 221010
+mkjson_yse_nofilterswitch.py  -f z   403 401 -d 221010
+mkjson_yse_nofilterswitch.py  -f i,z    353  253 -d 221010
+mkjson_yse_nofilterswitch.py  -f r,i,z    257 412 311 -d 221010
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo -d 221010 -e 15 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221010 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221010 -e 5,5,5,5,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221010 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221010 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221010 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221010 -e 150 -n 3
+git add 221010
+git add 221010/*.json
+
+mkdir 20221013
+cp obsplan_fullnight.txt 20221013/20221013_obsplan.txt
+cp 20221010/20221010_obsplan.txt 20221013/20221013_obsplan.txt 
+subl 20221013/20221013_obsplan.txt
+git add 20221013/20221013_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221013
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221013
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221013
+mkjson_yse_nofilterswitch.py  -f i,z   403 401 -d 221013
+mkjson_yse_nofilterswitch.py  -f i,z    353  253 -d 221013
+mkjson_yse_nofilterswitch.py  -f r,i    257 412 311 -d 221013
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221013 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221013 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z  2022uto 2022tmo -d 221013 -e 15 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221013 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221013 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221013 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221013 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221013 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221013 -e 150 -n 3
+git add 221013
+git add 221013/*.json
+
+mkdir 20221016
+cp obsplan_fullnight.txt 20221016/20221016_obsplan.txt
+cp 20221010/20221010_obsplan.txt 20221016/20221016_obsplan.txt 
+subl 20221016/20221016_obsplan.txt
+git add 20221016/20221016_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221016
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221016
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221016
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 221016
+mkjson_yse_nofilterswitch.py  -f i    353  253 -d 221016
+mkjson_yse_nofilterswitch.py  -f i    257 412 311 -d 221016
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221016 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221016 -e 5 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z  2022uto 2022tmo -d 221016 -e 15 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221016 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221016 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221016 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221016 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221016 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221016 -e 150 -n 3
+git add 221016
+git add 221016/*.json
+
+mkdir 20221019
+cp obsplan_fullnight.txt 20221019/20221019_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221019/20221019_obsplan.txt 
+subl 20221019/20221019_obsplan.txt
+git add 20221019/20221019_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221019
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221019
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221019
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 221019
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221019
+mkjson_yse_nofilterswitch.py  -f r    257  -d 221019
+mkjson_yse_nofilterswitch.py  -f i    412 311 -d 221019
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221019 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221019 -e 5 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221019 -e 10 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221019 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221019 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221019 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221019 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221019 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221019 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f z,i,r 2022xiw -d 221022 -e 100 -n 2
+
+mkdir 20221022
+cp obsplan_fullnight.txt 20221022/20221022_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221022/20221022_obsplan.txt 
+subl 20221022/20221022_obsplan.txt
+git add 20221022/20221022_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221022
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221022
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221022
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221022
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221022
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 221022
+mkjson_yse_nofilterswitch.py  -f g,i    412 311 -d 221022
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221022 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221022 -e 5 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221022 -e 10 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221022 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221022 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221022 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221022 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221022 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221022 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f i 2022xiw -d 221022 -e 100 -n 2
+git add 221022
+git add 221022/*.json
+
+mkdir 20221028
+cp obsplan_fullnight.txt 20221028/20221028_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221028/20221028_obsplan.txt 
+subl 20221028/20221028_obsplan.txt
+git add 20221028/20221028_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221028
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221028
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221028
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221028
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221028
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 221028
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221028
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221028 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221028 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221028 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221028 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221028 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  -d 221028 -e 10 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221028 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221028 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221028 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221028 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221028 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221028 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f i 2022xiw -d 221028 -e 100 -n 2
+git add 221028
+git add 221028/*.json
+
+mkdir 20221031
+cp obsplan_fullnight.txt 20221031/20221031_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221031/20221031_obsplan.txt 
+subl 20221031/20221031_obsplan.txt
+git add 20221031/20221031_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   440 544  494  -d 221031
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221031
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 221031
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221031
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221031 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221031 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221031 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221031 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221031 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  -d 221031 -e 10 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221031 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221031 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221031 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221031 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221031 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221031 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f i 2022xiw -d 221031 -e 100 -n 2
+git add 221031
+git add 221031/*.json
+
+mkdir 20221103
+cp obsplan_fullnight.txt 20221103/20221103_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221103/20221103_obsplan.txt 
+subl 20221103/20221103_obsplan.txt
+git add 20221103/20221103_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f z   440 544  494  -d 221103
+mkjson_yse_nofilterswitch.py  -f i,z   296  -d 221103
+mkjson_yse_nofilterswitch.py  -f i,z   448 550 -d 221103
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 221103
+mkjson_yse_nofilterswitch.py  -f r,i    353  253 -d 221103
+mkjson_yse_nofilterswitch.py  -f g,i    257  -d 221103
+mkjson_yse_nofilterswitch.py  -f g,i    412 311 -d 221103
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221103 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221103 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  -d 221103 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221103 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221103 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221103 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221103 -e 10 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221103 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221103 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221103 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221103 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221103 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221103 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221103 -e 200,150 -n 1
+git add 221103
+git add 221103/*.json
+
+
+mkdir 20221106
+cp obsplan_fullnight.txt 20221106/20221106_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221106/20221106_obsplan.txt 
+subl 20221106/20221106_obsplan.txt
+git add 20221106/20221106_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i  440     -d 221106
+mkjson_yse_nofilterswitch.py  -f i    544 494   -d 221106
+#mkjson_yse_nofilterswitch.py  -f z   296  -d 221106
+#mkjson_yse_nofilterswitch.py  -f i,z   448 550 -d 221106
+#mkjson_yse_nofilterswitch.py  -f i,z   403 401 -d 221106
+mkjson_yse_nofilterswitch.py  -f i,z    353  253 -d 221106
+mkjson_yse_nofilterswitch.py  -f r,i    257  -d 221106
+mkjson_yse_nofilterswitch.py  -f r,i    412 311 -d 221106
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221106 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221106 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221106 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221106 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221106 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221106 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221106 -e 10 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221106 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221106 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221106 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221106 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221106 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221106 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221106 -e 200,150 -n 1
+git add 221106
+git add 221106/*.json
+
+mkdir 20221109
+cp obsplan_fullnight.txt 20221109/20221109_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221109/20221109_obsplan.txt 
+subl 20221109/20221109_obsplan.txt
+git add 20221109/20221109_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  440     -d 221109
+mkjson_yse_nofilterswitch.py  -f r,i    544 494   -d 221109
+mkjson_yse_nofilterswitch.py  -f i,z   296  -d 221109
+mkjson_yse_nofilterswitch.py  -f i,z   448 550 -d 221109
+mkjson_yse_nofilterswitch.py  -f z   403 401 -d 221109
+mkjson_yse_nofilterswitch.py  -f z    353  253 -d 221109
+mkjson_yse_nofilterswitch.py  -f z    257  -d 221109
+mkjson_yse_nofilterswitch.py  -f i    412  -d 221109
+mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 221109
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221109 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221109 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221109 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022xkq -d 221109 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z  2022uto 2022tmo -d 221109 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z  2022vqx 2022wiv  -d 221109 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221109 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221109 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221109 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221109 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221109 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221109 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221109 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221109 -e 200,150 -n 1
+git add 221109
+git add 221109/*.json
+
+mkdir 20221112
+cp obsplan_fullnight.txt 20221112/20221112_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221112/20221112_obsplan.txt 
+subl 20221112/20221112_obsplan.txt
+git add 20221112/20221112_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  440     -d 221112
+mkjson_yse_nofilterswitch.py  -f r,i    544 494   -d 221112
+mkjson_yse_nofilterswitch.py  -f r,i   296  -d 221112
+mkjson_yse_nofilterswitch.py  -f r,i   448 550 -d 221112
+mkjson_yse_nofilterswitch.py  -f i,z   403 401 -d 221112
+mkjson_yse_nofilterswitch.py  -f i,z    353  253 -d 221112
+mkjson_yse_nofilterswitch.py  -f i,z    257  -d 221112
+mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 221112
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221112 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221112 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221112 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221112 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221112 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221112 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221112 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221112 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221112 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221112 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221112 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221112 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221112 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221112 -e 200,150 -n 1
+git add 221112
+git add 221112/*.json
+
+mkdir 20221115
+cp obsplan_fullnight.txt 20221115/20221115_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221115/20221115_obsplan.txt 
+subl 20221115/20221115_obsplan.txt
+git add 20221115/20221115_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  440     -d 221115
+mkjson_yse_nofilterswitch.py  -f r,i    544 494   -d 221115
+mkjson_yse_nofilterswitch.py  -f g,r   296  -d 221115
+mkjson_yse_nofilterswitch.py  -f g,r   448 550 -d 221115
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221115
+mkjson_yse_nofilterswitch.py  -f i,z    353  253 -d 221115
+mkjson_yse_nofilterswitch.py  -f i,z    257  -d 221115
+mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 221115
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221115 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221115 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221115 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221115 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221115 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221115 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221115 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221115 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221115 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221115 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221115 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221115 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221115 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221115 -e 200,150 -n 1
+git add 221115
+git add 221115/*.json
+
+mkdir 20221118
+cp obsplan_fullnight.txt 20221118/20221118_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221118/20221118_obsplan.txt 
+subl 20221118/20221118_obsplan.txt
+git add 20221118/20221118_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  440     -d 221118
+mkjson_yse_nofilterswitch.py  -f r,i    544 494   -d 221118
+mkjson_yse_nofilterswitch.py  -f g,r   296  -d 221118
+mkjson_yse_nofilterswitch.py  -f g,r   448 550 -d 221118
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221118
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221118
+mkjson_yse_nofilterswitch.py  -f i,z    257  -d 221118
+mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 221118
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221118 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221118 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221118 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221118 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221118 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221118 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221118 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221118 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221118 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221118 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221118 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221118 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221118 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221118 -e 200,150 -n 1
+git add 221118
+git add 221118/*.json
+
+mkdir 20221121
+cp obsplan_fullnight.txt 20221121/20221121_obsplan.txt
+cp 20221016/20221016_obsplan.txt 20221121/20221121_obsplan.txt 
+subl 20221121/20221121_obsplan.txt
+git add 20221121/20221121_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  440     -d 221121
+mkjson_yse_nofilterswitch.py  -f r,i    544 494   -d 221121
+mkjson_yse_nofilterswitch.py  -f g,r   296  -d 221121
+mkjson_yse_nofilterswitch.py  -f g,r   448 550 -d 221121
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221121
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221121
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 221121
+mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 221121
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221121 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221121 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221121 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221121 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221121 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221121 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221121 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221121 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221121 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221121 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221121 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221121 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221121 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221121 -e 200,150 -n 1
+git add 221121
+git add 221121/*.json
+
+mkdir 20221124
+cp obsplan_fullnight.txt 20221124/20221124_obsplan.txt
+cp 20221121/20221121_obsplan.txt 20221124/20221124_obsplan.txt 
+subl 20221124/20221124_obsplan.txt
+git add 20221124/20221124_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  440     -d 221124
+mkjson_yse_nofilterswitch.py  -f r,i    544 494   -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r   296  -d 221124
+mkjson_yse_nofilterswitch.py  -f r   448 550 -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r    353  253 -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r    257  -d 221124
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221124
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221124 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221124 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221124 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221124 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221124 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221124 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221124 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221124 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221124 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221124 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221124 -e 200,150 -n 1
+git add 221124
+git add 221124/*.json
+
+
+mkdir 20221212
+cp obsplan_fullnight.txt 20221212/20221212_obsplan.txt
+cp 20221109/20221109_obsplan.txt 20221212/20221212_obsplan.txt 
+subl 20221212/20221212_obsplan.txt
+git add 20221212/20221212_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   448 550 296 -d 221212
+mkjson_yse_nofilterswitch.py  -f g,i   403 401 -d 221212
+mkjson_yse_nofilterswitch.py  -f r,i   253 -d 221212
+mkjson_yse_nofilterswitch.py  -f r   353 257  -d 221212
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221212
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221212 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221212 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221212 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221212 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221212 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221212 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221212 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221212 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221212 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221212 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221212 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221212 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221212 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221212 -e 200,150 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto -d 221212 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 022vqx  -d 221212 -e 15 -n 1
+git add 221212
+git add 221212/*.json
+
+mkdir 20221215
+cp obsplan_fullnight.txt 20221215/20221215_obsplan.txt
+cp 20221109/20221109_obsplan.txt 20221215/20221215_obsplan.txt 
+subl 20221215/20221215_obsplan.txt
+git add 20221215/20221215_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   448 550 296 -d 221215
+mkjson_yse_nofilterswitch.py  -f g,i   403 401 -d 221215
+mkjson_yse_nofilterswitch.py  -f g,i   253 -d 221215
+mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 221215
+mkjson_yse_nofilterswitch.py  -f i,z    412 311 -d 221215
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221215 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221215 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221215 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221215 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221215 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221215 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221215 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221215 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221215 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221215 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221215 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221215 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221215 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221215 -e 200,150 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto -d 221215 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 022vqx  -d 221215 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 15 -n 1
+git add 221215
+git add 221215/*.json
+
+mkdir 20221218
+cp obsplan_fullnight.txt 20221218/20221218_obsplan.txt
+cp 20221215/20221215_obsplan.txt 20221218/20221218_obsplan.txt 
+subl 20221218/20221218_obsplan.txt
+git add 20221218/20221218_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   448 550 296 -d 221218
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221218
+mkjson_yse_nofilterswitch.py  -f g,r   253 -d 221218
+mkjson_yse_nofilterswitch.py  -f g,r   353 257  -d 221218
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221218
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221218 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221218 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221218 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221218 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221218 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221218 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221218 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221218 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221218 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221218 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221218 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221218 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221218 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221218 -e 200,150 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut -d 221218 -e 15 -n 1
+git add 221218
+git add 221218/*.json
+
+mkdir 20221221
+cp obsplan_fullnight.txt 20221221/20221221_obsplan.txt
+cp 20221215/20221215_obsplan.txt 20221221/20221221_obsplan.txt 
+subl 20221221/20221221_obsplan.txt
+git add 20221221/20221221_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g    550  -d 221221
+mkjson_yse_nofilterswitch.py  -f g,i   448 550 296 -d 221221
+mkjson_yse_nofilterswitch.py  -f g,i   403 401 -d 221221
+mkjson_yse_nofilterswitch.py  -f g,i   253 -d 221221
+mkjson_yse_nofilterswitch.py  -f g,i   353 257  -d 221221
+mkjson_yse_nofilterswitch.py  -f g   257  -d 221221
+mkjson_yse_nofilterswitch.py  -f g,i    412 311 -d 221221
+mkjson_yse_nofilterswitch.py  -f g    525 -d 221221
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv  -d 221221 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc 2022vye 2022uto 2022tmo 2022xkq -d 221221 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022tiv 2022pda 2022wbc  2022vye -d 221221 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xkq -d 221221 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022uto 2022tmo -d 221221 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022vqx 2022wiv  -d 221221 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022xbu 2022xxu 2022wsq -d 221221 -e 10 -n 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022zut -e 4 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022czy  -d 221221 -e 25
+mkjson_yse_nofilterswitch.py  -f g,r,i,z,Y  2022jli  -d 221221 -e 10,10,10,10,20
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021afuq -d 221221 -e 100 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2020pju  -d 221221 -e 100 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2017gkp -d 221221 -e 150 -n 1
+mkjson_yse_nofilterswitch.py  -f i 2021fpl  2020zbf   -d 221221 -e 150 -n 3
+mkjson_yse_nofilterswitch.py  -f r,i 2022xiw -d 221221 -e 200,150 -n 1
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut -d 221221 -e 15 -n 1
+git add 221221
+git add 221221/*.json
+
+
+mkdir 20221224
+cp obsplan_fullnight.txt 20221224/20221224_obsplan.txt
+cp 20221215/20221215_obsplan.txt 20221224/20221224_obsplan.txt 
+subl 20221224/20221224_obsplan.txt
+git add 20221224/20221224_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g    550  -d 221224
+mkjson_yse_nofilterswitch.py  -f r   448 550 296 -d 221224
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 221224
+mkjson_yse_nofilterswitch.py  -f g,r   253 353 257  -d 221224
+mkjson_yse_nofilterswitch.py  -f g,r    412 311 -d 221224
+mkjson_yse_nofilterswitch.py  -f r    525 -d 221224
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut -d 221224 -e 15 -n 1
+git add 221224
+git add 221224/*.json
+
+mkdir 20221227
+cp obsplan_fullnight.txt 20221227/20221227_obsplan.txt
+cp 20221224/20221224_obsplan.txt 20221227/20221227_obsplan.txt 
+subl 20221227/20221227_obsplan.txt
+git add 20221227/20221227_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g    550  -d 221227
+mkjson_yse_nofilterswitch.py  -f i   448 550 296 -d 221227
+mkjson_yse_nofilterswitch.py  -f r,i   403 401 -d 221227
+mkjson_yse_nofilterswitch.py  -f g,i   253 353 257  -d 221227
+mkjson_yse_nofilterswitch.py  -f g,i    412 311 -d 221227
+mkjson_yse_nofilterswitch.py  -f i    525 -d 221227
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut -d 221227 -e 15 -n 1
+git add 221227
+git add 221227/*.json
+
+mkdir 20221230
+cp obsplan_fullnight.txt 20221230/20221230_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20221230/20221230_obsplan.txt 
+subl 20221230/20221230_obsplan.txt
+git add 20221230/20221230_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f z   448 550 296 -d 221230
+mkjson_yse_nofilterswitch.py  -f i,z   403 401 -d 221230
+mkjson_yse_nofilterswitch.py  -f r,i   253 353   -d 221230
+mkjson_yse_nofilterswitch.py  -f g,r   257 412 311 -d 221230
+mkjson_yse_nofilterswitch.py  -f g    525 -d 221230
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn -d 221230 -e 15 -n 1
+mkjson_yse_nofilterswitch.py 2022uto 2022vye -f r,i,z  -d 221230 -e 15 -n 1
+mkjson_yse_nofilterswitch.py 2022aaaw 2022zxj -f r,i,z  -d 221230 -e 15 -n 1
+git add 221230
+git add 221230/*.json
+
+
+mkdir 20230102
+cp obsplan_fullnight.txt 20230102/20230102_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230102/20230102_obsplan.txt 
+subl 20230102/20230102_obsplan.txt
+git add 20230102/20230102_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i   448 296 -d 230102
+mkjson_yse_nofilterswitch.py  -f z   403 401 -d 230102
+mkjson_yse_nofilterswitch.py  -f i,z   253 353   -d 230102
+mkjson_yse_nofilterswitch.py  -f g,i   257 412 311 -d 230102
+mkjson_yse_nofilterswitch.py  -f r    525 -d 230102
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn -d 230102 -e 15 -n 1
+mkjson_yse_nofilterswitch.py 2022xkq 2022wsq 2022wiv -f i,z  -d 230102 -e 15 -n 1
+git add 230102
+git add 230102/*.json
+
+mkdir 20230103
+cp obsplan_fullnight.txt 20230103/20230103_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230103/20230103_obsplan.txt 
+subl 20230103/20230103_obsplan.txt
+git add 20230103/20230103_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i   448 296 -d 230103
+mkjson_yse_nofilterswitch.py  -f i   403 401 -d 230103
+mkjson_yse_nofilterswitch.py  -f i    353   -d 230103
+mkjson_yse_nofilterswitch.py  -f r,i  253 257  -d 230103
+mkjson_yse_nofilterswitch.py  -f i   412 311 -d 230103
+mkjson_yse_nofilterswitch.py  -f g,i    525 -d 230103
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf -d 230103 -e 15 -n 1
+mkjson_yse_nofilterswitch.py 2022uto 2022wiv -f i,z  -d 230103 -e 15 -n 1
+git add 230103
+git add 230103/*.json
+
+mkdir 20230105
+cp obsplan_fullnight.txt 20230105/20230105_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230105/20230105_obsplan.txt 
+subl 20230105/20230105_obsplan.txt
+git add 20230105/20230105_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f r,i   448 296 -d 230105
+mkjson_yse_nofilterswitch.py  -f i   403 401 -d 230105
+mkjson_yse_nofilterswitch.py  -f i    353   -d 230105
+mkjson_yse_nofilterswitch.py  -f z  253 257  -d 230105
+mkjson_yse_nofilterswitch.py  -f z   412 311 -d 230105
+mkjson_yse_nofilterswitch.py  -f r,i    525 -d 230105
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf -d 230105 -e 15 -n 1
+mkjson_yse_nofilterswitch.py 2022tmo 2022uto 2022wiv 2022xkq 2022abom 2022adcf -f r,i,z  -d 230105 -e 15 -n 1
+git add 230105
+git add 230105/*.json
+
+mkdir 20230108
+cp obsplan_fullnight.txt 20230108/20230108_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230108/20230108_obsplan.txt 
+subl 20230108/20230108_obsplan.txt
+git add 20230108/20230108_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   448 296 -d 230108
+mkjson_yse_nofilterswitch.py  -f i   403 401 -d 230108
+mkjson_yse_nofilterswitch.py  -f r,i    353   -d 230108
+mkjson_yse_nofilterswitch.py  -f r,i  253 257  -d 230108
+mkjson_yse_nofilterswitch.py  -f z   412 311 -d 230108
+mkjson_yse_nofilterswitch.py  -f r,i    525 -d 230108
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk -d 230108 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2022zut 2022adcf -d 230108 -e 15 -n 1
+git add 230108
+git add 230108/*.json
+
+mkdir 20230109
+cp obsplan_fullnight.txt 20230109/20230109_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230109/20230109_obsplan.txt 
+subl 20230109/20230109_obsplan.txt
+git add 20230109/20230109_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   448 296 -d 230109
+mkjson_yse_nofilterswitch.py  -f r   403 401 -d 230109
+mkjson_yse_nofilterswitch.py  -f g,r    353   -d 230109
+mkjson_yse_nofilterswitch.py  -f g,r  253 257  -d 230109
+mkjson_yse_nofilterswitch.py  -f i,z   412 311 -d 230109
+mkjson_yse_nofilterswitch.py  -f i,z    525 -d 230109
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk -d 230109 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2022zut 2022adcf 2022vqx -d 230109 -e 15 -n 1
+git add 230109
+git add 230109/*.json
+
+mkdir 20230110
+cp obsplan_fullnight.txt 20230110/20230110_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230110/20230110_obsplan.txt 
+subl 20230110/20230110_obsplan.txt
+git add 20230110/20230110_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   448 296 -d 230110
+mkjson_yse_nofilterswitch.py  -f i   403 401 -d 230110
+mkjson_yse_nofilterswitch.py  -f r,i    353   -d 230110
+mkjson_yse_nofilterswitch.py  -f g,i  253 257  -d 230110
+mkjson_yse_nofilterswitch.py  -f r,i   412 311 -d 230110
+mkjson_yse_nofilterswitch.py  -f r,i    525 -d 230110
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk -d 230110 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f i,z 2022zut 2022adcf -d 230110 -e 15 -n 1
+git add 230110
+git add 230110/*.json
+
+mkdir 20230117
+cp obsplan_fullnight.txt 20230117/20230117_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230117/20230117_obsplan.txt 
+subl 20230117/20230117_obsplan.txt
+git add 20230117/20230117_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   448 296 -d 230117
+mkjson_yse_nofilterswitch.py  -f g,r   403 401 -d 230117
+mkjson_yse_nofilterswitch.py  -f g,r    353   -d 230117
+mkjson_yse_nofilterswitch.py  -f g,r  253 257  -d 230117
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230117
+mkjson_yse_nofilterswitch.py  -f r    525 -d 230117
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk -d 230117 -e 15 -n 1
+git add 230117
+git add 230117/*.json
+
+mkdir 20230120
+cp obsplan_fullnight.txt 20230120/20230120_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230120/20230120_obsplan.txt 
+subl 20230120/20230120_obsplan.txt
+git add 20230120/20230120_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   448 296 -d 230120
+mkjson_yse_nofilterswitch.py  -f g,i   403 401 -d 230120
+mkjson_yse_nofilterswitch.py  -f g,i    353   -d 230120
+mkjson_yse_nofilterswitch.py  -f g,i  253 257  -d 230120
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230120
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 230120
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk -d 230120 -e 15 -n 1
+git add 230120
+git add 230120/*.json
+
+mkdir 20230123
+cp obsplan_fullnight.txt 20230123/20230123_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230123/20230123_obsplan.txt 
+subl 20230123/20230123_obsplan.txt
+git add 20230123/20230123_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i   448 296 -d 230123
+mkjson_yse_nofilterswitch.py  -f g,i   403 401 -d 230123
+mkjson_yse_nofilterswitch.py  -f g,i    353   -d 230123
+mkjson_yse_nofilterswitch.py  -f g,i  253 257  -d 230123
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230123
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 230123
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da -d 230123 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022aaaw 2022zxj  -d 230123 -e 25 -n 1
+git add 230123
+git add 230123/*.json
+
+mkdir 20230126
+cp obsplan_fullnight.txt 20230126/20230126_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230126/20230126_obsplan.txt 
+subl 20230126/20230126_obsplan.txt
+git add 20230126/20230126_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i   448 296 -d 230126
+mkjson_yse_nofilterswitch.py  -f i   403 401 -d 230126
+mkjson_yse_nofilterswitch.py  -f i    353   -d 230126
+mkjson_yse_nofilterswitch.py  -f r,i  253 257  -d 230126
+mkjson_yse_nofilterswitch.py  -f g,i   412 311 -d 230126
+mkjson_yse_nofilterswitch.py  -f g,i    525 -d 230126
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da -d 230126 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022aaaw 2022zxj  -d 230126 -e 25 -n 1
+git add 230126
+git add 230126/*.json
+
+mkdir 20230129
+cp obsplan_fullnight.txt 20230129/20230129_obsplan.txt
+cp 20221227/20221227_obsplan.txt 20230129/20230129_obsplan.txt 
+subl 20230129/20230129_obsplan.txt
+git add 20230129/20230129_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i   448 296 -d 230129
+mkjson_yse_nofilterswitch.py  -f i   403 401 -d 230129
+mkjson_yse_nofilterswitch.py  -f i    353   -d 230129
+mkjson_yse_nofilterswitch.py  -f r,i  253 257  -d 230129
+mkjson_yse_nofilterswitch.py  -f g,r   412 311 -d 230129
+mkjson_yse_nofilterswitch.py  -f g,r    525 -d 230129
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2022vqx 2022vye 2022wsq 2022tmo 2022xkq  2022wiv 2022uto 2022zut 2022aajn 2022aaaw 2022zxj 2022aajn 2022abom 2022abvt 2022aczp 2022adcf 2022adqz 2022aduk  2023ed 2023bu 2023da -d 230129 -e 15 -n 1
+mkjson_yse_nofilterswitch.py  -f r,i,z 2022xkq 2022adqz -d 230129 -e 25 -n 1
+git add 230129
+git add 230129/*.json
+
+
+
+2023ed [145 -30]  (4 min) HST HIGH PRIORITY
+YSE 2023bu [178 -18]  (4 min) HST HIGH PRIORITY
+YSE 2023da [195 -16]  (4 min) HST HIGH PRIORITY
+
+DDF 50
+DESI 50
+YSE 48
+eFEDS/Eta Car 30
+DEBASS 30
+AGN 35
+
+
+440 544  494 353 257 253 412 311 17 min
+296 550 9min
+2017gkp 9 min
+skip 403 401 448 
+
+  04:38:56.950 -20:39:44.10 FK5  03:19:23.870 -29:59:05.68 FK5  03:46:39.365 -11:14:33.90 FK5  01:58:01.671 -41:20:51.84 FK5   03:23:49.914 -10:02:41.18 FK5  20:14:18.620 -18:10:56.57 FK5  02:50:35.438 -19:51:47.21 FK5
+
+
+mkjson_yse.py  -f g,r,i,z,Y  2022ngb  -d 220621 -e 200,100,100,100,200
+mkjson_yse.py  -f r,i hotshit123 -d 220624 -e 150,150 -n 3
+
+ mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2021-12-27  &
+
+mkairmassplot.py --figsize 16,10  -o t  targetsDECAT21B2ndhalf.txt -f 'r-,b--,k-,c--,m-,b--,k-,k--,k-,k--' --colors red,blue,black,cyan,magenta,red,blue,black,cyan,magenta   -d 2022-01-15  &
+
+mkjson_yse_nofilterswitch.py  -f g,r    474 423 376 477  -d 230121
+
+mkjson_yse.py  -f r,i 353  -d 220309
+mkjson_yse.py  -f i,z 403 -d 220309
+mkjson_yse.py  -f g,r 257  -d 220309
+mkjson_yse_nofilterswitch.py  -f g,r,i   365 418  -d 220309 -e 100
+mkjson_yse.py  -f g,r,i  2021agji  618 468 -d 220309
+22:35 YSE 365 [09:10 -11:24] 32m 
+23:05 YSE 418 [10:21 -04:12] 32m
+23:35 YSE 2021agji [09:27 +24:01] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
+      YSE 618 [09:25 +27:41] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
+      YSE 468 [10:24 +03:00] 7m 
+
+mkjson_yse.py  -f g,i 257  -d 220310
+mkjson_yse_nofilterswitch.py  -f g,r,i   365 418  -d 220310 -e 100
+mkjson_yse.py  -f g,r,i  2021agji  618 468 -d 220310
+mkjson_yse.py  -f g,r,i  618 468 -d 220310
+/Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest/220310
+
+
+mkjson_yse.py  -f g,r,i,z 415 418 423 474 523 525 575 577  -d 220330 --propid 2022A-193378
+
+
+YSE_pointings2fieldcenters.py --addSN 2022tmo 68.9642131 -13.3271846 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022tiv 320.9893589     -22.7353540 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022uto 40.7474167     17.2105778 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022pda 331.0578958     -18.8279056 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2017gkp 131.799125 -33.753031  -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022wbc 331.9949792     7.1353639 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022vye 357.0752958     2.3411806 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022xkq 76.3487500     -11.8822583 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022xiw 288.264599176 +19.7734044268 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022vqx 112.1779583 17.2504611 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022wiv 66.2824325  0.9785314 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022xbu 319.982094283 -6.4374889725 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022xxu 314.00051376667 +17.803720077778 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022wsq 19.9980857176 +15.602735487 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022zut 175.2450958     11.4696944 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2021zfw 322.9070122     11.8329550 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022pvn 351.3041347     22.3326680 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022aaaw 16.5443772 1.3619007 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022zxj 0.2149167 -2.3007806 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022aajn 107.0648208 21.0725917 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022abom 55.2880722 -2.8485491 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022abvt 22.6809833 -31.5144222 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022aczp 191.9536000 -15.3332278 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022adcf 156.2178875 9.5935278 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022aduk 159.6939250 -17.5618944 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2022adqz 56.4602042 -19.3059167 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023ed 145.7117500 -29.5986750 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023bu 178.2969833 -17.8427389 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2023da 194.8965270 -16.3576044 -vv --overw
+
+2017gkp: Jacob
+
+Sebastian:
+Name     RA           DEC
+2018ibb  04:38:56.950 -20:39:44.10 FK5
+2020uew  03:19:23.870 -29:59:05.68 FK5
+2020xga  03:46:39.365 -11:14:33.90 FK5
+2020zbf  01:58:01.671 -41:20:51.84 FK5
+2021ek   03:23:49.914 -10:02:41.18 FK5
+2021fpl  20:14:18.620 -18:10:56.57 FK5
+2021ynn  02:50:35.438 -19:51:47.21 FK5
+
+YSE_pointings2fieldcenters.py --addSN 2018ibb  69.73729 -20.66225  --addSN 2020uew 49.84946 -29.98491  --addSN 2020xga 56.66402 -11.24275  --addSN 2020zbf 29.50696 -41.34773  --addSN 2021ek 50.95797 -10.04477  --addSN 2021fpl 303.57758 -18.18238  --addSN 2021ynn 42.64766 -19.86311   -vv 
+
+2018ibb  69.73729 -20.66225  
+2020uew 49.84946 -29.98491  
+2020xga 56.66402 -11.24275  
+2020zbf 29.50696 -41.34773  
+2021ek 50.95797 -10.04477  
+2021fpl 303.57758 -18.18238 
+2021ynn 42.64766 -19.86311 
+
+
+cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest
+
+add YSE field:
+add to /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt
+from
+         412.A    112.704664     -4.196331      True
+         412.B    112.706967     -1.098627      True
+         412.C    115.807983     -4.196331      True
+         412.D    115.810286     -1.098627      True
+         412.E    118.911301     -4.196331      True
+         412.F    118.913604     -1.098627      True
+to
+          412.A      412 112.70466  -4.19633     0       NaN                    NaN        412A     NaN        <NA>
+          412.B      412 112.70696  -1.09862     0       NaN                    NaN        412B     NaN        <NA>      
+          412.C      412 115.80798  -4.19633     0       NaN                    NaN        412C     NaN        <NA>      
+          412.D      412 115.81028  -1.09862     0       NaN                    NaN        412D     NaN        <NA>      
+          412.E      412 118.91130  -4.19633     0       NaN                    NaN        412E     NaN        <NA>     
+          412.F      412 118.91360  -1.09862     0       NaN                    NaN        412F     NaN        <NA>      
+cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2021A-0275_YSE_Rest
+YSE_pointings2fieldcenters.py   -vv    --groups 412 311 --overwr
+cd /Users/arest/observing/decat_pointings/jsons/
+
+

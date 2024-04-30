@@ -1,0 +1,77 @@
+MOON ILLUMINATION: 0.75
+UT -16 deg twilight: 2022-04-20T23:29:16.758 2022-04-21T09:55:07.097
+UT -15 deg twilight: 2022-04-20T23:24:38.271 2022-04-21T09:59:45.871
+UT -14 deg twilight: 2022-04-20T23:19:59.716 2022-04-21T10:04:24.896
+UT -12 deg twilight: 2022-04-20T23:10:41.600 2022-04-21T10:13:43.808
+UT -10 deg twilight: 2022-04-20T23:01:22.192 2022-04-21T10:23:04.052
+LOCAL -16 deg twilight: 04/20/2022,   19:29:16   05:55:07
+LOCAL -15 deg twilight: 04/20/2022,   19:24:38   05:59:45
+LOCAL -14 deg twilight: 04/20/2022,   19:19:59   06:04:24
+LOCAL -12 deg twilight: 04/20/2022,   19:10:41   06:13:43
+LOCAL -10 deg twilight: 04/20/2022,   19:01:22   06:23:04
+LOCAL night MIDPOINT: 04/21/2022,   00:42:11
+
+DESI: big block: 2*(50+70+110+3*30)*5/60 + 80*10/60 = 68
+      small block: ((50+70+110+3*30)*3+3*80)/60 = 21
+DDF: 2.5h
+SCVZ: 12 min
+DEBASS: 50 min
+
+-----
+#YSE 257 [91 -26] 17 min
+
+### 19:20 
+Shen SCVZ [90 -66] 12 min 
+etale.i.15min.json [160 -60] 15 min
+
+DECaPSWest [116 -26] 30 min
+
+### 20:20
+YSE 415	[137 2] 17 min 
+YSE 365 [147 -9] 17 min 
+
+### 20:55
+COSMOS [150 2] 1.5h
+
+### 22:25
+YSE 418 [158 -1] 17 min
+
+2022hqs_P2 [166 -12] 4min
+2022hss_P2 [187 7] 4min
+
+YSE 525 [189 10] 33 min
+
+### 23:25
+2022hrs_P1 [190 10] 4min
+DESIRT_190 [195 7] 68 min
+
+### 00:40
+AT2022cmc [204 33] 19 min
+YSE 423	[193 -2] 17 min  ### drop this one if necessary
+DEBASS STATIC/SP3_196-34.5.json (9min) 
+DEBASS STATIC/SP1_203-31.7.json (9min) 
+DEBASS STATIC/SP2_199-31.7.json (9min) 
+
+2022hql_P2 [206 12] 4min
+YSE 477	[214 3] 17 min 
+
+### 02:00
+DESIRT_G15 [215 -1] 21 min
+# YSE 632 [242 25] 17 min ### If there is extra time you can do this field!
+YSE 583	[236 20] 17 min 
+YSE 531	[230 10] 17 min 
+
+### 02:55
+DESIRT_220 [225 7] 68 min
+YSE 376	[224 -8] 17 min 
+YSE 428	[228 -4] 17 min 
+
+### 04:45 start this field NO LATER than 5:00!!
+DECaPSEast [270 -29] 30 min
+
+YSE 440	[314 -4] 17 min
+YSE 544 [321 9] 17 min
+# YSE 494 [347 9] 17 min [add later, too high airmass]
+
+### 06:04 slow to Asteroid fields
+

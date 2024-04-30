@@ -1,0 +1,61 @@
+[
+ { 
+  "count": 1,
+  "comment": "NUTS focus image",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "i",
+  "RA": 52.65,
+  "dec": -28.135,
+  "expTime": 20
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "i",
+  "RA": 52.65,
+  "dec": -28.135,
+  "expTime": 240
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "i",
+  "expTime": 240
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "i",
+  "expTime": 240
+  },
+ { 
+  "count": 1,
+  "comment": "NUTS",
+  "propid": "2021B-0925",
+  "proposer": "Rest",
+  "program": "NUTS",
+  "expType": "object",
+  "object": "CDFS",
+  "filter": "i",
+  "expTime": 240
+  }
+]

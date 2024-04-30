@@ -1,0 +1,84 @@
+MOON ILLUMINATION: 0.01
+UT -16 deg twilight: 2023-04-20T23:29:30.250 2023-04-21T09:54:58.987
+UT -15 deg twilight: 2023-04-20T23:24:51.814 2023-04-21T09:59:37.720
+UT -14 deg twilight: 2023-04-20T23:20:13.290 2023-04-21T10:04:16.700
+UT -12 deg twilight: 2023-04-20T23:10:55.274 2023-04-21T10:13:35.508
+UT -10 deg twilight: 2023-04-20T23:01:35.985 2023-04-21T10:22:55.629
+LOCAL -16 deg twilight: 04/20/2023,   19:29:30   05:54:58
+LOCAL -15 deg twilight: 04/20/2023,   19:24:51   05:59:37
+LOCAL -14 deg twilight: 04/20/2023,   19:20:13   06:04:16
+LOCAL -12 deg twilight: 04/20/2023,   19:10:55   06:13:35
+LOCAL -10 deg twilight: 04/20/2023,   19:01:35   06:22:55
+LOCAL night MIDPOINT: 04/21/2023,   00:42:14
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them ***
+*********************************************************
+
+#### ~~~~ IN THE BEGINNING OF THE NIGHT, PLEASE SPOT CHECK SOME OF THE OBSERVABILITY OF TARGETS AS YOU GO. ITS TIGHT.
+
+!!! 00:42:14
+### etale.i.15min.json [160 -60] 15 min     
+OMLApex_230420.json [166 -24]   (36 min)
+YSE 2022aduk [160 -17] (3 min) HST         ### DROP IF BEHIND!!
+YSE 2023bu [178 -18]  (3 min) HST 		   ### DROP IF BEHIND!!
+
+!!! 01:24
+DEBASS/EVERYTHING/2023fnj_P1 [176 6] (3min) 
+YSE 2022zut [175 11] 3 min    HST          ### DROP IF BEHIND!!
+DEBASS/EVERYTHING/2023fot_P2 [184 10] (3min) CAN SKIP IF NECESSARY
+DEBASS/EVERYTHING/2023fyq_P2 [185 13] (3min) CAN SKIP IF NECESSARY
+YSE 525 [189 10] 17 min                    ### DROP IF BEHIND!! 
+DEBASS/EVERYTHING/2023dtz_P2 [190 14] (3min) CAN SKIP IF NECESSARY
+DEBASS/EVERYTHING/2023gfo_P2 [197 -8] (3min) CAN SKIP IF NECESSARY
+DEBASS/EVERYTHING/2023fou_P2 [190 -10] (3min) CAN SKIP IF NECESSARY
+DEBASS/EVERYTHING/2023gfs_P2 [194 -13] (3min) CAN SKIP IF NECESSARY
+DEBASS/EVERYTHING/2023fud_P1 [193 -17] (3min) 
+
+!!! 02:10
+DESIRT_MBHB1_grz [203.5 +17.5] (17 min)
+DEBASS/EVERYTHING/2023cyx_P2 [206 4] (3min) CAN SKIP IF NECESSARY
+YSE 477 [214 5] 8 min                   ### DROP IF BEHIND!!
+
+!!! 02:40 
+YSE 2023emq [203 -23] (3 min)
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min) drop i band to save time
+DEBASS/EVERYTHING/2023dwc_P1 [203 -35] (3min) 
+DEBASS/EVERYTHING/2023eob_P1 [233 -30] (3min) 
+DEBASS/EVERYTHING/2023day_P2 [213 -6] (3min) CAN SKIP IF NECESSARY
+YSE 2023da [195 -16]  (3 min) HST           ### DROP IF BEHIND!!
+YSE 2022aczp [191 -15] 3 min  HST           ### DROP IF BEHIND!!
+YSE 2023alf [207 -13] 3 min HST             ### DROP IF BEHIND!!
+
+!!! 03:00
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (9 min) 
+DESIRT_220_gz [~220 8] (36 min)
+
+!!! 04:00 
+YSE 531 [230 11] 8 min            ### DROP IF BEHIND!!       
+YSE 583 [236 20] 8 min            ### DROP IF BEHIND!!		 
+YSE 376	[224 -8] 17 min 	      
+YSE 428	[228 -4] 17 min           
+
+!!! 04:50
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min) 
+YSE 440	[314 -4] 17 min               
+YSE 544 [321 9] 17 min                
+DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min) 
+
+!!! 06:04:16 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+etale.i.15min.json [160 -60] 15 min     

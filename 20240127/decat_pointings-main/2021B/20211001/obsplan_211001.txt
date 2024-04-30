@@ -1,0 +1,59 @@
+all times in local time (+1h compared to EDT)
+
+01:10am #some of these targets are setting (from second half) so be careful
+  DEBASS 2021yuj_P1 [299 -22]
+  DEBASS 2021yzz_P2 [331 -19]
+  DEBASS 2021zfs_P1 [323 5]
+  DEBASS 2021zax_P1 [333 13]
+  DEBASS 2021yrz_P1 [338 19]
+  YSE 494.F.2021aabp [347 9]
+1:50 am
+  ELAIS seq A&B [9, -43] 1h 
+  2021zgf_P1 [26 -43] 4 min
+
+2:50 am 
+  YSE 296 [17, -19] 16 min
+
+3:05 am
+  YSE 401 [40, -1] 20 min
+  Shen S12  [42, 0] 22 min
+
+3:50 am
+  YSE 403 [52, -4] 20 min
+  DEBASS 2021zfr_P1 [45 -15]
+  DEBASS 2021zdx_P1 [46 -15]
+  DEBASS 2021zqo_P1 [44 -18]
+4:20 am
+  Shen C3 [52, -28] 7 min
+  YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json)
+
+4:40 am
+  DEBASS 2021ywa_P1 [58 -17]
+  DEBASS 2021ypa_P2 [69 -13]
+  DEBASS 2021ymn_P1 [78 -17]
+  DEBASS 2021zsz_P1 [93 -14]
+
+5:00: YSE 257 [91, -26] (20 min)
+5:20: Shen SCVZ [90,-66] 11 min 	
+5:30: DEBASS 2021yyq_P2 [92 -44]
+
+
+set the guider exposure time to 100ms for this crowded field
+5:35: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+6:05AM hard stop
+--------------
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+DEBASS 2021zzu_P2 [326 -16] <--- if observing, only visible during very beginning of second half of night
+DEBASS 2021ywa_P2 [58 -17]
+DEBASS 2021ypa_P2 [69 -13]
+DEBASS 2021ymn_P2 [78 -17]
+DEBASS 2021yyq_P2 [92 -44]
+
+Shen X123 [34, -4]  35 min
+YSE 353 [63, -11] (20 min)
+CDFS again [52, -28] (15 min)

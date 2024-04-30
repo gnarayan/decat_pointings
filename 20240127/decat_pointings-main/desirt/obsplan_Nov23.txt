@@ -1,0 +1,52 @@
+## Nov 4 (2nd half)
+
+DESIRT_30_gr (30 -15) (31 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_50_r (50 -15) (15 min)
+
+## Nov 07 
+
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gz [~0 0] (41 min) # Cut last 15 min if running out of time
+DESIRT_30_gr (30 -15) (31 min) 
+DESIRT_50_gr (50 -15) (28 min) 
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_50_z (50 -15) (20 min)
+
+
+## Nov 10 (2nd half)
+
+DESIRT_30_gr (30 -15) (31 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_50_r (50 -15) (15 min)
+
+
+## Nov 13 (2nd half)
+
+DESIRT_30_gz (30 -15) (37 min)
+DESIRT_50_gr (50 -15) (27 min)
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_50_r (50 -15) (15 min)
+
+
+## Nov 16
+
+DESIRT_330_20_16Nov [~330 -20] (7 min)
+DESIRT_S82_gr [~350 0] (36 min)
+DESIRT_S82_2_gr [~0 0] (36 min) # Cut last ~15 min if running out of time
+DESIRT_30_gr (30 -15) (31 min) 
+DESIRT_50_gr (50 -15) (28 min) 
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_50_z (50 -15) (20 min)

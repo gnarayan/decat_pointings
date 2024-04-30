@@ -1,0 +1,162 @@
+MOON ILLUMINATION: 0.53
+UT -16 deg twilight: 2023-07-25T23:20:09.890 2023-07-26T10:19:17.289
+UT -15 deg twilight: 2023-07-25T23:15:23.641 2023-07-26T10:24:03.024
+UT -14 deg twilight: 2023-07-25T23:10:37.050 2023-07-26T10:28:49.421
+UT -12 deg twilight: 2023-07-25T23:01:01.386 2023-07-26T10:38:24.341
+UT -10 deg twilight: 2023-07-25T22:51:22.617 2023-07-26T10:48:02.332
+LOCAL -16 deg twilight: 07/25/2023,   19:20:09   06:19:17
+LOCAL -15 deg twilight: 07/25/2023,   19:15:23   06:24:03
+LOCAL -14 deg twilight: 07/25/2023,   19:10:37   06:28:49
+LOCAL -12 deg twilight: 07/25/2023,   19:01:01   06:38:24
+LOCAL -10 deg twilight: 07/25/2023,   18:51:22   06:48:02
+LOCAL night MIDPOINT: 07/26/2023,   00:49:43
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! after pointing ~18:55
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### !!! 19:10:37
+YSE 2023fyq [186 12] 3 min
+YSE 525 [189 10] 34 min 
+
+
+!!! 19:47
+YSE 2023bu [178 -18]  (3 min) HST      
+### etale.z.15min.json [160 -60] 15 min      
+etale.i.15min.json [160 -60] 15 min       
+### etale.r.15min.json [160 -60] 15 min     
+### etale.g.30min.json [160 -60] 30 min     
+
+
+!!! 20:05
+### YSE 2023huy [199 -16] (3 min)
+### YSE 2023emq [203 -23] (10 min)  
+YSE 2023hym 213 -45 (3 min)                   
+
+!!! 20:08
+DEBASS/EVERYTHING/2023mgq_P2 [217 10] (3min) LOW PRIORITY
+DEBASS/EVERYTHING/2023mbz_P1 [225 11] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023nlo_P2 [225 16] (3min) OPTIONAL
+
+!!! 20:17
+DESIRT_220_rz [~220 8] (40 min)
+### YSE 477 [214 5] 17 min   
+### DESIRT_G15_g [~215 -1] (6 min)
+### DESIRT_G15_z [~215 -1] (9 min)
+
+!!! 20:57
+YSE 583 [236 20] 8 min                 	 
+YSE 531 [230 11] 8 min 	         	  
+YSE 2023lhy [242 15]  (3 min) HST
+DEBASS/EVERYTHING/2023lhq_P1 [253 18] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023nlk_P1 [259 22] (3min) HIGH PRIORITY
+YSE 2023gxf [257 19] (3 min)          OPTIONAL FILLER
+DEBASS/EVERYTHING/2023mde_P1 [257 13] (3min) HIGH PRIORITY
+
+### !!! 21:45
+### YSE 428	[228 -4] 17 min             
+### YSE 376	[224 -8] 17 min                  
+
+!!! 21:31
+DEBASS/EVERYTHING/2023mnw_P1 [239 -13] (3min) HIGH PRIORITY
+luhman.julXX.28min.json [270 -14] (28 min)
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2023mvl_P1 [295 -21] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023mzb_P1 [299 -26] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023kin_P2 [296 -58] (3min) LOW PRIORITY
+
+### !!! 00:11
+### 2023A-627924_Piatti/230703.json [263 -67] 37 min
+
+!!! 22:36
+YSE 2023mzb [300 -25] (3 min) HST
+YSE 2023hcx [302 5] (3 min) HST   
+DEBASS/EVERYTHING/2023nqd_P2 [310 0] (3min) LOW PRIORITY
+DEBASS/EVERYTHING/2023nkq_P2 [306 -3] (3min) LOW PRIORITY
+YSE 440	[314 -4] 17 min           
+
+!!! 23:06   
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) 
+DESIRT_330_z [332 -3]  (23 min)
+DEBASS/EVERYTHING/2023lxj_P1 [348 14] (3min) HIGH PRIORITY
+
+!!! 00:05      
+YSE 544 [321 9] 25 min                ### DROP i band if behind!   
+DEBASS/EVERYTHING/2023jsb_P2 [326 14] (3min) OPTIONAL
+YSE 494 [330 3] 25 min                ### DROP i band if behind!
+YSE 495 [339 5] (25 min)              ### DROP i band if behind!
+
+!!! 01:23 
+### 2021lwx [318 27] 5 min  # high priority. This one needs to be done at 4am+- 30 min due to airmass
+DEBASS/EVERYTHING/2023nls_P1 [333 -23] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023njx_P2 [334 -20] (3min) LOW PRIORITY
+DEBASS/EVERYTHING/2023nof_P2 [339 -15] (3min) OPTIONAL
+YSE 393 [346 -10] (25 min)          ### DROP i band if behind!
+DEBASS/EVERYTHING/2023nmr_P2 [342 -8] (3min) OPTIONAL
+DESIRT_330_g [332 -3]  (13 min) SECOND HALF OF EXPOSURES OPTIONAL
+
+!!! 02:12
+OMLAApex_230725.json      [355 12] (68 min total)
+OMLAApex_230725.x_i.json
+
+!!! 03:21
+DESIRT_S82_2_g [~0 0] (13 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+
+!!! 04:05
+DEBASS/EVERYTHING/2023ngb_P2 [6 -1] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023lnh_P1 [7 -9] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023ndf_P1 [23 -17] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023mkg_P1 [29 -21] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2023mha_P1 [34 -25] (3min) HIGH PRIORITY
+elais_ddf_seq_A/B  [8, -43] 1h
+
+
+!!! 05:20
+YSE 448 [16 3] (17 min)             
+DEBASS/EVERYTHING/2023nnz_P1 [36 19] (3min) HIGH PRIORITY
+
+!!! 05:20
+X123.json [34, -4] 34 min  
+DEBASS/EVERYTHING/2023mmb_P1 [48 -24] (3min) HIGH PRIORITY
+
+!!! 05:57
+C3 [52, -28] 11 min 
+DEBASS/EVERYTHING/2023mma_P2 [60 -27] (3min) OPTIONAL
+YSE 296 [17 -17] (17 min)           
+
+!!! 06:28:49  -14 deg twilight
+
+
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

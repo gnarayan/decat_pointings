@@ -1,0 +1,102 @@
+MOON ILLUMINATION: 0.51
+UT -16 deg twilight: 2023-11-05T00:24:49.043 2023-11-05T08:28:29.474
+UT -15 deg twilight: 2023-11-05T00:19:32.061 2023-11-05T08:33:46.330
+UT -14 deg twilight: 2023-11-05T00:14:17.252 2023-11-05T08:39:00.875
+UT -12 deg twilight: 2023-11-05T00:03:54.436 2023-11-05T08:49:23.527
+UT -10 deg twilight: 2023-11-04T23:53:39.564 2023-11-05T08:59:38.345
+LOCAL -16 deg twilight: 11/04/2023,   21:24:49   05:28:29
+LOCAL -15 deg twilight: 11/04/2023,   21:19:32   05:33:46
+LOCAL -14 deg twilight: 11/04/2023,   21:14:17   05:39:00
+LOCAL -12 deg twilight: 11/04/2023,   21:03:54   05:49:23
+LOCAL -10 deg twilight: 11/04/2023,   20:53:39   05:59:38
+LOCAL night MIDPOINT: 11/05/2023,   01:26:39
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+1 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! after pointing ~21:00 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+
+
+!!! 01:26:39 observation start!!
+DEBASS/EVERYTHING/2023tfc_P2 [10 -43] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023snj_P2 [21 -56] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023tnb_P2 [19 -24] (3min) OPTIONAL
+YSE 296 [17 -17] (8 min)                    
+YSE 448 [16 3] (17 min)                   
+DEBASS/EVERYTHING/2023vpo_P1 [7 13] (3min)
+DEBASS/EVERYTHING/2023tyl_P1 [26 20] (3min)
+### YSE 2022ywf [20 1] (10 min)
+
+!!! 02:07
+X123.json [34, -4] 34 min  
+DEBASS/EVERYTHING/2023wlj_P1 [29 -9] (3min)
+DESIRT_30_gr (30 -15) (31 min)
+
+!!! 03:15
+YSE 401 [37 0] 17 min                
+S12 [42,0] 22 min
+### DESIRT_Arp [47 2] (7 min)
+
+!!! 03:54
+YSE 403 [50 -2] 8 min                        
+YSE 2023ono [44 -22] (HST) 3 min
+C3 [52, -28] 11 min 
+
+!!! 04:16
+DESIRT_50_gz (50 -15) (34 min)
+DEBASS/EVERYTHING/2023teu_P1 [67 0] (3min)
+
+!!! 04:53
+YSE 353 [63 -10] 8 min                   
+YSE 253 [67, -26] 8 min            
+
+!!! 05:08
+DEBASS/EVERYTHING/2023vcr_P1 [68 -33] (3min)
+YSE 257 [85 -25] 8 min             
+DEBASS/EVERYTHING/2023vch_P1 [78 -23] (3min)
+### DEBASS/EVERYTHING/2023tfj_P2 [72 -46] (3min) OPTIONAL
+
+!!! 05:22               
+### Shen SCVZ [90 -66] 13 min 
+etale.i.15min.json [160 -60] 15 min    ### high priority!
+### YSE 412 [116 -2] 17 min              
+
+!!! 05:39  -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DEBASS/EVERYTHING/2023suh_P2 [54 -10] (3min) OPTIONAL
+DEBASS/EVERYTHING/2023tfj_P2 [72 -46] (3min) OPTIONAL
+YSE 412 [116 -2] 17 min              

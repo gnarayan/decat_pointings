@@ -1,0 +1,91 @@
+## Dec 1 (2nd half)
+
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_165_rz (165 -6) (43 min) ##Can cut after 10 min as needed.
+
+## Dec 10
+
+DESIRT_30_gr (30 -15) (31 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_165_gz (165 -6) (39 min)
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+
+## Dec 13
+
+DESIRT_330_20_12Dec (330 -20) (4 min)
+DESIRT_30_gz (30 -15) (37 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min) #LAST 2 EXPOSURES OPTIONAL
+DESIRT_165_gr (165 -6) (34 min)
+
+EXTRA TARGETS 
+DESIRT_30_r (30 -15) (18 min)
+DESIRT_165_r (165 -6) (18 min)
+ 
+## Dec 16
+
+DESIRT_30_gr (30 -15) (31 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_165_gz (165 -6) (39 min)
+
+EXTRA TARGETS 
+DESIRT_30_z (30 -15) (23 min)
+DESIRT_165_r (165 -6) (18 min)
+
+## Dec 19 (2nd half) 
+
+DESIRT_330_20_12Dec (330 -20) (4 min)
+DESIRT_165_grz (165 -6) (57 min)
+
+EXTRA TARGETS 
+DESIRT_165_g (165 -6) (15 min)
+
+## Dec 22 
+
+DESIRT_330_20_12Dec (330 -20) (4 min) #HIGH PRIORITY, CAN SKIP
+DESIRT_30_r  (30 -15) (17 min)
+DESIRT_30_z  (30 -15) (23 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_165_gz (165 -6) (39 min)
+
+## Dec 26 
+
+DESIRT_330_20_12Dec (330 -20) (4 min)
+DESIRT_30_r  (30 -15) (17 min)
+DESIRT_30_z  (30 -15) (23 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_165_rz (165 -6) (43 min)
+
+EXTRA TARGETS
+DESIRT_190_z (190 7) (23 min)
+DESIRT_190_r (190 7) (17 min)
+
+## Dec 28 
+
+DESIRT_330_20_12Dec (330 -20) (4 min)
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_165_rz (165 -6) (43 min)
+DESIRT_190_z (190 7) (23 min) # LAST 4 EXPOSURES OPTIONAL
+DESIRT_190_r (190 7) (17 min) # LAST 4 EXPOSURES OPTIONAL
+
+## Dec 31 
+
+DESIRT_50_g (50 -15) (13 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_190_z (190 7) (23 min)
+DESIRT_190_r (190 7) (17 min)
+DESIRT_237 (237 -35) (5 min) # HIGH PRIORITY, BAD AIRMASS, execute at very enf of night

@@ -1,0 +1,118 @@
+
+MOON ILLUMINATION: 0.81
+UT -16 deg twilight: 2022-01-13T01:11:15.001 2022-01-13T08:32:35.435
+UT -15 deg twilight: 2022-01-13T01:05:26.356 2022-01-13T08:38:23.451
+UT -14 deg twilight: 2022-01-13T00:59:44.343 2022-01-13T08:44:07.092
+UT -12 deg twilight: 2022-01-13T00:48:28.627 2022-01-13T08:55:21.497
+UT -10 deg twilight: 2022-01-13T00:37:25.992 2022-01-13T09:06:23.763
+LOCAL -16 deg twilight: 01/12/2022,   22:11:15   05:32:35
+LOCAL -15 deg twilight: 01/12/2022,   22:05:26   05:38:23
+LOCAL -14 deg twilight: 01/12/2022,   21:59:44   05:44:07
+LOCAL -12 deg twilight: 01/12/2022,   21:48:28   05:55:21
+LOCAL -10 deg twilight: 01/12/2022,   21:37:25   06:06:23
+LOCAL night MIDPOINT: 01/13/2022,   01:51:55
+
+Moon distance:
+2022 01 12     YSE448   0.80 illum  46 degr from obj
+2022 01 12     YSE296   0.80 illum  56 degr from obj
+2022 01 12      ELAIS   0.80 illum  77 degr from obj
+2022 01 12       X123   0.80 illum  33 degr from obj
+2022 01 12     YSE401   0.80 illum  27 degr from obj
+2022 01 12        S12   0.80 illum  25 degr from obj
+2022 01 12     YSE403   0.80 illum  25 degr from obj
+2022 01 12         C3   0.80 illum  49 degr from obj
+2022 01 12     YSE353   0.80 illum  32 degr from obj
+2022 01 12     YSE257   0.80 illum  57 degr from obj
+2022 01 12 DECaPSWest   0.80 illum  74 degr from obj
+2022 01 12       SCVZ   0.80 illum  90 degr from obj
+2022 01 12     EtaCar   0.80 illum  115 degr from obj
+2022 01 12      eFEDS   0.80 illum  78 degr from obj
+2022 01 12     Cosmos   0.80 illum  92 degr from obj
+2022 01 12     YSE525   0.80 illum  122 degr from obj
+2022 01 12      19tsf   0.80 illum  112 degr from obj
+
+
+ -10 degree twilight, the telescope observer on the montain will start the
+ pointing correction at that time.
+********  IMPORTANT!!!! ****** 
+The Asteroid fields are very far to the West, therefore it's good to check the
+pointing of the telescope at the beginning of the night to the West, so the
+telescope dome does not have to rotate much, but do not check the pointing at
+the fields as they are too far over for that. Pls tell this to telescope
+observer on the mountain!!! 
+***
+As soon the pointing correction is done, start the Asteroid fields:
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilight15decevening.json
+at -14 degree twilight (21:54 local time), stop the observations, and go to the next field!
+
+22:00
+DEBASS EVERYTHING/2021agjd_P1 [12 14] (4min)
+DEBASS EVERYTHING/2021aglf_P1 [22 20] (4min)
+YSE 448 [13, 3]   18min
+YSE 296 [17, -19] 16min
+DEBASS EVERYTHING/2021agbv_P1 [28 -14]  (4min)
+
+elais_ddf_seq_A/B.json [9, -43] 1h
+
+23:50
+X123 [34, -4]  35 min
+YSE 401 [40, -1] 20 min
+
+00:45
+YSE 505.A.2021zby [44 11] 7 min
+YSE 403 [52, -4] 9 min  
+
+01:05
+C3 [52, -28] 11 min
+DEBASS EVERYTHING/2021aefx_P1 [64 -54] (4min)
+YSE 353 [63, -11] 18 min 
+DEBASS EVERYTHING/2021abiu_P2 [119 -2] (4min) <-- optional
+YSE 257 [91, -26] 18 min
+DEBASS EVERYTHING/2021aglk_P1 [98 -36] (4min)
+
+02:00
+set the guider exposure time to 100ms for this crowded field
+decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+02:30
+Shen SCVZ [90,-66] 11 min
+
+EtaCar [161, -60] 30min
+jsons/2021B-0325_EtaCar_Rest/etale.g.30min.json
+
+eFEDS [135, 1] 30 min
+
+03:40
+YSE 618.C.21aggu [137,18]  3min  *** drop if necessary ***
+YSE 2021agji [140,24] 3min       
+DEBASS EVERYTHING/2021adlz_P2 [157 11] <-- optional
+
+03:45
+Cosmos [150,3] 1h
+jsons/2021B-0149_DDF_Graham/cosmos_ddf_seq_Jan2022_*.json
+*=A/B/C
+
+04:45
+DEBASS EVERYTHING/2021afue_P1 [154 -7] (4min)
+YSE 418.D.21agfq [165,2]  3min  
+
+04:55
+DEBASS STATIC/SP1_203-31.7.json (5min)
+DEBASS STATIC/SP2_199-31.7.json (5min)
+DEBASS STATIC/SP3_196-34.5.json (5min)
+
+05:10
+YSE 525 [189,10] 30 min
+
+
+05:44
+at -14 deg twilight, go to the asteroid field:
+jsons/2021B-0909_Twilight_Sheppard
+
+---------------
+FILLER TARGETS IF EXTRA TIME
+* you can always do another set of Eta Car observations in *** different *** filter than the one already observed
+jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json
+
+

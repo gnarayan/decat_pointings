@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2023hro",
+"filter": "i",
+"expTime": 25,
+"RA": "190.9420",
+"dec": "-20.0712",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023hro",
+"filter": "i",
+"expTime": 25,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023hro",
+"filter": "z",
+"expTime": 25,
+"RA": "190.9420",
+"dec": "-20.0712",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2023hro",
+"filter": "z",
+"expTime": 25,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2023A-237157"
+}
+]

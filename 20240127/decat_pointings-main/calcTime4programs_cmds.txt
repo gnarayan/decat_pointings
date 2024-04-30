@@ -1,0 +1,125 @@
+calcTime4programs.py 20210916 -vvs
+
+-----------------------
+
+calcTime4programs.py 20210610 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210607 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210604 -vvs -r UNKNOWN1 YSE -a
+
+
+calcTime4programs.py 20210601 -vvs -r UNKNOWN1 YSE
+
+calcTime4programs.py 20210601 -vvs -r UNKNOWN1 YSE
+
+calcTime4programs.py 20210529 -vvs -r UNKNOWN1 YSE --downtime 1003119 YSE 0.6hours DDF rest -a
+I could not observe 550*, 548* and one of the sequences of ELAIS-S1. 
+12/16*0.7882 = 0.6 hours
+--downtime 1003119 YSE 0.6hours DDF rest
+
+calcTime4programs.py 20210526 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210523 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210521 -vvs -r UNKNOWN1 YSE -a
+
+standard: 0.1708
+(0.1708+11.31-10.41)/7= 0.152
+calcTime4programs.py 20210517 -vvs  -r UNKNOWN1 YSE -a -r STANDARDS2 YSE --downtime 998959 EtaCar 0.15hours Shen  0.15hours eFEDS  0.15hours DEBASS 0.15hours DDF 0.15hours DESI 0.15hours
+
+standard: 0.0833
+(0.0833+11.26-10.98)/7=0.052hours  for each program
+calcTime4programs.py 20210514 -vvs  -r UNKNOWN1 YSE -a -e 997658 997660 YSE -e 997661 997662 EtaCar --downtime 997662 EtaCar 0.02hours Shen  0.043hours eFEDS  0.043hours DEBASS 0.043hours DDF 0.043hours DESI 0.043hours
+
+standard: 0.09
+(0.09+11.2-10.82)/7=0.067hours for each program
+-e 996558 996561 YSE -e 996562 996563 EtaCar --downtime 996563 EtaCar 0.02 
+calcTime4programs.py 20210511 -vvs -r UNKNOWN1 YSE -a -e 996558 996561 YSE -e 996562 996563 EtaCar --downtime 996563 EtaCar 0.026hours Shen  0.066hours eFEDS  0.062hours DEBASS 0.066hours DDF 0.066hours DESI 0.066hours
+
+#calcTime4programs.py 20210508 -vvs --downtime 995023 DEBASS rest -r STANDARDS1 SHEN --downtime 995209 YSE 2.2hours DESI rest -a
+calcTime4programs.py 20210508 -vvs --downtime 995023 YSE 0.07hours DEBASS rest -r STANDARDS1 SHEN --downtime 995209 YSE 2.2hours DESI rest -a -e 995210 995228 Martini -e 995229 995256 DESI
+
+calcTime4programs.py 20210505 -vvs  -a
+calcTime4programs.py 20210502 -vvs  -a
+calcTime4programs.py 20210428 -vvs  -a
+calcTime4programs.py 20210426 -vvs -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210424 -vvs -a
+calcTime4programs.py 20210420 -vvs --downtime 0 DEBASS rest  --downtime 987296 DESI 3.5215hours YSE 2.25hours DDF 1.8433hours EtaCar 0.46hours Shen 0.1924hours DEBASS rest  -a
+calcTime4programs.py 20210417 -vvs  -a
+calcTime4programs.py 20210414 -vvs -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210411 -vvs -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210408 -vvs  -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210405 -vvs -a
+calcTime4programs.py 20210402 -vvs --downtime 980630 DDF rest -a
+calcTime4programs.py 20210330 -vvs -a
+calcTime4programs.py 20210327 -vvs -r Drlica_TRADE YSE -a
+calcTime4programs.py 20210323 -vvs -r Rector_TRADE YSE -r UNKNOWN1 YSE -a
+calcTime4programs.py 20210321 -vvs -r Rector_TRADE YSE -a
+calcTime4programs.py 20210318 -vvs -r Miller_TRADE YSE -r STANDARDS1 DEBASS --downtime 974998 DDF 1.1hours DESI 3.51hours YSE 0.835hours DEBASS 0.54hours -a
+
+
+Trades:
+calcTime4programs.py 20210219 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1468    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ Shen                     0.6389    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      1.4861    NaN         NaN 0.0000 0.0000 0.1106 0.0000
+YSE pays 15 min = 0.25h of Shen
+
+calcTime4programs.py 20210223 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1333    NaN         NaN 0.0000 0.0000 0.0535 0.0000
+ Shen                     0.6472    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      1.6667    NaN         NaN 0.0000 0.2917 0.1632 0.0525
+YSE pays 15 min = 0.25h of Shen
+
+#calcTime4programs.py 20210226 -vvs
+#calcTime4programs.py 20210228 -vvs
+
+
+calcTime4programs.py 20210304 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1039    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      0.2937    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+
+calcTime4programs.py 20210307 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ YSE                      0.2236    NaN         NaN 0.0000 0.0000 0.2132 0.0000
+
+
+calcTime4programs.py 20210309 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.0785    NaN         NaN 0.0000 0.0344 0.0000 0.0000
+ YSE                      0.8188    NaN         NaN 0.0000 0.0667 0.0000 0.0000
+
+calcTime4programs.py 20210313 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.2104    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      0.8674    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+
+calcTime4programs.py 20210316 -vvs
+         assigned_program t_dark  t_twi  t_downtime t_down t_twi1 t_twi2 t_twi3
+ DEBASS                   0.1771    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+ YSE                      0.8590    NaN         NaN 0.0000 0.0000 0.0000 0.0000
+
+YSE to Eta Car: 0.1468+0.6389+1.4861+0.1333+0.6472+1.6667 = 4.71 hours
+Shen to YSE: 0.6389+0.6472-0.5 = 0.7861 hours
+DEBASS to YSE: 0.1468+0.1333+0.0535+0.1039+0.0785+0.0344+0.2104+0.1771=0.9379 hours
+
+         assigned_program  t_dark t_twi1 t_twi2 t_twi3 t_down
+ DDF                       0.3560 0.0000 0.0000 0.0000 0.0000
+ DEBASS                    0.1393 0.0000 0.0000 0.0000 0.0000
+ EtaCar                    0.1458 0.0000 0.0000 0.0000 0.0000
+ TECHSETUP1                0.0833 0.0000 0.0000 0.0000 0.0000
+ total time used (hr)      0.7244 0.0000 0.0000 0.0000 0.0000
+ total time avail. (hr)   10.7465 0.3103 0.3111    nan    nan
+
+DDF: 2.1993-0.356=1.8433
+DEBASS: 1.9187-0.1393=1.7794
+YSE: 2.3
+EtaCar: 0.5458 - 0.1458=0.4
+Shen: 0.1924
+DESI: 3.5215 
+
+
+calcTime4programs.py 20210420 -vvs --downtime 0 DEBASS rest  --downtime 987296 DESI 3.5215hours YSE 2.25hours DDF 1.8433hours EtaCar 0.46hours Shen 0.1924hours DEBASS rest  -a
+DEBASS 1.76hours 
+
+calcTime4programs.py 20220417 -vv

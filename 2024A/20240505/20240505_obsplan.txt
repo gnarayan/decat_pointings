@@ -48,29 +48,32 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 19:07:07
-YSE 257 [85 -25] 17 min             
-YSE 412 [116 -2] 17 min                     
+YSE 257 [85 -25] 9 min             
+YSE 412 [116 -2] 8 min                     
 DECaPSWest A+B [116 -26] 30 min
 
-!!! 20:12
+!!! 19:55
 ### Block below Dec<=-30
 Shen SCVZ [90 -66] 13 min 
+
+!!! 20:10
+ToO for 1h45min
+
+!!! 21:55
 ### etale.g.30min.json [160 -60] 30 min       
-etale.r.15min.json [160 -60] 15 min    
+### etale.r.15min.json [160 -60] 15 min    
 ### etale.i.15min.json [160 -60] 15 min    
 ### etale.z.15min.json [160 -60] 15 min           
+2024A-941948_DDF_Nugent/cosmos_ddf_seq_A [150 2] 0.5h      ### skip B, C !!!! 
 
-!!! 20:40
-2024A-941948_DDF_Nugent/cosmos_ddf_seq_A, +B, +C [150 2] 1.5h    
-
-!!! 22:10
+!!! 22:25
 DEBASS/EVERYTHING/2024gda_P1 [162 12] (3min)
 DEBASS/EVERYTHING/2024fwj_P1 [182 13] (3min)
 DEBASS/EVERYTHING/2024fcd_P1 [177 0] (3min)
 DEBASS/EVERYTHING/2024gra_P1 [179 -11] (3min)
 
-!!! 22:22
-DOSC OMLApex_240*.json  [167 -25] (76 min) 
+!!! 22:38
+DOSC OMLApex_240*.json  [167 -25] (60 min)  ###  !!!!! Skip exposures here, don't go past 23:38, stick to the schedule!
 YSE 2024uj [167 -20] (4 min)                   
 
 !!! 23:42

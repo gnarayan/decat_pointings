@@ -1,0 +1,40 @@
+[
+    {
+        "RA": "23:00:00", 
+        "comment": "Standard Star Field", 
+        "program": "photom-std-field",
+        "dec": "+00:00:00", 
+        "expType": "standard", 
+        "exptime": 15.0, 
+        "filter": "g", 
+        "object": "SDSSJ2300-0000", 
+        "program": "photom-std-field"
+    }, 
+    {
+        "comment": "Standard Star Field", 
+        "program": "photom-std-field",
+        "expType": "standard", 
+        "exptime": 15.0, 
+        "filter": "r", 
+        "object": "SDSSJ2300-0000", 
+        "program": "photom-std-field"
+    }, 
+    {
+        "comment": "Standard Star Field", 
+        "program": "photom-std-field",
+        "expType": "standard", 
+        "exptime": 15.0, 
+        "filter": "i", 
+        "object": "SDSSJ2300-0000", 
+        "program": "photom-std-field"
+    }, 
+    {
+        "comment": "Standard Star Field", 
+        "program": "photom-std-field",
+        "expType": "standard", 
+        "exptime": 15.0, 
+        "filter": "z", 
+        "object": "SDSSJ2300-0000", 
+        "program": "photom-std-field"
+    }
+]

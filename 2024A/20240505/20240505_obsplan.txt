@@ -48,9 +48,9 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 19:07:07
+YSE 257 [85 -25] 17 min             
 YSE 412 [116 -2] 17 min                     
 DECaPSWest A+B [116 -26] 30 min
-YSE 257 [85 -25] 17 min             
 
 !!! 20:12
 ### Block below Dec<=-30

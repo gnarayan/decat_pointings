@@ -2847,7 +2847,7 @@ mkdir 20240505
 cp 20240502/20240502_obsplan.txt 20240505/20240505_obsplan.txt 
 subl 20240505/20240505_obsplan.txt
 git add 20240505/20240505_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f g,i   412 257 -d 240505 
+mkjson_yse_nofilterswitch.py  -f g   412 257 -d 240505 
 mkjson_yse_nofilterswitch.py  -f g,i  525   -d 240505 
 mkjson_yse_nofilterswitch.py  -f g,r  428 376   -d 240505 
 mkjson_yse_nofilterswitch.py  -f g,r  531  -d 240505 

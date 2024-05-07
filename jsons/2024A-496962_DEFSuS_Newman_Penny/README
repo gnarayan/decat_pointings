@@ -1,13 +1,4 @@
 defsus_main_20240505_30m00s.json [264 -29] (33 min)
 defsus_main_20240505_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
-
-!!! At some point during this block ask the telescope operator to check if it is photometric !!!!
-defsus_cal_20240505_cal_13m20s.json [] (13 min) !!! Optinal - skip this and remaining defsus scripts if running behind
-
-!!! Run these only if photometric !!!!
-defsus_std_e8a_griz.json [302 -44] (5 min)
-!!! If before 5:15 run e6a, otherwise run sdssj2300
-defsus_std_e6a_griz.json [221 -45] (5 min)
-!!! If after 5:15 run sdssj2300 instead
-### defsus_std_sdssj2300_griz.json [345 +00] (6 min)
+defsus_extra_20240508_14m00s.json [270 -32] (14 min) !!! Optional, skip if behind
 

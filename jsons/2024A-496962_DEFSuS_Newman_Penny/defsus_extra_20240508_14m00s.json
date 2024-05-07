@@ -1,0 +1,98 @@
+[
+ {
+  "count": 1,
+  "comment": "S33 g DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S33",
+  "filter": "g",
+  "RA": 270.2,
+  "dec": -32.0,
+  "expTime": 100,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S33 i DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S33",
+  "filter": "i",
+  "RA": 270.2,
+  "dec": -32.0,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S43 g DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S43",
+  "filter": "g",
+  "RA": 268.35,
+  "dec": -35.0,
+  "expTime": 100,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S43 i DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S43",
+  "filter": "i",
+  "RA": 268.35,
+  "dec": -35.0,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S22 g DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S22",
+  "filter": "g",
+  "RA": 272.05,
+  "dec": -29.0,
+  "expTime": 100,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S22 i DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S22",
+  "filter": "i",
+  "RA": 272.05,
+  "dec": -29.0,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S21 g DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S21",
+  "filter": "g",
+  "RA": 272.05,
+  "dec": -27.0,
+  "expTime": 100,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S21 i DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S21",
+  "filter": "i",
+  "RA": 272.05,
+  "dec": -27.0,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ }
+]

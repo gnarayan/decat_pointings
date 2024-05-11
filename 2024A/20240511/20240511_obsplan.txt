@@ -111,7 +111,7 @@ YSE 2024eyo [311 -46] (3 min)           ### high priority
 YSE 440	[314 -4] 17 min                  
 YSE 544 [321 9] 17 min                  
 YSE 494 [330 3] 17 min 	
-E12.json [9 -45] (28 min)               ### this is extra, do whatever you can of this one!			    
+E1E2.json [8 -43] (28 min)               ### this is extra, do whatever you can of this one!			    
 ### YSE 2023vyl [350 17] (5 min)
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 

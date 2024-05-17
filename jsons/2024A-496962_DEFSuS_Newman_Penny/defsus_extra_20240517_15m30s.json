@@ -1,0 +1,122 @@
+[
+ {
+  "count": 1,
+  "comment": "S51 r DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S51",
+  "filter": "r",
+  "RA": 266.0,
+  "dec": -35.3,
+  "expTime": 70,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S51 z DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S51",
+  "filter": "z",
+  "RA": 266.0,
+  "dec": -35.3,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S60 r DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S60",
+  "filter": "r",
+  "RA": 264.15,
+  "dec": -34.3,
+  "expTime": 70,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S60 z DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S60",
+  "filter": "z",
+  "RA": 264.15,
+  "dec": -34.3,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "N71 r DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_N71",
+  "filter": "r",
+  "RA": 262.2,
+  "dec": -29.7,
+  "expTime": 70,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "N71 z DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_N71",
+  "filter": "z",
+  "RA": 262.2,
+  "dec": -29.7,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "N70 r DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_N70",
+  "filter": "r",
+  "RA": 262.2,
+  "dec": -27.7,
+  "expTime": 70,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "N70 z DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_N70",
+  "filter": "z",
+  "RA": 262.2,
+  "dec": -27.7,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S21 g DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S21",
+  "filter": "g",
+  "RA": 272.05,
+  "dec": -27.0,
+  "expTime": 100,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ },
+ {
+  "count": 1,
+  "comment": "S21 i DEFSuS",
+  "expType": "object",
+  "object": "DEFSuS_S21",
+  "filter": "i",
+  "RA": 272.05,
+  "dec": -27.0,
+  "expTime": 50,
+  "proposer": "Newman-Penny",
+  "propid": "2024A-496962"
+ }
+]

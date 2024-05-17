@@ -80,17 +80,17 @@
 "propid": "2024A-537967"
 },
 {
-"object": "pos13a",
+"object": "pos83a",
 "expType": "object",
 "filter": "r",
-"RA": 275.842,
-"dec": -25.750,
+"RA": 279.206,
+"dec": -17.200,
 "expTime": 150,
 "count": 1,
 "propid": "2024A-537967"
 },
 {
-"object": "pos13b",
+"object": "pos83b",
 "expType": "object",
 "filter": "r",
 "deltaRA": "+70.0",

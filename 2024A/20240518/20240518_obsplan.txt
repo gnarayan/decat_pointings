@@ -68,7 +68,10 @@ etale.i.15min.json [160 -60] 15 min
 etale.i.closefields135deg_A.json [160 -60] 31 min
 
 ### !!! 22:00
-### DEBASS/EVERYTHING/2024gda_P1 [162 12] (3min)
+DEBASS/EVERYTHING/2024gda_P2 [162 12] (3min)
+DEBASS/EVERYTHING/2024inv_P1 [167 10]
+
+
 ### DEBASS/EVERYTHING/2024fwj_P1 [182 13] (3min)
 ### DEBASS/EVERYTHING/2024fcd_P1 [177 0] (3min)
 ### DEBASS/EVERYTHING/2024gra_P1 [179 -11] (3min)
@@ -80,8 +83,8 @@ DOSC ?_OMLApex.240*.json  [167 -25] (56 min)
 !!! 23:00
 ### YSE 2024exw [183 14] (3 min)
 ### YSE 525 [189 10] (33 min)                         
-DEBASS/EVERYTHING/2024gbt_P1 [188 -26] (3min)
-DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (3min)
+### DEBASS/EVERYTHING/2024gbt_P1 [188 -26] (3min)
+### DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (3min)
 ### DOSC ?_ShallowApex.24????.json [213 -34] (14 min)
 ### YSE 2023emq [203 -24] (5 min)
 YSE 2023mkt [229 -24] (5 min)

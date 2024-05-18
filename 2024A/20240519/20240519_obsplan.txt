@@ -78,14 +78,14 @@ etale.i.SE.45min.json  [160 -60] 45 min
 DOSC ?_OMLApex.240*.json  [167 -25] (75 min)  
 ### YSE 2024uj [167 -20] (4 min)                   
 
-!!! 23:04
+!!! 23:05
 YSE 2024exw [183 14] (3 min)
 ### YSE 525 [189 10] (33 min)                         
 DEBASS/EVERYTHING/2024gbt_P1 [188 -26] (3min)
 DEBASS/EVERYTHING/2024fbo_P1 [197 -29] (3min)
 DOSC ?_ShallowApex.24????.json [213 -34] (14 min)
 
-!!! 00:24
+!!! 00:25
 ### YSE 2023emq [203 -24] (5 min)
 YSE 2023mkt [229 -24] (5 min)
 YSE 376	[224 -8] 9 min 	              ### close to Moon, skip if behind schedule     				      

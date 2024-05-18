@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 50.0,
+		"RA": 186.900000,
+		"dec": 9.900000,
+		"object": "525.B.b",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "525.B.b",
+		"wait": "False",
+		"propid": "2021A-0275"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 50.0,
+		"RA": 186.900000,
+		"dec": 9.900000,
+		"object": "525.B.b",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "525.B.b",
+		"wait": "False",
+		"propid": "2021A-0275"
+	}
+]

@@ -1,0 +1,204 @@
+May 17, 2021
+Times are local (UTC) for CTIO
+
+mjd 59352, date 20210517, Site CTIO, UT-offset 4 hr
+Current local time 12:13 -04     UT 16:13     SidTim 03:13
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     18:03 -04  22:03 UT   09:03  136 deg
+Eve. -10   18:40 -04  22:40 UT   09:40  145 deg  Zeropoint; standards
+Eve. -14   18:59 -04  22:59 UT   09:59  150 deg  Begin obstac
+Eve. -18   19:18 -04  23:18 UT   10:19  155 deg  Last chance standards
+Moonset    22:45 -04  02:45 UT   13:46  206 deg
+Midpoint   00:39 -04  04:39 UT   15:40  235 deg
+Morn -18   06:01 -04  10:01 UT   21:01  315 deg  Begin astronomical twilight
+Morn -14   06:19 -04  10:19 UT   21:19  320 deg  End obstac; begin standards
+Morn -10   06:39 -04  10:39 UT   21:39  325 deg
+Sunrise    07:16 -04  11:16 UT   22:16  334 deg
+Moon position (deg): RA 131.1, Dec 22.8 Phase: 0.410
+
+Time between eve and morning twilight (14 deg):  680 minutes
+Time between sunset and sunrise: 793 minutes
+
+Times below are LOCAL TIME IN CHILE
+[] is the rounded RA DEC of the pointing (or rough mean for multiple pointings)
+
+BACKUP/FILLER fields are listed at bottom
+
+FOR STANDARDS GET ugriz!!
+
+Can start standards around 19:10 or earlier if telops allows
+
+---------------------------- PLAN BEGINS -------------------------------
+
+18:03   Sunset - Setup
+
+18:40   Twilight - Please start Promptly
+        SDSSJ1048-0000 [STANDARD ]
+        2021jad_long.json [82 -21]  (5 min)
+        2021ill [139 -30]
+        2021knh_P1 [138 -27]
+        (20 min total) 
+
+19:00   S-CVZ.json [90 -67]  (12 min)
+        415.A.2021koj.json
+        2021law_P1 [140 4]
+        2021lnf_P1 [143 -16]
+        365.A.2021lnf [143 -16]
+        (30 min total)
+
+19:30   eFEDS.json [136 1]
+        (30 min)
+
+# CAN START AS EARLY AS -18 sun angle
+20:00   COSMOS-AGN-1 (10 min, cosmos_agn_1.json) [150 3]  
+        COSMOS-AGN-2 (10 min, cosmos_agn_2.json) [149 2]
+        COSMOS-AGN-3 (10 min, cosmos_agn_3.json) [151 2]
+        (30 min + 5 min setup total)
+
+20:35   418.A [154 -3]
+        2021kom_P1 [155 3]
+        468.F.2021kut.json
+        2021kut_P1 [158 6]
+        (10 min total)
+       
+20:45   2021jap [163 -9]
+        2021ipf_P2 [174.0 -6.0]
+        575.B.a [178 21]
+        2021low_P1 [175.0 21.0]
+        525.A.a [186 15]
+        525.A.b [189 15] 
+        525.E.b [189 12]
+        525.E.a [186 12] 
+        525.F.b [188 7] 
+        525.F.a [185 6]
+        2021iuk_2021hiz.json [186 7] # TWO SNE IN THE SAME JSON
+        525.B.b [187 10] 
+        525.C.a [185 10]
+        525.B.a [189 10]
+        525.C.b [192 12]
+        525.D.a [183 12]
+        525.D.b [185 12]
+        (55 min)
+        
+21:40   2021khn_P1 [195.0 -5.0]
+        423.E.a.2021fxy.json [198 -20] 
+        2021kre_P1 [206 -7]
+        2021kxf_P1 [204 2]
+        577.A.21inl_21lxb.json [195 28] ### CHECK POINTING ACCURACY - NEED TO GET 2 SNe ON SILICON AT ONCE!
+        2021lxb_P1 [195 28]
+        (20 min)
+
+** DESI Block (3h:30m total with setup) ** [220, 1] 
+22:00  desidot_grz_short_1.json
+       desidot_grz_short_2.json
+       desidot_grz_short_3.json
+       desidot_grz_short_4.json
+       # if you have to drop DESI fields, drop from desidot_rz_VVDS first, and then desidot_g
+       desidot_g.json
+       desidot_rz_VVDS.json
+
+### interrupt DESI block to do SNe
+## I've combined all the interrupts into one big block for tonight
+## this means that some are at higher airmass than usual 
+## but will make adjusting times for the rest of the semester easier
+## since I can just offset both ahead by the same amount
+
+23:30  2021ltk_P1 [211 -39]
+       181.A.2021ltk 
+       376.2020esm.a [220 -8]
+       376.B.a
+       376.C.a
+       376.D.a
+       376.E.a
+       376.F.a
+       (25 min)
+
+23:55  2021lat_P1 [220 24]
+       629.A.2021lat.json [220 24]
+       2021kpu_P1  [231 22]
+       583.2021kpu.a.json [231 22]
+       583.A.a [245 14]
+       583.B.a [240 20]
+       583.C.a
+       583.E_1.a
+       583.F.a
+       (25 min)
+
+00:20  531.A.2021jvs [224 7]
+       531.B.a [230 10]
+       531.C.a
+       531.D.a
+       531.E.a
+       531.F.a
+       (15 min)
+
+00:35  428.A.a [230 -3]
+       428.B.a
+       428.C.a
+       428.D.a
+       428.E.a
+       428.F.a
+       2021jwl_P1 [234 5]
+       (15 min)
+
+00:50  2021inj  [241 2]
+       632.A.a  [241 25]
+       632.B.a
+       632.C.a
+       632.D.a
+       632.E.a
+       632.F.a
+       2021ify [262 13]
+       (25 min)
+### resume DESI block wherever you left off
+### DESI Block 376 + 583 + 631 + 428 + 632 should end around 03:15
+
+### DISABLE GUIDING FOR DECAPS
+      --> be careful going below -30 will cause telescope dome to rotate (5 extra minutes)
+03:15 DECaPSEast-DDF-A (21 min + 4 min setup, decapseast_ddf_A.json) [271 -29.5] 
+03:40 DECaPSEast-DDF-B (decapseast_ddf_B.json)
+04:05 DECaPSEast-DDF-B (decapseast_ddf_B.json)
+04:30 DECaPSEast-DDF-A (decapseast_ddf_A.json)
+### Reset guider exposure time to 600ms
+
+04:55  440.A.a [314 -4]
+       440.B.a
+       440.C.a
+       440.D.a
+       440.E.a
+       440.F.a
+       (15 min)
+
+05:10  494.A.a [331 6]
+       494.B.a
+       494.C.a
+       494.D.a
+       494.E.a
+       494.F.a
+       (20 min)
+
+# IF YOU ARE RUNNING BEHIND, DROP FROM 544 POINTINGS 
+05:30  544.A.a [320 9]
+       544.B.a
+       544.C.a
+       544.D.a
+       544.E.a
+       544.F.a
+       (15 min)
+
+05:45  2021koq_P1  [273 6]
+       2021juw_P1 [297 -20] 
+       SDSSJ2140-0000
+
+---------------------------- PLAN ENDS -------------------------------
+
+Backup/Filler
+--------------
+2021igt_P2 [190 21]
+2021hji_P2 [252.0 22.0]
+550.A.a [3 21]
+550.B.a
+550.C.a
+550.D.a
+550.E.a
+550.F.a

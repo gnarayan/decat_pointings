@@ -1,0 +1,135 @@
+MOON ILLUMINATION: 0.02
+UT -16 deg twilight: 2024-01-10T01:12:02.369 2024-01-10T08:29:02.120
+UT -15 deg twilight: 2024-01-10T01:06:10.672 2024-01-10T08:34:52.633
+UT -14 deg twilight: 2024-01-10T01:00:24.940 2024-01-10T08:40:39.345
+UT -12 deg twilight: 2024-01-10T00:49:03.139 2024-01-10T08:52:02.037
+UT -10 deg twilight: 2024-01-10T00:37:55.007 2024-01-10T09:03:08.884
+LOCAL -16 deg twilight: 01/09/2024,   22:12:02   05:29:02
+LOCAL -15 deg twilight: 01/09/2024,   22:06:10   05:34:52
+LOCAL -14 deg twilight: 01/09/2024,   22:00:24   05:40:39
+LOCAL -12 deg twilight: 01/09/2024,   21:49:03   05:52:02
+LOCAL -10 deg twilight: 01/09/2024,   21:37:55   06:03:08
+LOCAL night MIDPOINT: 01/10/2024,   01:50:32
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! after pointing ~21:45 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+!!! 22:00:24
+kleyna/2023-12/Kleyna2024-01-XY_sunset.json 
+SSTART UT 2024-01-10T00:59:12    at sun elevation -14.0
+END   UT 2024-01-10T02:02:12    at sun elevation -24.2
+TOTAL TIME: 1 hour (60.0 minutes) 
+**** Repeat this script until 23:00, then go to the next block!!! ***
+
+!!! 23:00
+### YSE 448 [16 3] (8 min)                   
+DEBASS/EVERYTHING/2023yzw_P1 [20 -1] (2min) 
+### YSE 296 [17 -17] (8 min)    
+YSE 2023xzq [16 -9] (3 min)                
+
+!!! 23:05
+E1E2.json [9 -45] (19 min)
+DEBASS/EVERYTHING/2023aaqu_P1 [5 -52] (2min) 
+
+!!! 23:26
+### DEBASS/EVERYTHING/2023zbo_P2 [26 -17] (2min) OPTIONAL
+### X123.json [34, -4] 34 min  
+### YSE 401 [37 0] 17 min                
+### S12.json [42,0] 22 min
+DEBASS/EVERYTHING/2023zzi_P1 [43 16] (2min) 
+### YSE 2023ver [57 0] (4 min)           
+DEBASS/EVERYTHING/2023acgf_P1 [56 -3] (2min) 
+
+!!! 23:30
+YSE 403 [50 -2] 8 min  
+
+!!! 23:38       		             
+DESIRT_50_g (50 -15) (13 min)
+### DESIRT_50_r (50 -15) (15 min)
+### DESIRT_50_z (50 -15) (20 min)
+C3 [52, -28] 11 min 
+DEBASS/EVERYTHING/2023abjs_P1 [55 -34] (2min) 
+
+!!! 01:01
+YSE 2023zaz [60 -26]  3 min
+### YSE 253 [67, -26] 17 min            
+### YSE 353 [63 -10] 17 min                   
+### DEBASS/EVERYTHING/2023zjm_P2 [80 5] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023yzu_P1 [81 -19] (2min) 
+YSE 257 [85 -25] 17 min             
+
+!!! 01:23
+### Block below Dec<=-30
+### DEBASS/EVERYTHING/2023aajf_P2 [65 -51] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024ql_P1 [88 -34] (2min) 
+Shen SCVZ [90 -66] 13 min 
+### etale.i.15min.json [160 -60] 15 min    
+etale.g.30min.json [160 -60] 30 min    
+DEBASS/EVERYTHING/2023zce_P2 [141 -30] (2min) OPTIONAL
+
+!!! 02:10
+YSE 412 [116 -2] 8 min                     
+### DEBASS/EVERYTHING/2023ytn_P2 [130 -5] (2min) OPTIONAL
+DEBASS/EVERYTHING/2023aald_P1 [122 14] (2min) 
+DEBASS/EVERYTHING/2024ev_P1 [124 21] (2min) 
+DEBASS/EVERYTHING/2023zax_P1 [145 7] (2min) 
+DEBASS/EVERYTHING/2023aaaa_P1 [149 10] (2min) 
+
+!!! 02:26
+Cosmos [150 2] (34 min)
+DEBASS/EVERYTHING/2023aait_P1 [147 -14] (2min) 
+DEBASS/EVERYTHING/2024uj_P1 [167 -20] (2min) 
+
+!!! 03:11
+YSE 2023xqm [159 -27] (3 min)            ### high priority, don't skip!
+OMLApex.2401*.json [167 -25] (67 min)
+
+!!! 04:21
+DESIRT_165_gr (165 -6) (30 min)
+
+!!! 04:51
+DESIRT_190_gz (190 6) (37 min)    ### skip exposures here if behind schedule!!!
+
+!!! 05:29
+DEBASS/EVERYTHING/2024gy_P1 [183 12] (2min) HIGH PRIROITY DO NOT SKIP
+### 2023fyq [186 12] 6 min              ### high priority, don't skip!
+DESIRT_237 (237 -35) (7 min)
+DEBASS/EVERYTHING/2024jz_P1 [233 -2] (2min) 
+
+!!! 05:40:39 -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

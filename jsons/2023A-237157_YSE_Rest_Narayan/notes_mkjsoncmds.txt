@@ -2786,9 +2786,186 @@ mkjson_yse_nofilterswitch.py  -f i,z,y  2017gci -d 240425 -e 80,80,200 -n 1 --so
 git add 240425
 git add 240425/*.json
 
+mkdir 20240426
+cp 20240423/20240423_obsplan.txt 20240426/20240426_obsplan.txt 
+subl 20240426/20240426_obsplan.txt
+git add 20240426/20240426_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   412 257 -d 240426 
+mkjson_yse_nofilterswitch.py  -f g,r  525   -d 240426 
+mkjson_yse_nofilterswitch.py  -f z  428 376   -d 240426 
+mkjson_yse_nofilterswitch.py  -f i,z  531  -d 240426 
+mkjson_yse_nofilterswitch.py  -f g,r,i  440  544  -d 240426 
+mkjson_yse_nofilterswitch.py  -f g,r,i 494  -d 240426 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024cgd -d 240426 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240426 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i  2024uj -d 240426 -e 150 -n 1 --sortbyra
+git add 240426
+git add 240426/*.json
+
+mkdir 20240429
+cp 20240426/20240426_obsplan.txt 20240429/20240429_obsplan.txt 
+subl 20240429/20240429_obsplan.txt
+git add 20240429/20240429_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   412 257 -d 240429 
+mkjson_yse_nofilterswitch.py  -f g,r,i  525   -d 240429 
+mkjson_yse_nofilterswitch.py  -f r,i,z  428 376   -d 240429 
+mkjson_yse_nofilterswitch.py  -f r,i,z  531  -d 240429 
+mkjson_yse_nofilterswitch.py  -f z  440    -d 240429 
+mkjson_yse_nofilterswitch.py  -f i,z 544 494  -d 240429 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  428 376   -d 240429 -s 33min
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  531  -d 240429  -s 33min
+mkjson_yse_nofilterswitch.py  -f r,i,z 544 494  -d 240429  -s 25min
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024cgd -d 240429 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240429 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r  2024uj -d 240429 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq -d 240429 -e 90 -n 1 --sortbyra
+git add 240429
+git add 240429/*.json
+
+mkdir 20240502
+cp 20240429/20240429_obsplan.txt 20240502/20240502_obsplan.txt 
+subl 20240502/20240502_obsplan.txt
+git add 20240502/20240502_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   412 257 -d 240502 
+mkjson_yse_nofilterswitch.py  -f g,r  525   -d 240502 
+mkjson_yse_nofilterswitch.py  -f g,i  428 376   -d 240502 
+mkjson_yse_nofilterswitch.py  -f g,i  531  -d 240502 
+mkjson_yse_nofilterswitch.py  -f z  440    -d 240502 
+mkjson_yse_nofilterswitch.py  -f z 544 494  -d 240502 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024cgd -d 240502 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240502 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r  2024uj -d 240502 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq -d 240502 -e 90 -n 1 --sortbyra
+git add 240502
+git add 240502/*.json
+
+mkdir 20240505
+cp 20240502/20240502_obsplan.txt 20240505/20240505_obsplan.txt 
+subl 20240505/20240505_obsplan.txt
+git add 20240505/20240505_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g   412 257 -d 240505 
+mkjson_yse_nofilterswitch.py  -f g,i  525   -d 240505 
+mkjson_yse_nofilterswitch.py  -f g,r  428 376   -d 240505 
+mkjson_yse_nofilterswitch.py  -f g,r  531  -d 240505 
+mkjson_yse_nofilterswitch.py  -f g,r  440    -d 240505 
+mkjson_yse_nofilterswitch.py  -f r 544 494  -d 240505 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2024cgd -d 240505 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240505 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g  2024uj -d 240505 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq -d 240505 -e 90 -n 1 --sortbyra
+git add 240505
+git add 240505/*.json
+
+mkdir 20240508
+cp 20240505/20240505_obsplan.txt 20240508/20240508_obsplan.txt 
+subl 20240508/20240508_obsplan.txt
+git add 20240508/20240508_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r   412 257 -d 240508 
+mkjson_yse_nofilterswitch.py  -f g,r  525   -d 240508 
+mkjson_yse_nofilterswitch.py  -f g,i  428 376   -d 240508 
+mkjson_yse_nofilterswitch.py  -f g,i  531  -d 240508 
+mkjson_yse_nofilterswitch.py  -f g,i  440  544   -d 240508 
+mkjson_yse_nofilterswitch.py  -f g  494  -d 240508 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240508 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2024eyo 2024exw -d 240508 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g  2024uj -d 240508 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq -d 240508 -e 90 -n 1 --sortbyra
+git add 240508
+git add 240508/*.json
+
+mkdir 20240511
+cp 20240508/20240508_obsplan.txt 20240511/20240511_obsplan.txt 
+subl 20240511/20240511_obsplan.txt
+git add 20240511/20240511_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i    257 -d 240511 
+mkjson_yse_nofilterswitch.py  -f i,z   412  -d 240511 
+mkjson_yse_nofilterswitch.py  -f g,i  525   -d 240511 
+mkjson_yse_nofilterswitch.py  -f g,r  428 376   -d 240511 
+mkjson_yse_nofilterswitch.py  -f g,r  531  -d 240511 
+mkjson_yse_nofilterswitch.py  -f g,r  440  544   -d 240511 
+mkjson_yse_nofilterswitch.py  -f g,r  494  -d 240511 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240511 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2024eyo 2024exw -d 240511 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i  2024uj -d 240511 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq -d 240511 -e 90 -n 1 --sortbyra
+git add 240511
+git add 240511/*.json
+
+mkdir 20240514
+cp 20240511/20240511_obsplan.txt 20240514/20240514_obsplan.txt 
+subl 20240514/20240514_obsplan.txt
+git add 20240514/20240514_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r    257 -d 240514 
+mkjson_yse_nofilterswitch.py  -f z   412  -d 240514 
+mkjson_yse_nofilterswitch.py  -f i,z  525   -d 240514 
+mkjson_yse_nofilterswitch.py  -f g,i  428 376   -d 240514 
+mkjson_yse_nofilterswitch.py  -f g,i  531  -d 240514 
+mkjson_yse_nofilterswitch.py  -f g,i  440  544   -d 240514 
+mkjson_yse_nofilterswitch.py  -f g,i  494  -d 240514 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240514 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240514 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2024uj -d 240514 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq -d 240514 -e 90 -n 1 --sortbyra
+git add 240514
+git add 240514/*.json
+
+mkdir 20240517
+cp 20240514/20240514_obsplan.txt 20240517/20240517_obsplan.txt 
+subl 20240517/20240517_obsplan.txt
+git add 20240517/20240517_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r    257 -d 240517 
+mkjson_yse_nofilterswitch.py  -f r,i   412  -d 240517 
+### mkjson_yse_nofilterswitch.py  -f i,z  525   -d 240517 
+mkjson_yse_nofilterswitch.py  -f r,i  428 376   -d 240517 
+mkjson_yse_nofilterswitch.py  -f g,i  531  -d 240517 
+mkjson_yse_nofilterswitch.py  -f g,r  440  544   -d 240517 
+mkjson_yse_nofilterswitch.py  -f g,r  494  -d 240517 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240517 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240517 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2024uj -d 240517 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq  -d 240517 -e 90 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z   2023mkt -d 240517 -e 90 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2020oyd 2020szr 2023vyl -e 90 -n 1 --sortbyra
+git add 240517
+git add 240517/*.json
+
+mkdir 20240518
+cp 20240517/20240517_obsplan.txt 20240518/20240518_obsplan.txt 
+subl 20240518/20240518_obsplan.txt
+git add 20240518/20240518_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i   412  -d 240518 
+### mkjson_yse_nofilterswitch.py  -f i,z  525   -d 240518 
+mkjson_yse_nofilterswitch.py  -f i,z  428 376   -d 240518 
+mkjson_yse_nofilterswitch.py  -f g,r  531  -d 240518 
+mkjson_yse_nofilterswitch.py  -f g,i  440  544   -d 240518 
+mkjson_yse_nofilterswitch.py  -f g,i  494  -d 240518 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240518 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240518 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2024uj -d 240518 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2023emq  -d 240518 -e 90 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z   2023mkt -d 240518 -e 90 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2020oyd 2020szr 2023vyl -e 90 -n 1 --sortbyra
+git add 240518
+git add 240518/*.json
 
 
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
+
+YSE 2023emq [203 -24] (5 min)
+YSE 2023mkt [229 -24] (5 min)
+YSE 2023vyl [350 17] (5 min)
+YSE 2024jz [233 -2] (5 min)
+
 
 mkjson_yse_nofilterswitch.py  -f g,i    583 531 -d 230420 --outsuffix two_filters
 mkjson_dosc.py -f g,r,i OMLApex -d 230420 -n 2 -e 200,400,360 --d1 E5 N3 --d2 W7 S7
@@ -2814,6 +2991,8 @@ mkjson_dosc.py -f g,r OMLApex -d 230221 -n 3 -e 200,400 --d1 E5 N3 --d2 W7 S7
 mkjson_dosc.py -f g,r OMLApex -d 230222 -n 3 -e 200,350 --d1 E5 N3 --d2 W7 S7
 2UKCEPuxXX6ggDD%
 
+
+
 YSE 2023dk [78 -1] (4 min)
 YSE 2023R [150 -5]  (4 min)
 YSE 2023wl [169 1] (4 min)
@@ -2829,6 +3008,10 @@ mkjson_yse.py  -f r,i hotshit123 -d 220624 -e 150,150 -n 3
 
 mkjson_yse.py  -f g,r,i,z 415 418 423 474 523 525 575 577  -d 220330 --propid 2022A-193378
 
+cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
+
+YSE_pointings2fieldcenters.py --addSN 2020oyd 301.1242875 9.3334194444 -vv --overw
+YSE_pointings2fieldcenters.py --addSN 2020szr 347.387902 15.659276  -vv --overw
 
 YSE_pointings2fieldcenters.py --addSN 2022tmo 68.9642131 -13.3271846 -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2022tiv 320.9893589     -22.7353540 -vv --overw
@@ -2951,7 +3134,6 @@ YSE_pointings2fieldcenters.py --addSN  2024exw 183.3640292     14.7778889 --over
 Sebastian:
 YSE_pointings2fieldcenters.py --addSN 2017gci 101.687625 -27.24885  --over
 
-cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
 
 add YSE field:
 add to /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt

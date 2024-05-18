@@ -1,13 +1,13 @@
-2024gda_P1 [162 12]
-2024fcd_P1 [177 0]
-2024fwj_P1 [182 13]
-2024gbt_P1 [188 -26]
-2024fbo_P1 [197 -29]
-2024gve_P1 [221 11]
 2024gpq_P1 [256 9]
 
+2024gda_P2 [162 12]
 
 2024gra_P3 [179 -11]
+2024fcd_P3 [177 0]
+2024fwj_P3 [182 13]
+2024gbt_P3 [188 -26]
+2024fbo_P3 [197 -29]
+2024gve_P3 [221 11]
 
 EVERYTHING	34.4 minutes
-EVERYTHING_P1	24.5 minutes
+EVERYTHING_P1	3.0 minutes

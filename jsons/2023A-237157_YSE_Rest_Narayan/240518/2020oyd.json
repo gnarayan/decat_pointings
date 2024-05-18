@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2020oyd",
+"filter": "g",
+"expTime": 90,
+"RA": "301.1221",
+"dec": "9.4204",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020oyd",
+"filter": "r",
+"expTime": 90,
+"RA": "301.1221",
+"dec": "9.4204",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020oyd",
+"filter": "i",
+"expTime": 90,
+"RA": "301.1221",
+"dec": "9.4204",
+"propid": "2023A-237157"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2020oyd",
+"filter": "z",
+"expTime": 90,
+"RA": "301.1221",
+"dec": "9.4204",
+"propid": "2023A-237157"
+}
+]

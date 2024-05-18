@@ -1,0 +1,62 @@
+01:26
+    DEBASS 2021yzz_P1 [331 -19]
+    DEBASS 2021abds_P1 [356 -16]
+
+01:35 ELAIS 1h [9, -43]
+      
+02:35
+    DEBASS 2021abmp_P1 [11 -38]
+    YSE 296 [17, -19] 16min
+
+02:55 
+    401.D.2021aaqn.json [39 -1]
+
+03:00 am
+  YSE 505.A.2021zby [44 11] ** high priority **
+  DEBASS 2021abko_P1 [31 23] 
+  X123 [34, -4]  35 min
+  
+04:05 am
+  DEBASS 2021acfj_P1 [37 -7]
+  DEBASS 2021zqo_P1 [44 -18]
+  DEBASS 2021zfr_P1 [45 -15]
+  YSE 403 [52, -4] 20 min 
+  DEBASS 2021ywa_P1 [58 -17]
+  YSE CDFS iz [52, -28] 15 min (2021A-0275_YSE_Rest/CDFS.iz.json) 
+  353 [63, -11] (20 min)
+  DEBASS 2021ypa_P1 [69 -13]
+  DEBASS 2021aazj_P1 [75 -16] 
+  DEBASS 2021abzo_P1 [71 1]
+
+
+4:10 am 
+  DEBASS 2021zsz_P1 [93 -14]
+  YSE 257 [91, -26] (20 min)
+
+set the guider exposure time to 100ms for this crowded field
+4:35: Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+5:05: Shen SCVZ [90,-66] 11 min
+
+5:15
+  DEBASS 2021aatq_P2 [114 -2] <-- can skip if running behind
+  DEBASS 2021abiu_P1 [119 -2]
+
+5:25 Eta Car z band [161 -60]
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json
+
+5:40:
+   DEBASS 2021abxh_P1 [141 -20]
+
+5:45: Sheppard asteroids
+
+6:05AM hard stop
+--------------
+
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+CDFS [52, -28] (15 min)
+YSE 353 [63, -11] (20 min)

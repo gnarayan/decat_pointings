@@ -1,0 +1,11 @@
+2024-01-27 sunset observing
+
+START UT 2024-01-28T00:51:48    at sun elevation -14.0
+END   UT 2024-01-28T01:39:48    at sun elevation -22.5
+TOTAL TIME: 0.80 hours (48.0 minutes) 
+
+PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
+
+
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.

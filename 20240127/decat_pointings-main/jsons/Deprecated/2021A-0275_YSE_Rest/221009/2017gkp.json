@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2017gkp",
+"filter": "i",
+"expTime": 200,
+"RA": "131.7965",
+"dec": "-33.6660",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2017gkp",
+"filter": "z",
+"expTime": 200,
+"RA": "131.7965",
+"dec": "-33.6660",
+"propid": "2021A-0275"
+}
+]

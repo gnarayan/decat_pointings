@@ -1,0 +1,2 @@
+#         pointing  group       RA       Dec  skip
+          OMLApex      1   166.68    -24.98     0

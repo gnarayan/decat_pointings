@@ -1,0 +1,58 @@
+[
+    {
+        "object": "DESIRT NGC 7793",
+        "expTime": 50,
+        "RA": "359.205875",
+        "dec": "-32.722806",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT22B",
+        "wait": "False",
+        "propid": "2022B-297190",
+        "proposer": "Palmese Wang",
+        "comment": "NGC 7793"
+    },
+    {
+        "object": "DESIRT NGC 7793",
+        "expTime": 50,
+        "RA": "359.205875",
+        "dec": "-32.722806",
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT22B",
+        "wait": "False",
+        "propid": "2022B-297190",
+        "proposer": "Palmese Wang",
+        "comment": "NGC 7793"
+    },
+    {
+        "object": "DESIRT NGC 7793",
+        "expTime": 70,
+        "RA": "359.205875",
+        "dec": "-32.722806",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT22B",
+        "wait": "False",
+        "propid": "2022B-297190",
+        "proposer": "Palmese Wang",
+        "comment": "NGC 7793"
+    },
+    {
+        "object": "DESIRT NGC 7793",
+        "expTime": 90,
+        "RA": "359.206800",
+        "dec": "-32.720700",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT22B",
+        "wait": "False",
+        "propid": "2022B-297190",
+        "proposer": "Palmese Wang",
+        "comment": "NGC 7793"
+    }
+]

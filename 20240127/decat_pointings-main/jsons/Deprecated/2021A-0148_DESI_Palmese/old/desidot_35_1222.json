@@ -1,0 +1,44 @@
+[
+    {
+        "object": "TILEID: 1222",
+        "expTime": 60,
+        "RA": 219.38300000000004,
+        "dec": -3.223,
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    },
+    {
+        "object": "TILEID: 1222",
+        "expTime": 90,
+        "RA": 219.38300000000004,
+        "dec": -3.223,
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    },
+    {
+        "object": "TILEID: 1222",
+        "expTime": 180,
+        "RA": 219.38300000000004,
+        "dec": -3.223,
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIDOT21A",
+        "wait": "False",
+        "propid": "2021A-0148",
+        "proposer": "Palmese Wang",
+        "comment": "DESI-DOT G15"
+    }
+]

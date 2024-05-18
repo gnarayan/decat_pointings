@@ -1,0 +1,109 @@
+MOON ILLUMINATION: 0.96
+UT -16 deg twilight: 2022-09-11T23:43:52.901 2022-09-12T09:35:03.756
+UT -15 deg twilight: 2022-09-11T23:39:14.408 2022-09-12T09:39:41.919
+UT -14 deg twilight: 2022-09-11T23:34:36.226 2022-09-12T09:44:19.875
+UT -12 deg twilight: 2022-09-11T23:25:20.210 2022-09-12T09:53:35.292
+UT -10 deg twilight: 2022-09-11T23:16:04.606 2022-09-12T10:02:50.230
+LOCAL -16 deg twilight: 09/11/2022,   20:43:52   06:35:03
+LOCAL -15 deg twilight: 09/11/2022,   20:39:14   06:39:41
+LOCAL -14 deg twilight: 09/11/2022,   20:34:36   06:44:19
+LOCAL -12 deg twilight: 09/11/2022,   20:25:20   06:53:35
+LOCAL -10 deg twilight: 09/11/2022,   20:16:04   07:02:50
+LOCAL night MIDPOINT: 09/12/2022,   01:39:28
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed
+
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+*** Note: Local Chilean time is now +1 EDT ***
+
+### 20:34:36
+YSE 428 [228 -4] 17 min  
+YSE 376 [224 -8] 17 min  
+DEBASS/EVERYTHING/2022sum_P1 [269 10] (4min)
+
+### 21:15
+decapseast_ddf_A.json [270 -29] 15 min
+decapseast_ddf_B.json [270 -29] 15 min
+
+### 21:45
+DEBASS/EVERYTHING2022rnt_P1 [283 -65] 4min 
+DEBASS/EVERYTHING/2022qpp_P3 [292 -34] EXTRA VERY OPTIONAL
+DEBASS/EVERYTHING/2022tvz_P1 [298 -21]
+DEBASS/EVERYTHING/2022rfn_P1 [287 -16] 4min
+DEBASS/EVERYTHING/2022qbp_P3 [305 -14] EXTRA
+YSE 440 [314 -4] 16 min 
+DEBASS/EVERYTHING/2022rky_P1 [319 -8]
+DEBASS/EVERYTHING/2022qku_P2 [321 -6] OPTIONAL
+
+### 22:15
+DESIRT_320_gr [~320 6] (53 min) 
+DESIRT_320_z
+
+### 23:10
+YSE 544 [321 9] 17 min
+
+### 23:30
+DESIRT_S82_Sep11_riz [~330-346 0]   (40 min)
+
+### 00:10
+YSE 494 [347 9] 17 min 
+DEBASS/EVERYTHING/2022suc_P1 [346 23] (4min)
+DEBASS/EVERYTHING/2022rld_P1 [352 -8]
+YSE 2022jli [7 -8] 5 min 
+
+### 00:45
+elais_ddf_seq_A.json [8, -43] 30 min
+elais_ddf_seq_B.json [8, -43] 30 min
+
+### 01:45
+YSE 550 [4 18] 9 min 
+### YSE 448 [16 3] 17 min ### DROP too close to Moon!!
+YSE 296 [17 -17] 8 min  
+
+### 02:15
+X123 [34, -4]  35 min 
+YSE401 [37 0] 9 min  
+
+### 03:05
+DEBASS/EVERYTHING/2022ssk_P1 [36 -5] (4min)
+
+### 03:25
+S1S2   [42, 0] 22 min
+YSE403 [50 -2] 17 min 
+
+### 04:05
+C3 [52, -28] 11 min   
+YSE353 [63 -10] 17 min
+DEBASS/EVERYTHING/2022taw_P2 [76 -10] OPTIONAL
+YSE257 [85 -25] 17 min  
+DEBASS/EVERYTHING/2022trz_P3 [95 -73] EXTRA
+
+### 05:05 
+DESIRT_50_z (50 -15) (20 min)
+DESIRT_50_r (50 -15) (15 min)
+DESIRT_50_g (50 -15) (12 min)
+
+## IF EXTRA TIME: DESIRT_50_i (50 -15) (17 min)
+
+### 05:55
+2020pju  [54 -24] 19 min HIGH PRIORITY, do not skip if possible
+#### 2021afuq [157 -43] 9 min still to high airmass
+#### 2022czy [185 17] 4 min still to high airmass
+
+*** 25 min extra ***
+
+### 06:44:19 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DEBASS/EVERYTHING/CS2_P3 [48 -22] (4min) FILLER
+DEBASS/EVERYTHING/CS1_P3 [48 -20] (4min) FILLER
+DEBASS/EVERYTHING/CS4_P3 [50 -20] (4min) FILLER
+DEBASS/EVERYTHING/CS5_P3 [46 -20] (4min) FILLER
+DEBASS/EVERYTHING/CS3_P3 [48 -18] (4min) FILLER
+

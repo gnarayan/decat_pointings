@@ -1,0 +1,107 @@
+MOON ILLUMINATION: 0.02
+UT -16 deg twilight: 2022-12-22T01:08:53.795 2022-12-22T08:14:24.154
+UT -15 deg twilight: 2022-12-22T01:02:52.498 2022-12-22T08:20:23.929
+UT -14 deg twilight: 2022-12-22T00:56:56.157 2022-12-22T08:26:19.580
+UT -12 deg twilight: 2022-12-22T00:45:17.229 2022-12-22T08:37:59.155
+UT -10 deg twilight: 2022-12-22T00:33:54.989 2022-12-22T08:49:21.468
+LOCAL -16 deg twilight: 12/21/2022,   22:08:53   05:14:24
+LOCAL -15 deg twilight: 12/21/2022,   22:02:52   05:20:23
+LOCAL -14 deg twilight: 12/21/2022,   21:56:56   05:26:19
+LOCAL -12 deg twilight: 12/21/2022,   21:45:17   05:37:59
+LOCAL -10 deg twilight: 12/21/2022,   21:33:54   05:49:21
+LOCAL night MIDPOINT: 12/22/2022,   01:41:38
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them 									  ***
+*********************************************************
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them 									  ***
+*********************************************************
+
+!!! 21:56:56
+YSE 550 [4 18] 8 min    
+### YSE 2022vye [357 2] 4 min  
+### YSE 2022wsq [20 15] 3 min 
+DEBASS/EVERYTHING/2022acyi_P1 [18 7] (4min) HIGH PRIORITY
+YSE 448 [16 3] 17 min 
+YSE 296 [17 -17] 17 min  
+
+!!! 22:43
+DEBASS/EVERYTHING/2022abid_P2 [32 -26] (3min) OPTIONAL
+DEBASS/EVERYTHING/2022aczs_P1 [31 -24] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022abgg_P1 [35 -9] (4min) HIGH PRIORITY
+X123 [34, -4] 35 min  
+DEBASS/EVERYTHING/2022abic_P2 [44 -4] (3min) OPTIONAL
+
+!!! 23:32
+S1S2   [42, 0] 22 min  
+YSE 2022uto [41 17] 4 min  HST
+### YSE 401 [37 0] 14 min         
+
+!!! 23:58
+elais_ddf_seq_A [7, -43] 30 min    DROP IF BEHIND
+
+!!! 00:28
+YSE 403 [50 -2] 17 min 
+DESIRT_50_grz (50 -15) (50 min)
+C3 [52, -28] 11 min 
+
+!!! 01:37
+YSE 253 [67, -26] 17 min  
+YSE 353 [63 -10] 17 min 
+### YSE 2022tmo [69 -13] 3 min 
+YSE 2022xkq [76 -12] (4min)   HST
+YSE 2022wiv [66  1] 3 min     HST
+DEBASS/EVERYTHING/2022acyd_P2 [60 6] (3min) OPTIONAL
+
+!!! 02:25
+YSE 257 [85 -25] 8 min       # cut short if behind      
+DECaPSWest A+B [116 -26] 30 min
+Shen SCVZ [90 -66] 12 min            
+etale.g.30min.json [160 -60] 15 min  
+DEBASS/EVERYTHING/2022acwj_P1 [138 -32] (4min) HIGH PRIORITY
+
+!!! 03:35
+YSE 311 [123 -17] 17 min      # cut short if behind
+### YSE 412 [115 -2] 17 min 			
+### YSE 2022vqx  [112 17] (3 min)   HST
+DEBASS/EVERYTHING/2022aajn_P1 [106 21] (4min) HIGH PRIORITY
+### eFEDS [129 1] 30 min  
+DEBASS/EVERYTHING/2022abdh_P1 [130 -8] (4min) HIGH PRIORITY
+
+!!! 04:00
+DESIRT_165_grz_Dec22 [165 -6]  (50 min)
+
+!!! 05:50 *** these are high priority, and a lot of slewing, thus I
+!!! added 8 min extra, since these are long slews!!!
+!!! these targets are also at high airmass, so timing is important!!
+YSE 2022zut [175 11] 3 min      HST    HIGH PRIORITY
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (4min) HIGH PRIORITY
+DEBASS/EVERYTHING/2022adbx_P1 [170 21] (4min) HIGH PRIORITY
+YSE 525 [189 10] 17 min  g band only HIGH PRIORITY
+
+!!! 05:26:19 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+elais_ddf_seq_A [7, -43] 30 min
+elais_ddf_seq_B [7, -43] 30 min
+YSE 2017gkp [132 -33] (7 min) 

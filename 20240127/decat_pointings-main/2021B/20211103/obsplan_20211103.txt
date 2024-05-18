@@ -1,0 +1,69 @@
+MOON ILLUMINATION: 0.01
+UT -16 deg twilight: 2021-11-04T00:24:17.582 2021-11-04T08:29:00.185
+UT -14 deg twilight: 2021-11-04T00:13:46.979 2021-11-04T08:39:30.526
+UT -12 deg twilight: 2021-11-04T00:03:25.245 2021-11-04T08:49:52.179
+UT -10 deg twilight: 2021-11-03T23:53:11.362 2021-11-04T09:00:06.061
+LOCAL -16 deg twilight: 11/03/2021,   21:24:17   05:29:00
+LOCAL -14 deg twilight: 11/03/2021,   21:13:46   05:39:30
+LOCAL -12 deg twilight: 11/03/2021,   21:03:25   05:49:52
+LOCAL -10 deg twilight: 11/03/2021,   20:53:11   06:00:06
+LOCAL night MIDPOINT: 11/04/2021,   01:26:38
+
+
+01:26 
+      DEBASS 2021abds_P1 [356 -16] <-- only do this if slew from 1st half isnt terrible
+      ELAIS 1h [9, -43]
+
+02:30
+    YSE 296 [17, -19] 16min
+    DEBASS 2021aclv_P1 [14 -5] 4min
+    DEBASS 2021acwr_P1 [14 2] 4min
+    X123 [34, -4]  35 min
+    YSE 505.A.2021zby [44 11] ** high priority **
+    DEBASS 2021addd_P1 [48 5]
+
+03:40 am
+  DEBASS 2021zfr_P2 [45 -15] <-- optional
+  YSE 403 [52, -4] 20 min <-- drop parts of this so we make it to the 4:40 block on time
+  DEBASS 2021acxb_P1 [50 -27] 4min
+  YSE CDFS g,i [52, -28] 10 min
+  YSE 353 [63, -11] (20 min)
+  DEBASS 2021acnx_P1 [70 6] 4min
+  DEBASS 2021aazj_P2 [75 -16] <-- optional
+
+
+04:30 am 
+  YSE 257 [91, -26] (20 min)
+
+set the guider exposure time to 100ms for this crowded field
+05:00 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+
+**** NEEDS TO START LATEST AT 05:20, preferably at 05:15
+
+05:20 Shen SCVZ [90,-66] 11 min
+05:30 Eta Car r band [161 -60] 15 min  *** DO NOT SKIP ***
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.r.15min.json
+
+05:45:
+  DEBASS 2021aaga_P2 [85 -41] 4min <-- optional if time
+  DEBASS 2021aceo_P1 [135 -8]
+  DEBASS 2021aatq_P2 [114 -2] <-- optional if itme
+  DEBASS 2021acnn_P1 [100 20] 
+
+at -13.5 deg sun angle go to sheppard
+SheppardTwilight04novmorning.json
+
+LOCAL -16 deg twilight: 11/03/2021,   21:24:17   05:29:00
+LOCAL -14 deg twilight: 11/03/2021,   21:13:46   05:39:30
+LOCAL -12 deg twilight: 11/03/2021,   21:03:25   05:49:52
+LOCAL -10 deg twilight: 11/03/2021,   20:53:11   06:00:06
+
+--------------
+
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+CDFS g,r [52, -28] (15 min)

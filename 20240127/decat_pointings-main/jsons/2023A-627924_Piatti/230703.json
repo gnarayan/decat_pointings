@@ -1,0 +1,62 @@
+[
+ {
+  "SCRIPT_COMMENT": "YES",
+  "ditherPattern": "Rectangle",
+  "SEQ_LEN": 4,
+  "RA_offset": 60,
+  "dec_offset": 60,
+  "expType": "object",
+  "RA": 262.979,
+  "dec": -67.048,
+  "filter": "i",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "propid": "2023A-627924",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 262.979,
+  "dec": -67.048,
+  "filter": "i",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "propid": "2023A-627924",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 263.021754,
+  "dec": -67.048,
+  "filter": "i",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "propid": "2023A-627924",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 263.021754,
+  "dec": -67.031333,
+  "filter": "i",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+   "propid": "2023A-627924",
+   "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 262.979,
+  "dec": -67.031333,
+  "filter": "i",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "propid": "2023A-627924",
+  "count": 1
+ }
+]

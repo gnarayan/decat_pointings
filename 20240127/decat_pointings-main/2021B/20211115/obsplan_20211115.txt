@@ -1,0 +1,44 @@
+01:27 ELAIS 1h [9, -43]
+
+02:27
+    YSE 296 [17, -19] 16min
+
+02:45 am
+  X123 [34, -4]  35 min
+  YSE 505.A.2021zby [44 11] ** high priority **
+  DEBASS 2021acnx_P1 [70 6]
+
+03:30 am
+  DEBASS 2021adlt_P1 [68 6]
+  YSE 353 [63, -11] 20 min
+
+03:55 am 
+  DEBASS 2021aazj_P1 [75 -16]
+  YSE 257 [91, -26] (20 min)
+
+
+set the guider exposure time to 100ms for this crowded field
+04:20 Graham DDF DECaPSWest seq A [116, -26] 0.25h (SEQ A ONLY)
+set guider exptime back to 600ms
+
+04:35 Shen SCVZ [90,-66] 11 min
+
+04:45 eFEDS [129, 3]
+
+05:15:
+DEBASS 2021adlv_P1 [127 -4]
+DEBASS 2021adoz_P1 [125 7]
+DEBASS 2021adlz_P1 [157 11]
+DEBASS 2021acnt_P1 [145 -28]
+DEBASS 2021abiu_P1 [119 -2]
+DEBASS 2021aemv_P1 [113 19] <-- optional if time
+DEBASS 2021acxb_P1 [50 -27] <-- only if this wasnt gotten earlier in the first half of the night (and got tEFF>0.1)
+DEBASS 2021aefx_P1 [64 -54] <-- only if this wasnt gotten earlier in the first half of the night (and got tEFF>0.1)
+
+--------------
+
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+CDFS g,r [52, -28] (15 min)

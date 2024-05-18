@@ -1,0 +1,65 @@
+MOON ILLUMINATION: 0.07
+UT -16 deg twilight: 2022-06-01T23:05:53.741 2022-06-02T10:16:42.960
+UT -15 deg twilight: 2022-06-01T23:01:03.730 2022-06-02T10:21:33.364
+UT -14 deg twilight: 2022-06-01T22:56:12.559 2022-06-02T10:26:24.601
+UT -12 deg twilight: 2022-06-01T22:46:27.924 2022-06-02T10:36:09.724
+UT -10 deg twilight: 2022-06-01T22:36:39.514 2022-06-02T10:45:58.655
+LOCAL -16 deg twilight: 06/01/2022,   19:05:53   06:16:42
+LOCAL -15 deg twilight: 06/01/2022,   19:01:03   06:21:33
+LOCAL -14 deg twilight: 06/01/2022,   18:56:12   06:26:24
+LOCAL -12 deg twilight: 06/01/2022,   18:46:27   06:36:09
+LOCAL -10 deg twilight: 06/01/2022,   18:36:39   06:45:58
+LOCAL night MIDPOINT: 06/02/2022,   00:41:18
+
+
+### 00:40
+DESIRT_220_gr [~220 7] (31 min)
+
+### 01:15
+DEBASS/EVERYTHING/2022jnr_P1 [226 17] (3 min)
+DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (3min)
+DEBASS/EVERYTHING/2022lax_P1 [216 -8] (3min)
+DEBASS/EVERYTHING/2022kjq_P1 [225 -23] (3min)
+
+### 01:30
+DEBASS/EVERYTHING/2022jqg_P1 [235 21] (4 min)
+DEBASS/EVERYTHING/2022jut_P1 [241 18] (2 min)
+DEBASS/EVERYTHING/2022itd_P2 [273 11] (3 min)
+
+### 01:45
+YSE 376 [224 -8] 17 min # remove if necessary
+YSE 428 [228 -4] 17 min 
+
+### 2:20
+YSE 428 iz [228 -4] 17 min 
+
+### 5 min of slop - start fields early if you have to or repeat a DEBASS pointing 
+
+### 02:40 
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2022kkg_P1 [305 20] (4 min)
+DEBASS/EVERYTHING/2022jqr_P2 [313 -7] (3min)
+
+YSE 440 [314 -4] 17 min
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+YSE 544 [321 9] 17 min
+
+### 04:45
+YSE 494 [347 9] 17 min 
+
+### 05:00
+ELAIS-DDF [8, -43] 1h
+
+### 05:45
+YSE 296 [17 -17] 14 min 
+# YSE 448 [16 3] 17 min if extra time
+
+### 06:18
+YSE 2022jli [8.6862 -8.3033] 6 min 
+
+### 06:26 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

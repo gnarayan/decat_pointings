@@ -1,0 +1,120 @@
+## Aug 1
+
+DESIRT_220_rz [~220 8] (40 min) 
+DESIRT_S82_rz (27 min)
+DESIRT_S82_2_rz [~0 0] (30 min)
+DESIRT_IC230724 [32 -1] (7 min) # DELETE G BAND POINTING FROM QUEUE
+DESIRT_50_riz [50 -15] (53 min)
+
+## Aug 2
+
+DESIRT_220_rz [~220 8] (40 min) # Probably not feasible given we have -3h
+DESIRT_S82_rz (34 min)
+DESIRT_S82_2_rz_short  [~0 0] (37 min)
+DESIRT_IC230724_short  [32 -1] (5 min)
+DESIRT_50_riz_short (50 -15) (52 min)
+
+## Aug 3
+
+DESIRT_220_g (13 min) ## g BAND EARLY IN THE NIGHT
+DESIRT_220_rz [~220 8] (40 min) 
+DESIRT_IC230724_short  [32 -1] (5 min)
+DESIRT_50_riz_short (50 -15) (52 min)
+
+## Aug 6 (2nd half)
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3]  (17 min) OPTIONAL
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_S82_rz (36 min)
+
+EXTRA TARGETS
+DESIRT_S82_2_rz_short  [~0 0] (37 min)
+DESIRT_IC230724_short  [32 -1] (5 min)
+DESIRT_50_riz_short (50 -15) (52 min)
+
+## Aug 9
+
+DESIRT_220_gr [~220 8] (30 min) OPTIONAL
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_S82_gr [~0 0] (33 min)
+DESIRT_S82_2_gz [~0 0] (40 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+## Aug 12 (2nd half)
+
+DESIRT_S82_gr [~0 0] (33 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_gz (50 -15) (34 min)
+
+EXTRA TARGETS
+DESIRT_S82_2_gz [~0 0] (40 min)
+
+## Aug 15 
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3] (17 min)
+DESIRT_S82_gz [~350 0] (40 min)
+DESIRT_S82_2_gz [~0 0] (40 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_r (50 -15) (15 min) 
+DESIRT_50_g (50 -15) (13 min)
+
+EXTRA TARGETS 
+
+DESIRT_330_z [332 -3]  (23 min)
+DESIRT_50_z (50 -15) (21 min) 
+
+## Aug 18 (1st half)
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3] (17 min) 
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_S82_gr [~0 0] (33 min)
+
+
+## Aug 21 
+
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_330_r [332 -3] (17 min)
+DESIRT_S82_gz [~350 0] (40 min)
+DESIRT_S82_2_gr [~0 0] (36 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_z (50 -15) (21 min)
+DESIRT_50_g (50 -15) (13 min)
+
+EXTRA TARGETS 
+
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_50_r (50 -15) (15 min) 
+
+## Aug 24 
+
+DESIRT_330_z [332 -3]  (23 min) 
+DESIRT_330_g [332 -3]  (13 min)
+DESIRT_S82_gr [~0 0] (33 min)
+DESIRT_S82_2_gz [~0 0] (40 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_r (50 -15) (15 min) 
+DESIRT_50_g (50 -15) (13 min)
+
+EXTRA TARGETS 
+
+DESIRT_330_r [332 -3] (17 min) 
+DESIRT_50_z (50 -15) (21 min)
+
+## Aug 27 (330 37 deg, moon 87%)
+
+DESIRT_330_rz_short [332 -3]  (30 min) 
+DESIRT_S82_rz [~0 0] (41 min)
+DESIRT_S82_2_rz [~0 0] (40 min)
+DESIRT_IC230724_short  [32 -1] (6 min)
+DESIRT_50_z (50 -15) (21 min) 
+DESIRT_50_g (50 -15) (13 min)
+
+## Aug 30
+
+DESIRT_IC230724_bright  [32 -1] (6 min)
+DESIRT_50_riz_short (50 -15) (52 min)

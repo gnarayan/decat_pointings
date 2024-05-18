@@ -1,0 +1,54 @@
+
+
+01:26 ELAIS 1h [9, -43]
+      DEBASS 2021abmp_P1 [11 -38]
+      DEBASS 2021aafz_P1 [30 -44]
+
+02:36
+    YSE 296 [17, -19] 16min
+
+02:55 am
+  YSE 505.A.2021zby [44 11] ** high priority **
+  S12  [42, 0] 22 min   
+
+03:25 am
+  YSE 403 [52, -4] 20 min 
+  C3 [52, -28] 11 min
+  YSE 353 [63, -11] (20 min)
+
+04:15 am 
+  DEBASS 2021aabw_P1 [83 -24]
+  YSE 257 [91, -26] (20 min)
+  DEBASS 2021aaga_P1 [85 -41]
+
+
+set the guider exposure time to 100ms for this crowded field
+04:45 Graham DDF DECaPSWest seq A&B [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+
+05:10 Shen SCVZ [90,-66] 11 min
+
+5:20 Eta Car g band [161 -60]
+decat_pointings/jsons/2021B-0325_EtaCar_Rest/etale.g.15min.json
+
+5:35:
+DEBASS 2021acnt_P1 [145 -28]
+DEBASS 2021adlz_P1 [157 11]
+DEBASS 2021aceo_P1 [135 -8]
+DEBASS 2021aatq_P1 [114 -2]
+
+
+
+at -13.5 deg sun angle go to sheppard
+SheppardTwilight04novmorning.json
+
+
+6:05AM hard stop
+--------------
+
+
+Alternate targets:
+IF YOU RUN OUT OF TARGETS, CAN OBSERVE THESE FIELDS:
+
+CDFS g,r [52, -28] (15 min)

@@ -1,0 +1,73 @@
+MOON ILLUMINATION: 0.69
+UT -16 deg twilight: 2022-08-16T23:30:52.879 2022-08-17T10:03:38.632
+UT -15 deg twilight: 2022-08-16T23:26:13.184 2022-08-17T10:08:17.952
+UT -14 deg twilight: 2022-08-16T23:21:33.158 2022-08-17T10:12:57.596
+UT -12 deg twilight: 2022-08-16T23:12:11.974 2022-08-17T10:22:17.967
+UT -10 deg twilight: 2022-08-16T23:02:49.101 2022-08-17T10:31:39.968
+LOCAL -16 deg twilight: 08/16/2022,   19:30:52   06:03:38
+LOCAL -15 deg twilight: 08/16/2022,   19:26:13   06:08:17
+LOCAL -14 deg twilight: 08/16/2022,   19:21:33   06:12:57
+LOCAL -12 deg twilight: 08/16/2022,   19:12:11   06:22:17
+LOCAL -10 deg twilight: 08/16/2022,   19:02:49   06:31:39
+LOCAL night MIDPOINT: 08/17/2022,   00:47:15
+
+
+
+### 00:47
+DEBASS/EVERYTHING/2022qpp_P1 [292 -34]
+DEBASS/EVERYTHING/2022qbp_P1 [305 -14]
+DEBASS/EVERYTHING/2022qku_P1 [321 -6]
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_r [~320 6] (20 min)
+
+### 01:35 
+YSE hotshitforrealthistime [322 0] 30 min
+
+### 02:05
+DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_rz (40 min)
+DEBASS/EVERYTHING/2022qoa_P1 [334 -2] 
+DEBASS/EVERYTHING/2022quf_P1 [350 21] 
+DEBASS/EVERYTHING/2022pdq_P1 [355 -9]
+
+### 03:12
+ELAIS-DDF [8, -43] 1h
+
+### 04:12
+### YSE 296 [17 -17] 14 min  
+### YSE 448 [16 3] 17 min ### too close to Moon
+### YSE 550 [4 18] 17 min ### close to Moon
+
+### 04:12
+X123 [34, -4]  35 min ### 15 deg to Moon
+YSE401 [37 0] 17 min  ### drop if necessary!!
+
+### 05:05
+DEBASS/EVERYTHING/2022qwx_P1 [30 -20] (4min) 
+DEBASS/EVERYTHING/2022qsn_P1 [41 -18] (4min)
+
+### 05:15
+DEBASS/EVERYTHING/CS5_P1 [46 -20] (3min) 
+DEBASS/EVERYTHING/CS3_P1 [48 -18] (3min)
+DEBASS/EVERYTHING/CS2_P1 [48 -22] (3min)
+DEBASS/EVERYTHING/CS1_P1 [48 -20] (3min)
+DEBASS/EVERYTHING/CS4_P1 [50 -20] (3min)
+
+### 05:33
+S1S2   [42, 0] 22 min
+### YSE403 [50 -2] 17 min ## too close to Moon
+
+### 05:55
+C3 [52, -28] 11 min   
+YSE353 [63 -10] 17 min
+
+### 06:13 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+DESIRT_S82_2_r (17 min)
+DESIRT_S82_2_z (23 min)
+DESIRT_50_r (50 -15) (17 min)
+DESIRT_50_i (50 -15) (20 min)
+DESIRT_50_z (50 -15) (23 min)

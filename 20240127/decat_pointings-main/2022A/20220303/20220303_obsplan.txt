@@ -1,0 +1,26 @@
+mjd 59642, date 20220303, Site CTIO, UT-offset 3 hr
+Current local time 17:25 -03     UT 20:25     SidTim 02:29
+Event      Local-Time  Greenwich  Sidereal-Time
+Sunset     20:21 -03  23:21 UT   05:24   81 deg
+Eve. -10   20:56 -03  23:56 UT   06:00   90 deg  Zeropoint; standards
+Moonset    21:09 -03  00:09 UT   06:12   93 deg
+Eve. -14   21:15 -03  00:15 UT   06:19   95 deg  Begin obstac
+Eve. -18   21:35 -03  00:35 UT   06:39  100 deg  Last chance standards
+Midpoint   01:55 -03  04:55 UT   10:59  165 deg
+Morn -18   06:15 -03  09:15 UT   15:18  230 deg  Begin astronomical twilight
+Morn -14   06:33 -03  09:33 UT   15:37  234 deg  End obstac; begin standards
+Morn -10   06:53 -03  09:53 UT   15:57  239 deg
+Sunrise    07:29 -03  10:29 UT   16:33  248 deg
+Moon position (deg): RA 3.4, Dec -2.3 Phase: 0.087
+
+WE ONLY HAVE FIRST QUARTER - END AT 23:45
+
+21:15 YSE 257 [06:15 -21:42] 32m 
+21:50 etale.griz.1.4h.json [10:57 -58:40] 45 ONLY g and i band - delete r, and z !!! LONG SLEW + DOME ROTATE !!!
+22:35 YSE 365 [09:10 -11:24] 32m 
+23:05 YSE 418 [10:21 -04:12] 32m
+23:35 YSE 2021agji [09:27 +24:01] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
+      YSE 618 [09:25 +27:41] 7m !!! START NOW OR TELESCOPE LIMIT ISSUES !!!
+      YSE 468 [10:24 +03:00] 7m 
+23:45 - END! SHARP!
+

@@ -1,0 +1,80 @@
+## Mar 3	
+
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_190_grz (190 6) (53 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+DESIRT_MBHB1_grz_short [203.5 +17.5] (14 min)
+
+## Mar 4 (1st half)	
+
+DESIRT_165_riz (165 -6) (56 min)
+
+## Mar 6 
+
+DESIRT_190_iz_bright (190 6) (37 min)
+DESIRT_MBHB1_riz [203.5 +17.5] (19 min) 
+DESIRT_G15_r [~215 -1] (8 min)
+DESIRT_G15_i [~215 -1] (9 min)
+DESIRT_G15_z [~215 -1] (10 min)
+DESIRT_220_iz_bright [~220 8] (37 min) 
+
+## Mar 9 
+
+DESIRT_165_riz (165 -6) (56 min)
+DESIRT_MBHB1_riz [203.5 +17.5] (19 min)
+DESIRT_220_iz [~220 8] (44 min)
+
+## Mar 12
+
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_190_rz (190 6) (40 min)
+DESIRT_MBHB1_rz [203.5 +17.5] (17 min)
+DESIRT_220_rz_short [~220 8] (33 min) ## Drop exposures after first 8 to save time
+
+## Mar 15	
+
+DESIRT_165_gz (165 -6) (39 min) 
+DESIRT_190_gr (190 6) (30 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (10 min)
+DESIRT_220_gz [~220 8] (36 min) 
+
+## Mar 18	2nd half
+
+DESIRT_190_gz (190 6) (35 min)
+DESIRT_220_gr [~220 8] (30 min)
+
+## Mar 21	
+
+DESIRT_165_gr (165 -6) (32 min) 
+DESIRT_190_gr (190 6) (30 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min)
+DESIRT_MBHB1_gz [203.5 +17.5] (15 min)
+DESIRT_220_gz [~220 8] (36 min) drop last 4 exposures if running late
+
+## Mar 24	2nd half
+
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (10 min)
+DESIRT_MBHB1_gr [203.5 +17.5] (12 min)
+DESIRT_220_gr [~220 8] (30 min) 
+
+## Mar 27	
+
+DESIRT_165_gz (165 -6) (39 min) 
+DESIRT_190_gz (190 6) (35 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_r [~215 -1] (7 min)
+DESIRT_MBHB1_gz [203.5 +17.5] (15 min)
+DESIRT_220_gr [~220 8] (30 min) drop last 6 exposures if running late
+
+
+## Mar 30	
+
+DESIRT_165_gr (165 -6) (32 min) 
+DESIRT_190_gr (190 6) (30 min)
+DESIRT_G15_g [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (10 min)
+DESIRT_MBHB1_gr [203.5 +17.5] (12 min)
+DESIRT_220_gz [~220 8] (36 min) drop last 4 exposures if running late

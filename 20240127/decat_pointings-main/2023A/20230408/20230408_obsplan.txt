@@ -1,0 +1,148 @@
+MOON ILLUMINATION: 0.90
+UT -16 deg twilight: 2023-04-08T23:42:00.417 2023-04-09T09:48:18.248
+UT -15 deg twilight: 2023-04-08T23:37:23.009 2023-04-09T09:52:55.969
+UT -14 deg twilight: 2023-04-08T23:32:45.619 2023-04-09T09:57:33.697
+UT -12 deg twilight: 2023-04-08T23:23:30.728 2023-04-09T10:06:49.282
+UT -10 deg twilight: 2023-04-08T23:14:15.521 2023-04-09T10:16:05.224
+LOCAL -16 deg twilight: 04/08/2023,   19:42:00   05:48:18
+LOCAL -15 deg twilight: 04/08/2023,   19:37:23   05:52:55
+LOCAL -14 deg twilight: 04/08/2023,   19:32:45   05:57:33
+LOCAL -12 deg twilight: 04/08/2023,   19:23:30   06:06:49
+LOCAL -10 deg twilight: 04/08/2023,   19:14:15   06:16:05
+LOCAL night MIDPOINT: 04/09/2023,   00:45:09
+2023 04 08     YSE257	0.90 illum	125 degr from obj
+2023 04 08     YSE253	0.90 illum	131 degr from obj
+2023 04 08     YSE412	0.90 illum	115 degr from obj
+2023 04 08     YSE311	0.90 illum	101 degr from obj
+2023 04 08 DECaPSWest	0.90 illum	103 degr from obj
+2023 04 08      eFEDS	0.90 illum	103 degr from obj
+2023 04 08       SCVZ	0.90 illum	89 degr from obj
+2023 04 08    2023cqz	0.90 illum	73 degr from obj
+2023 04 08        eta	0.90 illum	64 degr from obj
+2023 04 08     Cosmos	0.90 illum	84 degr from obj
+2023 04 08 DESIRT_165	0.90 illum	67 degr from obj
+2023 04 08       DOSC	0.90 illum	60 degr from obj
+2023 04 08 DESIRT_MBHB1_gr	0.90 illum	47 degr from obj
+2023 04 08 2023cqz_P1	0.90 illum	73 degr from obj
+2023 04 08     YSE525	0.90 illum	52 degr from obj
+2023 04 08     YSE477	0.90 illum	30 degr from obj
+2023 04 08     YSE583	0.90 illum	41 degr from obj
+2023 04 08     YSE531	0.90 illum	31 degr from obj
+2023 04 08 DESIRT_220	0.90 illum	28 degr from obj
+2023 04 08 DESIRT_MBHB1_gr	0.90 illum	47 degr from obj
+2023 04 08     YSE376	0.90 illum	15 degr from obj
+2023 04 08     YSE428	0.90 illum	17 degr from obj
+2023 04 08     YSE632	0.90 illum	47 degr from obj
+2023 04 08     YSE440	0.90 illum	81 degr from obj
+2023 04 08     YSE544	0.90 illum	92 degr from obj
+2023 04 08     YSE494	0.90 illum	116 degr from obj
+2023 04 08 YSE2023day	0.90 illum	24 degr from obj
+2023 04 08 YSE2023emq	0.90 illum	27 degr from obj
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them ***
+*********************************************************
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+
+!!! 19:32:45
+YSE 2022aajn [107 21] 3 min HST  			
+DEBASS/EVERYTHING/2023cvn_P2 [79 6] (3min) DROP TO SAVE TIME
+YSE 253 [67, -26] 17 min  
+### YSE 2023dk [78 -1] 3 min HST  
+### YSE 2022xkq [76 -12] 3 min HST  
+
+!!! 19:56 (00:07 UTC)
+YSE 257 [85 -25] 17 min 
+DEBASS/EVERYTHING/2023eod_P2 [74 -46] (3min) DROP TO SAVE TIME
+Shen SCVZ [90 -66] 12 min            
+DEBASS/EVERYTHING/2023cum_P2 [103 -51] (3min) DROP TO SAVE TIME
+DEBASS/EVERYTHING/2023cul_P2 [87 -34] (3min) DROP TO SAVE TIME
+
+!!! 20:34 (00:45 UTC)
+DECaPSWest A+B [116 -26] 30 min
+YSE 311 [123 -17] 17 min         
+YSE 412 [115 -2] 17 min 		  
+DEBASS/EVERYTHING/2023cun_P1 [117 22] (3min) 
+DEBASS/EVERYTHING/2023dtz_P1 [190 14] (3min) 
+eFEDS [129 1] 30 min  
+### YSE 2022adcf [156 9] (2 min) HST   
+### YSE 2023jb [156 18] (2 min)  HST   
+
+!!! 22:14 (02:15 UTC)
+cosmos_ddf_moon.json [150 2] 1.5h 
+
+!!! 23:44 (03:45 UTC)
+### YSE 2023R [150 -5]  (3 min) HST
+### YSE 2023ed [145 -30]  (3 min) HST            
+DOSC OMLApex.z1.json [167 -25] (36 min)
+DOSC OMLApex.z2.json [167 -25] (30 min)
+### etale.z.15min.json [160 -60] 15 min  
+### etale.i.15min.json [160 -60] 15 min        
+
+!!! 00:50 (5:40 UTC)
+### YSE 2022aduk [160 -17] (3 min) HST ### DROP IF BEHIND!!
+### YSE 2023bu [178 -18]  (3 min) HST ### DROP IF BEHIND!!
+DESIRT_165_gz (165 -6) (39 min) 
+DEBASS/EVERYTHING/2023col_P2 [173 -1] (3min) DROP TO SAVE TIME
+
+!!! 01:32 (06:15 UTC)
+YSE 2022zut [175 11] 3 min    HST ### DROP IF BEHIND!!
+YSE 2023clx [175 15] (3 min)   
+YSE 525 [189 10] 34 min                   
+DEBASS/EVERYTHING/2023cqz_P1 [173 24] (3min) 
+
+
+!!! 02:15
+DESIRT_190_rz_bright (190 6) (36 min)
+DEBASS/EVERYTHING/2023cyx_P1 [206 4] (3min) 
+DESIRT_MBHB1_rz [203.5 +17.5] (13 min)
+YSE 477 [214 5] 8 min                   ### DROP IF BEHIND!!
+
+!!! 03:15 (07:25 UTC)
+YSE 2023day [213 -5] (3 min)
+YSE 2023emq [203 -23] (3 min)
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min) 
+DEBASS/EVERYTHING/2023dwc_P2 [203 -35] (3min) DROP TO SAVE TIME
+DEBASS/EVERYTHING/2023day_P1 [213 -6] (3min) 
+YSE 2023da [195 -16]  (3 min) HST           
+YSE 2022aczp [191 -15] 3 min  HST           
+YSE 2023alf [207 -13] 3 min HST          
+
+!!! 03:39 (07:40 UTC)
+DESIRT_G15_i [~215 -1] (6 min)
+DESIRT_G15_z [~215 -1] (7 min)
+DESIRT_220_rz_bright [~220 8] (32 min)
+DEBASS/EVERYTHING/2023dxk_P1 [221 9] (3min) 
+
+!!! 04:28 (08:35 UTC)
+YSE 531 [230 11] 8 min                   ### DROP IF BEHIND!!
+YSE 583 [236 20] 8 min           		 ### DROP IF BEHIND!!
+### YSE 376	[224 -8] 17 min 	   
+### YSE 428	[228 -4] 17 min        
+
+!!! 04:44
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2023epe_P2 [279 -42] (3min) DROP TO SAVE TIME
+DEBASS/EVERYTHING/2023env_P1 [286 -24] (3min) 
+YSE 440	[314 -4] 17 min        # Don't drop
+YSE 544 [321 9] 17 min        # Don't drop
+DEBASS/EVERYTHING/2023ehl_P1 [307 4] (3min) 
+
+!!! 05:57:33 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:

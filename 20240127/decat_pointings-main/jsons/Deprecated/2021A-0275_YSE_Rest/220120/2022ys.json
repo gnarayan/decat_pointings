@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2022ys",
+"filter": "g",
+"expTime": 20,
+"RA": "35.4467",
+"dec": "-11.0000",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022ys",
+"filter": "r",
+"expTime": 20,
+"RA": "35.4467",
+"dec": "-11.0000",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022ys",
+"filter": "i",
+"expTime": 20,
+"RA": "35.4467",
+"dec": "-11.0000",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022ys",
+"filter": "z",
+"expTime": 20,
+"RA": "35.4467",
+"dec": "-11.0000",
+"propid": "2021A-0275"
+}
+]

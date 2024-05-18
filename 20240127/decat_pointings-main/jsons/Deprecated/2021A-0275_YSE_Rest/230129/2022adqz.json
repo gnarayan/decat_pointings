@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2022adqz",
+"filter": "r",
+"expTime": 25,
+"RA": "56.4579",
+"dec": "-19.2189",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022adqz",
+"filter": "i",
+"expTime": 25,
+"RA": "56.4579",
+"dec": "-19.2189",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2022adqz",
+"filter": "z",
+"expTime": 25,
+"RA": "56.4579",
+"dec": "-19.2189",
+"propid": "2021A-0275"
+}
+]

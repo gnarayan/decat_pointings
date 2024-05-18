@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 90.0,
+		"RA": 228.677740,
+		"dec": -24.485960,
+		"object": "2023mkt_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023mkt",
+		"wait": "False",
+		"propid": "2023A-237157"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 90.0,
+		"RA": 228.677740,
+		"dec": -24.485960,
+		"object": "2023mkt_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023mkt",
+		"wait": "False",
+		"propid": "2023A-237157"
+	}
+]

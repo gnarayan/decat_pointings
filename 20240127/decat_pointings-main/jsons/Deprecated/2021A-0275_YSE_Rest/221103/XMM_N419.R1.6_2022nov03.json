@@ -1,0 +1,23 @@
+[
+{
+    "expType": "object",
+    "object": "XMM_N419_R1.6_focus",
+    "filter": "N419",
+    "RA": 35.6176878,
+    "dec": -3.1525574,
+    "propid": "2020B-0201",
+    "expTime": 60
+},
+{
+    "break": "True"
+},
+{
+    "expType": "object",
+    "object": "XMM_N419_R1.6_054",
+    "filter": "N419",
+    "RA": 35.6176878,
+    "dec": -3.1525574,
+    "propid": "2020B-0201",
+    "expTime": 1200
+}
+]

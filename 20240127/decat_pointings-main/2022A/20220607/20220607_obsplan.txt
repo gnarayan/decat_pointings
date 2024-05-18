@@ -1,0 +1,116 @@
+MOON ILLUMINATION: 0.57
+UT -16 deg twilight: 2022-06-07T23:05:30.023 2022-06-08T10:19:11.409
+UT -15 deg twilight: 2022-06-07T23:00:38.834 2022-06-08T10:24:02.998
+UT -14 deg twilight: 2022-06-07T22:55:46.286 2022-06-08T10:28:55.455
+UT -12 deg twilight: 2022-06-07T22:45:58.926 2022-06-08T10:38:43.129
+UT -10 deg twilight: 2022-06-07T22:36:07.604 2022-06-08T10:48:34.764
+LOCAL -16 deg twilight: 06/07/2022,   19:05:30   06:19:11
+LOCAL -15 deg twilight: 06/07/2022,   19:00:38   06:24:02
+LOCAL -14 deg twilight: 06/07/2022,   18:55:46   06:28:55
+LOCAL -12 deg twilight: 06/07/2022,   18:45:58   06:38:43
+LOCAL -10 deg twilight: 06/07/2022,   18:36:07   06:48:34
+LOCAL night MIDPOINT: 06/08/2022,   00:42:20
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### 18:55
+Shen SCVZ [90 -66] 12 min 
+
+### 19:10
+eFEDS [129,1]
+etale.i.15min.json [160 -60] 15 min
+
+### 20:00
+YSE 415 [137 2] 17 min 
+YSE 365 [147 -9] 17 min 
+DEBASS/EVERYTHING/2022kft_P1 [173 -10] (4min)
+DEBASS/EVERYTHING/2022jzb_P1 [183 -17] (4min)
+DEBASS/EVERYTHING/2022kck_P1 [189 -14] (4min)
+
+### 20:50
+YSE AT2022cmc [204 33] 19 min # high priority (needs to be done between 20:15 and 22:00)
+YSE 2022czy [185 17] 4 min
+
+### 21:15
+YSE 423 [193 -2] 17 min  ### drop this one if necessary close to Moon
+
+### 21:35
+DESIRT_190_iz [~195 7] (31 min)
+DESIRT_TN-J1338_gri [204 -19] (7 min) ## Can do DESIRT_TN-J1338_griz instead if there's 2 extra minutes
+DEBASS/EVERYTHING/2022kjl_P1 [209 -15] (4min)
+DEBASS/EVERYTHING/2022lax_P1 [216 -8] (4min)
+
+### 22:20
+
+DEBASS/STATIC/SP1 [200 -2] 4 min 
+DEBASS/STATIC/SP2 [200 -2] 4 min 
+DEBASS/STATIC/SP3 [200 -2] 4 min 
+
+DEBASS/EVERYTHING/2022lkt_P2 [209 3] (4min) OPTIONAL FILLER
+
+### 22:40
+YSE 477 [214 3] 17 min 
+
+### 23:00
+DESIRT_G15_gz [~215 -1] (16 min)
+DEBASS/EVERYTHING/2022jnr_P1 [226 17] (4min)
+
+### 23:35
+YSE 632 [242 25] 17 min 
+YSE 583 [236 20] 17 min 
+DEBASS/EVERYTHING/2022jut_P1 [241 18] (4min)
+YSE 531 [230 10] 17 min 
+
+### 00:35
+DESIRT_220_gr [~220 7] (31 min)
+DESIRT_220_g (13 min)
+YSE 376 [224 -8] 17 min 
+YSE 428 [228 -4] 17 min 
+
+### 01:55
+
+DEBASS/EVERYTHING/2022iem_P1 [261 6] (4min)
+DEBASS/EVERYTHING/2022itd_P1 [273 11] (4min)
+
+### 02:05 
+DECaPSEast [270 -29] 30 min
+
+### 02:35
+YSE 440 [314 -4] 17 min
+DEBASS/EVERYTHING/2022jmr_P1 [315 -23] (4min) DROP z BAND IF SHORT ON TIME
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+DESIRT_320_g [~320 6] (13 min) # Drop if short on time
+YSE 544 [321 9] 17 min
+
+DEBASS/EVERYTHING/2022kkg_P1 [305 20] (4min) DROP z BAND IF SHORT ON TIME
+
+### 04:05
+YSE 494 [347 9] 17 min 
+
+### 04:25
+ELAIS-DDF [8, -43] 1h
+
+### 05:25
+YSE 296 [17 -17] 14 min 
+YSE 448 [16 3] 17 min 
+
+### 06:00
+YSE 2022jli [8.6862 -8.3033] 6 min 
+YSE 550 [4 18] 17 min
+
+### 06:25 slew to Asteroid fields
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard
+
+####  EXTRA TARGETS!!!!! If you have extra time left, please do these fields:
+
+CS1_gr or CS1_gi (which ever was not done last nite) [48 -20] (3min)
+CS2_gr or CS2_gi (which ever was not done last nite) [48 -20] (3min)
+CS3_gr or CS3_gi (which ever was not done last nite) [48 -20] (3min)
+CS4_gr or CS4_gi (which ever was not done last nite) [48 -20] (3min)
+CS5_gr or CS5_gi (which ever was not done last nite) [48 -20] (3min)

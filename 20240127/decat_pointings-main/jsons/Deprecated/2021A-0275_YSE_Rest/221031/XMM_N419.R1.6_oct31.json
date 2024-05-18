@@ -1,0 +1,29 @@
+[
+{
+    "expType": "object",
+    "object": "XMM_N419_R1.6_focus",
+    "filter": "N419",
+    "RA": 34.122795,
+    "dec": -4.5001619,
+    "propid": "2020B-0201",
+    "expTime": 60
+},
+{
+    "expType": "object",
+    "object": "XMM_N419_R1.6_083",
+    "filter": "N419",
+    "RA": 34.122795,
+    "dec": -4.5001619,
+    "propid": "2020B-0201",
+    "expTime": 1200
+},
+{
+    "expType": "object",
+    "object": "XMM_N419_R1.6_090",
+    "filter": "N419",
+    "RA": 35.3486338,
+    "dec": -3.1907551,
+    "propid": "2020B-0201",
+    "expTime": 1200
+}
+]

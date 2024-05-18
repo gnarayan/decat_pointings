@@ -1,0 +1,85 @@
+MOON ILLUMINATION: 0.54
+UT -16 deg twilight: 2023-04-27T23:23:12.506 2023-04-28T09:58:46.944
+UT -15 deg twilight: 2023-04-27T23:18:32.879 2023-04-28T10:03:27.118
+UT -14 deg twilight: 2023-04-27T23:13:52.567 2023-04-28T10:08:07.664
+UT -12 deg twilight: 2023-04-27T23:04:31.073 2023-04-28T10:17:29.984
+UT -10 deg twilight: 2023-04-27T22:55:07.798 2023-04-28T10:26:54.133
+LOCAL -16 deg twilight: 04/27/2023,   19:23:12   05:58:46
+LOCAL -15 deg twilight: 04/27/2023,   19:18:32   06:03:27
+LOCAL -14 deg twilight: 04/27/2023,   19:13:52   06:08:07
+LOCAL -12 deg twilight: 04/27/2023,   19:04:31   06:17:29
+LOCAL -10 deg twilight: 04/27/2023,   18:55:07   06:26:54
+LOCAL night MIDPOINT: 04/28/2023,   00:40:59
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EST ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them ***
+*********************************************************
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+!!! 19:13:52
+YSE 2023dk [78 -1] 4 min HST            ### DROP if behind schedule
+YSE 2022xkq [76 -12] 3 min HST          ### DROP if behind schedule
+YSE 257 [85 -25] 17 min                 
+YSE 2022aajn [107 21] 3 min HST         ### DROP if behind schedule 			
+
+!!! 19:51
+Shen SCVZ [90 -66] 12 min            
+
+!!! 20:03 
+DECaPSWest A+B [116 -26] 30 min
+YSE 311 [123 -17] 8 min         
+YSE 412 [115 -2] 8 min 		  
+### eFEDS [129 1] 30 min  
+
+!!! 20:49 
+YSE 2023ftr [138 19] (4min)  HST       ### high priority
+YSE 2023jb [156 18] (3 min)  HST          ### DROP if behind schedule
+YSE 2022adcf [156 9] (3 min) HST          ### DROP if behind schedule
+YSE 2023ext  [165 8] (3 min) HST   		  ### DROP if behind schedule
+
+!!! 20:57
+cosmos_ddf_seq_230427.json [150 2] 45 min
+
+!!! 21:43
+### YSE 2023R [150 -5]  (3 min) HST
+### YSE 2023ed [145 -30]  (3 min) HST    
+### etale.z.15min.json [160 -60] 15 min  
+### etale.i.15min.json [160 -60] 15 min 
+etale.r.15min.json [160 -60] 15 min     
+### YSE 2022aduk [160 -17] (3 min) HST         
+OMLApex_230427.json [166 -24]   (27 min)    
+DESIRT_165_gr (165 -6) (32 min) 
+YSE 2023bu [178 -18]  (3 min) HST               ### DROP if behind schedule
+
+!!! 23:02 
+### YSE 2022zut [175 11] 3 min    HST          
+### YSE 2023clx [175 15] (3 min)   
+DEBASS/EVERYTHING/2023cqz_P2 [173 24] (3min)
+DEBASS/EVERYTHING/2023dtz_P1 [189 14] (3min)
+YSE 525 [189 10] 34 min                       ### DROP r band if behind schedule
+DESIRT_190_gz (190 6) (35 min)
+
+!!! 00:13
+DEBASS/EVERYTHING/2023cyx_P2 [206 4] (3min)
+DEBASS/EVERYTHING/2023dxk_P2 [221 9] (3min)
+YSE 2023ggw [225  17] (4 min)     ### high priority
+DEBASS/EVERYTHING/2023day_P2 [213 -6] (3min)   ### DROP if behind schedule (observed yesterday)
+YSE 2023gfs [194  -12] (4 min)    ### high priority
+DEBASS/EVERYTHING/2023gss_P2 [211 -27] (3min)
+### YSE 2023emq [203 -23] (3 min)    
+DEBASS/EVERYTHING/Shapley_Skymapper_P1 [203 -31] (3min)
+DEBASS/EVERYTHING/2023dwc_P2 [203 -35] (3min)
+
+00:40:59 end of half night

@@ -1,0 +1,58 @@
+## Jan 2
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Jan 3 2nd half
+
+DESIRT_165_grz_Dec22 (165 -6) (50 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Jan 5
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_50_g (12 min) IF EXTRA TIME
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Jan 8
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_50_g (12 min) IF EXTRA TIME
+DESIRT_165_riz_Dec22 (165 -6) (50 min) 
+
+## Jan 17
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_50_g (12 min) IF EXTRA TIME
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Jan 20 
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_50_g (12 min) IF EXTRA TIME
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Jan 23
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_50_g (12 min) IF EXTRA TIME
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Jan 26
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_50_g (12 min) IF EXTRA TIME
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+
+## Jan 29
+
+DESIRT_50_grz (50 -15) (50 min)
+DESIRT_165_grz_Jan23 (165 -6) (56 min)
+DESIRT_165_g (14 min) IF EXTRA TIME
+

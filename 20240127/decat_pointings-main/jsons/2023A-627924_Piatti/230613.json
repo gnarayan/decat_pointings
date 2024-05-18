@@ -1,0 +1,167 @@
+[
+ {
+  "SCRIPT_COMMENT": "YES",
+  "ditherPattern": "Rectangle",
+  "SEQ_LEN": 4,
+  "RA_offset": 60,
+  "dec_offset": 60,
+  "expType": "object",
+  "RA": 262.979,
+  "dec": -67.048,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 262.979,
+  "dec": -67.048,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 263.021754,
+  "dec": -67.048,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 263.021754,
+  "dec": -67.031333,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 262.979,
+  "dec": -67.031333,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6362",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "SCRIPT_COMMENT": "YES",
+  "ditherPattern": "Rectangle",
+  "SEQ_LEN": 4,
+  "RA_offset": 60,
+  "dec_offset": 60,
+  "expType": "object",
+  "RA": 259.155,
+  "dec": -28.1398,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6316",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 259.155,
+  "dec": -28.1398,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6316",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 259.173902,
+  "dec": -28.1398,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6316",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 259.173902,
+  "dec": -28.123133,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6316",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 259.155,
+  "dec": -28.123133,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6316",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "SCRIPT_COMMENT": "YES",
+  "ditherPattern": "Rectangle",
+  "SEQ_LEN": 4,
+  "RA_offset": 60,
+  "dec_offset": 60,
+  "expType": "object",
+  "RA": 260.99438,
+  "dec": -26.3534,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6355",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 260.99438,
+  "dec": -26.3534,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6355",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 261.012981,
+  "dec": -26.3534,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6355",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 261.012981,
+  "dec": -26.336733,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6355",
+  "seqid": "rectangle_dither",
+  "count": 1
+ },
+ {
+  "expType": "object",
+  "RA": 260.99438,
+  "dec": -26.336733,
+  "filter": "[g,r]",
+  "expTime": 400,
+  "object": "NGC6355",
+  "seqid": "rectangle_dither",
+  "count": 1
+ }
+]

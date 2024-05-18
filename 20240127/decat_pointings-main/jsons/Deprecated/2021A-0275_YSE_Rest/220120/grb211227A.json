@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "grb211227A",
+"filter": "r",
+"expTime": 100,
+"RA": "132.1489",
+"dec": "-2.8100",
+"propid": "2021A-0275"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "grb211227A",
+"filter": "i",
+"expTime": 100,
+"RA": "132.1489",
+"dec": "-2.8100",
+"propid": "2021A-0275"
+}
+]

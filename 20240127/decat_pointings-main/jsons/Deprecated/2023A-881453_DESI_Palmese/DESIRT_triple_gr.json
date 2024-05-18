@@ -1,0 +1,30 @@
+[
+    {
+        "object": "DESIRT triple",
+        "expTime": 60,
+        "RA": "35.785417",
+        "dec": "-32.871667",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23A",
+        "wait": "False",
+        "propid": "2023A-881453",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT "
+    },
+    {
+        "object": "DESIRT triple",
+        "expTime": 70,
+        "RA": "235.785417",
+        "dec": "-32.871667",
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESIRT23A",
+        "wait": "False",
+        "propid": "2023A-881453",
+        "proposer": "Palmese Wang",
+        "comment": "DESIRT "
+    }
+]

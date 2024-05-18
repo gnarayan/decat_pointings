@@ -1,0 +1,56 @@
+35UT -16 deg twilight: 2021-12-07T00:58:29.142 2021-12-07T08:10:41.576
+UT -14 deg twilight: 2021-12-07T00:46:42.866 2021-12-07T08:22:27.518
+UT -12 deg twilight: 2021-12-07T00:35:14.476 2021-12-07T08:33:55.413
+UT -10 deg twilight: 2021-12-07T00:24:01.083 2021-12-07T08:45:09.994
+LOCAL -16 deg twilight: 12/06/2021,   21:58:29   05:10:41
+LOCAL -14 deg twilight: 12/06/2021,   21:46:42   05:22:27
+LOCAL -12 deg twilight: 12/06/2021,   21:35:14   05:33:55
+LOCAL -10 deg twilight: 12/06/2021,   21:24:01   05:45:09
+LOCAL night MIDPOINT: 12/07/2021,   01:34:35
+
+
+01:34 elais_ddf_seq_A.json [9, -43] 30min
+
+02:05
+    YSE 296 [17, -19] 16min!
+    DEBASS 2021afeb_P1 [15 -15]
+    DEBASS 2021agbv_P1 [29 -14]
+
+02:30 am
+  X123 [34, -4]  35 min
+  YSE CDFS g,r [52, -28] (10 min)
+  DEBASS 2021aexy_P1 [49 -23]
+
+03:20 am
+  YSE 403 [52, -4] 18 min  
+  DEBASS 2021adlt_P1 [68 6]
+
+03:45 
+353???
+  Shen SCVZ [90,-66] 11 min
+
+03:55 am 
+  YSE 257 [91, -26] 18 min
+
+set the guider exposure time to 100ms for this crowded field
+04:14 decapswest_ddf_A/B.json  [116, -26] 0.5h 
+set guider exptime back to 600ms
+
+04:45 DEBASS 2021aeca_P2 [123 -14] <- optional
+      DEBASS 2021adoz_P1 [125 7]
+
+eFEDS [135, 1] 30 min
+
+05:34 DEBASS 2021adlz_P1 [157 11]
+      DEBASS 2021afue_P1 [154 -7]
+
+2021acnt_P2 [145 -28] maybe!!!
+      
+
+05:05 eFEDS [135, 1] 30 min
+      
+More Alternate targets if time (including twilight):
+YSE 353 [63, -11] 18 min
+2021adlv_P2 [127 -4]
+2021acnt_P2 [145 -28]
+

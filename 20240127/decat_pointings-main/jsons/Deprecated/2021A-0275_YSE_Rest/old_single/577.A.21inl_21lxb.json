@@ -1,0 +1,30 @@
+[
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 50.0,
+		"RA": 195.450000,
+		"dec": 27.90000,
+		"object": "577.A.a 21inl 21lxb",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "577.A.a 21inl 21lxb",
+		"wait": "False",
+		"propid": "2021A-0275"
+	},
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 50.0,
+		"RA": 195.8687329,
+		"dec": 28.670807,
+		"object": "577.A.a 21inl 21lxb",
+		"program": "",
+		"expType": "object",
+		"note": "None",
+		"comment": "577.A.a 21inl 21lxb",
+		"wait": "False",
+		"propid": "2021A-0275"
+	}
+]

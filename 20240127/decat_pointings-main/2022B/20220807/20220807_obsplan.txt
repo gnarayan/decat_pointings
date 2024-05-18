@@ -1,0 +1,70 @@
+MOON ILLUMINATION: 0.80
+UT -16 deg twilight: 2022-08-07T23:26:32.533 2022-08-08T10:11:09.089
+UT -15 deg twilight: 2022-08-07T23:21:50.503 2022-08-08T10:15:50.723
+UT -14 deg twilight: 2022-08-07T23:17:08.080 2022-08-08T10:20:32.832
+UT -12 deg twilight: 2022-08-07T23:07:41.567 2022-08-08T10:29:58.586
+UT -10 deg twilight: 2022-08-07T22:58:12.747 2022-08-08T10:39:26.594
+LOCAL -16 deg twilight: 08/07/2022,   19:26:32   06:11:09
+LOCAL -15 deg twilight: 08/07/2022,   19:21:50   06:15:50
+LOCAL -14 deg twilight: 08/07/2022,   19:17:08   06:20:32
+LOCAL -12 deg twilight: 08/07/2022,   19:07:41   06:29:58
+LOCAL -10 deg twilight: 08/07/2022,   18:58:12   06:39:26
+LOCAL night MIDPOINT: 08/08/2022,   00:48:50
+
+
+
+
+
+Start with Pointing the Telescope 1 to 2 hours in RA to the West.
+
+### 18:53
+Slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### 19:17
+etale.i.15min.json [160 -60] 15 min
+
+### 19:32
+DEBASS/EVERYTHING/2022myp_P1 [205 -25] (4min)
+#### IF EXTRA TIME DESIRT_G15_rz [~215 -1] (17 min)  - keep an eye on airmass
+
+### 19:36
+YSE 477 [214 3] 17 min  
+
+### 19:50
+YSE 583 [236 20] 17 min 
+YSE 531 [230 10] 17 min 
+
+### 20:25
+YSE 428 [228 -4] 17 min    ### skip if necessary!!
+YSE 376 [224 -8] 17 min 
+DEBASS/EVERYTHING/2022nag_P2 [271 10] (4min) 
+
+### 21:05 
+DECaPSEast [270 -29] 30 min
+DEBASS/EVERYTHING/2022qpp_P2 [292 -34]
+DEBASS/EVERYTHING/2022nim_P2 [299 -15]
+
+### 21:45
+DEBASS/EVERYTHING/2022qbp_P1 [305 -14]
+YSE 440 [314 -4] 16 min  
+DEBASS/EVERYTHING/2022qku_P1 [321 -6]
+DESIRT_320_g [~320 6] (13 min)
+DESIRT_320_rz [~320 6] (40 min)
+DESIRT_320_g [~320 6] (13 min)   OPTIONAL IF EXTRA TIME
+
+### 23:05
+YSE 544 [321 9] 17 min
+
+### 23:25
+DESIRT_S82_g [~330-340 0] (13 min)
+DESIRT_S82_r (17 min)
+DESIRT_S82_z (23 min) OPTIONAL IF EXTRA TIME
+
+### 00:30
+DEBASS/EVERYTHING/2022qoa_P1 [334 -2] (4min)
+DEBASS/EVERYTHING/2022nrk_P1 [346 8] (4min)
+DEBASS/EVERYTHING/2022pdq_P1 [355 -9] (4min)
+
+LOCAL night MIDPOINT: 08/08/2022,   00:48:50

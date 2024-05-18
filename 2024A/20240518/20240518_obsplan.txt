@@ -114,7 +114,7 @@ luhman4.json [260 -20] (30 min)
 !!! 02:38
 defsus_main_20240517_30m00s.json [264 -29] (33 min)
 defsus_main_20240517_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
-defsus_cal_20240518_10m40s.json [271 -26] (11 min) !!! Optional, skip if behind
+defsus_extra_20240519_09m00s.json [271 -26] (10 min) !!! Optional, skip if behind
 
 !!! 03:58
 DECaPSEast [270 -29] 30 min             ### drop exposures here if you are behind schedule!

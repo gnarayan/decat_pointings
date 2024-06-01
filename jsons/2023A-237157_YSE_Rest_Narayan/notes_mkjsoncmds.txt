@@ -2998,6 +2998,23 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z  2020oyd 2020szr 2023vyl -e 90 -n 1 --s
 git add 240529
 git add 240529/*.json
 
+mkdir 20240601
+cp 20240529/20240529_obsplan.txt 20240601/20240601_obsplan.txt 
+subl 20240601/20240601_obsplan.txt
+git add 20240601/20240601_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g   412  -d 240601 
+mkjson_yse_nofilterswitch.py  -f g,r  525   -d 240601 
+mkjson_yse_nofilterswitch.py  -f g,i  428 376   -d 240601 
+mkjson_yse_nofilterswitch.py  -f g,i  531  -d 240601 
+mkjson_yse_nofilterswitch.py  -f g,i  440  544   -d 240601 
+mkjson_yse_nofilterswitch.py  -f r,i  494  -d 240601 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240601 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240601 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i  2024uj -d 240601 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2020szr 2023vyl -e 90 -n 1 --sortbyra
+git add 240601
+git add 240601/*.json
 
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
 

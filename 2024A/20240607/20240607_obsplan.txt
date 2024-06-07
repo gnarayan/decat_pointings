@@ -113,7 +113,6 @@ YSE 544 [321 9] 17 min
 YSE 494 [330 3] 17 min 	                 ### drop r band exposures here if you are behind schedule!
 
 !!! 04:00
-### E1E2.json [8 -43] (28 min) 
 elais_ddf_seq_A+B [8 -43] (1h)           
 elais_ddf_seq_A+B [8 -43] (1h)           ### drop exposures here if behind 
 

@@ -119,7 +119,7 @@ elais_ddf_seq_A+B [8 -43] (1h)           ### drop exposures here if behind
 ### YSE 2023vyl [350 17] (9 min)             
 YSE 296 [17 -17] (17 min)   
 YSE 448 [16 3] (17 min)
-X123.json [34, -4] 34 min                ### drop exposures here if behind
+X123.json [34, -4] 34 min                ### drop exposures here, don't start before 6am since it is at high airmass
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
 !!! 06:30:12 (-14 deg twilight)

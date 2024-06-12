@@ -47,20 +47,9 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 18:55:57
-1h DD GW
+2h DD GW
 
-!!! 19:56
-### Block below Dec<=-30
-### etale.g.30min.json [160 -60] 30 min       
-### etale.r.15min.json [160 -60] 15 min    
-etale.i.15min.json [160 -60] 15 min    
-etale.z.15min.json [160 -60] 15 min           
-### etale.i.closefields135deg_A.json [160 -60] 31 min
-
-!!! 20:28
-DOSC ?_OMLApex.240*.json  [167 -25] (30 min)  
-
-!!! 21:00
+!!! 20:56
 DEBASS/EVERYTHING/2021fxy_P1 [198 -19] (5min) OPTIONAL
 DEBASS/EVERYTHING/2024kbp_P1 [209 -19] (3min) HIGH PRIORITY
 DOSC ?_ShallowApex.24????.json [213 -34] (25 min) 

@@ -61,12 +61,12 @@ DEBASS/EVERYTHING/2024inv_P1 [167 10] (3min) HIGH PRIORITY
 YSE 2021dha [173 14] (5 min)
 
 !!! 19:58
+YSE 525 [189 10] (33 min)                  
 DOSC ?_OMLApex.240*.json  [167 -25] (76 min)  
 ### YSE 2024uj [167 -20] (4 min)                 
 
-!!! 21:15
+!!! 21:48
 ### YSE 2024exw [183 14] (3 min)
-YSE 525 [189 10] (33 min)               ### high priority don't skip!          
 YSE 2021gyh [196 -3] (5 min)
 YSE 2021kxf [204 1] (5 min)
 

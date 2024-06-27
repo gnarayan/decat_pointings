@@ -41,6 +41,7 @@ LOCAL night MIDPOINT: 06/28/2024,   00:46:34
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
 !!! 00:46:34
+DEBASS/EVERYTHING/2024lol_P1 [236 -7] (2 min) HIGH PRIORITY
 DOSC 3_ShallowApex.240627_g_3-dithpos.json [213 -34] (8 min) 
 DOSC 4_ShallowApex.240627_r_3-dithpos.json [213 -34] (8 min) 
 

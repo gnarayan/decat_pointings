@@ -7,7 +7,6 @@
 2024lol_P1 [236 -7]
 2021hji_P1 [252 22]
 2021ify_P1 [262 13]
-2024kzw_P1 [322 -12]
 2021abds_P1 [356 -16]
 
 2021dch_P2 [196 29]
@@ -32,6 +31,7 @@
 2021hem_P3 [245 14]
 2024gpq_P3 [256 9]
 2024lby_P3 [305 -7]
+2024kzw_P3 [322 -12]
 
-EVERYTHING	168.4 minutes
-EVERYTHING_P1	74.7 minutes
+EVERYTHING	167.6 minutes
+EVERYTHING_P1	70.6 minutes

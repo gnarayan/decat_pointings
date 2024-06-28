@@ -1,3 +1,4 @@
+2024mss_P1 [82 -61]
 2021drc_P1 [172 21]
 2024muv_P1 [191 -9]
 2021igt_P1 [190 21]
@@ -7,6 +8,7 @@
 2024lol_P1 [236 -7]
 2021hji_P1 [252 22]
 2021ify_P1 [262 13]
+2024mze_P1 [340 -66]
 2021abds_P1 [356 -16]
 
 2021dch_P2 [196 29]
@@ -33,5 +35,5 @@
 2024lby_P3 [305 -7]
 2024kzw_P3 [322 -12]
 
-EVERYTHING	167.6 minutes
-EVERYTHING_P1	70.6 minutes
+EVERYTHING	177.3 minutes
+EVERYTHING_P1	80.7 minutes

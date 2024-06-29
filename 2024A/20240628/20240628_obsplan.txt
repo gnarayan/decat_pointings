@@ -93,7 +93,6 @@ DEBASS/EVERYTHING/2024lol_P1 [236 -7]
 YSE 531 [230 11] 17 min                		  
 YSE 2022jqg [235 22] (5 min)
 YSE 2022jut [241 17] (5 min)
-DEBASS/EVERYTHING/2021hji_P1 [252 22] (5min) OPTIONAL
 
 !!! 23:56
 luhman1.json [260 -20] (19 min)

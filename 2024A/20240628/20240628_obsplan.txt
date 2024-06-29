@@ -89,8 +89,8 @@ YSE 376	[224 -8] 17 min
 YSE 428	[228 -4] 17 min                                        
 
 !!! 23:19
+DEBASS/EVERYTHING/2024lol_P1 [236 -7]
 YSE 531 [230 11] 17 min                		  
-DEBASS/EVERYTHING/2021ihz_P1 [228 25] (5min) OPTIONAL
 YSE 2022jqg [235 22] (5 min)
 YSE 2022jut [241 17] (5 min)
 DEBASS/EVERYTHING/2021hji_P1 [252 22] (5min) OPTIONAL
@@ -114,13 +114,13 @@ YSE 2024eyo [311 -46] (3 min)           ### high priority
 YSE 440	[314 -4] 17 min                  
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	               ### drop i band exposures here if behind!!!
+DEBASS/EVERYTHING/2024mze_P1 [340 -66] 4min
 
 ### !!! 02:33
 ### YSE 495 [339 5] (17 min)
 ### YSE 393 [346 -10] (17 min) 
 ### YSE 2020szr [347 15] (9 min)			 
 ### YSE 2023vyl [350 17] (9 min)             
-### DEBASS/EVERYTHING/2021abds_P1 [356 -16] (5min) FILLER IF TIME
 
 !!! 04:00
 elais_ddf_seq_A+B [8 -43] (1h)           

@@ -3,8 +3,8 @@
 "object": "pos115a",
 "expType": "object",
 "filter": "r",
-"RA": 283.889,
-"dec": -29.550,
+"RA": 280.926,
+"dec": -31.450,
 "expTime": 150,
 "count": 1,
 "propid": "2024A-537967"
@@ -23,8 +23,8 @@
 "object": "pos116a",
 "expType": "object",
 "filter": "r",
-"RA": 281.777,
-"dec": -28.600,
+"RA": 283.044,
+"dec": -32.400,
 "expTime": 150,
 "count": 1,
 "propid": "2024A-537967"
@@ -43,8 +43,8 @@
 "object": "pos117a",
 "expType": "object",
 "filter": "r",
-"RA": 283.279,
-"dec": -27.650,
+"RA": 282.381,
+"dec": -30.500,
 "expTime": 150,
 "count": 1,
 "propid": "2024A-537967"

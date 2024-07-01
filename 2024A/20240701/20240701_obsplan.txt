@@ -111,9 +111,9 @@ luhman3.json [260 -20] (19 min)
 luhman4.json [260 -20] (30 min)
 
 !!! 00:27
-defsus_main_20240627_30m00s.json [264 -29] (33 min)
-defsus_main_20240627_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
-# defsus_extra_20240627_12m30s.json [272 -27] (13 min) !!! Super optional, go back to something skipped before doing this 
+defsus_main_20240701_30m00s.json [264 -29] (33 min)
+defsus_main_20240701_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
+### defsus_extra_20240701_12m00s.json [266 -35] (13 min) !!! super optional, skip if behind
 
 !!! 01:31
 DECaPSEast [270 -29] 30 min             

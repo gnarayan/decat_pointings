@@ -64,66 +64,79 @@ etale.r.15min.json [160 -60] 15 min
 ### etale.i.set1.74min.json [160 -60] 74 min
 
 !!! 20:05
+DEBASS/EVERYTHING/2024mzx_P1 [164 -5] (3min)
 DEBASS/EVERYTHING/2024inv_P1 [167 10] (3min) HIGH PRIORITY
 ### YSE 2021dha [173 14] (5 min)
 
-!!! 20:08
+!!! 20:10
 YSE 525 [189 10] (17 min)                  
 
-!!! 20:25
+!!! 20:27
 DOSC ?_OMLApex.240*.json  [167 -25] (69 min)     ### Do no go past 21:35!!!!!! otherwise too high airmass
 ### YSE 2024uj [167 -20] (4 min)                 
 
-!!! 21:35
+!!! 21:37
 ### YSE 2024exw [183 14] (3 min)
 YSE 2021gyh [196 -3] (5 min)
+DEBASS/EVERYTHING/2024muv_P1 [191 -9]  HIGH PRIORITY
+DEBASS/EVERYTHING/2021fxy_P2 [198 -19] (5min) OPTIONAL
 YSE 2021kxf [204 1] (5 min)
+DEBASS/EVERYTHING/2024mvd_P1 [216 -9]
 
 !!! 21:45
-DEBASS/EVERYTHING/2021fxy_P1 [198 -19] (5min) OPTIONAL
-DEBASS/EVERYTHING/2024kbp_P1 [209 -19] (3min) HIGH PRIORITY
 ### DOSC ?_ShallowApex.24????.json [213 -34] (24 min) 
 
-!!! 22:53
+!!! 22:00 - DO AS MANY OF THESE (or none if no time) AS YOU CAN AND BE SURE TO STOP AND MOVE ON TO NEXT BLOCK BY 22:00
+DEBASS/EVERYTHING/2021drc_P2 [172 21] (5min) OPTIONAL
+DEBASS/EVERYTHING/2021igt_P2 [190 21] (5min) OPTIONAL
+DEBASS/EVERYTHING/2021dch_P2 [196 29] (5min) OPTIONAL
+DEBASS/EVERYTHING/2021dep_P2 [210 27] (5min) OPTIONAL
+DEBASS/EVERYTHING/2021lat_P2 [220 24] (5min) OPTIONAL
+
+!!! 22:00
 ### YSE 2023emq [203 -24] (5 min)
 ### YSE 2023mkt [229 -24] (5 min)
 YSE 376	[224 -8] 17 min 					      
 YSE 428	[228 -4] 17 min                                        
 
-!!! 23:27
-DEBASS/EVERYTHING/2024lol_P1 [236 -7] (3 min)
+!!! 22:34
 YSE 531 [230 11] 17 min                		  
 YSE 2022jqg [235 22] (5 min)
 YSE 2022jut [241 17] (5 min)
 
-!!! 23:56
+!!! 22:59
 luhman1.json [260 -20] (19 min)
 luhman2.json [260 -20] (19 min)
 luhman3.json [260 -20] (19 min)
 luhman4.json [260 -20] (30 min)
 
-!!! 01:25
+!!! 00:27
 defsus_main_20240627_30m00s.json [264 -29] (33 min)
 defsus_main_20240627_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
-defsus_extra_20240627_12m30s.json [272 -27] (13 min) !!! Super optional, go back to something skipped before doing this 
+# defsus_extra_20240627_12m30s.json [272 -27] (13 min) !!! Super optional, go back to something skipped before doing this 
 
-!!! 02:41
+!!! 01:31
 DECaPSEast [270 -29] 30 min             
+DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (5min) OPTIONAL
 YSE 2024eyo [311 -46] (3 min)           ### high priority
 
-!!! 03:14
+!!! 02:04
 YSE 440	[314 -4] 17 min                  
 YSE 544 [321 9] 17 min                   
+DEBASS/EVERYTHING/2024nev_P1 [333 3] (3min) (OPTIONAL)
 YSE 494 [330 3] 17 min 	               ### drop i band exposures here if behind!!!
-DEBASS/EVERYTHING/2024mze_P1 [340 -66] 4min
-
-### !!! 02:33
+DEBASS/EVERYTHING/2024mlt_P1 [336 17] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
 YSE 495 [339 5] (17 min)
 YSE 393 [346 -10] (17 min) 
+DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min)
+
+### !!! 02:33
+
 ### YSE 2020szr [347 15] (9 min)			 
 ### YSE 2023vyl [350 17] (9 min)             
 
-!!! 04:00
+!!! 03:45
 elais_ddf_seq_A+B [8 -43] (1h)           
 elais_ddf_seq_A+B [8 -43] (1h)           
 
@@ -131,10 +144,18 @@ elais_ddf_seq_A+B [8 -43] (1h)
 ### YSE 296 [17 -17] (17 min)              
 ### YSE 448 [16 3] (17 min)                  
 
-!!! 06:00
+!!! 05:45
 ### X123.json [34, -4] 34 min 
 X123_moon.json [34, -4] 23 min 
 C3 [52, -28] 11 min 
+DEBASS/EVERYTHING/2024mss_P1 [82 -61]  HIGH PRIORITY
+DEBASS/EVERYTHING/2023pbe_P2 [327 14] (5min) OPTIONAL
+DEBASS/EVERYTHING/2021zax_P2 [333 13] (5min) OPTIONAL
+DEBASS/EVERYTHING/2021yrz_P2 [338 19] (5min) OPTIONAL
+DEBASS/EVERYTHING/2022vpn_P2 [335 25] (5min) OPTIONAL
+DEBASS/EVERYTHING/2022nrk_P2 [346 8] (5min) OPTIONAL
+DEBASS/EVERYTHING/2022mhe_P2 [352 8] (5min) OPTIONAL
+DEBASS/EVERYTHING/2022rso_P2 [351 16] (5min) OPTIONAL
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
 !!! 06:34:08 (-14 deg twilight)

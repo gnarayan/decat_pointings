@@ -1,0 +1,102 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"RA": "354.60",
+"dec": "11.90",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "S30",
+"deltaRA": "W0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "S10",
+"deltaRA": "W0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"RA": "354.60",
+"dec": "11.90",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "S30",
+"deltaRA": "W0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "S10",
+"deltaRA": "W0",
+"propid": "2024A-718822"
+}
+]

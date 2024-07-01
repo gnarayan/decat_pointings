@@ -153,9 +153,6 @@ DEBASS/EVERYTHING/2023pbe_P2 [327 14] (5min) OPTIONAL
 DEBASS/EVERYTHING/2021zax_P2 [333 13] (5min) OPTIONAL
 DEBASS/EVERYTHING/2021yrz_P2 [338 19] (5min) OPTIONAL
 DEBASS/EVERYTHING/2022vpn_P2 [335 25] (5min) OPTIONAL
-DEBASS/EVERYTHING/2022nrk_P2 [346 8] (5min) OPTIONAL
-DEBASS/EVERYTHING/2022mhe_P2 [352 8] (5min) OPTIONAL
-DEBASS/EVERYTHING/2022rso_P2 [351 16] (5min) OPTIONAL
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
 !!! 06:34:08 (-14 deg twilight)

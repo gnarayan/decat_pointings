@@ -1,0 +1,12 @@
+json files to run on July 4, 2024.
+
+1_OMLApex.240704_g_5-dithpos.json      12.5 minutes
+2_OMLApex.240704_r_10-dithpos.json     25.0 minutes
+3_OMLApex.240704_i_12-dithpos.json     30.0 minutes
+4_OMLAApexd.240704_r_10-dithpos.json   25.0 minutes
+
+If the last json file (4_OMLAApexd) cannot be scheduled, then observe:
+
+5_ShallowApex.240704_g_4-dithpos.json  10.0 minutes
+6_ShallowApex.240704_r_3-dithpos.json   7.5 minutes
+7_ShallowApex.240704_i_3-dithpos.json   7.5 minutes

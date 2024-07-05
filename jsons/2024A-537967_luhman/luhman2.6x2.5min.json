@@ -1,36 +1,16 @@
 [
 {
-"object": "pos118a",
+"object": "pos131a",
 "expType": "object",
 "filter": "r",
-"RA": 283.889,
-"dec": -29.550,
+"RA": 277.292,
+"dec": -31.450,
 "expTime": 150,
 "count": 1,
 "propid": "2024A-537967"
 },
 {
-"object": "pos118b",
-"expType": "object",
-"filter": "r",
-"deltaRA": "+70.0",
-"deltaDEC": "+70.0",
-"expTime": 150,
-"count": 1,
-"propid": "2024A-537967"
-},
-{
-"object": "pos119a",
-"expType": "object",
-"filter": "r",
-"RA": 281.777,
-"dec": -28.600,
-"expTime": 150,
-"count": 1,
-"propid": "2024A-537967"
-},
-{
-"object": "pos119b",
+"object": "pos131b",
 "expType": "object",
 "filter": "r",
 "deltaRA": "+70.0",
@@ -40,17 +20,37 @@
 "propid": "2024A-537967"
 },
 {
-"object": "pos120a",
+"object": "pos132a",
 "expType": "object",
 "filter": "r",
-"RA": 283.279,
-"dec": -27.650,
+"RA": 279.372,
+"dec": -32.400,
 "expTime": 150,
 "count": 1,
 "propid": "2024A-537967"
 },
 {
-"object": "pos120b",
+"object": "pos132b",
+"expType": "object",
+"filter": "r",
+"deltaRA": "+70.0",
+"deltaDEC": "+70.0",
+"expTime": 150,
+"count": 1,
+"propid": "2024A-537967"
+},
+{
+"object": "pos133a",
+"expType": "object",
+"filter": "r",
+"RA": 271.587,
+"dec": -30.500,
+"expTime": 150,
+"count": 1,
+"propid": "2024A-537967"
+},
+{
+"object": "pos133b",
 "expType": "object",
 "filter": "r",
 "deltaRA": "+70.0",

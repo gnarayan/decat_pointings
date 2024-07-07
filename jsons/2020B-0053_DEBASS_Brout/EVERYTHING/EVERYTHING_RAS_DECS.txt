@@ -65,5 +65,5 @@
 2021hem_P3 [245 14]
 2022rld_P3 [352 -8]
 
-EVERYTHING	336.5 minutes
-EVERYTHING_P1	38.3 minutes
+EVERYTHING	335.1 minutes
+EVERYTHING_P1	36.9 minutes

@@ -51,21 +51,20 @@ defsus_main_20240707_30m00s.json [264 -29] (33 min)
 defsus_main_20240707_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
 
 !!! 02:49
-DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (5min) OPTIONAL
 YSE 2024eyo [311 -46] (3 min)           ### high priority
 
 !!! 02:57
 YSE 440	[314 -4] 17 min                  
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 9 min 	               
-DEBASS/EVERYTHING/2024mlt_P1 [336 17] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
 YSE 495 [339 5] (9 min)
 YSE 393 [346 -10] (9 min) 
-DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min)
+DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 
 !!! 04:10
 elais_ddf_seq_A+B [8 -43] (1h)           
+DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min) HIGH PRIORITY
 
 !!! 05:10
 YSE 296 [17 -17] (17 min)              
@@ -75,7 +74,7 @@ YSE 448 [16 3] (17 min)
 X123.json [34, -4] 34 min 
 ### X123_moon.json [34, -4] 23 min 
 C3 [52, -28] 11 min 
-DEBASS/EVERYTHING/2024mss_P1 [82 -61]  HIGH PRIORITY
+DEBASS/EVERYTHING/2024mss_P1 [82 -61] (3min) HIGH PRIORITY
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
 !!! 06:33:57 (-14 deg twilight)

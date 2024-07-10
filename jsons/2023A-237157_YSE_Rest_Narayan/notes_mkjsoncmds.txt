@@ -3235,6 +3235,26 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf
 git add 240707
 git add 240707/*.json
 
+mkdir 20240710
+cp 20240704/20240704_obsplan.txt 20240710/20240710_obsplan.txt 
+subl 20240710/20240710_obsplan.txt
+git add 20240710/20240710_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i  525   -d 240710 
+mkjson_yse_nofilterswitch.py  -f g  428 376   -d 240710 
+mkjson_yse_nofilterswitch.py  -f g  531  -d 240710 
+mkjson_yse_nofilterswitch.py  -f g,r  440  544   -d 240710 
+mkjson_yse_nofilterswitch.py  -f g,r    494 393 495 -d 240710 
+mkjson_yse_nofilterswitch.py  -f g,r  296 448  -d 240710 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240710 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240710 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2024uj -d 240710 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low 2020szr 2023vyl -d 240710  -e 30 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf 2022jqg  2024gpq  2021adug  -d 240710 -e 30 -n 1 --sortbyra
+git add 240710
+git add 240710/*.json
+
+
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
 
 2021gpq [258 9] (5 min)

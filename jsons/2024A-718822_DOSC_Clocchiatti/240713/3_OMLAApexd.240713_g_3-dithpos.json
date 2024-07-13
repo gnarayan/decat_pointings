@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "g",
+"expTime": 200,
+"RA": "354.60",
+"dec": "11.90",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "g",
+"expTime": 200,
+"deltaDEC": "N5",
+"deltaRA": "E0",
+"propid": "2024A-718822"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexd",
+"filter": "g",
+"expTime": 200,
+"deltaDEC": "S10",
+"deltaRA": "W0",
+"propid": "2024A-718822"
+}
+]

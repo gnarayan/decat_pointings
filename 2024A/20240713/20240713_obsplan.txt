@@ -47,6 +47,8 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 19:05:18
+DEBASS/EVERYTHING/2024inv_P1 [167 10] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2024mzx_P1 [164 -5] (3min) HIGH PRIORITY
 DOSC ?_OMLApex.240*.json  [167 -25] (29 min)     
 ### YSE 2021fna [154 -23] (5 min)
 
@@ -68,12 +70,9 @@ etale.i.set1.74min.json [160 -60] 74 min  ### you can cut here if needed
 ### !!! 21:33
 ### YSE 2024exw [183 14] (3 min)
 ### YSE 2021gyh [196 -3] (5 min)
-### DEBASS/EVERYTHING/2024muv_P1 [191 -9] (3min) HIGH PRIORITY
 ### YSE 2021kxf [204 1] (5 min)
-### DEBASS/EVERYTHING/2024mvd_P1 [216 -9] (3min) HIGH PRIORITY
 
 ### !!! 21:39
-### DEBASS/EVERYTHING/2021dep_P2 [210 27] (4min) OPTIONAL FILLER
 ### YSE 2023emq [203 -24] (5 min)
 ### YSE 2023mkt [229 -24] (5 min)
 ### YSE 376	[224 -8] 9 min 					      
@@ -81,12 +80,19 @@ etale.i.set1.74min.json [160 -60] 74 min  ### you can cut here if needed
 
 ### !!! 22:02
 ### YSE 531 [230 11] 9 min                		  
-### DEBASS/EVERYTHING/2022jnr_P2 [226 17] (4min) OPTIONAL FILLER
 ### YSE 2022jqg [235 22] (5 min)
 ### YSE 2022jut [241 17] (5 min)
 
 !!! 20:50
 extra time!!!
+DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (5min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2021ify_P2 [262 13] (5min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2022itd_P2 [273 11] (5min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2021koq_P2 [273 6] (5min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2022rfn_P2 [287 -16] (5min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2022nim_P2 [299 -15] (5min) OPTIONAL FILLER
+DEBASS/EVERYTHING/2023ols_P2 [301 1] (5min) OPTIONAL FILLER
+STOP AT 21:35
 
 !!! 21:35
 luhman1.json [260 -20] (19 min)
@@ -109,12 +115,11 @@ DEBASS/EVERYTHING/2022nim_P2 [299 -15] (4min) OPTIONAL FILLER
 
 !!! 00:20
 YSE 440	[314 -4] 17 min                  
+DEBASS/EVERYTHING/2024pfr_P1 [297 8] (3min) 
 DEBASS/EVERYTHING/2021zfs_P2 [323 5] (4min) OPTIONAL FILLER
 YSE 544 [321 9] 17 min                   
-DEBASS/EVERYTHING/2024nev_P1 [333 3] (3min) (OPTIONAL)
 YSE 494 [330 3] 17 min 	               
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
-DEBASS/EVERYTHING/2021yzz_P2 [331 -19] (4min) OPTIONAL FILLER
 
 !!! 01:26
 YSE 495 [339 5] (17 min)
@@ -137,10 +142,12 @@ YSE 448 [16 3] (17 min)
 !!! 04:46
 X123.json [34, -4] 34 min 
 ### X123_moon.json [34, -4] 23 min 
+DEBASS/EVERYTHING/2024pbe_P1 [42 -1] (3min) LOW PRIORITY
+DEBASS/EVERYTHING/2024phe_P1 [38 14] (3min) HIGH PRIORITY
 C3 [52, -28] 11 min 
+DEBASS/EVERYTHING/2024nwu_P1 [16 -66] (3min) HIGH PRIORITY
 
 !!! 05:31
-DEBASS/EVERYTHING/2023ptg_P2 [38 -5] (4min) OPTIONAL FILLER
 DEBASS/EVERYTHING/2021addd_P2 [48 5] (4min) OPTIONAL FILLER
 DEBASS/EVERYTHING/2022wpy_P2 [72 -4] (4min) OPTIONAL FILLER
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!

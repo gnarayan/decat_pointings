@@ -1,7 +1,10 @@
 2024nwu_P1 [16 -66]
+2024pbe_P1 [42 -1]
+2024phe_P1 [38 14]
 2024mzx_P1 [164 -5]
 2024inv_P1 [167 10]
 2024nug_P1 [298 -31]
+2024pfr_P1 [297 8]
 2024mze_P1 [340 -66]
 2024nbo_P1 [338 -9]
 
@@ -63,5 +66,5 @@
 2021kbj_P3 [237 24]
 2022rld_P3 [352 -8]
 
-EVERYTHING	347.1 minutes
-EVERYTHING_P1	27.9 minutes
+EVERYTHING	356.4 minutes
+EVERYTHING_P1	37.3 minutes

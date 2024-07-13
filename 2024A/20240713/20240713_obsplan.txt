@@ -47,16 +47,16 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 19:05:18
-DOSC ?_OMLApex.240*.json  [167 -25] (75 min)     ### Do no go past 20:20!!!!!! otherwise too high airmass
+DOSC ?_OMLApex.240*.json  [167 -25] (29 min)     
 ### YSE 2021fna [154 -23] (5 min)
 
-!!! 20:20
+!!! 19:35
 ### Block below Dec<=-30
 ### etale.g.30min.json [160 -60] 30 min       
 ### etale.r.15min.json [160 -60] 15 min    
 ### etale.i.15min.json [160 -60] 15 min    
 ### etale.z.15min.json [160 -60] 15 min           
-etale.i.set1.74min.json [160 -60] 30 min   ### Only do the first 30 minutes of this or until airmass is >2.0!
+etale.i.set1.74min.json [160 -60] 74 min  ### you can cut here if needed
 
 ### !!! 20:22
 ### YSE 2021dha [173 14] (5 min)
@@ -85,21 +85,21 @@ etale.i.set1.74min.json [160 -60] 30 min   ### Only do the first 30 minutes of t
 ### YSE 2022jqg [235 22] (5 min)
 ### YSE 2022jut [241 17] (5 min)
 
-!!! 21:10
+!!! 20:50
 extra time!!!
 
-!!! 22:25
+!!! 21:35
 luhman1.json [260 -20] (19 min)
 luhman2.json [260 -20] (19 min)
 luhman3.json [260 -20] (19 min)
 ### luhman4.json [260 -20] (30 min)
 
-!!! 23:22
+!!! 22:32
 defsus_main_202407XX_30m00s.json [264 -29] (33 min)
 defsus_main_202407XX_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
 ### defsus_extra_202407XX_12m30s.json [272 -27] (13 min) !!! Super optional, go back to anything skipped before doing this
 
-!!! 00:25
+!!! 23:35
 DEBASS/EVERYTHING/2022rfn_P2 [287 -16] (4min) OPTIONAL FILLER
 DECaPSEast [270 -29] 30 min             
 ### DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (4min) OPTIONAL FILLER
@@ -107,7 +107,7 @@ YSE 2024eyo [311 -46] (3 min)           ### high priority
 DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022nim_P2 [299 -15] (4min) OPTIONAL FILLER
 
-!!! 01:06
+!!! 00:20
 YSE 440	[314 -4] 17 min                  
 DEBASS/EVERYTHING/2021zfs_P2 [323 5] (4min) OPTIONAL FILLER
 YSE 544 [321 9] 17 min                   
@@ -116,15 +116,15 @@ YSE 494 [330 3] 17 min
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2021yzz_P2 [331 -19] (4min) OPTIONAL FILLER
 
-!!! 02:12
+!!! 01:26
 YSE 495 [339 5] (17 min)
 YSE 393 [346 -10] (17 min) 
 DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min) HIGH PRIORITY
 
-!!! 02:49
+!!! 02:05
 ### YSE 2020szr [347 15] (5 min)			 
 ### YSE 2023vyl [350 17] (5 min)             
-DOSC ?_OMLAApexd.*-dithpos.json [355 12] (22 min)
+DOSC ?_OMLAApexd.*-dithpos.json [355 12] (66 min)
 
 !!! 03:11
 elais_ddf_seq_A+B [8 -43] (1h)           

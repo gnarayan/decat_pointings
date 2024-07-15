@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.80
-UT -16 deg twilight: 2024-07-16T23:16:18.681 2024-07-17T10:22:27.459
-UT -15 deg twilight: 2024-07-16T23:11:30.150 2024-07-17T10:27:15.743
-UT -14 deg twilight: 2024-07-16T23:06:40.780 2024-07-17T10:32:04.781
-UT -12 deg twilight: 2024-07-16T22:56:59.661 2024-07-17T10:41:45.264
-UT -10 deg twilight: 2024-07-16T22:47:15.014 2024-07-17T10:51:29.207
-LOCAL -16 deg twilight: 07/16/2024,   19:16:18   06:22:27
-LOCAL -15 deg twilight: 07/16/2024,   19:11:30   06:27:15
-LOCAL -14 deg twilight: 07/16/2024,   19:06:40   06:32:04
-LOCAL -12 deg twilight: 07/16/2024,   18:56:59   06:41:45
-LOCAL -10 deg twilight: 07/16/2024,   18:47:15   06:51:29
-LOCAL night MIDPOINT: 07/17/2024,   00:49:23
+MOON ILLUMINATION: 0.72
+UT -16 deg twilight: 2024-07-15T23:15:51.663 2024-07-16T10:22:44.590
+UT -15 deg twilight: 2024-07-15T23:11:02.924 2024-07-16T10:27:33.146
+UT -14 deg twilight: 2024-07-15T23:06:13.189 2024-07-16T10:32:22.476
+UT -12 deg twilight: 2024-07-15T22:56:31.456 2024-07-16T10:42:03.585
+UT -10 deg twilight: 2024-07-15T22:46:46.151 2024-07-16T10:51:48.248
+LOCAL -16 deg twilight: 07/15/2024,   19:15:51   06:22:44
+LOCAL -15 deg twilight: 07/15/2024,   19:11:02   06:27:33
+LOCAL -14 deg twilight: 07/15/2024,   19:06:13   06:32:22
+LOCAL -12 deg twilight: 07/15/2024,   18:56:31   06:42:03
+LOCAL -10 deg twilight: 07/15/2024,   18:46:46   06:51:48
+LOCAL night MIDPOINT: 07/16/2024,   00:49:18
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -46,7 +46,7 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 19:05:18
+!!! 19:06:13 
 YSE 2021dha [173 14] (4 min)
 YSE 2024exw [183 14] (3 min)
 YSE 2021fna [154 -23] (4 min)
@@ -67,7 +67,7 @@ YSE 2021gyh [196 -3] (4 min)
 YSE 2021kxf [204 1] (4 min)
 
 !!! 20:30
-YSE 2023emq [203 -24] (4 min)
+### YSE 2023emq [203 -24] (4 min)
 ### YSE 2023mkt [229 -24] (5 min)
 ### YSE 376	[224 -8] 9 min 					      
 ### YSE 428	[228 -4] 9 min                                        
@@ -90,7 +90,7 @@ defsus_extra_202407XX_12m30s.json [272 -27] (13 min) !!! Super optional, go back
 
 !!! 23:30
 DEBASS/EVERYTHING/2022rfn_P2 [287 -16] (4min) OPTIONAL FILLER
-DECaPSEast [270 -29] 30 min             
+DECaPSEast A+B [270 -29] 30 min             
 ### DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (4min) OPTIONAL FILLER
 YSE 2024eyo [311 -46] (3 min)           ### high priority
 DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
@@ -136,7 +136,7 @@ If not, please skip to next observable field, or wait if too difficult.
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
 
-!!! 06:32:04 (-14 deg twilight)
+!!! 06:32:22 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

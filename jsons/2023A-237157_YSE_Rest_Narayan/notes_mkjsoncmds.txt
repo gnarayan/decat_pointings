@@ -3275,21 +3275,19 @@ git add 240713/*.json
 
 
 mkdir 20240715
-cp 20240713/20240713_obsplan.txt 20240715/20240715_obsplan.txt 
+cp 20240716/20240716_obsplan.txt 20240715/20240715_obsplan.txt 
 subl 20240715/20240715_obsplan.txt
 git add 20240715/20240715_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f i,z  525   -d 240715 
+mkjson_yse_nofilterswitch.py  -f r  525   -d 240715 
 mkjson_yse_nofilterswitch.py  -f z  428 376   -d 240715 
-mkjson_yse_nofilterswitch.py  -f z  531  -d 240715 
-mkjson_yse_nofilterswitch.py  -f g,r  440  544 494  -d 240715 
-mkjson_yse_nofilterswitch.py  -f g,i     393 495 -d 240715 
-mkjson_yse_nofilterswitch.py  -f g,i  296 448  -d 240715 
+mkjson_yse_nofilterswitch.py  -f i  531  -d 240715 
+mkjson_yse_nofilterswitch.py  -f r  440  544 494  -d 240715 
+mkjson_yse_nofilterswitch.py  -f r     393 495 -d 240715 
+mkjson_yse_nofilterswitch.py  -f r  296 448  -d 240715 
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i 2024cgd -d 240715 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240715 -e 1 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f i,z  2024uj -d 240715 -e 150 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low 2020szr 2023vyl -d 240715  -e 30 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf 2022jqg  2024gpq  2021adug  -d 240715 -e 30 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low 2020szr 2023vyl -d 240715  -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf 2022jqg  2024gpq  2021adug  -d 240715 -e 15 -n 1 --sortbyra
 git add 240715
 git add 240715/*.json
 
@@ -3300,9 +3298,9 @@ git add 20240716/20240716_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f i  525   -d 240716 
 ### mkjson_yse_nofilterswitch.py  -f z  428 376   -d 240716 
 mkjson_yse_nofilterswitch.py  -f z  531  -d 240716 
-mkjson_yse_nofilterswitch.py  -f i  440  544 494  -d 240716 
-mkjson_yse_nofilterswitch.py  -f g,r     393 495 -d 240716 
-mkjson_yse_nofilterswitch.py  -f r  296 448  -d 240716 
+mkjson_yse_nofilterswitch.py  -f g  440  544 494  -d 240716 
+mkjson_yse_nofilterswitch.py  -f g     393 495 -d 240716 
+mkjson_yse_nofilterswitch.py  -f g  296 448  -d 240716 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240716 -e 2 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low 2020szr 2023vyl -d 240716  -e 15 -n 1 --sortbyra

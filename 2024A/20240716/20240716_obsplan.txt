@@ -58,8 +58,8 @@ YSE 525 [189 10] (17 min)
 ### Block below Dec<=-30
 ### etale.g.30min.json [160 -60] 30 min       
 ### etale.r.15min.json [160 -60] 15 min    
-etale.i.15min.json [160 -60] 15 min    
-### etale.z.15min.json [160 -60] 15 min           
+### etale.i.15min.json [160 -60] 15 min    
+etale.z.15min.json [160 -60] 15 min           
 ### etale.i.set1.74min.json [160 -60] 74 min  ### you can cut here if needed
 
 !!! 20:22
@@ -90,7 +90,7 @@ defsus_extra_202407XX_12m30s.json [272 -27] (13 min) !!! Super optional, go back
 
 !!! 23:30
 DEBASS/EVERYTHING/2022rfn_P2 [287 -16] (4min) OPTIONAL FILLER
-DECaPSEast [270 -29] 30 min             
+DECaPSEast A+B [270 -29] 30 min             
 ### DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (4min) OPTIONAL FILLER
 YSE 2024eyo [311 -46] (3 min)           ### high priority
 DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY

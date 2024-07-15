@@ -116,12 +116,12 @@ DOSC ?_OMLAApexd.*-dithpos.json [355 12] (66 min)
 
 !!! 02:30
 elais_ddf_seq_A+B [8 -43] (1h)           
-elais_ddf_seq_A+B [8 -43] (1h)   ### skip exposures here if behind!        
+elais_ddf_seq_A+B [8 -43] (1h)   ### skip exposures here if behind!!!!!        
 
 !!! 04:30
 YSE 296 [17 -17] (9 min)              
 YSE 448 [16 3] (9 min) 
-YSE 2024pco [29 13] (4 min)  HIGH PRIORITY                  
+YSE 2024pco [29 13] (4 min)  HIGH PRIORITY!!!                  
 
 !!! 04:55
 X123.json [34, -4] 34 min 

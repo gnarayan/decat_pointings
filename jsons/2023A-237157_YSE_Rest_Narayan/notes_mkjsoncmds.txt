@@ -3286,6 +3286,7 @@ mkjson_yse_nofilterswitch.py  -f r     393 495 -d 240715
 mkjson_yse_nofilterswitch.py  -f r  296 448  -d 240715 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240715 -e 1 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024pco -d 240715 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low 2020szr 2023vyl -d 240715  -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf 2022jqg  2024gpq  2021adug  -d 240715 -e 15 -n 1 --sortbyra
 git add 240715
@@ -3303,6 +3304,7 @@ mkjson_yse_nofilterswitch.py  -f g     393 495 -d 240716
 mkjson_yse_nofilterswitch.py  -f g  296 448  -d 240716 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240716 -e 2 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024pco -d 240716 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low 2020szr 2023vyl -d 240716  -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf 2022jqg  2024gpq  2021adug  -d 240716 -e 15 -n 1 --sortbyra
 git add 240716
@@ -3356,6 +3358,8 @@ mkjson_yse.py  -f r,i hotshit123 -d 220624 -e 150,150 -n 3
 mkjson_yse.py  -f g,r,i,z 415 418 423 474 523 525 575 577  -d 220330 --propid 2022A-193378
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2023A-237157_YSE_Rest_Narayan
+
+YSE_pointings2fieldcenters.py --addSN 2024pco 29.482238 +13.360655 -vv --overw
 
 YSE_pointings2fieldcenters.py --addSN 2021low 176.1927426   20.1262078 -vv --overw
 

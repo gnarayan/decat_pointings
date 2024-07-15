@@ -81,14 +81,14 @@ YSE 531 [230 11] 9 min
 luhman1.json [260 -20] (19 min)
 luhman2.json [260 -20] (19 min)
 luhman3.json [260 -20] (19 min)
-luhman4.json [260 -20] (30 min)
+luhman4.json [260 -20] (30 min)   # skip exposures here if behind!!
 
-!!! 22:13
+!!! 22:11
 defsus_main_202407XX_30m00s.json [264 -29] (33 min)
 defsus_main_202407XX_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
-defsus_extra_202407XX_12m30s.json [272 -27] (13 min) !!! Super optional, go back to anything skipped before doing this
+defsus_extra_202407XX_12m30s.json [272 -27] (13 min) !!! Super optional, skip exposures here if behind!!
 
-!!! 23:30
+!!! 23:26
 DEBASS/EVERYTHING/2022rfn_P2 [287 -16] (4min) OPTIONAL FILLER
 DECaPSEast A+B [270 -29] 30 min             
 ### DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (4min) OPTIONAL FILLER
@@ -96,7 +96,7 @@ YSE 2024eyo [311 -46] (3 min)           ### high priority
 DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2022nim_P2 [299 -15] (4min) OPTIONAL FILLER
 
-!!! 00:15
+!!! 00:11
 YSE 440	[314 -4] 9 min                  
 DEBASS/EVERYTHING/2024pfr_P1 [297 8] (3min) 
 DEBASS/EVERYTHING/2021zfs_P2 [323 5] (4min) OPTIONAL FILLER
@@ -104,23 +104,24 @@ YSE 544 [321 9] 9 min
 YSE 494 [330 3] 9 min 	               
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
 
-!!! 00:54
+!!! 00:50
 YSE 495 [339 5] (9 min)
 YSE 393 [346 -10] (9 min) 
 DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min) HIGH PRIORITY
 
-!!! 01:15
+!!! 01:11
 YSE 2020szr [347 15] (5 min)			 
 YSE 2023vyl [350 17] (5 min)             
 DOSC ?_OMLAApexd.*-dithpos.json [355 12] (66 min)
 
-!!! 02:34
+!!! 02:30
 elais_ddf_seq_A+B [8 -43] (1h)           
-elais_ddf_seq_A+B [8 -43] (1h)           
+elais_ddf_seq_A+B [8 -43] (1h)    ### skip exposures here if behind!        
 
-!!! 04:34
+!!! 04:30
 YSE 296 [17 -17] (9 min)              
 YSE 448 [16 3] (9 min)                  
+YSE 2024pco [29 13] (4 min)  HIGH PRIORITY                  
 
 !!! 04:55
 X123.json [34, -4] 34 min 

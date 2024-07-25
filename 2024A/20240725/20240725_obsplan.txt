@@ -54,6 +54,8 @@ Some fields may be at telescope pointing limit but should be observable
 If not, please skip to next observable field, or wait if too difficult.
 
 !!! 20:01
+DEBASS/EVERYTHING/2024inv_P1 [167 10] (3min)
+DEBASS/EVERYTHING/2024mzx_P1 [164 -5] (3min)
 ### Block below Dec<=-30
 ### etale.g.30min.json [160 -60] 30 min       
 ### etale.r.15min.json [160 -60] 15 min    
@@ -62,6 +64,7 @@ etale.i.15min.json [160 -60] 15 min
 ### etale.i.set1.74min.json [160 -60] 74 min  ### you can cut here if needed
 
 !!! 20:16
+DEBASS/EVERYTHING/2024qat_P1 [208 -34] (3min)
 YSE 2023emq [203 -24] (4 min)
 YSE 2021gyh [196 -3] (4 min)
 YSE 2021kxf [204 1] (4 min)
@@ -85,17 +88,13 @@ defsus_main_202407XX_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main 
 defsus_extra_202407XX_12m30s.json [272 -27] (13 min) !!! Super optional, skip exposures here if behind!!
 
 !!! 00:15
-DEBASS/EVERYTHING/2022rfn_P2 [287 -16] (4min) OPTIONAL FILLER
 DECaPSEast A+B [270 -29] 30 min             
-### DEBASS/EVERYTHING/2022wwt_P2 [267 -60] (4min) OPTIONAL FILLER
 YSE 2024eyo [311 -46] (3 min)           ### high priority
 DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
-DEBASS/EVERYTHING/2022nim_P2 [299 -15] (4min) OPTIONAL FILLER
 
 !!! 01:00
 YSE 440	[314 -4] 17 min                  
 DEBASS/EVERYTHING/2024pfr_P1 [297 8] (3min) 
-DEBASS/EVERYTHING/2021zfs_P2 [323 5] (4min) OPTIONAL FILLER
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	               
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
@@ -113,15 +112,19 @@ DOSC ?_OMLAApexd.*-dithpos.json [355 12] (55 min)
 !!! 03:25
 elais_ddf_seq_A+B [8 -43] (1h)           
 elais_ddf_seq_A+B [8 -43] (1h)    ### skip exposures here if behind!        
+DEBASS/EVERYTHING/2024nwu_P1 [16 -66] (3min)
 
 !!! 05:25
 YSE 296 [17 -17] (9 min)              
 ### YSE 448 [16 3] (9 min)       ### too close to the Moon!                 
 YSE 2024pco [29 13] (3 min)  HIGH PRIORITY                  
+DEBASS/EVERYTHING/2024phe_P1 [38 14] (3min)
 
 !!! 05:36
 ### X123.json [34, -4] 34 min 
+DEBASS/EVERYTHING/2024pbe_P1 [42 -1] (3min)
 X123_moon.json [34, -4] 23 min 
+DEBASS/EVERYTHING/2024ptp_P1 [40 -10] (3min)
 C3 [52, -28] 11 min 
 YSE 253 [67, -26] 17 min             ### skip exposures here if behind!  
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!

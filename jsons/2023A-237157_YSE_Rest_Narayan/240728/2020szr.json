@@ -2,41 +2,41 @@
 {
 "count": 1,
 "expType": "object",
-"object": "2023emq",
+"object": "2020szr",
 "filter": "g",
-"expTime": 20,
-"RA": "203.5895",
-"dec": "-23.6439",
+"expTime": 15,
+"RA": "347.3857",
+"dec": "15.7463",
 "propid": "2023A-237157"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2023emq",
+"object": "2020szr",
 "filter": "r",
-"expTime": 20,
-"RA": "203.5895",
-"dec": "-23.6439",
+"expTime": 15,
+"RA": "347.3857",
+"dec": "15.7463",
 "propid": "2023A-237157"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2023emq",
+"object": "2020szr",
 "filter": "i",
-"expTime": 20,
-"RA": "203.5895",
-"dec": "-23.6439",
+"expTime": 15,
+"RA": "347.3857",
+"dec": "15.7463",
 "propid": "2023A-237157"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2023emq",
+"object": "2020szr",
 "filter": "z",
-"expTime": 20,
-"RA": "203.5895",
-"dec": "-23.6439",
+"expTime": 15,
+"RA": "347.3857",
+"dec": "15.7463",
 "propid": "2023A-237157"
 }
 ]

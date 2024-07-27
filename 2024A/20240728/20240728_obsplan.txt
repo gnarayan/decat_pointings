@@ -1,0 +1,97 @@
+MOON ILLUMINATION: 0.38
+UT -16 deg twilight: 2024-07-28T23:21:55.814 2024-07-29T10:17:19.622
+UT -15 deg twilight: 2024-07-28T23:17:10.994 2024-07-29T10:22:04.181
+UT -14 deg twilight: 2024-07-28T23:12:25.384 2024-07-29T10:26:49.352
+UT -12 deg twilight: 2024-07-28T23:02:52.327 2024-07-29T10:36:21.659
+UT -10 deg twilight: 2024-07-28T22:53:16.374 2024-07-29T10:45:56.809
+LOCAL -16 deg twilight: 07/28/2024,   19:21:55   06:17:19
+LOCAL -15 deg twilight: 07/28/2024,   19:17:10   06:22:04
+LOCAL -14 deg twilight: 07/28/2024,   19:12:25   06:26:49
+LOCAL -12 deg twilight: 07/28/2024,   19:02:52   06:36:21
+LOCAL -10 deg twilight: 07/28/2024,   18:53:16   06:45:56
+LOCAL night MIDPOINT: 07/29/2024,   00:49:37
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT   ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! after pointing ~18:55 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+!!! 19:12:25
+kleyna/2024-07/Kleyna2024-07-28_sunset.json (50.0 minutes) 
+PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
+Exactly 4 passes should be possible in 50m, from empirical 83s time per field
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.
+
+!!! 20:03
+DEBASS/EVERYTHING/2024inv_P1 [167 10] (3min)
+DEBASS/EVERYTHING/2024mzx_P1 [164 -5] (3min)
+### Block below Dec<=-30
+### etale.g.30min.json [160 -60] 30 min       
+etale.r.15min.json [160 -60] 15 min    
+### etale.i.15min.json [160 -60] 15 min    
+### etale.z.15min.json [160 -60] 15 min           
+### etale.i.set1.74min.json [160 -60] 74 min  ### you can cut here if needed
+
+!!! 20:19
+DEBASS/EVERYTHING/2024qat_P1 [208 -34] (3min)
+YSE 2023emq [203 -24] (4 min)
+YSE 2021gyh [196 -3] (4 min)
+YSE 2021kxf [204 1] (4 min)
+YSE 376	[224 -8] 17 min 					      
+YSE 428	[228 -4] 17 min                                        
+
+!!! 21:09
+YSE 531 [230 11] 17 min                		  
+YSE 2022jqg [235 22] (5 min)
+YSE 2022jut [241 17] (5 min)
+
+!!! 21:36
+luhman1.json [260 -20] (19 min)
+luhman2.json [260 -20] (19 min)
+luhman3.json [260 -20] (19 min)
+
+!!! 22:35
+defsus_main_202407XX_30m00s.json [264 -29] (33 min)
+defsus_main_202407XX_30m00s.json [264 -29] (30 min)   !!!! Yes, repeat the main script again
+
+!!! 23:38
+DECaPSEast A+B [270 -29] 30 min             
+YSE 2024eyo [311 -46] (3 min)           ### skip this if behind!
+DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
+
+!!! 00:15
+YSE 440	[314 -4] 17 min                  
+YSE 544 [321 9] 17 min                  ### skip exposures here if behind! 
+
+!!! end of half night: 00:49:37

@@ -46,12 +46,15 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 19:13:54
+
+!!! -14deg
+DEBASS/EVERYTHING/2024muv_P1 [191 -9] (3min) HIGH PRIORITY. DO THIS FIRST. Can Repeat until 19:20.
+
+!!! 19:20
 Brucker script  !!! HIGH PRIORITY! MAKE SURE THIS GETS FINISHED!
 
 !!! 21:13
-DEBASS/EVERYTHING/2024qat_P1 [208 -34] (3min)
-YSE 376	[224 -8] 9 min 					      
+DEBASS/EVERYTHING/2024qat_P1 [208 -34] (3min)YSE 376	[224 -8] 9 min 					      
 YSE 428	[228 -4] 9 min                                        
 
 !!! 21:34

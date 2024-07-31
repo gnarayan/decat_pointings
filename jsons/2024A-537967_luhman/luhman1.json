@@ -1,5 +1,25 @@
 [
 {
+"object": "pos91a",
+"expType": "object",
+"filter": "r",
+"RA": 253.531,
+"dec": -28.600,
+"expTime": 150,
+"count": 1,
+"propid": "2024A-537967"
+},
+{
+"object": "pos91b",
+"expType": "object",
+"filter": "r",
+"deltaRA": "+70.0",
+"deltaDEC": "+70.0",
+"expTime": 150,
+"count": 1,
+"propid": "2024A-537967"
+},
+{
 "object": "pos77a",
 "expType": "object",
 "filter": "r",

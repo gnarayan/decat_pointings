@@ -1,6 +1,7 @@
 2024ptp_P1 [40 -10]
 2024qre_P1 [82 -22]
 2024qat_P1 [208 -34]
+2024qpt_P1 [214 -26]
 2024nug_P1 [298 -31]
 2024pfr_P1 [297 8]
 2024mze_P1 [340 -66]
@@ -67,5 +68,5 @@
 2021kbj_P3 [237 24]
 2022rld_P3 [352 -8]
 
-EVERYTHING	358.8 minutes
-EVERYTHING_P1	32.6 minutes
+EVERYTHING	361.9 minutes
+EVERYTHING_P1	36.1 minutes

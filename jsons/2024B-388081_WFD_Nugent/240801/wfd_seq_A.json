@@ -146,7 +146,7 @@
   "seqid": "WFD-SEQ-A", 
   "expType": "object", 
   "object": "WFD-15", 
-  "RA": 34.0, 
+  "RA": 33.5, 
   "dec": -3.0, 
   "filter": "r", 
   "expTime": 90,

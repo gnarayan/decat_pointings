@@ -3379,6 +3379,7 @@ git add 20240803/20240803_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f g  525   -d 240803 
 mkjson_yse_nofilterswitch.py  -f g,r,i 428 376   -d 240803 
 mkjson_yse_nofilterswitch.py  -f g,r,i  531  -d 240803 
+mkjson_yse_nofilterswitch.py  -f g,r,i   440 -d 240803 -s extra_i
 mkjson_yse_nofilterswitch.py  -f g,r  440  544 494  -d 240803 
 mkjson_yse_nofilterswitch.py  -f g     393 495  -d 240803 
 mkjson_yse_nofilterswitch.py  -f g,r  296 448  -d 240803 
@@ -3392,6 +3393,27 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023emq  -d 240803 -e 20 -n 1 --sortbyra
 git add 240803
 git add 240803/*.json
+
+mkdir 20240806
+cp 20240803/20240803_obsplan.txt 20240806/20240806_obsplan.txt 
+subl 20240806/20240806_obsplan.txt
+git add 20240806/20240806_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r 428 376   -d 240806 
+mkjson_yse_nofilterswitch.py  -f g,r  531  -d 240806 
+mkjson_yse_nofilterswitch.py  -f g,r   440 -d 240806 
+mkjson_yse_nofilterswitch.py  -f g    544 494  -d 240806 
+mkjson_yse_nofilterswitch.py  -f g     393 495  -d 240806 
+mkjson_yse_nofilterswitch.py  -f g,r  296 448  -d 240806 
+mkjson_yse_nofilterswitch.py  -f g,r  253 -d 240806 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240806 -e 2 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2024pco -d 240806 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low  -d 240806  -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2020szr 2023vyl  -d 240806  -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021dha 2021gyh 2021fna 2022jut 2021kxf 2022jqg  2024gpq  2021adug  -d 240806 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023emq  -d 240806 -e 20 -n 1 --sortbyra
+git add 240806
+git add 240806/*.json
 
 
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  

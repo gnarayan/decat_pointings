@@ -57,61 +57,59 @@ DEBASS/EVERYTHING/2024qat_P1 [208 -34] (3min) HIGH PRIORITY
 YSE 2022jqg [235 22] (5 min)
 YSE 2022jut [241 17] (5 min)      
 YSE 2023mkt [229 -24] (5 min)
+
+!!! 19:50
 YSE 376	[224 -8] 17 min 					      
 YSE 428	[228 -4] 17 min                                        
 
-!!! 20:00
-YSE 531 [230 11] 25 min 
-YSE 2024pxl [263 7] (3 min)              		  
+!!! 20:24
+YSE 531 [230 11] 25 min           
+YSE 2024pxl [263 7] (3 min)              	### high priority 
 DEBASS/EVERYTHING/2021koq_P2 [273 6] (4min) LOW PRIORITY
 DEBASS/EVERYTHING/2022itd_P2 [273 11] (4min) OPTIONAL FILLER
 DEBASS/EVERYTHING/2022kkg_P2 [305 20] (4min) LOW PRIORITY
 DEBASS/EVERYTHING/2024pfr_P1 [297 8] (3min) HIGH PRIORITY
 YSE 2024eyo [311 -46] (3 min)           
 
-!!! 
+!!! 21:10
 defsus_main_30m00s.json [264 -29] (33 min)    !!! Optional extra time target!! skip observations here if you are behind!
 DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 
-!!! 21:58
+!!! 21:46
 YSE 440	[314 -4] 17 min                  
 
-!!! 22:15
+!!! 22:04
 RRL_Medina [328 -22] (78 min)  2024B-252974_allfields_r_LastUpdate.json
 RRL_Medina [328 -22] (77 min)  2024B-252974_allfields_i_LastUpdate.json
 
-!!! 00:47
+!!! 00:40
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	               
 
-!!! 01:22
-DEBASS/EVERYTHING/2021zax_P2 [333 13] (4min) OPTIONAL FILLER
-YSE 495 [339 5] (9 min)
-DEBASS/EVERYTHING/2021yrz_P2 [338 19] (4min) OPTIONAL FILLER
+!!! 01:14
+YSE 495 [339 5] (17 min)            
 DEBASS/EVERYTHING/2022mhe_P2 [352 8] (4min) LOW PRIORITY
 DEBASS/EVERYTHING/2022pdq_P2 [355 -9] (4min) LOW PRIORITY
-YSE 393 [346 -10] (9 min)
+YSE 393 [346 -10] (17 min)
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
 
-!!! 02:01
+!!! 01:52
 DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min) HIGH PRIORITY
 E1E2.json [8 -43] (30 min)
-### elais_ddf_seq_A+B [8 -43] (1h)           
-### elais_ddf_seq_A+B [8 -43] (1h)          
 
-!!! 02:35
-YSE 296 [17 -17] (17 min)              
-YSE 448 [16 3] (17 min)                   
+!!! 02:25
+YSE 296 [17 -17] (9 min)              
+YSE 448 [16 3] (9 min)                   
 
-!!! 03:10
-WFD [34 -3] 105 min
+!!! 02:43
+decat_pointings/jsons/2024B-388081_WFD_Nugent/240801/wfd_seq_A.json [34 -3] 112 min  
 
-!!! 04:48
+!!! 04:35
 X123.json [34, -4] 34 min 
-DEBASS/EVERYTHING/2024ptp_P1 [40 -10] (3min) HIGH PRIORITY
 ### X123_moon.json [34, -4] 23 min 
+DEBASS/EVERYTHING/2024ptp_P1 [40 -10] (3min) HIGH PRIORITY
 
-!!! 05:26
+!!! 05:12
 S1S2.json [42,0] 22 min
 C3 [52, -28] 11 min 
 YSE 253 [67, -26] 17 min  
@@ -119,7 +117,7 @@ DEBASS/EVERYTHING/2024qre_P1 [82 -22] (3min) HIGH PRIORITY
 Shen SCVZ [90 -66] 13 min 
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
-!!! 06:23:03 (-14 deg twilight)
+!!! 06:18:33 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

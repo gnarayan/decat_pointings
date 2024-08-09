@@ -3423,7 +3423,7 @@ mkjson_yse_nofilterswitch.py  -f i,z 428 376   -d 240809
 mkjson_yse_nofilterswitch.py  -f r,i,z  531  -d 240809 
 mkjson_yse_nofilterswitch.py  -f g,r   440 -d 240809 
 mkjson_yse_nofilterswitch.py  -f g,r    544 494  -d 240809 
-mkjson_yse_nofilterswitch.py  -f g     393 495  -d 240809 
+mkjson_yse_nofilterswitch.py  -f g,r     393 495  -d 240809 
 mkjson_yse_nofilterswitch.py  -f g  296 448  -d 240809 
 mkjson_yse_nofilterswitch.py  -f g,r  253 -d 240809 
 #

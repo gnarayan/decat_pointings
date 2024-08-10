@@ -1,0 +1,178 @@
+[
+ {
+  "expType": "object",
+  "RA": "21:40:09.75692",
+  "dec": "-17:57:12.8263",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_1"
+ },
+ {
+  "expType": "object",
+  "RA": "21:41:01.35766",
+  "dec": "-19:28:46.6141",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_2"
+ },
+ {
+  "expType": "object",
+  "RA": "21:42:33.77558",
+  "dec": "-22:49:57.1683",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_3"
+ },
+ {
+  "expType": "object",
+  "RA": "21:43:35.55984",
+  "dec": "-24:43:02.6152",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_4"
+ },
+ {
+  "expType": "object",
+  "RA": "21:44:48.23304",
+  "dec": "-21:00:26.6100",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_5"
+ },
+ {
+  "expType": "object",
+  "RA": "21:47:46.19075",
+  "dec": "-19:58:26.5582",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_6"
+ },
+ {
+  "expType": "object",
+  "RA": "21:50:20.88352",
+  "dec": "-22:17:00.6241",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_7"
+ },
+ {
+  "expType": "object",
+  "RA": "21:50:12.01296",
+  "dec": "-24:02:44.1815",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_8"
+ },
+ {
+  "expType": "object",
+  "RA": "21:49:26.02048",
+  "dec": "-25:33:10.5079",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_9"
+ },
+ {
+  "expType": "object",
+  "RA": "21:54:19.03249",
+  "dec": "-27:03:53.0182",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_10"
+ },
+ {
+  "expType": "object",
+  "RA": "21:56:44.15361",
+  "dec": "-28:34:37.2097",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_11"
+ },
+ {
+  "expType": "object",
+  "RA": "22:04:08.53385",
+  "dec": "-28:02:02.2452",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_12"
+ },
+ {
+  "expType": "object",
+  "RA": "22:02:04.67776",
+  "dec": "-26:26:20.7075",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_13"
+ },
+ {
+  "expType": "object",
+  "RA": "21:58:04.74447",
+  "dec": "-24:41:30.5257",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_14"
+ },
+ {
+  "expType": "object",
+  "RA": "21:57:20.77618",
+  "dec": "-22:33:18.8049",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_15"
+ },
+ {
+  "expType": "object",
+  "RA": "21:54:43.67116",
+  "dec": "-20:28:36.2996",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_16"
+ },
+ {
+  "expType": "object",
+  "RA": "21:54:18.10554",
+  "dec": "-18:36:38.8547",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_17"
+ },
+ {
+  "expType": "object",
+  "RA": "21:51:29.24068",
+  "dec": "-16:41:37.9704",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_18"
+ },
+ {
+  "expType": "object",
+  "RA": "21:49:35.49552",
+  "dec": "-14:53:12.3282",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_19"
+ },
+ {
+  "expType": "object",
+  "RA": "21:48:17.18786",
+  "dec": "-18:08:55.8828",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_20"
+ },
+ {
+  "expType": "object",
+  "RA": "21:42:40.84134",
+  "dec": "-16:28:26.7714",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_21"
+ },
+ {
+  "expType": "object",
+  "RA": "21:41:11.82307",
+  "dec": "-14:47:51.0017",
+  "filter": "r",
+  "expTime": 180,
+  "object": "Field_22"
+ }
+]

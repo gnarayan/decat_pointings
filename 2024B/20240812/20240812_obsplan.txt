@@ -53,7 +53,6 @@ Script will finish on its own or at -14 deg twilight.
 ### YSE 2023emq [203 -24] (4 min) 
 etale.i.15min.json [160 -60] 15 min           HIGH PRIORITY
 DEBASS/EVERYTHING/2024qpt_P1 [214 -26] (3min) HIGH PRIORITY
-DEBASS/EVERYTHING/2024qat_P1 [208 -34] (3min) HIGH PRIORITY  
 YSE 2022jqg [235 22] (5 min)
 YSE 2022jut [241 17] (5 min)      
 ### YSE 2023mkt [229 -24] (5 min)
@@ -65,10 +64,6 @@ YSE 428	[228 -4] 5 min
 !!! 20:05
 YSE 531 [230 11] 17 min           
 YSE 2024pxl [263 7] (3 min)              	### high priority 
-DEBASS/EVERYTHING/2021koq_P2 [273 6] (4min) LOW PRIORITY
-DEBASS/EVERYTHING/2022itd_P2 [273 11] (4min) OPTIONAL FILLER
-DEBASS/EVERYTHING/2022kkg_P2 [305 20] (4min) LOW PRIORITY
-DEBASS/EVERYTHING/2024pfr_P1 [297 8] (3min) HIGH PRIORITY
 YSE 2024eyo [311 -46] (3 min)           
 
 !!! 20:44
@@ -83,15 +78,17 @@ RRL_Medina [328 -22] (78 min)  2024B-252974_allfields_r_LastUpdate.json
 RRL_Medina [328 -22] (77 min)  2024B-252974_allfields_i_LastUpdate.json    #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
 
 !!! 00:00
+DEBASS/EVERYTHING/2024rqi_P1 [341 -17] (3min)
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	               
+DEBASS/EVERYTHING/2024qzi_P1 [335 3] (3min)
+DEBASS/EVERYTHING/2024rsl_P1 [337 9] (3min)
 
 !!! 00:35
 YSE 495 [339 5] (17 min)            
-DEBASS/EVERYTHING/2022mhe_P2 [352 8] (4min) LOW PRIORITY
-DEBASS/EVERYTHING/2022pdq_P2 [355 -9] (4min) LOW PRIORITY
-YSE 393 [346 -10] (17 min)                     !!! Skip exposures here if behind schedule!
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
+YSE 393 [346 -10] (17 min)                     !!! Skip exposures here if behind schedule!
+DEBASS/EVERYTHING/2024rlh_P1 [356 -19] (3min)
 
 !!! 01:20
 DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min) HIGH PRIORITY
@@ -107,10 +104,10 @@ decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 113 
 !!! 04:22
 X123.json [34, -4] 34 min 
 ### X123_moon.json [34, -4] 23 min 
-DEBASS/EVERYTHING/2024ptp_P1 [40 -10] (3min) HIGH PRIORITY
 
 !!! 05:00
 S1S2.json [42,0] 22 min
+DEBASS/EVERYTHING/2024rpc_P1 [58 13] (3min)
 C3 [52, -28] 11 min 
 YSE 253 [67, -26] 17 min                      #### cut exposures here if behind schedule! 
 DEBASS/EVERYTHING/2024qre_P1 [82 -22] (3min) HIGH PRIORITY             

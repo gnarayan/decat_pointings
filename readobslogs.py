@@ -22,6 +22,7 @@ def run(verbose=True):
     os.system('rm 2023A/*/*~ >& dump')
     os.system('rm 2023B/*/*~ >& dump')
     os.system('rm 2024A/*/*~ >& dump')
+    os.system('rm 2024B/*/*~ >& dump')
 
     ysedict = {}
     ysedict2 = {}

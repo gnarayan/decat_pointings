@@ -57,7 +57,7 @@ YSE 2022jqg [235 22] (5 min)
 YSE 2022jut [241 17] (5 min)      
 ### YSE 2023mkt [229 -24] (5 min)
 
-!!! 19:51
+!!! 19:50
 YSE 376	[224 -8] 9 min 					      
 YSE 428	[228 -4] 5 min                                        
 
@@ -66,15 +66,15 @@ YSE 531 [230 11] 17 min
 YSE 2024pxl [263 7] (3 min)              	### high priority 
 YSE 2024eyo [311 -46] (3 min)           
 
-!!! 20:44
+!!! 20:29
 defsus_main_30m00s.json [264 -29] (33 min)    !!! Optional extra time target!! skip observations here if you are behind!
 DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 
-!!! 21:18
+!!! 21:05
 YSE 440	[314 -4] 17 min                  
 DEBASS/EVERYTHING/2023ols_P2 [301 1] (5min) CAN DROP IF NECESSARY
 
-!!! 21:25
+!!! 21:27
 RRL_Medina [328 -22] (78 min)  2024B-252974_allfields_r_LastUpdate.json
 RRL_Medina [328 -22] (77 min)  2024B-252974_allfields_i_LastUpdate.json    #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
 
@@ -87,31 +87,34 @@ YSE 494 [330 3] 17 min
 DEBASS/EVERYTHING/2024qzi_P1 [335 3] (3min)
 DEBASS/EVERYTHING/2024rsl_P1 [337 9] (3min)
 
-!!! 00:35
-YSE 495 [339 5] (17 min)            
+!!! 00:55
+YSE 495 [339 5] (17 min)     
+2024rqx [340 -4] (4 min)       
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
 YSE 393 [346 -10] (17 min)                     !!! Skip exposures here if behind schedule!
 DEBASS/EVERYTHING/2024rlh_P1 [356 -19] (3min)
 
-!!! 01:20
+!!! 01:40
 DEBASS/EVERYTHING/2024mze_P1 [340 -66] (3min) HIGH PRIORITY
 E1E2.json [8 -43] (30 min)
 
-!!! 01:54
+!!! 02:13
 YSE 296 [17 -17] (17 min)              
-YSE 448 [16 3] (17 min)                   
+YSE 448 [16 3] (9 min)                   
 
-!!! 02:29
+!!! 02:40
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 113 min  #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!! 
 
-!!! 04:22
+!!! 04:33
 X123.json [34, -4] 34 min 
 ### X123_moon.json [34, -4] 23 min 
 
-!!! 05:00
+!!! 05:07
 S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024rpc_P1 [58 13] (3min)
 C3 [52, -28] 11 min 
+
+!!! 05:43
 YSE 253 [67, -26] 17 min                      #### cut exposures here if behind schedule! 
 DEBASS/EVERYTHING/2024qre_P1 [82 -22] (3min) HIGH PRIORITY             
 Shen SCVZ [90 -66] 13 min 

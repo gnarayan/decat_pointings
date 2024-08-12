@@ -72,6 +72,7 @@ DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 
 !!! 21:18
 YSE 440	[314 -4] 17 min                  
+DEBASS/EVERYTHING/2023ols_P2 [301 1] (5min) CAN DROP IF NECESSARY
 
 !!! 21:25
 RRL_Medina [328 -22] (78 min)  2024B-252974_allfields_r_LastUpdate.json
@@ -79,6 +80,8 @@ RRL_Medina [328 -22] (77 min)  2024B-252974_allfields_i_LastUpdate.json    #### 
 
 !!! 00:00
 DEBASS/EVERYTHING/2024rqi_P1 [341 -17] (3min)
+DEBASS/EVERYTHING/2023uda_P2 [306 9] (5min) CAN DROP IF NECESSARY
+DEBASS/EVERYTHING/2023opn_P2 [311 12] (5min) CAN DROP IF NECESSARY
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	               
 DEBASS/EVERYTHING/2024qzi_P1 [335 3] (3min)

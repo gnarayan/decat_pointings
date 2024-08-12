@@ -1,3 +1,4 @@
+2024rpc_P1 [58 13]
 2024qre_P1 [82 -22]
 2024qpt_P1 [214 -26]
 2024nug_P1 [298 -31]
@@ -5,6 +6,7 @@
 2024rqi_P1 [341 -17]
 2024nbo_P1 [338 -9]
 2024qzi_P1 [335 3]
+2024rsl_P1 [337 9]
 2024rlh_P1 [356 -19]
 
 2023vpo_P2 [7 13]
@@ -68,5 +70,5 @@
 2024pfr_P3 [297 8]
 2022rld_P3 [352 -8]
 
-EVERYTHING	360.8 minutes
-EVERYTHING_P1	33.3 minutes
+EVERYTHING	366.4 minutes
+EVERYTHING_P1	39.2 minutes

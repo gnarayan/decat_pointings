@@ -50,8 +50,6 @@
 
 2024qnk_P3 [7 16]
 2023sqs_P3 [29 14]
-2024pbe_P3 [42 -1]
-2024phe_P3 [38 14]
 2023olz_P3 [54 15]
 2022whp_P3 [100 -22]
 2024inv_P3 [167 10]
@@ -68,5 +66,5 @@
 2021kbj_P3 [237 24]
 2022rld_P3 [352 -8]
 
-EVERYTHING	361.9 minutes
-EVERYTHING_P1	36.1 minutes
+EVERYTHING	357.6 minutes
+EVERYTHING_P1	38.1 minutes

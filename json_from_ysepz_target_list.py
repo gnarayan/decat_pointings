@@ -85,7 +85,7 @@ for infile in infiles:
         if line[0] == '#': continue
         outfile.write(line)
     outfile.close()
-    df = pd.read_csv(outfilep,delim_whitespace=True)
+    df = pd.read_csv(outfilep,delim_whitespace=True, error_bad_lines=False)
     df = parse_infile(df)
     
     fieldra,fielddec = gs.get_field_center_for_target_on_specific_ccd(df['candRA'],df['candDEC'],df['ccd'])

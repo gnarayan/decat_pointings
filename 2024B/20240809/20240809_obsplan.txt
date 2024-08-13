@@ -90,7 +90,7 @@ YSE 494 [330 3] 17 min
 YSE 495 [339 5] (17 min)            
 DEBASS/EVERYTHING/2022mhe_P2 [352 8] (4min) LOW PRIORITY
 DEBASS/EVERYTHING/2022pdq_P2 [355 -9] (4min) LOW PRIORITY
-YSE 393 [346 -10] (17 min)
+YSE 393 [346 -10] (17 min)                     !!! Skip exposures here if behind schedule!
 DEBASS/EVERYTHING/2024nbo_P1 [338 -9] (3min) HIGH PRIORITY
 
 !!! 01:52

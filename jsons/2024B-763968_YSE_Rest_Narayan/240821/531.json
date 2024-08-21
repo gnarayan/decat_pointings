@@ -1,0 +1,122 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "531.A.2021jvs",
+"filter": "g",
+"expTime": 50,
+"RA": "223.7514",
+"dec": "6.6915",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.B.a",
+"filter": "g",
+"expTime": 50,
+"RA": "227.4973",
+"dec": "13.2952",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.C.a",
+"filter": "g",
+"expTime": 50,
+"RA": "230.6623",
+"dec": "10.1964",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.D.a",
+"filter": "g",
+"expTime": 50,
+"RA": "230.6636",
+"dec": "13.2952",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.E.a",
+"filter": "g",
+"expTime": 50,
+"RA": "234.9752",
+"dec": "10.1783",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.F.a",
+"filter": "g",
+"expTime": 50,
+"RA": "233.8300",
+"dec": "13.2952",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.A.2021jvs",
+"filter": "r",
+"expTime": 50,
+"RA": "223.7514",
+"dec": "6.6915",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.B.a",
+"filter": "r",
+"expTime": 50,
+"RA": "227.4973",
+"dec": "13.2952",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.C.a",
+"filter": "r",
+"expTime": 50,
+"RA": "230.6623",
+"dec": "10.1964",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.D.a",
+"filter": "r",
+"expTime": 50,
+"RA": "230.6636",
+"dec": "13.2952",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.E.a",
+"filter": "r",
+"expTime": 50,
+"RA": "234.9752",
+"dec": "10.1783",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "531.F.a",
+"filter": "r",
+"expTime": 50,
+"RA": "233.8300",
+"dec": "13.2952",
+"propid": "2024B-763968"
+}
+]

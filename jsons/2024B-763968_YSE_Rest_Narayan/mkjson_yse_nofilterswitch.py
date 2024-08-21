@@ -34,18 +34,18 @@ def rmfile(filename,raiseError=1,gzip=False):
                 return(2)
     return(0)
 
-
+ 
 class mkjsonclass(txttableclass):
     def __init__(self):
         txttableclass.__init__(self)
-        self.jsonscripttemplate=['"count": 1',
-                                 '"expType": "object"',
-                                 '"object": "XXX_OBJECT_XXX"',
-                                 '"filter": "XXX_FILTER_XXX"',
+        self.jsonscripttemplate=['"count": 1', 
+                                 '"expType": "object"',  
+                                 '"object": "XXX_OBJECT_XXX"', 
+                                 '"filter": "XXX_FILTER_XXX"', 
                                  '"expTime": XXX_EXPTIME_XXX']
 
         self.setdither1()
-
+        
         # readout time in seconds, used to estimate the time for finishing the script
         self.readouttime_sec = 30
 
@@ -55,7 +55,7 @@ class mkjsonclass(txttableclass):
         self.racol = 'ra'
         self.deccol = 'dec'
         self.pointingcol = 'pointing'
-
+        
         self.horizons = [16,15,14,12,10]
 
 
@@ -106,7 +106,7 @@ class mkjsonclass(txttableclass):
                 sys.exit(0)
 
             self.dither[idither]=['"deltaDEC": "%s"' % (dither[1]),'"deltaRA": "%s"' % (dither[0])]
-
+            
 
     def loadfile(self,filename):
         if not os.path.isfile(filename): raise RuntimeError('file %s does nto exist!' % filename)
@@ -116,7 +116,7 @@ class mkjsonclass(txttableclass):
             data = open(filename,'r').readlines()
             print('No header in file %s? usind first line: %s' % (filename,data[0]))
             self.parsetable(data[0],data[1:])
-
+           
         if not(self.racol in self.cols):
             foundflag=False
             for ra in self.racollist:
@@ -124,7 +124,7 @@ class mkjsonclass(txttableclass):
                     self.racol=ra
                     foundflag=True
             if not foundflag: raise RuntimeError('Could not find RA column from %s in header columns %s' % (','.join(self.racollist),','.join(self.cols)))
-
+ 
         if not(self.deccol in self.cols):
             foundflag=False
             for dec in self.deccollist:
@@ -132,7 +132,7 @@ class mkjsonclass(txttableclass):
                     self.deccol=dec
                     foundflag=True
             if not foundflag: raise RuntimeError('Could not find Dec column from %s in header columns %s' % (','.join(self.deccollist),','.join(self.cols)))
-
+         
         if not(self.pointingcol in self.cols):
             foundflag=False
             for pointing in self.pointingcollist:
@@ -140,7 +140,7 @@ class mkjsonclass(txttableclass):
                     self.pointingcol=pointing
                     foundflag=True
             if not foundflag: raise RuntimeError('Could not find pointing column from %s in header columns %s' % (','.join(self.pointingcollist),','.join(self.cols)))
-
+    
         self.configcols([self.pointingcol],'s','%s',visible=1)
         for key in self.allrowkeys:
             self.setentry(key,self.racol,sex2deg(self.getentry(key,self.racol),ra=True))
@@ -171,7 +171,7 @@ class mkjsonclass(txttableclass):
                           help='base exposure times of single dither. If comma-separated list, then corresponds to filters (default=%default)')
         parser.add_option('-f','--filter'  , default='r' , type="string",
                           help='filters, comma-separated list (default=%default)')
-        parser.add_option('--propid'  , default='2023A-237157' , type="string",
+        parser.add_option('--propid'  , default='2024B-763968' , type="string",
                           help='proposal ID (default=%default)')
         parser.add_option('-n','--Ndithers'  , default=1 , type="int",
                           help='base number of dithers (default=%default)')
@@ -185,7 +185,9 @@ class mkjsonclass(txttableclass):
 #                          help='Nstars value for which exptime gets 1/3 (default=%default)')
         parser.add_option('--pointings'  , default=None , type="string",
                           help='comma-separated list of pointings (default=%default)')
-
+        parser.add_option('--sortbyra'  , default=False , action="store_true",
+                          help='sort the output table by RA')
+        
         parser.add_option('--d1'  , default=None , nargs=2, type="string",
                           help='1st dither in RA and DEC direction (default=%default)')
         parser.add_option('-r','--rectangledither',default=None , type="int",
@@ -232,7 +234,7 @@ class mkjsonclass(txttableclass):
             if dithercounter==0:
                 cmds.extend(self.dither[dithercounter])
             else:
-                cmds.extend(['"deltaDEC": "S0.000000"','"deltaRA": "E0.000000"'])
+                cmds.extend(['"deltaDEC": "S0.000000"','"deltaRA": "E0.000000"'])            
         cmds.append('"propid": "%s"' % self.options.propid)
         cmds = self.replace_placeholders(cmds,key,exptime=exptime,camerafilter=camerafilter)
         jsonscript = '{\n' + ',\n'.join(cmds)+ '\n}'
@@ -247,13 +249,13 @@ class mkjsonclass(txttableclass):
         ditherfactor = 1
         if self.options.N2!=None and self.getentry(key,'Nstars') and self.getentry(key,'Nstars')>self.options.N2:
             #exptime= int(exptime/3)
-            ditherfactor = 3
+            ditherfactor = 3 
         elif self.options.N1!=None and self.getentry(key,'Nstars') and self.getentry(key,'Nstars')>self.options.N1:
             #exptime= int(exptime/2)
             ditherfactor = 2
-
+        
         Ndithers = self.options.Ndithers*ditherfactor
-
+            
 
         t = 0.0
         for n in range(Ndithers):
@@ -263,7 +265,7 @@ class mkjsonclass(txttableclass):
                 else:
                     exptime = exptimes[0]
                 exptime=int(exptime/ditherfactor)
-                camerafilter=filters[i]
+                camerafilter=filters[i] 
                 print('pointing %s, #%2d, exptime=%4d filter:%s' % (self.getentry(key,self.pointingcol),n+1,exptime,camerafilter))
                 exposures4object.append(self.mkjsonscript4exposure(key,dithercounter=n,exptime=exptime,camerafilter=camerafilter,changepositionflag=(i==0)))
                 t += (exptime+self.readouttime_sec)
@@ -271,10 +273,10 @@ class mkjsonclass(txttableclass):
                     print('pointing %s, #%2d, exptime=%4d filter:%s' % (self.getentry(key,self.pointingcol),n+1,exptime,camerafilter))
                     exposures4object.append(self.mkjsonscript4exposure(key,dithercounter=n,exptime=exptime,camerafilter=camerafilter,changepositionflag=False))
                     t += (exptime+self.readouttime_sec)
-
+                    
         return(exposures4object,t)
 
-    def mkjsonscript4all(self,targets,combineFlag=False,outrootdir=None,outsuffix=None,outsubdir=None,repeatfilters=[]):
+    def mkjsonscript4all(self,targets,combineFlag=False,outrootdir=None,outsuffix=None,outsubdir=None,repeatfilters=[],sortbyra=False):
 
         def outfile(basename,outrootdir=None,outsuffix=None,outsubdir=None):
             outfilename = outrootdir
@@ -282,17 +284,17 @@ class mkjsonclass(txttableclass):
                outfilename ='.'
             if outsubdir is not None:
                outfilename += f'/{outsubdir}'
-
-            outfilename +=f'/{basename}'
+               
+            outfilename +=f'/{basename}' 
             if outsuffix is not None:
                outfilename += f'.{outsuffix}'
             outfilename += '.json'
             outfilename = os.path.abspath(outfilename)
             makepath4file(outfilename)
             return(outfilename)
-
-
-
+        
+        
+        
         keysused = []
 
         targets2keyhash = {}
@@ -311,7 +313,7 @@ class mkjsonclass(txttableclass):
                 if pointing not in targets2keyhash:
                     targets2keyhash[pointing]=[]
                 targets2keyhash[pointing].append(key)
-
+                
         filters = self.options.filter.split(',')
         exptimes = [int(e) for e in self.options.exptime.split(',')]
 
@@ -320,40 +322,46 @@ class mkjsonclass(txttableclass):
 
         self.configcols(['Moon_sep'],'f','%.1f',visible=True)
         self.configcols(['Moon_illum'],'f','%.2f',visible=True)
+
         for target in targets2keyhash:
             print(f'\n#############################\n### target {target}')
+            exposures = []
             keys = targets2keyhash[target]
             keysused.extend(keys)
-            exposures = []
             tall = 0.0
-            for key in keys:
-                #target =  SkyCoord(34*u.deg,-4*u.deg)
-                sep = self.moon.separation(SkyCoord(self.getentry(key,self.racol)*u.deg,self.getentry(key,self.deccol)*u.deg))
-                print(f'pointing {self.getentry(key,self.pointingcol)} RA/Dec=({self.getentry(key,self.racol)*u.deg:.4f},{self.getentry(key,self.deccol)*u.deg:.4f}), Moon separation {sep.deg:.2f}')
-                self.setentry(key,'Moon_sep',sep.deg)
-                self.setentry(key,'Moon_illum',self.illum)
 
-                (exposure,t) = self.mkjsonscript4object(key,filters,exptimes,repeatfilters=repeatfilters)
-                tall += t
-                exposures.extend(exposure)
-
+            for filt in filters:
+                print(f'### filter {filt}')
+                for key in keys:
+                    #target =  SkyCoord(34*u.deg,-4*u.deg)
+                    sep = self.moon.separation(SkyCoord(self.getentry(key,self.racol)*u.deg,self.getentry(key,self.deccol)*u.deg))
+                    print(f'pointing {self.getentry(key,self.pointingcol)} RA/Dec=({self.getentry(key,self.racol)*u.deg:.4f},{self.getentry(key,self.deccol)*u.deg:.4f}), Moon separation {sep.deg:.2f}')
+                    self.setentry(key,'Moon_sep',sep.deg)
+                    self.setentry(key,'Moon_illum',self.illum)
+                    
+                    (exposure,t) = self.mkjsonscript4object(key,[filt],exptimes,repeatfilters=repeatfilters)
+                    tall += t
+                    exposures.extend(exposure)
+                #keys.reverse()
+              
             outfilename = outfile(target,outrootdir=outrootdir,outsuffix=outsuffix,outsubdir=outsubdir)
-            print('total time for script (exposure time and %f seconds readout):\n %.0f seconds, %.1f minutes, %.2f hours' % (self.readouttime_sec,tall,tall/60.0,tall/3600.0))
+            print('total time for script (exposure time and %f seconds readout):\n %.0f seconds, %.1f minutes, %.2f hours' % (self.readouttime_sec,tall,tall/60.0,tall/3600.0))       
             rmfile(outfilename)
             print('Saving ', outfilename)
             open(outfilename,'w').writelines('[\n' + ',\n'.join(exposures)+ '\n]\n')
-
+        
+        if sortbyra: keysused = self.sortkeysbycols(keysused,'RA')
         self.printtxttable(keys=keysused)
         print('!!! setting propID: %s !!!' % self.options.propid)
-
-
-
+        
+        
+        
 if __name__=='__main__':
-
+    
     if 1==0:
-
+        
         print(ctio,ctio.location)
-
+        
         YYMMDD = '211028'
         date = f'20{YYMMDD[:2]}-{YYMMDD[2:4]}-{YYMMDD[4:6]}T06:00:00'
         t = Time(date)
@@ -363,7 +371,7 @@ if __name__=='__main__':
         m = moon.moon_phase_angle(t)
         illum = moon.moon_illumination(t)
         print(m.to_value('deg'),illum)
-
+        
         moon = get_moon(t,ctio.location)
         print('moon',moon)
         target =  SkyCoord(34*u.deg,-4*u.deg)
@@ -371,7 +379,7 @@ if __name__=='__main__':
         sep = moon.separation(target)
         print(sep.deg)
         sys.exit(0)
-
+    
     mkjson = mkjsonclass()
 
     parser = mkjson.add_options(usage = 'mkjson.py pointingfile')
@@ -399,7 +407,7 @@ if __name__=='__main__':
 
     #print(outdate)
     #sys.exit(0)
-
+    
     # make sure outdate is formatted correctly
     if re.search('^\d{6}$',outdate) is not None:
         #all good!
@@ -414,7 +422,7 @@ if __name__=='__main__':
     else:
         if outdate!='':
             raise RuntimeError('Could not parse {} for YYMMDD'.format(outdate))
-
+    
     # just a sanity test for years, months, and days!
     if outdate!='':
         if not(outdate[:2] in ['21','22','23','24']):
@@ -424,8 +432,8 @@ if __name__=='__main__':
         if not(int(outdate[4:6])<=31):
             raise RuntimeError(f'day {outdate[2:4]} is not <=31!')
         outsubdir = outdate
-
-        # Take the current North/South America date, add 1 day, and 6am,
+        
+        # Take the current North/South America date, add 1 day, and 6am, 
         # to get the appropriate UTC date form the middle of the night or slightly later
         date = f'20{outdate[:2]}-{outdate[2:4]}-{outdate[4:6]}T06:00:00'
         t = Time(date)+1
@@ -437,7 +445,7 @@ if __name__=='__main__':
         for horizon in mkjson.horizons:
             mkjson.twi[horizon] =  ctio.tonight(t-0.5,horizon=-horizon*u.deg)
             print('UT %d deg twilight: %s %s' % (-horizon,mkjson.twi[horizon][0].to_value('isot'),mkjson.twi[horizon][1].to_value('isot')))
-
+        
         ctiotz = timezone('America/Santiago')
         for horizon in mkjson.horizons:
             dt0 = mkjson.twi[horizon][0].to_datetime(timezone=ctiotz)
@@ -447,13 +455,13 @@ if __name__=='__main__':
             #loc_dt = eastern.localize()
     else:
         print('WARNING: no date specified, cannot calculate the Moon parameters')
-
+ 
     if mkjson.options.outsubdir is not None:
         outsubdir = mkjson.options.outsubdir
-
+        
     print('outdate:',outdate)
     print('outsubdir:',outsubdir)
-
+    
     mkjson.updatedither(1,mkjson.options.d1)
     mkjson.updatedither(2,mkjson.options.d2)
     mkjson.updatedither(3,mkjson.options.d3)
@@ -468,7 +476,7 @@ if __name__=='__main__':
         mkjson.setrectangledither(delta=mkjson.options.rectangledither)
 
     pointingfile = mkjson.options.pointingfile
-
+    
     repeatfilters=[]
 
     mkjson.loadfile(pointingfile)
@@ -476,13 +484,18 @@ if __name__=='__main__':
                             outrootdir=mkjson.options.outrootdir,
                             outsuffix=mkjson.options.outsuffix,
                             outsubdir=outsubdir,
-                            repeatfilters=repeatfilters)
-
+                            repeatfilters=repeatfilters,
+                            sortbyra=mkjson.options.sortbyra)
+    
     if outdate!='':
         print(f'MOON ILLUMINATION: {mkjson.illum:.2f}')
 
         for horizon in mkjson.horizons:
             print('UT %d deg twilight: %s %s' % (-horizon,mkjson.twi[horizon][0].to_value('isot'),mkjson.twi[horizon][1].to_value('isot')))
+            #if horizon==14:
+            #    dt_14_h=(mkjson.twi[horizon][1]-mkjson.twi[horizon][0]).to_value('hour')
+            #    print(f'time between {-horizon} deg twilight: {dt_14_h:.2f}h')
+            #    sys.exit(0)
 
         ctiotz = timezone('America/Santiago')
         for horizon in mkjson.horizons:

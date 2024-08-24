@@ -75,6 +75,7 @@ YSE 2024eyo [311 -46] (3 min)
 YSE 440	[314 -4] 17 min                  
 DEBASS/EVERYTHING/2022rky_P2 [319 -8] (3min) OPTIONAL - FOR TEMPLATES
 DEBASS/EVERYTHING/2024see_P1 [324 -17] (3min)
+DEBASS/EVERYTHING/2024soh_P1 [334 -32] (3min)
 
 !!! 21:22 RRL_Medina (155 min)
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
@@ -105,7 +106,7 @@ E1E2.json [8 -43] (30 min)
 YSE 296 [17 -17] (17 min)                      !!! close to Moon, skip exposures here if behind schedule!     
 YSE 2022jzx	[15	-4] (5 min)                
 DEBASS/EVERYTHING/2022ppj_P2 [11 20] (3min) OPTIONAL - FOR TEMPLATES
-DEBASS/EVERYTHING/2024sfk_P1 [26 16] (3min)
+DEBASS/EVERYTHING/2024sfk_P1 [26 16] (3min) HIGH PRIORITY
 YSE 448 [16 3] (9 min)   
 
 !!! 02:04
@@ -119,9 +120,9 @@ DEBASS/EVERYTHING/2022wsu_P2 [34 17] (3min) OPTIONAL - FOR TEMPLATES
 !!! 04:37
 ### S1S2.json [42,0] 22 min
 S1S2_moon.json [42,0] 15 min
-DEBASS/EVERYTHING/2024sae_P1 [45 -5] (3min)
+DEBASS/EVERYTHING/2024sae_P1 [45 -5] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024rzp_P1 [36 -7] (3min)
-DEBASS/EVERYTHING/2024skv_P1 [53 -7] (3min)
+DEBASS/EVERYTHING/2024skv_P1 [53 -7] (3min) HIGH PRIORITY
 C3 [52, -28] 11 min 
 
 !!! 05:15

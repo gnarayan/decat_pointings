@@ -77,6 +77,7 @@ DEBASS/EVERYTHING/2022rky_P2 [319 -8] (3min) OPTIONAL - FOR TEMPLATES
 DEBASS/EVERYTHING/2024see_P1 [324 -17] (3min)
 
 !!! 21:22 RRL_Medina (155 min)
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### delete first 13 fields so that it starts with Field 14.
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
 #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!

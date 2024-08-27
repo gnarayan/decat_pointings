@@ -6,6 +6,7 @@
 2024qpt_P1 [214 -26]
 2024sku_P1 [213 -7]
 2024see_P1 [324 -17]
+2024soh_P1 [334 -32]
 2024mze_P1 [340 -66]
 
 2023vpo_P2 [7 13]
@@ -63,6 +64,7 @@
 2021lxb_P3 [196 28]
 2021dch_P3 [196 29]
 2024qat_P3 [208 -34]
+2023jvj_P3 [208 16]
 2024mvd_P3 [216 -9]
 2021lat_P3 [220 24]
 2021ihz_P3 [228 25]
@@ -74,5 +76,5 @@
 2022rld_P3 [352 -8]
 2024rlh_P3 [356 -19]
 
-EVERYTHING	377.3 minutes
-EVERYTHING_P1	33.1 minutes
+EVERYTHING	383.8 minutes
+EVERYTHING_P1	37.3 minutes

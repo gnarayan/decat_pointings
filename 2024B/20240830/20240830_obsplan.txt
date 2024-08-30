@@ -71,7 +71,7 @@ DEBASS/EVERYTHING/2022rky_P2 [319 -8] (3min) OPTIONAL - FOR TEMPLATES
 DEBASS/EVERYTHING/2024see_P1 [324 -17] (3min)
 DEBASS/EVERYTHING/2024soh_P1 [334 -32] (3min)
 
-!!! 21:06 RRL_Medina (120 min)
+!!! 21:05 RRL_Medina (115 min)
 decat_pointings/jsons/2024B-252974_RRL_Medina/YYYYMMDD/2024B-252974_allfields_r_LastUpdate_nogaps.json
 #### !!! cut exposures below! Do not go past the time of the start of the next block!!!
 decat_pointings/jsons/2024B-252974_RRL_Medina/YYYYMMDD/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again, but only partially until you hit the next block! 

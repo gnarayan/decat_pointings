@@ -48,7 +48,6 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 19:30:12
 YSE 2021kre	 [206 -7] (5 min)
-DEBASS/EVERYTHING/2024sku_P1 [213 -7] (3min)
 YSE 2023emq [203 -24] (5 min) 
 YSE 2022myp	[205 -26] (5 min)
 DEBASS/EVERYTHING/2021ihz_P3 [228 25] (3min) OPTIONAL - FOR TEMPLATES
@@ -67,10 +66,16 @@ DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 YSE 2024eyo [311 -46] (3 min)           
 
 
+<<<<<<< HEAD
 !!! 20:22
+=======
+!!! 21:00
+DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (3min)
+>>>>>>> 9267acd040130c399e43b52610fa32fd7a70d68b
 YSE 440	[314 -4] 17 min                  
+DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (3min)
 DEBASS/EVERYTHING/2022rky_P2 [319 -8] (3min) OPTIONAL - FOR TEMPLATES
-DEBASS/EVERYTHING/2024see_P1 [324 -17] (3min)
+DEBASS/EVERYTHING/2024nbo_P2 [338 -9] (3min)
 
 !!! 20:45 RRL_Medina (155 min)
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
@@ -87,9 +92,12 @@ DEBASS/EVERYTHING/2021yrz_P2 [338 19] (3min) OPTIONAL - FOR TEMPLATES
 
 !!! 00:05
 YSE 495 [339 5] (17 min)                       
+DEBASS/EVERYTHING/2024tte_P1 [353 1] (3min)
+DEBASS/EVERYTHING/2024sst_P1 [345 17] (3min)
 YSE 2022rso	[352 17] (5 min)
 DEBASS/EVERYTHING/2022mhe_P2 [352 8] (3min) OPTIONAL - FOR TEMPLATES
 DEBASS/EVERYTHING/2022wcm_P2 [358 8] (3min) OPTIONAL - FOR TEMPLATES
+DEBASS/EVERYTHING/2024ssx_P1 [358 10] (3min)
 DEBASS/EVERYTHING/2022rld_P3 [352 -8] (3min) OPTIONAL - FOR TEMPLATES
 DEBASS/EVERYTHING/2022pdq_P2 [355 -9] (3min) OPTIONAL - FOR TEMPLATES
 YSE 2024rqx [340 -4] (4 min)       
@@ -101,7 +109,6 @@ E1E2.json [8 -43] (30 min)
 YSE 296 [17 -17] (17 min)                                        #### cut exposures here if behind schedule!
 YSE 2022jzx	[15	-4] (5 min)                
 DEBASS/EVERYTHING/2022ppj_P2 [11 20] (3min) OPTIONAL - FOR TEMPLATES
-DEBASS/EVERYTHING/2024sfk_P1 [26 16] (3min)
 YSE 448 [16 3] (17 min)   
 
 !!! 02:28
@@ -115,16 +122,13 @@ DEBASS/EVERYTHING/2022wsu_P2 [34 17] (3min) OPTIONAL - FOR TEMPLATES
 !!! 04:12
 S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
-DEBASS/EVERYTHING/2024sae_P1 [45 -5] (3min)
-DEBASS/EVERYTHING/2024rzp_P1 [36 -7] (3min)
-DEBASS/EVERYTHING/2024skv_P1 [53 -7] (3min)
 C3 [52, -28] 11 min 
 
 !!! 04:54
 YSE 2022aeed [62 -31] (5 min)
 YSE 253 [67, -26] 17 min                   
-DEBASS/EVERYTHING/2022wpy_P2 [72 -4] (3min) OPTIONAL - FOR TEMPLATES
-DEBASS/EVERYTHING/2024sag_P1 [84 -18] (3min) HIGH PRIORITY!!!
+DEBASS/EVERYTHING/2024tvz_P1 [70 -3] (3min)
+DEBASS/EVERYTHING/2024tdb_P1 [82 8] (3min)
 
 !!! 05:22
 Ngeow/LMC [79 -70] 19 min

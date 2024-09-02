@@ -3521,6 +3521,29 @@ cd ..
 git add 240827
 git add 240827/*.json
 
+mkdir 20240830
+cp 20240824/20240824_obsplan.txt 20240830/20240830_obsplan.txt 
+subl 20240830/20240830_obsplan.txt
+git add 20240830/20240830_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g 428 376   -d 240830 
+mkjson_yse_nofilterswitch.py  -f g,i  531  -d 240830 
+mkjson_yse_nofilterswitch.py  -f g,i   440 -d 240830 
+mkjson_yse_nofilterswitch.py  -f g,i    544 494  -d 240830 
+mkjson_yse_nofilterswitch.py  -f g     393 495  -d 240830 
+mkjson_yse_nofilterswitch.py  -f g  296   -d 240830 
+mkjson_yse_nofilterswitch.py  -f g   448  -d 240830 
+mkjson_yse_nofilterswitch.py  -f r  253 -d 240830 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 240830 -e 2 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024pco 2024rqx -d 240830 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2021low 2020szr 2023vyl 2021dha 2021gyh 2021fna 2022jut 2021kxf 2022jqg  2024gpq  2021adug 2023mkt 2023emq -d 240830 -e 30 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024pxl  -d 240830 -e 4 -n 1 --sortbyra
+cd 240824
+cp 2022jzx.json 2022myp.json 2022rso.json 2021jwl.json 2021kre.json 2022aeed.json ../240830 
+cd ..
+git add 240830
+git add 240830/*.json
+
 
 more /Users/arest/observing/decat_pointings/jsons/2024A-941948_DDF_Nugent/DDF_fixed_scheduler_file.txt  
 

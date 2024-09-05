@@ -46,6 +46,7 @@ def run(verbose=True):
     l.extend(glob('2023A/*/*qc*nv'))
     l.extend(glob('2023B/*/*qc*nv'))
     l.extend(glob('2024A/*/*qc*nv'))
+    l.extend(glob('2024B/*/*qc*nv'))
     for f in l:
         #print(f)
         datestr = f.split('/')[-1].split('.')[0]

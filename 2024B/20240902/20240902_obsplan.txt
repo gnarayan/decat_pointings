@@ -66,18 +66,13 @@ DEBASS/EVERYTHING/2024nug_P1 [298 -31] (3min) HIGH PRIORITY
 YSE 2024eyo [311 -46] (3 min)           
 
 
-<<<<<<< HEAD
 !!! 20:22
-=======
-!!! 21:00
-DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (3min)
->>>>>>> 9267acd040130c399e43b52610fa32fd7a70d68b
 YSE 440	[314 -4] 17 min                  
 DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (3min)
 DEBASS/EVERYTHING/2022rky_P2 [319 -8] (3min) OPTIONAL - FOR TEMPLATES
 DEBASS/EVERYTHING/2024nbo_P2 [338 -9] (3min)
 
-!!! 20:45 RRL_Medina (155 min)
+!!! 20:45 RRL_Medina RRL_Medina [327 -22] (155 min)
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
 #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!

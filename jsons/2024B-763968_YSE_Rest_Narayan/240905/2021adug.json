@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2021adug",
+"filter": "g",
+"expTime": 30,
+"RA": "13.5469",
+"dec": "-14.8829",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2021adug",
+"filter": "r",
+"expTime": 30,
+"RA": "13.5469",
+"dec": "-14.8829",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2021adug",
+"filter": "i",
+"expTime": 30,
+"RA": "13.5469",
+"dec": "-14.8829",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2021adug",
+"filter": "z",
+"expTime": 30,
+"RA": "13.5469",
+"dec": "-14.8829",
+"propid": "2024B-763968"
+}
+]

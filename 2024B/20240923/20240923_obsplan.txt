@@ -55,11 +55,11 @@ YSE 393 [346 -10] (9 min)
 !!! 02:51
 DEBASS/EVERYTHING/2024txv_P1 [6 -24] (3min)
 DEBASS/EVERYTHING/2024uoc_P1 [8 -11] (3min)
-YSE 296 [17 -17] (17 min)                                        
-### YSE 448 [16 3] (17 min)   
+YSE 296 [17 -17] (9 min)                                        
+YSE 448 [16 3] (9 min)   
 
-!!! 03:14
-decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 74 min  
+!!! 03:15
+decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 73 min  
 #### Do not go past the time of the start of the next block!!! skip exposures!!!
 
 !!! 04:28

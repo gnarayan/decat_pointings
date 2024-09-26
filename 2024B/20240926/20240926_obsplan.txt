@@ -58,13 +58,16 @@ decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
 #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
 
-!!! 23:40
-YSE 495 [339 5] (17 min)                       
-DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) DROP ZBAND TO SAVE TIME
-### YSE 2024rqx [340 -4] (4 min)       
-YSE 393 [346 -10] (17 min)                     
+!!! 23:00 ToO Palmese!!
+1h 15m
 
-!!! 00:17
+### !!! 23:40
+### YSE 495 [339 5] (17 min)                       
+### DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) DROP ZBAND TO SAVE TIME
+### YSE 393 [346 -10] (17 min)                     
+
+!!! 00:15
+YSE 2024rqx [340 -4] (2 min)       
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 DEBASS/EVERYTHING/2024soh_P1 [334 -32] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) DROP ZBAND TO SAVE TIME

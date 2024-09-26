@@ -18,25 +18,5 @@
 "RA": "340.4823",
 "dec": "-3.8247",
 "propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2024rqx",
-"filter": "i",
-"expTime": 20,
-"RA": "340.4823",
-"dec": "-3.8247",
-"propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2024rqx",
-"filter": "z",
-"expTime": 20,
-"RA": "340.4823",
-"dec": "-3.8247",
-"propid": "2024B-763968"
 }
 ]

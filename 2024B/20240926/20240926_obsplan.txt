@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.56
-UT -16 deg twilight: 2024-09-23T23:51:01.209 2024-09-24T09:18:59.056
-UT -15 deg twilight: 2024-09-23T23:46:19.121 2024-09-24T09:23:40.814
-UT -14 deg twilight: 2024-09-23T23:41:37.777 2024-09-24T09:28:22.035
-UT -12 deg twilight: 2024-09-23T23:32:16.313 2024-09-24T09:37:43.032
-UT -10 deg twilight: 2024-09-23T23:22:56.501 2024-09-24T09:47:02.358
-LOCAL -16 deg twilight: 09/23/2024,   20:51:01   06:18:59
-LOCAL -15 deg twilight: 09/23/2024,   20:46:19   06:23:40
-LOCAL -14 deg twilight: 09/23/2024,   20:41:37   06:28:22
-LOCAL -12 deg twilight: 09/23/2024,   20:32:16   06:37:43
-LOCAL -10 deg twilight: 09/23/2024,   20:22:56   06:47:02
-LOCAL night MIDPOINT: 09/24/2024,   01:35:00
+MOON ILLUMINATION: 0.26
+UT -16 deg twilight: 2024-09-26T23:52:54.044 2024-09-27T09:15:02.597
+UT -15 deg twilight: 2024-09-26T23:48:10.426 2024-09-27T09:19:45.737
+UT -14 deg twilight: 2024-09-26T23:43:28.019 2024-09-27T09:24:28.246
+UT -12 deg twilight: 2024-09-26T23:34:04.322 2024-09-27T09:33:51.545
+UT -10 deg twilight: 2024-09-26T23:24:42.614 2024-09-27T09:43:12.824
+LOCAL -16 deg twilight: 09/26/2024,   20:52:54   06:15:02
+LOCAL -15 deg twilight: 09/26/2024,   20:48:10   06:19:45
+LOCAL -14 deg twilight: 09/26/2024,   20:43:28   06:24:28
+LOCAL -12 deg twilight: 09/26/2024,   20:34:04   06:33:51
+LOCAL -10 deg twilight: 09/26/2024,   20:24:42   06:43:12
+LOCAL night MIDPOINT: 09/27/2024,   01:33:58
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -40,64 +40,74 @@ LOCAL night MIDPOINT: 09/24/2024,   01:35:00
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! 01:35:00 RRL_Medina RRL_Medina [327 -22] (60 min)
-decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
-#### Do not go past the time of the start of the next block!!! skip exposures!!!
-
-!!! 02:35
+!!! 20:43:28 (NOTE: CHILEAN LOCAL TIME!!!)
+YSE 2024pxl [263 7] (3 min)              	### high priority 
 DEBASS/EVERYTHING/2024ufz_P1 [231 -37] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (3min) DROP ZBAND TO SAVE TIME
+
+!!! 20:56
+### YSE 2024eyo [311 -46] (3 min)           
+YSE 544 [321 9] 8 min                   
+YSE 494 [330 3] 9 min 	               
 DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (3min) DROP ZBAND TO SAVE TIME
+
+!!! 21:20 RRL_Medina RRL_Medina [327 -22] (150 min)
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
+#### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
+
+!!! 23:40
+YSE 495 [339 5] (17 min)                       
+DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) DROP ZBAND TO SAVE TIME
+### YSE 2024rqx [340 -4] (4 min)       
+YSE 393 [346 -10] (17 min)                     
+
+!!! 00:17
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 DEBASS/EVERYTHING/2024soh_P1 [334 -32] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) DROP ZBAND TO SAVE TIME
-YSE 393 [346 -10] (9 min)                     
-YSE 2024rqx [340 -4] (4 min)       
-DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) DROP ZBAND TO SAVE TIME
-### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-### E1E2.json [8 -43] (30 min)
-### YSE 495 [339 5] (17 min)                       
+E1E2.json [8 -43] (30 min)
 
-!!! 02:51
+!!! 00:53
 DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024txv_P1 [6 -24] (3min) DROP ZBAND TO SAVE TIME
-DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024uoc_P1 [8 -11] (3min) DROP ZBAND TO SAVE TIME
-YSE 296 [17 -17] (9 min)                                        
-YSE 448 [16 3] (9 min)   
+YSE 296 [17 -17] (17 min)                                        
+YSE 448 [16 3] (17 min)   
 DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min) DROP ZBAND TO SAVE TIME
+### DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (3min) DROP ZBAND TO SAVE TIME
 
-!!! 03:15
-decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 73 min  
-#### Do not go past the time of the start of the next block!!! skip exposures!!!
+!!! 01:40
+decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 168 min  
 
-!!! 04:28
+!!! 04:26
 X123.json [34, -4] 34 min 
 ### X123_moon.json [34, -4] 23 min 
 DEBASS/EVERYTHING/2024uns_P1 [37 -7] (3min) DROP ZBAND TO SAVE TIME
 
-!!! 05:05
+!!! 05:03
 S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
 DEBASS/EVERYTHING/2024uqg_P1 [43 8] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024vke_P1 [49 -14] (3min) DROP ZBAND TO SAVE TIME
 C3 [52, -28] 11 min 
 
-!!! 05:45
+!!! 05:42
 DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024tvz_P1 [70 -3] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024tdb_P1 [82 8] (3min) DROP ZBAND TO SAVE TIME
 DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) DROP ZBAND TO SAVE TIME
 YSE 253 [67, -26] 17 min               
+
+!!! 06:11
 ### Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop ecposure here!!
-
-!!! 06:15
 Shen SCVZ [90 -66] 13 min 
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 
-!!! 06:28:22 (-14 deg twilight)
+!!! 06:24:28 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

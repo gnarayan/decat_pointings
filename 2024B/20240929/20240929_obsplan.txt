@@ -51,8 +51,10 @@ DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min) DROP Z TO SAVE TIME
 DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (2min)
 
 !!! 21:18 RRL_Medina RRL_Medina [327 -22] (90 min)
+#### This does not fit into 90 min, cut whatever doesn't fit, do not go past 22:50pm!!!
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
-#### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
+#### cut exposures here! Do not go past the time of the start of the next block!!!
 
 !!! 22:50
 YSE 495 [339 5] (17 min)                       
@@ -77,9 +79,8 @@ DEBASS/EVERYTHING/2024vke_P1 [48 -14] (2min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024wuj_P1 [40 4] (2min) HIGH PRIORITY,  DROP Z TO SAVE TIME
 DEBASS/EVERYTHING/2024uqg_P1 [43 8] (2min) EXTRA TARGET (OPTIONAL)
 
-!!! 00:33
+!!! 00:33  ### you can only do a part of this program!
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 60 min   
-
 
 MIDPOINT 01:32:58
 

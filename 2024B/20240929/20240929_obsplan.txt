@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.26
-UT -16 deg twilight: 2024-09-26T23:52:54.044 2024-09-27T09:15:02.597
-UT -15 deg twilight: 2024-09-26T23:48:10.426 2024-09-27T09:19:45.737
-UT -14 deg twilight: 2024-09-26T23:43:28.019 2024-09-27T09:24:28.246
-UT -12 deg twilight: 2024-09-26T23:34:04.322 2024-09-27T09:33:51.545
-UT -10 deg twilight: 2024-09-26T23:24:42.614 2024-09-27T09:43:12.824
-LOCAL -16 deg twilight: 09/26/2024,   20:52:54   06:15:02
-LOCAL -15 deg twilight: 09/26/2024,   20:48:10   06:19:45
-LOCAL -14 deg twilight: 09/26/2024,   20:43:28   06:24:28
-LOCAL -12 deg twilight: 09/26/2024,   20:34:04   06:33:51
-LOCAL -10 deg twilight: 09/26/2024,   20:24:42   06:43:12
-LOCAL night MIDPOINT: 09/27/2024,   01:33:58
+MOON ILLUMINATION: 0.06
+UT -16 deg twilight: 2024-09-29T23:54:51.517 2024-09-30T09:11:05.308
+UT -15 deg twilight: 2024-09-29T23:50:06.638 2024-09-30T09:15:49.983
+UT -14 deg twilight: 2024-09-29T23:45:22.530 2024-09-30T09:20:33.928
+UT -12 deg twilight: 2024-09-29T23:35:56.248 2024-09-30T09:29:59.825
+UT -10 deg twilight: 2024-09-29T23:26:32.304 2024-09-30T09:39:23.367
+LOCAL -16 deg twilight: 09/29/2024,   20:54:51   06:11:05
+LOCAL -15 deg twilight: 09/29/2024,   20:50:06   06:15:49
+LOCAL -14 deg twilight: 09/29/2024,   20:45:22   06:20:33
+LOCAL -12 deg twilight: 09/29/2024,   20:35:56   06:29:59
+LOCAL -10 deg twilight: 09/29/2024,   20:26:32   06:39:23
+LOCAL night MIDPOINT: 09/30/2024,   01:32:58
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -40,48 +40,48 @@ LOCAL night MIDPOINT: 09/27/2024,   01:33:58
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! 20:43:28 (NOTE: CHILEAN LOCAL TIME!!!)
+!!! 20:45:22 (NOTE: CHILEAN LOCAL TIME!!!)
 YSE 2024pxl [263 7] (3 min)              	### high priority 
 DEBASS/EVERYTHING/2024ufz_P1 [231 -37] (2min)
 DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) DROP Z TO SAVE TIME
-### DEBASS/EVERYTHING/2024tyg_P2 [308 -8] (2min) EXTRA TARGET (OPTIONAL)
-
-!!! 20:56
 ### YSE 2024eyo [311 -46] (3 min)           
-YSE 544 [321 9] 8 min                   
-YSE 494 [330 3] 9 min 	               
+YSE 544 [321 9] 9 min                   
+YSE 494 [330 3] 8 min 	               
 DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min) DROP Z TO SAVE TIME
 DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (2min)
 
-!!! 21:20 RRL_Medina RRL_Medina [327 -22] (150 min)
+!!! 21:18 RRL_Medina RRL_Medina [327 -22] (90 min)
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
-decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
 #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
 
-!!! 23:40
-### YSE 495 [339 5] (17 min)                       
+!!! 22:50
+YSE 495 [339 5] (17 min)                       
 DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (2min) DROP Z TO SAVE TIME
-### YSE 393 [346 -10] (17 min)                     
+YSE 393 [346 -10] (17 min)                     
 
-!!! 00:15
-YSE 2024rqx [340 -4] (2 min)       
+!!! 23:26
+### YSE 2024rqx [340 -4] (2 min)       
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (2min) DROP Z TO SAVE TIME
 DEBASS/EVERYTHING/2024ula_P2 [352 -38] (2min) EXTRA TARGET (OPTIONAL)
 E1E2.json [8 -43] (30 min)
 
-!!! 00:53
+!!! 00:01
 DEBASS/EVERYTHING/2024vyi_P1 [1 0] (2min) DROP Z TO SAVE TIME
 DEBASS/EVERYTHING/2024txv_P2 [6 -24] (2min) EXTRA TARGET (OPTIONAL)
 DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (2min) HIGH PRIORIY
-YSE 296 [17 -17] (17 min)                                        
-YSE 448 [16 3] (17 min)   
+YSE 296 [17 -17] (9 min)                                        
+YSE 448 [16 3] (8 min)   
 DEBASS/EVERYTHING/2024vyd_P1 [9 10] (2min) DROP Z TO SAVE TIME
 DEBASS/EVERYTHING/2024vke_P1 [48 -14] (2min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024wuj_P1 [40 4] (2min) HIGH PRIORITY,  DROP Z TO SAVE TIME
 DEBASS/EVERYTHING/2024uqg_P1 [43 8] (2min) EXTRA TARGET (OPTIONAL)
 
-MIDPOINT
+!!! 00:33
+decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 60 min   
+
+
+MIDPOINT 01:32:58
 
 
 !!!!!!!! EXTRA TARGETS !!!!!

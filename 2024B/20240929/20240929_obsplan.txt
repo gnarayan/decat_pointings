@@ -1,0 +1,90 @@
+MOON ILLUMINATION: 0.26
+UT -16 deg twilight: 2024-09-26T23:52:54.044 2024-09-27T09:15:02.597
+UT -15 deg twilight: 2024-09-26T23:48:10.426 2024-09-27T09:19:45.737
+UT -14 deg twilight: 2024-09-26T23:43:28.019 2024-09-27T09:24:28.246
+UT -12 deg twilight: 2024-09-26T23:34:04.322 2024-09-27T09:33:51.545
+UT -10 deg twilight: 2024-09-26T23:24:42.614 2024-09-27T09:43:12.824
+LOCAL -16 deg twilight: 09/26/2024,   20:52:54   06:15:02
+LOCAL -15 deg twilight: 09/26/2024,   20:48:10   06:19:45
+LOCAL -14 deg twilight: 09/26/2024,   20:43:28   06:24:28
+LOCAL -12 deg twilight: 09/26/2024,   20:34:04   06:33:51
+LOCAL -10 deg twilight: 09/26/2024,   20:24:42   06:43:12
+LOCAL night MIDPOINT: 09/27/2024,   01:33:58
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+1   ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! 20:43:28 (NOTE: CHILEAN LOCAL TIME!!!)
+YSE 2024pxl [263 7] (3 min)              	### high priority 
+DEBASS/EVERYTHING/2024ufz_P1 [231 -37] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (3min) DROP ZBAND TO SAVE TIME
+
+!!! 20:56
+### YSE 2024eyo [311 -46] (3 min)           
+YSE 544 [321 9] 8 min                   
+YSE 494 [330 3] 9 min 	               
+DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (3min) DROP ZBAND TO SAVE TIME
+
+!!! 21:20 RRL_Medina RRL_Medina [327 -22] (150 min)
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
+#### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
+
+!!! 23:00 ToO Palmese!!
+1h 15m
+
+### !!! 23:40
+### YSE 495 [339 5] (17 min)                       
+### DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) DROP ZBAND TO SAVE TIME
+### YSE 393 [346 -10] (17 min)                     
+
+!!! 00:15
+YSE 2024rqx [340 -4] (2 min)       
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+DEBASS/EVERYTHING/2024soh_P1 [334 -32] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) DROP ZBAND TO SAVE TIME
+E1E2.json [8 -43] (30 min)
+
+!!! 00:53
+DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024txv_P1 [6 -24] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024uoc_P1 [8 -11] (3min) DROP ZBAND TO SAVE TIME
+YSE 296 [17 -17] (17 min)                                        
+YSE 448 [16 3] (17 min)   
+DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min) DROP ZBAND TO SAVE TIME
+### DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (3min) DROP ZBAND TO SAVE TIME
+
+!!! 01:40
+decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 168 min  
+
+
+
+!!!!!!!! EXTRA TARGETS !!!!!

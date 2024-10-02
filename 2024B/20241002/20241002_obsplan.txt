@@ -42,48 +42,58 @@ LOCAL night MIDPOINT: 10/03/2024,   01:32:01
 
 !!! 20:47:21 (NOTE: CHILEAN LOCAL TIME!!!)
 ### YSE 2024pxl [263 7] (3 min)              	### high priority 
-DEBASS/EVERYTHING/2024ufz_P1 [231 -37] (3min) DROP ZBAND TO SAVE TIME
-DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) DROP ZBAND TO SAVE TIME
-DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024ufz_P1 [231 -37] (3min)
+DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (1.5min)
+DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (1.5min)
 
-!!! 20:57
+!!! 20:55
 ### YSE 2024eyo [311 -46] (3 min)           
 YSE 544 [321 9] 8 min                   
 YSE 494 [330 3] 9 min 	               
-DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min) DROP ZBAND TO SAVE TIME
-DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (1.5min)
+DEBASS/EVERYTHING/2024vny_P1 [323 -22] (1.5min)
+DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (1.5min)
 
 !!! 21:20 RRL_Medina RRL_Medina [327 -22] (130 min)
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
-!!! 23:29
+!!! 23:30
 YSE 495 [339 5] (8 min)                       
-DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (1.5min)
+DEBASS/EVERYTHING/2024wye_P1 [346 -9] (1.5min)
 YSE 393 [346 -10] (9 min)                     
 
-!!! 23:49
+!!! 23:50
 YSE 2024rqx [340 -4] (2 min)       
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-DEBASS/EVERYTHING/2024soh_P1 [334 -32] (3min) DROP ZBAND TO SAVE TIME
-DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) DROP ZBAND TO SAVE TIME
 E1E2.json [8 -43] (30 min)
+DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (1.5min)
 
-!!! 00:27
-DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min) DROP ZBAND TO SAVE TIME
-DEBASS/EVERYTHING/2024txv_P1 [6 -24] (3min) DROP ZBAND TO SAVE TIME
-DEBASS/EVERYTHING/2024uoc_P1 [8 -11] (3min) DROP ZBAND TO SAVE TIME
+!!! 00:25
+DEBASS/EVERYTHING/2024vyi_P1 [1 0] (1.5min)
+DEBASS/EVERYTHING/2024uoc_P1 [8 -11] (1.5min)
 YSE 296 [17 -17] (17 min)                                        
 YSE 448 [16 3] (17 min)   
-DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min) DROP ZBAND TO SAVE TIME
+DEBASS/EVERYTHING/2024vyd_P1 [9 10] (1.5min)
+DEBASS/EVERYTHING/2024wrn_P1 [20 6] (1.5min)
 
-!!! 01:14
+!!! 01:05
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 140 min 
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
-!!! 03:34
+!!! 03:20
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (1.5min)
+DEBASS/EVERYTHING/2024uns_P1 [37 -7] (1.5min)
 X123.json [34, -4] 34 min 
 S1S2.json [42,0] 22 min
+DEBASS/EVERYTHING/2024wuj_P1 [40 4] (1.5min)
+DEBASS/EVERYTHING/2024uqg_P1 [43 8] (1.5min)
+DEBASS/EVERYTHING/2024vke_P1 [48 -14] (1.5min)
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (1.5min)
+DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (1.5min)
+DEBASS/EVERYTHING/2024wak_P1 [75 -14] (1.5min)
+DEBASS/EVERYTHING/2024wom_P1 [73 -5] (1.5min) OPTIONAL
 
 !!! 04:30 Antonella ToO

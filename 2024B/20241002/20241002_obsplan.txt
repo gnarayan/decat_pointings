@@ -59,19 +59,19 @@ decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
-!!! 23:30
+!!! 23:25
 YSE 495 [339 5] (8 min)                       
 DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (1.5min)
 DEBASS/EVERYTHING/2024wye_P1 [346 -9] (1.5min)
 YSE 393 [346 -10] (9 min)                     
 
-!!! 23:50
+!!! 23:45
 YSE 2024rqx [340 -4] (2 min)       
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 E1E2.json [8 -43] (30 min)
 DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (1.5min)
 
-!!! 00:25
+!!! 00:20
 DEBASS/EVERYTHING/2024vyi_P1 [1 0] (1.5min)
 DEBASS/EVERYTHING/2024uoc_P1 [8 -11] (1.5min)
 YSE 296 [17 -17] (17 min)                                        
@@ -79,11 +79,11 @@ YSE 448 [16 3] (17 min)
 DEBASS/EVERYTHING/2024vyd_P1 [9 10] (1.5min)
 DEBASS/EVERYTHING/2024wrn_P1 [20 6] (1.5min)
 
-!!! 01:05
+!!! 01:00
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 140 min 
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
-!!! 03:20
+!!! 03:10
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (1.5min)
 DEBASS/EVERYTHING/2024uns_P1 [37 -7] (1.5min)
 X123.json [34, -4] 34 min 

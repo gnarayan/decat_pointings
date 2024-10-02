@@ -40,19 +40,5 @@
         "comment": "2024tyg",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 308.99168,
-        "dec": -8.13815,
-        "object": "2024tyg_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2024tyg",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

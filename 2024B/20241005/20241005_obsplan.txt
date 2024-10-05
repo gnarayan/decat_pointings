@@ -78,19 +78,11 @@ YSE 296 [17 -17] (17 min)
 YSE 448 [16 3] (17 min)   
 DEBASS/EVERYTHING/2024vyd_P1 [9 10] (2min)
 DEBASS/EVERYTHING/2024wrn_P1 [20 6] (2min)
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (2min)
 
 
 !!! 01:00
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 140 min 
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
-!!! 03:10
-DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
-X123.json [34, -4] 34 min 
-S1S2.json [42,0] 22 min
-DEBASS/EVERYTHING/2024xal_P1 [57 -14] (2min)
-DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (1.5min)
-DEBASS/EVERYTHING/2024wak_P1 [75 -14] (1.5min)
-DEBASS/EVERYTHING/2024wom_P1 [73 -5] (1.5min) OPTIONAL
-
-!!! 04:30 Antonella ToO

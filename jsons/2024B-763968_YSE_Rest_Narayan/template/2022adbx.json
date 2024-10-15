@@ -1,0 +1,58 @@
+[
+	{
+		"count": 1,
+		"filter": "g",
+		"exptime": 30.0,
+		"RA": 170.653710,
+		"dec": 21.262330,
+		"object": "2022adbx_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2022adbx",
+		"wait": "False",
+		"propid": "2024B-763968"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 30.0,
+		"RA": 170.653710,
+		"dec": 21.262330,
+		"object": "2022adbx_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2022adbx",
+		"wait": "False",
+		"propid": "2024B-763968"
+	},
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 30.0,
+		"RA": 170.653710,
+		"dec": 21.262330,
+		"object": "2022adbx_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2022adbx",
+		"wait": "False",
+		"propid": "2024B-763968"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 30.0,
+		"RA": 170.653710,
+		"dec": 21.262330,
+		"object": "2022adbx_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2022adbx",
+		"wait": "False",
+		"propid": "2024B-763968"
+	}
+]

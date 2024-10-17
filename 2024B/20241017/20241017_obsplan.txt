@@ -45,7 +45,7 @@ YSE 2024pxl [263 7] (3 min)              	### high priority
 DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) 
 DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (3min) 
 
-!!! 20:55
+!!! 21:08
 YSE 2024eyo [311 -46] (3 min)           
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	               
@@ -54,13 +54,13 @@ DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min)
 YSE template/2023gqi.json [322, -21] (5 min)
 DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (3min) 
 
-!!! 23:25
+!!! 22:00
 YSE 495 [339 5] (17 min)                       
 DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) 
 DEBASS/EVERYTHING/2024wye_P1 [346 -9] (3min) 
 YSE 393 [346 -10] (17 min)                     
 
-!!! 23:45
+!!! 22:40
 YSE 2024rqx [340 -4] (2 min)       
 DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) 
 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
@@ -69,7 +69,7 @@ YSE template/2022tqx.json [26, -37] (5 min)
 DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (3min) drop g if close to moon to save time
 DEBASS/EVERYTHING/2024txv_P2 [6 -24] (3min) OPTIONAL
 
-!!! 00:20
+!!! 23:35
 DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min) drop g if close to moon to save time
 YSE template/2022jli.json [9 -8] (5 min)
 YSE 296 [17 -17] (17 min)                                        
@@ -77,7 +77,7 @@ YSE 448 [16 3] (9 min)
 DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min) drop g if close to moon to save time
 DEBASS/EVERYTHING/2024wrn_P1 [20 6] (3min) drop g if close to moon to save time
 
-!!! 00:10
+!!! 00:15
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 170 min 
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
@@ -92,12 +92,12 @@ DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min) drop g if close to moon to save tim
 DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (3min) drop g if close to moon to save time
 DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) drop g if close to moon to save time
 
-!!! 04:30
+!!! 04:20
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min 
 YSE 253 [67, -26] 17 min               
 
-!!! 05:00
+!!! 05:05
 Shen SCVZ [90 -66] 13 min                                 # if you are behind schedule, drop exposures here!!
 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!

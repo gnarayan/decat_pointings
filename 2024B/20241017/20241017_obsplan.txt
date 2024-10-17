@@ -96,12 +96,14 @@ DEBASS/EVERYTHING/2024wak_P1 [75 -14] (1.5min)
 DEBASS/EVERYTHING/2024wom_P1 [73 -5] (1.5min) OPTIONAL
 
 !!! 04:30
+YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min 
 YSE 253 [67, -26] 17 min               
 
 !!! 05:00
-Shen SCVZ [90 -66] 13 min 
-2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop ecposure here!!
+Shen SCVZ [90 -66] 13 min                                 # if you are behind schedule, drop exposures here!!
+2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
+YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
 
 !!! 05:57:46 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew

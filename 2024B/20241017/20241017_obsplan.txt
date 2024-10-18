@@ -63,6 +63,7 @@ YSE 393 [346 -10] (17 min)
 !!! 22:40
 YSE 2024rqx [340 -4] (2 min)       
 DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) 
+DEBASS/EVERYTHING/2024yfc_P1 [359 -47] (3min)
 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 E1E2.json [8 -43] (30 min)
 YSE template/2022tqx.json [26, -37] (5 min)
@@ -88,6 +89,7 @@ X123.json [34, -4] 34 min
 S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min) drop g if close to moon to save time
 DEBASS/EVERYTHING/2024vke_P1 [49 -14] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
 DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min) drop g if close to moon to save time
 DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (3min) drop g if close to moon to save time
 DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) drop g if close to moon to save time
@@ -96,6 +98,7 @@ DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) drop g if close to moon to save tim
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min 
 YSE 253 [67, -26] 17 min               
+DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min)
 
 !!! 05:05
 Shen SCVZ [90 -66] 13 min                                 # if you are behind schedule, drop exposures here!!

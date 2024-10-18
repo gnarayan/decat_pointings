@@ -45,6 +45,7 @@
 2023tyl_P3 [25 20]
 2023nzu_P3 [27 22]
 2021abko_P3 [31 23]
+2024yid_P3 [41 -68]
 2024rzp_P3 [36 -7]
 2024uns_P3 [37 -7]
 2023ptg_P3 [38 -5]
@@ -105,5 +106,5 @@
 2022rso_P3 [351 16]
 2022wcm_P3 [358 8]
 
-EVERYTHING	404.5 minutes
+EVERYTHING	411.7 minutes
 EVERYTHING_P1	63.3 minutes

@@ -9,6 +9,7 @@
 2024xal_P1 [57 -14]
 2024vsf_P1 [71 -20]
 2024wak_P1 [75 -14]
+2024xub_P1 [96 -39]
 2024vvz_P1 [298 -18]
 2024tyg_P1 [308 -8]
 2024vny_P1 [323 -22]
@@ -17,6 +18,7 @@
 2024vuy_P1 [336 -2]
 2024ula_P1 [352 -38]
 2024wye_P1 [346 -9]
+2024yfc_P1 [359 -47]
 
 2023mbs_P2 [3 12]
 2024txv_P2 [6 -24]
@@ -106,5 +108,5 @@
 2022rso_P3 [351 16]
 2022wcm_P3 [358 8]
 
-EVERYTHING	410.3 minutes
-EVERYTHING_P1	68.0 minutes
+EVERYTHING	416.9 minutes
+EVERYTHING_P1	75.1 minutes

@@ -1,0 +1,113 @@
+MOON ILLUMINATION: 0.99
+UT -16 deg twilight: 2024-10-18T00:08:28.968 2024-10-18T08:47:51.728
+UT -15 deg twilight: 2024-10-18T00:03:31.100 2024-10-18T08:52:49.895
+UT -14 deg twilight: 2024-10-17T23:58:33.961 2024-10-18T08:57:46.602
+UT -12 deg twilight: 2024-10-17T23:48:44.439 2024-10-18T09:07:35.971
+UT -10 deg twilight: 2024-10-17T23:38:59.771 2024-10-18T09:17:20.462
+LOCAL -16 deg twilight: 10/17/2024,   21:08:28   05:47:51
+LOCAL -15 deg twilight: 10/17/2024,   21:03:31   05:52:49
+LOCAL -14 deg twilight: 10/17/2024,   20:58:33   05:57:46
+LOCAL -12 deg twilight: 10/17/2024,   20:48:44   06:07:35
+LOCAL -10 deg twilight: 10/17/2024,   20:38:59   06:17:20
+LOCAL night MIDPOINT: 10/18/2024,   01:28:10
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+1   ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! 20:58:33 (NOTE: CHILEAN LOCAL TIME!!!)
+YSE 2024pxl [263 7] (3 min)              	### high priority 
+YSE template/2023iks.json [264 7] (5min)
+DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) 
+DEBASS/EVERYTHING/2024tyg_P1 [308 -8] (3min) 
+
+!!! 21:08
+YSE 2024eyo [311 -46] (3 min)           
+YSE 544 [321 9] 17 min                   
+YSE 494 [330 3] 17 min 	               
+DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (3min) 
+DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min) 
+YSE template/2023gqi.json [322, -21] (5 min)
+DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (3min) 
+
+!!! 22:00
+YSE 495 [339 5] (17 min)                       
+DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min) 
+DEBASS/EVERYTHING/2024wye_P1 [346 -9] (3min) 
+YSE 393 [346 -10] (17 min)                     
+
+!!! 22:40
+YSE 2024rqx [340 -4] (2 min)       
+DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) 
+DEBASS/EVERYTHING/2024yfc_P1 [359 -47] (3min)
+2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+E1E2.json [8 -43] (30 min)
+DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024txv_P2 [6 -24] (3min) OPTIONAL
+
+!!! 23:35
+DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min) drop g if close to moon to save time
+YSE template/2022jli.json [9 -8] (5 min)
+YSE 296 [17 -17] (17 min)                                        
+YSE 448 [16 3] (9 min)   
+DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024wrn_P1 [20 6] (3min) drop g if close to moon to save time
+
+!!! 00:15
+decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 170 min 
+#### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
+
+!!! 03:00
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min) drop g if close to moon to save time
+X123.json [34, -4] 34 min 
+S1S2.json [42,0] 22 min
+DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024vke_P1 [49 -14] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) drop g if close to moon to save time
+
+!!! 04:20
+YSE 353 [63 -10] 17 min
+YSE template/2021acxb.json [50, -27] (5min)
+C3 [52, -28] 11 min 
+YSE 253 [67, -26] 17 min               
+DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min)
+
+!!! 05:05
+Shen SCVZ [90 -66] 13 min                                 # if you are behind schedule, drop exposures here!!
+2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
+YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
+
+!!! 05:57:46 (-14 deg twilight)
+### just finish the last exposure that fits into the time of the previous block, and slew
+### to the asteroid fields in time! Otherwise the images will be useless
+### At -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard

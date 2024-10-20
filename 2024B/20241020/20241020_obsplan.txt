@@ -63,42 +63,45 @@ YSE 393 [346 -10] (17 min)
 
 !!! 22:40
 YSE 2024rqx [340 -4] (2 min)       
-DEBASS/EVERYTHING/2024ula_P1 [352 -38] (3min) 
-DEBASS/EVERYTHING/2024yfc_P1 [359 -47] (3min)
+DEBASS/EVERYTHING/2024yfc_P2 [359 -47] (3min) OPTIONAL EXTRA
 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 E1E2.json [8 -43] (30 min)
-DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (3min) drop g if close to moon to save time
-DEBASS/EVERYTHING/2024txv_P2 [6 -24] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (3min) 
+DEBASS/EVERYTHING/2024txv_P1 [6 -24] (3min)
 
 !!! 23:35
-DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min)
 YSE template/2022jli.json [9 -8] (5 min)
+DEBASS/EVERYTHING/2024uoc_P1 [8 -11] (3min)
 YSE 296 [17 -17] (17 min)                                        
+DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min)
 YSE 448 [16 3] (9 min)   
-DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min) drop g if close to moon to save time
-DEBASS/EVERYTHING/2024wrn_P1 [20 6] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min)
+DEBASS/EVERYTHING/2024wrn_P1 [20 6] (3min)
 
 !!! 00:15
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 170 min 
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
 !!! 03:00
-DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min) drop z-band to save time
 X123.json [34, -4] 34 min 
 S1S2.json [42,0] 22 min
-DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min) drop g if close to moon to save time
-DEBASS/EVERYTHING/2024vke_P1 [49 -14] (3min) drop g if close to moon to save time
-DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
-DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min) drop g if close to moon to save time
-DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (3min) drop g if close to moon to save time
-DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) drop g if close to moon to save time
+DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024wuj_P1 [40 4] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024vke_P2 [49 -14] (3min) OPTIONAL EXTRA
+DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024xal_P2 [57 -14] (3min) OPTIONAL EXTRA
+DEBASS/EVERYTHING/2024vsf_P2 [71 -20] (3min) OPTIONAL EXTRA
+DEBASS/EVERYTHING/2024wak_P2 [75 -14] (3min) OPTIONAL EXTRA
+DEBASS/EVERYTHING/2024tvz_P2 [70 -3] (3min) OPTIONAL EXTRA
 
 !!! 04:20
 YSE 353 [63 -10] 17 min
 YSE template/2021acxb.json [50, -27] (5min)
 C3 [52, -28] 11 min 
 YSE 253 [67, -26] 17 min               
-DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min)
+DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min) drop z-band to save time
 
 !!! 05:05
 Shen SCVZ [90 -66] 13 min                                 # if you are behind schedule, drop exposures here!!

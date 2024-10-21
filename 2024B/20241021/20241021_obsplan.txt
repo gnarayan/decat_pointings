@@ -45,38 +45,36 @@ decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_
 #### cut exposures here if behind schedule! Do not go past the time of the start of the next block!!!
 
 !!! 02:09
-DEBASS/EVERYTHING/2024tyz_P1 [328 -29] (2min)
-DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (2min)
-DEBASS/EVERYTHING/2024wye_P1 [346 -9] (2min)
+DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (2.5min) DROP IF NECESSARY
+DEBASS/EVERYTHING/2024wye_P1 [346 -9] (2.5min)
 
 !!! 02:15
-DEBASS/EVERYTHING/2024vyi_P1 [1 0] (2min)
 YSE template/2023okd [6 9] (5min)
-DEBASS/EVERYTHING/2024vyd_P1 [9 10] (2min)
-DEBASS/EVERYTHING/2024wrn_P1 [20 6] (2min)
+DEBASS/EVERYTHING/2024wrn_P1 [20 6] (2.5min)
 YSE 448 [16 3] (9 min)   
+DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (2.5min)
 YSE 296 [17 -17] (8 min)                                        
-DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (2min)
-DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2.5min)
 
-!!! 02:42
+!!! 02:45
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 90 min 
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
-!!! 04:12
+!!! 04:00
 X123.json [34, -4] 34 min 
 YSE template/2022szg [33, -6] (5min)
+DEBASS/EVERYTHING/2024uns_P1 [37 -7] (2.5min)
 S1S2.json [42,0] 22 min
-DEBASS/EVERYTHING/2024wuj_P1 [40 4] (2min)
-DEBASS/EVERYTHING/2024vke_P1 [49 -14] (2min)
-DEBASS/EVERYTHING/2024xal_P1 [57 -14] (2min)
+DEBASS/EVERYTHING/2024xyn_P1 [40 2] (2.5min)
+DEBASS/EVERYTHING/2024wuj_P1 [40 4] (2.5min)
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (2.5min)
 
-!!! 05:14
+!!! 05:10
 C3 [52, -28] 11 min 
+DEBASS/EVERYTHING/2024yid_P1 [41 -68] (2.5min)
 YSE 253 [67, -26] 24 min               
-DEBASS/EVERYTHING/2024vsf_P1 [71 -20] (2min)
-DEBASS/EVERYTHING/2024wom_P1 [73 -5] (2min)
-DEBASS/EVERYTHING/2024wak_P1 [75 -14] (2min)
+DEBASS/EVERYTHING/2024wak_P1 [75 -14] (2.5min)
+DEBASS/EVERYTHING/2024xub_P1 [96 -39] (2.5min)
 
 !!! 05:55
 Shen SCVZ [90 -66] 13 min 

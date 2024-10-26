@@ -42,8 +42,6 @@ LOCAL night MIDPOINT: 10/27/2024,   01:26:54
 
 !!! 21:06:24 (NOTE: CHILEAN LOCAL TIME!!!)
 DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) 
-
-!!! 21:10
 YSE 2024eyo [311 -46] (3 min)           
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	   
@@ -52,7 +50,7 @@ YSE 494 [330 3] 17 min
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 #### cut the extra exposures, do not go past the time of the start of the next block!!!
 
-!!! 22:30
+!!! 22:27
 DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (3min) 
 DEBASS/EVERYTHING/2024vny_P1 [323 -22] (3min) 
 YSE 495 [339 5] (17 min)                       
@@ -70,22 +68,22 @@ YSE template/2022ssj.json [5 -17] (5min)
 !!! 00:00
 DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min) 
 DEBASS/EVERYTHING/2024uoc_P2 [8 -11] (3min) OPTIONAL
-YSE 296 [17 -17] (17 min)                                        
+YSE 296 [17 -17] (9 min)                                        
 DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min) 
-YSE 448 [16 3] (17 min)   
+YSE 448 [16 3] (8 min)   
 DEBASS/EVERYTHING/2024yrj_P1 [4 7] (3min) 
 DEBASS/EVERYTHING/2024vyd_P2 [9 10] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024wrn_P1 [20 6] (3min) 
 
-!!! 00:50
+!!! 00:35
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 170 min 
 
-!!! 03:40
+!!! 03:25
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min) 
 X123.json [34, -4] 34 min 
 S1S2.json [42,0] 22 min
 
-!!! 04:40
+!!! 04:25
 DEBASS/EVERYTHING/2024uqg_P1 [43 8] (3min) skip z-band to save time
 DEBASS/EVERYTHING/2024wuj_P2 [40 4] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min) skip z-band to save time
@@ -97,21 +95,22 @@ YSE template/2021ablx [74 -22] (5min)
 DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) skip z-band to save time
 DEBASS/EVERYTHING/2024tdb_P2 [82 8] (3min) OPTIONAL
 
-!!! 05:10
+!!! 04:57
 ### YSE 353 [63 -10] 17 min
-DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min) skip z-band to save time
 C3 [52, -28] 11 min 
-YSE template/2023mma [62 -27] (5min)
-YSE template/2022aeed [62 -31] (5min)
 ### YSE 253 [67, -26] 17 min               
-DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min) skip z-band to save time
 
-!!! 05:40
+!!! 05:08
 Shen SCVZ [90 -66] 13 min                                 
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 YSE 311 [123 -17] 9 min                                  # if you are behind schedule, drop exposures here!!
 
-!!! 05:54:12 (-14 deg twilight)
+
+!!! 05:30  HIGH PRIORITY!
+2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            # high priority!!!
+
+
+!!! 05:47:25 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

@@ -40,19 +40,5 @@
         "comment": "2024yid",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 41.6312,
-        "dec": -68.4497,
-        "object": "2024yid_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2024yid",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

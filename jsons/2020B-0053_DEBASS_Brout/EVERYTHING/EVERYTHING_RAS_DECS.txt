@@ -6,19 +6,20 @@
 2024wwd_P1 [33 -13]
 2024yid_P1 [41 -68]
 2024xyn_P1 [40 2]
-2024wuj_P1 [40 4]
-2024vke_P1 [49 -14]
+2024vke_P1 [48 -14]
 2024xal_P1 [57 -14]
 2024zao_P1 [55 -6]
 2024wak_P1 [75 -14]
 2024xub_P1 [96 -39]
 2024vyo_P1 [339 -13]
+2024vuy_P1 [336 -2]
 2024wye_P1 [346 -9]
 
 2023mbs_P2 [3 12]
 2023vpo_P2 [7 13]
 2021agjd_P2 [12 14]
 2024vjo_P2 [27 -36]
+2024wuj_P2 [40 4]
 2024vsf_P2 [71 -20]
 2022tvz_P2 [298 -21]
 2023ehl_P2 [307 4]
@@ -96,12 +97,11 @@
 2024soh_P3 [334 -32]
 2021yzz_P3 [331 -19]
 2021zax_P3 [333 13]
-2024vuy_P3 [336 -2]
 2021yrz_P3 [338 19]
 2022vpn_P3 [335 25]
 2022mhe_P3 [352 8]
 2022rso_P3 [351 16]
 2022wcm_P3 [358 8]
 
-EVERYTHING	398.4 minutes
-EVERYTHING_P1	56.6 minutes
+EVERYTHING	385.6 minutes
+EVERYTHING_P1	45.1 minutes

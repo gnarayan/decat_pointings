@@ -41,43 +41,49 @@ LOCAL night MIDPOINT: 10/24/2024,   01:27:13
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
 !!!! 01:27:13 night midpoint!
-DEBASS/EVERYTHING/2024wye_P1 [346 -9] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (2min)
+DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (2min)
+DEBASS/EVERYTHING/2024wye_P1 [346 -9] (2min)
 
-!!! 01:33
-DEBASS/EVERYTHING/2024yrj_P1 [4 7] (3min) drop z-band to save time
-DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min) drop z-band to save time
-DEBASS/EVERYTHING/2024wrn_P1 [20 6] (3min) drop z-band to save time
+!!! 01:34
+DEBASS/EVERYTHING/2024vyi_P1 [1 0] (2min)
+DEBASS/EVERYTHING/2024yrj_P1 [4 7] (2min)
+DEBASS/EVERYTHING/2024vyd_P1 [9 10] (2min)
+DEBASS/EVERYTHING/2024wrn_P1 [20 6] (2min)
 YSE 448 [16 3] (17 min)
-DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (2min)
+DEBASS/EVERYTHING/2024vjo_P2 [27 -36] (2min) OPTIONAL
 
 !!! 02:05
 YSE 296 [17 -17] (17 min)                                        
-DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
 
 !!! 02:25
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 85 min 
 #### cut exposures here, not all exposures will fit into this block! Do not go past the time of the start of the next block!!!
 
-!!! 03:50
+!!! 03:40
 X123.json [34, -4] 34 min 
 S1S2.json [42,0] 22 min
-DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min) drop z-band to save time
-DEBASS/EVERYTHING/2024wuj_P2 [40 4] OPTIONAL
-DEBASS/EVERYTHING/2024uqg_P1 [43 8] (3min) drop z-band to save time
-DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024xyn_P1 [40 2] (2min)
+DEBASS/EVERYTHING/2024wuj_P2 [40 4] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024vke_P1 [48 -14] (2min)
+DEBASS/EVERYTHING/2024zao_P1 [55 -6] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (2min)
 
-!!! 04:56
+!!! 04:46
 C3 [52, -28] 11 min 
 YSE template/2023mma [62 -27] (5min)
 YSE template/2022aeed [62 -31] (5min)
 YSE 253 [67, -26] 8 min               
-DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024vsf_P2 [71 -20] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024wak_P1 [75 -14] (2min)
 ### YSE 353 [63, -10] 17 min
 
 !!! 05:15
-DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024yid_P1 [41 -68] (2min)
 Shen SCVZ [90 -66] 13 min 
-DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min) drop z-band to save time
+DEBASS/EVERYTHING/2024xub_P1 [96 -39] (2min)
 YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
 !!! finish this block at -14 deg twilight, do not go over!! Otherwise the twilight asteroid observations are useless!
 

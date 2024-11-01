@@ -40,29 +40,30 @@ LOCAL night MIDPOINT: 11/02/2024,   01:26:38
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
+
 !!! 21:12:05 (NOTE: CHILEAN LOCAL TIME!!!)
-DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) 
-YSE 2024eyo [311 -46] (3 min)
-YSE template/2023gqi.json [322 -21] (5min)           
-YSE 544 [321 9] 17 min                   
-YSE 494 [330 3] 17 min 	   
-DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min)
+### DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min) 
+### YSE 2024eyo [311 -46] (3 min)
+### YSE template/2023gqi.json [322 -21] (5min)           
+### YSE 544 [321 9] 17 min                   
+### YSE 494 [330 3] 17 min 	   
+### DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min)
 
 #### !!! 21:47 RRL_Medina RRL_Medina [327 -22] (40 min)
 #### decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 #### cut the extra exposures, do not go past the time of the start of the next block!!!
 
-!!! 22:01
+### YSE template/2022pdq.json [355 -9] (5min)
+
+!!! 22:37 (NOTE: CHILEAN LOCAL TIME!!!)
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+### E1E2.json [8 -43] (30 min)
+### YSE template/2023E [19 -50] (5 min)
+DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min)
 YSE 495 [339 5] (17 min)                       
 YSE 2024rqx [340 -4] (4 min)       
 DEBASS/EVERYTHING/2024wye_P1 [346 -9] (3min)
 YSE 393 [346 -10] (17 min)
-YSE template/2022pdq.json [355 -9] (5min)
-
-!!! 22:47
-### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-E1E2.json [8 -43] (30 min)
-YSE template/2023E [19 -50] (5 min)
 
 
 !!! 23:23

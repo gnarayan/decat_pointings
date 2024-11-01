@@ -7,8 +7,11 @@
 2024yid_P1 [41 -68]
 2024xyn_P1 [40 2]
 2024wuj_P1 [40 4]
+2024zsj_P1 [51 -19]
 2024xal_P1 [57 -14]
+2024zol_P1 [101 -42]
 2024xub_P1 [96 -39]
+2024zom_P1 [99 -37]
 2024vvz_P1 [298 -18]
 2024vyo_P1 [339 -13]
 2024vuy_P1 [336 -2]
@@ -52,7 +55,6 @@
 2024sae_P3 [45 -5]
 2021addd_P3 [48 5]
 2023olz_P3 [54 15]
-2024zao_P3 [55 -6]
 2024vsf_P3 [71 -20]
 2022wpy_P3 [72 -4]
 2023cvn_P3 [79 6]
@@ -103,5 +105,5 @@
 2022rso_P3 [351 16]
 2022wcm_P3 [358 8]
 
-EVERYTHING	397.4 minutes
-EVERYTHING_P1	52.9 minutes
+EVERYTHING	403.0 minutes
+EVERYTHING_P1	62.7 minutes

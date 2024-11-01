@@ -26,5 +26,33 @@
         "comment": "2024xal",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 5.0,
+        "RA": 57.03711,
+        "dec": -14.46217,
+        "object": "2024xal_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2024xal",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 5.0,
+        "RA": 57.03711,
+        "dec": -14.46217,
+        "object": "2024xal_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2024xal",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

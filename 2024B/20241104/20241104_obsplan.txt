@@ -1,0 +1,95 @@
+MOON ILLUMINATION: 0.55
+UT -16 deg twilight: 2024-10-11T00:02:47.272 2024-10-11T08:56:42.617
+UT -15 deg twilight: 2024-10-10T23:57:54.618 2024-10-11T09:01:34.650
+UT -14 deg twilight: 2024-10-10T23:53:04.067 2024-10-11T09:06:25.550
+UT -12 deg twilight: 2024-10-10T23:43:25.139 2024-10-11T09:16:04.207
+UT -10 deg twilight: 2024-10-10T23:33:49.985 2024-10-11T09:25:39.085
+LOCAL -16 deg twilight: 10/10/2024,   21:02:47   05:56:42
+LOCAL -15 deg twilight: 10/10/2024,   20:57:54   06:01:34
+LOCAL -14 deg twilight: 10/10/2024,   20:53:04   06:06:25
+LOCAL -12 deg twilight: 10/10/2024,   20:43:25   06:16:04
+LOCAL -10 deg twilight: 10/10/2024,   20:33:49   06:25:39
+LOCAL night MIDPOINT: 10/11/2024,   01:29:44
+
+********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+1   ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! 20:53:04 (NOTE: CHILEAN LOCAL TIME!!!)
+DEBASS/EVERYTHING/2024ufz_P1 [231 -37] (2min)
+YSE 2024pxl [263 7] (3 min)              	### high priority 
+### YSE 2024eyo [311 -46] (3 min)           
+DEBASS/EVERYTHING/2024vny_P2 [323 -22] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024tyz_P2 [328 -29] (2min) OPTIONAL
+YSE 544 [321 9] 9 min
+YSE template/2021zfs.json	[323 5]    (5min)              
+DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (2min)
+DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (2min)
+
+
+!!! 21:13 RRL_Medina RRL_Medina [327 -22] (90 min)
+#### This does not fit into 90 min, cut whatever doesn't fit, do not go past 22:45pm!!!
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
+decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
+#### cut exposures here! Do not go past the time of the start of the next block!!!
+
+!!! 22:45
+YSE 494 [330 3] 9 min
+YSE 495 [339 5] (9 min)                       
+DEBASS/EVERYTHING/2024wye_P1 [346 -9] (2min)
+YSE 393 [346 -10] (9 min)                     
+DEBASS/EVERYTHING/2024vyi_P1 [1 0] (2min)
+
+!!! 23:17
+### YSE 2024rqx [340 -4] (2 min)       
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+E1E2.json [8 -43] (30 min)
+DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (2min)
+DEBASS/EVERYTHING/2024txv_P2 [6 -24] (2min) OPTIONAL
+
+!!! 23:50
+DEBASS/EVERYTHING/2024uoc_P2 [8 -11] (2min) OPTIONAL
+YSE 296 [17 -17] (17 min)                       ### cut exposures here if necessary                 
+YSE 448 [16 3] (17 min)                         ### cut exposures here if necessary
+DEBASS/EVERYTHING/2024vyd_P1 [9 10] (2min)
+DEBASS/EVERYTHING/2024wrn_P1 [20 6] (2min)
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
+DEBASS/EVERYTHING/2024vke_P1 [48 -14] (2min)
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (2min)
+
+!!! 00:30  ### you can only do a part of this program!
+decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 40 min 
+#### cut exposures here, not all exposures will fit into this block! 
+
+!!! 1:23
+DEBASS/EVERYTHING/2024wuj_P1 [40 4] (2min) HIGH PRIORITY TO SQUEEZE IN BEFORE MIDPOINT
+YSE template/2022xoz.json	[43	6] (5 min)
+DEBASS/EVERYTHING/2024wak_P1 [75 -14] (2min) HIGH PRIORITY TO SQUEEZE IN BEFORE MIDPOINT
+DEBASS/EVERYTHING/2024vsf_P2 [71 -20] (2min) OPTIONAL
+
+midpoint 01:29:44

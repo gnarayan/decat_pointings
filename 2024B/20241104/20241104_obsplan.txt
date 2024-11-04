@@ -1,19 +1,19 @@
-MOON ILLUMINATION: 0.55
-UT -16 deg twilight: 2024-10-11T00:02:47.272 2024-10-11T08:56:42.617
-UT -15 deg twilight: 2024-10-10T23:57:54.618 2024-10-11T09:01:34.650
-UT -14 deg twilight: 2024-10-10T23:53:04.067 2024-10-11T09:06:25.550
-UT -12 deg twilight: 2024-10-10T23:43:25.139 2024-10-11T09:16:04.207
-UT -10 deg twilight: 2024-10-10T23:33:49.985 2024-10-11T09:25:39.085
-LOCAL -16 deg twilight: 10/10/2024,   21:02:47   05:56:42
-LOCAL -15 deg twilight: 10/10/2024,   20:57:54   06:01:34
-LOCAL -14 deg twilight: 10/10/2024,   20:53:04   06:06:25
-LOCAL -12 deg twilight: 10/10/2024,   20:43:25   06:16:04
-LOCAL -10 deg twilight: 10/10/2024,   20:33:49   06:25:39
-LOCAL night MIDPOINT: 10/11/2024,   01:29:44
+MOON ILLUMINATION: 0.13
+UT -16 deg twilight: 2024-11-05T00:25:36.217 2024-11-05T08:27:44.893
+UT -15 deg twilight: 2024-11-05T00:20:18.667 2024-11-05T08:33:03.368
+UT -14 deg twilight: 2024-11-05T00:15:02.675 2024-11-05T08:38:18.792
+UT -12 deg twilight: 2024-11-05T00:04:38.263 2024-11-05T08:48:42.902
+UT -10 deg twilight: 2024-11-04T23:54:21.933 2024-11-05T08:58:59.089
+LOCAL -16 deg twilight: 11/04/2024,   21:25:36   05:27:44
+LOCAL -15 deg twilight: 11/04/2024,   21:20:18   05:33:03
+LOCAL -14 deg twilight: 11/04/2024,   21:15:02   05:38:18
+LOCAL -12 deg twilight: 11/04/2024,   21:04:38   05:48:42
+LOCAL -10 deg twilight: 11/04/2024,   20:54:21   05:58:59
+LOCAL night MIDPOINT: 11/05/2024,   01:26:40
 
 ********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
-*** Note: Local Chilean time is now EDT+1   ***
+*** Note: Local Chilean time is now EDT+2 ***
 *********************************************
 
 *********************************************************
@@ -40,56 +40,50 @@ LOCAL night MIDPOINT: 10/11/2024,   01:29:44
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! 20:53:04 (NOTE: CHILEAN LOCAL TIME!!!)
-DEBASS/EVERYTHING/2024ufz_P1 [231 -37] (2min)
-YSE 2024pxl [263 7] (3 min)              	### high priority 
+!!! after pointing ~21:00 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+
+!!! 21:15:02 (NOTE: CHILEAN LOCAL TIME!!!)
+### YSE 2024pxl [263 7] (3 min)              	### high priority 
 ### YSE 2024eyo [311 -46] (3 min)           
-DEBASS/EVERYTHING/2024vny_P2 [323 -22] (2min) OPTIONAL
-DEBASS/EVERYTHING/2024tyz_P2 [328 -29] (2min) OPTIONAL
-YSE 544 [321 9] 9 min
+YSE 544 [321 9] 17 min
 YSE template/2021zfs.json	[323 5]    (5min)              
-DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (2min)
-DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (2min)
 
 
-!!! 21:13 RRL_Medina RRL_Medina [327 -22] (90 min)
+#### !!! 21:13 RRL_Medina RRL_Medina [327 -22] (90 min)
 #### This does not fit into 90 min, cut whatever doesn't fit, do not go past 22:45pm!!!
-decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
-decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json ### YES, run it again!
+#### decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 #### cut exposures here! Do not go past the time of the start of the next block!!!
 
-!!! 22:45
-YSE 494 [330 3] 9 min
-YSE 495 [339 5] (9 min)                       
+!!! 21:40
+YSE 494 [330 3] 17 min
+YSE 495 [339 5] (17 min)                       
+DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (2min)
+DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (2min)
 DEBASS/EVERYTHING/2024wye_P1 [346 -9] (2min)
-YSE 393 [346 -10] (9 min)                     
+YSE 393 [346 -10] (17 min)                     
 DEBASS/EVERYTHING/2024vyi_P1 [1 0] (2min)
 
-!!! 23:17
+!!! 22:40
 ### YSE 2024rqx [340 -4] (2 min)       
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 E1E2.json [8 -43] (30 min)
 DEBASS/EVERYTHING/2024vjo_P1 [27 -36] (2min)
 DEBASS/EVERYTHING/2024txv_P2 [6 -24] (2min) OPTIONAL
 
-!!! 23:50
-DEBASS/EVERYTHING/2024uoc_P2 [8 -11] (2min) OPTIONAL
-YSE 296 [17 -17] (17 min)                       ### cut exposures here if necessary                 
-YSE 448 [16 3] (17 min)                         ### cut exposures here if necessary
-DEBASS/EVERYTHING/2024vyd_P1 [9 10] (2min)
-DEBASS/EVERYTHING/2024wrn_P1 [20 6] (2min)
-DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
-DEBASS/EVERYTHING/2024vke_P1 [48 -14] (2min)
-DEBASS/EVERYTHING/2024xal_P1 [57 -14] (2min)
+!!! 23:15
+YSE 296 [17 -17] (17 min)                                    
+YSE 448 [16 3] (17 min)                         
 
-!!! 00:30  ### you can only do a part of this program!
+!!! 23:45
+X123.json [34, -4] 34 min 
+S1S2.json [42,0] 22 min
+
+!!! 00:42  ### you can only do a part of this program!
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 40 min 
-#### cut exposures here, not all exposures will fit into this block! 
 
-!!! 1:23
-DEBASS/EVERYTHING/2024wuj_P1 [40 4] (2min) HIGH PRIORITY TO SQUEEZE IN BEFORE MIDPOINT
-YSE template/2022xoz.json	[43	6] (5 min)
-DEBASS/EVERYTHING/2024wak_P1 [75 -14] (2min) HIGH PRIORITY TO SQUEEZE IN BEFORE MIDPOINT
-DEBASS/EVERYTHING/2024vsf_P2 [71 -20] (2min) OPTIONAL
-
-midpoint 01:29:44
+!!!! midpoint 01:26:40

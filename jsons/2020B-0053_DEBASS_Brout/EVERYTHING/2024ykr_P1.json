@@ -40,5 +40,19 @@
         "comment": "2024ykr",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 17.79413,
+        "dec": -6.45935,
+        "object": "2024ykr_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2024ykr",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

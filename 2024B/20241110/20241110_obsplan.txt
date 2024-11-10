@@ -1,19 +1,19 @@
-MOON ILLUMINATION: 0.01
-UT -16 deg twilight: 2024-11-02T00:22:32.331 2024-11-02T08:30:43.677
-UT -15 deg twilight: 2024-11-02T00:17:17.050 2024-11-02T08:35:58.171
-UT -14 deg twilight: 2024-11-02T00:12:05.671 2024-11-02T08:41:10.421
-UT -12 deg twilight: 2024-11-02T00:01:47.528 2024-11-02T08:51:28.697
-UT -10 deg twilight: 2024-11-01T23:51:36.921 2024-11-02T09:01:39.418
-LOCAL -16 deg twilight: 11/01/2024,   21:22:32   05:30:43
-LOCAL -15 deg twilight: 11/01/2024,   21:17:17   05:35:58
-LOCAL -14 deg twilight: 11/01/2024,   21:12:05   05:41:10
-LOCAL -12 deg twilight: 11/01/2024,   21:01:47   05:51:28
-LOCAL -10 deg twilight: 11/01/2024,   20:51:36   06:01:39
-LOCAL night MIDPOINT: 11/02/2024,   01:26:38
+MOON ILLUMINATION: 0.72
+UT -16 deg twilight: 2024-11-11T00:31:56.626 2024-11-11T08:22:19.569
+UT -15 deg twilight: 2024-11-11T00:26:29.758 2024-11-11T08:27:45.606
+UT -14 deg twilight: 2024-11-11T00:21:07.953 2024-11-11T08:33:08.835
+UT -12 deg twilight: 2024-11-11T00:10:29.955 2024-11-11T08:43:46.626
+UT -10 deg twilight: 2024-11-11T00:00:01.370 2024-11-11T08:54:14.666
+LOCAL -16 deg twilight: 11/10/2024,   21:31:56   05:22:19
+LOCAL -15 deg twilight: 11/10/2024,   21:26:29   05:27:45
+LOCAL -14 deg twilight: 11/10/2024,   21:21:07   05:33:08
+LOCAL -12 deg twilight: 11/10/2024,   21:10:29   05:43:46
+LOCAL -10 deg twilight: 11/10/2024,   21:00:01   05:54:14
+LOCAL night MIDPOINT: 11/11/2024,   01:27:08
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
-*** Note: Local Chilean time is now EDT+1   ***
+*** Note: Local Chilean time is now EDT+2 ***
 *********************************************
 
 *********************************************************
@@ -40,73 +40,81 @@ LOCAL night MIDPOINT: 11/02/2024,   01:26:38
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
+!!! after pointing ~21:05 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
 
-!!! 21:12:05 (NOTE: CHILEAN LOCAL TIME!!!)
+
+!!! 21:21:07 (NOTE: CHILEAN LOCAL TIME!!!)
 DEBASS/EVERYTHING/2024vvz_P1 [298 -18] (3min)
-### YSE 2024eyo [311 -46] (3 min)
-YSE template/2023opn [311 13]
-### YSE 544 [321 9] 17 min                   
-### YSE 494 [330 3] 17 min 	   
+YSE 2024eyo [311 -46] (3 min)
+YSE 440	[314 -4] 8 min         
+YSE template/2023opn [311 13] (5 min)
+YSE 544 [321 9] 8 min                   
+### YSE 494 [330 3] 8 min 	   
 
 #### !!! 21:47 RRL_Medina RRL_Medina [327 -22] (40 min)
 #### decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 #### cut the extra exposures, do not go past the time of the start of the next block!!!
 
 
-!!! 22:37 (NOTE: CHILEAN LOCAL TIME!!!)
+!!! 21:50 (NOTE: CHILEAN LOCAL TIME!!!)
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-### E1E2.json [8 -43] (30 min)
+E1E2.json [8 -43] (30 min)
 YSE template/2023E [19 -50] (5 min)
-YSE 495 [339 5] (17 min)                       
-YSE 2024rqx [340 -4] (4 min)       
-YSE 393 [346 -10] (17 min)
+### YSE 495 [339 5] (17 min)                       
+### YSE 2024rqx [340 -4] (4 min)       
+### YSE 393 [346 -10] (17 min)
 
 
-!!! 23:23
-YSE 448 [16 3] (17 min)   
+!!! 22:25
+YSE 448 [16 3] (17 min)                   ### skip i band exposures if behind schedule
 DEBASS/EVERYTHING/2024yrj_P1 [4 7] (3min)
-YSE 296 [17 -17] (17 min)                                        
+YSE 296 [17 -17] (17 min)                 ### skip i band exposures if behind schedule                       
 YSE template/2023mbs [3 13] (5 min)
 DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (3min)
 DEBASS/EVERYTHING/2024wrn_P2 [20 6] (3min) skip if necessary
 
-!!! 00:17
+!!! 23:11
 decat_pointings/jsons/2024B-388081_WFD_Nugent/240???/wfd_seq_?.json [34 -3] 170 min 
 
-!!! 03:07
+!!! 02:02
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min)
 X123.json [34, -4] 34 min 
 S1S2.json [42,0] 22 min
 
-!!! 04:07
+!!! 03:00
 DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min)
 DEBASS/EVERYTHING/2024zsj_P1 [51 -19] (3min)
 DEBASS/EVERYTHING/2024vke_P2 [48 -14] (3min) skip if necessary
 DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min)
 DEBASS/EVERYTHING/2024wak_P1 [75 -14] (3min)
 
-!!! 04:19
-YSE 353 [63 -10] 8 min
+!!! 03:15
+YSE 353 [63 -10] 17 min
 YSE template/2023crx [69 0] (5 min) 
 C3 [52, -28] 11 min 
 DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
 YSE 253 [67, -26] 17 min
 DEBASS/EVERYTHING/2024vsf_P2 [71 -20] (3min) skip if necessary              
 
-!!! 04:59
+!!! 04:07
 Shen SCVZ [90 -66] 13 min                                 
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min)
-### YSE 311 [123 -17] 8 min                                  # if you are behind schedule, drop exposures here!!
+YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
 DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)
 
 
-!!! 05:25  HIGH PRIORITY!
+!!! 04:46  HIGH PRIORITY!
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            # high priority!!!
-#2024B-441839_EtaCar_Rest/etale.r.15min.json  [161, -60] 15 min            # high priority!!!
+2024B-441839_EtaCar_Rest/etale.r.15min.json  [161, -60] 15 min            # high priority!!!
+2024B-441839_EtaCar_Rest/etale.z.15min.json  [161, -60] 15 min            
 
-!!! 05:41:10 (-14 deg twilight)
+!!! 05:33:08 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

@@ -13,7 +13,7 @@ LOCAL night MIDPOINT: 11/08/2024,   01:26:50
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
-*** Note: Local Chilean time is now EDT+1   ***
+*** Note: Local Chilean time is now EDT+2 ***
 *********************************************
 
 *********************************************************

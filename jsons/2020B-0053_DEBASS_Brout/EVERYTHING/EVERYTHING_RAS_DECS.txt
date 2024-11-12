@@ -2,9 +2,11 @@
 2024yid_P1 [41 -68]
 2024zsj_P1 [51 -19]
 2024xal_P1 [57 -14]
+2024aarv_P1 [85 -25]
 2024aatk_P1 [128 -19]
 2024aaur_P1 [147 -6]
 2024aatr_P1 [152 4]
+2024aarg_P1 [325 -21]
 2024vyo_P1 [339 -13]
 2024aasu_P1 [353 -15]
 2024wye_P1 [346 -9]
@@ -109,5 +111,5 @@
 2022rso_P3 [351 16]
 2022wcm_P3 [358 8]
 
-EVERYTHING	412.2 minutes
-EVERYTHING_P1	33.7 minutes
+EVERYTHING	418.6 minutes
+EVERYTHING_P1	41.7 minutes

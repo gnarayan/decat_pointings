@@ -107,7 +107,7 @@ DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)
 DEBASS/EVERYTHING/2024aatr_P1 [152 4] (3min)
 
 !!! 05:11
-2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            # high priority!!!  
+2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
 ### etale.i.set1.74min.json [160 -60] 74 min  ### do whatever you can from this script!
 
 !!! 05:27:04 (-14 deg twilight)

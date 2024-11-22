@@ -56,7 +56,7 @@ decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_
 YSE 440	[314 -4] 17 min
 YSE 544 [321 9] 17 min                   
 YSE 494 [330 3] 17 min 	   
-DEBASS/EVERYTHING/2024vuy_P1 [336 -2] (3min)
+DEBASS/EVERYTHING/2024vuy_P2 [336 -2] DROP IF NECESSARY
 YSE template/2023nuv [340 -1] (5min)
 
 !!! 23:13
@@ -67,34 +67,34 @@ YSE template/2022xaw [343 16] (5min)
 YSE template/2022wsp [345 16] (5min)
 YSE template/2023mjx [347 22] (5min)
 YSE template/2022quf [349 21] (5min)
+DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min)
 
 
-!!! 00:00
-DEBASS/EVERYTHING/2024vyo_P1 [339 -13] (3min)
+!!! 00:05
+DEBASS/EVERYTHING/2024vyo_P2 [339 -13] DROP IF NECESSARY
 DEBASS/EVERYTHING/2024wye_P1 [346 -9] (3min)
 YSE 393 [346 -10] (17 min)
-DEBASS/EVERYTHING/2024vyi_P1 [1 0] (3min)
 DEBASS/EVERYTHING/2024yrj_P1 [4 7] (3min)
-DEBASS/EVERYTHING/2024vyd_P2 [9 10] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024vyd_P1 [9 10] (3min)
 YSE template/2022ppj [12 20] (5min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (3min)
 
-!!! 00:34
+!!! 00:40
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 YSE template/2023E [19 -50] (5min)
 E1E2.json [8 -43] (30 min)
 YSE template/2023aaqu [6 -52] (5min)
 ### YSE 2024rqx [340 -4] (4 min)       
 
-!!! 01:14
+!!! 01:20
 YSE 448 [16 3] (17 min)
 YSE template/2022jzx [16 -4] (5min)
 YSE template/2022qke [16 -2] (5min)
-DEBASS/EVERYTHING/2024wrn_P1 [20 6] (3min)
+DEBASS/EVERYTHING/2024wrn_P2 [20 6] DROP IF NECESSARY
 DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min)
 YSE 296 [17 -17] (17 min)                 
 
-!!! 02:04
+!!! 02:10
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min)
 X123.json [34, -4] 34 min
 ### X123_moon.json [34, -4] 23 min
@@ -102,15 +102,15 @@ S1S2.json [42,0] 22 min
 YSE template/2022xoz [43 6] (5min)
 YSE template/2021addd [49 5] (5min)
 DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min)
-DEBASS/EVERYTHING/2024wuj_P2 [40 4] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024wuj_P2 [40 4] DROP IF NECESSARY
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 03:20
+!!! 03:25
 YSE template/2021zqo [45 -19] (5min)
 DEBASS/EVERYTHING/2024zsj_P1 [51 -19] (3min)
 DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min)
 
-!!! 03:31
+!!! 03:35
 YSE 353 [63 -10] 17 min
 YSE template/2023crx [69 0] (5 min)
 YSE template/2021acxb [50 -27] (5 min)
@@ -118,15 +118,13 @@ C3 [52, -28] 11 min
 YSE 253 [67, -26] 17 min
 YSE template/2021ablx [74 -22] (5min)
 
-!!! 04:31
+!!! 04:35
 DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
 Shen SCVZ [90 -66] 13 min                                 
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min)
 DEBASS/EVERYTHING/2024aatk_P1 [128 -19] (3min)
 ### YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
-DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)
-DEBASS/EVERYTHING/2024aatr_P1 [152 4] (3min)
 
 !!! 05:00
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min

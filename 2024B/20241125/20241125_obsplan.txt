@@ -116,6 +116,10 @@ YSE template/2021acxb [50 -27] (5 min)
 C3 [52, -28] 11 min
 YSE 253 [67, -26] 17 min
 
+### ARMIN - PLEASE SEE - CAN WE ADD THESE TWO AS YSE FIELDS
+# Close enough to C3 - SkyCoord(53.125, -28.1, unit='deg', frame='icrs')
+# EDFS: SkyCoord(59.1004, -48.73, unit='deg', frame='icrs')
+
 !!! 04:35
 DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
 Shen SCVZ [90 -66] 13 min                                 

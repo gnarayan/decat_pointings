@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.48
-UT -16 deg twilight: 2024-11-23T00:44:50.125 2024-11-23T08:14:15.706
-UT -15 deg twilight: 2024-11-23T00:39:09.831 2024-11-23T08:19:56.859
-UT -14 deg twilight: 2024-11-23T00:33:32.524 2024-11-23T08:25:34.553
-UT -12 deg twilight: 2024-11-23T00:22:28.418 2024-11-23T08:36:38.967
-UT -10 deg twilight: 2024-11-23T00:11:36.166 2024-11-23T08:47:30.701
-LOCAL -16 deg twilight: 11/22/2024,   21:44:50   05:14:15
-LOCAL -15 deg twilight: 11/22/2024,   21:39:09   05:19:56
-LOCAL -14 deg twilight: 11/22/2024,   21:33:32   05:25:34
-LOCAL -12 deg twilight: 11/22/2024,   21:22:28   05:36:38
-LOCAL -10 deg twilight: 11/22/2024,   21:11:36   05:47:30
-LOCAL night MIDPOINT: 11/23/2024,   01:29:32
+MOON ILLUMINATION: 0.22
+UT -16 deg twilight: 2024-11-26T00:48:00.361 2024-11-26T08:12:56.783
+UT -15 deg twilight: 2024-11-26T00:42:16.219 2024-11-26T08:18:40.482
+UT -14 deg twilight: 2024-11-26T00:36:34.585 2024-11-26T08:24:20.696
+UT -12 deg twilight: 2024-11-26T00:25:24.585 2024-11-26T08:35:31.333
+UT -10 deg twilight: 2024-11-26T00:14:27.257 2024-11-26T08:46:29.936
+LOCAL -16 deg twilight: 11/25/2024,   21:48:00   05:12:56
+LOCAL -15 deg twilight: 11/25/2024,   21:42:16   05:18:40
+LOCAL -14 deg twilight: 11/25/2024,   21:36:34   05:24:20
+LOCAL -12 deg twilight: 11/25/2024,   21:25:24   05:35:31
+LOCAL -10 deg twilight: 11/25/2024,   21:14:27   05:46:29
+LOCAL night MIDPOINT: 11/26/2024,   01:30:28
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -46,28 +46,27 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
+!!! 21:36:34
+DEBASS/EVERYTHING/2024abnb_P1 [316 4] (3min)
+YSE template/2023mjx [347 22] (5min)
+YSE template/2022quf [349 21] (5min)
+YSE template/2022wsp [345 16] (5min)
+DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min) HIGH PRIORITY
+YSE template/2022xaw [343 16] (5min)
+YSE template/2022xqq [342 12] (5min)    
+YSE template/2023ozl [341 11] (5min)
+YSE template/2023nuv [340 -1] (5min)
 
-!!! 21:33:32 (NOTE: CHILEAN LOCAL TIME!!!)
-!!! RRL_Medina RRL_Medina [327 -22] (40 min)
+!!! 22:18
+YSE 494 [330 3] 9 min 	   
+YSE 495 [339 5] 9 min
+
+!!! 22:36 (NOTE: CHILEAN LOCAL TIME!!!)
+!!! RRL_Medina RRL_Medina [327 -22] (30 min)
 decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 #### cut the extra exposures, do not go past the time of the start of the next block!!!
 
-!!! 22:13
-YSE 440	[314 -4] 17 min
-DEBASS/EVERYTHING/2024abnb_P1 [316 4] (3min)
-YSE 544 [321 9] 17 min                   
-YSE 494 [330 3] 17 min 	   
-YSE template/2023nuv [340 -1] (5min)
-
-!!! 23:13
-YSE 495 [339 5] 17 min
-
-YSE template/2023mjx [347 22] (5min)
-YSE template/2022quf [349 21] (5min)
-DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min) HIGH PRIORITY
-
-
-!!! 00:05
+!!! 23:06
 DEBASS/EVERYTHING/2024wye_P2 [346 -9] (3min) OPTIONAL
 YSE 393 [346 -10] (17 min)
 YSE template/2022mop [353 -3] (5min)
@@ -78,50 +77,52 @@ DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min)
 YSE template/2022ppj [12 20] (5min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (3min)
 
-!!! 00:40
+!!! 23:06
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 YSE template/2023E [19 -50] (5min)
 YSE template/2023aaqu [6 -51] (5min)
 E1E2.json [8 -43] (30 min)
-### YSE 2024rqx [340 -4] (4 min)       
+YSE 2024rqx [340 -4] (4 min)       
 
-!!! 01:20
+!!! 23:51
 YSE 448 [16 3] (17 min)
 DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min)
 YSE 296 [17 -17] (17 min)   
 YSE template/2023ndf [23 -18] (5min)              
 
-!!! 02:10
+!!! 00:33
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min)
 YSE template/2022abgg [36 -9] (5min)
 YSE template/2022szg [33 -6] (5min)
 X123.json [34, -4] 34 min
 ### X123_moon.json [34, -4] 23 min
+
+!!! 01:20
 DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min)
 S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min)
 YSE template/2022abic [45 -4] (5min)
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 03:25
+!!! 01:53
+YSE template/2021acxb [50 -27] (5 min)
 DEBASS/EVERYTHING/2024zsj_P1 [51 -19] (3min)
 DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min)
 
-!!! 03:35
+!!! 02:05
 YSE 353 [63 -10] 17 min
 YSE template/2023crx [69 0] (5 min)
-YSE template/2021acxb [50 -27] (5 min)
 C3 [52, -28] 11 min
+YSE ECDFS [53 -28] (5min)
 YSE 253 [67, -26] 17 min
 
-### ARMIN - PLEASE SEE - CAN WE ADD THESE TWO AS YSE FIELDS
-# Close enough to C3 - SkyCoord(53.125, -28.1, unit='deg', frame='icrs')
-# EDFS: SkyCoord(59.1004, -48.73, unit='deg', frame='icrs')
-
-!!! 04:35
+!!! 03:00
 DEBASS/EVERYTHING/2024abtj_P1 [46 -36] (3min)
 DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
+YSE ECDFS [59 -48] (5min)
 Shen SCVZ [90 -66] 13 min                                 
+
+!!! 03:25
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 DEBASS/EVERYTHING/2024xub_P1 [96 -39] (3min)
 DEBASS/EVERYTHING/2024abti_P1 [100 -47] (3min)
@@ -129,18 +130,20 @@ YSE template/2022qi [98 -18] (5min)
 YSE template/2022whp [100 -22] (5min)
 YSE template/2021hef [107 -24] (5min)
 DEBASS/EVERYTHING/2024aatk_P1 [128 -19] (3min)
-### YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
+YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
 
-!!! 05:00
+!!! 04:07
 DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)
 DEBASS/EVERYTHING/2024aatr_P1 [152 4] (3min)
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 
-### !!! 05:09
-### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
+!!! 04:44
+2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
+2024B-441839_EtaCar_Rest/etale.r.15min.json  [161, -60] 15 min            
+2024B-441839_EtaCar_Rest/etale.z.15min.json  [161, -60] 15 min            
 ### etale.i.set1.74min.json [160 -60] 74 min  ### do whatever you can from this script!
 
-!!! 05:25:34 (-14 deg twilight)
+!!! 05:24:20 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

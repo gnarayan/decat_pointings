@@ -48,14 +48,7 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 21:36:34
 DEBASS/EVERYTHING/2024abnb_P1 [316 4] (2min)
-YSE template/2023mjx [347 22] (5min)
-YSE template/2022quf [349 21] (5min)
-YSE template/2022wsp [345 16] (5min)
 DEBASS/EVERYTHING/2024abnh_P1 [356 13] (2min)
-YSE template/2022xaw [343 16] (5min)
-YSE template/2022xqq [342 12] (5min)    
-YSE template/2023ozl [341 11] (5min)
-YSE template/2023nuv [340 -1] (5min)
 
 
 !!! 22:18
@@ -71,19 +64,14 @@ decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_
 DEBASS/EVERYTHING/2024acen_P1 [332 -14] (2min)
 DEBASS/EVERYTHING/2024acfx_P1 [346 -18] (2min)
 YSE 393 [346 -10] (17 min)
-YSE template/2022mop [353 -3] (5min)
-YSE template/2023wsr [354 -3] (5min)
-YSE template/2023joj [354 -4] (5min)
+YSE template/2022mxv [358 20] (5min)
 DEBASS/EVERYTHING/2024yrj_P2 [4 7] (2min) OPTIONAL
 DEBASS/EVERYTHING/2024abnm_P1 [9 4] (2min)
-YSE template/2022ppj [12 20] (5min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (2min)
 DEBASS/EVERYTHING/2024acde_P1 [29 -2] (2min)
 
 !!! 23:06
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-YSE template/2023E [19 -50] (5min)
-YSE template/2023aaqu [6 -51] (5min)
 E1E2.json [8 -43] (30 min)
 YSE 2024rqx [340 -4] (4 min)       
 
@@ -91,19 +79,15 @@ YSE 2024rqx [340 -4] (4 min)
 YSE 448 [16 3] (17 min)
 DEBASS/EVERYTHING/2024ykr_P2 [17 -6] (2min) OPTIONAL
 YSE 296 [17 -17] (17 min)   
-YSE template/2023ndf [23 -18] (5min)              
 
 !!! 00:33
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
-YSE template/2022abgg [36 -9] (5min)
-YSE template/2022szg [33 -6] (5min)
 X123.json [34, -4] 34 min
 ### X123_moon.json [34, -4] 23 min
 
 !!! 01:20
 DEBASS/EVERYTHING/2024abrm_P1 [31 6] (2min)
 S1S2.json [42,0] 22 min
-YSE template/2022abic [45 -4] (5min)
 DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (2min)
 DEBASS/EVERYTHING/2024zsj_P2 [51 -19] (2min) OPTIONAL
 DEBASS/EVERYTHING/2024xal_P2 [57 -14] (2min) OPTIONAL

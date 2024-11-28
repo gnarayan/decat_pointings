@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.22
-UT -16 deg twilight: 2024-11-26T00:48:00.361 2024-11-26T08:12:56.783
-UT -15 deg twilight: 2024-11-26T00:42:16.219 2024-11-26T08:18:40.482
-UT -14 deg twilight: 2024-11-26T00:36:34.585 2024-11-26T08:24:20.696
-UT -12 deg twilight: 2024-11-26T00:25:24.585 2024-11-26T08:35:31.333
-UT -10 deg twilight: 2024-11-26T00:14:27.257 2024-11-26T08:46:29.936
-LOCAL -16 deg twilight: 11/25/2024,   21:48:00   05:12:56
-LOCAL -15 deg twilight: 11/25/2024,   21:42:16   05:18:40
-LOCAL -14 deg twilight: 11/25/2024,   21:36:34   05:24:20
-LOCAL -12 deg twilight: 11/25/2024,   21:25:24   05:35:31
-LOCAL -10 deg twilight: 11/25/2024,   21:14:27   05:46:29
-LOCAL night MIDPOINT: 11/26/2024,   01:30:28
+MOON ILLUMINATION: 0.04
+UT -16 deg twilight: 2024-11-29T00:51:06.076 2024-11-29T08:11:53.501
+UT -15 deg twilight: 2024-11-29T00:45:17.141 2024-11-29T08:17:41.843
+UT -14 deg twilight: 2024-11-29T00:39:34.423 2024-11-29T08:23:26.375
+UT -12 deg twilight: 2024-11-29T00:28:17.858 2024-11-29T08:34:41.393
+UT -10 deg twilight: 2024-11-29T00:17:14.490 2024-11-29T08:45:44.226
+LOCAL -16 deg twilight: 11/28/2024,   21:51:06   05:11:53
+LOCAL -15 deg twilight: 11/28/2024,   21:45:17   05:17:41
+LOCAL -14 deg twilight: 11/28/2024,   21:39:34   05:23:26
+LOCAL -12 deg twilight: 11/28/2024,   21:28:17   05:34:41
+LOCAL -10 deg twilight: 11/28/2024,   21:17:14   05:45:44
+LOCAL night MIDPOINT: 11/29/2024,   01:31:29
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -46,48 +46,52 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 21:36:34
-DEBASS/EVERYTHING/2024abnb_P1 [316 4] (2min)
+!!! 21:38:00
+kleyna/2024-07/Kleyna2024-07-28_sunset.json (50.0 minutes) 
+PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
+Exactly 4 passes should be possible in 50m, from empirical 83s time per field
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.
+
+!!! 22:28:00
+YSE template/2022mxv [358 20] (5min)
 DEBASS/EVERYTHING/2024abnh_P1 [356 13] (2min)
 
+!!! 22:35
+YSE 494 [330 3] 17 min 	   
+YSE 495 [339 5] 17 min
 
-!!! 22:18
-YSE 494 [330 3] 9 min 	   
-YSE 495 [339 5] 9 min
-
-!!! 22:36 (NOTE: CHILEAN LOCAL TIME!!!)
-!!! RRL_Medina RRL_Medina [327 -22] (30 min)
-decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
+#### !!! 22:36 (NOTE: CHILEAN LOCAL TIME!!!)
+#### !!! RRL_Medina RRL_Medina [327 -22] (30 min)
+#### decat_pointings/jsons/2024B-252974_RRL_Medina/DDMMYYYY/2024B-252974_allfields_r_LastUpdate_nogaps.json
 #### cut the extra exposures, do not go past the time of the start of the next block!!!
 
-!!! 23:06
+!!! 23:10
 DEBASS/EVERYTHING/2024acen_P1 [332 -14] (2min)
+GW MMADS [341 -76] 5 min   GWMMADS_S240908bs_g_60_sorted.json  GWMMADS_S240908bs_i_80_sorted.json
 DEBASS/EVERYTHING/2024acfx_P1 [346 -18] (2min)
 YSE 393 [346 -10] (17 min)
-YSE template/2022mxv [358 20] (5min)
-DEBASS/EVERYTHING/2024yrj_P2 [4 7] (2min) OPTIONAL
 DEBASS/EVERYTHING/2024abnm_P1 [9 4] (2min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (2min)
 DEBASS/EVERYTHING/2024acde_P1 [29 -2] (2min)
 
-!!! 23:06
+!!! 23:40
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 E1E2.json [8 -43] (30 min)
-YSE 2024rqx [340 -4] (4 min)       
+### YSE 2024rqx [340 -4] (4 min)       
 
-!!! 23:51
+!!! 00:10
 YSE 448 [16 3] (17 min)
-DEBASS/EVERYTHING/2024ykr_P2 [17 -6] (2min) OPTIONAL
-YSE 296 [17 -17] (17 min)   
+YSE 296 [17 -17] (9 min)   
 
-!!! 00:33
+!!! 00:35
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
 X123.json [34, -4] 34 min
 ### X123_moon.json [34, -4] 23 min
 
-!!! 01:20
+!!! 01:14
 DEBASS/EVERYTHING/2024abrm_P1 [31 6] (2min)
-S1S2.json [42,0] 22 min
+### S1S2.json [42,0] 22 min
 DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (2min)
 DEBASS/EVERYTHING/2024zsj_P2 [51 -19] (2min) OPTIONAL
 DEBASS/EVERYTHING/2024xal_P2 [57 -14] (2min) OPTIONAL
@@ -97,4 +101,4 @@ DEBASS/EVERYTHING/2024abti_P1 [100 -47] (2min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024aatk_P1 [128 -19] (2min) HIGH PRIORITY
 ### S1S2_moon.json [42,0] 15 min
 
-MIDPOINT
+MIDPOINT 01:31:29

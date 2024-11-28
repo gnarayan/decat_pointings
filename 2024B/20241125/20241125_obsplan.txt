@@ -130,7 +130,7 @@ YSE template/2022qi [98 -18] (5min)
 YSE template/2022whp [100 -22] (5min)
 YSE template/2021hef [107 -24] (5min)
 DEBASS/EVERYTHING/2024aatk_P1 [128 -19] (3min)
-YSE 311 [123 -17] 17 min                                  # if you are behind schedule, drop exposures here!!
+YSE 311 [123 -17] 17 min                                  
 
 !!! 04:07
 DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)

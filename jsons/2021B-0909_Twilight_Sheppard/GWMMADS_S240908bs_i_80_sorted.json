@@ -1,0 +1,17 @@
+[
+    {
+        "RA": 340.89924999999994,
+        "dec": -75.98686111111111,
+        "filter": "i",
+        "exptime": 80,
+        "count": 1,
+        "object": "S240908bs",
+        "program": "GW-MMADS",
+        "expType": "object",
+        "note": "None",
+        "comment": "2023B-851374",
+        "wait": "False",
+        "proposer": "Andreoni Palmese",
+        "propid": "2023B-851374"
+    }
+]

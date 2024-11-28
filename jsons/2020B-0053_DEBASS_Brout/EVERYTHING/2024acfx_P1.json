@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 346.96796,
+        "dec": -18.05463,
+        "object": "2024acfx_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2024acfx",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 346.96796,
+        "dec": -18.05463,
+        "object": "2024acfx_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2024acfx",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

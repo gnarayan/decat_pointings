@@ -4031,6 +4031,23 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024pxl  -d 241128 -e 10 -n 1 --sortby
 git add 241128
 git add 241128/*.json
 
+mkdir 20241201
+cp 20241125/20241125_obsplan.txt 20241201/20241201_obsplan.txt 
+subl 20241201/20241201_obsplan.txt
+git add 20241201/20241201_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r    494 -d 241201 
+mkjson_yse_nofilterswitch.py  -f g,r    495 393 -d 241201 
+mkjson_yse_nofilterswitch.py  -f g,r  296 448  -d 241201 
+mkjson_yse_nofilterswitch.py  -f g,r  253 353 -d 241201 
+mkjson_yse_nofilterswitch.py  -f g,r,i ECDFS EDFS  -d 241201 
+mkjson_yse_nofilterswitch.py  -f g,i  311   -d 241201 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 241201 -e 10 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024pco 2024rqx -d 241201 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024pxl  -d 241201 -e 10 -n 1 --sortbyra
+git add 241201
+git add 241201/*.json
+
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2024B-763968_YSE_Rest_Narayan
 
 YSE_pointings2fieldcenters.py --addSN 2024rqx 340.4844792     -3.9116917  -vv --overw

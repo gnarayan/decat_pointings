@@ -1,0 +1,85 @@
+MOON ILLUMINATION: 0.16
+UT -16 deg twilight: 2024-12-05T00:56:55.020 2024-12-05T08:10:47.020
+UT -15 deg twilight: 2024-12-05T00:51:02.198 2024-12-05T08:16:40.625
+UT -14 deg twilight: 2024-12-05T00:45:11.991 2024-12-05T08:22:29.068
+UT -12 deg twilight: 2024-12-05T00:33:46.577 2024-12-05T08:33:55.214
+UT -10 deg twilight: 2024-12-05T00:22:35.051 2024-12-05T08:45:08.078
+LOCAL -16 deg twilight: 12/04/2024,   21:56:55   05:10:47
+LOCAL -15 deg twilight: 12/04/2024,   21:51:02   05:16:40
+LOCAL -14 deg twilight: 12/04/2024,   21:45:11   05:22:29
+LOCAL -12 deg twilight: 12/04/2024,   21:33:46   05:33:55
+LOCAL -10 deg twilight: 12/04/2024,   21:22:35   05:45:08
+LOCAL night MIDPOINT: 12/05/2024,   01:33:51
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! 01:33:51
+DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min)
+S1S2.json [42,0] 22 min
+### S1S2_moon.json [42,0] 15 min
+
+!!! 02:00
+DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min)
+DEBASS/EVERYTHING/2024zsj_P1 [51 -19] (3min) 
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min)
+
+!!! 02:10
+YSE 353 [63 -10] 17 min
+C3 [52, -28] 11 min
+YSE ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
+YSE 253 [67, -26] 17 min
+
+!!! 03:01
+DEBASS/EVERYTHING/2024abtj_P1 [46 -36] (3min)
+YSE EDFS [59 -48] (5min)  ### NOTE: NOT ECDFS!!!
+DEBASS/EVERYTHING/2024acac_P1 [85 -41] (3min)
+### Shen SCVZ [90 -66] 13 min                                 
+
+!!! 03:13
+### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
+YSE 311 [123 -17] 17 min                                  
+
+!!! 04:31
+DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)
+2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
+
+!!! 05:06
+2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
+### 2024B-441839_EtaCar_Rest/etale.r.15min.json  [161, -60] 15 min            
+### 2024B-441839_EtaCar_Rest/etale.z.15min.json  [161, -60] 15 min            
+### 2024B-441839_EtaCar_Rest/etale.g.30min.json  [161, -60] 30 min            
+### etale.i.set1.42min.A.json [160 -60] 42 min  
+
+!!! 05:22:29 (-14 deg twilight)
+### just finish the last exposure that fits into the time of the previous block, and slew
+### to the asteroid fields in time! Otherwise the images will be useless
+### At -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard

@@ -4054,7 +4054,7 @@ subl 20241204/20241204_obsplan.txt
 git add 20241204/20241204_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f g,r    494 -d 241204 
 mkjson_yse_nofilterswitch.py  -f g,r    495 393 -d 241204 
-mkjson_yse_nofilterswitch.py  -f g,i  296 448  -d 241204 
+mkjson_yse_nofilterswitch.py  -f g  296 448  -d 241204 
 mkjson_yse_nofilterswitch.py  -f g,i  253 353 -d 241204 
 mkjson_yse_nofilterswitch.py  -f g,r,i ECDFS EDFS  -d 241204 
 mkjson_yse_nofilterswitch.py  -f g,r  311   -d 241204 

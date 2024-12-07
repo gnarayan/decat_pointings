@@ -47,22 +47,23 @@ jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
 !!! 21:47:48
+GWMADDS 5 min
 DEBASS/EVERYTHING/2024abnh_P1 [356 13] (2min)
 DEBASS/EVERYTHING/2024abnm_P1 [9 4] (2min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (2min)
 
-!!! 21:55
-2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+!!! 22:00
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 DEBASS/EVERYTHING/2024acyg_P1 [0 -62] (2min) DROP IF NECCESSARY
 ### E1E2.json [8 -43] (30 min)
 DEBASS/EVERYTHING/2024adjw_P1 [6 -23] (2min) DROP IF NECCESSARY
 ### YSE 2024rqx [340 -4] (4 min)       
 
-!!! 22:12
+!!! 22:04
 YSE 448 [16 3] (9 min)
 YSE 296 [17 -17] (9 min)   
 
-!!! 22:30
+!!! 22:22
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min) DROP IF NECCESSARY
 DEBASS/EVERYTHING/2024acde_P1 [29 -2] (2min)
 DEBASS/EVERYTHING/2024abrm_P1 [31 6] (2min)
@@ -70,7 +71,7 @@ YSE template/2022wsu [34 18] (5min)
 YSE template/2023nnx [36 20] (5min)
 YSE template/2022xkt [38 22] (5min)
 
-!!! 22:51
+!!! 22:43
 DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (2min)
 DEBASS/EVERYTHING/2024zsj_P1 [51 -19] (2min) DROP IF NECCESSARY
 DEBASS/EVERYTHING/2024abtj_P1 [46 -36] (2min)
@@ -79,18 +80,18 @@ DEBASS/EVERYTHING/2024abti_P1 [100 -47] (2min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024actb_P1 [100 -22] (2min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024aatk_P1 [128 -19] (2min) HIGH PRIORITY
 
-!!! 23:07
+!!! 22:58
 X123.json [34, -4] 34 min
 S1S2.json [42,0] 22 min
 
-!!! 00:13
+!!! 00:04
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
 YSE 253 [67, -26] 17 min
 YSE EDFS [59 -48] (5min)  ### NOTE: NOT ECDFS!!!
 
-!!! 01:08
+!!! 01:00
 2024B-441839_EtaCar_Rest/lmc.30min.json [79 -70] 30 min   # if you are behind schedule, drop exposures here!!
 
 middle of the night: 01:35:09

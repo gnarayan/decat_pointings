@@ -1,0 +1,14 @@
+[
+ {
+  "propid": "2023B-809270",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "JKt001",
+  "expTime": 120.00,
+  "filter": "r",
+  "count": 3,
+  "epoch": 2000.00,
+  "RA": "12:51:32.00",
+  "dec": "-02:14:36.0"
+ }
+]

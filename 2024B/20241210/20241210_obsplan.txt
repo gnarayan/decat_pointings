@@ -78,21 +78,21 @@ DEBASS/EVERYTHING/2024acyg_P1 [0 -62] (3min)
 E1E2.json [8 -43] (30 min)
 ### YSE 2024rqx [340 -4] (4 min)       
 
-!!! 23:20
+!!! 23:25
 ### YSE 448 [16 3] (17 min)
 ### DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min) 
 YSE 296 [17 -17] (17 min)   
 
-!!! 23:40
+!!! 23:42
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min)
 ### X123.json [34, -4] 34 min
 X123_moon.json [34, -4] 23 min
 
-!!! 00:06
+!!! 00:10
 ### S1S2.json [42,0] 22 min
 S1S2_moon.json [42,0] 15 min
 
-!!! 00:24
+!!! 00:26
 DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min)
 DEBASS/EVERYTHING/2024xal_P3 [57 -14] (3min) OPTIONAL
 

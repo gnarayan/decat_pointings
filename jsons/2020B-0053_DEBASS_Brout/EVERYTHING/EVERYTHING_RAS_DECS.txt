@@ -1,16 +1,17 @@
 2024acyg_P1 [0 -62]
-2024adjw_P1 [6 -22]
 2024wwd_P1 [33 -13]
 2024yid_P1 [41 -68]
 2024abtj_P1 [46 -36]
 2024abtt_P1 [47 -11]
 2024acac_P1 [85 -41]
 2024abti_P1 [100 -47]
+2024adqc_P1 [104 -27]
 2024actb_P1 [100 -22]
 2024aatk_P1 [128 -19]
 2024aaur_P1 [147 -6]
 2024aatr_P1 [152 4]
 2024acrh_P1 [169 -14]
+2024adix_P1 [170 20]
 2024abnh_P1 [356 13]
 
 2023mbs_P2 [3 12]
@@ -111,5 +112,5 @@
 2022rso_P3 [351 16]
 2022wcm_P3 [358 8]
 
-EVERYTHING	419.4 minutes
-EVERYTHING_P1	47.4 minutes
+EVERYTHING	425.8 minutes
+EVERYTHING_P1	51.0 minutes

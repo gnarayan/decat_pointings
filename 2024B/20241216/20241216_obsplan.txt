@@ -54,29 +54,30 @@ Script will finish on its own or at -14 deg twilight.
 ### If not, please skip to next observable field, or wait if too difficult.
 
 !!! 21:54:25
-DEBASS/EVERYTHING/2024acen_P1 [332 -14] (3min)
-DEBASS/EVERYTHING/2024wye_P1 [346 -9] (3min)
+DEBASS/EVERYTHING/2024wye_P2 [346 -9] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024adwg_P1 [349 -2] (3min)
 YSE 393 [346 -10] (17 min)
-DEBASS/EVERYTHING/2024acfx_P1 [346 -18] (3min)
-DEBASS/EVERYTHING/2024yrj_P1 [4 7] (3min) 
+DEBASS/EVERYTHING/2024yrj_P1 [4 7] (3min)
 DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (3min)
 
 !!! 22:30
 DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min)
 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-DEBASS/EVERYTHING/2024acyg_P1 [0 -62] (3min)
 E1E2.json [8 -43] (30 min)
 ### YSE 2024rqx [340 -4] (4 min)       
 
-!!! 23:18
+!!! 23:15
 YSE 448 [16 3] (17 min)
-DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min) 
+DEBASS/EVERYTHING/2024ykr_P1 [17 -6] (3min)
 YSE 296 [17 -17] (17 min)   
 
 !!! 23:55
-DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min)
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min) DROP IF NECESSARY
+DEBASS/EVERYTHING/2024acde_P1 [29 -2] (3min)
 X123.json [34, -4] 34 min
+DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min)
+DEBASS/EVERYTHING/2024xyn_P1 [40 2] (3min)
 ### X123_moon.json [34, -4] 23 min
 
 !!! 00:32
@@ -85,23 +86,22 @@ S1S2.json [42,0] 22 min
 
 !!! 00:55
 DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min)
-DEBASS/EVERYTHING/2024xal_P3 [57 -14] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024xal_P1 [57 -14] (3min) DROP IF NECESSARY
+DEBASS/EVERYTHING/2024zsj_P1 [51 -19] (3min)
 
-!!! 01:01
+!!! 01:04
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
 YSE 253 [67, -26] 17 min
 
-!!! 01:52
+!!! 01:54
 DEBASS/EVERYTHING/2024abtj_P1 [46 -36] (3min)
 YSE EDFS [59 -48] (5min)  ### NOTE: NOT ECDFS!!!
-DEBASS/EVERYTHING/2024yid_P1 [41 -68] (3min)
 DEBASS/EVERYTHING/2024acac_P1 [85 -41] (3min)
-DEBASS/EVERYTHING/2024xub_P2 [96 -39] (3min) 
 Shen SCVZ [90 -66] 13 min                                 
 
-!!! 02:22
+!!! 02:20
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 2024B-441839_EtaCar_Rest/lmc2.13min.json [79 -70] 13 min 
 DEBASS/EVERYTHING/2024abti_P1 [100 -47] (3min)
@@ -110,10 +110,11 @@ DEBASS/EVERYTHING/2024actb_P1 [100 -22] (3min)
 DEBASS/EVERYTHING/2024aatk_P1 [128 -19] (3min)
 YSE 311 [123 -17] 17 min                                  
 
-!!! 03:05
+!!! 03:03
 DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)
 DEBASS/EVERYTHING/2024aatr_P1 [152 4] (3min)
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
+DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min)
 DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (3min)
 DEBASS/EVERYTHING/2024adix_P1 [170 20] (3min)
 

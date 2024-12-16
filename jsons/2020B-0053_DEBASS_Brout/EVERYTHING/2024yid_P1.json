@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 41.65898,
         "dec": -68.4497,
         "object": "2024yid_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 41.65898,
         "dec": -68.4497,
         "object": "2024yid_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 30.0,
+        "exptime": 15.0,
         "RA": 41.65898,
         "dec": -68.4497,
         "object": "2024yid_P1",

@@ -1,20 +1,6 @@
 [
     {
         "count": 1,
-        "filter": "g",
-        "exptime": 15.0,
-        "RA": 85.01889,
-        "dec": -41.88614,
-        "object": "2024acac_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2024acac",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
         "filter": "r",
         "exptime": 15.0,
         "RA": 85.01889,
@@ -30,20 +16,6 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 15.0,
-        "RA": 85.01889,
-        "dec": -41.88614,
-        "object": "2024acac_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2024acac",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
         "exptime": 15.0,
         "RA": 85.01889,
         "dec": -41.88614,

@@ -77,6 +77,7 @@ DEBASS/EVERYTHING/2024acrh_P2 [169 -14] (2min) OPTIONAL; please try to squeeze i
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
 2024B-441839_EtaCar_Rest/etale.r.15min.json  [161, -60] 15 min            
 2024B-441839_EtaCar_Rest/etale.z.15min.json  [161, -60] 15 min            
+2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min   # skip this one if behind schedule!         
 ### 2024B-441839_EtaCar_Rest/etale.g.30min.json  [161, -60] 30 min            
 
 !!! 05:25:09 (-14 deg twilight)

@@ -45,17 +45,18 @@ Start with Pointing the Telescope to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
+!!! finish the script 1 or 2 min early so that you can squeeze in the next target! 
 
 !!! 21:54 SQEEZE THIS SN IN!
 DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min)
 
-!!! 21:56:10
+!!! 21:57:10
 kleyna/2024-??/Kleyna2024-??-??_sunset.json (50.0 minutes) 
 PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
 Exactly 4 passes should be possible in 50m, from empirical 83s time per field
 Some fields may be at telescope pointing limit but should be observable
 If not, please skip to next observable field, or wait if too difficult.
-!!! The next targets are setting, so make sure you stop at 22:46 with this field!!! 
+!!! The next targets are setting, so make sure you stop at 22:47 with this field!!! 
 
 !!! 22:47
 ### YSE 2024rqx [340 -4] (4 min)       

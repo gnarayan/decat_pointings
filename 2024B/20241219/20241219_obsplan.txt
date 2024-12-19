@@ -129,6 +129,7 @@ EXTRA TIME!
 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min            
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min            
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min            
+### YSE 525 [189 10] (17 min)
 
 !!! 05:25:36 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew

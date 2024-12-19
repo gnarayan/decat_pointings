@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.95
-UT -16 deg twilight: 2024-12-17T01:06:21.766 2024-12-17T08:12:27.024
-UT -15 deg twilight: 2024-12-17T01:00:22.321 2024-12-17T08:18:26.500
-UT -14 deg twilight: 2024-12-17T00:54:25.902 2024-12-17T08:24:21.836
-UT -12 deg twilight: 2024-12-17T00:42:48.852 2024-12-17T08:36:00.772
-UT -10 deg twilight: 2024-12-17T00:31:26.877 2024-12-17T08:47:21.954
-LOCAL -16 deg twilight: 12/16/2024,   22:06:21   05:12:27
-LOCAL -15 deg twilight: 12/16/2024,   22:00:22   05:18:26
-LOCAL -14 deg twilight: 12/16/2024,   21:54:25   05:24:21
-LOCAL -12 deg twilight: 12/16/2024,   21:42:48   05:36:00
-LOCAL -10 deg twilight: 12/16/2024,   21:31:26   05:47:21
-LOCAL night MIDPOINT: 12/17/2024,   01:39:24
+MOON ILLUMINATION: 0.75
+UT -16 deg twilight: 2024-12-20T01:08:07.887 2024-12-20T08:13:40.900
+UT -15 deg twilight: 2024-12-20T01:02:07.023 2024-12-20T08:19:40.655
+UT -14 deg twilight: 2024-12-20T00:56:10.105 2024-12-20T08:25:36.281
+UT -12 deg twilight: 2024-12-20T00:44:31.977 2024-12-20T08:37:15.804
+UT -10 deg twilight: 2024-12-20T00:33:09.635 2024-12-20T08:48:38.034
+LOCAL -16 deg twilight: 12/19/2024,   22:08:07   05:13:40
+LOCAL -15 deg twilight: 12/19/2024,   22:02:07   05:19:40
+LOCAL -14 deg twilight: 12/19/2024,   21:56:10   05:25:36
+LOCAL -12 deg twilight: 12/19/2024,   21:44:31   05:37:15
+LOCAL -10 deg twilight: 12/19/2024,   21:33:09   05:48:38
+LOCAL night MIDPOINT: 12/20/2024,   01:40:54
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -46,84 +46,89 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-### !!! 21:47:48
-### kleyna/2024-??/Kleyna2024-??-??_sunset.json (50.0 minutes) 
-### PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
-### Exactly 4 passes should be possible in 50m, from empirical 83s time per field
-### Some fields may be at telescope pointing limit but should be observable
-### If not, please skip to next observable field, or wait if too difficult.
+!!! 21:54 SQEEZE THIS SN IN!
+DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min)
 
-!!! 21:54:25
+!!! 21:56:10
+kleyna/2024-??/Kleyna2024-??-??_sunset.json (50.0 minutes) 
+PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
+Exactly 4 passes should be possible in 50m, from empirical 83s time per field
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.
+!!! The next targets are setting, so make sure you stop at 22:46 with this field!!! 
+
+!!! 22:47
+### YSE 2024rqx [340 -4] (4 min)       
+### YSE 393 [346 -10] (17 min)
+### The following will be high airmass but should be still doable
 DEBASS/EVERYTHING/2024wye_P1 [346 -9] (3min)
-YSE 393 [346 -10] (17 min)
 DEBASS/EVERYTHING/2024yrj_P2 [4 7] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min)
 DEBASS/EVERYTHING/2024aalj_P1 [14 8] (3min)
 
-!!! 22:30
-DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min)
-2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+!!! 22:59
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 E1E2.json [8 -43] (30 min)
-DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (3min)
-### YSE 2024rqx [340 -4] (4 min)       
 
-!!! 23:15
+!!! 23:29
 YSE 448 [16 3] (17 min)
+DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min)
 YSE 296 [17 -17] (17 min)   
+DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (3min)
 DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (3min)
 
-!!! 23:55
+!!! 00:13
 DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (3min)
 DEBASS/EVERYTHING/2024acde_P1 [29 -2] (3min)
-X123.json [34, -4] 34 min
 DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min)
-DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min)
 DEBASS/EVERYTHING/2024xyn_P2 [40 2] (3min) OPTIONAL
+X123.json [34, -4] 34 min
 ### X123_moon.json [34, -4] 23 min
 
-!!! 00:32
+!!! 01:00
 S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 00:55
+!!! 01:22
 DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min)
 DEBASS/EVERYTHING/2024xal_P2 [57 -14] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024zsj_P2 [51 -19] (3min) OPTIONAL
 
-!!! 01:04
+!!! 01:32
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
 YSE 253 [67, -26] 17 min
 
-!!! 01:54
+!!! 02:22
 DEBASS/EVERYTHING/2024abtj_P1 [46 -36] (3min)
-YSE EDFS [59 -48] (5min)  ### NOTE: NOT ECDFS!!!
+YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 DEBASS/EVERYTHING/2024acac_P1 [85 -41] (3min)
 Shen SCVZ [90 -66] 13 min                                 
 
-!!! 02:20
+!!! 02:47
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
-2024B-441839_EtaCar_Rest/lmc2.13min.json [79 -70] 13 min 
 DEBASS/EVERYTHING/2024abti_P1 [100 -47] (3min)
 DEBASS/EVERYTHING/2024actb_P1 [100 -22] (3min)
 DEBASS/EVERYTHING/2024aatk_P1 [128 -19] (3min)
 YSE 311 [123 -17] 17 min                                  
 
-!!! 03:03
+!!! 03:14
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min)
 DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (3min)
 
-!!! 03:50
-### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
-### 2024B-441839_EtaCar_Rest/etale.r.15min.json  [161, -60] 15 min            
-### 2024B-441839_EtaCar_Rest/etale.z.15min.json  [161, -60] 15 min            
-### 2024B-441839_EtaCar_Rest/etale.g.30min.json  [161, -60] 30 min            
-2024B-441839_EtaCar_Rest/etale.i.set3.44min.A.json  (50 min)
-2024B-441839_EtaCar_Rest/etale.i.set4.40min.A.json  (40 min) ### do whatever you can from this script! Do NOT go into the next block!
+!!! 03:52
 
-!!! 05:24:21 (-14 deg twilight)
+EXTRA TIME!
+
+!!! 04:35
+### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
+2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min            
+### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min            
+2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min            
+
+!!! 05:25:36 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

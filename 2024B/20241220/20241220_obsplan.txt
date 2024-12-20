@@ -1,0 +1,91 @@
+MOON ILLUMINATION: 0.66
+UT -16 deg twilight: 2024-12-21T01:08:39.442 2024-12-21T08:14:09.614
+UT -15 deg twilight: 2024-12-21T01:02:38.265 2024-12-21T08:20:09.391
+UT -14 deg twilight: 2024-12-21T00:56:41.730 2024-12-21T08:26:05.042
+UT -12 deg twilight: 2024-12-21T00:45:03.027 2024-12-21T08:37:44.617
+UT -10 deg twilight: 2024-12-21T00:33:40.733 2024-12-21T08:49:06.935
+LOCAL -16 deg twilight: 12/20/2024,   22:08:39   05:14:09
+LOCAL -15 deg twilight: 12/20/2024,   22:02:38   05:20:09
+LOCAL -14 deg twilight: 12/20/2024,   21:56:41   05:26:05
+LOCAL -12 deg twilight: 12/20/2024,   21:45:03   05:37:44
+LOCAL -10 deg twilight: 12/20/2024,   21:33:40   05:49:06
+LOCAL night MIDPOINT: 12/21/2024,   01:41:24
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! 01:41:24
+DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (2min)
+DEBASS/EVERYTHING/2024wwd_P1 [33 -13] (2min)
+DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (2min)
+DEBASS/EVERYTHING/2024abtj_P1 [46 -36] (2min)
+DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (2min)
+S1S2.json [42,0] 22 min
+### S1S2_moon.json [42,0] 15 min
+
+!!! 02:12
+C3 [52, -28] 11 min
+YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
+DEBASS/EVERYTHING/2024xal_P2 [57 -14] (2min) DROP IF NECESSARY
+YSE 353 [63 -10] 17 min
+YSE 253 [67, -26] 17 min
+
+!!! 03:06
+YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
+DEBASS/EVERYTHING/2024acac_P1 [85 -41] (2min)
+Shen SCVZ [90 -66] 13 min                                 
+DEBASS/EVERYTHING/2024abti_P1 [100 -47] (2min)
+DEBASS/EVERYTHING/2024actb_P1 [100 -22] (2min) HIGH PRIORITY
+
+!!! 03:31
+### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
+YSE 412 [116 -2] 25 min              
+YSE 311 [123 -17] 25 min                                  
+DEBASS/EVERYTHING/2024aatk_P2 [128 -19] (2min) HIGH PRIORITY
+
+!!! 03:50
+2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
+DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (2min) HIGH PRIORITY
+DEBASS/EVERYTHING/2024acrh_P2 [169 -14] (2min) OPTIONAL; please try to squeeze in
+
+!!! 04:25
+2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
+### 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min            
+2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min            
+### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min            
+
+### YSE 525 [189 10] (17 min)
+
+
+!!! 05:25:09 (-14 deg twilight)
+### just finish the last exposure that fits into the time of the previous block, and slew
+### to the asteroid fields in time! Otherwise the images will be useless
+### At -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+jsons/2021B-0909_Twilight_Sheppard

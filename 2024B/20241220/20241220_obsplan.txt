@@ -49,32 +49,32 @@ DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (2min)
 S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 02:12
+!!! 02:15
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
 DEBASS/EVERYTHING/2024xal_P2 [57 -14] (2min) DROP IF NECESSARY
 YSE 353 [63 -10] 17 min
 YSE 253 [67, -26] 17 min
 
-!!! 03:06
+!!! 03:09
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 DEBASS/EVERYTHING/2024acac_P1 [85 -41] (2min)
 Shen SCVZ [90 -66] 13 min                                 
 DEBASS/EVERYTHING/2024abti_P1 [100 -47] (2min)
 DEBASS/EVERYTHING/2024actb_P1 [100 -22] (2min) HIGH PRIORITY
 
-!!! 03:31
+!!! 03:35
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 YSE 412 [116 -2] 25 min              
 YSE 311 [123 -17] 25 min                                  
 DEBASS/EVERYTHING/2024aatk_P2 [128 -19] (2min) HIGH PRIORITY
 
-!!! 03:50
+!!! 04:28
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (2min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024acrh_P2 [169 -14] (2min) OPTIONAL; please try to squeeze in
 
-!!! 04:25
+!!! 05:03
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min            
 ### 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min            
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min            
@@ -83,7 +83,7 @@ DEBASS/EVERYTHING/2024acrh_P2 [169 -14] (2min) OPTIONAL; please try to squeeze i
 ### YSE 525 [189 10] (17 min)
 
 
-!!! 05:25:09 (-14 deg twilight)
+!!! 05:26:05 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

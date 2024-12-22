@@ -108,7 +108,11 @@ Shen SCVZ [90 -66] 13 min
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 DEBASS/EVERYTHING/2024abti_P1 [100 -47] (3min)
 DEBASS/EVERYTHING/2024actb_P1 [100 -22] (3min)
-YSE 412 [116 -2] 17 min              
+YSE 412 [116 -2] 17 min
+YSE template/2021aatq [114 -2] (5min)
+YSE template/2021aemv [113 20] (5min)
+YSE template/2023aoz [121 12] (5min)
+YSE template/2023bvw [123 11] (5min)              
 YSE 311 [123 -17] 17 min                                  
 DEBASS/EVERYTHING/2024aaur_P1 [147 -6] (3min)
 
@@ -123,6 +127,7 @@ DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (3min)
 
 !!! Do not go to the next block past 04:37! High priority!
 !!! 04:37
+YSE template/2023elb [159 -44] (5min)
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min    # High priority!        
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min    # High priority!        
 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    # High priority!    

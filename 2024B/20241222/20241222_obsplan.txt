@@ -126,7 +126,7 @@ DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (3min)
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min    # High priority!        
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min    # High priority!        
 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    # High priority!    
-2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    #### optional!!            
+2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    #### optional!! if you are behind schedule, drop exposures here!!            
 ### YSE 525 [189 10] (17 min)
 
 !!! 05:27:08 (-14 deg twilight)

@@ -74,10 +74,11 @@ DEBASS/EVERYTHING/2024acrh_P2 [169 -14] (2min) OPTIONAL; please try to squeeze i
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min            
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min            
 
+### The next block start exactly at that time, not earlier, not later!
 !!! 04:37
 YSE 2024inv [166 11] 6 min  # high priority!!!
-YSE 2024gy [183 13]  5 min  # high priority!!!
 YSE 2024kce [187 8]  5 min  # high priority!!!
+YSE 2024gy [183 13]  5 min  # high priority!!!
 YSE 525 [189 10] (33 min)   # high priority!!!
 
 

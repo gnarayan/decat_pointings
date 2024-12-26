@@ -131,7 +131,8 @@ YSE template/2023elb [159 -44] (5min)
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min    # High priority!        
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min    # High priority!        
 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    # High priority!    
-2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    #### optional!! if you are behind schedule, drop exposures here!!            
+2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    #### optional!! if you are behind schedule, drop exposures here!! 
+### 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
 ### YSE 525 [189 10] (17 min)
 
 !!! 05:27:08 (-14 deg twilight)

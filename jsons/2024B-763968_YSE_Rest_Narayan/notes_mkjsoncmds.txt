@@ -4205,6 +4205,10 @@ git add 241226/*.json
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2024B-763968_YSE_Rest_Narayan
 
+YSE_pointings2fieldcenters.py --addSN  2024kce 187.4564506     8.2134633 -vv --overw
+YSE_pointings2fieldcenters.py --addSN  2024inv 166.6340000     11.3784389 -vv --overw
+
+
 YSE_pointings2fieldcenters.py --addSN 2024rqx 340.4844792     -3.9116917  -vv --overw
 YSE_pointings2fieldcenters.py --addSN 2024pxl 263.11395605 +7.06244225112  -vv --overw
 

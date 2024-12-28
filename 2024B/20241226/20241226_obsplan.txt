@@ -41,31 +41,41 @@ LOCAL night MIDPOINT: 12/27/2024,   01:44:24
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
 !!! 01:44:24
+DEBASS/EVERYTHING/2024aedt_P1 [27 7] (2min)
+DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (2min)
+DEBASS/EVERYTHING/2024abtj_P1 [46 -36] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (2min) OPTIONAL
 
-!!! 02:06
+!!! 01:50
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
-DEBASS/EVERYTHING/2024xal_P2 [57 -14] (2min) DROP IF NECESSARY
 YSE 353 [63 -10] 17 min
 YSE 253 [67, -26] 17 min
+DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (2min)
 
-!!! 03:00
+!!! 02:44
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
-DEBASS/EVERYTHING/2024acac_P1 [85 -41] (2min)
+DEBASS/EVERYTHING/2024acac_P2 [85 -41] (2min) OPTIONAL
 Shen SCVZ [90 -66] 13 min                                 
-DEBASS/EVERYTHING/2024abti_P1 [100 -47] (2min)
+DEBASS/EVERYTHING/2024abti_P2 [100 -47] (2min) OPTIONAL
 DEBASS/EVERYTHING/2024actb_P1 [100 -22] (2min) HIGH PRIORITY
+DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (2min)
 
-!!! 03:26
-### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
+!!! 03:10
+### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 YSE 412 [116 -2] 17 min              
+DEBASS/EVERYTHING/2024aegm_P1 [106 23] (2min)
 YSE 311 [123 -17] 17 min                                  
-DEBASS/EVERYTHING/2024aatk_P2 [128 -19] (2min) HIGH PRIORITY
+DEBASS/EVERYTHING/2024aeis_P1 [120 -23] (2min)
+DEBASS/EVERYTHING/2024aatk_P2 [128 -19] (2min) OPTIONAL
 
-!!! 04:06
-2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min              # if you are behind schedule, drop exposures here!!
+!!! 03:50
+2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (2min) HIGH PRIORITY
-DEBASS/EVERYTHING/2024acrh_P2 [169 -14] (2min) OPTIONAL; please try to squeeze in
+DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (2min)
+DEBASS/EVERYTHING/2024aatr_P2 [152 4] (2min) OPTIONAL
+DEBASS/EVERYTHING/2024aemw_P2 [150 19] (2min) OPTIONAL
 
 !!! 04:30 
 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min   # if you are behind schedule, drop exposures here!!        

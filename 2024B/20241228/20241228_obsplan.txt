@@ -129,15 +129,16 @@ DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min)
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
 ### 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    
+# high priority!!!
 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
-
+# high priority!!!
 
 ### The next block start exactly at that time, not earlier, not later!
 !!! 04:35
-### YSE 2024inv [166 11] 6 min  # high priority!!!
-### YSE 2024kce [187 8]  5 min  # high priority!!!
-### YSE 2024gy [183 13]  5 min  # high priority!!!
-### YSE 525 [189 10] (33 min)   # high priority!!!
+### YSE 2024inv [166 11] 6 min  
+YSE 2024kce [187 8]  5 min         # skip this one if behind schedule!
+### YSE 2024gy [183 13]  5 min  
+### YSE 525 [189 10] (33 min)   
 
 !!! 04:39
 kleyna/2024-??/Kleyna2024-??-??_sunrise.json (50.0 minutes) 

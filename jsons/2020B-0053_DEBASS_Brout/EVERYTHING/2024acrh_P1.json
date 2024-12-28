@@ -40,19 +40,5 @@
         "comment": "2024acrh",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "z",
-        "exptime": 15.0,
-        "RA": 169.79785,
-        "dec": -14.46835,
-        "object": "2024acrh_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2024acrh",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

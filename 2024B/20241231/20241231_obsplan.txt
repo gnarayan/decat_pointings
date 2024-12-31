@@ -56,7 +56,7 @@ If not, please skip to next observable field, or wait if too difficult.
 
 !!! 22:51
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-GW MMADS [341 -76] 5 min 
+GWMMADS [341 -76] 5 min 
 YSE 448 [16 3] (17 min)
 E1E2.json [8 -43] (30 min)
 

@@ -54,70 +54,72 @@ Some fields may be at telescope pointing limit but should be observable
 If not, please skip to next observable field, or wait if too difficult.
 !!! The next targets are setting, so make sure you stop at 22:47 with this field!!! 
 
-!!! 22:51
+!!! 22:50
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024afxo_P1 [358 -12] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024aeou_P1 [359 -34] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024afax_P1 [360 -34] (3min) drop zband to save time
 GWMMADS [341 -76] 5 min 
 YSE 448 [16 3] (17 min)
+DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min) drop zband to save time
 E1E2.json [8 -43] (30 min)
 
-!!! 23:44
+!!! 23:50
 DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (3min)
 YSE 296 [17 -17] (17 min)   
 DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (3min)
 
-!!! 23:08
-DEBASS/EVERYTHING/2024acde_P1 [29 -2] (3min)
-DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min)
+!!! 00:13
+DEBASS/EVERYTHING/2024acde_P2 [29 -2] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min) drop zband to save time
 X123.json [34, -4] 34 min
 ### X123_moon.json [34, -4] 23 min
 
-!!! 00:48
+!!! 00:58
 S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 01:10
-DEBASS/EVERYTHING/2024abtt_P2 [47 -11] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024xal_P2 [57 -14] (3min) OPTIONAL
+!!! 01:20
+DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min) drop zband to save time
 
-!!! 01:16
+!!! 01:23
 YSE 353 [63 -10] 17 min
-DEBASS/EVERYTHING/2024xal_P2 [57 -14] (3min) OPTIONAL
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
-DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (3min)
+DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (3min) drop zband to save time
 YSE 253 [67, -26] 17 min
-DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (3min)
+DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (3min) drop zband to save time
 
-!!! 02:16
+!!! 02:20
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
-DEBASS/EVERYTHING/2024acac_P2 [85 -41] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024acac_P1 [84 -41] (3min) drop zband to save time
 Shen SCVZ [90 -66] 13 min                                 
 
-!!! 02:39
+!!! 02:43
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 DEBASS/EVERYTHING/2024abti_P2 [100 -47] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024aeyv_P1 [116 -48] (3min)
-DEBASS/EVERYTHING/2024aatk_P2 [128 -19] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024actb_P1 [100 -22] (3min)
+DEBASS/EVERYTHING/2024aeyv_P1 [116 -48] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024actb_P2 [100 -22] (3min) OPTIONAL
 YSE 412 [116 -2] 17 min
-DEBASS/EVERYTHING/2024aegm_P1 [106 23] (3min)
+DEBASS/EVERYTHING/2024aegm_P1 [106 23] (3min) drop zband to save time
 YSE 311 [123 -17] 17 min                                  
-DEBASS/EVERYTHING/2024aeis_P1 [120 -23] (3min)
-DEBASS/EVERYTHING/2024aaur_P2 [147 -6] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aeis_P1 [120 -23] (3min) drop zband to save time
 
-!!! 03:35
+!!! 03:30
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
-DEBASS/EVERYTHING/2024aatr_P2 [152 4] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (3min)
+DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024afhg_P1 [169 -19] (3min) drop zband to save time
 
-!!! 04:13 
-DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (3min)
-DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min)
+!!! 04:10 
+DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min) drop zband to save time
 YSE 2024inv [166 11] 6 min  # high priority!!!
-DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min)
-DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min)
+DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min) drop zband to save time
 
-!!! 04:31
+!!! 04:30
 ### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    

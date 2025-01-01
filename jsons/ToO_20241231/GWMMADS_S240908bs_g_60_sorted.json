@@ -1,0 +1,14 @@
+[
+{
+"RA": "340.89924",
+"dec": "-75.98686",
+"filter": "g",
+"expTime": 60,
+"count": 1,
+"object": "S240908bs",
+"program": "GW-MMADS",
+"expType": "object",
+"proposer": "Andreoni Palmese",
+"propid": "2023B-851374"
+}
+]

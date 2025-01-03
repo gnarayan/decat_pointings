@@ -56,39 +56,42 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 22:00:39
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-DEBASS/EVERYTHING/2024abnh_P1 [356 13] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024afxo_P1 [358 -12] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024aeou_P1 [359 -34] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024afax_P1 [360 -34] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024aeou_P1 [359 -34] (2min)
 GWMMADS [341 -76] 5 min 
 YSE 448 [16 3] (17 min)
-DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min) drop zband to save time
 E1E2.json [8 -43] (30 min)
 
-!!! 23:09
-DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (3min)
+!!! 22:55
+DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (2min)
 YSE 296 [17 -17] (17 min)   
 DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (3min)
 
-!!! 23:33
-DEBASS/EVERYTHING/2024acde_P2 [29 -2] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min) drop zband to save time
+!!! 23:18
+DEBASS/EVERYTHING/2024aedt_P1 [27 7] (2min)
+DEBASS/EVERYTHING/2024acde_P2 [29 -2] (2min) 
 X123.json [34, -4] 34 min
 ### X123_moon.json [34, -4] 23 min
 
-!!! 00:17
+!!! 23:55
 S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 00:39
-DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min) drop zband to save time
+!!! 00:20
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
-DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (2min)
 YSE 253 [67, -26] 17 min
-DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (3min) drop zband to save time
+
+!!! 01:07
+DEBASS/EVERYTHING/2024agfu_P1 [74 -21] (2min)
+DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (2min)
+DEBASS/EVERYTHING/2024agag_P1 [106 -53] (2min)
+DEBASS/EVERYTHING/2024aeyv_P1 [116 -48] (2min)
+DEBASS/EVERYTHING/2024aeis_P1 [120 -23] (2min)
+DEBASS/EVERYTHING/2024agky_P1 [140 -33] (2min)
+DEBASS/EVERYTHING/2024afhg_P1 [169 -19] (2min)
+DEBASS/EVERYTHING/2024aejs_P2 [166 -16] (2min) OPTIONAL
 
 !!! 01:41
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!

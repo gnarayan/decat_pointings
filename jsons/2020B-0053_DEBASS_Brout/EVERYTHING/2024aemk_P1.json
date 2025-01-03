@@ -1,6 +1,20 @@
 [
     {
         "count": 1,
+        "filter": "g",
+        "exptime": 15.0,
+        "RA": 87.94503,
+        "dec": -19.96519,
+        "object": "2024aemk_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2024aemk",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
         "filter": "r",
         "exptime": 15.0,
         "RA": 87.94503,

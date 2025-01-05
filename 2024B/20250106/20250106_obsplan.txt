@@ -1,0 +1,100 @@
+MOON ILLUMINATION: 0.53
+UT -16 deg twilight: 2025-01-07T01:12:19.598 2025-01-07T08:26:52.096
+UT -15 deg twilight: 2025-01-07T01:06:26.022 2025-01-07T08:32:44.434
+UT -14 deg twilight: 2025-01-07T01:00:38.225 2025-01-07T08:38:32.512
+UT -12 deg twilight: 2025-01-07T00:49:12.890 2025-01-07T08:49:57.905
+UT -10 deg twilight: 2025-01-07T00:38:01.572 2025-01-07T09:01:09.468
+LOCAL -16 deg twilight: 01/06/2025,   22:12:19   05:26:52
+LOCAL -15 deg twilight: 01/06/2025,   22:06:26   05:32:44
+LOCAL -14 deg twilight: 01/06/2025,   22:00:38   05:38:32
+LOCAL -12 deg twilight: 01/06/2025,   21:49:12   05:49:57
+LOCAL -10 deg twilight: 01/06/2025,   21:38:01   06:01:09
+LOCAL night MIDPOINT: 01/07/2025,   01:49:35
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! after pointing ~21:45 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+### !!! 22:00:21
+### kleyna/2024-??/Kleyna2024-??-??_sunset.json (50.0 minutes) 
+### PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
+### Exactly 4 passes should be possible in 50m, from empirical 83s time per field
+### Some fields may be at telescope pointing limit but should be observable
+### If not, please skip to next observable field, or wait if too difficult.
+### !!! The next targets are setting, so make sure you stop at 22:47 with this field!!! 
+
+!!! 22:00:38
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+DEBASS/EVERYTHING/2024aeou_P1 [359 -34] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024afax_P1 [360 -34] (3min) drop zband to save time
+### YSE 448 [16 3] (17 min)
+DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min) drop zband to save time
+E1E2.json [8 -43] (30 min)
+
+!!! 22:41
+DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (3min)
+YSE 296 [17 -17] (9 min)   
+DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (3min)
+
+!!! 22:56
+DEBASS/EVERYTHING/2024acde_P2 [29 -2] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min) drop zband to save time
+### X123.json [34, -4] 34 min
+X123_moon.json [34, -4] 23 min
+
+!!! 23:28
+S1S2.json [42,0] 22 min
+### S1S2_moon.json [42,0] 15 min
+
+!!! 23:51
+DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min) drop zband to save time
+YSE 353 [63 -10] 17 min
+
+!!! 00:12
+C3 [52, -28] 11 min
+YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
+DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (3min) drop zband to save time
+YSE 253 [67, -26] 17 min
+YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
+Shen SCVZ [90 -66] 13 min   
+
+!!! 01:12                              
+DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (3min) drop zband to save time
+YSE 412 [116 -2] 17 min
+YSE 311 [123 -17] 17 min                                  
+
+
+01:49:09 mid-night
+

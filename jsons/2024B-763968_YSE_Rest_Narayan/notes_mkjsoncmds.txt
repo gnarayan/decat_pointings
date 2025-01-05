@@ -4276,14 +4276,13 @@ git add 250105
 git add 250105/*.json
 
 mkdir 20250106
-cp 20250103/20250103_obsplan.txt 20250106/20250106_obsplan.txt 
+cp 20250105/20250105_obsplan.txt 20250106/20250106_obsplan.txt 
 subl 20250106/20250106_obsplan.txt
 git add 20250106/20250106_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f i,z  296 448  -d 250106 
-mkjson_yse_nofilterswitch.py  -f g,i  253 353 -d 250106 
+mkjson_yse_nofilterswitch.py  -f g,r  253 353 -d 250106 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z ECDFS EDFS  -d 250106 
-mkjson_yse_nofilterswitch.py  -f g,r   311   -d 250106 
-mkjson_yse_nofilterswitch.py  -f g,r  412    -d 250106 
+mkjson_yse_nofilterswitch.py  -f g,i  412 311   -d 250106 
 mkjson_yse_nofilterswitch.py  -f g,r  525    -d 250106 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024eyo 2024exw -d 250106 -e 10 -n 1 --sortbyra

@@ -57,43 +57,50 @@ Script will finish on its own or at -14 deg twilight.
 !!! 22:00:38
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 YSE 2022mop [353 -3] 5 min
-DEBASS/EVERYTHING/2024aeou_P1 [359 -34] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024afax_P1 [360 -34] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024afxo_P1 [358 -12] (3min)
+DEBASS/EVERYTHING/2024aeou_P2 [359 -34] (3min) OPTIONAL
 ### YSE 448 [16 3] (17 min)
-DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min) drop zband to save time
 E1E2.json [8 -43] (30 min)
 
-!!! 22:46
-DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (3min)
+!!! 22:40
+DEBASS/EVERYTHING/2024adzq_P2 [19 -32] (3min) OPTIONAL
 YSE 296 [17 -17] (9 min)   
 DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (3min)
 
-!!! 23:03
-DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min) drop zband to save time
+!!! 22:52
 ### X123.json [34, -4] 34 min
 X123_moon.json [34, -4] 23 min
+DEBASS/EVERYTHING/2025at_P1 [36 -9] (3min)
 
-!!! 23:32
+!!! 23:08
 S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 23:55
-DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min) drop zband to save time
+!!! 23:30
 YSE 353 [63 -10] 17 min
 
-!!! 00:16
+!!! 23:47
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
-DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024aemo_P2 [63 -30] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024agfu_P1 [74 -21] (3min)
 YSE 253 [67, -26] 17 min
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 Shen SCVZ [90 -66] 13 min   
+DEBASS/EVERYTHING/2024agag_P1 [106 -53] (3min)
+DEBASS/EVERYTHING/2024aeyv_P1 [116 -48] (3min)
 
-!!! 01:14                              
-DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (3min) drop zband to save time
+!!! 00:50                              
+DEBASS/EVERYTHING/2024aemk_P2 [87 -19] (3min) OPTIONAL
 YSE 412 [116 -2] 17 min
+DEBASS/EVERYTHING/2024aegm_P1 [106 23] (3min)
 YSE 311 [123 -17] 17 min                                  
+DEBASS/EVERYTHING/2024actb_P1 [100 -22] (3min)
+DEBASS/EVERYTHING/2024aeis_P1 [120 -23] (3min)
+DEBASS/EVERYTHING/2024agky_P1 [140 -33] (3min)
+DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (3min)
+DEBASS/EVERYTHING/2024acrh_P2 [169 -14] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min)
 
 
 01:49:35 mid-night

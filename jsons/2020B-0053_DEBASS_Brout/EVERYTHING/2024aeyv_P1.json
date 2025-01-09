@@ -40,5 +40,19 @@
         "comment": "2024aeyv",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 116.81822,
+        "dec": -48.54867,
+        "object": "2024aeyv_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2024aeyv",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

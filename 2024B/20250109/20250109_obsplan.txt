@@ -65,26 +65,23 @@ YSE 448 [16 3] (17 min)
 DEBASS/EVERYTHING/2024abnm_P1 [9 4] (3min) drop zband to save time
 E1E2.json [8 -43] (30 min)
 
-!!! 23:50
+!!! 23:06
 DEBASS/EVERYTHING/2024adzq_P1 [19 -32] (3min)
 YSE 296 [17 -17] (17 min)   
 DEBASS/EVERYTHING/2024adzv_P1 [36 -29] (3min)
 
-!!! 00:13
+!!! 23:30
 DEBASS/EVERYTHING/2024acde_P2 [29 -2] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min) drop zband to save time
 DEBASS/EVERYTHING/2024abrm_P1 [31 6] (3min) drop zband to save time
 ### X123.json [34, -4] 34 min
 X123_moon.json [34, -4] 23 min
 
-!!! 00:58
+!!! 00:03
 ### S1S2.json [42,0] 22 min
 S1S2_moon.json [42,0] 15 min
 
-!!! 01:20
-DEBASS/EVERYTHING/2024abtt_P1 [47 -11] (3min) drop zband to save time
-
-!!! 01:23
+!!! 00:18
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
@@ -92,13 +89,13 @@ DEBASS/EVERYTHING/2024aemo_P1 [63 -30] (3min) drop zband to save time
 YSE 253 [67, -26] 17 min
 DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (3min) drop zband to save time
 
-!!! 02:20
+!!! 01:18
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 DEBASS/EVERYTHING/2024acac_P1 [84 -41] (3min) drop zband to save time
 Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
 Shen SCVZ [90 -66] 13 min                                 
 
-!!! 02:43
+!!! 02:00
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
 DEBASS/EVERYTHING/2024abti_P2 [100 -47] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024aeyv_P1 [116 -48] (3min) drop zband to save time
@@ -108,24 +105,24 @@ DEBASS/EVERYTHING/2024aegm_P1 [106 23] (3min) drop zband to save time
 YSE 311 [123 -17] 17 min                                  
 DEBASS/EVERYTHING/2024aeis_P1 [120 -23] (3min) drop zband to save time
 
-!!! 03:30
+!!! 02:50
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (3min) drop zband to save time
 DEBASS/EVERYTHING/2024afhg_P1 [169 -19] (3min) drop zband to save time
 
-!!! 04:10 
-DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min) drop zband to save time
-YSE 2024inv [166 11] 6 min  # high priority!!!
-DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min) drop zband to save time
-
-!!! 03:47
+!!! 03:28
 ### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
 ### 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    
 ### 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
+
+!!! 03:45 
+DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min) drop zband to save time
+YSE 2024inv [166 11] 6 min  # high priority!!!
+DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min) drop zband to save time
 
 !!! 04:04
 YSE 525 [189 10] (33 min)     

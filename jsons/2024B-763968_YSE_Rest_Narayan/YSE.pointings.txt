@@ -905,3 +905,4 @@
              EDFS   <NA>  59.10040 -48.73000     0       NaN                    NaN        EDFS     NaN        <NA>
           2024kce   <NA> 187.45429   8.30045     0       NaN                    NaN     2024kce      N4          35
           2024inv   <NA> 166.63181  11.46543     0       NaN                    NaN     2024inv      N4          35
+           2025cy   <NA> 200.30308 -43.59666     0       NaN                    NaN      2025cy      N4          35

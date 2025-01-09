@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS",
+"filter": "g",
+"expTime": 50,
+"RA": "59.1004",
+"dec": "-48.7300",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS",
+"filter": "r",
+"expTime": 50,
+"RA": "59.1004",
+"dec": "-48.7300",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS",
+"filter": "i",
+"expTime": 50,
+"RA": "59.1004",
+"dec": "-48.7300",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS",
+"filter": "z",
+"expTime": 50,
+"RA": "59.1004",
+"dec": "-48.7300",
+"propid": "2024B-763968"
+}
+]

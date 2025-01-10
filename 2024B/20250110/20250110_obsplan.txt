@@ -40,22 +40,6 @@ LOCAL night MIDPOINT: 01/11/2025,   01:51:14
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! after pointing ~21:45 (NOTE: CHILEAN LOCAL TIME!!!)
-Start with Pointing the Telescope to the West.
-After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
-jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
-Script will finish on its own or at -14 deg twilight.
-
-### !!! 22:00:21
-### kleyna/2024-??/Kleyna2024-??-??_sunset.json (50.0 minutes) 
-### PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
-### Exactly 4 passes should be possible in 50m, from empirical 83s time per field
-### Some fields may be at telescope pointing limit but should be observable
-### If not, please skip to next observable field, or wait if too difficult.
-### !!! The next targets are setting, so make sure you stop at 22:47 with this field!!! 
-
-
-
 !!! 01:51:14
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
 YSE 253 [67, -26] 17 min
@@ -63,22 +47,32 @@ YSE 253 [67, -26] 17 min
 !!! 02:15
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
-Ngeow/LMC [79 -70] 19 min              #### Do it again if not behind schedule!
 
-!!! 03:00
-### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   # if you are behind schedule, drop exposures here!!
+!!! 02:40
 YSE 412 [116 -2] 17 min
 YSE 311 [123 -17] 17 min                                  
+DEBASS/EVERYTHING/2025gm_P1 [118 -19] (2min)
+DEBASS/EVERYTHING/2025hd_P1 [136 -23] (2min)
+DEBASS/EVERYTHING/2025gj_P1 [146 -20] (2min)
 
-!!! 03:35
+!!! 03:20
+DEBASS/EVERYTHING/2025dd_P1 [163 -2] (2min)
+DEBASS/EVERYTHING/2025hg_P1 [164 -2] (2min)
+DEBASS/EVERYTHING/2024acrh_P1 [169 -14] (2min)
+
+!!! 03:27
 ### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
-### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
+2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
 ### 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    
 ### 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
 
-!!! 03:50 
+!!! 03:46 
 YSE 2024inv [166 11] 6 min  # high priority!!!
+DEBASS/EVERYTHING/2025bg_P2 [157 21] (2min) SKIP IF NECESSARY
+DEBASS/EVERYTHING/2025an_P2 [164 12] (2min) SKIP IF NECESSARY
+DEBASS/EVERYTHING/2024aewf_P1 [176 3] (2min)
+DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (2min)
 YSE 2025cy [200 -43] (3 min)  # high priority!!!
 
 !!! 04:05

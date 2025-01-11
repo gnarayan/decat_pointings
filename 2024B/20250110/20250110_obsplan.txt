@@ -84,10 +84,13 @@ YSE 2024gy [183 13]  5 min    # high priority!!!
 kleyna/2024-??/Kleyna2024-??-??_sunrise.json (50.0 minutes) 
 PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
 Exactly 4 passes should be possible in 50m, from empirical 83s time per field
-Some fields may be at telescope pointing limit but should be observable
-If not, please skip to next observable field, or wait if too difficult.
+If you start 5m late, please delete Fx09 from each pass.  If 10m late, 
+delete Fx09,08; etc.   Some fields may be at telescope pointing limit 
+but should be observable. If not, please skip to next observable field, 
+or wait if too difficult.
 
 !!! 05:42:23 (-14 deg twilight)
+
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

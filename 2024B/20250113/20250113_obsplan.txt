@@ -68,9 +68,9 @@ DEBASS/EVERYTHING/2023nzu_P1 [27 22] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2021abko_P1 [31 23] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2024acde_P2 [29 -2] (3min) OPTIONAL
-### E1E2.json [8 -43] (30 min)
+E1E2.json [8 -43] (30 min)
 
-!!! 23:00
+!!! 23:30
 YSE 296 [17 -17] (17 min)   
 DEBASS/EVERYTHING/2025L_P1 [36 -22] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2025ie_P1 [37 -22] (3min) HIGH PRIORITY
@@ -83,14 +83,14 @@ DEBASS/EVERYTHING/2025ie_P1 [37 -22] (3min) HIGH PRIORITY
 ### S1S2.json [42,0] 22 min
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 23:25
+!!! 23:55
 YSE 353 [63 -10] 17 min
 ### C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
 YSE 253 [67, -26] 17 min
 DEBASS/EVERYTHING/2024aemk_P1 [87 -19] (3min) HIGH PRIORITY
 
-!!! 00:10
+!!! 00:40
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 DEBASS/EVERYTHING/2024acac_P2 [84 -41] (3min) OPTIONAL
 Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
@@ -98,7 +98,7 @@ Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
 ### Shen SCVZ [90 -66] 13 min
 YSE template/2023azu [111 -84] (5min)                                 
 
-!!! 00:44
+!!! 01:14
 DEBASS/EVERYTHING/2024aeyv_P2 [116 -48] (3min) OPTIONAL
 Ngeow/LMC [79 -70] 19 min              #### Do it again!
 YSE 412 [116 -2] 17 min
@@ -108,8 +108,8 @@ YSE template/2023dtm [136 -41] (5min)
 YSE template/2021knh [138, -28] (5min)
 YSE template/2023mdv [149 -34] (5min)
 
-!!! 02:00
-2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
+!!! 02:30
+### 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 YSE template/2021hru [146 -12] (5min)
 DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2025hg_P2 [164 -2] (3min) 

@@ -4337,6 +4337,7 @@ mkjson_yse_nofilterswitch.py  -f g,i  525    -d 250111
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022mop  -d 250111 -e 5 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250111 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024agls -d 250111 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024gy 2024kce 2024inv -d 250111 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
 git add 250111
 git add 250111/*.json
@@ -4353,12 +4354,32 @@ mkjson_yse_nofilterswitch.py  -f g,i  525    -d 250112
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022mop  -d 250112 -e 5 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250112 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024agls -d 250112 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024gy 2024kce 2024inv -d 250112 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
 git add 250112
 git add 250112/*.json
 
+mkdir 20250113
+cp 20250111/20250111_obsplan.txt 20250113/20250113_obsplan.txt 
+subl 20250113/20250113_obsplan.txt
+git add 20250113/20250113_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  296 448  -d 250113 
+mkjson_yse_nofilterswitch.py  -f g,i  253 353 -d 250113 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z ECDFS EDFS  -d 250113 
+mkjson_yse_nofilterswitch.py  -f i,z  412 311   -d 250113 
+mkjson_yse_nofilterswitch.py  -f r,i  525    -d 250113 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2022mop  -d 250113 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250113 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024agls -d 250113 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024gy 2024kce 2024inv -d 250113 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
+git add 250113
+git add 250113/*.json
+
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/jsons/2024B-763968_YSE_Rest_Narayan
+
+YSE_pointings2fieldcenters.py --addSN 2024agls 160.4326083     -0.2658778  -vv --overw
 
 YSE_pointings2fieldcenters.py --addSN 2025cy 200.306033 -43.683656  -vv --overw
 

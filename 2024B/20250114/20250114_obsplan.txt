@@ -77,7 +77,7 @@ DEBASS/EVERYTHING/2025fi_P1 [42 -14] (4min)
 S1S2.json [42,0] 22 min        ### don't start after midnight,  too high airmass otherwise
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 00:10
+!!! 00:20
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!

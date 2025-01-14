@@ -94,7 +94,7 @@ YSE 311 [123 -17] 9 min
 
 !!! 03:42
 YSE 2024inv [166 11] 6 min  # high priority!!!
-YSE 2024agls [160 0] (4 min) 
+YSE 2024agls [160 0] (3 min) 
 YSE 2025cy [200 -43] (3 min)  # high priority!!!
 
 !!! 04:32

@@ -84,14 +84,14 @@ YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
 YSE 253 [67, -26] 17 min
 DEBASS/EVERYTHING/2024aemo_P2 [63 -30] (3min) OPTIONAL
 
-!!! 01:05
+!!! 01:20
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
 Ngeow/LMC [79 -70] 19 min              #### Do it again!
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 Shen SCVZ [90 -66] 13 min
 
-!!! 02:02
+!!! 02:20
 DEBASS/EVERYTHING/2024aeyv_P1 [116 -48] (4min)
 DEBASS/EVERYTHING/2024actb_P1 [100 -22] (4min)
 YSE 412 [116 -2] 9 min     
@@ -100,7 +100,7 @@ YSE 311 [123 -17] 9 min
 ### !!! 02:35
 ### 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 
-!!! 02:28
+!!! 02:40
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
@@ -108,14 +108,14 @@ YSE 311 [123 -17] 9 min
 ### 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
 2024B-441839_EtaCar_Rest/etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 02:55
+!!! 03:05
 YSE 2024inv [166 11] 6 min  # high priority!!!
 YSE 2024agls [160 0] (3 min) 
 DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (4min)
 DEBASS/EVERYTHING/2024aejs_P1 [166 -16] (4min)
 YSE 2025cy [200 -43] (3 min)  # high priority!!!
 
-!!! 03:20
+!!! 03:25
 YSE 525 [189 10] (33 min)     
 YSE 2024kce [187 8]  6 min    # high priority!!!    
 YSE 2024gy [183 13]  5 min    # high priority!!!

@@ -58,32 +58,55 @@ If not, please skip to next observable field, or wait if too difficult.
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 ### YSE 448 [16 3] (17 min)
 ### E1E2.json [8 -43] (30 min)
+DEBASS/EVERYTHING/2024aeou_P1 [359 -34] (3min)
+DEBASS/EVERYTHING/2024adzq_P2 [19 -32] (3min) 
+DEBASS/EVERYTHING/2024agld_P2 [18 -31] (3min) 
+DEBASS/EVERYTHING/2025mb_P1 [8 -28] (3min)
 YSE 296 [17 -17] (9 min)      ### don't start after 11pm, too high airmass otherwise
+DEBASS/EVERYTHING/2024aedt_P2 [27 7] (3min) 
+DEBASS/EVERYTHING/2021abko_P1 [31 23] (3min)
 X123.json [34, -4] 34 min     ### don't start after 11:15pm, too high airmass otherwise
+DEBASS/EVERYTHING/2025at_P1 [36 -9] (3min)
+DEBASS/EVERYTHING/2025ie_P2 [37 -22] (3min) 
+DEBASS/EVERYTHING/2024adzv_P2 [36 -29] (3min) 
+DEBASS/EVERYTHING/2025J_P2 [42 -21] (3min) 
+DEBASS/EVERYTHING/2025fi_P2 [42 -14] (3min) 
 ### X123_moon.json [34, -4] 23 min
 S1S2.json [42,0] 22 min        ### don't start after midnight,  too high airmass otherwise
 ### S1S2_moon.json [42,0] 15 min
 
-!!! 01:15
+!!! 00:28
+DEBASS/EVERYTHING/2024abtt_P2 [47 -11] (3min) OPTIONAL
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
+DEBASS/EVERYTHING/2024aemo_P2 [63 -30] (3min) OPTIONAL
 YSE 253 [67, -26] 17 min
+DEBASS/EVERYTHING/2024aemk_P2 [87 -19] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025kd_P1 [87 -25] (3min)
+DEBASS/EVERYTHING/2024acac_P2 [84 -41] (3min) OPTIONAL
 
-!!! 02:20
+!!! 01:35
 YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
 Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
 Ngeow/LMC [79 -70] 19 min              #### Do it again!
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 Shen SCVZ [90 -66] 13 min
+DEBASS/EVERYTHING/2024aeyv_P2 [116 -48] (3min) OPTIONAL
 
-!!! 03:25
+!!! 03:15
 YSE 412 [116 -2] 17 min     
 YSE 311 [123 -17] 17 min                                  
+DEBASS/EVERYTHING/2024actb_P2 [100 -22] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aeis_P2 [120 -23] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025hd_P1 [135 -23] (3min)
+DEBASS/EVERYTHING/2025gj_P1 [146 -20] (3min)
+DEBASS/EVERYTHING/2024agky_P1 [140 -33] (3min)
+DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min)
 ### !!! 02:35
 ### 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 
-!!! 03:30
+!!! 04:05
 ### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
@@ -96,10 +119,15 @@ YSE 311 [123 -17] 17 min
 ### YSE 2024agls [160 0] (3 min) 
 YSE 2025cy [200 -43] (3 min)  # high priority!!!
 
-!!! 04:30
+!!! 04:03
+DEBASS/EVERYTHING/2024aejs_P2 [166 -16] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aevp_P2 [179 -13] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aewf_P2 [176 3] (3min) OPTIONAL
 YSE 525 [189 10] (33 min)     
 YSE 2024kce [187 8]  5 min    # high priority!!!    
 YSE 2024gy [183 13]  5 min    # high priority!!!
+DEBASS/EVERYTHING/2025gf_P1 [194 -28] (3min)
+DEBASS/EVERYTHING/2025jh_P2 [194 -31] (3min) OPTIONAL
 
 ### !!! 04:53
 ### kleyna/2024-??/Kleyna2024-??-??_sunrise.json (50.0 minutes) 

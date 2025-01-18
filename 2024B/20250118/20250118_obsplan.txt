@@ -124,10 +124,6 @@ YSE template/2021knh [138 -28] (5min)
 ### 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 2024A-755342_Shen_AGN/COSMOS_moon.json [150 2] 23 min
 
-!!! 03:55
-
-!!! EXTRA TIME!!!
-
 !!! 04:50
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           

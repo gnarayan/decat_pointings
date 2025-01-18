@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 0.94
-UT -16 deg twilight: 2025-01-16T01:10:07.556 2025-01-16T08:36:04.749
-UT -15 deg twilight: 2025-01-16T01:04:22.877 2025-01-16T08:41:47.866
-UT -14 deg twilight: 2025-01-16T00:58:43.847 2025-01-16T08:47:27.514
-UT -12 deg twilight: 2025-01-16T00:47:34.395 2025-01-16T08:58:37.025
-UT -10 deg twilight: 2025-01-16T00:36:37.430 2025-01-16T09:09:33.884
-LOCAL -16 deg twilight: 01/15/2025,   22:10:07   05:36:04
-LOCAL -15 deg twilight: 01/15/2025,   22:04:22   05:41:47
-LOCAL -14 deg twilight: 01/15/2025,   21:58:43   05:47:27
-LOCAL -12 deg twilight: 01/15/2025,   21:47:34   05:58:37
-LOCAL -10 deg twilight: 01/15/2025,   21:36:37   06:09:33
-LOCAL night MIDPOINT: 01/16/2025,   01:53:06
+MOON ILLUMINATION: 0.74
+UT -16 deg twilight: 2025-01-19T01:08:47.363 2025-01-19T08:39:20.837
+UT -15 deg twilight: 2025-01-19T01:03:06.896 2025-01-19T08:45:01.324
+UT -14 deg twilight: 2025-01-19T00:57:30.441 2025-01-19T08:50:38.357
+UT -12 deg twilight: 2025-01-19T00:46:27.114 2025-01-19T09:01:40.455
+UT -10 deg twilight: 2025-01-19T00:35:36.265 2025-01-19T09:12:31.066
+LOCAL -16 deg twilight: 01/18/2025,   22:08:47   05:39:20
+LOCAL -15 deg twilight: 01/18/2025,   22:03:06   05:45:01
+LOCAL -14 deg twilight: 01/18/2025,   21:57:30   05:50:38
+LOCAL -12 deg twilight: 01/18/2025,   21:46:27   06:01:40
+LOCAL -10 deg twilight: 01/18/2025,   21:35:36   06:12:31
+LOCAL night MIDPOINT: 01/19/2025,   01:54:04
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -40,19 +40,66 @@ LOCAL night MIDPOINT: 01/16/2025,   01:53:06
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
+!!! after pointing ~21:45 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
 
-!!! 01:53
+!!! 21:57:30
+kleyna/2024-??/Kleyna2024-??-??_sunset.json (50.0 minutes) 
+PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
+Exactly 4 passes should be possible in 50m, from empirical 83s time per field
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.
+!!! The next targets are setting, so make sure you stop at 22:50 with this field!!! 
+
+!!! 22:48
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+### YSE 448 [16 3] (17 min)
+### E1E2.json [8 -43] (30 min)
+DEBASS/EVERYTHING/2024aeou_P1 [359 -34] (3min)
+DEBASS/EVERYTHING/2024adzq_P2 [19 -32] (3min) 
+DEBASS/EVERYTHING/2024agld_P2 [18 -31] (3min) 
+DEBASS/EVERYTHING/2025mb_P1 [8 -28] (3min)
+
+!!! 23:00
+### YSE 296 [17 -17] (9 min)      ### don't start after 11:05pm, too high airmass otherwise
+X123.json [34, -4] 34 min     ### don't start after 11:15pm, too high airmass otherwise
+### X123_moon.json [34, -4] 23 min
+
+!!! 23:35
+DEBASS/EVERYTHING/2025at_P1 [36 -9] (3min)
+DEBASS/EVERYTHING/2025ie_P2 [37 -22] (3min) 
+DEBASS/EVERYTHING/2024adzv_P2 [36 -29] (3min) 
+DEBASS/EVERYTHING/2025J_P2 [42 -21] (3min) 
+DEBASS/EVERYTHING/2025fi_P2 [42 -14] (3min) 
+
+!!! 23:50
+S1S2.json [42,0] 22 min        ### don't start after midnight,  too high airmass otherwise
+### S1S2_moon.json [42,0] 15 min
+
+!!! 00:13
+DEBASS/EVERYTHING/2024abtt_P2 [47 -11] (3min) OPTIONAL
+YSE 353 [63 -10] 17 min
+C3 [52, -28] 11 min
+YSE ECDFS [53 -28] (9min)  ### NOTE: NOT EDFS!!!
+DEBASS/EVERYTHING/2024aemo_P2 [63 -30] (3min) OPTIONAL
+YSE 253 [67, -26] 17 min
+DEBASS/EVERYTHING/2024aemk_P2 [87 -19] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025kd_P1 [87 -25] (3min)
+DEBASS/EVERYTHING/2024acac_P2 [84 -41] (3min) OPTIONAL
+
+!!! 01:23
 DEBASS/EVERYTHING/2025kd_P1 [87 -25] (3min)
 DEBASS/EVERYTHING/2024aemk_P2 [87 -19] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024aemo_P2 [63 -30] (3min) OPTIONAL
-YSE EDFS [59 -48] (6min)  ### NOTE: NOT ECDFS!!!
-Ngeow/LMC [79 -70] 19 min              #### HIGH PRIORITY DO NOT SKIP!!! ####
-Ngeow/LMC [79 -70] 19 min              #### Do it again!
-### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
+YSE EDFS [59 -48] (9min)  ### NOTE: NOT ECDFS!!!
+2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 Shen SCVZ [90 -66] 13 min
 DEBASS/EVERYTHING/2024aeyv_P1 [116 -48] (3min) 
 
-!!! 03:15
+!!! 02:40
 YSE 412 [116 -2] 17 min     
 DEBASS/EVERYTHING/2024aegm_P1 [106 23] (3min) OPTIONAL
 YSE 311 [123 -17] 17 min                                  
@@ -61,28 +108,34 @@ DEBASS/EVERYTHING/2024aeis_P2 [120 -23] (3min) OPTIONAL
 DEBASS/EVERYTHING/2025hd_P1 [135 -23] (3min)
 DEBASS/EVERYTHING/2025gj_P1 [146 -20] (3min)
 DEBASS/EVERYTHING/2024agky_P1 [140 -33] (3min)
-### !!! 02:35
-### 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 
-!!! 04:05
-### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
+!!! 03:32
+### 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
+2024A-755342_Shen_AGN/COSMOS_moon.json [150 2] 23 min
+
+!!! 03:55
+
+!!! EXTRA TIME!!!
+
+!!! 04:50
+2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
 ### 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    
 ### 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
 2024B-441839_EtaCar_Rest/etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 04:00
+!!! 05:31
 ### YSE 2024inv [166 11] 5 min  # high priority!!!
-### YSE 2024agls [160 0] (3 min) 
+YSE 2024agls [160 0] (3 min) 
 YSE 2025cy [200 -43] (3 min)  # high priority!!!
 
-!!! 04:03
+!!! 05:37
 DEBASS/EVERYTHING/2024aejs_P2 [166 -16] (3min) OPTIONAL
 DEBASS/EVERYTHING/2025bg_P1 [157 21] (3min)
-YSE 525 [189 10] (33 min)     
-YSE 2024kce [187 8]  5 min    # high priority!!!    
-YSE 2024gy [183 13]  5 min    # high priority!!!
+### YSE 525 [189 10] (33 min)     
+### YSE 2024kce [187 8]  5 min    # high priority!!!    
+### YSE 2024gy [183 13]  5 min    # high priority!!!
 DEBASS/EVERYTHING/2025kj_P1 [212 -5] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2025jh_P1 [194 -31] (3min) HIGH PRIORITY
 
@@ -95,7 +148,7 @@ DEBASS/EVERYTHING/2025jh_P1 [194 -31] (3min) HIGH PRIORITY
 ### but should be observable. If not, please skip to next observable field, 
 ### or wait if too difficult.
 
-!!! 05:47:27 (-14 deg twilight)
+!!! 05:50:38 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

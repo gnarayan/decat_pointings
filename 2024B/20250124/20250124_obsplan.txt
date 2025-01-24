@@ -97,8 +97,12 @@ DEBASS/EVERYTHING/2024actb_P2 [100 -22] (3min) OPTIONAL
 
 !!! 01:19
 
-EXTRA TIME!!!
-AAAAAA
+YSE template/2021aatq [114 -2] (5min)
+YSE template/2021aemv [114 20] (5min)
+YSE template/2023aoz [121 12] (5min)
+YSE template/2023bvw [122 11] (5min)
+YSE template/2022aebw [130 5] (5min)
+YSE template/2021ddh [130 -1] (5min)
 
 !!! 01:52
 YSE 412 [116 -2] 17 min 

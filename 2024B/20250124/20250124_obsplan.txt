@@ -115,7 +115,7 @@ DEBASS/EVERYTHING/2025gm_P2 [118 -19] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024aeis_P2 [120 -23] (3min) OPTIONAL
 DEBASS/EVERYTHING/2025hd_P2 [135 -23] (3min) OPTIONAL
 DEBASS/EVERYTHING/2025gj_P1 [146 -20] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024agky_P1 [140 -33] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024agky_P1 [140 -33] (3min) OPTIONAL
 YSE template/2023dtm [136 -41] (5min)
 YSE template/2021knh [138 -28] (5min)
 
@@ -126,8 +126,8 @@ DEBASS/EVERYTHING/2025yz_P1 [154 -5] (3min) drop zband to save time
 DEBASS/EVERYTHING/2025hg_P1 [164 -2] (3min) drop zband to save time
 DEBASS/EVERYTHING/2024adyi_P1 [167 -4] (3min) drop zband to save time
 DEBASS/EVERYTHING/2025an_P2 [164 11] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min) drop zband to save time
-DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min) drop zband to save time
+DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min) OPTIONAL
 
 
 !!! 04:50

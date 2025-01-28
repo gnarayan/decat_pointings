@@ -108,6 +108,7 @@ DEBASS/EVERYTHING/2025gj_P2 [146 -20] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024agky_P1 [140 -33] (3min)
 
 !!! 01:45
+### The following are optional targets, cut here if behind schedule!!!
 YSE template/2023mdv [150 -34] (5min)
 YSE template/2021gwn [161 -29] (5min)
 YSE template/2021hvq [166 -34] (5min)
@@ -120,10 +121,10 @@ YSE template/2023com [142 8] (5min)
 YSE template/2022aecr [146 10] (5min)
 YSE template/2021jtk [152 14] (5min)
 YSE template/2022jkn [157 17] (5min)
-YSE template/2021adlz [158 12] (5min)75
-YSE template/2021dev [163 1] (5min)
+### YSE template/2021adlz [158 12] (5min)
+### YSE template/2021dev [163 1] (5min)
 
-!!! 03:00
+!!! 02:50
 DEBASS/EVERYTHING/2025yz_P1 [154 -5] (3min)
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 ### 2024A-755342_Shen_AGN/COSMOS_moon.json [150 2] 23 min
@@ -134,7 +135,7 @@ DEBASS/EVERYTHING/2024aewf_P2 [176 3] (3min) OPTIONAL
 DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min)
 
 
-!!! 03:53
+!!! 03:43
 ### 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 ### 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    

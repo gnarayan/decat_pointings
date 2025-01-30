@@ -59,24 +59,25 @@ If not, please skip to next observable field, or wait if too difficult.
 ### YSE 448 [16 3] (17 min)
 ### E1E2.json [8 -43] (30 min)
 ### YSE 296 [17 -17] (9 min)
-### DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min)
+DEBASS/EVERYTHING/2024aedt_P1 [27 7] (3min) ***CHECK AIRMASS. TRY TO SQUEEZE IN PLEASE.
+DEBASS/EVERYTHING/2025at_P1 [36 -9] (3min)
+DEBASS/EVERYTHING/2025mb_P1 [8 -28] (3min)
 DEBASS/EVERYTHING/2024agld_P1 [18 -31] (3min)
-### DEBASS/EVERYTHING/2024aeou_P2 [359 -34] (3min) OPTIONAL
 
 ### !!! 22:52
 ### X123.json [34, -4] 34 min     ### don't start after 11:15pm, too high airmass otherwise
 ### X123_moon.json [34, -4] 23 min
 
-!!! 22:48
+!!! 22:56
 S1S2.json [42,0] 22 min        ### don't start after midnight,  too high airmass otherwise
 ### S1S2_moon.json [42,0] 15 min
 DEBASS/EVERYTHING/2025L_P1 [36 -22] (3min)
-DEBASS/EVERYTHING/2025ie_P2 [37 -22] (3min) OPTIONAL
-DEBASS/EVERYTHING/2025J_P1 [42 -21] (3min)
-DEBASS/EVERYTHING/2025fi_P2 [42 -14] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025ie_P1 [37 -22] (3min)
+DEBASS/EVERYTHING/2025J_P2 [42 -21] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025fi_P1 [42 -14] (3min)
 DEBASS/EVERYTHING/2025afh_P1 [47 -3] (3min)
 
-!!! 23:15
+!!! 23:30
 YSE 353 [63 -10] 17 min
 C3 [52, -28] 11 min
 YSE ECDFS [53 -28] (9min)  ### NOTE: NOT EDFS!!!
@@ -85,27 +86,26 @@ YSE 253 [67, -26] 17 min
 DEBASS/EVERYTHING/2024aemk_P2 [87 -19] (3min) OPTIONAL
 DEBASS/EVERYTHING/2025kd_P1 [87 -25] (3min)
 
-!!! 00:20
+!!! 00:30
+DEBASS/EVERYTHING/2024aemo_P2 [63 -30] (3min) OPTIONAL
 YSE EDFS [59 -48] (9 min)  ### NOTE: NOT ECDFS!!!
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 Shen SCVZ [90 -66] 13 min
 
-!!! 00:43
+!!! 00:55
 DEBASS/EVERYTHING/2025afx_P1 [103 -46] (3min)
-DEBASS/EVERYTHING/2024aeyv_P2 [116 -48] (3min) OPTIONAL
 
-!!! 00:50
+!!! 00:58
 YSE 412 [116 -2] 17 min 
+DEBASS/EVERYTHING/2025acv_P1 [129 19] (3min)
 DEBASS/EVERYTHING/2025kk_P1 [120 2] (3min)
 YSE 311 [123 -17] 17 min                                  
-DEBASS/EVERYTHING/2024aegm_P2 [106 23] (3min) OPTIONAL
-DEBASS/EVERYTHING/2025gm_P1 [118 -19] (3min)
-DEBASS/EVERYTHING/2024aeis_P2 [120 -23] (3min) OPTIONAL
-DEBASS/EVERYTHING/2025hd_P1 [135 -23] (3min)
-DEBASS/EVERYTHING/2025gj_P2 [146 -20] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024agky_P1 [140 -33] (3min)
+DEBASS/EVERYTHING/2025gm_P2 [118 -19] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025hd_P2 [135 -23] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025gj_P1 [146 -20] (3min)
+DEBASS/EVERYTHING/2024agky_P2 [140 -33] (3min) OPTIONAL
 
-!!! 01:45
+!!! 01:50
 ### The following are optional targets, cut here if behind schedule!!!
 YSE template/2023mdv [150 -34] (5min)
 YSE template/2021gwn [161 -29] (5min)
@@ -126,11 +126,12 @@ YSE template/2022jkn [157 17] (5min)
 DEBASS/EVERYTHING/2025yz_P1 [154 -5] (3min)
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 ### 2024A-755342_Shen_AGN/COSMOS_moon.json [150 2] 23 min
-DEBASS/EVERYTHING/2025acu_P2 [157 0] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025acu_P1 [158 0] (3min)
 DEBASS/EVERYTHING/2025hg_P1 [164 -2] (3min)
-DEBASS/EVERYTHING/2025an_P1 [164 12] (3min)
-DEBASS/EVERYTHING/2024aewf_P2 [176 3] (3min) OPTIONAL
-DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min)
+DEBASS/EVERYTHING/2025dd_P2 [163 -2] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025an_P2 [164 11] (3min) OPTIONAL
+DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min)
+DEBASS/EVERYTHING/2024aevp_P2 [179 -13] (3min) OPTIONAL
 
 
 !!! 03:43
@@ -152,14 +153,17 @@ YSE 525 [189 10] (33 min)
 
 !!! 05:13
 YSE 2024kce [187 8]  6 min    # high priority!!!    
+DEBASS/EVERYTHING/2025acj_P1 [195 3] (3min) HIGH PRIORITY
 YSE 2024gy [183 13]  5 min    # high priority!!!
-DEBASS/EVERYTHING/2025kj_P1 [212 -5] (3min)
+DEBASS/EVERYTHING/2025afe_P1 [223 2] (3min) HIGH PRIORITY
+DEBASS/EVERYTHING/2025kj_P1 [212 -5] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2025jh_P2 [194 -31] (3min) OPTIONAL
+DEBASS/EVERYTHING/2025aes_P1 [201 -35] (3min) HIGH PRIORITY
 YSE 2025cy [200 -43] (3 min)  # high priority!!!
 
-!!! 05:34
-YSE 376 [224 -8] (17 min)    # skip if behind schedule!
-YSE 428 [228 -2] (17 min)    # skip if behind schedule!
+!!! 05:45
+YSE 376 [224 -8] (17 min)    # OPTIONAL FILLER skip if behind schedule!
+YSE 428 [228 -2] (17 min)    # OPTIONAL FILLER skip if behind schedule!
 
 !!! 05:55 ### Note: probably long slew, so 4min exp time + 3min for slewing!
 YSE 2025aft [252 -73] (4 min) # high priority! Don't skip!

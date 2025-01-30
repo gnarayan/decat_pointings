@@ -138,8 +138,8 @@ DEBASS/EVERYTHING/2024aevp_P1 [179 -13] (3min)
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
 ### 2024B-441839_EtaCar_Rest/etale.g.32min.json  [161, -60] 32 min    
-### 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
-2024B-441839_EtaCar_Rest/etale.ec0915.riz.8min.json  [161, -60] 8 min 
+2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
+### 2024B-441839_EtaCar_Rest/etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
 !!! 04:25
 YSE 2024inv [166 11] 5 min  # high priority!!!

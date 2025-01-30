@@ -106,35 +106,28 @@ DEBASS/EVERYTHING/2025gj_P1 [146 -20] (3min)
 DEBASS/EVERYTHING/2024agky_P2 [140 -33] (3min) OPTIONAL
 
 !!! 01:50
-### The following are optional targets, cut here if behind schedule!!!
-YSE template/2023mdv [150 -34] (5min)
-YSE template/2021gwn [161 -29] (5min)
-YSE template/2021hvq [166 -34] (5min)
-YSE template/2023elb [159 -44] (5min)
-YSE template/2023dtm [134 -41] (5min)
-YSE template/2021knh [137 -28] (5min)
-YSE template/2021abxh [141 -21] (5min)
-YSE template/2021hru [146 -13] (5min)
-YSE template/2023com [142 8] (5min)
-YSE template/2022aecr [146 10] (5min)
-YSE template/2021jtk [152 14] (5min)
-YSE template/2022jkn [157 17] (5min)
-### YSE template/2021adlz [158 12] (5min)
-### YSE template/2021dev [163 1] (5min)
-
-!!! 02:50
 DEBASS/EVERYTHING/2025yz_P1 [154 -5] (3min)
 2024A-755342_Shen_AGN/COSMOS.json [150 2] 31 min
 ### 2024A-755342_Shen_AGN/COSMOS_moon.json [150 2] 23 min
 DEBASS/EVERYTHING/2025acu_P1 [158 0] (3min)
+YSE template/2021adlz [158 12] (5min)
+YSE template/2023bsa [156 10] (5min)
+YSE template/2021dev [163 1] (5min)
 DEBASS/EVERYTHING/2025hg_P1 [164 -2] (3min)
 DEBASS/EVERYTHING/2025dd_P2 [163 -2] (3min) OPTIONAL
 DEBASS/EVERYTHING/2025an_P2 [164 11] (3min) OPTIONAL
+YSE template/2023jwj [171 1] (5min)
+YSE template/2022kcc [173 -5] (5min)
+YSE template/2022adpu [174 -8] (5min)
+YSE template/2023aanh [176 -5] (5min)
 DEBASS/EVERYTHING/2024aewf_P1 [176 3] (3min)
+YSE template/2021hkf [176 8] (5min)
+YSE template/2021dsi [180 -1] (5min)
 DEBASS/EVERYTHING/2024aevp_P2 [179 -13] (3min) OPTIONAL
 
 
-!!! 03:43
+
+!!! 03:28
 2024B-441839_EtaCar_Rest/etale.i.15min.json  [161, -60] 15 min           
 2024B-441839_EtaCar_Rest/etale.r.17min.json  [161, -60] 17 min           
 ### 2024B-441839_EtaCar_Rest/etale.z.17min.json  [161, -60] 17 min    
@@ -142,16 +135,18 @@ DEBASS/EVERYTHING/2024aevp_P2 [179 -13] (3min) OPTIONAL
 2024B-441839_EtaCar_Rest/etale.ec0915.gi.7min.json  [161, -60] 7 min           
 ### 2024B-441839_EtaCar_Rest/etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 04:25
+!!! 04:10
 YSE 2024inv [166 11] 5 min  # high priority!!!
 YSE 2024agls [160 0] (3 min) 
 DEBASS/EVERYTHING/2025dd_P2 [163 -2] (3min) OPTIONAL
 
-!!! 04:36
+!!! 04:21
 DEBASS/EVERYTHING/2025bg_P2 [157 21] (3min) OPTIONAL
-YSE 525 [189 10] (33 min)     
+YSE 525 [189 10] (33 min)  
+YSE template/2023dtz [190 14] (5min)
+YSE template/2023ito [192 13] (5min)   
 
-!!! 05:13
+!!! 05:08
 YSE 2024kce [187 8]  6 min    # high priority!!!    
 DEBASS/EVERYTHING/2025acj_P1 [195 3] (3min) HIGH PRIORITY
 YSE 2024gy [183 13]  5 min    # high priority!!!
@@ -159,6 +154,7 @@ DEBASS/EVERYTHING/2025afe_P1 [223 2] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2025kj_P1 [212 -5] (3min) HIGH PRIORITY
 DEBASS/EVERYTHING/2025jh_P2 [194 -31] (3min) OPTIONAL
 DEBASS/EVERYTHING/2025aes_P1 [201 -35] (3min) HIGH PRIORITY
+YSE template/2023dwc [204 -36] (5min)
 YSE 2025cy [200 -43] (3 min)  # high priority!!!
 
 !!! 05:45

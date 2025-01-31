@@ -45,7 +45,7 @@ Start with Pointing the Telescope to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 jsons/2021B-0909_Twilight_Sheppard/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
-x
+
 !!! 21:50:03
 kleyna/2024-??/Kleyna2024-??-??_sunset.json (50.0 minutes) 
 PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes

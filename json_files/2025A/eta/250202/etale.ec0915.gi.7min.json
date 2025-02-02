@@ -13,18 +13,8 @@
 "count": 1,
 "expType": "object",
 "object": "ec0915",
-"filter": "r",
-"expTime": 100,
-"RA": "161.2625",
-"dec": "-59.6844",
-"propid": "2024B-441839"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "ec0915",
-"filter": "z",
-"expTime": 100,
+"filter": "g",
+"expTime": 200,
 "RA": "161.2625",
 "dec": "-59.6844",
 "propid": "2024B-441839"

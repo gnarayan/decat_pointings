@@ -1,9 +1,9 @@
 [
     {
-        "object": "DESIRT DES-60",
+        "object": "DESIRT DES survey hex 685-217 tiling 1",
         "expTime": 50,
-        "RA": "75.4174",
-        "dec": "-19.6751",
+        "RA": "68.5263749",
+        "dec": "-21.70272",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -11,13 +11,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-60",
+        "object": "DESIRT DES survey hex 685-217 tiling 1",
         "expTime": 70,
-        "RA": "75.4174",
-        "dec": "-19.6751",
+        "RA": "68.5263749",
+        "dec": "-21.70272",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -25,13 +25,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-209",
+        "object": "DESIRT DES survey hex 686-197 tiling 1",
         "expTime": 50,
-        "RA": "78.0160958333333",
-        "dec": "-21.2306761111111",
+        "RA": "68.6362083",
+        "dec": "-19.674389892",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -39,13 +39,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-209",
+        "object": "DESIRT DES survey hex 686-197 tiling 1",
         "expTime": 70,
-        "RA": "78.0160958333333",
-        "dec": "-21.2306761111111",
+        "RA": "68.6362083",
+        "dec": "-19.674389892",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -53,13 +53,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-439",
+        "object": "DESIRT DES survey hex 702-227 tiling 1",
         "expTime": 50,
-        "RA": "76.53275",
-        "dec": "-21.5180919444444",
+        "RA": "70.19845833",
+        "dec": "-22.715787",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -67,13 +67,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-439",
+        "object": "DESIRT DES survey hex 702-227 tiling 1",
         "expTime": 70,
-        "RA": "76.53275",
-        "dec": "-21.5180919444444",
+        "RA": "70.19845833",
+        "dec": "-22.715787",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -81,13 +81,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-475",
+        "object": "DESIRT DES survey hex 703-207 tiling 1",
         "expTime": 50,
-        "RA": "78.8095416666667",
-        "dec": "-19.6735277777778",
+        "RA": "70.28979167",
+        "dec": "-20.68791676",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -95,13 +95,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-475",
+        "object": "DESIRT DES survey hex 703-207 tiling 1",
         "expTime": 70,
-        "RA": "78.8095416666667",
-        "dec": "-19.6735277777778",
+        "RA": "70.28979167",
+        "dec": "-20.68791676",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -109,13 +109,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-709",
+        "object": "DESIRT DES survey hex 704-187 tiling 1",
         "expTime": 50,
-        "RA": "77.1111",
-        "dec": "-18.6606",
+        "RA": "70.37304167",
+        "dec": "-18.658675",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -123,13 +123,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-709",
+        "object": "DESIRT DES survey hex 704-187 tiling 1",
         "expTime": 70,
-        "RA": "77.1111",
-        "dec": "-18.6606",
+        "RA": "70.37304167",
+        "dec": "-18.658675",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -137,13 +137,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-1319",
+        "object": "DESIRT DES survey hex 720-217 tiling 1",
         "expTime": 50,
-        "RA": "78.228",
-        "dec": "-20.4991666666667",
+        "RA": "71.9621676",
+        "dec": "-21.7001",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -151,13 +151,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-1319",
+        "object": "DESIRT DES survey hex 720-217 tiling 1",
         "expTime": 70,
-        "RA": "78.228",
-        "dec": "-20.4991666666667",
+        "RA": "71.9621676",
+        "dec": "-21.7001",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -165,13 +165,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-1499",
+        "object": "DESIRT DES survey hex 720-197 tiling 1",
         "expTime": 50,
-        "RA": "80.5312",
-        "dec": "-20.6896",
+        "RA": "72.03020833",
+        "dec": "-19.672556",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -179,13 +179,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-1499",
+        "object": "DESIRT DES survey hex 720-197 tiling 1",
         "expTime": 70,
-        "RA": "80.5312",
-        "dec": "-20.6896",
+        "RA": "72.03020833",
+        "dec": "-19.672556",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -193,13 +193,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2001",
+        "object": "DESIRT DES survey hex 737-227 tiling 1",
         "expTime": 50,
-        "RA": "78.25065",
-        "dec": "-22.5325919444444",
+        "RA": "73.65867",
+        "dec": "-22.7151",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -207,13 +207,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2001",
+        "object": "DESIRT DES survey hex 737-227 tiling 1",
         "expTime": 70,
-        "RA": "78.25065",
-        "dec": "-22.5325919444444",
+        "RA": "73.65867",
+        "dec": "-22.7151",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -221,13 +221,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2154",
+        "object": "DESIRT DES survey hex 737-227 tiling 1",
         "expTime": 50,
-        "RA": "77.9997083333333",
-        "dec": "-19.1974444444444",
+        "RA": "73.65870833",
+        "dec": "-22.71613899",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -235,13 +235,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2154",
+        "object": "DESIRT DES survey hex 737-227 tiling 1",
         "expTime": 70,
-        "RA": "77.9997083333333",
-        "dec": "-19.1974444444444",
+        "RA": "73.65870833",
+        "dec": "-22.71613899",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -249,13 +249,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2383",
+        "object": "DESIRT DES survey hex 737-207 tiling 1",
         "expTime": 50,
-        "RA": "79.7155833333333",
-        "dec": "-20.2152777777778",
+        "RA": "73.7019167",
+        "dec": "-20.68652786",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -263,13 +263,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2383",
+        "object": "DESIRT DES survey hex 737-207 tiling 1",
         "expTime": 70,
-        "RA": "79.7155833333333",
-        "dec": "-20.2152777777778",
+        "RA": "73.7019167",
+        "dec": "-20.68652786",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -277,13 +277,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2793",
+        "object": "DESIRT DES survey hex 737-187 tiling 1",
         "expTime": 50,
-        "RA": "76.297875",
-        "dec": "-20.2124444444444",
+        "RA": "73.74479167",
+        "dec": "-18.658167",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -291,13 +291,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-2793",
+        "object": "DESIRT DES survey hex 737-187 tiling 1",
         "expTime": 70,
-        "RA": "76.297875",
-        "dec": "-20.2124444444444",
+        "RA": "73.74479167",
+        "dec": "-18.658167",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -305,13 +305,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-3145",
+        "object": "DESIRT DES survey hex 754-217 tiling 1",
         "expTime": 50,
-        "RA": "79.9934083333333",
-        "dec": "-23.5470919444444",
+        "RA": "75.4011675",
+        "dec": "-21.701583",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -319,13 +319,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-3145",
+        "object": "DESIRT DES survey hex 754-217 tiling 1",
         "expTime": 70,
-        "RA": "79.9934083333333",
-        "dec": "-23.5470919444444",
+        "RA": "75.4011675",
+        "dec": "-21.701583",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -333,13 +333,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-4763",
+        "object": "DESIRT DES survey hex 754-197 tiling 1",
         "expTime": 50,
-        "RA": "80.5858",
-        "dec": "-22.7186",
+        "RA": "75.41767",
+        "dec": "-19.67041678",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -347,13 +347,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-4763",
+        "object": "DESIRT DES survey hex 754-197 tiling 1",
         "expTime": 70,
-        "RA": "80.5858",
-        "dec": "-22.7186",
+        "RA": "75.41767",
+        "dec": "-19.67041678",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -361,13 +361,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-4852",
+        "object": "DESIRT DES survey hex 771-187 tiling 1",
         "expTime": 50,
-        "RA": "76.5375833333333",
-        "dec": "-19.4855833333333",
+        "RA": "77.110833",
+        "dec": "-18.6566944",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -375,13 +375,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-4852",
+        "object": "DESIRT DES survey hex 771-187 tiling 1",
         "expTime": 70,
-        "RA": "76.5375833333333",
-        "dec": "-19.4855833333333",
+        "RA": "77.110833",
+        "dec": "-18.6566944",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -389,13 +389,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-4967",
+        "object": "DESIRT DES survey hex 771-187 tiling 1",
         "expTime": 50,
-        "RA": "76.3067916666667",
-        "dec": "-18.1853055555556",
+        "RA": "77.11367",
+        "dec": "-18.65656",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -403,13 +403,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-4967",
+        "object": "DESIRT DES survey hex 771-187 tiling 1",
         "expTime": 70,
-        "RA": "76.3067916666667",
-        "dec": "-18.1853055555556",
+        "RA": "77.11367",
+        "dec": "-18.65656",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -417,13 +417,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-5391",
+        "object": "DESIRT DES survey hex 771-207 tiling 1",
         "expTime": 50,
-        "RA": "79.945125",
-        "dec": "-21.5119444444444",
+        "RA": "77.114083",
+        "dec": "-20.67838989",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -431,13 +431,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-5391",
+        "object": "DESIRT DES survey hex 771-207 tiling 1",
         "expTime": 70,
-        "RA": "79.945125",
-        "dec": "-21.5119444444444",
+        "RA": "77.114083",
+        "dec": "-20.67838989",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -445,13 +445,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-6608",
+        "object": "DESIRT DES survey hex 771-207 tiling 1",
         "expTime": 50,
-        "RA": "77.1165",
-        "dec": "-20.6896",
+        "RA": "77.118375",
+        "dec": "-20.685972",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -459,13 +459,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-6608",
+        "object": "DESIRT DES survey hex 771-207 tiling 1",
         "expTime": 70,
-        "RA": "77.1165",
-        "dec": "-20.6896",
+        "RA": "77.118375",
+        "dec": "-20.685972",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -473,13 +473,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-6956",
+        "object": "DESIRT DES survey hex 771-227 tiling 1",
         "expTime": 50,
-        "RA": "78.8386",
-        "dec": "-21.7041",
+        "RA": "77.1231676",
+        "dec": "-22.71456",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -487,13 +487,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-6956",
+        "object": "DESIRT DES survey hex 771-227 tiling 1",
         "expTime": 70,
-        "RA": "78.8386",
-        "dec": "-21.7041",
+        "RA": "77.1231676",
+        "dec": "-22.71456",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -501,13 +501,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-9194",
+        "object": "DESIRT DES survey hex 788-197 tiling 1",
         "expTime": 50,
-        "RA": "79.7592916666667",
-        "dec": "-22.24275",
+        "RA": "78.80954167",
+        "dec": "-19.67352788",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -515,13 +515,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-9194",
+        "object": "DESIRT DES survey hex 788-197 tiling 1",
         "expTime": 70,
-        "RA": "79.7592916666667",
-        "dec": "-22.24275",
+        "RA": "78.80954167",
+        "dec": "-19.67352788",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -529,13 +529,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-11475",
+        "object": "DESIRT DES survey hex 788-217 tiling 1",
         "expTime": 50,
-        "RA": "81.4535416666667",
-        "dec": "-21.2282777777778",
+        "RA": "78.8409167",
+        "dec": "-21.700389",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -543,13 +543,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
     },
     {
-        "object": "DESIRT DES-11475",
+        "object": "DESIRT DES survey hex 788-217 tiling 1",
         "expTime": 70,
-        "RA": "81.4535416666667",
-        "dec": "-21.2282777777778",
+        "RA": "78.8409167",
+        "dec": "-21.700389",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -557,6 +557,62 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 80_test"
+        "comment": "DESI Transients Survey 80"
+    },
+    {
+        "object": "DESIRT DES survey hex 805-207 tiling 1",
+        "expTime": 50,
+        "RA": "80.53379167",
+        "dec": "-20.68675",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80"
+    },
+    {
+        "object": "DESIRT DES survey hex 805-207 tiling 1",
+        "expTime": 70,
+        "RA": "80.53379167",
+        "dec": "-20.68675",
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80"
+    },
+    {
+        "object": "DESIRT DES survey hex 806-227 tiling 1",
+        "expTime": 50,
+        "RA": "80.5891674",
+        "dec": "-22.71541676",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80"
+    },
+    {
+        "object": "DESIRT DES survey hex 806-227 tiling 1",
+        "expTime": 70,
+        "RA": "80.5891674",
+        "dec": "-22.71541676",
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80"
     }
 ]

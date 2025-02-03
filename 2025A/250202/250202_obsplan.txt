@@ -61,29 +61,46 @@ Script will finish on its own or at -14 deg twilight.
 ### agn S1S2_moon.json [42,0] 15 min
 
 !!! 21:47:36
+DEBASS/EVERYTHING/2025mb_P1 [8 -28] (3min)
+DEBASS/EVERYTHING/2024agld_P1 [18 -31] (3min)
+DEBASS/EVERYTHING/2025L_P1 [36 -22] (3min)
+DEBASS/EVERYTHING/2025ie_P1 [37 -22] (3min)
+DEBASS/EVERYTHING/2025fi_P1 [42 -14] (3min)
+DEBASS/EVERYTHING/2025at_P1 [36 -9] (3min)
+DEBASS/EVERYTHING/2025afh_P1 [47 -3] (3min)
 yse 353 [63 -10] 9 min
+
+!!! 22:18
 agn C3 [52, -28] 11 min
 yse ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
 yse 2025zi [55 -26] (3 min)
 yse 253 [67, -26] 9 min
 
-!!! 22:30
+!!! 22:48
 yse EDFS [59 -48] (6 min)  ### NOTE: NOT ECDFS!!!
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 agn SCVZ [90 -66] 13 min
+DEBASS/EVERYTHING/2025afx_P1 [103 -46] (3min)
 
-!!! 22:52
+!!! 23:10
 desirt DESIRT_80*.json [78 -20] 61 min
+DEBASS/EVERYTHING/2025kd_P1 [87 -25] (3min)
 
-!!! 23:53
+!!! 00:14
 yse 412 [116 -2] 17 min 
+DEBASS/EVERYTHING/2025kk_P1 [120 2] (3min)
+DEBASS/EVERYTHING/2025acv_P1 [129 19] (3min)
 yse 311 [123 -17] 17 min                                  
+DEBASS/EVERYTHING/2025gj_P1 [146 -20] (3min)
 
-!!! 00:27
+!!! 00:57
 agn COSMOS.json [150 2] 31 min
+DEBASS/EVERYTHING/2025yz_P1 [154 -5] (3min)
+DEBASS/EVERYTHING/2025aoz_P1 [151 7] (3min)
+DEBASS/EVERYTHING/2025acu_P1 [158 0] (3min)
 ### agn COSMOS_moon.json [150 2] 23 min
 
-!!! 00:58
+!!! 01:37
 ### eta etale.i.15min.json  [161, -60] 15 min           
 ### eta etale.r.17min.json  [161, -60] 17 min           
 ### eta etale.z.17min.json  [161, -60] 17 min    
@@ -91,22 +108,17 @@ agn COSMOS.json [150 2] 31 min
 eta etale.ec0915.gi.7min.json  [161, -60] 7 min           
 ### eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 01:05
+!!! 01:44
 dosc *_OMLApex*.json [167 -24] 76 min
 
-!!! 02:21
-### yse 2024inv [166 11] 5 min  # high priority!!!
+!!! 03:00
+yse 2024inv [166 11] 5 min  # high priority!!!
 yse 2024agls [160 0] (3 min) 
-
-!!! 02:30
 yse 525 [189 10] (33 min)  
-
-!!! 03:03
-
-DEBASS
-
-!!! 03:46
-### yse 2024kce [187 8]  6 min    # high priority!!!    
+DEBASS/EVERYTHING/2025aov_P1 [186 11] (3min)
+yse 2024kce [187 8]  5 min    # high priority!!!    
+DEBASS/EVERYTHING/2025acj_P1 [195 3] (3min)
+DEBASS/EVERYTHING/2025aes_P1 [201 -35] (3min)
 yse 2025cy [200 -43] (3 min)  # high priority!!!
 
 !!! 04:00

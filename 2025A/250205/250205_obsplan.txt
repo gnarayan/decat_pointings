@@ -100,7 +100,7 @@ jsons/DEBASS/EVERYTHING/2025awa_P1 [129 -63] (2min)
 ### eta etale.g.32min.json  [161, -60] 32 min    
 ### eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 02:18
+!!! 02:20
 jsons/DEBASS/EVERYTHING/2025awf_P1 [171 -32] (2min)
 dosc *_OMLApex*.json [167 -24] 76 min   ### you only can do part of this script, about 60 min!!
 

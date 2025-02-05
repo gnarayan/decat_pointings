@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import os
 import editjson as ej
 import sys
+import shutil
 
 def split(word):
     return [char for char in word]
@@ -21,6 +22,9 @@ from datetime import datetime
 currdate=datetime.today().strftime('%Y-%m-%d')
 datestr = input(f'Please Enter Observing Date in the following format (YYYY-MM-DD)\ndefault {currdate}\n')
 if datestr == '': datestr=currdate
+basename = 'debass'+datestr[2:].replace('-','')
+newjsonfolder = 'json_files/2025A/'+basename
+os.makedirs(newjsonfolder, exist_ok=True)
 obsdict = ro.run(verbose=True)
 
 doonlysn=False
@@ -136,3 +140,5 @@ for i,row in df.iterrows():
         else:
             print('WARNING: jsons/2020B-0053_DEBASS_Brout/TEMPLATE/%s.json'%row['snid']+'\nDoes Not Exist')
             input('press enter to continue')
+
+shutil.copytree('jsons/2020B-0053_DEBASS_Brout/EVERYTHING', newjsonfolder, dirs_exist_ok=True)

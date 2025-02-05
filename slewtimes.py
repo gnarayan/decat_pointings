@@ -44,7 +44,7 @@ def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
     print()
     for	p in pout:
         if '_P2' in p:
-            print(p)
+            print(p+' OPTIONAL')
     print()
     for p in pout:
         if '_P3' in p:

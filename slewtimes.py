@@ -12,7 +12,7 @@ def slewtime_from_two_coords(ra1,dec1,ra2,dec2):
     deg_separation = np.sqrt((delra)**2+(dec1-dec2)**2)
     return max([0.,20.-readout+220./100.*deg_separation])#subtracted off readout and bounded by zero
 
-def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
+def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True,basename=''):
     ids,ras,decs,exptimes = np.array(ids),np.array(ras),np.array(decs),np.array(exptimes)
     df = pd.DataFrame.from_dict({'ids':ids,'rra':np.round(ras,-1),'ra':ras,'dec':decs,'exptime':exptimes})
     if sort:
@@ -40,19 +40,19 @@ def time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=True):
     iobserve.close()
     for p in pout:
         if '_P1' in p:
-            print(p)
+            print(basename+p)
     print()
     for	p in pout:
         if '_P2' in p:
-            print(p+' OPTIONAL')
+            print(basename+p+' OPTIONAL')
     print()
     for p in pout:
         if '_P3' in p:
-            print(p)
+            print(basename+p)
     print()
     for p in pout:
         if '_TCTM' in p:
-            print(p)
+            print(basename+p)
 
     return totaltime,totaltime_p1
         
@@ -93,7 +93,7 @@ def time_for_single_json(json):
     totaltime = time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes)
     return totaltime
 
-def total_time_from_jsons(jsons,sort=True):
+def total_time_from_jsons(jsons,sort=True,basename=''):
     #jsons: list of filenames
     ids, ras,decs,exptimes = [],[],[],[]
     for json in jsons:
@@ -105,7 +105,7 @@ def total_time_from_jsons(jsons,sort=True):
         exptimes.extend(texptimes)
         #print(np.sum(texptimes)/60)
         #print(tids[0],tras[0],tdecs[0])
-    totaltime =	time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=sort)
+    totaltime =	time_from_list_of_ras_decs_exptimes(ids,ras,decs,exptimes,sort=sort,basename=basename)
     return totaltime
         
 

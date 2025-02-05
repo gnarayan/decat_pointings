@@ -23,6 +23,7 @@ def run(verbose=True):
     os.system('rm 2023B/*/*~ >& dump')
     os.system('rm 2024A/*/*~ >& dump')
     os.system('rm 2024B/*/*~ >& dump')
+    os.system('rm 2025A/*/*~ >& dump')
 
     ysedict = {}
     ysedict2 = {}
@@ -47,6 +48,7 @@ def run(verbose=True):
     l.extend(glob('2023B/*/*qc*nv'))
     l.extend(glob('2024A/*/*qc*nv'))
     l.extend(glob('2024B/*/*qc*nv'))
+    l.extend(glob('2025A/*/*qc*nv'))
     for f in l:
         #print(f)
         datestr = f.split('/')[-1].split('.')[0]

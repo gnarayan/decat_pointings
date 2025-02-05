@@ -23,7 +23,7 @@ git add 250205/250205_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f i  296 448  -d 250205 
 mkjson_yse_nofilterswitch.py  -f i  253 353 -d 250205 
 mkjson_yse_nofilterswitch.py  -f r,i ECDFS EDFS -e 120 -d 250205 
-mkjson_yse_nofilterswitch.py  -f g,r 412 311   -d 250205 
+mkjson_yse_nofilterswitch.py  -f r 412 311   -d 250205 
 mkjson_yse_nofilterswitch.py  -f g,i  525    -d 250205 
 mkjson_yse_nofilterswitch.py  -f g,r  376 428    -d 250205 
 #

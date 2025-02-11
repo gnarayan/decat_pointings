@@ -159,6 +159,8 @@ class mkjsonclass(txttableclass):
                           help='Dec column name (default=%default)')
         parser.add_option('--pointingcol'  , default='pointing' , type="string",
                           help='pointing column name (default=%default)')
+        parser.add_option('-p','--priority'  , default=0 , action="count",
+                          help='priority (default=%default)')
         parser.add_option('-o','--outrootdir'  , default="." , type="string",
                           help='base directory (default=%default)')
         parser.add_option('-s','--outsuffix'  , default=None , type="string",
@@ -274,14 +276,16 @@ class mkjsonclass(txttableclass):
 
         return(exposures4object,t)
 
-    def mkjsonscript4all(self,targets,combineFlag=False,outrootdir=None,outsuffix=None,outsubdir=None,repeatfilters=[]):
+    def mkjsonscript4all(self,targets,combineFlag=False,outrootdir=None,outsuffix=None,outsubdir=None,priority=0,repeatfilters=[],sortbyra=False):
 
-        def outfile(basename,outrootdir=None,outsuffix=None,outsubdir=None):
+        def outfile(basename,outrootdir=None,outsuffix=None,outsubdir=None,priority=0):
             outfilename = outrootdir
             if outfilename is None:
                outfilename ='.'
             if outsubdir is not None:
                outfilename += f'/{outsubdir}'
+            if priority>0:
+               outfilename += f'/{priority}'
 
             outfilename +=f'/{basename}'
             if outsuffix is not None:
@@ -337,7 +341,7 @@ class mkjsonclass(txttableclass):
                 tall += t
                 exposures.extend(exposure)
 
-            outfilename = outfile(target,outrootdir=outrootdir,outsuffix=outsuffix,outsubdir=outsubdir)
+            outfilename = outfile(target,outrootdir=outrootdir,outsuffix=outsuffix,outsubdir=outsubdir,priority=priority)
             print('total time for script (exposure time and %f seconds readout):\n %.0f seconds, %.1f minutes, %.2f hours' % (self.readouttime_sec,tall,tall/60.0,tall/3600.0))
             rmfile(outfilename)
             print('Saving ', outfilename)
@@ -476,6 +480,7 @@ if __name__=='__main__':
                             outrootdir=mkjson.options.outrootdir,
                             outsuffix=mkjson.options.outsuffix,
                             outsubdir=outsubdir,
+                            priority=mkjson.options.priority,
                             repeatfilters=repeatfilters)
 
     if outdate!='':

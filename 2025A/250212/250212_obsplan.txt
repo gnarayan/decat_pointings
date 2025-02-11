@@ -99,7 +99,7 @@ eta etale.ec0915.riz.8min.json  [161, -60] 8 min
 
 !!! 02:20
 jsons/DEBASS/EVERYTHING/2025awf_P1 [171 -32] (2min)
-dosc *_OMLApex*.json [167 -24] 76 min   
+dosc *_OMLApex*.json [167 -24] 84 min   
 
 !!! 03:17  ### stop previous script at this time!
 ### yse 2024inv [166 11] 3 min  # high priority!!!
@@ -114,7 +114,7 @@ yse 2025cy [200 -43] (3 min)
 jsons/DEBASS/EVERYTHING/2025arc_P1 [203 -47] (2min)
 
 !!! 04:06
-dosc *_ShallowApex*.json [213 -34] 39 min
+dosc *_ShallowApex*.json [213 -34] 31 min
 
 !!! 04:45
 desirt DESIRT_G15_*.json [220 -1] 46 min
@@ -127,6 +127,7 @@ yse 428 [228 -2] (17 min)
 
 ### !!! 06:00 ### Note: probably long slew, so 3min exp time + 3min for slewing!
 yse 2025aft [252 -73] (3 min) 
+defsus_main.json [264 -29] (36 min)
 
 !!! 06:17:05 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew

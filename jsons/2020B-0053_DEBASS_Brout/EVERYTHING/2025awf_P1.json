@@ -1,7 +1,7 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "r",
         "exptime": 15.0,
         "RA": 171.29243,
         "dec": -32.81193,
@@ -15,7 +15,21 @@
     },
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 171.29243,
+        "dec": -32.81193,
+        "object": "2025awf_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025awf",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
         "exptime": 15.0,
         "RA": 171.29243,
         "dec": -32.81193,

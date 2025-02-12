@@ -114,14 +114,14 @@ debass/250212/2025bbx_P1 [221 -39] (2.5min)
 
 !!! 04:45
 desirt DESIRT_G15_*.json [220 -1] 46 min
-debass/250212/2025bdy_P1 [222 3] (2.5min)
-debass/250212/2025ask_P1 [213 15] (2.5min)
-debass/250212/2025bdc_P1 [220 12] (2.5min)
-debass/250212/2025azi_P2 [230 10] OPTIONAL (2.5min)
-debass/250212/2025asr_P1 [238 17] (2.5min)
+debass/250212/2025bdy_P1 [222 3] (2min)
+debass/250212/2025ask_P1 [213 15] (2min)
+debass/250212/2025bdc_P1 [220 12] (2min)
+debass/250212/2025azi_P2 [230 10] OPTIONAL (2min)
+debass/250212/2025asr_P1 [238 17] (2min)
 
 !!! 05:50
-debass/250212/2025kj_P1 [212 -5] (2.5min)
+debass/250212/2025kj_P1 [212 -5] (2min)
 yse 376 [224 -8] (17 min)    
 yse 428 [228 -2] (17 min)    
 

@@ -100,13 +100,13 @@ yse 525 [189 10] (17 min)
 debass/250212/2025aov_P1 [186 11] (2.5min)
 yse 2024kce [187 8]  3 min      
 debass/250212/2025bcj_P2 [194 1] OPTIONAL (2.5min)
-debass/250212/2025acj_P1 [195 3] (2.5min)
-debass/250212/2025ayo_P1 [211 -1] (2.5min)
-debass/250212/2025bbe_P1 [213 3] (2.5min)
-debass/250212/2025ayl_P1 [205 17] (2.5min)
-debass/250212/2025aes_P1 [201 -35] (2.5min)
+debass/250212/2025acj_P1 [195 3] (2min)
+debass/250212/2025ayo_P1 [211 -1] (2min)
+debass/250212/2025bbe_P1 [213 3] (2min)
+debass/250212/2025ayl_P1 [205 17] (2min)
+debass/250212/2025aes_P1 [201 -35] (2min)
 yse 2025cy [200 -43] (3 min)  
-debass/250212/2025arc_P1 [203 -47] (2.5min)
+debass/250212/2025arc_P1 [203 -47] (2min)
 
 !!! 04:10
 dosc *_ShallowApex*.json [213 -34] 31 min

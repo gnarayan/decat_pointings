@@ -38,13 +38,14 @@ mkdir 250212
 cp 250205/250205_obsplan.txt 250212/250212_obsplan.txt 
 subl 250212/250212_obsplan.txt
 git add 250212/250212_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f i  253 353 -d 250212 -p
+mkjson_yse_nofilterswitch.py  -f g,i  253 353 -d 250212 -p
 mkjson_yse_nofilterswitch.py  -f g,r ECDFS EDFS -e 120 -d 250212 --propid 2024B-441839
-mkjson_yse_nofilterswitch.py  -f i,z 412 311   -d 250212 
+mkjson_yse_nofilterswitch.py  -f z 412 311   -d 250212 
 mkjson_yse_nofilterswitch.py  -f z  525    -d 250212 
 mkjson_yse_nofilterswitch.py  -f g,i  376 428    -d 250212 
 #
-mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi 2025aft -d 250212 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250212 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250212 -e 20 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250212 -e 5 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024agls -d 250212 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f i,z 2024kce 2024inv -d 250212 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839

@@ -48,38 +48,36 @@ Script will finish on its own or at -14 deg twilight.
 
 !!! 21:38:06
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-agn X123.json [34, -4] 34 min     
-### agn X123_moon.json [34, -4] 23 min
 agn S1S2.json [42,0] 22 min        
 ### agn S1S2_moon.json [42,0] 15 min
 
-!!! 22:38
-debass/250212/2025afh_P1 [47 -3] (2.5min)
-yse 353 [63 -10] 9 min
+!!! 22:01
+debass/250212/2025afh_P1 [47 -3] (3.5min)
+yse 353 [63 -10] 17 min
 
-!!! 22:50
+!!! 22:22
 agn C3 [52, -28] 11 min
 yse ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
 yse 2025zi [55 -26] (3 min)
-yse 253 [67, -26] 9 min
+yse 253 [67, -26] 17 min
 
-!!! 23:20
+!!! 23:00
 yse EDFS [59 -48] (6 min)  ### NOTE: NOT ECDFS!!!
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 agn SCVZ [90 -66] 13 min
-debass/250212/2025afx_P1 [103 -46] (2.5min)
-debass/250212/2025bdl_P1 [100 -39] (2.5min)
+debass/250212/2025afx_P1 [103 -46] (3.5min)
+debass/250212/2025bdl_P1 [100 -39] (3.5min)
 
-!!! 00:30
+!!! 23:27
 desirt DESIRT_80*.json [78 -20] 61 min
 
-!!! 01:31
+!!! 00:28
 yse 412 [116 -2] 9 min 
-debass/250212/2025azh_P1 [116 6] (2.5min)
+debass/250212/2025azh_P1 [116 6] (3.5min)
 yse 311 [123 -17] 9 min                                  
-debass/250212/2025azf_P1 [136 0] (2.5min)
+debass/250212/2025azf_P1 [136 0] (3.5min)
 
-!!! 01:55 
+!!! 00:52 
 ### agn COSMOS.json [150 2] 31 min
 ### agn COSMOS_moon.json [150 2] 23 min
 ### eta etale.i.15min.json  [161, -60] 15 min           
@@ -88,18 +86,15 @@ debass/250212/2025azf_P1 [136 0] (2.5min)
 ### eta etale.g.32min.json  [161, -60] 32 min    
 eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 02:03
-debass/250212/2025awf_P1 [171 -32] (2.5min)
+!!! 01:00
+debass/250212/2025awf_P1 [171 -32] (3.5min)
 dosc *_OMLApex*.json [167 -24] 84 min   
 
-!!! 03:30  ### stop previous script at this time!
-### yse 2024inv [166 11] 3 min  # high priority!!!
-yse 2024agls [160 0] (3 min)   OPTIONAL
-debass/250212/2025bei_P2 [175 -17] OPTIONAL (2.5min)
-yse 525 [189 10] (17 min)  
-debass/250212/2025aov_P1 [186 11] (2.5min)
+!!! 02:28
+yse 2024agls [160 0] (3 min) 
+yse 525 [189 10] (17 min)            #### cut here if you are behind!
+debass/250212/2025aov_P1 [186 11] (3.5min)
 yse 2024kce [187 8]  3 min      
-debass/250212/2025bcj_P2 [194 1] OPTIONAL (2.5min)
 debass/250212/2025acj_P1 [195 3] (2min)
 debass/250212/2025ayo_P1 [211 -1] (2min)
 debass/250212/2025bbe_P1 [213 3] (2min)
@@ -108,31 +103,5 @@ debass/250212/2025aes_P1 [201 -35] (2min)
 yse 2025cy [200 -43] (3 min)  
 debass/250212/2025arc_P1 [203 -47] (2min)
 
-!!! 04:10
-dosc *_ShallowApex*.json [213 -34] 31 min
-debass/250212/2025bbx_P1 [221 -39] (2.5min)
-
-!!! 04:45
-desirt DESIRT_G15_*.json [220 -1] 46 min
-debass/250212/2025bdy_P1 [222 3] (2min)
-debass/250212/2025ask_P1 [213 15] (2min)
-debass/250212/2025bdc_P1 [220 12] (2min)
-debass/250212/2025azi_P2 [230 10] OPTIONAL (2min)
-debass/250212/2025asr_P1 [238 17] (2min)
-
-!!! 05:50
-debass/250212/2025kj_P1 [212 -5] (2min)
-yse 376 [224 -8] (17 min)    
-yse 428 [228 -2] (17 min)    
-
-### !!! 06:00 ### Note: probably long slew, so 3min exp time + 3min for slewing!
-yse 2025aft [252 -73] (3 min) 
-debass/250212/2025ato_P1 [260 -67] (2.5min)
-defsus_main.json [264 -29] (36 min)
-
-!!! 06:17:05 (-14 deg twilight)
-### just finish the last exposure that fits into the time of the previous block, and slew
-### to the asteroid fields in time! Otherwise the images will be useless
-### At -14 deg twilight: slew to Asteroid fields!!!
-using morning twilight asteroid script in
-json_files/2025A/twi/SheppardTwilightXXXmorning.json
+!!! 03:20  ### stop previous script at this time!
+ToO

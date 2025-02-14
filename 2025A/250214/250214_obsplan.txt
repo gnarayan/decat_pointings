@@ -1,15 +1,15 @@
-MOON ILLUMINATION: 1.00
-UT -16 deg twilight: 2025-02-13T00:48:22.078 2025-02-13T09:06:49.694
-UT -15 deg twilight: 2025-02-13T00:43:13.496 2025-02-13T09:11:58.398
-UT -14 deg twilight: 2025-02-13T00:38:06.744 2025-02-13T09:17:05.136
-UT -12 deg twilight: 2025-02-13T00:27:58.887 2025-02-13T09:27:13.158
-UT -10 deg twilight: 2025-02-13T00:17:57.649 2025-02-13T09:37:14.576
-LOCAL -16 deg twilight: 02/12/2025,   21:48:22   06:06:49
-LOCAL -15 deg twilight: 02/12/2025,   21:43:13   06:11:58
-LOCAL -14 deg twilight: 02/12/2025,   21:38:06   06:17:05
-LOCAL -12 deg twilight: 02/12/2025,   21:27:58   06:27:13
-LOCAL -10 deg twilight: 02/12/2025,   21:17:57   06:37:14
-LOCAL night MIDPOINT: 02/13/2025,   01:57:35
+MOON ILLUMINATION: 0.93
+UT -16 deg twilight: 2025-02-15T00:46:10.531 2025-02-15T09:08:52.234
+UT -15 deg twilight: 2025-02-15T00:41:04.972 2025-02-15T09:13:58.427
+UT -14 deg twilight: 2025-02-15T00:35:59.772 2025-02-15T09:19:02.799
+UT -12 deg twilight: 2025-02-15T00:25:56.149 2025-02-15T09:29:06.512
+UT -10 deg twilight: 2025-02-15T00:15:58.686 2025-02-15T09:39:04.109
+LOCAL -16 deg twilight: 02/14/2025,   21:46:10   06:08:52
+LOCAL -15 deg twilight: 02/14/2025,   21:41:04   06:13:58
+LOCAL -14 deg twilight: 02/14/2025,   21:35:59   06:19:02
+LOCAL -12 deg twilight: 02/14/2025,   21:25:56   06:29:06
+LOCAL -10 deg twilight: 02/14/2025,   21:15:58   06:39:04
+LOCAL night MIDPOINT: 02/15/2025,   01:57:31
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -40,13 +40,13 @@ LOCAL night MIDPOINT: 02/13/2025,   01:57:35
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! after pointing ~21:35 (NOTE: CHILEAN LOCAL TIME!!!)
+!!! after pointing ~21:20 (NOTE: CHILEAN LOCAL TIME!!!)
 Start with Pointing the Telescope to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 json_files/2025A/twi/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 21:38:06
+!!! 21:35:59
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 debass/250214/2024agld_P1 [18 -31] (3min)
 debass/250214/2025boc_P1 [40 -33] (3min)
@@ -54,74 +54,79 @@ debass/250214/2025fi_P1 [42 -14] (3min)
 agn S1S2.json [42,0] 22 min        
 ### agn S1S2_moon.json [42,0] 15 min
 
-!!! 22:01
+!!! 22:08
 debass/250214/2025afh_P1 [47 -3] (3min)
 yse 353 [63 -10] 17 min
 
-!!! 22:22
+!!! 22:28
 agn C3 [52, -28] 11 min
-yse ECDFS [53 -28] (6min)  ### NOTE: NOT EDFS!!!
+yse ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
 yse 2025zi [55 -26] (3 min)
 yse 253 [67, -26] 17 min
 
-!!! 23:00
+!!! 23:05
 yse EDFS [59 -48] (6 min)  ### NOTE: NOT ECDFS!!!
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 agn SCVZ [90 -66] 13 min
 debass/250214/2025afx_P1 [103 -46] (3min)
 debass/250214/2025bdl_P1 [100 -39] (3min)
 
-!!! 23:27
-desirt DESIRT_80*.json [78 -20] 61 min
+!!! 23:31
+desirt DESIRT_80_gr.json [78 -20] 77 min
 debass/250214/2025kd_P1 [87 -25] (3min)
 
-!!! 00:28
-yse 412 [116 -2] 9 min 
+!!! 00:51
+yse 412 [116 -2] 17 min 
 debass/250214/2025azh_P1 [116 6] (3min)
-yse 311 [123 -17] 9 min                                  
+yse 311 [123 -17] 17 min                                  
 
-!!! 00:52 
+!!! 01:28
 ### agn COSMOS.json [150 2] 31 min
-### agn COSMOS_moon.json [150 2] 23 min
+agn COSMOS_moon.json [150 2] 23 min
 ### eta etale.i.15min.json  [161, -60] 15 min           
 ### eta etale.r.17min.json  [161, -60] 17 min           
 ### eta etale.z.17min.json  [161, -60] 17 min    
 ### eta etale.g.32min.json  [161, -60] 32 min    
 eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 01:00
+!!! 02:00
 dosc *_OMLApex*.json [167 -24] 84 min   
 
-!!! 02:28
-yse 2024agls [160 0] (3 min) 
-yse 525 [189 10] (17 min)            #### cut here if you are behind!
+!!! 03:24
+yse 2024agls [160 0] (4 min) 
+### yse 525 [189 10] (17 min)            
 yse 2024kce [187 8]  3 min      
 debass/250214/2025ayo_P1 [211 -1] (3min)
 debass/250214/2025bbe_P1 [213 3] (3min)
-debass/250214/2025ayl_P2 [205 17] (3min) OPTIONAL
+### debass/250214/2025ayl_P2 [205 17] (3min) OPTIONAL
 debass/250214/2025aes_P1 [201 -35] (3min)
 yse 2025cy [200 -43] (3 min)  
 debass/250214/2025arc_P1 [203 -47] (3min)
 
-!!! 04:06
-dosc *_ShallowApex*.json [213 -34] 39 min
+!!! 03:46
+dosc *_ShallowApex*.json [213 -34] 31 min
 debass/250214/2025bbx_P1 [221 -39] (3min)
 
-!!! 04:45
-desirt DESIRT_G15_*.json [220 -1] 46 min
+!!! 04:16
+### The next script won't fit, remove exposures here!!!
+desirt DESIRT_G15_*.json [220 -1] 56 min     #### remove exposures here!!!
+### The previous script won't fit, remove exposures here!!!
 debass/250214/2025bdy_P1 [222 3] (3min)
 debass/250214/2025bdc_P1 [220 12] (3min)
 debass/250214/2025ask_P2 [213 15] (3min) OPTIONAL
 
-!!! 05:33
+!!! 05:13
 debass/250214/2025kj_P2 [212 -5] (3min) OPTIONAL
-yse 376 [224 -8] (17 min)    
-yse 428 [228 -2] (17 min)    
+yse 376 [224 -8] (9 min)    
+yse 428 [228 -2] (9 min)    
 
-### !!! 06:00 ### Note: probably long slew, so 3min exp time + 3min for slewing!
-### yse 2025aft [252 -73] (3 min) 
+!!! 05:35
+defsus_main.json [264 -29] (36 min)
 
-!!! 06:09:58 (-14 deg twilight)
+!!! 06:12 ### Note: probably long slew, so 3.5min exp time + 3min for slewing!
+yse 2025aft [252 -73] (4 min) 
+
+!!! 06:19:02 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

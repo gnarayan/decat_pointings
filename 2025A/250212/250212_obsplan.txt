@@ -69,7 +69,7 @@ debass/250212/2025afx_P1 [103 -46] (3.5min)
 debass/250212/2025bdl_P1 [100 -39] (3.5min)
 
 !!! 23:27
-desirt DESIRT_80*.json [78 -20] 61 min
+desirt DESIRT_80*.json [78 -20] 78 min
 
 !!! 00:28
 yse 412 [116 -2] 9 min 

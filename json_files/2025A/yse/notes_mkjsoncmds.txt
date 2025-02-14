@@ -38,7 +38,7 @@ mkdir 250214
 cp 250205/250205_obsplan.txt 250214/250214_obsplan.txt 
 subl 250214/250214_obsplan.txt
 git add 250214/250214_obsplan.txt
-mkjson_yse_nofilterswitch.py  -f g,r  253 353 -d 250214 -p
+mkjson_yse_nofilterswitch.py  -f g,r  253 353 -d 250214 
 mkjson_yse_nofilterswitch.py  -f g,i ECDFS EDFS -e 120 -d 250214 --propid 2024B-441839
 mkjson_yse_nofilterswitch.py  -f r,i 412 311   -d 250214 
 mkjson_yse_nofilterswitch.py  -f z  525    -d 250214 

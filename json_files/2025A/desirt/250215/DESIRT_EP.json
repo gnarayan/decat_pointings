@@ -1,9 +1,9 @@
 [
     {
-        "object": "DESIRT DECaLS-7089",
+        "object": "DESIRT DECaLS-22052 PASS2",
         "expTime": 30,
-        "RA": "156.33119",
-        "dec": "-27.69834",
+        "RA": "156.52399583",
+        "dec": "-27.778",
         "filter": "r",
         "count": 1,
         "expType": "object",
@@ -14,10 +14,10 @@
         "comment": "DESI Transients Survey"
     },
     {
-        "object": "DESIRT DECaLS-7089",
+        "object": "DESIRT DECaLS-22052 PASS2",
         "expTime": 60,
-        "RA": "156.33119",
-        "dec": "-27.69834",
+        "RA": "156.52399583",
+        "dec": "-27.778",
         "filter": "i",
         "count": 1,
         "expType": "object",
@@ -28,10 +28,10 @@
         "comment": "DESI Transients Survey"
     },
     {
-        "object": "DESIRT DECaLS-7089",
-        "expTime": 90,
-        "RA": "156.33119",
-        "dec": "-27.69834",
+        "object": "DESIRT DECaLS-22052 PASS2",
+        "expTime": 60,
+        "RA": "156.52399583",
+        "dec": "-27.778",
         "filter": "z",
         "count": 1,
         "expType": "object",

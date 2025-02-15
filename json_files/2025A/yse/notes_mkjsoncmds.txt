@@ -85,6 +85,7 @@ mkjson_yse_nofilterswitch.py  -f z  376 428    -d 250215
 mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250215 -e 20 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250215 -e 40 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250215 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025bco  -d 250215 -e 5 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2024agls -d 250215 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f i,z 2024kce 2024inv -d 250215 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
 git add 250215
@@ -93,6 +94,8 @@ git add 250215/*
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
+
+YSE_pointings2fieldcenters.py --addSN  2025bco 198.9304333     -0.4718500   -vv --overw
 
 YSE_pointings2fieldcenters.py --addSN  2025aft 251.84277375 -73.03170375   -vv --overw
 

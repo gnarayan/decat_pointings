@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2025bco",
+"filter": "i",
+"expTime": 5,
+"RA": "198.9283",
+"dec": "-0.3849",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2025bco",
+"filter": "z",
+"expTime": 5,
+"RA": "198.9283",
+"dec": "-0.3849",
+"propid": "2024B-763968"
+}
+]

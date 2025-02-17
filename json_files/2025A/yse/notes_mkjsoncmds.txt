@@ -100,7 +100,8 @@ mkjson_yse_nofilterswitch.py  -f r  253 353 -d 250216
 mkjson_yse_nofilterswitch.py  -f g,r ECDFS EDFS -e 120 -d 250216 --propid 2024B-441839
 mkjson_yse_nofilterswitch.py  -f g,r 412 311   -d 250216 
 mkjson_yse_nofilterswitch.py  -f z  525    -d 250216 
-mkjson_yse_nofilterswitch.py  -f z  376 428    -d 250216 
+mkjson_yse_nofilterswitch.py  -f z  376     -d 250216 
+mkjson_yse_nofilterswitch.py  -f i,z   428    -d 250216 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250216 -e 20 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250216 -e 40 -n 1 --sortbyra
@@ -110,6 +111,28 @@ mkjson_yse_nofilterswitch.py  -f r,i,z  2024agls -d 250216 -e 15 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f r,i,z 2024kce 2024inv -d 250216 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
 git add 250216
 git add 250216/*
+### git add 250212/*.json
+
+mkdir 250217
+cp 250216/250216_obsplan.txt 250217/250217_obsplan.txt 
+subl 250217/250217_obsplan.txt
+git add 250217/250217_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  253 353 -d 250217 
+mkjson_yse_nofilterswitch.py  -f g,i ECDFS EDFS -e 120 -d 250217 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f g,i 412 311   -d 250217 
+mkjson_yse_nofilterswitch.py  -f i,z  525    -d 250217 
+### mkjson_yse_nofilterswitch.py  -f z  376     -d 250217 
+mkjson_yse_nofilterswitch.py  -f z   428    -d 250217 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250217 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250217 -e 40 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2025cy  -d 250217 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f i,z  2025bco  -d 250217 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2024agls -d 250217 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z 2024kce  -d 250217 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f r,i,z  2024inv -d 250217 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
+git add 250217
+git add 250217/*
 ### git add 250212/*.json
 
 

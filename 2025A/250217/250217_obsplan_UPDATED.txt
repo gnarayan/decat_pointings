@@ -1,0 +1,88 @@
+MOON ILLUMINATION: 0.75
+---------------------------------------------------
+UT -10 deg twilight:	02/18 00:13	|	02/18 09:41
+UT -12 deg twilight:	02/18 00:23	|	02/18 09:31
+UT -14 deg twilight:	02/18 00:33	|	02/18 09:21
+UT -16 deg twilight:	02/18 00:43	|	02/18 09:11
+---------------------------------------------------
+LOCAL -10 deg twilight:	02/17 21:13	|	02/18 06:41
+LOCAL -12 deg twilight:	02/17 21:23	|	02/18 06:31
+LOCAL -14 deg twilight:	02/17 21:33	|	02/18 06:21
+LOCAL -16 deg twilight:	02/17 21:43	|	02/18 06:11
+---------------------------------------------------
+LOCAL night MIDPOINT: 02/18 01:57
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+2 ***
+*********************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc).
+*** Look for targets that are marked OPTIONAL, and skip when you get to them.
+*** Stay within targets' time windows if you adjust schedule!!!
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+
+!!! 21:33
+AGN S1S2 [42 0] (18 min)                                             ------> SLEW BEFORE 22:00
+DEBASS 2025afh_P1 [47 -4] (3 min)                                    ------> SLEW BEFORE 22:45
+YSE 353 [63 -10] (18 min)                                            ------> SLEW BEFORE 23:49
+AGN C3 [53 -28] (6 min)                                              ------> SLEW BEFORE 23:54
+EtaCar ECDFS [53 -28] (5 min)                                        ------> SLEW BEFORE 23:57
+YSE 253 [61 -25] (19 min)                                            ------> SLEW BEFORE 00:10
+
+!!! 22:42
+EtaCar EDFS [59 -49] (9 min)                                         ------> SLEW BEFORE 00:49
+AGN S-CVZ [90 -67] (6 min)                                           ------> SLEW BEFORE 02:57
+DEBASS 2025afx_P1 [104 -46] (4 min)                                  ------> SLEW BEFORE 03:50
+DEBASS 2025bdl_P1 [100 -40] (2 min)                                  ------> SLEW BEFORE 03:28
+DESIRT DESIRT_80_grz [74 -21] (99 min)                               ------> SLEW BEFORE 23:35
+
+!!! 00:42
+DEBASS 2025kd_P2 [87 -25] (2 min)                                    ------> SLEW BEFORE 02:11
+
+!!! 00:44
+YSE 412 [116 -3] (19 min)                                            ------> SLEW BEFORE 03:00
+DEBASS 2025azh_P1 [116 6] (2 min)                                    ------> SLEW BEFORE 02:53
+YSE 311 [124 -17] (18 min)                                           ------> SLEW BEFORE 04:05
+DEBASS 2025bqz_P1 [137 -10] (2 min)                                  ------> SLEW BEFORE 04:58
+DEBASS 2025azf_P1 [136 1] (3 min)                                    ------> SLEW BEFORE 04:27
+DEBASS 2025hd_P2 [136 -23] (4 min) OPTIONAL                          ------> SLEW BEFORE 05:21
+DEBASS 2025beu_P1 [154 -14] (2 min)                                  ------> SLEW BETWEEN 21:50 and 06:15
+
+!!! 01:34
+AGN COSMOS [150 2] (16 min)                                          ------> SLEW BETWEEN 22:16 and 05:06
+DEBASS 2025aoz_P1 [152 7] (2 min)                                    ------> SLEW BETWEEN 22:38 and 05:09
+DEBASS 2025acu_P1 [158 1] (2 min)                                    ------> SLEW BETWEEN 22:45 and 05:56
+DEBASS 2025awf_P1 [171 -33] (6 min)                                  ------> SLEW AFTER 22:27
+DOSC 1_OMLApex.250217_r_10-dithpos [167 -25] (33 min)                ------> SLEW AFTER 22:22
+
+!!! 02:33
+DOSC 2_OMLApex.250217_i_15-dithpos [167 -25] (45 min)                ------> SLEW AFTER 22:22
+DOSC 3_OMLApex.250217_z_14-dithpos [167 -24] (43 min)                ------> SLEW AFTER 22:24
+
+!!! 04:01
+DOSC 4_OMLApex.250217_g_5-dithpos [167 -25] (15 min)                 ------> SLEW AFTER 22:22
+YSE 2024agls [160 0] (3 min)                                         ------> SLEW BETWEEN 22:51 and 06:07
+YSE 525 [187 11] (18 min)                                            ------> SLEW AFTER 01:15
+
+!!! 04:37
+DEBASS 2025aov_P1 [186 12] (2 min)                                   ------> SLEW AFTER 01:16
+DEBASS 2025bcj_P2 [195 2] (2 min) OPTIONAL                           ------> SLEW AFTER 01:15
+DEBASS 2025arc_P1 [203 -47] (7 min)                                  ------> SLEW AFTER 00:12
+DEBASS 2025bbx_P1 [222 -39] (2 min)                                  ------> SLEW AFTER 01:39
+YSE 2025bco [199 0] (6 min)                                          ------> SLEW AFTER 01:25
+DESIRT DESIRT_G15_z_short [218 -1] (21 min)                          ------> SLEW AFTER 02:38
+DEBASS 2025bdy_P1 [223 4] (2 min)                                    ------> SLEW AFTER 03:11
+DEBASS 2025ayl_P1 [206 17] (2 min)                                   ------> SLEW AFTER 02:58
+DEBASS 2025ask_P1 [213 16] (2 min)                                   ------> SLEW AFTER 03:21
+DEBASS 2025bdc_P1 [221 13] (2 min)                                   ------> SLEW AFTER 03:38
+YSE 428 [228 -2] (9 min)                                             ------> SLEW AFTER 03:18
+
+!!! 05:34
+YSE 2025aft [252 -73] (9 min)                                        ------> SLEW AFTER 03:22
+DEFSuS defsus_main [267 -29] (35 min)                                ------> SLEW AFTER 04:55

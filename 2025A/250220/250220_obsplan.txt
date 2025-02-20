@@ -116,13 +116,13 @@ yse 2025bco [199 0] 2 min
 desirt DESIRT_G15_*.json [220 -1] 56 min    
 
 !!! 05:34
-yse 376 [224 -8] (9 min)    
+yse 376 [224 -8] (9 min)    	         ### skip here if behind schedule
 debass/250220/2025ayo_P1 [211 -1] (2min)
 debass/250220/2025bbe_P1 [213 3] (2min)
 debass/250220/2025byc_P1 [211 6] (2min)
-debass/250220/2025ayl_P1 [205 17] (2min) ### skip if behind
-debass/250220/2025ask_P1 [213 15] (2min) ### skip if behind
-debass/250220/2025bdc_P1 [220 12] (2min) ### skip if behind
+debass/250220/2025ayl_P1 [205 17] (2min) ### skip here if behind schedule
+debass/250220/2025ask_P1 [213 15] (2min) ### skip here if behind schedule
+debass/250220/2025bdc_P1 [220 12] (2min) ### skip here if behind schedule
 
 !!! 5:50
 ### yse 428 [228 -2] (9 min)  

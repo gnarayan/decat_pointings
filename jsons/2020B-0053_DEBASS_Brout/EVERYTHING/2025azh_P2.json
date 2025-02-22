@@ -1,11 +1,11 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
         "RA": 116.38722,
         "dec": 6.37878,
-        "object": "2025azh_P1",
+        "object": "2025azh_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",
@@ -15,11 +15,11 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "r",
         "exptime": 15.0,
         "RA": 116.38722,
         "dec": 6.37878,
-        "object": "2025azh_P1",
+        "object": "2025azh_P2",
         "program": "DECAT",
         "expType": "object",
         "note": "None",

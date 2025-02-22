@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
-        "RA": 157.99824,
-        "dec": 0.92348,
+        "RA": 158.02602,
+        "dec": 0.95126,
         "object": "2025acu_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 157.99824,
-        "dec": 0.92348,
+        "RA": 158.02602,
+        "dec": 0.95126,
         "object": "2025acu_P1",
         "program": "DECAT",
         "expType": "object",

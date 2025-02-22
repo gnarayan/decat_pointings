@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
         "exptime": 15.0,
-        "RA": 213.18938,
-        "dec": 15.83279,
+        "RA": 213.21716,
+        "dec": 15.80501,
         "object": "2025ask_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 213.18938,
-        "dec": 15.83279,
+        "RA": 213.21716,
+        "dec": 15.80501,
         "object": "2025ask_P1",
         "program": "DECAT",
         "expType": "object",

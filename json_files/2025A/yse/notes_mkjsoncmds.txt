@@ -147,14 +147,36 @@ mkjson_yse_nofilterswitch.py  -f z  376     -d 250220
 ### mkjson_yse_nofilterswitch.py  -f z   428    -d 250220 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250220 -e 20 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250220 -e 40 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250220 -e 50 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250220 -e 5 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i  2025bco  -d 250220 -e 5 -n 1 --sortbyra
-mkjson_yse_nofilterswitch.py  -f r,i,z  2024agls -d 250220 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2024agls -d 250220 -e 50 -n 1 --sortbyra
 mkjson_yse_nofilterswitch.py  -f g,r,i 2024kce  -d 250220 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
 mkjson_yse_nofilterswitch.py  -f g,r,i  2024inv -d 250220 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
 git add 250220
 git add 250220/*
+### git add 250212/*.json
+
+mkdir 250223
+cp 250216/250216_obsplan.txt 250223/250223_obsplan.txt 
+subl 250223/250223_obsplan.txt
+git add 250223/250223_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,i  253 353 -d 250223 
+mkjson_yse_nofilterswitch.py  -f g,i ECDFS EDFS -e 120 -d 250223 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f g,i 412 311   -d 250223 
+mkjson_yse_nofilterswitch.py  -f g,r  525    -d 250223 
+mkjson_yse_nofilterswitch.py  -f g,i  376     -d 250223 
+mkjson_yse_nofilterswitch.py  -f g,i   428    -d 250223 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250223 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250223 -e 50 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250223 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025bco  -d 250223 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2024agls -d 250223 -e 50 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024kce  -d 250223 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f g,r,i  2024inv -d 250223 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
+git add 250223
+git add 250223/*
 ### git add 250212/*.json
 
 

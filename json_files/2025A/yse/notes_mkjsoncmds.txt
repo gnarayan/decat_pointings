@@ -135,6 +135,28 @@ git add 250217
 git add 250217/*
 ### git add 250212/*.json
 
+mkdir 250220
+cp 250216/250216_obsplan.txt 250220/250220_obsplan.txt 
+subl 250220/250220_obsplan.txt
+git add 250220/250220_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  253 353 -d 250220 
+mkjson_yse_nofilterswitch.py  -f g,r ECDFS EDFS -e 120 -d 250220 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f g,r 412 311   -d 250220 
+mkjson_yse_nofilterswitch.py  -f r,i  525    -d 250220 
+mkjson_yse_nofilterswitch.py  -f z  376     -d 250220 
+### mkjson_yse_nofilterswitch.py  -f z   428    -d 250220 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250220 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250220 -e 40 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250220 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025bco  -d 250220 -e 5 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i,z  2024agls -d 250220 -e 15 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024kce  -d 250220 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f g,r,i  2024inv -d 250220 -e 40 20 20 40 -n 1 --sortbyra --propid 2024B-441839
+git add 250220
+git add 250220/*
+### git add 250212/*.json
+
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 

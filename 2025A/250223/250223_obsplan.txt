@@ -85,7 +85,7 @@ debass/250223/2025bdc_P1 [220 12] (2min) HIGH PRIORITY
 yse 428 [228 -2] (17 min)  
 ### desirt DESIRT_235_i.json  [244 -69] (66 min)
 ### yse 2025aft [252 -73] (4 min) 
-defsus defsus_*.json [267 -29] (30 min)
+defsus defsus_*.json [267 -29] (30 min) ### skip here if behind!
 
 !!! 06:27:22 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew

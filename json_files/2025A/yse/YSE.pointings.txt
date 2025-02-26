@@ -241,7 +241,6 @@
            2021zj   <NA> 169.13384  29.18314     0       NaN                    NaN      2021zj      N4          35
            2022zj   <NA> 106.96094 -71.43791     0       NaN                    NaN      2022zj      N4          35
         AT2022cmc   <NA> 203.70000  33.20000     0       NaN                    NaN   AT2022cmc     NaN        <NA>
-          2021jad   <NA>  82.97859 -21.85549     0       NaN                    NaN     2021jad     NaN        <NA>
           2022czy   <NA> 185.50249  17.08257     0       NaN                    NaN     2022czy      N4          35
           2022jli   <NA>   8.68617  -8.30329     0       NaN                    NaN     2022jli      N4          35
           2022ngb   <NA> 284.21186  36.70586     0       NaN                    NaN     2022ngb      N4          35
@@ -901,12 +900,22 @@
           2024pco   <NA>  29.48004  13.44765     0       NaN                    NaN     2024pco      N4          35
           2024pxl   <NA> 263.11180   7.14943     0       NaN                    NaN     2024pxl      N4          35
           2024rqx   <NA> 340.48233  -3.82470     0       NaN                    NaN     2024rqx      N4          35
-            ECDFS   <NA>  53.12500 -28.10000     0       NaN                    NaN       ECDFS     NaN        <NA>
-             EDFS   <NA>  59.10040 -48.73000     0       NaN                    NaN        EDFS     NaN        <NA>
-          2024kce   <NA> 187.45429   8.30045     0       NaN                    NaN     2024kce      N4          35
           2024inv   <NA> 166.63181  11.46543     0       NaN                    NaN     2024inv      N4          35
            2025cy   <NA> 200.30308 -43.59666     0       NaN                    NaN      2025cy      N4          35
          2024agls   <NA> 160.43047  -0.17889     0       NaN                    NaN    2024agls      N4          35
-           2025zi   <NA>  54.72505 -26.28374     0       NaN                    NaN      2025zi      N4          35
           2025aft   <NA> 251.83547 -72.94471     0       NaN                    NaN     2025aft      N4          35
           2025bco   <NA> 198.92829  -0.38486     0       NaN                    NaN     2025bco      N4          35
+          2021uxz   <NA> 319.89049 -21.86447     0       NaN                    NaN     2021uxz      N4          35
+          2022upj   <NA>   5.98465 -14.33613     0       NaN                    NaN     2022upj      N4          35
+          2020rlj   <NA> 345.28770  23.57420     0       NaN                    NaN     2020rlj      N4          35
+          2020ees   <NA> 201.81078  32.12062     0       NaN                    NaN     2020ees      N4          35
+          2021jad   <NA>  83.34007 -21.86487     0       NaN                    NaN     2021jad      N4          35
+          2023jgf   <NA> 353.14434  -0.64930     0       NaN                    NaN     2023jgf      N4          35
+               C3   <NA>  52.64757 -28.01301     0       NaN                    NaN          C3      N4          35
+          2024kce   <NA> 187.45429   8.30045     0       NaN                    NaN     2024kce      N4          35
+           2025zi   <NA>  54.72505 -26.28375     0       NaN                    NaN      2025zi      N4          35
+          2021too   <NA> 325.22400  10.41216     0       NaN                    NaN     2021too      N4          35
+            ECDFS   <NA>  53.12500 -28.10000     0       NaN                    NaN       ECDFS     NaN        <NA>
+             EDFS   <NA>  59.10040 -48.73000     0       NaN                    NaN        EDFS     NaN        <NA>
+          2025brs   <NA>  94.74395 -24.54050     0       NaN                    NaN     2025brs      N4          35
+          2025bbe   <NA> 213.53480   3.31169     0       NaN                    NaN     2025bbe      N4          35

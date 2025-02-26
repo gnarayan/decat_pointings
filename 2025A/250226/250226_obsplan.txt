@@ -66,9 +66,9 @@ debass/250226/2025bdl_P2 [100 -39] OPTIONAL (3min)
 
 !!! 22:57
 ### you can only do part of this: cut some exposures!!!
-desirt DESIRT_80_*.json [78 -20] 58 min
+desirt DESIRT_80_gr.json [78 -20] 58 min
 
-!!! 23:55
+!!! 23:55 # please slew on time for this to stay on schedule!!
 yse 2025brs [95  -25] 3 min
 yse 412 [116 -2] 17 min 
 debass/250226/2025azh_P1 [116 6] (2.5min)
@@ -105,7 +105,7 @@ dosc *_OMLApex*.json [167 -24] 76 min
 ### debass/250226/2025aov_P1 [186 12] (2.5min)
 ### debass/250226/2025acj_P1 [195 3] (2.5min)
 ### yse 2024kce [187 8]  4 min      
-yse 2025bbe [214 3] (3 min)    ### high priority!
+yse 2025bbe [214 3] (3 min)    HIGH PRIORITY
 debass/250226/2025bbe_P1 [213 3] (2.5min) HIGH PRIORITY
 debass/250226/2025byc_P1 [211 6] (2.5min) HIGH PRIORITY
 debass/250226/2025ayl_P1 [205 17] (2.5min) HIGH PRIORITY

@@ -1,5 +1,33 @@
 [
     {
+        "object": "DESIRT W",
+        "expTime": 70,
+        "RA": "85.8",
+        "dec": "-47.6",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80"
+    },
+    {
+        "object": "DESIRT W",
+        "expTime": 110,
+        "RA": "85.8",
+        "dec": "-47.6",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80"
+    },
+    {
         "object": "DESIRT DES survey hex 685-217 tiling 1",
         "expTime": 50,
         "RA": "68.5263749",

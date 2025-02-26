@@ -65,8 +65,7 @@ agn SCVZ [90 -66] 12 min
 debass/250226/2025bdl_P2 [100 -39] OPTIONAL (3min)
 
 !!! 22:57
-### you can only do part of this: cut some exposures!!!
-desirt DESIRT_80_gr.json [78 -20] 58 min
+desirt DESIRT_80_gr_Feb26.json [78 -20] 58 min
 
 !!! 23:55 # please slew on time for this to stay on schedule!!
 yse 2025brs [95  -25] 3 min

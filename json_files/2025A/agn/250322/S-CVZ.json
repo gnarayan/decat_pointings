@@ -1,0 +1,46 @@
+[
+ { "comment": "BHM-RM Pre-imaging Program",
+  "count": 2,
+  "propid": "2024A-755342",
+  "proposer": "Shen",
+  "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
+  "expType": "object",
+  "object": "S-CVZ",
+  "filter": "g",
+  "RA": 90.0,
+  "dec": -66.56056,
+  "seqid": "S-CVZ from script S-CVZ.json",
+  "expTime": 80,
+  "wait": "False"
+ },
+ {
+  "comment": "BHM-RM Pre-imaging Program",
+  "count": 2,
+  "propid": "2024A-755342",
+  "proposer": "Shen",
+  "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
+  "expType": "object",
+  "object": "S-CVZ",
+  "filter": "r",
+  "RA": 90.0,
+  "dec": -66.56056,
+  "seqid": "S-CVZ from script S-CVZ.json",
+  "expTime": 70,
+  "wait": "False"
+ },
+ {
+  "comment": "BHM-RM Pre-imaging Program",
+  "count": 2,
+  "propid": "2024A-755342",
+  "proposer": "Shen",
+  "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
+  "expType": "object",
+  "object": "S-CVZ",
+  "filter": "i",
+  "RA": 90.0,
+  "dec": -66.56056,
+  "seqid": "S-CVZ from script S-CVZ.json",
+  "expTime": 90,
+  "wait": "False"
+ }
+]

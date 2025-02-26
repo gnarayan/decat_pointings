@@ -40,7 +40,7 @@ YSE 253 [61 -25] (19 min)                                            ------> SLE
 EtaCar EDFS [59 -49] (9 min) ### NOTE: NOT ECDFS!!!                                         ------> SLEW BETWEEN 21:22 and 00:13
 AGN S-CVZ [90 -67] (6 min)                                           ------> SLEW BETWEEN 21:22 and 02:22
 DEBASS 2025bdl_P2 [100 -40] (4 min)  OPTIONAL                                ------> SLEW BETWEEN 21:22 and 02:50
-DESIRT DESIRT_80_gr [74 -21] (68 min)  # CUT EXPOSURES THAT DON'T FIT ------> SLEW BETWEEN 21:22 and 23:30
+DESIRT DESIRT_80_gr_Feb26 [74 -21] (<68 min)  # CUT EXPOSURES THAT DON'T FIT ------> SLEW BETWEEN 21:22 and 23:30
 
 !!! 23:55 !!! SLEW IN TIME TO STAY ON SCHEDULE !!!
 YSE 2025brs [95 -24] (3 min)                                         ------> SLEW BETWEEN 21:22 and 02:04

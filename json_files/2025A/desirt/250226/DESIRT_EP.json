@@ -4,7 +4,7 @@
         "expTime": 80,
         "RA": "141.3654167",
         "dec": "-4.82383",
-        "filter": "r",
+        "filter": "g",
         "count": 1,
         "expType": "object",
         "program": "DESI Transients Survey",

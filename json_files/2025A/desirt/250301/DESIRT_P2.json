@@ -1,0 +1,30 @@
+[
+    {
+        "object": "DESIRT P",
+        "expTime": 50,
+        "RA": "203.96579167",
+        "dec": "-14.303",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey"
+    },
+    {
+        "object": "DESIRT P",
+        "expTime": 80,
+        "RA": "203.96579167",
+        "dec": "-14.303",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey"
+    }
+]

@@ -92,7 +92,7 @@ dosc *_OMLApex*.json [167 -24] 76 min
 yse 2024agls [160 0] (3 min) 
 ### yse 2024inv [166 11] 4 min  
 debass/250301/2025clk_P1 [177 13] (4min)
-yse 2023fyq [186 13] 9 min    ### only do this if good conditions (seeing better than 1.3")
+yse 2023fyq [186 13] 9 min    ### only do this if good conditions (seeing better than 1.3"), if not do 2024kce and 2024inv instead
 yse 525 [189 10] (34 min)            
 ### yse 2024kce [187 8]  4 min     
 desirt DESIRT_P2.json [204 -14] (4 min)

@@ -54,30 +54,31 @@ yse ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
 yse 2025zi [55 -26] (3 min)
 yse 253 [67, -26] 17 min  
 
-!!! 22:26
+!!! 22:10
 yse EDFS [59 -48] (6 min)  ### NOTE: NOT ECDFS!!!
 ### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
 agn SCVZ [90 -66] 12 min
 desirt DESIRT_80_gr.json [78 -20] 58 min 
-debass/250301/2025cvp_P1 [75 -19] (2min)
 
-!!! 23:44 
+!!! 23:25
 yse 2025brs [95  -25] 3 min
-debass/250301/2025bdl_P1 [100 -39] (2min)
+debass/250304/2025bdl_P1 [100 -39] (3.5min)
 yse 412 [116 -2] 17 min 
-debass/250301/2025azh_P1 [116 6] (2min)
+debass/250304/2025cxg_P1 [101 14] (3.5min)
+debass/250304/2025azh_P1 [116 6] (3.5min)
 yse 311 [123 -17] 17 min                                  
-debass/250301/2025bqz_P1 [137 -9] (2min)
+debass/250304/2025bqz_P1 [137 -9] (3.5min)
 desirt DESIRT_P1.json [140 -5] (5 min)
-debass/250301/2025azf_P1 [136 1] (2min)
+debass/250304/2025azf_P2 [136 0]  (3.5min) OPTIONAL
 
-!!! 00:34
-debass/250301/2025aoz_P1 [151 7] (2min)
+!!! 00:20
 agn COSMOS.json [150 2] 34 min
 ### agn COSMOS_moon.json [150 2] 23 min
-debass/250301/2025beu_P1 [153 -14] (2min)
+debass/250304/2025aoz_P2 [151 7]  (3.5min) OPTIONAL
+debass/250304/2025acu_P1 [157 0] (3.5min)
+debass/250304/2025beu_P1 [153 -14] (3.5min)
 
-!!! 01:12
+!!! 01:16
 ### eta etale.i.15min.json  [161, -60] 15 min 
 eta etale.ec0915.iz.5min.json [161, -60] 5 min     
 ### eta etale.r.17min.json  [161, -60] 17 min           
@@ -85,30 +86,32 @@ eta etale.ec0915.iz.5min.json [161, -60] 5 min
 ### eta etale.g.32min.json  [161, -60] 32 min    
 ### eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 01:30
+!!! 01:12
+debass/250304/2025awf_P1 [171 -32] (3.5min)
 dosc *_OMLApex*.json [167 -24] 76 min   
 
-!!! 02:42
+!!! 02:30
 yse 2024agls [160 0] (5 min) 
 yse 2024inv [166 11] 4 min  
-debass/250301/2025clk_P1 [177 13] (4min)
+debass/250304/2025clk_P1 [177 13] (3.5min)
 yse 2023fyq [186 13] 6 min             
 yse 525 [189 10] (34 min)            
 yse 2024kce [187 8]  4 min     
+debass/250304/2025aov_P1 [186 11] (3.5min)
+debass/250304/2025acj_P2 [195 3] OPTIONAL (3.5min)
 desirt DESIRT_P2.json [204 -14] (4 min)
 
-!!! 03:36
-debass/250301/2025ayo_P1 [211 -1] (2min)
-debass/250301/2025bbe_P1 [213 3] (2min)
-debass/250301/2025byc_P1 [211 6] (2min)
-debass/250301/2025ayl_P1 [205 17] (2min)
-debass/250301/2025bdc_P1 [220 12] (2min)
+!!! 03:23
+debass/250304/2025bbe_P1 [213 3] (3.5min)
+debass/250304/2025byc_P1 [211 6] (3.5min)
+debass/250304/2025ask_P1 [213 15] (3.5min)
+debass/250304/2025ayl_P1 [205 17] (3.5min)
+debass/250304/2025bdc_P1 [220 12] (3.5min)
 yse 2025cy [200 -43] (3 min)  
 dosc *_ShallowApex*.json [213 -34] 36 min
-debass/250301/2025bbx_P1 [221 -39] (3min)
-debass/250301/2025arc_P1 [203 -47] (2min) OPTIONAL
+debass/250304/2025arc_P1 [203 -47] (3.5min)
 
-!!! 04:27
+!!! 04:23
 yse 2025bco [199 0] 3 min
 desirt DESIRT_G15_*.json [220 -1] 53.5 min 
 

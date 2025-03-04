@@ -46,7 +46,7 @@ After pointing of the telescope is confirmed slew to Asteroid Twilight Fields us
 json_files/2025A/twi/SheppardTwilightXXXevening.json
 Script will finish on its own or at -14 deg twilight.
 
-!!! 21:18:39
+!!! 21:14:57
 ### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
 yse 353 [63 -10] 17 min   
 agn C3 [52, -28] 12 min
@@ -92,7 +92,7 @@ dosc *_OMLApex*.json [167 -24] 76 min
 yse 2024agls [160 0] (5 min) 
 yse 2024inv [166 11] 4 min  
 debass/250301/2025clk_P1 [177 13] (4min)
-yse 2023fyq [186 13] 6 min    
+yse 2023fyq [186 13] 6 min             
 yse 525 [189 10] (34 min)            
 yse 2024kce [187 8]  4 min     
 desirt DESIRT_P2.json [204 -14] (4 min)
@@ -118,10 +118,10 @@ yse 376 [224 -8] (17 min)
 !!! 05:40
 yse 428 [228 -2] (17 min)  
 ### desirt DESIRT_235_i.json  [244 -69] (66 min)
-### yse 2025aft [252 -73] (4 min) 
+yse 2025aft [252 -73] (4 min)    
 defsus defsus_*.json [267 -29] (34 min)
 
-!!! 06:32:28 (-14 deg twilight)
+!!! 06:34:53 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

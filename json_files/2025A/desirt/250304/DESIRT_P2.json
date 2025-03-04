@@ -2,8 +2,8 @@
     {
         "object": "DESIRT P",
         "expTime": 50,
-        "RA": "203.96579167",
-        "dec": "-14.303",
+        "RA": "208.39408",
+        "dec": "-42.8046",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -16,8 +16,8 @@
     {
         "object": "DESIRT P",
         "expTime": 80,
-        "RA": "203.96579167",
-        "dec": "-14.303",
+        "RA": "208.39408",
+        "dec": "-42.8046",
         "filter": "i",
         "count": 1,
         "expType": "object",

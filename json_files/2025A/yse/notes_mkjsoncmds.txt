@@ -247,6 +247,9 @@ git add 250304/*
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 
+YSE_pointings2fieldcenters.py --addSN  EP250304A 208.39450 -42.80464  -vv --overw
+
+
 YSE_pointings2fieldcenters.py --addSN  2025brs 94.7463042     -24.6274944   -vv --overw
 YSE_pointings2fieldcenters.py --addSN  2025bbe 213.5369458     3.2246944  -vv --overw
 

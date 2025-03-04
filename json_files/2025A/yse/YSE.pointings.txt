@@ -919,3 +919,4 @@
              EDFS   <NA>  59.10040 -48.73000     0       NaN                    NaN        EDFS     NaN        <NA>
           2025brs   <NA>  94.74395 -24.54050     0       NaN                    NaN     2025brs      N4          35
           2025bbe   <NA> 213.53480   3.31169     0       NaN                    NaN     2025bbe      N4          35
+        EP250304A   <NA> 208.39158 -42.71765     0       NaN                    NaN   EP250304A      N4          35

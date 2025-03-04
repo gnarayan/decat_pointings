@@ -94,14 +94,14 @@ dosc *_OMLApex*.json [167 -24] 76 min
 yse 2024agls [160 0] (5 min) 
 yse 2024inv [166 11] 4 min  
 debass/250304/2025clk_P1 [177 13] (3.5min)
-yse 2023fyq [186 13] 6 min             
+####yse 2023fyq [186 13] 6 min             
 yse 525 [189 10] (34 min)            
 yse 2024kce [187 8]  4 min     
 debass/250304/2025aov_P1 [186 11] (3.5min)
 debass/250304/2025acj_P2 [195 3] OPTIONAL (3.5min)
 desirt DESIRT_P2.json [204 -14] (4 min)
 
-!!! 03:23
+!!! 03:17
 debass/250304/2025bbe_P1 [213 3] (3.5min)
 debass/250304/2025byc_P1 [211 6] (3.5min)
 debass/250304/2025ask_P1 [213 15] (3.5min)
@@ -109,6 +109,7 @@ debass/250304/2025ayl_P1 [205 17] (3.5min)
 debass/250304/2025bdc_P1 [220 12] (3.5min)
 yse 2025cy [200 -43] (3 min)  
 dosc *_ShallowApex*.json [213 -34] 36 min
+yse EP250304A [208 -43] 6 min # high priority, don't skip!
 debass/250304/2025arc_P1 [203 -47] (3.5min)
 
 !!! 04:23

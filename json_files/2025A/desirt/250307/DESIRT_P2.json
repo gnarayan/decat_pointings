@@ -1,9 +1,9 @@
 [
     {
         "object": "DESIRT P",
-        "expTime": 50,
-        "RA": "203.96579167",
-        "dec": "-14.303",
+        "expTime": 60,
+        "RA": "208.08554167",
+        "dec": "-43.28227",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "object": "DESIRT P",
-        "expTime": 80,
-        "RA": "203.96579167",
-        "dec": "-14.303",
-        "filter": "i",
+        "expTime": 70,
+        "RA": "208.08554167",
+        "dec": "-43.28227",
+        "filter": "r",
         "count": 1,
         "expType": "object",
         "program": "DESI Transients Survey",

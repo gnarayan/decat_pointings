@@ -1,0 +1,101 @@
+MOON ILLUMINATION: 0.76
+UT -16 deg twilight: 2025-03-09T00:19:31.075 2025-03-09T09:28:24.557
+UT -15 deg twilight: 2025-03-09T00:14:44.175 2025-03-09T09:33:11.553
+UT -14 deg twilight: 2025-03-09T00:09:58.246 2025-03-09T09:37:57.695
+UT -12 deg twilight: 2025-03-09T00:00:28.634 2025-03-09T09:47:27.636
+UT -10 deg twilight: 2025-03-08T23:51:01.831 2025-03-09T09:56:54.794
+LOCAL -16 deg twilight: 03/08/2025,   21:19:31   06:28:24
+LOCAL -15 deg twilight: 03/08/2025,   21:14:44   06:33:11
+LOCAL -14 deg twilight: 03/08/2025,   21:09:58   06:37:57
+LOCAL -12 deg twilight: 03/08/2025,   21:00:28   06:47:27
+LOCAL -10 deg twilight: 03/08/2025,   20:51:01   06:56:54
+LOCAL night MIDPOINT: 03/09/2025,   01:53:57
+
+*********************************************
+*** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
+*** Note: Local Chilean time is now EDT+2 ***
+*********************************************
+
+*********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
+*** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
+*********************************************************
+
+**** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
+
+!!! after pointing ~21:15 (NOTE: CHILEAN LOCAL TIME!!!)
+Start with Pointing the Telescope to the West.
+After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
+json_files/2025A/twi/SheppardTwilightXXXevening.json
+Script will finish on its own or at -14 deg twilight.
+
+!!! 21:09:58
+### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
+yse 353 [63 -10] 17 min   
+agn C3 [52, -28] 12 min
+yse ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
+yse 2025zi [55 -26] (3 min)
+yse 253 [67, -26] 17 min  
+
+!!! 21:55
+yse EDFS [59 -48] (6 min)  ### NOTE: NOT ECDFS!!!
+### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
+agn SCVZ [90 -66] 12 min
+
+!!! 22:13 
+desirt DESIRT_80_r.json [78 -20] 33 min 
+desirt DESIRT_80_z.json [78 -20] 32 min    ### you have to cut this one 6 min to fit, do not go past 23:18
+
+!!! 23:18
+yse 2025brs [95  -25] 3 min
+debass/250304/2025bdl_P1 [100 -39] (3.5min)
+### yse 412 [116 -2] 9 min 
+yse 311 [123 -17] 9 min                     ### skip exposures here if behind schedule!!               
+debass 2025bqz_P1 [137 -10] (2 min)
+debass 2025azf_P2 [136 1] (3min)
+desirt DESIRT_P1.json [140 -5] (5 min)
+
+!!! 23:45
+### agn COSMOS.json [150 2] 34 min
+agn COSMOS_moon.json [150 2] 23 min
+debass/250304/2025beu_P1 [153 -14] (3.5min)
+
+!!! 00:13
+debass 2025clk_P1 [178 13] (4 min)
+dosc *_OMLApex*.json [167 -24] 60 min   
+eta etale.i.15min.json  [161, -60] 15 min 
+### eta etale.ec0915.iz.5min.json [161, -60] 5 min     
+### eta etale.r.17min.json  [161, -60] 17 min           
+### eta etale.z.17min.json  [161, -60] 17 min    
+### eta etale.g.32min.json  [161, -60] 32 min    
+### eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
+
+!!! 01:33
+debass 2025arc_P1 [203 -47] (2min)
+debass 2025dbu_P1 [196 2] (2 min)
+debass 2025dby_P1 [195 10] (2 min)
+debass 2025ayo_P1 [211 -1] (3min)
+debass 2025byc_P1 [211 6] (4min)
+debass 2025bbe_P2 [213 3] (3.5min)
+
+01:53:57 middle of the night
+
+optional:
+yse 412 [116 -2] 9 min 

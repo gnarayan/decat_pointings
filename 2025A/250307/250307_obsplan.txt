@@ -26,7 +26,7 @@ LOCAL night MIDPOINT: 03/07 01:54
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! after pointing ~21:15 (NOTE: CHILEAN LOCAL TIME!!!)
+!!! after pointing ~20:52 (NOTE: CHILEAN LOCAL TIME!!!)
 Start with Pointing the Telescope to the West.
 After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
 json_files/2025A/twi/SheppardTwilightXXXevening.json
@@ -104,7 +104,7 @@ DOSC 5_ShallowApex.250307_r_6-dithpos [213 -34] (15 min)             ------> SLE
 DEBASS 2025bbx_P1 [222 -39] (3 min)                                  ------> SLEW AFTER 00:28
 YSE 2025aft [252 -73] (5 min)                                        ------> SLEW AFTER 02:11
 
-!!! 06:34:53 (-14 deg twilight)
+!!! 06:36 (-14 deg twilight)
 ### just finish the last exposure that fits into the time of the previous block, and slew
 ### to the asteroid fields in time! Otherwise the images will be useless
 ### At -14 deg twilight: slew to Asteroid fields!!!

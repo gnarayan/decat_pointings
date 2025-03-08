@@ -65,10 +65,10 @@ desirt DESIRT_80_z.json [78 -20] 32 min    ### you have to cut this one 6 min to
 
 !!! 23:18
 yse 2025brs [95  -25] 3 min
-debass/250304/2025bdl_P1 [100 -39] (3.5min)
+debass 2025bdl_P1 [100 -39] (3.5min)
 ### yse 412 [116 -2] 9 min 
 yse 311 [123 -17] 9 min                     ### skip exposures here if behind schedule!!               
-debass 2025bqz_P1 [137 -10] (2 min)
+debass 2025bqz_P2 [137 -10] (2 min)
 debass 2025azf_P2 [136 1] (3min)
 desirt DESIRT_P1.json [140 -5] (5 min)
 

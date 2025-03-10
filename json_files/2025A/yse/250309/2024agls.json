@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2024agls",
+"filter": "i",
+"expTime": 50,
+"RA": "160.4305",
+"dec": "-0.1789",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2024agls",
+"filter": "z",
+"expTime": 50,
+"RA": "160.4305",
+"dec": "-0.1789",
+"propid": "2024B-763968"
+}
+]

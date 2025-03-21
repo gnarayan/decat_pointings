@@ -1,4 +1,5 @@
 debass2502052025clk_P1 [177 13]
+debass2502052025efa_P1 [193 -27]
 debass2502052025dbu_P1 [196 1]
 debass2502052025dby_P1 [195 10]
 
@@ -24,5 +25,5 @@ debass2502052025ayl_P3 [205 17]
 debass2502052025bbx_P3 [221 -39]
 debass2502052025bdc_P3 [220 12]
 
-EVERYTHING	79.5 minutes
-EVERYTHING_P1	8.7 minutes
+EVERYTHING	87.9 minutes
+EVERYTHING_P1	16.0 minutes

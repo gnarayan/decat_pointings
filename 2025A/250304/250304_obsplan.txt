@@ -1,15 +1,3 @@
-MOON ILLUMINATION: 0.34
-UT -16 deg twilight: 2025-03-05T00:24:35.780 2025-03-05T09:25:14.957
-UT -15 deg twilight: 2025-03-05T00:19:46.302 2025-03-05T09:30:04.667
-UT -14 deg twilight: 2025-03-05T00:14:57.620 2025-03-05T09:34:53.366
-UT -12 deg twilight: 2025-03-05T00:05:23.248 2025-03-05T09:44:27.984
-UT -10 deg twilight: 2025-03-04T23:55:52.210 2025-03-05T09:53:59.277
-LOCAL -16 deg twilight: 03/04/2025,   21:24:35   06:25:14
-LOCAL -15 deg twilight: 03/04/2025,   21:19:46   06:30:04
-LOCAL -14 deg twilight: 03/04/2025,   21:14:57   06:34:53
-LOCAL -12 deg twilight: 03/04/2025,   21:05:23   06:44:27
-LOCAL -10 deg twilight: 03/04/2025,   20:55:52   06:53:59
-LOCAL night MIDPOINT: 03/05/2025,   01:54:55
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -40,36 +28,7 @@ LOCAL night MIDPOINT: 03/05/2025,   01:54:55
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
-!!! after pointing ~21:15 (NOTE: CHILEAN LOCAL TIME!!!)
-Start with Pointing the Telescope to the West.
-After pointing of the telescope is confirmed slew to Asteroid Twilight Fields using 
-json_files/2025A/twi/SheppardTwilightXXXevening.json
-Script will finish on its own or at -14 deg twilight.
 
-!!! 21:14:57
-### 2024B-441839_EtaCar_Rest/smc.json [14 -72] 12 min
-yse 353 [63 -10] 17 min   
-agn C3 [52, -28] 12 min
-yse ECDFS [53 -28] (5min)  ### NOTE: NOT EDFS!!!
-yse 2025zi [55 -26] (3 min)
-yse 253 [67, -26] 17 min  
-
-!!! 22:10
-yse EDFS [59 -48] (6 min)  ### NOTE: NOT ECDFS!!!
-### 2024B-441839_EtaCar_Rest/lmc.40min.json [79 -70] 41 min   
-agn SCVZ [90 -66] 12 min
-desirt DESIRT_80_gr.json [78 -20] 58 min 
-
-!!! 23:25
-yse 2025brs [95  -25] 3 min
-debass/250304/2025bdl_P1 [100 -39] (3.5min)
-yse 412 [116 -2] 17 min 
-debass/250304/2025cxg_P1 [101 14] (3.5min)
-debass/250304/2025azh_P1 [116 6] (3.5min)
-yse 311 [123 -17] 17 min                                  
-debass/250304/2025bqz_P1 [137 -9] (3.5min)
-desirt DESIRT_P1.json [140 -5] (5 min)
-debass/250304/2025azf_P2 [136 0]  (3.5min) OPTIONAL
 
 !!! 00:20
 agn COSMOS.json [150 2] 34 min

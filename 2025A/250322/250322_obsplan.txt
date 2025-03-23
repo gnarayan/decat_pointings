@@ -77,8 +77,9 @@ yse EP250304A [208 -43] 6 min              # high priority, don't skip!
 
 !!! 04:51
 yse 2025bco [199 0] 2.5 min
-desirt DESIRT_G15_r.json [220 -1] 26 min   
-desirt DESIRT_G15_z.json [220 -1] 31 min    
+desirt DESIRT_G15_i.json [220 -1] 27 min
+desirt DESIRT_G15_g.json [220 -1] 20 min   
+desirt DESIRT_G15_r.json [220 -1]   #  Run for 10 min  
 
 !!! 05:51
 yse 376 [224 -8] (9 min)    	       

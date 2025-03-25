@@ -1,16 +1,15 @@
-MOON ILLUMINATION: 0.45
----------------------------------------------------
-UT -10 deg twilight:	03/22 23:34	|	03/23 10:05
-UT -12 deg twilight:	03/22 23:43	|	03/23 09:56
-UT -14 deg twilight:	03/22 23:52	|	03/23 09:47
-UT -16 deg twilight:	03/23 00:02	|	03/23 09:37
----------------------------------------------------
-LOCAL -10 deg twilight:	03/22 20:34	|	03/23 07:05
-LOCAL -12 deg twilight:	03/22 20:43	|	03/23 06:56
-LOCAL -14 deg twilight:	03/22 20:52	|	03/23 06:47
-LOCAL -16 deg twilight:	03/22 21:02	|	03/23 06:37
----------------------------------------------------
-LOCAL night MIDPOINT: 03/22 01:50
+MOON ILLUMINATION: 0.42
+UT -16 deg twilight: 2025-03-23T00:01:42.299 2025-03-23T09:38:18.164
+UT -15 deg twilight: 2025-03-22T23:57:02.015 2025-03-23T09:42:58.507
+UT -14 deg twilight: 2025-03-22T23:52:22.489 2025-03-23T09:47:38.448
+UT -12 deg twilight: 2025-03-22T23:43:04.169 2025-03-23T09:56:57.278
+UT -10 deg twilight: 2025-03-22T23:33:47.059 2025-03-23T10:06:14.935
+LOCAL -16 deg twilight: 03/22/2025,   21:01:42   06:38:18
+LOCAL -15 deg twilight: 03/22/2025,   20:57:02   06:42:58
+LOCAL -14 deg twilight: 03/22/2025,   20:52:22   06:47:38
+LOCAL -12 deg twilight: 03/22/2025,   20:43:04   06:56:57
+LOCAL -10 deg twilight: 03/22/2025,   20:33:47   07:06:14
+LOCAL night MIDPOINT: 03/23/2025,   01:50:00
 
 *********************************************
 *** ALL TIMES BELOW IN LOCAL CHILEAN TIME!*** 
@@ -18,69 +17,82 @@ LOCAL night MIDPOINT: 03/22 01:50
 *********************************************
 
 *********************************************************
+*** DO NOT OBSERVE TARGETS THAT ARE MARKED WITH '###' *** 
+*** These are commented out.                          ***
+*** However, if you are running short on targets you  *** 
+*** can do them                                       ***
+*********************************************************
+
+*********************************************************
 *** WHAT TO DO IF YOU FALL BEHIND SCHEDULE:
-*** This can happen for various reasons (technical issues, scheduling mistakes etc).
-*** Look for targets that are marked OPTIONAL, and skip when you get to them.
-*** Stay within targets' time windows if you adjust schedule!!!
+*** This can happen for various reasons (technical issues, scheduling mistakes etc). 
+*** In general, look for targets that are marked with something similar to:
+***                            ### skip XYZ if behind schedule
+***                            FILLER. COMPLETELY OPTIONAL
+***                            LOW PRIORITY
+***                            OPTIONAL
+***                            drop XYZ band to save time
+*** XYZ can be "z band" or other things
+*** If you fall behind schedule, and if the airmass alllows it, keep observing 
+*** according to schedule until you hit one of targets marked like that, and 
+*** then drop (some of) the observations as directed until you catch up
 *********************************************************
 
 **** PLEASE READ ABOVE ^^^^^^^^ BEFORE OBSERVING
 
+!!! 01:50:00
+agn COSMOS.json [150 2] 34 min
+### agn COSMOS_moon.json [150 2] 23 min
 
-!!! 20:52
-AGN C3 [53 -28] (5 min)                                              ------> SLEW BEFORE 21:46
-DEBASS 2025bol_P3 [62 -12] (4 min)                                   ------> SLEW BEFORE 21:53
-DEBASS 2025cxg_P3 [101 15] (5 min)                                   ------> SLEW BEFORE 23:06
-DEBASS 2025azh_P3 [116 6] (4 min)                                    ------> SLEW BEFORE 00:41
-DEBASS 2025azf_P3 [136 1] (4 min)                                    ------> SLEW BEFORE 02:17
-AGN S-CVZ [90 -67] (11 min)                                          ------> SLEW BEFORE 00:43
-DEBASS 2025bdl_P3 [100 -40] (4 min)                                  ------> SLEW BEFORE 01:15
-DEBASS 2025bqz_P3 [137 -10] (8 min)                                  ------> SLEW BEFORE 02:43
-DEBASS 2025aoz_P3 [152 7] (4 min)                                    ------> SLEW BEFORE 02:58
-AGN COSMOS [150 2] (15 min)                                          ------> SLEW BEFORE 02:57
+!!! 02:25
+debass 2025efc_P1 [143 -22] 3 min
+dosc *_OMLApex*.json [167 -24] 60 min   
 
-!!! 21:54
-DEBASS 2025efc_P1 [144 -22] (4 min)                                  ------> SLEW BEFORE 03:39
-DEBASS 2025beu_P3 [154 -14] (3 min)                                  ------> SLEW BEFORE 04:05
-DOSC 2_OMLApex.250322_r_9-dithpos [167 -23] (28 min)                 ------> SLEW BEFORE 04:48
-DOSC 3_OMLApex.250322_i_10-dithpos [167 -25] (30 min)                ------> SLEW BEFORE 04:51
+!!! 03:28
+### eta etale.i.15min.json  [161, -60] 15 min 
+### eta etale.ec0915.iz.5min.json [161, -60] 5 min     
+### eta etale.r.17min.json  [161, -60] 17 min           
+### eta etale.z.17min.json  [161, -60] 17 min    
+### eta etale.g.32min.json  [161, -60] 32 min    
+eta etale.ec0915.ec0814.i.5min.json [161, -60] 5 min 
+eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 22:58
-DEBASS 2025clk_P1 [178 13] (4 min)                                   ------> SLEW BETWEEN 22:37 and 04:18
-YSE 2024kce [187 8] (4 min)                                          ------> SLEW BETWEEN 22:56 and 05:17
-DEBASS 2025aov_P3 [186 12] (3 min)                                   ------> SLEW BETWEEN 23:07 and 05:00
-YSE 525 [187 11] (35 min)                                            ------> SLEW BETWEEN 23:06 and 04:33
-DOSC 1_OMLApex.250322_g_5-dithpos [167 -25] (16 min)                 ------> SLEW BEFORE 05:05
+!!! 03:41
+### yse 2024agls [160 0] (5 min) 
+### yse 2024inv [166 11] 4 min  
+debass 2025clk_P1 [177 13] (3.5min)
+### yse 2023fyq [186 13] 6 min             
+yse 525 [189 10] (34 min)                    
+yse 2024kce [187 8]  4 min                # skip this if behind
+debass 2025dby_P1 [195 10] (3.5 min)
+debass 2025dbu_P1 [196 2] (3.5 min)
+### desirt DESIRT_P2.json [204 -14] (4 min)
 
-!!! 00:01
-DEBASS 2025dby_P1 [195 10] (5 min)                                   ------> SLEW BETWEEN 23:36 and 05:41
-DEBASS 2025acj_P3 [196 4] (3 min)                                    ------> SLEW BETWEEN 23:13 and 06:07
-DEBASS 2025dbu_P1 [196 2] (3 min)                                    ------> SLEW BETWEEN 23:11 and 06:15
-YSE 2025bco [199 0] (2 min)                                          ------> SLEW BETWEEN 23:14 and 06:33
-DEBASS 2025ayo_P3 [212 -2] (3 min)                                   ------> SLEW AFTER 00:01
-DEBASS 2025efa_P1 [194 -28] (4 min)                                  ------> SLEW AFTER 21:54
-EtaCar etale.ec0915.ec0814.i.5min [160 -60] (9 min)                  ------> SLEW BEFORE 05:23
-EtaCar etale.ec0915.riz.8min [161 -60] (7 min)                       ------> SLEW BEFORE 05:31
-DEBASS 2025awf_P3 [171 -33] (4 min)                                  ------> SLEW BEFORE 05:48
-YSE 2025cy [200 -44] (3 min)                                         ------> SLEW AFTER 21:57
-DEBASS 2025arc_P3 [203 -47] (3 min)                                  ------> SLEW AFTER 22:02
-DEFSuS defsus39_250322 [202 -48] (34 min)                            ------> SLEW AFTER 21:57
+!!! 04:31
+debass 2025bbe_P1 [213 3] (3.5min)        # skip this if behind
+debass 2025byc_P1 [211 6] (3.5min)
+debass 2025efa_P1 [194 -27] 3 min
+yse 2025cy [200 -43] (3 min)  
+yse EP250304A [208 -43] 6 min              # high priority, don't skip!
 
-!!! 01:20
-YSE EP250304A [208 -43] (5 min)                                      ------> SLEW AFTER 22:30
-DEBASS 2025aes_P3 [202 -35] (3 min)                                  ------> SLEW AFTER 22:15
-DEBASS 2025bbx_P3 [222 -39] (3 min)                                  ------> SLEW AFTER 23:30
-DEBASS 2025ayl_P3 [206 17] (8 min)                                   ------> SLEW BETWEEN 00:48 and 05:47
-DEBASS 2025ask_P3 [213 16] (3 min)                                   ------> SLEW BETWEEN 01:11 and 06:29
-DEBASS 2025bdc_P3 [221 13] (3 min)                                   ------> SLEW AFTER 01:27
-DEBASS 2025byc_P2 [212 7] (2 min)                                    ------> SLEW AFTER 00:27
-DEBASS 2025bbe_P3 [213 4] (3 min)                                    ------> SLEW AFTER 00:26
-DESIRT DESIRT_G15_g [218 -1] (21 min)                                ------> SLEW AFTER 00:28
+!!! 04:51
+yse 2025bco [199 0] 2.5 min
+desirt DESIRT_G15_i.json [220 -1] 27 min
+desirt DESIRT_G15_g.json [220 -1] 20 min   
+desirt DESIRT_G15_r.json [220 -1]   #  Run for 10 min  
 
-!!! 02:11
-DESIRT DESIRT_G15_r [218 -1] (26 min)                                ------> SLEW AFTER 00:28
-DESIRT DESIRT_G15_z [218 -1] (31 min)                                ------> SLEW AFTER 00:28
+!!! 05:51
+yse 376 [224 -8] (9 min)    	       
+yse 428 [228 -2] (9 min)  
 
-!!! 03:08
-YSE 376 [222 -9] (9 min)                                             ------> SLEW AFTER 00:26
-YSE 428 [228 -2] (9 min)                                             ------> SLEW AFTER 01:07
+!!! 06:10
+### desirt DESIRT_235_i.json  [244 -69] (66 min)
+### yse 2025aft [252 -73] (4 min)    
+defsus_main.json [264 -29] (36 min)  # repeat this target until -14 deg twilight!
+
+!!! 06:47:38 (-14 deg twilight)
+### just finish the last exposure that fits into the time of the previous block, and slew
+### to the asteroid fields in time! Otherwise the images will be useless
+### At -14 deg twilight: slew to Asteroid fields!!!
+using morning twilight asteroid script in
+json_files/2025A/twi/SheppardTwilightXXXmorning.json

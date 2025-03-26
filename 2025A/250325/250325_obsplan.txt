@@ -91,7 +91,7 @@ debass 2025ezb [168 2] (3.5 min)
 debass 2025clk_P1 [177 13] (3.5min)
 
 !!! 01:54
-yse 2023fyq [186 13] 6 min   
+yse 2023fyq [186 13] 6 min    				  # skip if behind schedule
 debass 2025est [185 13] 3 min         
 yse 525 [189 10] (34 min)                    
 yse 2024kce [187 8]  4 min                    # skip if behind schedule
@@ -113,7 +113,7 @@ debass 2025eqf [219 -15] 3 min
 desirt DESIRT_G15_* [220 -1] 72 min        # skip exposures here if behind schedule
 
 !!! 05:11
-yse 376 [224 -8] (17 min)    	       
+yse 376 [224 -8] (17 min)    	        
 
 !!! 05:28
 yse 428 [228 -2] (17 min)  

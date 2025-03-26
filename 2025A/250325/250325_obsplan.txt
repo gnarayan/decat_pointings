@@ -78,42 +78,44 @@ agn COSMOS.json [150 2] 34 min
 eta etale.g.32min.json  [161, -60] 32 min    
 eta etale.ec0915.riz.8min.json  [161, -60] 8 min 
 
-!!! 00:04
+!!! 23:54
 debass 2025efc_P1.json [143 -22] 3 min
-dosc *_OMLApex*.json [167 -24] 76 min   
+dosc *_OMLApex*.json [167 -24] 76 min          # skip exposures here if behind schedule
 debass 2025efa_P1.json [194 -27] 3 min
 
-!!! 01:45
+!!! 01:19
 ### yse 2024agls [160 0] (5 min) 
 ### yse 2024inv [166 11] 4 min  
 desirt DESIRT_165 [165 -5] 28 min
 debass 2025ezb [168 2] (3.5 min)
 debass 2025clk_P1 [177 13] (3.5min)
-### yse 2023fyq [186 13] 6 min   
+
+!!! 01:54
+yse 2023fyq [186 13] 6 min   
 debass 2025est [185 13] 3 min         
 yse 525 [189 10] (34 min)                    
-### yse 2024kce [187 8]  4 min     
+yse 2024kce [187 8]  4 min                    # skip if behind schedule
 debass 2025dby_P1 [195 10] (3.5 min)
 debass 2025dbu_P1 [196 2] (3.5 min)
 
-!!! 02:37
+!!! 02:48
 debass 2025byc_P1 [211 6] (3.5min)
 ### yse 2025cy [200 -43] (3 min)  
 dosc *_ShallowApex*.json [213 -34] 36 min
 yse EP250304A [208 -43] 5 min              # high priority, don't skip!
 
-!!! 03:50
+!!! 03:33
 desirt DESIRT_190 [197 -5] 20 min
 yse 2025bco [199 0] 3 min
 
-!!! 
+!!! 03:56
 debass 2025eqf [219 -15] 3 min
-desirt DESIRT_G15_* [220 -1] 72 min
+desirt DESIRT_G15_* [220 -1] 72 min        # skip exposures here if behind schedule
 
-!!! 04:56
+!!! 05:11
 yse 376 [224 -8] (17 min)    	       
 
-!!! 05:13
+!!! 05:28
 yse 428 [228 -2] (17 min)  
 ### desirt DESIRT_235_i.json  [244 -69] (66 min)
 ### yse 2025aft [252 -73] (4 min)    

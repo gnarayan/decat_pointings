@@ -86,7 +86,8 @@ debass 2025efa_P1.json [194 -27] 3 min
 !!! 01:19
 ### yse 2024agls [160 0] (5 min) 
 ### yse 2024inv [166 11] 4 min  
-desirt DESIRT_165 [165 -5] 28 min
+desirt DESIRT_165_i [165 -5] 28 min
+desirt DESIRT_165_g [165 -5]
 debass 2025ezb [168 2] (3.5 min)
 debass 2025clk_P1 [177 13] (3.5min)
 
@@ -105,19 +106,21 @@ dosc *_ShallowApex*.json [213 -34] 36 min
 yse EP250304A [208 -43] 5 min              # high priority, don't skip!
 
 !!! 03:33
-desirt DESIRT_190 [197 -5] 20 min
+desirt DESIRT_200_i [200 -5] 22 min
+desirt DESIRT_200_g [200 -5]
 yse 2025bco [199 0] 3 min
 
 !!! 03:56
 debass 2025eqf [219 -15] 3 min
-desirt DESIRT_G15_* [220 -1] 72 min        # skip exposures here if behind schedule
+desirt DESIRT_G15_i.json [220 -1] 27 min
+desirt DESIRT_G15_g.json [220 -1] 20 min   
+desirt DESIRT_G15_r.json [220 -1]   # last 3 exposures optional
 
 !!! 05:11
 yse 376 [224 -8] (17 min)    	       
 
 !!! 05:28
 yse 428 [228 -2] (17 min)  
-### desirt DESIRT_235_i.json  [244 -69] (66 min)
 ### yse 2025aft [252 -73] (4 min)    
 defsus_main.json [264 -29] (36 min)
 defsus_main.json [264 -29] (33 min)     !!!! Yes, repeat the main script again

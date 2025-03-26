@@ -114,7 +114,7 @@ yse 2025bco [199 0] 3 min
 debass 2025eqf [219 -15] 3 min
 desirt DESIRT_G15_i.json [220 -1] 27 min
 desirt DESIRT_G15_g.json [220 -1] 20 min   
-desirt DESIRT_G15_r.json [220 -1]   # last 3 exposures optional
+desirt DESIRT_G15_r.json [220 -1]   # last 3 exposures optional, skip here if behind schedule
 
 !!! 05:11
 yse 376 [224 -8] (17 min)    	       

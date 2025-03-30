@@ -1,0 +1,15 @@
+2025-03-31 sunrise observing
+
+START UT 2025-04-01T09:01:30    at sun elevation -24.8
+END   UT 2025-04-01T09:51:30    at sun elevation -14.0
+TOTAL TIME: 0.83 hours (50.0 minutes) 
+
+PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
+
+
+Exactly 4 passes should be possible in 50m, from empirical 83s time per field
+
+If running 5m late, please delete last field of every pass; if 10m, delete 2 fields
+
+Some fields may be at telescope pointing limit but should be observable
+If not, please skip to next observable field, or wait if too difficult.

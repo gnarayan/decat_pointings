@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "2025brs",
 "filter": "g",
-"expTime": 5,
+"expTime": 20,
 "RA": "94.7439",
 "dec": "-24.5405",
 "propid": "2024B-763968"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "2025brs",
 "filter": "r",
-"expTime": 5,
+"expTime": 20,
 "RA": "94.7439",
 "dec": "-24.5405",
 "propid": "2024B-763968"
@@ -24,7 +24,7 @@
 "expType": "object",
 "object": "2025brs",
 "filter": "i",
-"expTime": 5,
+"expTime": 20,
 "RA": "94.7439",
 "dec": "-24.5405",
 "propid": "2024B-763968"

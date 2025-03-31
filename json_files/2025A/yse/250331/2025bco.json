@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "2025bco",
 "filter": "g",
-"expTime": 10,
+"expTime": 5,
 "RA": "198.9283",
 "dec": "-0.3849",
 "propid": "2024B-763968"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "2025bco",
 "filter": "r",
-"expTime": 10,
+"expTime": 5,
 "RA": "198.9283",
 "dec": "-0.3849",
 "propid": "2024B-763968"
@@ -24,7 +24,7 @@
 "expType": "object",
 "object": "2025bco",
 "filter": "i",
-"expTime": 10,
+"expTime": 5,
 "RA": "198.9283",
 "dec": "-0.3849",
 "propid": "2024B-763968"

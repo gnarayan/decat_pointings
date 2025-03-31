@@ -1,9 +1,9 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
-        "RA": 209.41878,
+        "RA": 209.44656,
         "dec": -4.74809,
         "object": "2025ftn_P1",
         "program": "DECAT",
@@ -15,9 +15,9 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 209.41878,
+        "RA": 209.44656,
         "dec": -4.74809,
         "object": "2025ftn_P1",
         "program": "DECAT",

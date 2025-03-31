@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS",
+"filter": "r",
+"expTime": 120,
+"RA": "59.1004",
+"dec": "-48.7300",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS",
+"filter": "i",
+"expTime": 120,
+"RA": "59.1004",
+"dec": "-48.7300",
+"propid": "2024B-441839"
+}
+]

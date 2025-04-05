@@ -4,8 +4,7 @@ START UT 2025-04-04T09:03:18    at sun elevation -24.8
 END   UT 2025-04-04T09:53:18    at sun elevation -14.0
 TOTAL TIME: 0.83 hours (50.0 minutes) 
 
-PLEASE REPEAT JSON FILE UNTIL ALOTTED TIME IS CONSUMED; ie multiple passes
-
+The four json files 01_...json to 04_...json are just copies of the same file.
 
 Exactly 4 passes should be possible in 50m, from empirical 83s time per field
 

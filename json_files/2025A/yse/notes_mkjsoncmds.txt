@@ -462,6 +462,31 @@ mkjson_yse_nofilterswitch.py  -f g,r,i  2025bco  -d 250403 -e 5 -n 1 --sortbyra
 git add 250403
 git add 250403/*
 
+mkdir 250406
+new_obsplan.py -d 250406 -v
+modify_obsplan.py -d 250406 -v
+subl 250406/250406_obsplan.txt
+git add 250406/250406_*
+mkjson_yse_nofilterswitch.py  -f g  253 353 -d 250406 
+mkjson_yse_nofilterswitch.py  -f g,r ECDFS EDFS -e 120 -d 250406 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f z  311   -d 250406 -p 1
+mkjson_yse_nofilterswitch.py  -f z  412  -d 250406 
+mkjson_yse_nofilterswitch.py  -f i,z  525    -d 250406 
+mkjson_yse_nofilterswitch.py  -f g,r  376     -d 250406 
+mkjson_yse_nofilterswitch.py  -f g,i   428    -d 250406 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250406 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i   2025aft -d 250406 -e 50 -n 1 --sortbyra
+### mkjson_yse_nofilterswitch.py  -f g,r,i,z   2023fyq -d 250406 -e 50 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   EP250304A -d 250406 -e 50 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025cy  -d 250406 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i   2025brs -d 250406 -e 20 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025bco  -d 250406 -e 5 -n 1 --sortbyra
+### mkjson_yse_nofilterswitch.py  -f g,r,i 2024kce  -d 250406 -e 40 20 20 40 -n 1 --sortbyra 
+### mkjson_yse_nofilterswitch.py  -f i,z  2024inv -d 250406 -e 40 20 20 40 -n 1 --sortbyra 
+git add 250406
+git add 250406/*
+
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 
 yse EP250304A [208 -43] 6 min

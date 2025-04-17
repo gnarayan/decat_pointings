@@ -1,0 +1,11 @@
+json files to run on April 17, 2025.
+
+1_OMLApex.250417_r_10-dithpos.json     25.0 minutes
+2_OMLApex.250417_i_15-dithpos.json     37.5 minutes
+3_OMLApex.250417_z_22-dithpos.json     55.0 minutes
+4_ShallowApex.250417_r_5-dithpos.json  12.5 minutes
+5_ShallowApex.250417_i_5-dithpos.json  12.5 minutes
+6_ShallowApex.250417_z_5-dithpos.json  12.5 minutes
+
+The preferred observation order follows the list.
+In case of need, drop some r-band exposures, preferably those of ShallowApex.

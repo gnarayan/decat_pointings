@@ -1,0 +1,52 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "ShallowApex",
+"filter": "z",
+"expTime": 120,
+"RA": "213.2000",
+"dec": "-33.9000",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ShallowApex",
+"filter": "z",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ShallowApex",
+"filter": "z",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ShallowApex",
+"filter": "z",
+"expTime": 120,
+"deltaDEC": "S30",
+"deltaRA": "W0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ShallowApex",
+"filter": "z",
+"expTime": 120,
+"deltaDEC": "S10",
+"deltaRA": "W0",
+"propid": "2025A-316276"
+}
+]

@@ -1,4 +1,4 @@
-[
+[A
  {
   "count": 1,
   "comment": "MISHAPS_F39 Field 1 g",
@@ -17,8 +17,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHA",
   "filter": "g",
-  "RA": 201.924157,
-  "dec": -47.47947,
+  "RA": 201.894157,
+  "dec": -47.45947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -29,8 +29,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHB",
   "filter": "g",
-  "RA": 201.924157,
-  "dec": -47.47947,
+  "RA": 201.864157,
+  "dec": -47.43947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -41,8 +41,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHC",
   "filter": "g",
-  "RA": 201.924157,
-  "dec": -47.47947,
+  "RA": 201.954157,
+  "dec": -47.41947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -65,8 +65,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHA",
   "filter": "i",
-  "RA": 201.924157,
-  "dec": -47.47947,
+  "RA": 201.894157,
+  "dec": -47.45947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -77,8 +77,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHB",
   "filter": "i",
-  "RA": 201.926157,
-  "dec": -47.47747,
+  "RA": 201.864157,
+  "dec": -47.43947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -89,8 +89,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHC",
   "filter": "i",
-  "RA": 201.926157,
-  "dec": -47.47747,
+  "RA": 201.954157,
+  "dec": -47.41947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -113,8 +113,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHA",
   "filter": "r",
-  "RA": 201.924157,
-  "dec": -47.47947,
+  "RA": 201.894157,
+  "dec": -47.45947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -125,8 +125,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHB",
   "filter": "r",
-  "RA": 201.922157,
-  "dec": -47.48047,
+  "RA": 201.864157,
+  "dec": -47.43947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -137,8 +137,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHC",
   "filter": "r",
-  "RA": 201.922157,
-  "dec": -47.48047,
+  "RA": 201.954157,
+  "dec": -47.41947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -149,8 +149,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITH0",
   "filter": "z",
-  "RA": 201.926157,
-  "dec": -47.48047,
+  "RA": 201.924157,
+  "dec": -47.47947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -161,8 +161,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHA",
   "filter": "z",
-  "RA": 201.926157,
-  "dec": -47.48047,
+  "RA": 201.894157,
+  "dec": -47.45947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -173,8 +173,8 @@
   "expType": "object",
   "object": "MISHAPS_F39_DITHB",
   "filter": "z",
-  "RA": 201.926157,
-  "dec": -47.48047,
+  "RA": 201.864157,
+  "dec": -47.43947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"
@@ -186,7 +186,7 @@
   "object": "MISHAPS_F39_DITHC",
   "filter": "z",
   "RA": 201.926157,
-  "dec": -47.48047,
+  "dec": -47.41947,
   "expTime": 100,
   "proposer": "Newman-Penny",
   "propid": "2025A-697040"

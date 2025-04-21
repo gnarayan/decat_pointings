@@ -159,7 +159,7 @@ class mkjsonclass(txttableclass):
                           help='Dec column name (default=%default)')
         parser.add_option('--pointingcol'  , default='pointing' , type="string",
                           help='pointing column name (default=%default)')
-        parser.add_option('-p','--priority'  , default=0 , action="count",
+        parser.add_option('-p','--priority'  , default=0 ,  type="int",
                           help='priority (default=%default)')
         parser.add_option('-o','--outrootdir'  , default="." , type="string",
                           help='base directory (default=%default)')
@@ -347,7 +347,7 @@ class mkjsonclass(txttableclass):
                     tall += t
                     exposures.extend(exposure)
                 #keys.reverse()
-              
+            print('GGGGG',priority)
             outfilename = outfile(target,outrootdir=outrootdir,outsuffix=outsuffix,outsubdir=outsubdir,priority=priority)
             print('total time for script (exposure time and %f seconds readout):\n %.0f seconds, %.1f minutes, %.2f hours' % (self.readouttime_sec,tall,tall/60.0,tall/3600.0))       
             rmfile(outfilename)
@@ -484,6 +484,8 @@ if __name__=='__main__':
     repeatfilters=[]
 
     mkjson.loadfile(pointingfile)
+    print('GGGGG00',mkjson.options.priority)
+      
     mkjson.mkjsonscript4all(args,
                             outrootdir=mkjson.options.outrootdir,
                             outsuffix=mkjson.options.outsuffix,

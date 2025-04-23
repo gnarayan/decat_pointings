@@ -12,7 +12,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-02-i",
@@ -27,7 +27,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-03-i",
@@ -42,7 +42,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-04-i",
@@ -57,7 +57,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-05-i",
@@ -72,7 +72,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-01-g",
@@ -87,7 +87,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-02-g",
@@ -102,7 +102,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-03-g",
@@ -117,7 +117,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-04-g",
@@ -132,7 +132,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 01_gemini1-05-g",
@@ -147,6 +147,6 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     }    
 ]

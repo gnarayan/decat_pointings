@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "EP250304A",
+"filter": "g",
+"expTime": 100,
+"RA": "208.3916",
+"dec": "-42.7176",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EP250304A",
+"filter": "r",
+"expTime": 100,
+"RA": "208.3916",
+"dec": "-42.7176",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EP250304A",
+"filter": "i",
+"expTime": 100,
+"RA": "208.3916",
+"dec": "-42.7176",
+"propid": "2024B-763968"
+}
+]

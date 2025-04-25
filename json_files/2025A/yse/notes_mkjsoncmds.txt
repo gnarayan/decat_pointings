@@ -651,10 +651,38 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025bco  -d 250424 -e 5 -n 1 --sortbyr
 git add 250424
 git add 250424/*
 
+mkdir 250427
+new_obsplan.py -d 250427  -v --add2starttime_minutes 60
+modify_obsplan.py -d 250427 -v --add2starttime_minutes 60 -r 10 16
+subl 250427/250427_obsplan.txt
+git add 250427/250427_*
+mkjson_yse_nofilterswitch.py  -f g,i EDFS -e 120 -d 250427 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f g,r  311   -d 250427 
+mkjson_yse_nofilterswitch.py  -f r  412  -d 250427 
+mkjson_yse_nofilterswitch.py  -f g,r  525    -d 250427 
+mkjson_yse_nofilterswitch.py  -f g,i  376     -d 250427 
+mkjson_yse_nofilterswitch.py  -f g,r   428    -d 250427 
+### mkjson_yse_nofilterswitch.py  -f r,i   440    -d 250427 
+mkjson_yse_nofilterswitch.py  -f z   544    -d 250427 -p 1
+mkjson_yse_nofilterswitch.py  -f z    494   -d 250427 -p 2
+#
+mkjson_yse_nofilterswitch.py  -f r,i   2025gcv -d 250427 -e 100 -n 1 --sortbyra -p 1
+mkjson_yse_nofilterswitch.py  -f g,i   GRB250427A -d 250427 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025cy  -d 250427 -e 50 -n 1 --sortbyra -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2025brs -d 250427 -e 20 -n 1 --sortbyra -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025bco  -d 250427 -e 5 -n 1 --sortbyra -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i 2024kce  -d 250427 -e 40 20 20 40 -n 1 --sortbyra  -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i  2024inv -d 250427 -e 40 20 20 40 -n 1 --sortbyra  -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i  2025zi  -d 250427 -e 20 -n 1 --sortbyra -p 1
+git add 250427
+git add 250427/*
+
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 
 yse EP250304A [208 -43] 6 min
+
+YSE_pointings2fieldcenters.py --addSN 2025gcv 213.5599333     26.4426056  -vv --overw
 
 YSE_pointings2fieldcenters.py --addSN  GRB250424A 217.49998 -35.02518  -vv --overw
 YSE_pointings2fieldcenters.py --addSN  EP250304A 208.39450 -42.80464  -vv --overw

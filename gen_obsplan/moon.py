@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: Kaylee Soto
+"""
 import astropy.units as u
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt

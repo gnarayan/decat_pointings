@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@author: Kaylee Soto
+"""
 # Stores all airmass calculations
 import os
 from pathlib import Path

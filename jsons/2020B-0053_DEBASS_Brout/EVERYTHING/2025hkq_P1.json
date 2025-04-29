@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
-        "RA": 111.25338,
-        "dec": -34.76192,
+        "RA": 111.28116,
+        "dec": -34.7897,
         "object": "2025hkq_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "z",
         "exptime": 15.0,
-        "RA": 111.25338,
-        "dec": -34.76192,
+        "RA": 111.28116,
+        "dec": -34.7897,
         "object": "2025hkq_P1",
         "program": "DECAT",
         "expType": "object",

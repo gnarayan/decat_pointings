@@ -1,27 +1,28 @@
 program                            json_short     ra    dec
     twi               SheppardTwilight.*eve.*   0.00   0.00 
-    yse                              353.json  63.37  -9.68
-    agn                               C3.json  52.65 -28.10
-    yse                            ECDFS.json  53.12 -28.10
-    yse                           2025zi.json  54.73 -26.28
-    yse                              253.json  61.28 -24.71
+    yse                             353\.json  63.37  -9.68
+    agn                              C3\.json  52.65 -28.10
+    yse                           ECDFS\.json  53.12 -28.10
+    yse                          2025zi\.json  54.73 -26.28
+    yse                             253\.json  61.28 -24.71
  desirt                           DESIRT_80.*  74.42 -20.79
-    yse                             EDFS.json  59.10 -48.73
-    agn                            S-CVZ.json  90.00 -66.56
+    yse                             412\.json 115.81  -2.65
+    yse                             311\.json 123.55 -17.04
+    yse                            EDFS\.json  59.10 -48.73
+    agn                           S-CVZ\.json  90.00 -66.56
     eta                               etale.* 161.26 -59.68
-    yse                              311.json 123.55 -17.04
     agn                              COSMOS.* 150.00   2.20
    dosc                         \d+_OMLApex.* 166.68 -24.98
-    yse                              525.json 186.99  11.09
+    yse                             525\.json 186.99  11.09
  desirt                          DESIRT_200.* 209.93  -3.30
  desirt                         DESIRT_G15_.* 217.71  -0.86
-    yse                              376.json 222.21  -9.14
-    yse                              428.json 228.14  -1.49
-    yse                        EP250304A.json 208.39 -42.72
+    yse                             376\.json 222.21  -9.14
+    yse                             428\.json 228.14  -1.49
    dosc                     \d+_ShallowApex.* 213.20 -33.90
  defsus                              defsus.* 267.13 -29.18
-    yse                          2025aft.json 251.84 -72.90
-    yse                              440.json 314.29  -2.48
-    yse                              544.json 321.80  11.20
-    yse                              494.json 332.94   4.77 
+    yse                         2025aft\.json 251.84 -72.90
+    yse                             440\.json 314.29  -2.48
+    yse                             544\.json 321.80  11.20
+    yse                             494\.json 332.94   4.77 
+    agn                            E1E2\.json   8.69 -43.50
     twi               SheppardTwilight.*mor.*   0.00   0.00 

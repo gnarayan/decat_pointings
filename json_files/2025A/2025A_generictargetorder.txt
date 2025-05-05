@@ -1,9 +1,9 @@
 program                            json_short     ra    dec
     twi               SheppardTwilight.*eve.*   0.00   0.00 
+ kleyna                        Kleyna.*sunset   0.00   0.00
     yse                             353\.json  63.37  -9.68
     agn                              C3\.json  52.65 -28.10
     yse                           ECDFS\.json  53.12 -28.10
-    yse                          2025zi\.json  54.73 -26.28
     yse                             253\.json  61.28 -24.71
  desirt                           DESIRT_80.*  74.42 -20.79
     yse                             412\.json 115.81  -2.65
@@ -20,9 +20,10 @@ program                            json_short     ra    dec
     yse                             428\.json 228.14  -1.49
    dosc                     \d+_ShallowApex.* 213.20 -33.90
  defsus                              defsus.* 267.13 -29.18
-    yse                         2025aft\.json 251.84 -72.90
     yse                             440\.json 314.29  -2.48
+ desirt                          DESIRT_315.* 318.48 -11.80
     yse                             544\.json 321.80  11.20
     yse                             494\.json 332.94   4.77 
     agn                            E1E2\.json   8.69 -43.50
+ kleyna                       Kleyna.*sunrise   0.00   0.00
     twi               SheppardTwilight.*mor.*   0.00   0.00 

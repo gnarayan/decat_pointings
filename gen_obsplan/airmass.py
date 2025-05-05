@@ -201,7 +201,7 @@ class AirmassCalculator:
         ax2 = ax1.twiny()
         ax3 = ax1.twiny()
         ax1.invert_yaxis()
-        ax1.set_ylim([2.0, 0.8])
+        ax1.set_ylim([2.2, 0.95])
         ax1.set_ylabel("Relative Air Mass")
         ax1.set_xlabel("Local Time")
         ax1.grid(True)
@@ -243,7 +243,7 @@ class AirmassCalculator:
 
         for k in program_colormap:
             #total_time = df.loc[df.program == k, "dur"].sum()
-            label = f"{k}\nTotal time: X min"
+            label = f"{k}"
             ax1.plot(
                 full_night_extra.to_datetime(),
                 np.zeros(length_of_night),

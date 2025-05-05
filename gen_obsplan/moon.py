@@ -63,6 +63,8 @@ class MoonCalculator:
         ax2.plot(full_night_linspace.to_datetime(), np.ones(length_of_night) * -100.0)
         ax2.set_xlabel("UTC")
         ax2.get_xaxis().set_major_formatter(mdates.DateFormatter("%H:%M"))
+        ax2.axhline(30,color='red',lw=2,linestyle='--')
+        ax2.axhline(15,color='red',lw=2,linestyle='-')
 
         num_ticks = 7
         nn = round(length_of_night / num_ticks)
@@ -124,8 +126,6 @@ class MoonCalculator:
                     alpha=0.3,
                 )
 
-        ax2.axhline(30,color='red',lw=2,linestyle='--')
-        ax2.axhline(15,color='red',lw=2,linestyle='-')
         leg = ax1.legend(bbox_to_anchor=(1.01, 1.015), loc="upper left", ncol=1, prop={"size": 8})
 
         # set the linewidth of each legend object

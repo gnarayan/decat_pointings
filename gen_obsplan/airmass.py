@@ -221,6 +221,7 @@ class AirmassCalculator:
         ax2.plot(full_night_linspace.to_datetime(), np.zeros(length_of_night))
         ax2.set_xlabel("UTC")
         ax2.get_xaxis().set_major_formatter(mdates.DateFormatter("%H:%M"))
+        ax2.axhline(2.0,color='red',lw=2,linestyle='--')
 
         num_ticks = 7
         nn = round(length_of_night / num_ticks)

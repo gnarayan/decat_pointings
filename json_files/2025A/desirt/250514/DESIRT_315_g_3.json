@@ -40,5 +40,33 @@
     "propid": "2025A-729671",
     "proposer": "Palmese",
     "comment": "DESI Transients Survey 315"
+},
+{
+    "object": "DESIRT 315",
+    "expTime": 50,
+    "RA": "317.5786666666666",
+    "dec": "-14.118444444444444",
+    "filter": "g",
+    "count": 1,
+    "expType": "object",
+    "program": "DESI Transients Survey",
+    "wait": "False",
+    "propid": "2025A-729671",
+    "proposer": "Palmese",
+    "comment": "DESI Transients Survey 315"
+},
+{
+    "object": "DESIRT 315",
+    "expTime": 50,
+    "RA": "319.3275833333333",
+    "dec": "-14.145333333333332",
+    "filter": "g",
+    "count": 1,
+    "expType": "object",
+    "program": "DESI Transients Survey",
+    "wait": "False",
+    "propid": "2025A-729671",
+    "proposer": "Palmese",
+    "comment": "DESI Transients Survey 315"
 }
 ]

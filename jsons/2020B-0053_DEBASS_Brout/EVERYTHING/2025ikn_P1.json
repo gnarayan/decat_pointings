@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 10.0,
         "RA": 316.87061,
         "dec": -16.89976,
         "object": "2025ikn_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 15.0,
+        "exptime": 10.0,
         "RA": 316.87061,
         "dec": -16.89976,
         "object": "2025ikn_P1",

@@ -743,14 +743,14 @@ modify_obsplan.py -d 250514 -v --add2starttime_minutes " -12"
 subl 250514/250514_obsplan.txt
 git add 250514/250514_*
 mkjson_yse_nofilterswitch.py  -f g,r  311   -d 250514 
-mkjson_yse_nofilterswitch.py  -f z,i,r,g  412  -d 250514 
+mkjson_yse_nofilterswitch.py  -f z,r,g  412  -d 250514 
 mkjson_yse_nofilterswitch.py  -f g,r  525    -d 250514 
 mkjson_yse_nofilterswitch.py  -f z  376     -d 250514 
 mkjson_yse_nofilterswitch.py  -f z   428    -d 250514  -p 1
 
-mkjson_yse_nofilterswitch.py  -f r,i   440    -d 250514  -p 1
-mkjson_yse_nofilterswitch.py  -f r,i   544    -d 250514
-mkjson_yse_nofilterswitch.py  -f r,i    494   -d 250514 
+mkjson_yse_nofilterswitch.py  -f r,i,z   440    -d 250514  -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   544    -d 250514
+mkjson_yse_nofilterswitch.py  -f g,r,i,z    494   -d 250514 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z   2025gcv 2025ifq -d 250514 -e 7 -n 1 --sortbyra 
 mkjson_yse_nofilterswitch.py  -f i,z   GRB250424A -d 250514 -e 100 -n 1 --sortbyra

@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 313.65952,
+        "dec": 15.15563,
+        "object": "2025ian_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025ian",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 313.65952,
+        "dec": 15.15563,
+        "object": "2025ian_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025ian",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

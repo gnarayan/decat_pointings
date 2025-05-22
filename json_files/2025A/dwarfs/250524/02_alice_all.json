@@ -12,7 +12,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 02_Alice-01-r",
@@ -27,7 +27,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 02_Alice-02-g",
@@ -42,7 +42,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 02_Alice-02-r",
@@ -57,7 +57,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 02_Alice-03-g",
@@ -72,7 +72,7 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     },
     {
         "object": "DELVE field: 02_Alice-03-r",
@@ -87,6 +87,6 @@
         "wait": "False",
         "propid": "2025A-603790",
         "comment": "obztak manual: PRIORITY=1, AIRMASS=2, SLEW=0, MOONANGLE=0, HOURANGLE=0",
-        "proposer": "Drlica-Wagner"
+        "proposer": "Tan"
     }
 ]

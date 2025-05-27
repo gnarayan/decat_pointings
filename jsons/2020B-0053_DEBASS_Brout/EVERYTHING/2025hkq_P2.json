@@ -26,19 +26,5 @@
         "comment": "2025hkq",
         "wait": "False",
         "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
-        "filter": "g",
-        "exptime": 15.0,
-        "RA": 111.25338,
-        "dec": -34.7897,
-        "object": "2025hkq_P2",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2025hkq",
-        "wait": "False",
-        "propid": "2020B-0053"
     }
 ]

@@ -2,8 +2,12 @@ debass2502052025kiu_P1 [19 -34]
 debass2502052025jsh_P1 [153 -44]
 debass2502052025kum_P1 [201 0]
 debass2502052025kwy_P1 [211 -20]
+debass2502052025mlb_P1 [214 -11]
+debass2502052025mbz_P1 [212 0]
+debass2502052025mld_P1 [217 -22]
 debass2502052025jus_P1 [218 3]
 debass2502052025gzm_P1 [216 16]
+debass2502052025mje_P1 [227 -10]
 debass2502052025lyf_P1 [225 -10]
 debass2502052025klo_P1 [236 7]
 debass2502052025krk_P1 [237 19]
@@ -28,5 +32,5 @@ debass2502052025jzn_P3 [153 21]
 debass2502052025hlu_P3 [162 -4]
 debass2502052025hkd_P3 [194 10]
 
-EVERYTHING	82.2 minutes
-EVERYTHING_P1	30.4 minutes
+EVERYTHING	90.8 minutes
+EVERYTHING_P1	39.0 minutes

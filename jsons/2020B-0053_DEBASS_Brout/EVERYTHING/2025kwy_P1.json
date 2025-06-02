@@ -1,23 +1,9 @@
 [
     {
         "count": 1,
-        "filter": "g",
-        "exptime": 15.0,
-        "RA": 211.01138,
-        "dec": -20.34052,
-        "object": "2025kwy_P1",
-        "program": "DECAT",
-        "expType": "object",
-        "note": "None",
-        "comment": "2025kwy",
-        "wait": "False",
-        "propid": "2020B-0053"
-    },
-    {
-        "count": 1,
         "filter": "r",
         "exptime": 15.0,
-        "RA": 211.01138,
+        "RA": 211.03916,
         "dec": -20.34052,
         "object": "2025kwy_P1",
         "program": "DECAT",
@@ -31,7 +17,7 @@
         "count": 1,
         "filter": "i",
         "exptime": 15.0,
-        "RA": 211.01138,
+        "RA": 211.03916,
         "dec": -20.34052,
         "object": "2025kwy_P1",
         "program": "DECAT",

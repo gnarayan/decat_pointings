@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 214.48659,
-        "dec": -11.13096,
+        "RA": 214.51433,
+        "dec": -11.10316,
         "object": "2025mlb_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
         "exptime": 15.0,
-        "RA": 214.48659,
-        "dec": -11.13096,
+        "RA": 214.51433,
+        "dec": -11.10316,
         "object": "2025mlb_P1",
         "program": "DECAT",
         "expType": "object",

@@ -738,10 +738,12 @@ class obsplan_baseclass:
 
             f.write('\n#####################\n### OBSPLAN:\n#####################\n')
             (errorflag,output) = self.jsontable.write(columns=cols, indices=ixs_ordered,return_lines=True)
+            print(f'{type(output)} X1: {output}')
             f.write(output+'\n')
 
             f.write('\n#####################\n### EXTRA TARGETS:\n#####################\n')
             (errorflag,output) = self.jsontable.write(columns=cols, indices=ixs_notordered,return_lines=True)
+            print(f'{type(output)} X2: {output}')
             f.write(output+'\n')
 
             f.close()

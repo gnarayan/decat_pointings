@@ -1,0 +1,58 @@
+[
+    {
+        "count": 1,
+        "filter": "g",
+        "exptime": 15.0,
+        "RA": 153.28316,
+        "dec": -44.42027,
+        "object": "2025jsh_P3",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025jsh",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 153.28316,
+        "dec": -44.42027,
+        "object": "2025jsh_P3",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025jsh",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 153.28316,
+        "dec": -44.42027,
+        "object": "2025jsh_P3",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025jsh",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 153.28316,
+        "dec": -44.42027,
+        "object": "2025jsh_P3",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025jsh",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

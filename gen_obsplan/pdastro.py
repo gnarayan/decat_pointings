@@ -337,7 +337,8 @@ class pdastroclass:
         if len(indices)==0:
             if columns is None: columns = []
             # just save the header
-            lines = [' '.join(columns)+'\n']
+            #lines = [' '.join(columns)+'\n']
+            lines = ' '.join(columns)+'\n'
         else:
             if htmlflag:
                 lines = self.t.loc[indices].to_html(index=index, columns=columns, formatters=formatters, **kwargs)

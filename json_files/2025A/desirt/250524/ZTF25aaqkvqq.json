@@ -1,0 +1,28 @@
+[
+    {
+        "expType": "object",
+        "RA": 182.7974166667,
+        "dec": 2.7921666667,
+        "filter": "g",
+        "expTime": 50,
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "object": 695,
+        "count": 1
+    },
+    {
+        "expType": "object",
+        "RA": 182.7974166667,
+        "dec": 2.7921666667,
+        "filter": "r",
+        "expTime": 70,
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "object": 695,
+        "count": 1
+    }
+]

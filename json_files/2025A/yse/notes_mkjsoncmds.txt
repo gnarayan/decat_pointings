@@ -988,7 +988,7 @@ mkjson_yse_nofilterswitch.py  -f i  525    -d 250608
 #mkjson_yse_nofilterswitch.py  -f g,r  376     -d 250608 
 #mkjson_yse_nofilterswitch.py  -f z   428    -d 250608  
 mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250608 
-mkjson_yse_nofilterswitch.py  -f g,r 544    -d 250608 
+mkjson_yse_nofilterswitch.py  -f r 544    -d 250608 
 mkjson_yse_nofilterswitch.py  -f g,r    494   -d 250608
 mkjson_yse_nofilterswitch.py  -f r,i    296   -d 250608 
 mkjson_yse_nofilterswitch.py  -f r,i    393   -d 250608 
@@ -1001,6 +1001,31 @@ mkjson_yse_nofilterswitch.py  -f r,i   EP250304A -d 250608 -e 150 -n 1 --sortbyr
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  SPT2025a -d 250608 -e 50 -n 1 --sortbyra 
 git add 250608
 git add 250608/*
+
+
+mkdir 250609
+new_obsplan.py -d 250609  -v --add2starttime_minutes 5
+modify_obsplan.py -d 250609 -v --add2starttime_minutes 5 
+subl 250609/250609_obsplan.txt
+git add 250609/250609_*
+mkjson_yse_nofilterswitch.py  -f i  311   -d 250609 
+mkjson_yse_nofilterswitch.py  -f r  525    -d 250609 
+#mkjson_yse_nofilterswitch.py  -f g,r  376     -d 250609 
+#mkjson_yse_nofilterswitch.py  -f z   428    -d 250609  
+mkjson_yse_nofilterswitch.py  -f g,i   440    -d 250609 
+mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250609 
+mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250609
+mkjson_yse_nofilterswitch.py  -f g,r    296   -d 250609 
+mkjson_yse_nofilterswitch.py  -f g,r    393   -d 250609 
+### mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250609 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2025gcv 2025ifq -d 250609 -e 15 -n 1 --sortbyra 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2024kce 2024inv  -d 250609 -e 40 -n 1 --sortbyra 
+mkjson_yse_nofilterswitch.py  -f z   GRB250424A -d 250609 -e 100 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i   EP250304A -d 250609 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  SPT2025a -d 250609 -e 50 -n 1 --sortbyra 
+git add 250609
+git add 250609/*
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 

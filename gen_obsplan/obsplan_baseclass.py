@@ -325,6 +325,8 @@ class obsplan_baseclass:
         programtablename = f'{self.json_dir}/{self.semester}_programs.txt'
         generictargetorder_filename = f'{self.json_dir}/{self.semester}_generictargetorder.txt'
         
+        self.instructions4obsplan = f'{self.params["obsplanrootdir"]}/instructions4obsplan.txt'
+        
         #self.obsplan_dir = f'{self.params["obsplanrootdir"]}/{self.params["obsplan_subdir"]}/{self.semester}/{self.YYMMDD}'
         self.obsplan_dir = f'{self.params["obsplanrootdir"]}'
         if self.params["obsplan_subdir"] is not None: self.obsplan_dir += f'/{self.params["obsplan_subdir"]}'
@@ -732,6 +734,10 @@ class obsplan_baseclass:
             
             output=self.get_night_info_description()
             f.write(output+'\n\n')
+            
+            output=self.get_night_info_description()
+            f.write(output+'\n\n')
+
 
             
             cols = self.get_param_list(self.params['obsplan_columns_short'])

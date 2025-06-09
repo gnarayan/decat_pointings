@@ -10,8 +10,8 @@ program                            json_short     ra    dec
     yse                             311\.json 123.55 -17.04
     yse                            EDFS\.json  59.10 -48.73
     agn                           S-CVZ\.json  90.00 -66.56
-    eta                               etale.* 161.26 -59.68
     agn                              COSMOS.* 150.00   2.20
+    eta                               etale.* 161.26 -59.68
    dosc                         \d+_OMLApex.* 166.68 -24.98
     yse                             525\.json 186.99  11.09
  desirt                          DESIRT_200.* 209.93  -3.30

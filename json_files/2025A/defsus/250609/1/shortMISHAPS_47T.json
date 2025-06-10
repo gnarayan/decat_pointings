@@ -1,0 +1,178 @@
+[
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 1 g",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH0",
+  "filter": "g",
+  "RA":  6.5228,
+  "dec": -72.0813,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 2 g",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH1",
+  "filter": "g",
+  "RA":  6.4253,
+  "dec": -72.0513,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 3 g",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH2",
+  "filter": "g",
+  "RA":  6.3278,
+  "dec": -72.0213,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 4 g",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH3",
+  "filter": "g",
+  "RA":  6.6203,
+  "dec": -71.9913,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 5 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH0",
+  "filter": "r",
+  "RA":  6.5228,
+  "dec": -72.0813,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 6 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH1",
+  "filter": "r",
+  "RA":  6.4253,
+  "dec": -72.0513,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 7 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH2",
+  "filter": "r",
+  "RA":  6.3278,
+  "dec": -72.0213,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 8 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH3",
+  "filter": "r",
+  "RA":  6.6203,
+  "dec": -71.9913,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 9 i",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH0",
+  "filter": "i",
+  "RA":  6.5228,
+  "dec": -72.0813,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 10 i",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH1",
+  "filter": "i",
+  "RA":  6.4253,
+  "dec": -72.0513,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 11 i",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH2",
+  "filter": "i",
+  "RA":  6.3278,
+  "dec": -72.0213,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 12 i",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH3",
+  "filter": "i",
+  "RA":  6.6203,
+  "dec": -71.9913,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 13 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH0",
+  "filter": "z",
+  "RA":  6.5228,
+  "dec": -72.0813,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 14 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH1",
+  "filter": "z",
+  "RA":  6.4253,
+  "dec": -72.0513,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 15 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH2",
+  "filter": "z",
+  "RA":  6.3278,
+  "dec": -72.0213,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 16 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH3",
+  "filter": "z",
+  "RA":  6.6203,
+  "dec": -71.9913,
+  "expTime": 10,
+  "propid": "2025A-697040"
+ }
+]

@@ -1,8 +1,8 @@
 [
     {
         "expType": "object",
-        "RA": 1.3574166666666663,
-        "dec": -2.0156111111111112,
+        "RA": 1.1823333333333332,
+        "dec": -2.008,
         "filter": "z",
         "expTime": 110,
         "program": "DESI Transients Survey",

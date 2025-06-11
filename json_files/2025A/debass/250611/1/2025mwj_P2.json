@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 327.3745,
+        "dec": -0.64837,
+        "object": "2025mwj_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025mwj",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 327.3745,
+        "dec": -0.64837,
+        "object": "2025mwj_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025mwj",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

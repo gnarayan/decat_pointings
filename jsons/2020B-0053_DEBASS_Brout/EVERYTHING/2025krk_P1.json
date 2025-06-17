@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 5.0,
+        "exptime": 8.0,
         "RA": 237.745,
         "dec": 19.72746,
         "object": "2025krk_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 5.0,
+        "exptime": 8.0,
         "RA": 237.745,
         "dec": 19.72746,
         "object": "2025krk_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 5.0,
+        "exptime": 8.0,
         "RA": 237.745,
         "dec": 19.72746,
         "object": "2025krk_P1",

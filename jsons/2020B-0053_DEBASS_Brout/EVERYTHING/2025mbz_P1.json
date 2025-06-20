@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 15.0,
+        "exptime": 10.0,
         "RA": 212.20835,
         "dec": -0.10055,
         "object": "2025mbz_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 15.0,
+        "exptime": 10.0,
         "RA": 212.20835,
         "dec": -0.10055,
         "object": "2025mbz_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 15.0,
+        "exptime": 10.0,
         "RA": 212.20835,
         "dec": -0.10055,
         "object": "2025mbz_P1",

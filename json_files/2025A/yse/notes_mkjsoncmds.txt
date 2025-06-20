@@ -1144,6 +1144,51 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z  SPT2025a -d 250617 -e 50 -n 1 --sortby
 git add 250617
 git add 250617/*
 
+mkdir 250620
+new_obsplan.py -d 250620  -v 
+modify_obsplan.py -d 250620 -v 
+subl 250620/250620_obsplan.txt
+git add 250620/250620_*
+mkjson_yse_nofilterswitch.py  -f g,i  525    -d 250620 
+mkjson_yse_nofilterswitch.py  -f g,i  376     -d 250620 
+mkjson_yse_nofilterswitch.py  -f g,i   428    -d 250620  
+mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250620 
+mkjson_yse_nofilterswitch.py  -f g,r 544    -d 250620 
+mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250620
+mkjson_yse_nofilterswitch.py  -f r,i 393   -d 250620 
+### mkjson_yse_nofilterswitch.py  -f i    253   -d 250620 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2025gcv 2025ifq -d 250620 -e 20 -n 1 --sortbyra 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2024kce 2024inv  -d 250620 -e 40 -n 1 --sortbyra -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i   GRB250424A -d 250620 -e 50 -n 2 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i   EP250304A -d 250620 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  SPT2025a -d 250620 -e 50 -n 1 --sortbyra 
+git add 250620
+git add 250620/*
+
+
+mkdir 250629
+new_obsplan.py -d 250629  -v 
+modify_obsplan.py -d 250629 -v 
+subl 250629/250629_obsplan.txt
+git add 250629/250629_*
+### mkjson_yse_nofilterswitch.py  -f g  525    -d 250629 
+mkjson_yse_nofilterswitch.py  -f g,r  376     -d 250629 
+mkjson_yse_nofilterswitch.py  -f g,r   428    -d 250629  
+mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250629 
+mkjson_yse_nofilterswitch.py  -f g,r 544    -d 250629 
+mkjson_yse_nofilterswitch.py  -f g,r    494   -d 250629
+mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250629 
+mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250629 
+#
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2025gcv 2025ifq -d 250629 -e 20 -n 1 --sortbyra 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z   2024kce 2024inv  -d 250629 -e 40 -n 1 --sortbyra -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i   GRB250424A -d 250629 -e 50 -n 2 --sortbyra
+mkjson_yse_nofilterswitch.py  -f r,i   EP250304A -d 250629 -e 150 -n 1 --sortbyra
+mkjson_yse_nofilterswitch.py  -f g,r,i,z  SPT2025a -d 250629 -e 50 -n 1 --sortbyra 
+git add 250629
+git add 250629/*
+
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 

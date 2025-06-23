@@ -1,7 +1,7 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
         "RA": 223.7365,
         "dec": 17.45952,
@@ -15,7 +15,7 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "r",
         "exptime": 15.0,
         "RA": 223.7365,
         "dec": 17.45952,

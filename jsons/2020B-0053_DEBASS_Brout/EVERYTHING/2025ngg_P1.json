@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 8.0,
+        "exptime": 15.0,
         "RA": 242.87488,
         "dec": -25.72889,
         "object": "2025ngg_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 8.0,
+        "exptime": 15.0,
         "RA": 242.87488,
         "dec": -25.72889,
         "object": "2025ngg_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 8.0,
+        "exptime": 15.0,
         "RA": 242.87488,
         "dec": -25.72889,
         "object": "2025ngg_P1",

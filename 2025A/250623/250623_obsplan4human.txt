@@ -1,0 +1,90 @@
+UT -14 deg twilight: 2025-06-23T22:57:51.231 2025-06-24T10:33:31.820
+UT middle of the night: 2025-06-24T04:45:41.526
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 06/23/2025,   18:57:51 to 06:33:31
+timezone ET: America/New_YorkET  -14 deg twilight: 06/23/2025,   18:57:51 to 06:33:31
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 06/23/2025,   15:57:51 to 03:33:31
+CLT middle of the night: 00:45:41
+ET  middle of the night: 00:45:41
+PT  middle of the night: 21:45:41
+
+
+UT -14 deg twilight: 2025-06-23T22:57:51.231 2025-06-24T10:33:31.820
+UT middle of the night: 2025-06-24T04:45:41.526
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 06/23/2025,   18:57:51 to 06:33:31
+timezone ET: America/New_YorkET  -14 deg twilight: 06/23/2025,   18:57:51 to 06:33:31
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 06/23/2025,   15:57:51 to 03:33:31
+CLT middle of the night: 00:45:41
+ET  middle of the night: 00:45:41
+PT  middle of the night: 21:45:41
+
+
+
+#####################
+### OBSPLAN:
+#####################
+ jsonID program  priority  order airmass sep_moon                            json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+      0     twi         0     10    1.82     62.3     SheppardTwilightJun23evening.json 125.45  -4.08 2025-06-23T22:31:09.231 18:31 18:31    0.00        0      0.00    26.70    26.70
+     13  desirt         0     20    1.19     93.9                   DESIRT_165_i_1.json 160.29  -7.53 2025-06-23T22:57:51.231 18:57 18:57   34.82        0      1.28     7.33     8.61
+     12  desirt         0     30    1.21     93.8                   DESIRT_165_g_1.json 160.29  -7.53 2025-06-23T23:06:27.835 19:06 19:06    0.00        0      0.00     5.33     5.33
+     55     eta         0     40    1.25    112.6          etale.ec0814.griz.11min.json 158.03 -60.69 2025-06-23T23:11:47.835 19:11 19:11   53.19        1      4.95    10.33    15.28
+     56     eta         0     50    1.24    113.8          etale.ec0915.griz.11min.json 161.26 -59.68 2025-06-23T23:27:04.853 19:27 19:27    1.89        0      0.07    10.33    10.40
+     57     eta         0     60    1.25    114.0                    etale.r.17min.json 161.91 -59.48 2025-06-23T23:37:29.021 19:37 19:37    0.38        0      0.01    10.83    10.85
+     48     yse         0     70    1.36    107.7                              525.json 186.99  11.09 2025-06-23T23:48:19.866 19:48 19:48   73.40        1      5.69    32.00    37.69
+      5    dosc         0     80    1.25    106.1     1_OMLApex.250623_g_5-dithpos.json 166.68 -24.98 2025-06-24T00:26:01.355 20:26 20:26   41.15        0      1.51    12.50    14.01
+      6    dosc         0     90    1.30    105.9    2_OMLApex.250623_r_10-dithpos.json 166.68 -24.98 2025-06-24T00:40:01.883 20:40 20:40    0.00        0      0.00    25.00    25.00
+      7    dosc         0    100    1.42    105.7    3_OMLApex.250623_i_15-dithpos.json 166.68 -24.98 2025-06-24T01:05:01.883 21:05 21:05    0.00        0      0.00    37.50    37.50
+     14  desirt         0    110    1.17    133.5                     DESIRT_200_g.json 209.93  -3.30 2025-06-24T01:42:31.883 21:42 21:42   46.89        0      1.72    13.33    15.05
+     15  desirt         0    120    1.20    133.4                     DESIRT_200_i.json 209.93  -3.30 2025-06-24T01:57:35.032 21:57 21:57    0.00        0      0.00    18.33    18.33
+     22  desirt         0    130    1.20    137.7                     DESIRT_G15_g.json 217.71  -0.86 2025-06-24T02:15:55.032 22:15 22:15    8.15        0      0.30    20.00    20.30
+     23  desirt         0    140    1.24    137.6                     DESIRT_G15_i.json 217.71  -0.86 2025-06-24T02:36:12.960 22:36 22:36    0.00        0      0.00    27.50    27.50
+     43     yse         0    150    1.17    146.0                              376.json 222.21  -9.14 2025-06-24T03:03:42.960 23:03 23:03    9.42        0      0.35    16.00    16.35
+     45     yse         0    160    1.24    144.9                              428.json 228.14  -1.49 2025-06-24T03:20:03.685 23:20 23:20    9.66        0      0.35    16.00    16.35
+      8    dosc         0    170    1.23    145.5 4_ShallowApex.250623_g_4-dithpos.json 213.20 -33.90 2025-06-24T03:36:24.933 23:36 23:36   35.29        1      4.29    10.00    14.29
+      9    dosc         0    180    1.28    145.3 5_ShallowApex.250623_r_6-dithpos.json 213.20 -33.90 2025-06-24T03:50:42.578 23:50 23:50    0.00        0      0.00    15.00    15.00
+     10    dosc         0    190    1.34    145.2 6_ShallowApex.250623_i_8-dithpos.json 213.20 -33.90 2025-06-24T04:05:42.578 00:05 00:05    0.00        0      0.00    20.00    20.00
+     50  defsus         0    200    1.00    169.7                       1_defsus_N.json 265.05 -26.70 2025-06-24T04:25:42.578 00:25 00:25   44.87        1      4.65    12.00    16.65
+     51  defsus         0    210    1.00    166.9                       1_defsus_S.json 268.32 -30.60 2025-06-24T04:42:21.302 00:42 00:42    4.84        0      0.18    21.00    21.18
+     52  defsus         0    220    1.02    170.1                       2_defsus_N.json 265.05 -26.70 2025-06-24T05:03:31.950 01:03 01:03    4.84        0      0.18    12.00    12.18
+     53  defsus         0    230    1.02    167.2                       2_defsus_S.json 268.32 -30.60 2025-06-24T05:15:42.598 01:15 01:15    4.84        0      0.18    21.00    21.18
+     46     yse         0    240    1.27    117.6                              440.json 314.29  -2.48 2025-06-24T05:36:53.246 01:36 01:36   51.71        0      1.90    16.00    17.90
+     16  desirt         0    250    1.18    118.9                   DESIRT_315_g_1.json 316.91  -9.83 2025-06-24T05:54:46.999 01:54 01:54    7.80        0      0.29     6.67     6.95
+     17  desirt         0    260    1.18    115.9                   DESIRT_315_g_2.json 321.43 -12.04 2025-06-24T06:01:44.160 02:01 02:01    4.96        0      0.18     6.67     6.85
+     54  dwarfs         0    270    1.19    113.2              04_capricornus2_all.json 325.36 -13.56 2025-06-24T06:08:35.075 02:08 02:08    4.12        0      0.15    55.00    55.15
+     18  desirt         0    280    1.06    121.0                   DESIRT_315_g_3.json 317.09 -13.53 2025-06-24T07:03:44.135 03:03 03:03    8.04        0      0.29     6.67     6.96
+     19  desirt         0    290    1.07    119.7                   DESIRT_315_i_1.json 316.91  -9.83 2025-06-24T07:10:41.828 03:10 03:10    3.70        0      0.14     9.17     9.30
+     20  desirt         0    300    1.06    116.7                   DESIRT_315_i_2.json 321.43 -12.04 2025-06-24T07:19:59.961 03:19 03:19    4.96        0      0.18     9.17     9.35
+     21  desirt         0    310    1.04    121.3                   DESIRT_315_i_3.json 317.09 -13.53 2025-06-24T07:29:20.876 03:29 03:29    4.49        0      0.16     9.17     9.33
+     49     yse         0    320    1.34    105.1                              544.json 321.80  11.20 2025-06-24T07:38:40.753 03:38 03:38   25.16        0      0.92    16.00    16.92
+     47     yse         0    330    1.25     99.1                              494.json 332.94   4.77 2025-06-24T07:55:36.106 03:55 03:55   12.77        0      0.47    16.00    16.47
+     44     yse         0    340    1.13     95.0                              393.json 345.62  -9.85 2025-06-24T08:12:04.189 04:12 04:12   19.32        0      0.71     8.00     8.71
+     11  desirt         0    350    1.00    114.7                         2023aagj.json 331.61 -28.44 2025-06-24T08:20:46.693 04:20 04:20   22.77        0      0.84     3.33     4.17
+      3     agn         0    360    1.21     94.4                             E1E2.json   8.69 -43.50 2025-06-24T08:24:56.798 04:24 04:24   33.21        1      4.22    20.50    24.72
+      4     agn         0    370    2.15     51.6                             X123.json  35.53  -5.31 2025-06-24T08:49:39.853 04:49 04:49   44.92        1      4.65    33.00    37.65
+      2     agn         0    380    1.94     60.7                               C3.json  52.65 -28.10 2025-06-24T09:27:18.668 05:27 05:27   27.99        0      1.03    11.00    12.03
+      1     twi         0    390    2.18     31.0     SheppardTwilightJun24morning.json  51.75   9.00 2025-06-24T10:33:31.820 06:33 06:33   37.11        0      1.36    12.78    14.14
+
+#####################
+### EXTRA TARGETS:
+#####################
+ jsonID program  priority  order airmass sep_moon            json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     40  desirt         2     -1     NaN      NaN DESIRT_20-20-1_i.json  20.77 -19.59 NaN NaN NaN     NaN        0       NaN     9.17      NaN
+     29  desirt         1     -1     NaN      NaN DESIRT_20-20-1_r.json  20.77 -19.59 NaN NaN NaN     NaN        0       NaN     8.33      NaN
+     28  desirt         1     -1     NaN      NaN DESIRT_20-20-1_g.json  20.77 -19.59 NaN NaN NaN     NaN        0       NaN     6.67      NaN
+     33  desirt         1     -1     NaN      NaN DESIRT_20-20-3_r.json  24.05 -17.09 NaN NaN NaN     NaN        0       NaN     8.33      NaN
+     32  desirt         1     -1     NaN      NaN DESIRT_20-20-3_g.json  24.05 -17.09 NaN NaN NaN     NaN        0       NaN     6.67      NaN
+     42  desirt         2     -1     NaN      NaN DESIRT_20-20-3_i.json  24.05 -17.09 NaN NaN NaN     NaN        0       NaN     9.17      NaN
+     30  desirt         1     -1     NaN      NaN DESIRT_20-20-2_g.json  24.72 -22.23 NaN NaN NaN     NaN        0       NaN     6.67      NaN
+     31  desirt         1     -1     NaN      NaN DESIRT_20-20-2_r.json  24.72 -22.23 NaN NaN NaN     NaN        0       NaN     8.33      NaN
+     41  desirt         2     -1     NaN      NaN DESIRT_20-20-2_i.json  24.72 -22.23 NaN NaN NaN     NaN        0       NaN     9.17      NaN
+     26  desirt         1     -1     NaN      NaN   DESIRT_165_r_1.json 160.29  -7.53 NaN NaN NaN     NaN        0       NaN     6.67      NaN
+     25  desirt         1     -1     NaN      NaN   DESIRT_165_i_2.json 163.47  -4.46 NaN NaN NaN     NaN        0       NaN     7.33      NaN
+     27  desirt         1     -1     NaN      NaN   DESIRT_165_r_2.json 163.47  -4.46 NaN NaN NaN     NaN        0       NaN     6.67      NaN
+     24  desirt         1     -1     NaN      NaN   DESIRT_165_g_2.json 163.47  -4.46 NaN NaN NaN     NaN        0       NaN     5.33      NaN
+     34  desirt         1     -1     NaN      NaN     DESIRT_200_r.json 209.93  -3.30 NaN NaN NaN     NaN        0       NaN    16.67      NaN
+     38  desirt         1     -1     NaN      NaN   DESIRT_G15_r_1.json 214.05  -0.79 NaN NaN NaN     NaN        0       NaN    10.00      NaN
+     39  desirt         1     -1     NaN      NaN   DESIRT_G15_r_2.json 218.54  -0.97 NaN NaN NaN     NaN        0       NaN     8.33      NaN
+     35  desirt         1     -1     NaN      NaN   DESIRT_315_r_1.json 316.91  -9.83 NaN NaN NaN     NaN        0       NaN     8.33      NaN
+     37  desirt         1     -1     NaN      NaN   DESIRT_315_r_3.json 317.09 -13.53 NaN NaN NaN     NaN        0       NaN     8.33      NaN
+     36  desirt         1     -1     NaN      NaN   DESIRT_315_r_2.json 321.43 -12.04 NaN NaN NaN     NaN        0       NaN     8.33      NaN

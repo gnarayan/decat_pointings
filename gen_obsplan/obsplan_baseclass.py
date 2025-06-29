@@ -1213,7 +1213,7 @@ class obsplan_baseclass:
         
         self.jsontable.t['airmass'] = self.jsontable.t['airmass'].astype(float)
         self.jsontable.default_formatters['airmass']='{:,.2f}'.format
-        
+
     def airmass_plot(self):
         (ixs, ixs_ordered, ixs_notordered) = self.final_ixs()
         self.jsontable.t.loc[ixs_ordered,'t_start_hidden']=Time(list(self.jsontable.t.loc[ixs_ordered,'UT']))+TimeDelta(list(self.jsontable.t.loc[ixs_ordered,'t_slew[m]'].astype('float'))*u.min)

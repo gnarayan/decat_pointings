@@ -1,0 +1,30 @@
+[
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 293.10326,
+        "dec": -18.27469,
+        "object": "2025myo_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025myo",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 293.10326,
+        "dec": -18.27469,
+        "object": "2025myo_P2",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025myo",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

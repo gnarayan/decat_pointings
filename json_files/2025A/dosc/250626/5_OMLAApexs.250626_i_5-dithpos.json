@@ -1,0 +1,52 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexs",
+"filter": "i",
+"expTime": 115,
+"RA": "357.10",
+"dec": "11.00",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexs",
+"filter": "i",
+"expTime": 115,
+"deltaDEC": "N5",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexs",
+"filter": "i",
+"expTime": 115,
+"deltaDEC": "N5",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexs",
+"filter": "i",
+"expTime": 115,
+"deltaDEC": "S15",
+"deltaRA": "W0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLAApexs",
+"filter": "i",
+"expTime": 115,
+"deltaDEC": "S5",
+"deltaRA": "W0",
+"propid": "2025A-316276"
+}
+]

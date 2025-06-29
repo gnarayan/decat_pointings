@@ -1209,10 +1209,6 @@ class obsplan_baseclass:
             ra = self.jsontable.t.loc[ix,'ra']*u.deg
             dec = self.jsontable.t.loc[ix,'dec']*u.deg
             airmass = self.airmass_calc.query(t,ra,dec)
-            print(f'fffffffffffff {t} {ra} {dec} {airmass}')
-            if np.isnan(airmass[0]):
-                print('HHHH')
-                sys.exit(0)
             self.jsontable.t.loc[ix,'airmass']=airmass
         
         self.jsontable.t['airmass'] = self.jsontable.t['airmass'].astype(float)

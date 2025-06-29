@@ -185,10 +185,6 @@ class AirmassCalculator:
     def query(self, times, ra, dec):
         """Query from cache."""
         hour_angles = self._get_hour_angles(ra, times)
-        print(f'VVVVVV {hour_angles}')
-        #if hour_angles<0.0: 
-        #    hour_angles+=360.0 
-        #    print(f'VVVVVV1111 {hour_angles}')
         airmasses = self._query_from_ha_dec(hour_angles, dec.to(u.deg).value)
         return airmasses
 

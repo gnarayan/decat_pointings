@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "r",
         "exptime": 15.0,
         "RA": 230.66218,
-        "dec": -5.34569,
+        "dec": -5.31791,
         "object": "2025lyj_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
         "exptime": 15.0,
         "RA": 230.66218,
-        "dec": -5.34569,
+        "dec": -5.31791,
         "object": "2025lyj_P1",
         "program": "DECAT",
         "expType": "object",

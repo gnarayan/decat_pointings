@@ -125,7 +125,26 @@ class AirmassCalculator:
             return np.nan * np.ones(len(ha))
 
         # take absolute values, airmasses symmetric around HA
-        abs_ha = np.atleast_1d(np.abs(ha))
+        ha = np.atleast_1d(ha)
+        abs_ha = np.abs(ha)
+
+        # make sure the absolute value is as small as possible:
+        # if it is too large, either subtract or add 360.0 degree
+        ixs = np.where((abs_ha >= 78.75) & (ha<0))
+        abs_ha[ixs]=np.abs(ha[ixs]+360.0)
+        ixs = np.where((abs_ha >= 78.75) & (ha>0))
+        abs_ha[ixs]=np.abs(ha[ixs]-360.0)
+        #abs_ha = np.atleast_1d(np.abs(ha))
+
+        """
+        if (abs_ha >= 78.75):
+            if ha<0: 
+                ha+=360.0
+            else:
+                ha-=360.0
+            abs_ha = np.atleast_1d(np.abs(ha))
+        """
+
         oob_mask = np.isnan(abs_ha) | (abs_ha >= 78.75)  # out of bounds for DECam
 
         # Find closest hour angles
@@ -166,6 +185,10 @@ class AirmassCalculator:
     def query(self, times, ra, dec):
         """Query from cache."""
         hour_angles = self._get_hour_angles(ra, times)
+        print(f'VVVVVV {hour_angles}')
+        #if hour_angles<0.0: 
+        #    hour_angles+=360.0 
+        #    print(f'VVVVVV1111 {hour_angles}')
         airmasses = self._query_from_ha_dec(hour_angles, dec.to(u.deg).value)
         return airmasses
 

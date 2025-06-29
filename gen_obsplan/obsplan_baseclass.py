@@ -1209,11 +1209,15 @@ class obsplan_baseclass:
             ra = self.jsontable.t.loc[ix,'ra']*u.deg
             dec = self.jsontable.t.loc[ix,'dec']*u.deg
             airmass = self.airmass_calc.query(t,ra,dec)
+            print(f'fffffffffffff {t} {ra} {dec} {airmass}')
+            if np.isnan(airmass[0]):
+                print('HHHH')
+                sys.exit(0)
             self.jsontable.t.loc[ix,'airmass']=airmass
         
         self.jsontable.t['airmass'] = self.jsontable.t['airmass'].astype(float)
         self.jsontable.default_formatters['airmass']='{:,.2f}'.format
-        
+
     def airmass_plot(self):
         (ixs, ixs_ordered, ixs_notordered) = self.final_ixs()
         self.jsontable.t.loc[ixs_ordered,'t_start_hidden']=Time(list(self.jsontable.t.loc[ixs_ordered,'UT']))+TimeDelta(list(self.jsontable.t.loc[ixs_ordered,'t_slew[m]'].astype('float'))*u.min)

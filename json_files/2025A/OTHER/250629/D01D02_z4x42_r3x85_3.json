@@ -1,0 +1,139 @@
+[
+  {
+    "SCRIPT_COMMENT": "YES",
+    "multExp": "YES",
+    "SEQ_LEN": 12
+  },
+  {
+    "multiexposure": "start",
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01",
+    "seqid": "D01-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02",
+    "seqid": "D02-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01",
+    "seqid": "D01-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02",
+    "seqid": "D02-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01",
+    "seqid": "D01-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02",
+    "seqid": "D02-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01",
+    "seqid": "D01-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02",
+    "seqid": "D02-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01",
+    "seqid": "D01-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02",
+    "seqid": "D02-z42",
+    "count": 4
+  },
+  {
+    "multiexposure": "cont",
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "r",
+    "expTime": 85,
+    "object": "D01",
+    "seqid": "D01-r85",
+    "count": 3
+  },
+  {
+    "multiexposure": "end",
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "r",
+    "expTime": 85,
+    "object": "D02",
+    "seqid": "D02-r85",
+    "count": 3
+  }
+]

@@ -617,6 +617,22 @@ class obsplan_baseclass:
         if self.ExtraTime_min<0.0:
             print(f'\n####################################\n### WARNING!! OBSPLAN IS {-self.ExtraTime_min:.2f} minutes TOO LONG!!!\n####################################')
 
+        ###################################
+        # some checks for airmass and moon!
+        ixs_ordered = self.jsontable.ix_inrange('order',0)
+        # check if any entries have airmasses above warning_airmass_max
+        if self.params['warning_airmass_max'] is not None:
+            ixs_warning = self.jsontable.ix_inrange('airmass',self.params['warning_airmass_max'],None,indices=ixs_ordered)
+            if len(ixs_warning)>0:
+                print(f'####################\nWARNING!!!! Some of the json files in the obsplan have airmass>{self.params["warning_airmass_max"]}!')
+                self.jsontable.write(columns=cols,indices=ixs_warning)
+
+        # check if any entries have non-defined airmasses 
+        ixs_error = self.jsontable.ix_is_null('airmass',indices=ixs_ordered)
+        if len(ixs_error)>0:
+            print('####################\ERROR ERROR ERROR!!!! Some of the json files in the obsplan have bad airmass!')
+            self.jsontable.write(columns=cols,indices=ixs_error)
+            raise RuntimeError('Some of the json files in the obsplan have bad airmass!')
 
     def update_json_tables_prog4(self, programname, YYMMDD=None, priority=None,
                            Nmax=None, skip_if_exists=True, reload_targets=False):

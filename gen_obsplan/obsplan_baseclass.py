@@ -620,6 +620,7 @@ class obsplan_baseclass:
         ###################################
         # some checks for airmass and moon!
         ixs_ordered = self.jsontable.ix_inrange('order',0)
+
         # check if any entries have airmasses above warning_airmass_max
         if self.params['warning_airmass_max'] is not None:
             ixs_warning = self.jsontable.ix_inrange('airmass',self.params['warning_airmass_max'],None,indices=ixs_ordered)
@@ -630,7 +631,7 @@ class obsplan_baseclass:
         # check if any entries have non-defined airmasses 
         ixs_error = self.jsontable.ix_is_null('airmass',indices=ixs_ordered)
         if len(ixs_error)>0:
-            print('####################\ERROR ERROR ERROR!!!! Some of the json files in the obsplan have bad airmass!')
+            print('####################\ERROR ERROR ERROR FIX THIS!!!! Some of the json files in the obsplan have bad airmass!')
             self.jsontable.write(columns=cols,indices=ixs_error)
             raise RuntimeError('Some of the json files in the obsplan have bad airmass!')
 

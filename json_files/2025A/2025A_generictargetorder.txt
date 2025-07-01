@@ -1,11 +1,9 @@
 program                            json_short     ra    dec
     twi               SheppardTwilight.*eve.*   0.00   0.00 
  kleyna                        Kleyna.*sunset   0.00   0.00
-    yse                           ECDFS\.json  53.12 -28.10
  desirt                           DESIRT_80.*  74.42 -20.79
     yse                             412\.json 115.81  -2.65
     yse                             311\.json 123.55 -17.04
-    yse                            EDFS\.json  59.10 -48.73
     agn                           S-CVZ\.json  90.00 -66.56
     agn                              COSMOS.* 150.00   2.20
     eta                               etale.* 161.26 -59.68
@@ -28,5 +26,7 @@ program                            json_short     ra    dec
     agn                            X123.*json  35.53  -5.31
     agn                              C3.*json  52.65 -28.10
     yse                             253.*json  61.28 -24.71
+    yse                           ECDFS\.json  53.12 -28.10
+    yse                            EDFS\.json  59.10 -48.73
  kleyna                       Kleyna.*sunrise   0.00   0.00
     twi               SheppardTwilight.*mor.*   0.00   0.00 

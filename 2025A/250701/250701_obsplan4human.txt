@@ -1,0 +1,38 @@
+UT -14 deg twilight: 2025-07-01T23:00:20.439 2025-07-02T10:34:16.094
+UT middle of the night: 2025-07-02T04:47:18.266
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 07/01/2025,   19:00:20 to 06:34:16
+timezone ET: America/New_YorkET  -14 deg twilight: 07/01/2025,   19:00:20 to 06:34:16
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 07/01/2025,   16:00:20 to 03:34:16
+CLT middle of the night: 00:47:18
+ET  middle of the night: 00:47:18
+PT  middle of the night: 21:47:18
+
+
+UT -14 deg twilight: 2025-07-01T23:00:20.439 2025-07-02T10:34:16.094
+UT middle of the night: 2025-07-02T04:47:18.266
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 07/01/2025,   19:00:20 to 06:34:16
+timezone ET: America/New_YorkET  -14 deg twilight: 07/01/2025,   19:00:20 to 06:34:16
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 07/01/2025,   16:00:20 to 03:34:16
+CLT middle of the night: 00:47:18
+ET  middle of the night: 00:47:18
+PT  middle of the night: 21:47:18
+
+
+
+#####################
+### OBSPLAN:
+#####################
+ jsonID program  priority  order airmass sep_moon json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+      4     yse         0     10    1.07    156.9   393.json 345.62  -9.85 2025-07-02T08:59:18.266 04:59 04:59    0.00      0.0      0.00    16.00    16.00
+      1     agn         0     20    1.57    148.0  X123.json  35.53  -5.31 2025-07-02T09:15:18.266 05:15 05:15   49.64      0.0      1.82    33.00    34.82
+      0     agn         0     30    1.48    124.3    C3.json  52.65 -28.10 2025-07-02T09:50:07.464 05:50 05:50   27.99      0.0      1.03    11.00    12.03
+      2     yse         0     40    1.43    123.9 ECDFS.json  53.12 -28.10 2025-07-02T10:02:09.040 06:02 06:02    0.42      0.0      0.02    10.00    10.02
+      3     yse         0     50    1.44    109.8  EDFS.json  59.10 -48.73 2025-07-02T10:12:09.962 06:12 06:12   21.14      1.0      3.78    10.00    13.78
+
+#####################
+### EXTRA TARGETS:
+#####################
+jsonID program priority order airmass sep_moon json_short ra dec UT CLT ET sep_deg decflip t_slew[m] t_exp[m] t_tot[m]
+

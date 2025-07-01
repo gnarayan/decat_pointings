@@ -1253,7 +1253,7 @@ git add 250630/*
 
 
 new_obsplan.py -d 250701  -v -2 --add2starttime_minutes 252
-modify_obsplan.py -d 250701 -v  -2 -s --add2starttime_minutes 252
+modify_obsplan.py -d 250701 -v  -2 -s --add2starttime_minutes 257
 subl 250701/250701_obsplan.txt
 ### mkjson_yse_nofilterswitch.py  -f g  525    -d 250701 
 mkjson_yse_nofilterswitch.py  -f g,r  376     -d 250701 
@@ -1261,7 +1261,7 @@ mkjson_yse_nofilterswitch.py  -f g,r   428    -d 250701
 mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250701 
 mkjson_yse_nofilterswitch.py  -f g,r 544    -d 250701 
 mkjson_yse_nofilterswitch.py  -f g,r    494   -d 250701
-mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250701 
+mkjson_yse_nofilterswitch.py  -f r,i 393   -d 250701 
 mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250701 
 #
 mkjson_yse_nofilterswitch.py  -f g,r,i,z   2025gcv 2025ifq -d 250701 -e 20 -n 1 --sortbyra 
@@ -1271,6 +1271,16 @@ mkjson_yse_nofilterswitch.py  -f r,i   EP250304A -d 250701 -e 150 -n 1 --sortbyr
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  SPT2025a -d 250701 -e 50 -n 1 --sortbyra 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z ECDFS EDFS -e 120 -d 250701 
 git add 250701
+
+new_obsplan.py -d 250702  -v 
+modify_obsplan.py -d 250702 -v  -s
+mkjson_yse_nofilterswitch.py  -f z  525    -d 250702
+mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250702 
+mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250702
+mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250702
+mkjson_yse_nofilterswitch.py  -f g,i    253   -d 250702 
+mkjson_yse_nofilterswitch.py  -f g,r ECDFS EDFS -e 120 -d 250702
+git add 250702
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse

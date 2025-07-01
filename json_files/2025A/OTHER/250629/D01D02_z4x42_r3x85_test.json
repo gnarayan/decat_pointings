@@ -1,0 +1,98 @@
+[
+  {
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01"
+  },
+  {
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02"
+  },
+  {
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01"
+  },
+  {
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02"
+  },
+  {
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01"
+  },
+  {
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02"
+  },
+  {
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01"
+  },
+  {
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02"
+  },
+  {
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D01"
+  },
+  {
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "z",
+    "expTime": 42,
+    "object": "D02"
+  },
+  {
+    "expType": "object",
+    "RA": "17:54:22.00",
+    "dec": "-28:55:00.00",
+    "filter": "r",
+    "expTime": 85,
+    "object": "D01"
+  },
+  {
+    "expType": "object",
+    "RA": "17:52:20.00",
+    "dec": "-29:54:00.00",
+    "filter": "r",
+    "expTime": 85,
+    "object": "D02"
+  }
+]

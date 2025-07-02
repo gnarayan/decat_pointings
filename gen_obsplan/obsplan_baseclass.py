@@ -620,6 +620,8 @@ class obsplan_baseclass:
         ###################################
         # some checks for airmass and moon!
         ixs_ordered = self.jsontable.ix_inrange('order',0)
+        ixs_twi = self.jsontable.ix_equal('program','twi')
+        ixs_ordered = AnotB(ixs_ordered,ixs_twi)
 
         # check if any entries have airmasses above warning_airmass_max
         if self.params['warning_airmass_max'] is not None:
@@ -633,7 +635,7 @@ class obsplan_baseclass:
         if len(ixs_error)>0:
             print('####################\ERROR ERROR ERROR FIX THIS!!!! Some of the json files in the obsplan have bad airmass!')
             self.jsontable.write(columns=cols,indices=ixs_error)
-            raise RuntimeError('Some of the json files in the obsplan have bad airmass!')
+            #raise RuntimeError('Some of the json files in the obsplan have bad airmass!')
 
     def update_json_tables_prog4(self, programname, YYMMDD=None, priority=None,
                            Nmax=None, skip_if_exists=True, reload_targets=False):

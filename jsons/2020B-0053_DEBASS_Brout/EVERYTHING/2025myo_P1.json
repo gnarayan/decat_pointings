@@ -1,10 +1,10 @@
 [
     {
         "count": 1,
-        "filter": "r",
+        "filter": "g",
         "exptime": 15.0,
-        "RA": 293.13104,
-        "dec": -18.24691,
+        "RA": 293.10326,
+        "dec": -18.27469,
         "object": "2025myo_P1",
         "program": "DECAT",
         "expType": "object",
@@ -15,10 +15,10 @@
     },
     {
         "count": 1,
-        "filter": "i",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 293.13104,
-        "dec": -18.24691,
+        "RA": 293.10326,
+        "dec": -18.27469,
         "object": "2025myo_P1",
         "program": "DECAT",
         "expType": "object",

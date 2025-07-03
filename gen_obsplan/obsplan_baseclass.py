@@ -746,6 +746,7 @@ class obsplan_baseclass:
         #    self.jsontable.write(indices=ixs)
             
         print(f'Saving obsplan to {filename}')
+        #self.jsontable.write()
         self.jsontable.write(filename,columns=cols, indices=ixs)
         
         print(f'Saving obsplan for humans to {obsplan4human_filename}')
@@ -1041,6 +1042,10 @@ class obsplan_baseclass:
             
             #self.jsontable.write(indices=ixs_ordered,columns=['json_short','ra','dec','order','priority','decflip','sep_deg','t_slew[m]','_slew2obj','_extra','_sep','_decflip','t_exp[m]','t_tot[m]'])
             
+
+            print(f'AAAAA {ixs_ordered}')
+            if len(ixs_ordered)==0:
+                return(ixs_ordered)
             # find the index for which the extra slew time is minimal
             # the first entry of ixs_ordered is NaN, so do [1:]
             ix_minval = self.jsontable.t.loc[ixs_ordered[1:],'_extra'].idxmin()
@@ -1179,25 +1184,26 @@ class obsplan_baseclass:
             for tz_abbr in tz2use:
                 self.jsontable.t.loc[ixs_ordered[i],tz_abbr] = ut.to_datetime(timezone=tz[tz_abbr]).strftime('%H:%M')
 
-        # make sure that the evening twilights end at -14 deg twilight
-        if self.jsontable.t.loc[ixs_ordered[0],'program']=='twi':
-            ut_twi = self.UT_eveningtwi - pd.Timedelta(self.jsontable.t.loc[ixs_ordered[0],'t_tot[m]'], unit="m")
-            self.jsontable.t.loc[ixs_ordered[0],'UT'] = ut_twi.to_value('isot')
-            for tz_abbr in tz2use:
-                self.jsontable.t.loc[ixs_ordered[0],tz_abbr] = ut_twi.to_datetime(timezone=tz[tz_abbr]).strftime('%H:%M')
+        if len(ixs_ordered)>0:
+            # make sure that the evening twilights end at -14 deg twilight
+            if self.jsontable.t.loc[ixs_ordered[0],'program']=='twi':
+                ut_twi = self.UT_eveningtwi - pd.Timedelta(self.jsontable.t.loc[ixs_ordered[0],'t_tot[m]'], unit="m")
+                self.jsontable.t.loc[ixs_ordered[0],'UT'] = ut_twi.to_value('isot')
+                for tz_abbr in tz2use:
+                    self.jsontable.t.loc[ixs_ordered[0],tz_abbr] = ut_twi.to_datetime(timezone=tz[tz_abbr]).strftime('%H:%M')
 
-        # make sure that the morning twilights start at -14 deg twilight
-        if self.jsontable.t.loc[ixs_ordered[-1],'program']=='twi':
-            ut_twi = self.UT_morningtwi
-            self.jsontable.t.loc[ixs_ordered[-1],'UT'] = ut_twi.to_value('isot')
-            for tz_abbr in tz2use:
-                self.jsontable.t.loc[ixs_ordered[-1],tz_abbr] = ut_twi.to_datetime(timezone=tz[tz_abbr]).strftime('%H:%M')
+            # make sure that the morning twilights start at -14 deg twilight
+            if self.jsontable.t.loc[ixs_ordered[-1],'program']=='twi':
+                ut_twi = self.UT_morningtwi
+                self.jsontable.t.loc[ixs_ordered[-1],'UT'] = ut_twi.to_value('isot')
+                for tz_abbr in tz2use:
+                    self.jsontable.t.loc[ixs_ordered[-1],tz_abbr] = ut_twi.to_datetime(timezone=tz[tz_abbr]).strftime('%H:%M')
 
         
-        #self.jsontable.write(indices=ixs_ordered,columns=['jsonID','json_short','ra','dec','order','priority','decflip','sep_deg','t_slew[m]','t_exp[m]','t_tot[m]','UT','CLT'])
-        print(f'Extra Time left at the end of the night: {self.ExtraTime_min:.2f} minutes')
-        if self.ExtraTime_min<0.0:
-            print(f'\n####################################\n### WARNING!! OBSPLAN IS {-self.ExtraTime_min:.2f} minutes TOO LONG!!!\n####################################')
+            #self.jsontable.write(indices=ixs_ordered,columns=['jsonID','json_short','ra','dec','order','priority','decflip','sep_deg','t_slew[m]','t_exp[m]','t_tot[m]','UT','CLT'])
+            print(f'Extra Time left at the end of the night: {self.ExtraTime_min:.2f} minutes')
+            if self.ExtraTime_min<0.0:
+                print(f'\n####################################\n### WARNING!! OBSPLAN IS {-self.ExtraTime_min:.2f} minutes TOO LONG!!!\n####################################')
 
 
     def init_airmass(self):

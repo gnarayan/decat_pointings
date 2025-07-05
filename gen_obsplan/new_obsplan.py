@@ -34,6 +34,7 @@ if __name__ == '__main__':
     obsplan.update_tables()
     
     (ixs_ordered,ixs_notordered) = obsplan.generic_target_ordering()
+
     obsplan.calc_slew(ixs_ordered=ixs_ordered)
     obsplan.add_unordered_targets(ixs_notordered,ixs_ordered=ixs_ordered)
     obsplan.calc_obsUTtime(firsthalf=args.firsthalf,secondhalf=args.secondhalf,add2starttime_minutes=args.add2starttime_minutes)

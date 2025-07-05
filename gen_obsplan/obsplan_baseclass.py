@@ -1043,7 +1043,6 @@ class obsplan_baseclass:
             #self.jsontable.write(indices=ixs_ordered,columns=['json_short','ra','dec','order','priority','decflip','sep_deg','t_slew[m]','_slew2obj','_extra','_sep','_decflip','t_exp[m]','t_tot[m]'])
             
 
-            print(f'AAAAA {ixs_ordered}')
             if len(ixs_ordered)==0:
                 return(ixs_ordered)
             # find the index for which the extra slew time is minimal

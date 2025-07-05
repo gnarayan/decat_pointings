@@ -1282,13 +1282,16 @@ mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250702
 mkjson_yse_nofilterswitch.py  -f i    253   -d 250702 
 mkjson_yse_nofilterswitch.py  -f g,r,i ECDFS EDFS -e 120 -d 250702
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 5 -d 250702
-mkjson_yse_nofilterswitch.py  -f r,g,r,i,z A11pl3Z_250702 -e 10  -d 250702 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r A11pl3Z_250702 -e 10  -d 250702 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r A11pl3Z_250702e2 -e 10  -d 250702 --propid 2024B-441839
 git add 250702
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 
 YSE_pointings2fieldcenters.py --addSN A11pl3Z_250702 270.83042 -18.66972  -vv --overw
+
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_250702e2 270.83434583 -18.67025278   -vv --overw
 
 YSE_pointings2fieldcenters.py --addSN 2025oxy 316.9606500     18.1521556 -vv --overw
 

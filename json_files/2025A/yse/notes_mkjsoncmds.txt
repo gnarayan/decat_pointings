@@ -1296,7 +1296,7 @@ mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250705
 mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250705 
 mkjson_yse_nofilterswitch.py  -f g,r,i ECDFS EDFS -e 120 -d 250705
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 5 -d 250705
-mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r A11pl3Z_250705_UTC2am A11pl3Z_250705_UTC5am -e 10  -d 250705 --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,r A11pl3Z_250705_UTC2am A11pl3Z_250705_UTC5am A11pl3Z_250705_UTC4am A11pl3Z_250705_UTC6am -e 10  -d 250705 --propid 2024B-441839
 git add 250705
 
 new_obsplan.py -d 250706  -v 

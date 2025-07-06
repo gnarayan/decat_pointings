@@ -1309,7 +1309,7 @@ mkjson_yse_nofilterswitch.py  -f g,i   440    -d 250706
 mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250706 
 mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250706
 mkjson_yse_nofilterswitch.py  -f g,i 393   -d 250706
-mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250706 
+mkjson_yse_nofilterswitch.py  -f z    253   -d 250706 
 mkjson_yse_nofilterswitch.py  -f g,r,i ECDFS EDFS -e 120 -d 250706
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 5 -d 250706
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 5 -d 250706

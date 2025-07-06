@@ -1,0 +1,132 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "ec0218",
+"filter": "i",
+"expTime": 60,
+"RA": "143.0091",
+"dec": "-52.6529",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0219",
+"filter": "i",
+"expTime": 60,
+"RA": "143.8006",
+"dec": "-50.6438",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0311",
+"filter": "i",
+"expTime": 60,
+"RA": "136.2274",
+"dec": "-67.7205",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0312",
+"filter": "i",
+"expTime": 60,
+"RA": "138.1877",
+"dec": "-65.7115",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0313",
+"filter": "i",
+"expTime": 60,
+"RA": "139.8388",
+"dec": "-63.7025",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0314",
+"filter": "i",
+"expTime": 60,
+"RA": "141.2464",
+"dec": "-61.6935",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0315",
+"filter": "i",
+"expTime": 60,
+"RA": "142.4588",
+"dec": "-59.6844",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0316",
+"filter": "i",
+"expTime": 60,
+"RA": "143.5121",
+"dec": "-57.6754",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0317",
+"filter": "i",
+"expTime": 60,
+"RA": "144.4341",
+"dec": "-55.6664",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0318",
+"filter": "i",
+"expTime": 60,
+"RA": "145.2463",
+"dec": "-53.6574",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0319",
+"filter": "i",
+"expTime": 60,
+"RA": "145.9658",
+"dec": "-51.6483",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0320",
+"filter": "i",
+"expTime": 60,
+"RA": "146.6062",
+"dec": "-49.6393",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec0410",
+"filter": "i",
+"expTime": 60,
+"RA": "139.4639",
+"dec": "-68.7251",
+"propid": "2024B-441839"
+}
+]

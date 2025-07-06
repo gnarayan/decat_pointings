@@ -1,11 +1,11 @@
 [
     {
-        "object": "DELVE field: 06_Hydrus3-01-i",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "object": "DELVE field: 06_Hydrus3-01-g",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.56,
         "dec": -68.685,
-        "filter": "i",
+        "filter": "g",
         "count": 1,
         "expType": "object",
         "program": "delve-extra",
@@ -16,7 +16,7 @@
     },
     {
         "object": "DELVE field: 06_Hydrus3-01-r",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.56,
         "dec": -68.685,
@@ -30,12 +30,12 @@
         "proposer": "Tan"
     },
     {
-        "object": "DELVE field: 06_Hydrus3-02-i",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "object": "DELVE field: 06_Hydrus3-02-g",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.697553423123566,
         "dec": -68.635,
-        "filter": "i",
+        "filter": "g",
         "count": 1,
         "expType": "object",
         "program": "delve-extra",
@@ -46,7 +46,7 @@
     },
     {
         "object": "DELVE field: 06_Hydrus3-02-r",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.697553423123566,
         "dec": -68.635,
@@ -60,12 +60,12 @@
         "proposer": "Tan"
     },
     {
-        "object": "DELVE field: 06_Hydrus3-03-i",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "object": "DELVE field: 06_Hydrus3-03-g",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.42244657687644,
         "dec": -68.735,
-        "filter": "i",
+        "filter": "g",
         "count": 1,
         "expType": "object",
         "program": "delve-extra",
@@ -76,7 +76,7 @@
     },
     {
         "object": "DELVE field: 06_Hydrus3-03-r",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.42244657687644,
         "dec": -68.735,
@@ -90,12 +90,12 @@
         "proposer": "Tan"
     },
     {
-        "object": "DELVE field: 06_Hydrus3-04-i",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "object": "DELVE field: 06_Hydrus3-04-g",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.83510684624713,
         "dec": -68.58500000000001,
-        "filter": "i",
+        "filter": "g",
         "count": 1,
         "expType": "object",
         "program": "delve-extra",
@@ -106,7 +106,7 @@
     },
     {
         "object": "DELVE field: 06_Hydrus3-04-r",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.83510684624713,
         "dec": -68.58500000000001,
@@ -120,12 +120,12 @@
         "proposer": "Tan"
     },
     {
-        "object": "DELVE field: 06_Hydrus3-05-i",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "object": "DELVE field: 06_Hydrus3-05-g",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.284893153752876,
         "dec": -68.785,
-        "filter": "i",
+        "filter": "g",
         "count": 1,
         "expType": "object",
         "program": "delve-extra",
@@ -136,7 +136,7 @@
     },
     {
         "object": "DELVE field: 06_Hydrus3-05-r",
-        "seqid": "DELVE scheduled: 2025/07/07 08:00:00.0000",
+        "seqid": "DELVE scheduled: 2025/07/21 08:00:00.0000",
         "expTime": 300,
         "RA": 45.284893153752876,
         "dec": -68.785,

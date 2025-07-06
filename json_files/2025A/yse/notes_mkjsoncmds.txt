@@ -1313,19 +1313,20 @@ mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250706
 mkjson_yse_nofilterswitch.py  -f g,r,i ECDFS EDFS -e 120 -d 250706
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 5 -d 250706
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 5 -d 250706
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r A11pl3Z_76U100 A11pl3Z_76U130 A11pl3Z_76U200 A11pl3Z_76U300 A11pl3Z_76U345 A11pl3Z_76U500 A11pl3Z_76U600 A11pl3Z_76U700 -e 10  -d 250706 --propid 2024B-441839
 git add 250706
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025A/yse
 
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U100    268.74703 	-18.60634
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U130 	268.73532 	-18.60595
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U200 	268.72360 	-18.60556
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U300 	268.70013 	-18.60477
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U345 	268.68251 	-18.60416
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U500 	268.65314 	-18.60313
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U600 	268.62964 	-18.60228
-YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U700 	268.60616 	-18.60142
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U100    268.74703 	-18.60634  -vv --overw
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U130 	268.73532 	-18.60595  -vv --overw
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U200 	268.72360 	-18.60556  -vv --overw
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U300 	268.70013 	-18.60477  -vv --overw
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U345 	268.68251 	-18.60416  -vv --overw
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U500 	268.65314 	-18.60313  -vv --overw
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U600 	268.62964 	-18.60228  -vv --overw
+YSE_pointings2fieldcenters.py --addSN A11pl3Z_76U700 	268.60616 	-18.60142  -vv --overw
 
 
 YSE_pointings2fieldcenters.py --addSN A11pl3Z_250705_UTC2am 269.826125 -18.64133333  -vv --overw

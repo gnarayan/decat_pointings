@@ -1,0 +1,178 @@
+[
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 1 g",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH0",
+    "filter": "g",
+    "RA": 154.629128,
+    "dec": -46.41225,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 2 g",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH1",
+    "filter": "g",
+    "RA": 154.58564,
+    "dec": -46.382242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 3 g",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH2",
+    "filter": "g",
+    "RA": 154.5422,
+    "dec": -46.352217,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 4 g",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH3",
+    "filter": "g",
+    "RA": 154.672568,
+    "dec": -46.322242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 5 r",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH0",
+    "filter": "r",
+    "RA": 154.629128,
+    "dec": -46.41225,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 6 r",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH1",
+    "filter": "r",
+    "RA": 154.58564,
+    "dec": -46.382242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 7 r",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH2",
+    "filter": "r",
+    "RA": 154.5422,
+    "dec": -46.352217,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 8 r",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH3",
+    "filter": "r",
+    "RA": 154.672568,
+    "dec": -46.322242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 9 i",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH0",
+    "filter": "i",
+    "RA": 154.629128,
+    "dec": -46.41225,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 10 i",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH1",
+    "filter": "i",
+    "RA": 154.58564,
+    "dec": -46.382242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 11 i",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH2",
+    "filter": "i",
+    "RA": 154.5422,
+    "dec": -46.352217,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 12 i",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH3",
+    "filter": "i",
+    "RA": 154.672568,
+    "dec": -46.322242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 13 z",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH0",
+    "filter": "z",
+    "RA": 154.629128,
+    "dec": -46.41225,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 14 z",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH1",
+    "filter": "z",
+    "RA": 154.58564,
+    "dec": -46.382242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 15 z",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH2",
+    "filter": "z",
+    "RA": 154.5422,
+    "dec": -46.352217,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  },
+  {
+    "count": 1,
+    "comment": "DEFSuS_3201 Exp 16 z",
+    "expType": "object",
+    "object": "DEFSuS_3201_DITH3",
+    "filter": "z",
+    "RA": 154.672568,
+    "dec": -46.322242,
+    "expTime": 10,
+    "propid": "2025A-697040"
+  }
+]

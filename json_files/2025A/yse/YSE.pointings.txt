@@ -946,3 +946,12 @@ A11pl3Z_250705_UTC4am   <NA> 269.77824 -18.55298     0       NaN                
        A11pl3Z_77U300   <NA> 268.13455 -18.49748     0       NaN                    NaN        A11pl3Z_77U300      N4          35
        A11pl3Z_77U345   <NA> 268.11669 -18.49683     0       NaN                    NaN        A11pl3Z_77U345      N4          35
        A11pl3Z_77U500   <NA> 268.65082 -18.51613     0       NaN                    NaN        A11pl3Z_77U500      N4          35
+           GRB250706B   <NA>  41.21930 -49.97418     0       NaN                    NaN            GRB250706B      N4          35
+       A11pl3Z_78U100   <NA> 267.61189 -18.47742     0       NaN                    NaN        A11pl3Z_78U100      N4          35
+       A11pl3Z_78U130   <NA> 267.59985 -18.47696     0       NaN                    NaN        A11pl3Z_78U130      N4          35
+       A11pl3Z_78U200   <NA> 267.58781 -18.47650     0       NaN                    NaN        A11pl3Z_78U200      N4          35
+       A11pl3Z_78U300   <NA> 267.56370 -18.47557     0       NaN                    NaN        A11pl3Z_78U300      N4          35
+       A11pl3Z_78U345   <NA> 267.54561 -18.47486     0       NaN                    NaN        A11pl3Z_78U345      N4          35
+       A11pl3Z_78U500   <NA> 267.51544 -18.47365     0       NaN                    NaN        A11pl3Z_78U500      N4          35
+       A11pl3Z_78U600   <NA> 267.49131 -18.47267     0       NaN                    NaN        A11pl3Z_78U600      N4          35
+       A11pl3Z_78U700   <NA> 267.46720 -18.47167     0       NaN                    NaN        A11pl3Z_78U700      N4          35

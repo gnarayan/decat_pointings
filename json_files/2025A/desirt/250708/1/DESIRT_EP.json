@@ -1,0 +1,17 @@
+[
+	{
+		"count": 9,
+		"filter": "r",
+		"exptime": 110.000000,
+		"RA": 300.8779583,
+		"dec": 12.1081833,
+		"object": "DESIRT EP",
+		"program": "DESI Transients Survey",
+		"expType": "object",
+		"note": "None",
+		"comment": "DESI Transients Survey EP",
+		"wait": "False",
+		"proposer": "Palmese",
+		"propid": "2025A-729671"
+	}
+]

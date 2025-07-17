@@ -64,8 +64,8 @@ def calc_slewtimes_2arrays(coord1,coord2,decflip_time=180.0):
     # Determine if there is a Declination flip at -30.17 from coord1[i] to coord2[i] 
     #south1 = np.where(coord1.dec < -30.17 * u.deg,1,0)
     #south2 = np.where(coord2.dec < -30.17 * u.deg,1,0)
-    south1 = np.where(coord1.dec < -30.8 * u.deg,1,0)
-    south2 = np.where(coord2.dec < -30.8 * u.deg,1,0)
+    south1 = np.where(coord1.dec < -31.0 * u.deg,1,0)
+    south2 = np.where(coord2.dec < -31.0 * u.deg,1,0)
     decflip = np.bitwise_xor(south1,south2)
     
     # if declination flip, add decflip_time to slew_time

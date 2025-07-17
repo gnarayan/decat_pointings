@@ -109,24 +109,25 @@ PT  middle of the night: 21:49:25
 #####################
 ### EXTRA TARGETS:
 #####################
- jsonID program  priority  order airmass sep_moon            json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
-     26  desirt         1     -1     NaN      NaN DESIRT_20-20-1_g.json  20.77 -19.59 NaN NaN NaN     NaN      0.0       NaN     6.67      NaN
-     28  desirt         1     -1     NaN      NaN DESIRT_20-20-3_g.json  24.05 -17.09 NaN NaN NaN     NaN      0.0       NaN     6.67      NaN
-     27  desirt         1     -1     NaN      NaN DESIRT_20-20-2_g.json  24.72 -22.23 NaN NaN NaN     NaN      0.0       NaN     6.67      NaN
-     97     yse         2     -1     NaN      NaN          2024inv.json 166.63  11.47 NaN NaN NaN     NaN      0.0       NaN     4.67      NaN
-     98     yse         2     -1     NaN      NaN          2024kce.json 187.45   8.30 NaN NaN NaN     NaN      0.0       NaN     4.67      NaN
-     76     yse         1     -1     NaN      NaN  A11pl3Z_717U130.json 262.15 -18.20 NaN NaN NaN     NaN      0.0       NaN     3.33      NaN
-     31  desirt         1     -1     NaN      NaN   DESIRT_315_i_3.json 317.09 -13.53 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
-     30  desirt         1     -1     NaN      NaN   DESIRT_315_i_2.json 321.43 -12.04 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
-     80     yse         2     -1     NaN      NaN          2021zfs.json 324.01   5.11 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     92     yse         2     -1     NaN      NaN          2023jsb.json 326.46  14.25 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     79     yse         2     -1     NaN      NaN          2021zax.json 333.59  13.27 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     88     yse         2     -1     NaN      NaN          2022xxz.json 334.31 -16.61 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     94     yse         2     -1     NaN      NaN          2023njx.json 334.44 -20.16 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     87     yse         2     -1     NaN      NaN          2022vpn.json 335.26  25.94 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     78     yse         2     -1     NaN      NaN          2021yrz.json 338.77  19.81 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     95     yse         2     -1     NaN      NaN          2023nof.json 339.42 -15.08 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     86     yse         2     -1     NaN      NaN          2022suc.json 346.29  23.22 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     85     yse         2     -1     NaN      NaN          2022rso.json 351.39  16.42 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     83     yse         2     -1     NaN      NaN          2022pdq.json 355.80  -9.24 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
-     82     yse         2     -1     NaN      NaN          2022mxv.json 357.78  20.25 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+ jsonID program  priority  order airmass sep_moon                        json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     26  desirt         1     -1     NaN      NaN             DESIRT_20-20-1_g.json  20.77 -19.59 NaN NaN NaN     NaN      0.0       NaN     6.67      NaN
+     28  desirt         1     -1     NaN      NaN             DESIRT_20-20-3_g.json  24.05 -17.09 NaN NaN NaN     NaN      0.0       NaN     6.67      NaN
+     27  desirt         1     -1     NaN      NaN             DESIRT_20-20-2_g.json  24.72 -22.23 NaN NaN NaN     NaN      0.0       NaN     6.67      NaN
+     99     twi         0     -1     NaN      NaN SheppardTwilightJul18morning.json  76.75   7.00 NaN NaN NaN     NaN      0.0       NaN    12.78      NaN
+     97     yse         2     -1     NaN      NaN                      2024inv.json 166.63  11.47 NaN NaN NaN     NaN      0.0       NaN     4.67      NaN
+     98     yse         2     -1     NaN      NaN                      2024kce.json 187.45   8.30 NaN NaN NaN     NaN      0.0       NaN     4.67      NaN
+     76     yse         1     -1     NaN      NaN              A11pl3Z_717U130.json 262.15 -18.20 NaN NaN NaN     NaN      0.0       NaN     3.33      NaN
+     31  desirt         1     -1     NaN      NaN               DESIRT_315_i_3.json 317.09 -13.53 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
+     30  desirt         1     -1     NaN      NaN               DESIRT_315_i_2.json 321.43 -12.04 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
+     80     yse         2     -1     NaN      NaN                      2021zfs.json 324.01   5.11 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     92     yse         2     -1     NaN      NaN                      2023jsb.json 326.46  14.25 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     79     yse         2     -1     NaN      NaN                      2021zax.json 333.59  13.27 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     88     yse         2     -1     NaN      NaN                      2022xxz.json 334.31 -16.61 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     94     yse         2     -1     NaN      NaN                      2023njx.json 334.44 -20.16 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     87     yse         2     -1     NaN      NaN                      2022vpn.json 335.26  25.94 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     78     yse         2     -1     NaN      NaN                      2021yrz.json 338.77  19.81 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     95     yse         2     -1     NaN      NaN                      2023nof.json 339.42 -15.08 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     86     yse         2     -1     NaN      NaN                      2022suc.json 346.29  23.22 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     85     yse         2     -1     NaN      NaN                      2022rso.json 351.39  16.42 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     83     yse         2     -1     NaN      NaN                      2022pdq.json 355.80  -9.24 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     82     yse         2     -1     NaN      NaN                      2022mxv.json 357.78  20.25 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN

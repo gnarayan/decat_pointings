@@ -225,7 +225,7 @@ class AirmassCalculator:
         ax2 = ax1.twiny()
         ax3 = ax1.twiny()
         ax1.invert_yaxis()
-        ax1.set_ylim([2.3, 0.95])
+        ax1.set_ylim([2.5, 0.95])
         ax1.set_ylabel("Relative Air Mass")
         ax1.set_xlabel("Local Time")
         ax1.grid(True)

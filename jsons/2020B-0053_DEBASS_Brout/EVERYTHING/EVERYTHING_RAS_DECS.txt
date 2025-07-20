@@ -1,3 +1,4 @@
+debass2502052025rib_P1 [19 -58]
 debass2502052025rat_P1 [16 0]
 debass2502052025pjt_P1 [195 -12]
 debass2502052025pxk_P1 [208 0]
@@ -21,5 +22,5 @@ debass2502052025nff_P2 [316 -3] OPTIONAL
 debass2502052025nou_P2 [330 -2] OPTIONAL
 
 
-EVERYTHING	61.2 minutes
-EVERYTHING_P1	43.0 minutes
+EVERYTHING	64.7 minutes
+EVERYTHING_P1	46.4 minutes

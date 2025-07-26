@@ -429,8 +429,8 @@ if __name__=='__main__':
     
     # just a sanity test for years, months, and days!
     if outdate!='':
-        if not(outdate[:2] in ['21','22','23','24','25']):
-            raise RuntimeError(f'year {outdate[:2]} is not in years 21-24!')
+        if not(outdate[:2] in ['21','22','23','24','25','26']):
+            raise RuntimeError(f'year {outdate[:2]} is not in years 21-26!')
         if not(int(outdate[2:4])<=12):
             raise RuntimeError(f'month {outdate[2:4]} is not <=12!')
         if not(int(outdate[4:6])<=31):

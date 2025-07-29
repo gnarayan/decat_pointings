@@ -1465,6 +1465,9 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 5 -d 250729
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 5 -d 250729
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250729
 mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_730U0100 A11pl3Z_730U0130 A11pl3Z_730U0200 A11pl3Z_730U0230 A11pl3Z_730U0330 -e 10  -d 250729 --propid 2024B-441839 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r XECDFS ELA XMM XCOS XEDFS -d 250729 -p 1
+
+
 git add 250729
 
 new_obsplan.py -d 250730  -v 

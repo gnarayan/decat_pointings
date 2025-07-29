@@ -965,10 +965,10 @@ A11pl3Z_250705_UTC4am   <NA> 269.77824 -18.55298     0       NaN                
      A11pl3Z_730U0200   <NA> 254.19858 -17.55913     0       NaN                    NaN      A11pl3Z_730U0200      N4          35
      A11pl3Z_730U0230   <NA> 254.18428 -17.55773     0       NaN                    NaN      A11pl3Z_730U0230      N4          35
      A11pl3Z_730U0330   <NA> 254.15570 -17.55492     0       NaN                    NaN      A11pl3Z_730U0330      N4          35
-            ELAISS1_a ELAISS1  9.45000 -43.04000     0       NaN                    NaN             ELAISS1_a     NaN         NaN
-            ELAISS1_b ELAISS1  7.50300 -44.02000     0       NaN                    NaN             ELAISS1_b     NaN         NaN
-            ELAISS1_c ELAISS1  9.45000 -44.84000     0       NaN                    NaN             ELAISS1_c     NaN         NaN
-            ELAISS1_d ELAISS1 11.39000 -44.02000     0       NaN                    NaN             ELAISS1_d     NaN         NaN
+            ELAISS1_a    ELA   9.45000 -43.04000     0       NaN                    NaN             ELAISS1_a     NaN         NaN
+            ELAISS1_b    ELA   7.50300 -44.02000     0       NaN                    NaN             ELAISS1_b     NaN         NaN
+            ELAISS1_c    ELA   9.45000 -44.84000     0       NaN                    NaN             ELAISS1_c     NaN         NaN
+            ELAISS1_d    ELA  11.39000 -44.02000     0       NaN                    NaN             ELAISS1_d     NaN         NaN
                 XMM_a    XMM  35.57000  -3.84000     0       NaN                    NaN                 XMM_a     NaN         NaN
                 XMM_b    XMM  34.16500  -4.82000     0       NaN                    NaN                 XMM_b     NaN         NaN
                 XMM_c    XMM  35.57000  -5.64000     0       NaN                    NaN                 XMM_c     NaN         NaN
@@ -977,11 +977,11 @@ A11pl3Z_250705_UTC4am   <NA> 269.77824 -18.55298     0       NaN                
               ECDFS_b XECDFS  51.39000 -28.12000     0       NaN                    NaN               ECDFS_b     NaN         NaN
               ECDFS_c XECDFS  52.98000 -28.94000     0       NaN                    NaN               ECDFS_c     NaN         NaN
               ECDFS_d XECDFS  54.56700 -28.12000     0       NaN                    NaN               ECDFS_d     NaN         NaN
-             COSMOS_a XCOSMOS 150.11000   3.21000     0       NaN                    NaN              COSMOS_a     NaN         NaN
-             COSMOS_b XCOSMOS 148.71000   2.23000     0       NaN                    NaN              COSMOS_b     NaN         NaN
-             COSMOS_c XCOSMOS 150.11000   1.41000     0       NaN                    NaN              COSMOS_c     NaN         NaN
-             COSMOS_d XCOSMOS 151.51100   2.23000     0       NaN                    NaN              COSMOS_d     NaN         NaN
-              EDFS_aa  XEDFS 58.90000 -48.34000     0       NaN                    NaN               EDFS_aa     NaN         NaN
+             COSMOS_a   XCOS 150.11000   3.21000     0       NaN                    NaN              COSMOS_a     NaN         NaN
+             COSMOS_b   XCOS 148.71000   2.23000     0       NaN                    NaN              COSMOS_b     NaN         NaN
+             COSMOS_c   XCOS 150.11000   1.41000     0       NaN                    NaN              COSMOS_c     NaN         NaN
+             COSMOS_d   XCOS 151.51100   2.23000     0       NaN                    NaN              COSMOS_d     NaN         NaN
+              EDFS_aa  XEDFS  58.90000 -48.34000     0       NaN                    NaN               EDFS_aa     NaN         NaN
               EDFS_ab  XEDFS  56.75221 -49.32000     0       NaN                    NaN               EDFS_ab     NaN         NaN
               EDFS_ac  XEDFS  58.90000 -50.14000     0       NaN                    NaN               EDFS_ac     NaN         NaN
               EDFS_ad  XEDFS  61.04779 -49.32000     0       NaN                    NaN               EDFS_ad     NaN         NaN

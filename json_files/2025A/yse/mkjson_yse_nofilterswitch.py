@@ -484,7 +484,6 @@ if __name__=='__main__':
     repeatfilters=[]
 
     mkjson.loadfile(pointingfile)
-    print('GGGGG00',mkjson.options.priority)
       
     mkjson.mkjsonscript4all(args,
                             outrootdir=mkjson.options.outrootdir,

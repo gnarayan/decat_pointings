@@ -1,9 +1,9 @@
 [
     {
         "count": 1,
-        "filter": "g",
+        "filter": "r",
         "exptime": 15.0,
-        "RA": 310.21535,
+        "RA": 310.24313,
         "dec": -25.84837,
         "object": "2025qfr_P1",
         "program": "DECAT",
@@ -15,9 +15,9 @@
     },
     {
         "count": 1,
-        "filter": "r",
+        "filter": "i",
         "exptime": 15.0,
-        "RA": 310.21535,
+        "RA": 310.24313,
         "dec": -25.84837,
         "object": "2025qfr_P1",
         "program": "DECAT",

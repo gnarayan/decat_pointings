@@ -1493,7 +1493,7 @@ subl 250801/250801_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f r,i,z  376     -d 250801 
 mkjson_yse_nofilterswitch.py  -f r,i,z   428    -d 250801  
 mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250801 
-mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250801 
+mkjson_yse_nofilterswitch.py  -f g 544    -d 250801 
 mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250801 
 mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250801
 mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250801 -p 1
@@ -1504,6 +1504,24 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 5 -d 250801
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250801
 mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_730U0100 -e 10  -d 250801 --propid 2024B-441839 -p 1
 git add 250801
+
+new_obsplan.py -d 250803  -v 
+modify_obsplan.py -d 250803 -v  -s -r 0 1 2 3 4 5 -a 51 43 57 50 45 62 63 41 59 49 61 54 34 38 52 56 42 -1
+subl 250803/250803_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z  376     -d 250803 
+mkjson_yse_nofilterswitch.py  -f r,i,z   428    -d 250803  
+mkjson_yse_nofilterswitch.py  -f g,i   440    -d 250803 
+mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250803 
+mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250803 
+mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250803
+mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250803 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r XECDFS ELA XMM XCOS XEDFS -d 250803 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z GRB250706B -e 100,50,50,100 -n 2 -d 250803
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 5 -d 250803
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 5 -d 250803
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250803
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_730U0100 -e 10  -d 250803 --propid 2024B-441839 -p 1
+git add 250803
 
  
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025B/yse

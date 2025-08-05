@@ -1,0 +1,16 @@
+[
+    {
+        "object": "DESIRT 315",
+        "expTime": 100,
+        "RA": "98.28083",
+        "dec": "-37.22031",
+        "filter": "u",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 315"
+    }
+]

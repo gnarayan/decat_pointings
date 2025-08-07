@@ -990,3 +990,4 @@ A11pl3Z_250705_UTC4am    NaN 269.77824 -18.55298     0       NaN                
               EDFS_bc  XEDFS  63.60000 -48.42000     0       NaN                    NaN               EDFS_bc     NaN        <NA>
               EDFS_bd  XEDFS  65.67620 -47.60000     0       NaN                    NaN               EDFS_bd     NaN        <NA>
               2025shi    NaN 342.17374  27.66977     0       NaN                    NaN               2025shi      N4          35
+              2025tis    NaN  58.84248 -28.07209     0       NaN                    NaN               2025tis      N4          35

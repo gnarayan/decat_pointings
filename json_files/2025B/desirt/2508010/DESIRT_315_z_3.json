@@ -1,0 +1,72 @@
+[
+    {
+        "object": "DESIRT 315",
+        "expTime": 90,
+        "RA": "318.392083333333",
+        "dec": "-12.64125",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 315"
+    },
+    {
+        "object": "DESIRT 315",
+        "expTime": 90,
+        "RA": "314.9269583333333",
+        "dec": "-12.567055555555555",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 315"
+    },
+    {
+        "object": "DESIRT 315",
+        "expTime": 90,
+        "RA": "315.21104166666663",
+        "dec": "-14.16175",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 315"
+    },
+    {
+        "object": "DESIRT 315",
+        "expTime": 90,
+        "RA": "317.5786666666666",
+        "dec": "-14.118444444444444",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 315"
+    },
+    {
+        "object": "DESIRT 315",
+        "expTime": 90,
+        "RA": "319.3275833333333",
+        "dec": "-14.145333333333332",
+        "filter": "z",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 315"
+    }
+]

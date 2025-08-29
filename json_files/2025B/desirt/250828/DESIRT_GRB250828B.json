@@ -1,0 +1,32 @@
+[
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 140,
+		"RA": 124.850250,
+		"dec": -17.961861,
+		"object": "GRB250828-GW",
+		"program": "GW-MMADS",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023B-851374",
+		"wait": "False",
+		"proposer": "Andreoni Palmese",
+		"propid": "2023B-851374"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 210,
+		"RA": 124.840417,
+		"dec": -17.470472,
+		"object": "GRB250828-GW",
+		"program": "GW-MMADS",
+		"expType": "object",
+		"note": "None",
+		"comment": "2023B-851374",
+		"wait": "False",
+		"proposer": "Andreoni Palmese",
+		"propid": "2023B-851374"
+	}
+]

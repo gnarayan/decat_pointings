@@ -6,13 +6,13 @@
 		"RA": 124.850250,
 		"dec": -17.961861,
 		"object": "GRB250828-GW",
-		"program": "GW-MMADS",
+		"program": "DESI Transients Survey",
 		"expType": "object",
 		"note": "None",
-		"comment": "2023B-851374",
+		"comment": "DESI Transients Survey GRB-GW",
 		"wait": "False",
-		"proposer": "Andreoni Palmese",
-		"propid": "2023B-851374"
+		"proposer": "Palmese",
+		"propid": "2025A-729671"
 	},
 	{
 		"count": 1,
@@ -21,12 +21,12 @@
 		"RA": 124.840417,
 		"dec": -17.470472,
 		"object": "GRB250828-GW",
-		"program": "GW-MMADS",
+		"program": "DESI Transients Survey",
 		"expType": "object",
 		"note": "None",
-		"comment": "2023B-851374",
+		"comment": "DESI Transients Survey GRB-GW",
 		"wait": "False",
-		"proposer": "Andreoni Palmese",
-		"propid": "2023B-851374"
+		"proposer": "Palmese",
+		"propid": "2025A-729671"
 	}
 ]

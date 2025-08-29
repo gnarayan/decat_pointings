@@ -1,0 +1,11 @@
+[
+	{
+		"expType":"object",
+		"RA":"17:54:22.00",
+		"dec":"-28:55:00.00",
+		"filter":"g",
+		"expTime":80,
+		"object":"D01",
+		"count":3
+	}
+]

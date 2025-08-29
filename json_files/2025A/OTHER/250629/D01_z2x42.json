@@ -1,0 +1,12 @@
+[
+	{
+		"expType":"object",
+		"RA":"17:54:22.00",
+		"dec":"-28:55:00.00",
+		"filter":"z",
+		"expTime":42,
+		"object":"D01",
+		"seqid":"D01-z42",
+		"count":2
+	}
+]

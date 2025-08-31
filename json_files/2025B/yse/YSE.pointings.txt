@@ -992,3 +992,8 @@ A11pl3Z_250705_UTC4am    NaN 269.77824 -18.55298     0       NaN                
               2025shi    NaN 342.17374  27.66977     0       NaN                    NaN               2025shi      N4          35
               2025tis    NaN  58.84248 -28.07209     0       NaN                    NaN               2025tis      N4          35
               2025tqb    NaN 342.65110 -34.28973     0       NaN                    NaN               2025tqb      N4          35
+    A11pl3Z_0831U2330    NaN 232.41151 -14.39154     0       NaN                    NaN     A11pl3Z_0831U2330      N4          35
+    A11pl3Z_0801U0000    NaN 232.39886 -14.38912     0       NaN                    NaN     A11pl3Z_0801U0000      N4          35
+    A11pl3Z_0801U0030    NaN 232.38623 -14.38670     0       NaN                    NaN     A11pl3Z_0801U0030      N4          35
+    A11pl3Z_0801U0100    NaN 232.37361 -14.38428     0       NaN                    NaN     A11pl3Z_0801U0100      N4          35
+    A11pl3Z_0801U0130    NaN 232.36101 -14.38185     0       NaN                    NaN     A11pl3Z_0801U0130      N4          35

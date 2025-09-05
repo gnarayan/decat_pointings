@@ -1,13 +1,16 @@
-debass2502052025ulq_P1 [3 -17]
-debass2502052025rat_P1 [16 0]
-debass2502052025uvy_P1 [30 0]
-debass2502052025vdq_P1 [69 -10]
-debass2502052025qpk_P1 [310 -1]
-debass2502052025sli_P1 [353 -16]
+debass2502052025vrt_P1 [4 5]
+debass2502052025vlw_P1 [22 -36]
+debass2502052025wnt_P1 [72 7]
+debass2502052025wib_P1 [353 6]
 
 
+debass2502052025ulq_P3 [3 -17]
+debass2502052025rat_P3 [16 0]
 debass2502052025rpt_P3 [28 -2]
+debass2502052025uvy_P3 [30 0]
+debass2502052025vdq_P3 [69 -10]
 debass2502052025ris_P3 [80 -33]
+debass2502052025wrd_P3 [193 -45]
 debass2502052025pjt_P3 [195 -12]
 debass2502052025pxk_P3 [208 0]
 debass2502052025odr_P3 [242 -9]
@@ -16,14 +19,16 @@ debass2502052025qfr_P3 [310 -25]
 debass2502052025pie_P3 [310 -17]
 debass2502052025nqm_P3 [310 -8]
 debass2502052025nxh_P3 [314 -6]
+debass2502052025qpk_P3 [310 -1]
 debass2502052025nwy_P3 [320 -22]
 debass2502052025pks_P3 [321 20]
 debass2502052025pic_P3 [327 -4]
 debass2502052025nou_P3 [330 -2]
 debass2502052025pjc_P3 [325 0]
 debass2502052025qcu_P3 [327 24]
+debass2502052025sli_P3 [353 -16]
 debass2502052025oxz_P3 [349 7]
 debass2502052025plf_P3 [348 8]
 
-EVERYTHING	86.1 minutes
-EVERYTHING_P1	20.7 minutes
+EVERYTHING	101.6 minutes
+EVERYTHING_P1	14.4 minutes

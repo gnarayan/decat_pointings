@@ -58,5 +58,20 @@
 		"wait": "False",
 		"proposer": "Palmese",
 		"propid": "2025A-729671"
+	},
+		{
+		"count": 1,
+		"filter": "g",
+		"exptime": 170,
+		"RA": 347.601750,
+		"dec": -7.149056,
+		"object": "DESIRT 2025vjw",
+		"program": "DESI Transients Survey",
+		"expType": "object",
+		"note": "None",
+		"comment": "DESI Transients Survey GW",
+		"wait": "False",
+		"proposer": "Palmese",
+		"propid": "2025A-729671"
 	}
 ]

@@ -1,19 +1,4 @@
 [
-	{
-		"count": 1,
-		"filter": "z",
-		"exptime": 210,
-		"RA": 90.7297,
-		"dec": -54.0662,
-		"object": "DESIRT EP",
-		"program": "DESI Transients Survey",
-		"expType": "object",
-		"note": "None",
-		"comment": "DESI Transients Survey GW",
-		"wait": "False",
-		"proposer": "Palmese",
-		"propid": "2025A-729671"
-	},
 		{
 		"count": 1,
 		"filter": "r",
@@ -35,6 +20,21 @@
 		"exptime": 170,
 		"RA": 90.7297,
 		"dec": -54.2502,
+		"object": "DESIRT EP",
+		"program": "DESI Transients Survey",
+		"expType": "object",
+		"note": "None",
+		"comment": "DESI Transients Survey GW",
+		"wait": "False",
+		"proposer": "Palmese",
+		"propid": "2025A-729671"
+	},
+		{
+		"count": 1,
+		"filter": "z",
+		"exptime": 210,
+		"RA": 90.7297,
+		"dec": -54.0662,
 		"object": "DESIRT EP",
 		"program": "DESI Transients Survey",
 		"expType": "object",

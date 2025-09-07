@@ -1,7 +1,7 @@
 [
     {
         "object": "DESIRT 315",
-        "expTime": 90,
+        "expTime": 100,
         "RA": "319.161",
         "dec": "-11.161",
         "filter": "z",
@@ -15,7 +15,7 @@
     },
     {
         "object": "DESIRT 315",
-        "expTime": 90,
+        "expTime": 100,
         "RA": "322.539875",
         "dec": "-11.1395",
         "filter": "z",
@@ -29,7 +29,7 @@
     },
     {
         "object": "DESIRT 315",
-        "expTime": 90,
+        "expTime": 100,
         "RA": "323.526",
         "dec": "-12.622",
         "filter": "z",
@@ -43,7 +43,7 @@
     },
     {
         "object": "DESIRT 315",
-        "expTime": 90,
+        "expTime": 100,
         "RA": "321.821458333333",
         "dec": "-12.6400277777778",
         "filter": "z",
@@ -57,7 +57,7 @@
     },
     {
         "object": "DESIRT 315",
-        "expTime": 90,
+        "expTime": 100,
         "RA": "320.111666666667",
         "dec": "-12.6490555555556",
         "filter": "z",

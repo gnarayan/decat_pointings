@@ -1214,10 +1214,15 @@ class obsplan_baseclass:
         self.airmass_calc = AirmassCalculator(self.airmass_cache)
         self.airmass_calc.load_airmass_grid()
         
+        #self.YYMMDD = '250908'
         # timezone load
         datetime_date = datetime.strptime(self.YYMMDD, "%y%m%d")
-        self.observer_shift = self.observer.timezone.utcoffset(datetime_date).total_seconds() * u.s
-
+        print('GGGG',self.YYMMDD,datetime_date)
+        print('GGGGg',self.observer.timezone)
+        #self.observer_shift = self.observer.timezone.utcoffset(datetime_date).total_seconds() * u.s
+        self.observer_shift = -10800.0
+        print('FFFf',self.observer_shift)
+        #sys.exit(0)
         ctio_observer = ctio_location()
         self.datetime = Time(datetime_date, format="datetime")
         dummy_sidereal_time = ctio_observer.local_sidereal_time(self.datetime).to(u.hourangle)

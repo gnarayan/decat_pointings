@@ -60,7 +60,7 @@
         "dec": -7.6013
     },
     {
-        "count": 2,
+        "count": 3,
         "object": "2025vjw",
         "program": "DESI Transients Survey",
         "expType": "object",
@@ -70,7 +70,7 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "Y",
-        "exptime": 90,
+        "exptime": 60,
         "ra": 347.2533,
         "dec": -7.4363
     }

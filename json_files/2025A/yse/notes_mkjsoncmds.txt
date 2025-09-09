@@ -1685,7 +1685,7 @@ mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250907
 mkjson_yse_nofilterswitch.py  -f i,z 544    -d 250907 
 mkjson_yse_nofilterswitch.py  -f z    494   -d 250907 
 #mkjson_yse_nofilterswitch.py  -f g,r,i 393   -d 250907
-mkjson_yse_nofilterswitch.py  -f g,r,i,z    253   -d 250907 
+mkjson_yse_nofilterswitch.py  -f r,i,z    253   -d 250907 
 mkjson_yse_nofilterswitch.py  -f i,z ELA XMM -d 250907 
 mkjson_yse_nofilterswitch.py  -f r,i,z XECDFS   XCOS XEDFS -d 250907 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z GRB250706B -e 100,50,50,100 -n 2 -d 250907
@@ -1698,6 +1698,28 @@ mkjson_yse_nofilterswitch.py  -f i,z 2025tqb -e 10 -d 250907
 mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250907 --propid 2024B-441839 
 git add 250907
 
+new_obsplan.py -d 250909  -v 
+modify_obsplan.py -d 250909 -v  -s 
+subl 250909/250909_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g,r  376     -d 250909 
+mkjson_yse_nofilterswitch.py  -f g,r   428    -d 250909  
+mkjson_yse_nofilterswitch.py  -f g,i   440    -d 250909 
+mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250909 
+mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250909 
+mkjson_yse_nofilterswitch.py  -f r,i 393   -d 250909
+mkjson_yse_nofilterswitch.py  -f g,i    253   -d 250909 
+mkjson_yse_nofilterswitch.py  -f r,i ELA  -d 250909 
+mkjson_yse_nofilterswitch.py  -f z XMM -d 250909 
+mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS   XCOS XEDFS -d 250909 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z GRB250706B -e 100,50,50,100 -n 2 -d 250909
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 250909
+mkjson_yse_nofilterswitch.py  -f i,z 2025plf -e 10 -d 250909
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250909
+mkjson_yse_nofilterswitch.py  -f i,z 2025shi -e 20 -d 250909
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 3 -d 250909
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 250909
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250909 --propid 2024B-441839 
+git add 250909
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025B/yse
 

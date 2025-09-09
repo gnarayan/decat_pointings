@@ -507,7 +507,12 @@ class obsplan_baseclass:
             
             # make sure the essential columns are there
             for col in ['ra','dec','count','exptime']:
-                if col not in columns2copy: raise RuntimeError(f'"{col}" not in {columns2copy}')
+                if col not in columns2copy: 
+                    if col == 'count':
+                        exptable.t['count']=1
+                        continue
+                    else:
+                        raise RuntimeError(f'"{col}" not in {columns2copy}')
             
             ixs_notnull_exp = exptable.ix_not_null('ra')
             ixs_notnull_exp = exptable.ix_not_null('dec',indices=ixs_notnull_exp)

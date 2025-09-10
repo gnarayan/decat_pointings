@@ -69,7 +69,7 @@
         "wait": "False",
         "proposer": "Palmese",
         "propid": "2025A-729671",
-        "filter": "Y",
+        "filter": "y",
         "exptime": 60,
         "ra": 347.2533,
         "dec": -7.4363

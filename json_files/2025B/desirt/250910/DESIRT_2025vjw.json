@@ -11,23 +11,8 @@
         "propid": "2025A-729671",
         "filter": "g",
         "exptime": 110,
-        "ra": 347.30896,
-        "dec": -7.1977
-    },
-    {
-        "count": 1,
-        "object": "2025vjw",
-        "program": "DESI Transients Survey",
-        "expType": "object",
-        "note": "None",
-        "comment": "DESI Transients Survey 2025vjw",
-        "wait": "False",
-        "proposer": "Palmese",
-        "propid": "2025A-729671",
-        "filter": "r",
-        "exptime": 70,
-        "ra": 347.30896,
-        "dec": -7.1977
+        "ra": 347.012,
+        "dec": -7.279
     },
     {
         "count": 1,
@@ -56,7 +41,7 @@
         "propid": "2025A-729671",
         "filter": "z",
         "exptime": 100,
-        "ra": 347.30896,
-        "dec": -7.1977
+        "ra": 347.012,
+        "dec": -7.279
     }
 ]

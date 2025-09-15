@@ -1,0 +1,65 @@
+UT -14 deg twilight: 2025-09-15T23:36:55.060 2025-09-16T09:38:58.152
+UT middle of the night: 2025-09-16T04:37:56.606
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 09/15/2025,   20:36:55 to 06:38:58
+timezone ET: America/New_YorkET  -14 deg twilight: 09/15/2025,   19:36:55 to 05:38:58
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 09/15/2025,   16:36:55 to 02:38:58
+CLT middle of the night: 01:37:56
+ET  middle of the night: 00:37:56
+PT  middle of the night: 21:37:56
+
+
+UT -14 deg twilight: 2025-09-15T23:36:55.060 2025-09-16T09:38:58.152
+UT middle of the night: 2025-09-16T04:37:56.606
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 09/15/2025,   20:36:55 to 06:38:58
+timezone ET: America/New_YorkET  -14 deg twilight: 09/15/2025,   19:36:55 to 05:38:58
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 09/15/2025,   16:36:55 to 02:38:58
+CLT middle of the night: 01:37:56
+ET  middle of the night: 00:37:56
+PT  middle of the night: 21:37:56
+
+
+
+#####################
+### OBSPLAN:
+#####################
+ jsonID program  priority  order airmass sep_moon                   json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     17     yse         0     10    1.93    104.2                 2025shi.json 342.17  27.67 2025-09-16T04:37:56.606 01:37 00:37    0.00        0      0.00     2.50     2.50
+     22     yse         0     20    1.31    125.9                     494.json 332.94   4.77 2025-09-16T04:40:26.606 01:40 00:40   24.53        0      0.90    16.00    16.90
+     15     yse         0     30    1.33    110.5                 2025plf.json 348.79   9.76 2025-09-16T04:57:20.572 01:57 00:57   16.49        0      0.60     2.00     2.60
+     10  desirt         0     40    1.11    120.8          DESIRT_2025vjw.json 347.01  -7.28 2025-09-16T04:59:56.842 01:59 00:59   17.13        0      0.63     6.83     7.46
+     21     yse         0     50    1.10    123.2                     393.json 345.62  -9.85 2025-09-16T05:07:24.528 02:07 01:07    2.91        0      0.11    16.00    16.11
+     19     yse         0     60    1.06    133.2                 2025tqb.json 342.65 -34.29 2025-09-16T05:23:30.933 02:23 01:23   24.59        1      3.90     2.00     5.90
+     24     yse         0     70    1.03    114.5                     ELA.json   9.45 -43.98 2025-09-16T05:29:25.042 02:29 01:29   22.80        0      0.84    10.67    11.50
+     11  desirt         1     80    1.03     96.7        DESIRT_20-20-1_z.json  20.77 -19.59 2025-09-16T05:40:55.195 02:40 01:40   26.16        1      3.96    10.83    14.79
+      1  desirt         0     90    1.02     96.9        DESIRT_20-20-1_g.json  20.77 -19.59 2025-09-16T05:55:42.741 02:55 01:55    0.00        0      0.00     6.67     6.67
+      2  desirt         0    100    1.02     96.9        DESIRT_20-20-1_i.json  20.77 -19.59 2025-09-16T06:02:22.741 03:02 02:02    0.00        0      0.00     9.17     9.17
+      3  desirt         0    110    1.02     97.0        DESIRT_20-20-1_r.json  20.77 -19.59 2025-09-16T06:11:32.741 03:11 02:11    0.00        0      0.00     8.33     8.33
+      4  desirt         0    120    1.01     94.9        DESIRT_20-20-2_g.json  24.72 -22.23 2025-09-16T06:19:52.741 03:19 02:19    4.54        0      0.17     6.67     6.83
+      5  desirt         0    130    1.01     95.0        DESIRT_20-20-2_i.json  24.72 -22.23 2025-09-16T06:26:42.719 03:26 02:26    0.00        0      0.00     9.17     9.17
+      6  desirt         0    140    1.01     95.1        DESIRT_20-20-2_r.json  24.72 -22.23 2025-09-16T06:35:52.719 03:35 02:35    0.00        0      0.00     8.33     8.33
+     12  desirt         1    150    1.01     95.1        DESIRT_20-20-2_z.json  24.72 -22.23 2025-09-16T06:44:12.719 03:44 02:44    0.00        0      0.00    10.83    10.83
+      7  desirt         0    160    1.03     93.5        DESIRT_20-20-3_g.json  24.05 -17.09 2025-09-16T06:55:02.719 03:55 02:55    5.18        0      0.19     6.67     6.86
+      8  desirt         0    170    1.03     93.5        DESIRT_20-20-3_i.json  24.05 -17.09 2025-09-16T07:01:54.114 04:01 03:01    0.00        0      0.00     9.17     9.17
+      9  desirt         0    180    1.04     93.6        DESIRT_20-20-3_r.json  24.05 -17.09 2025-09-16T07:11:04.114 04:11 03:11    0.00        0      0.00     8.33     8.33
+      0     agn         0    190    1.10     78.2                    X123.json  35.53  -5.31 2025-09-16T07:19:24.114 04:19 03:19   16.28        0      0.60    33.00    33.60
+     27     yse         0    200    1.11     78.2                     XMM.json  35.57  -4.78 2025-09-16T07:52:59.927 04:52 03:52    0.54        0      0.02    10.67    10.69
+     18     yse         0    210    1.02     73.6                 2025tis.json  58.84 -28.07 2025-09-16T08:03:41.105 05:03 04:03   32.12        0      1.18     1.65     2.83
+     25     yse         0    220    1.01     77.4                  XECDFS.json  52.98 -28.08 2025-09-16T08:06:30.764 05:06 04:06    5.17        0      0.19    10.67    10.86
+     20     yse         0    230    1.02     69.7                     253.json  61.28 -24.71 2025-09-16T08:17:22.144 05:17 04:17    8.17        0      0.30    16.00    16.30
+     26     yse         0    240    1.06     87.0                   XEDFS.json  61.25 -48.42 2025-09-16T08:33:40.109 05:33 04:33   23.71        1      3.87    21.33    25.20
+     34  shadow         0    250    1.01     82.0 Shadow_Fornax_g90_extra.json  53.90 -35.52 2025-09-16T08:58:52.278 05:58 04:58   13.99        0      0.51    18.00    18.51
+     35  shadow         0    260    1.02     82.1       Shadow_Fornax_r90.json  53.90 -35.52 2025-09-16T09:17:23.065 06:17 05:17    0.00        0      0.00    18.00    18.00
+
+#####################
+### EXTRA TARGETS:
+#####################
+ jsonID program  priority  order airmass sep_moon            json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     13  desirt         1     -1     NaN      NaN DESIRT_20-20-3_z.json  24.05 -17.09 NaN NaN NaN     NaN        0       NaN    10.83      NaN
+     28  defsus         0     -1     NaN      NaN       1_defsus_N.json 265.05 -26.70 NaN NaN NaN     NaN        0       NaN    12.00      NaN
+     30  defsus         0     -1     NaN      NaN       3_defsus_N.json 265.05 -26.70 NaN NaN NaN     NaN        0       NaN    12.00      NaN
+     29  defsus         0     -1     NaN      NaN       2_defsus_S.json 268.32 -30.60 NaN NaN NaN     NaN        0       NaN    21.00      NaN
+     31  defsus         0     -1     NaN      NaN       4_defsus_S.json 268.32 -30.60 NaN NaN NaN     NaN        0       NaN    21.00      NaN
+     14     yse         0     -1     NaN      NaN          2025oxy.json 316.96  18.24 NaN NaN NaN     NaN        0       NaN     2.50      NaN
+     16     yse         0     -1     NaN      NaN          2025rbs.json 339.07  33.68 NaN NaN NaN     NaN        0       NaN     1.75      NaN

@@ -1222,11 +1222,11 @@ class obsplan_baseclass:
         #self.YYMMDD = '250908'
         # timezone load
         datetime_date = datetime.strptime(self.YYMMDD, "%y%m%d")
-        print('GGGG',self.YYMMDD,datetime_date)
-        print('GGGGg',self.observer.timezone)
-        #self.observer_shift = self.observer.timezone.utcoffset(datetime_date).total_seconds() * u.s
-        self.observer_shift = -10800.0
-        print('FFFf',self.observer_shift)
+        #print('GGGG',self.YYMMDD,datetime_date)
+        #print('GGGGg',self.observer.timezone)
+        self.observer_shift = self.observer.timezone.utcoffset(datetime_date).total_seconds() * u.s
+        #self.observer_shift = -10800.0
+        print('observer UT shift:',self.observer_shift)
         #sys.exit(0)
         ctio_observer = ctio_location()
         self.datetime = Time(datetime_date, format="datetime")

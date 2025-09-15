@@ -1728,22 +1728,90 @@ mkjson_yse_nofilterswitch.py  -f g,r  376     -d 250910
 mkjson_yse_nofilterswitch.py  -f g,r   428    -d 250910  
 mkjson_yse_nofilterswitch.py  -f g,r,i   440    -d 250910 
 mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250910 
-mkjson_yse_nofilterswitch.py  -f g,r    494   -d 250910 
+mkjson_yse_nofilterswitch.py  -f g    494   -d 250910 
 mkjson_yse_nofilterswitch.py  -f g,i 393   -d 250910
 mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250910 
-mkjson_yse_nofilterswitch.py  -f g,r,i ELA  -d 250910 
-mkjson_yse_nofilterswitch.py  -f z XMM -d 250910 
-mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS  XEDFS -d 250910 
+mkjson_yse_nofilterswitch.py  -f r ELA  -d 250910 
+mkjson_yse_nofilterswitch.py  -f i XMM -d 250910 
+mkjson_yse_nofilterswitch.py  -f g,r XECDFS  XEDFS -d 250910 
 #mkjson_yse_nofilterswitch.py  -f g,r,i    XCOS  -d 250910 
-mkjson_yse_nofilterswitch.py  -f g,r,i,z GRB250706B -e 100,50,50,100 -n 2 -d 250910
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 250910
-mkjson_yse_nofilterswitch.py  -f r,i,z 2025plf -e 10 -d 250910
+mkjson_yse_nofilterswitch.py  -f i,z 2025plf -e 10 -d 250910
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250910
 mkjson_yse_nofilterswitch.py  -f r,i,z 2025shi -e 20 -d 250910
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 3 -d 250910
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 250910
+mkjson_yse_nofilterswitch.py  -f g,i 2025tis -e 3 -d 250910
+mkjson_yse_nofilterswitch.py  -f g,i 2025tqb -e 10 -d 250910
 mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250910 --propid 2024B-441839 
 git add 250910
+
+new_obsplan.py -d 250911  -v -2 
+modify_obsplan.py -d 250911 -v  -s -2 
+subl 250911/250911_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i  376     -d 250911 
+mkjson_yse_nofilterswitch.py  -f i   428    -d 250911  
+mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250911 
+mkjson_yse_nofilterswitch.py  -f g,r 544    -d 250911 
+mkjson_yse_nofilterswitch.py  -f g,r    494   -d 250911 
+mkjson_yse_nofilterswitch.py  -f g,i 393   -d 250911
+mkjson_yse_nofilterswitch.py  -f r,i    253   -d 250911 
+mkjson_yse_nofilterswitch.py  -f g,r,i ELA  -d 250911 
+mkjson_yse_nofilterswitch.py  -f z XMM -d 250911 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z XECDFS  XEDFS -d 250911 
+#mkjson_yse_nofilterswitch.py  -f g,r,i    XCOS  -d 250911 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 250911
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 250911
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250911
+mkjson_yse_nofilterswitch.py  -f r,i,z 2025shi -e 20 -d 250911
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025tis -e 3 -d 250911
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025tqb -e 10 -d 250911
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250911 --propid 2024B-441839 
+git add 250911
+
+new_obsplan.py -d 250912  -v 
+modify_obsplan.py -d 250912 -v  -s 
+subl 250912/250912_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f g  376     -d 250912 
+mkjson_yse_nofilterswitch.py  -f g   428    -d 250912  
+mkjson_yse_nofilterswitch.py  -f g,i   440    -d 250912 
+mkjson_yse_nofilterswitch.py  -f g,i 544    -d 250912 
+mkjson_yse_nofilterswitch.py  -f g,i    494   -d 250912 
+mkjson_yse_nofilterswitch.py  -f g,r 393   -d 250912
+mkjson_yse_nofilterswitch.py  -f g,r    253   -d 250912 
+mkjson_yse_nofilterswitch.py  -f g,r,i ELA  -d 250912 
+mkjson_yse_nofilterswitch.py  -f i,z XMM -d 250912 
+mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS  XEDFS -d 250912 
+#mkjson_yse_nofilterswitch.py  -f g,r,i    XCOS  -d 250912 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 250912
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 250912
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250912
+mkjson_yse_nofilterswitch.py  -f r,i,z 2025shi -e 20 -d 250912
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025tis -e 3 -d 250912
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025tqb -e 10 -d 250912
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250912 --propid 2024B-441839 
+git add 250912
+
+new_obsplan.py -d 250915  -v 
+modify_obsplan.py -d 250915 -v  -s 
+subl 250915/250915_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i  376     -d 250915 
+mkjson_yse_nofilterswitch.py  -f i   428    -d 250915  
+mkjson_yse_nofilterswitch.py  -f g,r   440    -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r 544    -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r    494   -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,i 393   -d 250915
+mkjson_yse_nofilterswitch.py  -f g,i    253   -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r,i ELA  -d 250915 
+mkjson_yse_nofilterswitch.py  -f i,z XMM -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS  XEDFS -d 250915 
+#mkjson_yse_nofilterswitch.py  -f g,r,i    XCOS  -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250915
+mkjson_yse_nofilterswitch.py  -f r,i,z 2025shi -e 20 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025tis -e 3 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025tqb -e 10 -d 250915
+mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250915 --propid 2024B-441839 
+git add 250915
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025B/yse

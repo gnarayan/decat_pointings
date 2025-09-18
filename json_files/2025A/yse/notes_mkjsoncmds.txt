@@ -1790,8 +1790,8 @@ mkjson_yse_nofilterswitch.py  -f g,r,i 2025tqb -e 10 -d 250912
 mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250912 --propid 2024B-441839 
 git add 250912
 
-new_obsplan.py -d 250915  -v 
-modify_obsplan.py -d 250915 -v  -s 
+new_obsplan.py -d 250915  -v -2
+modify_obsplan.py -d 250915 -v  -s -2
 subl 250915/250915_obsplan.txt
 mkjson_yse_nofilterswitch.py  -f i  376     -d 250915 
 mkjson_yse_nofilterswitch.py  -f i   428    -d 250915  
@@ -1800,14 +1800,14 @@ mkjson_yse_nofilterswitch.py  -f g,r 544    -d 250915
 mkjson_yse_nofilterswitch.py  -f g,r    494   -d 250915 
 mkjson_yse_nofilterswitch.py  -f g,i 393   -d 250915
 mkjson_yse_nofilterswitch.py  -f g,i    253   -d 250915 
-mkjson_yse_nofilterswitch.py  -f g,r,i ELA  -d 250915 
-mkjson_yse_nofilterswitch.py  -f i,z XMM -d 250915 
-mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS  XEDFS -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r ELA  -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r XMM -d 250915 
+mkjson_yse_nofilterswitch.py  -f g,r XECDFS  XEDFS -d 250915 
 #mkjson_yse_nofilterswitch.py  -f g,r,i    XCOS  -d 250915 
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 250915
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 250915
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 250915
-mkjson_yse_nofilterswitch.py  -f r,i,z 2025shi -e 20 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025oxy -e 20 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025plf -e 10 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025rbs -e 5 -d 250915
+mkjson_yse_nofilterswitch.py  -f g,r,i 2025shi -e 20 -d 250915
 mkjson_yse_nofilterswitch.py  -f g,r,i 2025tis -e 3 -d 250915
 mkjson_yse_nofilterswitch.py  -f g,r,i 2025tqb -e 10 -d 250915
 mkjson_yse_nofilterswitch.py  -f r,g,z,i,r,g,z,i,r  A11pl3Z_0831U2330 A11pl3Z_0801U0000 A11pl3Z_0801U0030 A11pl3Z_0801U0100 A11pl3Z_0801U0130 -e 20  -d 250915 --propid 2024B-441839 

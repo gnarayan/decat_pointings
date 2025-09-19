@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2025plf",
+"filter": "g",
+"expTime": 10,
+"RA": "348.7856",
+"dec": "9.7597",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2025plf",
+"filter": "r",
+"expTime": 10,
+"RA": "348.7856",
+"dec": "9.7597",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2025plf",
+"filter": "i",
+"expTime": 10,
+"RA": "348.7856",
+"dec": "9.7597",
+"propid": "2024B-763968"
+}
+]

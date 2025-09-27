@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "TDE_VENUS_1",
+"filter": "r",
+"expTime": 150,
+"RA": "342.2238",
+"dec": "-44.4814",
+"propid": "2024B-44183"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "TDE_VENUS_1",
+"filter": "r",
+"expTime": 150,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-44183"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "TDE_VENUS_1",
+"filter": "i",
+"expTime": 150,
+"RA": "342.2238",
+"dec": "-44.4814",
+"propid": "2024B-44183"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "TDE_VENUS_1",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-44183"
+}
+]

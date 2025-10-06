@@ -19,11 +19,15 @@ program                            json_short     ra    dec
  desirt                          DESIRT_315.* 318.48 -11.80
     yse                                 544.* 321.80  11.20
     yse                                 494.* 332.94   4.77 
+    yse                             2025tqb.* 342.65 -34.29
+    yse                                 ELA.*   9.45 -43.98
     yse                            SPT2025a.* 355.91 -65.71
     agn                                E1E2.*   8.69 -43.50
  debass                            2025kiu_.*  19.49 -34.62
  desirt                        DESIRT_20-20.*  20.77 -19.59
+ desirt                           DESIRT_80.*  70.62 -20.89  
     agn                            X123.*json  35.53  -5.31
+    yse                                 XMM.*  35.57  -4.78
     agn                              C3.*json  52.65 -28.10
     yse                             253.*json  61.28 -24.71
     yse                           ECDFS\.json  53.12 -28.10

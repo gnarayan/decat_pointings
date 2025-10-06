@@ -10,7 +10,7 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "g",
-        "exptime": 110,
+        "exptime": 60,
         "ra": 347.012,
         "dec": -7.279
     },
@@ -25,7 +25,7 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "i",
-        "exptime": 110,
+        "exptime": 60,
         "ra": 347.012,
         "dec": -7.279
     },
@@ -40,7 +40,7 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "z",
-        "exptime": 100,
+        "exptime": 50,
         "ra": 347.012,
         "dec": -7.279
     }

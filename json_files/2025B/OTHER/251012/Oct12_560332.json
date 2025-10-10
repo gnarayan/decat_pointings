@@ -1,0 +1,35 @@
+[
+ {
+  "expType": "object",
+  "RA": "17:52:20.00",
+  "dec": "-29:54:00.00",
+  "filter": "z",
+  "expTime": 60,
+  "object": "D02",
+  "count": 8,
+  "proposer": "Yang-Zang",
+  "propid": "2025B-560332"
+ },
+ {
+  "expType": "object",
+  "RA": "17:52:20.00",
+  "dec": "-29:54:00.00",
+  "filter": "r",
+  "expTime": 80,
+  "object": "D02",
+  "count": 3,
+  "proposer": "Yang-Zang",
+  "propid": "2025B-560332"
+ },
+ {
+  "expType": "object",
+  "RA": "17:52:20.00",
+  "dec": "-29:54:00.00",
+  "filter": "z",
+  "expTime": 60,
+  "object": "D02",
+  "count": 8,
+  "proposer": "Yang-Zang",
+  "propid": "2025B-560332"
+ }
+]

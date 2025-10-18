@@ -998,3 +998,5 @@ A11pl3Z_250705_UTC4am    NaN 269.77824 -18.55298     0       NaN                
     A11pl3Z_0801U0100    NaN 232.37361 -14.38428     0       NaN                    NaN     A11pl3Z_0801U0100      N4          35
     A11pl3Z_0801U0130    NaN 232.36101 -14.38185     0       NaN                    NaN     A11pl3Z_0801U0130      N4          35
           TDE_VENUS_1    NaN 342.22384 -44.48140     0       NaN                    NaN           TDE_VENUS_1      N4          35
+              2025vjw    NaN 347.25114  -7.43182     0       NaN                    NaN               2025vjw      N4          35
+           GRB251013C    NaN 345.83346  -0.12331     0       NaN                    NaN            GRB251013C      N4          35

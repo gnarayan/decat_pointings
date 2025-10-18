@@ -1997,10 +1997,10 @@ mkjson_yse_nofilterswitch.py  -f g,i XECDFS  XEDFS -d 251012
 #mkjson_yse_nofilterswitch.py  -f g,r,i    XCOS  -d 251012 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 251012 -p 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 251012 -p 1
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 10 -d 251012
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025shi -e 20 -d 251012
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 10 -d 251012
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 251012
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 251012 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025shi -e 50 -d 251012
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 5 -d 251012 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 251012 -p 1
 mkjson_yse_nofilterswitch.py  -f g TDE_VENUS_1 -e 150 -n 6 -d 251012 --propid 2024B-441839
 git add 251012
 

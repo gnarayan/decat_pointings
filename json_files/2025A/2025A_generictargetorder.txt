@@ -22,6 +22,7 @@ program                            json_short     ra    dec
  desirt                           DESIRT_80.*  70.62 -20.89  
     yse                             412\.json 115.81  -2.65
     yse                             311\.json 123.55 -17.04
+    eta                               etale.* 161.26 -59.68
     agn                           S-CVZ\.json  90.00 -66.56
     agn                              COSMOS.* 150.00   2.20
     eta                               etale.* 161.26 -59.68

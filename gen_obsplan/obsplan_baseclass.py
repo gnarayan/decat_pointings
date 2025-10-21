@@ -792,7 +792,9 @@ class obsplan_baseclass:
 
     def generic_target_ordering(self, ixs_json=None, priorities=[0]):
         ixs_generic_order_table = self.generictargetorder.getindices()
-        
+        self.generictargetorder.write()
+        self.generictargetorder.write(indices=ixs_generic_order_table)
+
         if ixs_json is None:
             if len(priorities)==0:
                 ixs_json = self.jsontable.getindices()

@@ -1,0 +1,47 @@
+[
+    {
+        "count": 1,
+        "object": "2025vql",
+        "program": "DESI Transients Survey",
+        "expType": "object",
+        "note": "None",
+        "comment": "DESI Transients Survey 2025vql",
+        "wait": "False",
+        "proposer": "Palmese",
+        "propid": "2025A-729671",
+        "filter": "g",
+        "exptime": 110,
+        "ra": 49.40321, 
+        "dec": -20.26806
+    },
+    {
+        "count": 1,
+        "object": "2025vql",
+        "program": "DESI Transients Survey",
+        "expType": "object",
+        "note": "None",
+        "comment": "DESI Transients Survey 2025vql",
+        "wait": "False",
+        "proposer": "Palmese",
+        "propid": "2025A-729671",
+        "filter": "r",
+        "exptime": 110,
+        "ra": 49.40321, 
+        "dec": -20.26806
+    },
+    {
+        "count": 1,
+        "object": "2025vql",
+        "program": "DESI Transients Survey",
+        "expType": "object",
+        "note": "None",
+        "comment": "DESI Transients Survey 2025vql",
+        "wait": "False",
+        "proposer": "Palmese",
+        "propid": "2025A-729671",
+        "filter": "i",
+        "exptime": 110,
+        "ra": 49.40321, 
+        "dec": -20.26806
+    }
+]

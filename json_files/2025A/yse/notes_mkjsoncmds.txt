@@ -2106,9 +2106,9 @@ mkjson_yse_nofilterswitch.py  -f g,i 544    -d 251025
 mkjson_yse_nofilterswitch.py  -f g,i    494   -d 251025 
 mkjson_yse_nofilterswitch.py  -f g,r 393   -d 251025
 mkjson_yse_nofilterswitch.py  -f g,i    253   -d 251025 
-mkjson_yse_nofilterswitch.py  -f g,i ELA  -d 251025 
+mkjson_yse_nofilterswitch.py  -f g,r ELA  -d 251025 
 mkjson_yse_nofilterswitch.py  -f g,r XMM -d 251025 
-mkjson_yse_nofilterswitch.py  -f g,r XECDFS  XEDFS -d 251025 
+mkjson_yse_nofilterswitch.py  -f g,i XECDFS  XEDFS -d 251025 
 #mkjson_yse_nofilterswitch.py  -f r    XCOS  -d 251025 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 251025 -p 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 251025 -p 1
@@ -2122,6 +2122,29 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025mmn -e 5 -d 251025
 mkjson_yse_nofilterswitch.py  -f i TDE_VENUS_1 -e 150 -n 4 -d 251025 --propid 2024B-441839
 git add 251025
 
+new_obsplan.py -d 251027  -v 
+modify_obsplan.py -d 251027 -v  -s 
+subl 251027/251027_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i,z   440    -d 251027 
+mkjson_yse_nofilterswitch.py  -f r,i 544    -d 251027 
+mkjson_yse_nofilterswitch.py  -f r,i    494   -d 251027 
+mkjson_yse_nofilterswitch.py  -f r,i 393   -d 251027
+mkjson_yse_nofilterswitch.py  -f g,r    253   -d 251027 
+mkjson_yse_nofilterswitch.py  -f g,i ELA  -d 251027 
+mkjson_yse_nofilterswitch.py  -f g,i XMM -d 251027 
+mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS  XEDFS -d 251027 
+mkjson_yse_nofilterswitch.py  -f g,i    XCOS  -d 251027 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 251027 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 251027 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025rbs -e 5 -d 251027 -p 1
+mkjson_yse_nofilterswitch.py  -f r,i 2025shi -e 50 -d 251027
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 5 -d 251027 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 251027 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025vjw -e 10 -d 251027
+mkjson_yse_nofilterswitch.py  -f g,r,i,z GRB251013C -e 5 -d 251027
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025mmn -e 5 -d 251027
+mkjson_yse_nofilterswitch.py  -f i,z TDE_VENUS_1 -e 150 -n 6 -d 251027 --propid 2024B-441839
+git add 251027
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025B/yse
 

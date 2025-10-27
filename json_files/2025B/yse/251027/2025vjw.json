@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2025vjw",
+"filter": "g",
+"expTime": 10,
+"RA": "347.2511",
+"dec": "-7.4318",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2025vjw",
+"filter": "r",
+"expTime": 10,
+"RA": "347.2511",
+"dec": "-7.4318",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2025vjw",
+"filter": "i",
+"expTime": 10,
+"RA": "347.2511",
+"dec": "-7.4318",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2025vjw",
+"filter": "z",
+"expTime": 10,
+"RA": "347.2511",
+"dec": "-7.4318",
+"propid": "2024B-763968"
+}
+]

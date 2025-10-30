@@ -2131,7 +2131,7 @@ mkjson_yse_nofilterswitch.py  -f r,i    494   -d 251027
 mkjson_yse_nofilterswitch.py  -f r,i 393   -d 251027
 mkjson_yse_nofilterswitch.py  -f g,r    253   -d 251027 
 mkjson_yse_nofilterswitch.py  -f g,i ELA  -d 251027 
-mkjson_yse_nofilterswitch.py  -f g,i XMM -d 251027 
+mkjson_yse_nofilterswitch.py  -f g,r,i XMM -d 251027 
 mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS  XEDFS -d 251027 
 mkjson_yse_nofilterswitch.py  -f g,i    XCOS  -d 251027 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025oxy -e 20 -d 251027 -p 1

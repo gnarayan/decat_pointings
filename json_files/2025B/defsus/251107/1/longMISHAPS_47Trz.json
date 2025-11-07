@@ -1,0 +1,90 @@
+[
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 5 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH0",
+  "filter": "r",
+  "RA":  6.5228,
+  "dec": -72.0813,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 6 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH1",
+  "filter": "r",
+  "RA":  6.4253,
+  "dec": -72.0513,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 7 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH2",
+  "filter": "r",
+  "RA":  6.3278,
+  "dec": -72.0213,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 8 r",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH3",
+  "filter": "r",
+  "RA":  6.6203,
+  "dec": -71.9913,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 13 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH0",
+  "filter": "z",
+  "RA":  6.5228,
+  "dec": -72.0813,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 14 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH1",
+  "filter": "z",
+  "RA":  6.4253,
+  "dec": -72.0513,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 15 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH2",
+  "filter": "z",
+  "RA":  6.3278,
+  "dec": -72.0213,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ },
+ {
+  "count": 1,
+  "comment": "MISHAPS_47T Exp 16 z",
+  "expType": "object",
+  "object": "MISHAPS_47T_DITH3",
+  "filter": "z",
+  "RA":  6.6203,
+  "dec": -71.9913,
+  "expTime": 100,
+  "propid": "2025B-335691"
+ }
+]

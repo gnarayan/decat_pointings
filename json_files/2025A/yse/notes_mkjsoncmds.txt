@@ -2178,7 +2178,7 @@ mkjson_yse_nofilterswitch.py  -f r,i 544    -d 251102
 mkjson_yse_nofilterswitch.py  -f i,z    494   -d 251102 
 mkjson_yse_nofilterswitch.py  -f z 393   -d 251102
 mkjson_yse_nofilterswitch.py  -f g,r    253   -d 251102 
-mkjson_yse_nofilterswitch.py  -f r,i,z ELA  -d 251102 
+mkjson_yse_nofilterswitch.py  -f i,z ELA  -d 251102 
 mkjson_yse_nofilterswitch.py  -f i,z XMM -d 251102 
 mkjson_yse_nofilterswitch.py  -f g,r,i XECDFS  XEDFS -d 251102 
 mkjson_yse_nofilterswitch.py  -f g,r    XCOS  -d 251102 
@@ -2190,12 +2190,15 @@ mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 5 -d 251102 -p 1
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 251102 -p 1
 mkjson_yse_nofilterswitch.py  -f i,z 2025vjw -e 20 -d 251102
 mkjson_yse_nofilterswitch.py  -f i,z GRB251013C -e 5 -d 251102
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025aarm -e 5 -d 251102 -p 1
 mkjson_yse_nofilterswitch.py  -f i,z TDE_VENUS_1 -e 150 -n 6 -d 251102 --propid 2024B-441839
 git add 251102
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025B/yse
 
-YSE_pointings2fieldcenters.py --addSN 2024pba  -vv --overwr
+
+
+YSE_pointings2fieldcenters.py --addSN 2025aarm 68.051646 -5.377697 -vv --overwr
 YSE_pointings2fieldcenters.py --addSN 2025yjt 20.3333259271 -34.0595473137  -vv --overwr
 
 YSE_pointings2fieldcenters.py --addSN 2025mmn 265.8091083     -14.9421306 -vv --overwr

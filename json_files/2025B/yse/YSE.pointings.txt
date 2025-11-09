@@ -1004,3 +1004,4 @@ A11pl3Z_250705_UTC4am    NaN 269.77824 -18.55298     0       NaN                
               2025yjt    NaN  20.33074 -33.97256     0       NaN                    NaN               2025yjt      N4          35
              2025aarm    NaN  68.04949  -5.29071     0       NaN                    NaN              2025aarm      N4          35
              2025abov    NaN  46.72955 -11.89510     0       NaN                    NaN              2025abov      N4          35
+             2025abcr    NaN  26.72856 -15.28401     0       NaN                    NaN              2025abcr      N4          35

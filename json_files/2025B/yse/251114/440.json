@@ -3,66 +3,6 @@
 "count": 1,
 "expType": "object",
 "object": "440.A.a",
-"filter": "g",
-"expTime": 50,
-"RA": "310.9514",
-"dec": "-4.1982",
-"propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "440.B.a",
-"filter": "g",
-"expTime": 50,
-"RA": "310.9528",
-"dec": "-0.4877",
-"propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "440.C.a",
-"filter": "g",
-"expTime": 50,
-"RA": "314.0547",
-"dec": "-4.1982",
-"propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "440.D.a",
-"filter": "g",
-"expTime": 50,
-"RA": "314.7559",
-"dec": "-0.8995",
-"propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "440.E.a",
-"filter": "g",
-"expTime": 50,
-"RA": "317.1580",
-"dec": "-4.1982",
-"propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "440.F.a",
-"filter": "g",
-"expTime": 50,
-"RA": "317.8593",
-"dec": "-0.8995",
-"propid": "2024B-763968"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "440.A.a",
 "filter": "r",
 "expTime": 50,
 "RA": "310.9514",

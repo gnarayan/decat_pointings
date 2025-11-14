@@ -124,47 +124,5 @@
 		"proposer": "Palmese Andreoni",
 		"propid": "2023B-851374",
 		"comment": "GW-MMADS S251112cm"
-	},
-	{
-		"object": "GWMMADS 267",
-		"exptime": 30.000000,
-		"RA": 73.500530,
-		"dec": -51.666445,
-		"filter": "i",
-		"count": 1,
-		"expType": "object",
-		"program": "GW-MMADS",
-		"wait": "False",
-		"proposer": "Palmese Andreoni",
-		"propid": "2023B-851374",
-		"comment": "GW-MMADS S251112cm"
-	},
-	{
-		"object": "GWMMADS 268",
-		"exptime": 30.000000,
-		"RA": 75.020573,
-		"dec": -52.487646,
-		"filter": "i",
-		"count": 1,
-		"expType": "object",
-		"program": "GW-MMADS",
-		"wait": "False",
-		"proposer": "Palmese Andreoni",
-		"propid": "2023B-851374",
-		"comment": "GW-MMADS S251112cm"
-	},
-	{
-		"object": "GWMMADS 269",
-		"exptime": 30.000000,
-		"RA": 75.957021,
-		"dec": -53.953625,
-		"filter": "i",
-		"count": 1,
-		"expType": "object",
-		"program": "GW-MMADS",
-		"wait": "False",
-		"proposer": "Palmese Andreoni",
-		"propid": "2023B-851374",
-		"comment": "GW-MMADS S251112cm"
 	}
 ]

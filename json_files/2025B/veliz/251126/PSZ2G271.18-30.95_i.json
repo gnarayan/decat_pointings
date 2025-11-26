@@ -1,0 +1,35 @@
+[
+           {
+                      "object": "PSZ2G271.18-30.95 DITHER 1",
+                      "propid": "2025B-474892",
+                      "RA": 87.451337,
+                      "DEC": -62.049578,
+                      "expTime": 156,
+                      "expType": "object",
+                      "count": 1,
+                      "filter": "i",
+                      "comment": ""
+           },
+           {
+                      "object": "PSZ2G271.18-30.95 DITHER 2",
+                      "propid": "2025B-474892",
+                      "RA": 87.403475,
+                      "DEC": -62.099637,
+                      "expTime": 156,
+                      "expType": "object",
+                      "count": 1,
+                      "filter": "i",
+                      "comment": ""
+           },
+           {
+                      "object": "PSZ2G271.18-30.95 DITHER 3",
+                      "propid": "2025B-474892",
+                      "RA": 87.355535,
+                      "DEC": -62.149696,
+                      "expTime": 156,
+                      "expType": "object",
+                      "count": 1,
+                      "filter": "i",
+                      "comment": ""
+           }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "object": "DESIRT 80_2025",
+        "expTime": 80,
+        "RA": "77.1231676",
+        "dec": "-22.71456",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80_2025"
+    },
+    {
+        "object": "DESIRT 80_2025",
+        "expTime": 80,
+        "RA": "78.80954167",
+        "dec": "-19.67352788",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80_2025"
+    },
+    {
+        "object": "DESIRT 80_2025",
+        "expTime": 80,
+        "RA": "78.8409167",
+        "dec": "-21.700389",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80_2025"
+    },
+    {
+        "object": "DESIRT 80_2025",
+        "expTime": 80,
+        "RA": "80.53379167",
+        "dec": "-20.68675",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80_2025"
+    },
+    {
+        "object": "DESIRT 80_2025",
+        "expTime": 80,
+        "RA": "80.5891674",
+        "dec": "-22.71541676",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey 80_2025"
+    }
+]

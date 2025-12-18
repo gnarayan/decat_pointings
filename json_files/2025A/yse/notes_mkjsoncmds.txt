@@ -2478,7 +2478,7 @@ subl 251214/251214_obsplan.txt
 #mkjson_yse_nofilterswitch.py  -f r    494   -d 251214 
 #mkjson_yse_nofilterswitch.py  -f r 393   -d 251214 
 mkjson_yse_nofilterswitch.py  -f g,i    253   -d 251214 
-mkjson_yse_nofilterswitch.py  -f g,i ELA  -d 251214 
+mkjson_yse_nofilterswitch.py  -f i ELA  -d 251214 
 mkjson_yse_nofilterswitch.py  -f i XMM -d 251214 
 mkjson_yse_nofilterswitch.py  -f g,r XECDFS  XEDFS -d 251214  -p 1
 #mkjson_yse_nofilterswitch.py  -f i   XCOS  -d 251214 -p 1
@@ -2493,6 +2493,28 @@ TDE:
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025abcr -e 40 -d 251214  --propid 2024B-441839
 mkjson_yse_nofilterswitch.py  -f i TDE_VENUS_1 -e 150 -n 5 -d 251214 --propid 2024B-441839
 git add 251214
+
+new_obsplan.py -d 251217  -v 
+modify_obsplan.py -d 251217 -v  -s  
+subl 251217/251217_obsplan.txt
+mkjson_yse_nofilterswitch.py  -f i    494   -d 251214 
+mkjson_yse_nofilterswitch.py  -f i 393   -d 251214 
+mkjson_yse_nofilterswitch.py  -f g,r    253   -d 251217 
+mkjson_yse_nofilterswitch.py  -f g,r ELA  -d 251217 
+mkjson_yse_nofilterswitch.py  -f g,r XMM -d 251217 
+mkjson_yse_nofilterswitch.py  -f g,r XECDFS  XEDFS -d 251217  -p 1
+#mkjson_yse_nofilterswitch.py  -f g,i   XCOS  -d 251217 -p 1
+#mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 251217 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 5 -d 251217 
+#mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 251217 
+#mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025vjw -e 20 -d 251217
+mkjson_yse_nofilterswitch.py  -f g,r,i,z GRB251013C -e 50 -d 251217
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025aarm -e 10 -d 251217 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025abov -e 10 -d 251217 
+TDE:
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025abcr -e 40 -d 251217  --propid 2024B-441839
+mkjson_yse_nofilterswitch.py  -f i TDE_VENUS_1 -e 150 -n 5 -d 251217 --propid 2024B-441839
+git add 251217
 
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2025B/yse

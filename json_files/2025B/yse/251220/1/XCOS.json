@@ -1,0 +1,82 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_a",
+"filter": "g",
+"expTime": 50,
+"RA": "150.1100",
+"dec": "3.2100",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_b",
+"filter": "g",
+"expTime": 50,
+"RA": "148.7100",
+"dec": "2.2300",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_c",
+"filter": "g",
+"expTime": 50,
+"RA": "150.1100",
+"dec": "1.4100",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_d",
+"filter": "g",
+"expTime": 50,
+"RA": "151.5110",
+"dec": "2.2300",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_a",
+"filter": "r",
+"expTime": 50,
+"RA": "150.1100",
+"dec": "3.2100",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_b",
+"filter": "r",
+"expTime": 50,
+"RA": "148.7100",
+"dec": "2.2300",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_c",
+"filter": "r",
+"expTime": 50,
+"RA": "150.1100",
+"dec": "1.4100",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "COSMOS_d",
+"filter": "r",
+"expTime": 50,
+"RA": "151.5110",
+"dec": "2.2300",
+"propid": "2024B-763968"
+}
+]

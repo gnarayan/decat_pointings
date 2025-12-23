@@ -1,0 +1,110 @@
+[
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa01",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "13:55:16.55",
+  "dec": "-16:17:09.3"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa02",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "13:52:37.86",
+  "dec": "-17:58:16.9"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa03",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "13:49:56.13",
+  "dec": "-19:39:16.4"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa04",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "13:57:02.15",
+  "dec": "-20:17:04.3"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa05",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "13:59:41.78",
+  "dec": "-18:35:50.4"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa06",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "14:02:18.28",
+  "dec": "-16:54:28.2"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa07",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "14:09:22.42",
+  "dec": "-17:31:06.9"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa08",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "14:06:48.28",
+  "dec": "-19:12:44.1"
+ },
+ {
+  "propid": "2025A-587063",
+  "proposer": "Kleyna",
+  "expType": "object",
+  "object": "FMa09",
+  "expTime": 50.00,
+  "filter": "r",
+  "count": 1,
+  "epoch": 2000.00,
+  "RA": "14:04:10.94",
+  "dec": "-20:54:13.1"
+ }
+]

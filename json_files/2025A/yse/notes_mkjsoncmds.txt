@@ -2567,6 +2567,7 @@ mkjson_yse_nofilterswitch.py  -f r,i ELA  -d 251226
 mkjson_yse_nofilterswitch.py  -f r,i XMM -d 251226 
 mkjson_yse_nofilterswitch.py  -f g,i XECDFS  XEDFS -d 251226  
 mkjson_yse_nofilterswitch.py  -f g,r   XCOS  -d 251226 -p 1
+mkjson_yse_nofilterswitch.py  -f g,r   XCOS  -d 251226 -p 2 -s extra
 #mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 251226 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 10 -d 251226 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tqb -e 10 -d 251226 

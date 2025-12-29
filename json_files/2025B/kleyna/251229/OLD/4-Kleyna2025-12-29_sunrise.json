@@ -3,25 +3,25 @@
   "propid": "2025A-587063",
   "proposer": "Kleyna",
   "expType": "object",
-  "object": "FMa01-JKu345",
+  "object": "FMa01",
   "expTime": 50.00,
   "filter": "r",
   "count": 1,
   "epoch": 2000.00,
-  "RA": "13:51:53.00",
-  "dec": "-16:59:32.0"
+  "RA": "13:55:16.55",
+  "dec": "-16:17:09.3"
  },
  {
   "propid": "2025A-587063",
   "proposer": "Kleyna",
   "expType": "object",
-  "object": "FMa02-JKu346",
+  "object": "FMa02",
   "expTime": 50.00,
   "filter": "r",
   "count": 1,
   "epoch": 2000.00,
-  "RA": "13:57:38.00",
-  "dec": "-14:13:03.0"
+  "RA": "13:52:37.86",
+  "dec": "-17:58:16.9"
  },
  {
   "propid": "2025A-587063",

@@ -1,18 +1,4 @@
 [
- { "comment": "BHM-RM Pre-imaging Program",
-  "count": 2,
-  "propid": "2024A-755342",
-  "proposer": "Shen",
-  "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
-  "expType": "object",
-  "object": "CO1",
-  "filter": "g",
-  "RA": 150.0,
-  "dec": 3.1,
-  "seqid": "CO1 from script CO1.json",
-  "expTime": 80,
-  "wait": "False"
- },
  {
   "comment": "BHM-RM Pre-imaging Program",
   "count": 2,
@@ -43,20 +29,6 @@
   "expTime": 90,
   "wait": "False"
  },
- { "comment": "BHM-RM Pre-imaging Program",
-  "count": 2,
-  "propid": "2024A-755342",
-  "proposer": "Shen",
-  "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
-  "expType": "object",
-  "object": "CO2",
-  "filter": "g",
-  "RA": 149.22,
-  "dec": 1.75,
-  "seqid": "CO2 from script CO2.json",
-  "expTime": 80,
-  "wait": "False"
- },
  {
   "comment": "BHM-RM Pre-imaging Program",
   "count": 2,
@@ -85,20 +57,6 @@
   "dec": 1.75,
   "seqid": "CO2 from script CO2.json",
   "expTime": 90,
-  "wait": "False"
- },
- { "comment": "BHM-RM Pre-imaging Program",
-  "count": 2,
-  "propid": "2024A-755342",
-  "proposer": "Shen",
-  "program": "DECam Early Imaging of AGN Reverberation Mapping Fields in SDSS-V",
-  "expType": "object",
-  "object": "CO3",
-  "filter": "g",
-  "RA": 150.78,
-  "dec": 1.75,
-  "seqid": "CO3 from script CO3.json",
-  "expTime": 80,
   "wait": "False"
  },
  {

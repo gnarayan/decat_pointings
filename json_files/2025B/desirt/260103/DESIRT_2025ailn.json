@@ -1,0 +1,32 @@
+[
+    {
+        "count": 1,
+        "object": "2025abcr",
+        "program": "DESI Transients Survey",
+        "expType": "object",
+        "note": "None",
+        "comment": "DESI Transients Survey 2025abcr",
+        "wait": "False",
+        "proposer": "Palmese",
+        "propid": "2025A-729671",
+        "filter": "g",
+        "exptime": 90,
+        "ra": 13.163625,
+        "dec": -45.019806
+    },
+    {
+        "count": 1,
+        "object": "2025abcr",
+        "program": "DESI Transients Survey",
+        "expType": "object",
+        "note": "None",
+        "comment": "DESI Transients Survey 2025abcr",
+        "wait": "False",
+        "proposer": "Palmese",
+        "propid": "2025A-729671",
+        "filter": "i",
+        "exptime": 110,
+        "ra": 13.163625,
+        "dec": -45.019806
+    }
+]

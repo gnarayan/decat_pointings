@@ -1,0 +1,17 @@
+[
+    {
+        "count": 1,
+        "object": "2025aimh 2025vyp",
+        "program": "DESI Transients Survey",
+        "expType": "object",
+        "note": "None",
+        "comment": "DESI Transients Survey 2025abcr",
+        "wait": "False",
+        "proposer": "Palmese",
+        "propid": "2025A-729671",
+        "filter": "r",
+        "exptime": 100,
+        "ra": 13.45654,
+        "dec": -46.29011
+    }
+]

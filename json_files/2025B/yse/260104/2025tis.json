@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "2025tis",
 "filter": "g",
-"expTime": 10,
+"expTime": 20,
 "RA": "58.8425",
 "dec": "-28.0721",
 "propid": "2024B-763968"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "2025tis",
 "filter": "r",
-"expTime": 10,
+"expTime": 20,
 "RA": "58.8425",
 "dec": "-28.0721",
 "propid": "2024B-763968"
@@ -24,7 +24,7 @@
 "expType": "object",
 "object": "2025tis",
 "filter": "i",
-"expTime": 10,
+"expTime": 20,
 "RA": "58.8425",
 "dec": "-28.0721",
 "propid": "2024B-763968"
@@ -34,7 +34,7 @@
 "expType": "object",
 "object": "2025tis",
 "filter": "z",
-"expTime": 10,
+"expTime": 20,
 "RA": "58.8425",
 "dec": "-28.0721",
 "propid": "2024B-763968"

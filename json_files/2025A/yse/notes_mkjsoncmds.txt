@@ -2653,7 +2653,7 @@ mkjson_yse_nofilterswitch.py  -f g,i XECDFS  XEDFS -d 260104
 mkjson_yse_nofilterswitch.py  -f z   XCOS  -d 260104 -p 1
 #mkjson_yse_nofilterswitch.py  -f z   XCOS  -d 260104 -p 2 -s extra
 #mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025plf -e 10 -d 260104 
-mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 10 -d 260104 
+mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025tis -e 20 -d 260104 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025aarm -e 10 -d 260104 
 mkjson_yse_nofilterswitch.py  -f g,r,i,z 2025ahnj -e 10 -d 260104 
 TDE:

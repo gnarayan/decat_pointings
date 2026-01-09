@@ -1,0 +1,92 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"RA": "166.6800",
+"dec": "-24.9800",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "S30",
+"deltaRA": "W0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "S10",
+"deltaRA": "W0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"RA": "166.6800",
+"dec": "-24.9800",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "N10",
+"deltaRA": "E0",
+"propid": "2025A-316276"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "OMLApex",
+"filter": "r",
+"expTime": 120,
+"deltaDEC": "S30",
+"deltaRA": "W0",
+"propid": "2025A-316276"
+}
+]

@@ -1,0 +1,82 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_a",
+"filter": "r",
+"expTime": 50,
+"RA": "35.5700",
+"dec": "-3.8400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_b",
+"filter": "r",
+"expTime": 50,
+"RA": "34.1650",
+"dec": "-4.8200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_c",
+"filter": "r",
+"expTime": 50,
+"RA": "35.5700",
+"dec": "-5.6400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_d",
+"filter": "r",
+"expTime": 50,
+"RA": "36.9750",
+"dec": "-4.8200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_a",
+"filter": "i",
+"expTime": 50,
+"RA": "35.5700",
+"dec": "-3.8400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_b",
+"filter": "i",
+"expTime": 50,
+"RA": "34.1650",
+"dec": "-4.8200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_c",
+"filter": "i",
+"expTime": 50,
+"RA": "35.5700",
+"dec": "-5.6400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "XMM_d",
+"filter": "i",
+"expTime": 50,
+"RA": "36.9750",
+"dec": "-4.8200",
+"propid": "2024B-763968"
+}
+]

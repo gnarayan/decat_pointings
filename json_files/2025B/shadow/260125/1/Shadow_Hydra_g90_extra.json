@@ -1,0 +1,44 @@
+[
+    {
+        "object": "Field1",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Hydra pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "g",
+        "exptime": 90,
+        "RA": 159.2305,
+        "dec": -27.5186
+    },
+    {
+        "object": "Field2",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Hydra pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "g",
+        "exptime": 90,
+        "RA": 159.2126,
+        "dec": -25.3493
+    },
+    {
+        "object": "Field3",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Hydra pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "g",
+        "exptime": 90,
+        "RA": 157.6973,
+        "dec": -29.1417
+    }
+]

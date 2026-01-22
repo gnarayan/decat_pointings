@@ -13,12 +13,12 @@ from astropy.coordinates import (EarthLocation, SkyCoord, AltAz, get_sun,
 
 if __name__=='__main__':
     YYYYMMDDs = [
-        '20250815',
-        '20250915',
-        '20251015',
-        '20251115',
-        '20251215',
-        '20260115',
+        '20260215',
+        '20260315',
+        '20260415',
+        '20260515',
+        '20260615',
+        '20260715',
         ]
     ctio = Observer.at_site("CTIO",timezone='America/Santiago')
 

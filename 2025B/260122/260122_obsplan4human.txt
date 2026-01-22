@@ -25,38 +25,49 @@ PT  middle of the night: 20:55:07
 ### OBSPLAN:
 #####################
  jsonID program  priority  order airmass sep_moon                         json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
-      3  desirt         0     10    1.27     36.1               DESIRT_2025abcr.json  26.65 -15.37 2026-01-23T00:55:35.359 21:55 19:55    0.00        0      0.00     5.50     5.50
-     18     yse         0     20    1.29     36.1                      2025abcr.json  26.73 -15.28 2026-01-23T01:01:05.359 22:01 20:01    0.12        0      0.00     3.50     3.50
-     27     yse         0     30    1.29     42.7                           XMM.json  35.57  -4.78 2026-01-23T01:04:35.613 22:04 20:04   13.63        0      0.50    10.67    11.17
-     17     yse         0     40    1.10     75.0                      2025aarm.json  68.05  -5.29 2026-01-23T01:15:45.609 22:15 20:15   32.35        0      1.19     2.67     3.85
-     23     yse         0     50    1.02     69.6                           253.json  61.28 -24.71 2026-01-23T01:19:36.789 22:19 20:19   20.47        0      0.75     8.00     8.75
-     22     yse         0     60    1.03     68.0                       2025tis.json  58.84 -28.07 2026-01-23T01:28:21.831 22:28 20:28    4.01        0      0.15     3.33     3.48
-     25     yse         0     70    1.06     62.9                        XECDFS.json  52.98 -28.08 2026-01-23T01:31:50.661 22:31 20:31    5.17        0      0.19    10.67    10.86
-     26     yse         0     80    1.08     74.5                         XEDFS.json  61.25 -48.42 2026-01-23T01:42:42.041 22:42 20:42   21.32        1      3.78    21.33    25.12
-      4  desirt         0     90    1.05     73.8            DESIRT_80_2025_g_1.json  66.49 -21.30 2026-01-23T02:07:48.948 23:07 21:07   27.45        1      4.01     6.67    10.67
-      5  desirt         0    100    1.04     77.5            DESIRT_80_2025_g_2.json  70.62 -20.89 2026-01-23T02:18:29.330 23:18 21:18    3.88        0      0.14     6.67     6.81
-      6  desirt         0    110    1.03     81.6            DESIRT_80_2025_g_3.json  75.06 -21.09 2026-01-23T02:25:17.861 23:25 21:25    4.15        0      0.15     6.67     6.82
-      7  desirt         0    120    1.02     85.4            DESIRT_80_2025_g_4.json  79.18 -21.50 2026-01-23T02:32:06.983 23:32 21:32    3.86        0      0.14     6.67     6.81
-      8  desirt         0    130    1.09     73.6            DESIRT_80_2025_r_1.json  66.49 -21.30 2026-01-23T02:38:55.475 23:38 21:38   11.81        0      0.43     8.33     8.77
-      9  desirt         0    140    1.08     77.3            DESIRT_80_2025_r_2.json  70.62 -20.89 2026-01-23T02:47:41.464 23:47 21:47    3.88        0      0.14     8.33     8.48
-     10  desirt         0    150    1.07     81.4            DESIRT_80_2025_r_3.json  75.06 -21.09 2026-01-23T02:56:09.995 23:56 21:56    4.15        0      0.15     8.33     8.49
-     11  desirt         0    160    1.05     85.2            DESIRT_80_2025_r_4.json  79.18 -21.50 2026-01-23T03:04:39.117 00:04 22:04    3.86        0      0.14     8.33     8.47
-     28     eta         0    170    1.51    116.9       etale.ec0814.griz.11min.json 158.03 -60.69 2026-01-23T03:13:07.609 00:13 22:13   65.94        1      5.42    10.33    15.75
-     29     eta         0    180    1.49    118.4       etale.ec0915.griz.11min.json 161.26 -59.68 2026-01-23T03:28:52.687 00:28 22:28    1.89        0      0.07    10.33    10.40
-      0    dosc         0    190    1.65    153.0 1_OMLApex.260122_i_12-dithpos.json 166.68 -24.98 2026-01-23T03:39:16.855 00:39 22:39   34.91        1      4.28    30.00    34.28
-      1    dosc         0    200    1.42    153.1  2_OMLApex.260122_r_9-dithpos.json 166.68 -24.98 2026-01-23T04:13:33.656 01:13 23:13    0.00        0      0.00    22.50    22.50
-      2    dosc         0    210    1.32    153.1  3_OMLApex.260122_g_5-dithpos.json 166.68 -24.98 2026-01-23T04:36:03.656 01:36 23:36    0.00        0      0.00    12.50    12.50
-     19     yse         0    220    1.75    141.1                      2025ahkt.json 141.42  22.42 2026-01-23T04:48:33.656 01:48 23:48   53.36        0      1.96     2.67     4.62
+      3  desirt         0     10    1.27     36.1               DESIRT_2025abcr.json  26.65 -15.37 2026-01-23T00:55:35.359 21:55 19:55    0.00      0.0      0.00     5.50     5.50
+     18     yse         0     20    1.29     36.1                      2025abcr.json  26.73 -15.28 2026-01-23T01:01:05.359 22:01 20:01    0.12      0.0      0.00     3.50     3.50
+     27     yse         0     30    1.29     42.7                           XMM.json  35.57  -4.78 2026-01-23T01:04:35.613 22:04 20:04   13.63      0.0      0.50    10.67    11.17
+     17     yse         0     40    1.10     75.0                      2025aarm.json  68.05  -5.29 2026-01-23T01:15:45.609 22:15 20:15   32.35      0.0      1.19     2.67     3.85
+     23     yse         0     50    1.02     69.6                           253.json  61.28 -24.71 2026-01-23T01:19:36.789 22:19 20:19   20.47      0.0      0.75     8.00     8.75
+     22     yse         0     60    1.03     68.0                       2025tis.json  58.84 -28.07 2026-01-23T01:28:21.831 22:28 20:28    4.01      0.0      0.15     3.33     3.48
+     25     yse         0     70    1.06     62.9                        XECDFS.json  52.98 -28.08 2026-01-23T01:31:50.661 22:31 20:31    5.17      0.0      0.19    10.67    10.86
+     26     yse         0     80    1.08     74.5                         XEDFS.json  61.25 -48.42 2026-01-23T01:42:42.041 22:42 20:42   21.32      1.0      3.78    10.67    14.45
+      4  desirt         0     90    1.04     73.8            DESIRT_80_2025_g_1.json  66.49 -21.30 2026-01-23T01:57:08.948 22:57 20:57   27.45      1.0      4.01     6.67    10.67
+      5  desirt         0    100    1.03     77.6            DESIRT_80_2025_g_2.json  70.62 -20.89 2026-01-23T02:07:49.330 23:07 21:07    3.88      0.0      0.14     6.67     6.81
+      6  desirt         0    110    1.03     81.7            DESIRT_80_2025_g_3.json  75.06 -21.09 2026-01-23T02:14:37.861 23:14 21:14    4.15      0.0      0.15     6.67     6.82
+      7  desirt         0    120    1.02     85.5            DESIRT_80_2025_g_4.json  79.18 -21.50 2026-01-23T02:21:26.983 23:21 21:21    3.86      0.0      0.14     6.67     6.81
+      8  desirt         0    130    1.08     73.6            DESIRT_80_2025_r_1.json  66.49 -21.30 2026-01-23T02:28:15.475 23:28 21:28   11.81      0.0      0.43     8.33     8.77
+      9  desirt         0    140    1.07     77.4            DESIRT_80_2025_r_2.json  70.62 -20.89 2026-01-23T02:37:01.464 23:37 21:37    3.88      0.0      0.14     8.33     8.48
+     10  desirt         0    150    1.05     81.5            DESIRT_80_2025_r_3.json  75.06 -21.09 2026-01-23T02:45:29.995 23:45 21:45    4.15      0.0      0.15     8.33     8.49
+     31  shadow         0    160    1.20     79.4       Shadow_Dorado_g90_extra.json  66.09 -56.96 2026-01-23T02:53:59.117 23:53 21:53   36.47      1.0      4.34    10.00    14.34
+     32  shadow         0    170    1.22     79.4       Shadow_Dorado_r90_extra.json  66.09 -56.96 2026-01-23T03:08:19.353 00:08 22:08    0.00      0.0      0.00    10.00    10.00
+     28     eta         0    180    1.49    117.0       etale.ec0814.griz.11min.json 158.03 -60.69 2026-01-23T03:18:19.353 00:18 22:18   43.79      0.0      1.61    10.33    11.94
+     29     eta         0    190    1.49    118.4       etale.ec0915.griz.11min.json 161.26 -59.68 2026-01-23T03:30:15.685 00:30 22:30    1.89      0.0      0.07    10.33    10.40
+      0    dosc         0    200    1.64    153.0 1_OMLApex.260122_i_12-dithpos.json 166.68 -24.98 2026-01-23T03:40:39.853 00:40 22:40   34.91      1.0      4.28    30.00    34.28
+      1    dosc         0    210    1.42    153.1  2_OMLApex.260122_r_9-dithpos.json 166.68 -24.98 2026-01-23T04:14:56.654 01:14 23:14    0.00      0.0      0.00    22.50    22.50
+      2    dosc         0    220    1.31    153.1  3_OMLApex.260122_g_5-dithpos.json 166.68 -24.98 2026-01-23T04:37:26.654 01:37 23:37    0.00      0.0      0.00    12.50    12.50
+     19     yse         0    230    1.74    141.1                      2025ahkt.json 141.42  22.42 2026-01-23T04:49:56.654 01:49 23:49   53.36      0.0      1.96     2.67     4.62
 
 #####################
 ### EXTRA TARGETS:
 #####################
- jsonID program  priority  order airmass sep_moon              json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
-     20     yse         0     -1     NaN      NaN           2025ahnj.json   5.91  -1.37 NaN NaN NaN     NaN        1       NaN     2.67      NaN
-     24     yse         0     -1     NaN      NaN                ELA.json   9.45 -43.98 NaN NaN NaN     NaN        0       NaN    10.67      NaN
-     12  desirt         1     -1     NaN      NaN DESIRT_80_2025_i_1.json  66.49 -21.30 NaN NaN NaN     NaN        0       NaN     9.17      NaN
-     13  desirt         1     -1     NaN      NaN DESIRT_80_2025_i_2.json  70.62 -20.89 NaN NaN NaN     NaN        0       NaN     9.17      NaN
-     16  desirt         1     -1     NaN      NaN      DESIRT_Potato.json  74.20 -11.73 NaN NaN NaN     NaN        0       NaN    13.50      NaN
-     14  desirt         1     -1     NaN      NaN DESIRT_80_2025_i_3.json  75.06 -21.09 NaN NaN NaN     NaN        0       NaN     9.17      NaN
-     15  desirt         1     -1     NaN      NaN DESIRT_80_2025_i_4.json  79.18 -21.50 NaN NaN NaN     NaN        0       NaN     9.17      NaN
-     21     yse         0     -1     NaN      NaN           2025ajmj.json 211.30 -33.68 NaN NaN NaN     NaN        0       NaN     2.67      NaN
+ jsonID program  priority  order airmass sep_moon                        json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     30     twi         0     -1     NaN      NaN SheppardTwilightJan22evening.json   3.17  -6.92 NaN NaN NaN     NaN      0.0       NaN    26.70      NaN
+     20     yse         0     -1     NaN      NaN                     2025ahnj.json   5.91  -1.37 NaN NaN NaN     NaN      1.0       NaN     2.67      NaN
+     24     yse         0     -1     NaN      NaN                          ELA.json   9.45 -43.98 NaN NaN NaN     NaN      0.0       NaN    10.67      NaN
+     36  shadow         1     -1     NaN      NaN          Shadow_Fornax_r90_2.json  53.34 -35.47 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
+     35  shadow         1     -1     NaN      NaN          Shadow_Fornax_g90_2.json  53.34 -35.47 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
+     34  shadow         0     -1     NaN      NaN          Shadow_Fornax_r90_1.json  53.80 -35.64 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
+     33  shadow         0     -1     NaN      NaN          Shadow_Fornax_g90_1.json  53.80 -35.64 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
+     40  shadow         2     -1     NaN      NaN          Shadow_Fornax_r90_3.json  56.49 -32.55 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
+     39  shadow         2     -1     NaN      NaN          Shadow_Fornax_g90_3.json  56.49 -32.55 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
+     12  desirt         1     -1     NaN      NaN           DESIRT_80_2025_i_1.json  66.49 -21.30 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
+     13  desirt         1     -1     NaN      NaN           DESIRT_80_2025_i_2.json  70.62 -20.89 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
+     16  desirt         1     -1     NaN      NaN                DESIRT_Potato.json  74.20 -11.73 NaN NaN NaN     NaN      0.0       NaN    13.50      NaN
+     14  desirt         1     -1     NaN      NaN           DESIRT_80_2025_i_3.json  75.06 -21.09 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
+     15  desirt         1     -1     NaN      NaN           DESIRT_80_2025_i_4.json  79.18 -21.50 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
+     11  desirt         0     -1     NaN      NaN           DESIRT_80_2025_r_4.json  79.18 -21.50 NaN NaN NaN     NaN      0.0       NaN     8.33      NaN
+     38  shadow         1     -1     NaN      NaN             Shadow_Hydra_r90.json 158.71 -27.34 NaN NaN NaN     NaN      0.0       NaN     6.00      NaN
+     37  shadow         1     -1     NaN      NaN       Shadow_Hydra_g90_extra.json 158.71 -27.34 NaN NaN NaN     NaN      0.0       NaN     6.00      NaN
+     21     yse         0     -1     NaN      NaN                     2025ajmj.json 211.30 -33.68 NaN NaN NaN     NaN      0.0       NaN     2.67      NaN

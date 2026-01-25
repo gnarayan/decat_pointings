@@ -1,0 +1,73 @@
+[
+ {
+  "propid": "2023A-249014",
+  "proposer": "Rector",
+  "program": "NOIRLab Legacy Imaging", 
+  "object": "P676", 
+  "RA_offset": 100, 
+  "ditherPattern": "Center+Rectangle", 
+  "expTime": 480, 
+  "filter": "N673", 
+  "dec_offset": 100, 
+  "SCRIPT_COMMENT": "YES", 
+  "SEQ_LEN": 5, 
+  "dec": -45.56028, 
+  "expType": "object", 
+  "RA": 137.84792
+ }, 
+ {
+  "propid": "2023A-249014",
+  "proposer": "Rector",
+  "program": "NOIRLab Legacy Imaging", 
+  "expType": "object", 
+  "object": "P676", 
+  "filter": "N673", 
+  "RA": 137.847917, 
+  "dec": -45.560278, 
+  "expTime": 480
+ }, 
+ {
+  "propid": "2023A-249014",
+  "proposer": "Rector",
+  "program": "NOIRLab Legacy Imaging", 
+  "expType": "object", 
+  "object": "P676", 
+  "filter": "N673", 
+  "RA": 137.808233, 
+  "dec": -45.588056, 
+  "expTime": 480
+ }, 
+ {
+  "propid": "2023A-249014",
+  "proposer": "Rector",
+  "program": "NOIRLab Legacy Imaging", 
+  "expType": "object", 
+  "object": "P676", 
+  "filter": "N673", 
+  "RA": 137.8876, 
+  "dec": -45.588056, 
+  "expTime": 480
+ }, 
+ {
+  "propid": "2023A-249014",
+  "proposer": "Rector",
+  "program": "NOIRLab Legacy Imaging", 
+  "expType": "object", 
+  "object": "P676", 
+  "filter": "N673", 
+  "RA": 137.8876, 
+  "dec": -45.5325, 
+  "expTime": 480
+ }, 
+ {
+  "propid": "2023A-249014",
+  "proposer": "Rector",
+  "program": "NOIRLab Legacy Imaging", 
+  "expType": "object", 
+  "object": "P676", 
+  "filter": "N673", 
+  "RA": 137.808233, 
+  "dec": -45.5325, 
+  "expTime": 480
+ }
+]

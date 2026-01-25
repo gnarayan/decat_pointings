@@ -1,5 +1,5 @@
 #export OBSPLAN_ROOTDIR="/Users/arest/observing/decat-obsplan-generator"
-if [[ $HOSTNAME =~ arminmac* ]] || [[  $HOSTNAME =~ lswlan* ]]; then
+if [[ $HOSTNAME =~ arminmac* ]] || [[  $HOSTNAME =~ eduroam* ]]|| [[  $HOSTNAME =~ lswlan* ]]; then
 	export OBSPLAN_ROOTDIR="/Users/arest/observing/decat_pointings"
 	alias cdjson='cd $OBSPLAN_ROOTDIR/json_files'
 	alias cdobsplan='cd $OBSPLAN_ROOTDIR'

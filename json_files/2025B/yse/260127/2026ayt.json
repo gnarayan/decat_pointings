@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2026ayt",
+"filter": "g",
+"expTime": 10,
+"RA": "141.8449",
+"dec": "-31.9216",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2026ayt",
+"filter": "r",
+"expTime": 10,
+"RA": "141.8449",
+"dec": "-31.9216",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2026ayt",
+"filter": "i",
+"expTime": 10,
+"RA": "141.8449",
+"dec": "-31.9216",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2026ayt",
+"filter": "z",
+"expTime": 10,
+"RA": "141.8449",
+"dec": "-31.9216",
+"propid": "2024B-763968"
+}
+]

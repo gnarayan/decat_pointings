@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "COSMOS_a",
 "filter": "g",
-"expTime": 50,
+"expTime": 60,
 "RA": "150.1100",
 "dec": "3.2100",
 "propid": "2024B-763968"
@@ -14,7 +14,7 @@
 "expType": "object",
 "object": "COSMOS_b",
 "filter": "g",
-"expTime": 50,
+"expTime": 60,
 "RA": "148.7100",
 "dec": "2.2300",
 "propid": "2024B-763968"
@@ -24,7 +24,7 @@
 "expType": "object",
 "object": "COSMOS_c",
 "filter": "g",
-"expTime": 50,
+"expTime": 60,
 "RA": "150.1100",
 "dec": "1.4100",
 "propid": "2024B-763968"
@@ -34,7 +34,7 @@
 "expType": "object",
 "object": "COSMOS_d",
 "filter": "g",
-"expTime": 50,
+"expTime": 60,
 "RA": "151.5110",
 "dec": "2.2300",
 "propid": "2024B-763968"
@@ -44,7 +44,7 @@
 "expType": "object",
 "object": "COSMOS_a",
 "filter": "i",
-"expTime": 50,
+"expTime": 90,
 "RA": "150.1100",
 "dec": "3.2100",
 "propid": "2024B-763968"
@@ -54,7 +54,7 @@
 "expType": "object",
 "object": "COSMOS_b",
 "filter": "i",
-"expTime": 50,
+"expTime": 90,
 "RA": "148.7100",
 "dec": "2.2300",
 "propid": "2024B-763968"
@@ -64,7 +64,7 @@
 "expType": "object",
 "object": "COSMOS_c",
 "filter": "i",
-"expTime": 50,
+"expTime": 90,
 "RA": "150.1100",
 "dec": "1.4100",
 "propid": "2024B-763968"
@@ -74,7 +74,7 @@
 "expType": "object",
 "object": "COSMOS_d",
 "filter": "i",
-"expTime": 50,
+"expTime": 90,
 "RA": "151.5110",
 "dec": "2.2300",
 "propid": "2024B-763968"

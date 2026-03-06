@@ -1,16 +1,16 @@
 debass2603062026dgp_P1 [136 -38]
 debass2603062026efq_P1 [139 9]
-debass2603062026enf_P1 [154 -3]
-debass2603062026ept_P1 [148 22]
 debass2603062026ayz_P1 [158 -31]
 debass2603062026cli_P1 [159 2]
 debass2603062026etq_P1 [167 -22]
 debass2603062026egq_P1 [170 0]
+debass2603062026drr_P1 [168 3]
 debass2603062026coz_P1 [177 -17]
 debass2603062026egw_P1 [185 11]
 debass2603062026ehe_P1 [195 16]
+debass2603062026dsy_P1 [241 18]
 
 
 
-EVERYTHING	40.0 minutes
-EVERYTHING_P1	40.0 minutes
+EVERYTHING	37.5 minutes
+EVERYTHING_P1	37.5 minutes

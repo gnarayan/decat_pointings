@@ -1,0 +1,72 @@
+[
+    {
+        "object": "Field6",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "r",
+        "exptime": 90,
+        "RA": 187.4805,
+        "dec": 10.4477
+    },
+    {
+        "object": "Field7",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "r",
+        "exptime": 90,
+        "RA": 185.9601,
+        "dec": 11.6469
+    },
+    {
+        "object": "Field8",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "r",
+        "exptime": 90,
+        "RA": 187.6007,
+        "dec": 8.4389
+    },
+    {
+        "object": "Field9",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "r",
+        "exptime": 90,
+        "RA": 186.0131,
+        "dec": 7.1655
+    },
+    {
+        "object": "Field10",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "r",
+        "exptime": 90,
+        "RA": 184.8111,
+        "dec": 5.7578
+    }
+]

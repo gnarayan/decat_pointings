@@ -1,4 +1,5 @@
 debass2603082026ccr_P1 [148 -11]
+debass2603082026efx_P1 [152 22]
 debass2603082026etq_P1 [167 -22]
 debass2603082026egq_P1 [170 0]
 debass2603082026drr_P1 [168 3]
@@ -6,5 +7,5 @@ debass2603082026coz_P1 [177 -17]
 
 
 
-EVERYTHING	14.9 minutes
-EVERYTHING_P1	14.9 minutes
+EVERYTHING	20.1 minutes
+EVERYTHING_P1	20.1 minutes

@@ -1,0 +1,56 @@
+UT -14 deg twilight: 2026-03-11T00:07:44.729 2026-03-11T09:39:14.872
+UT middle of the night: 2026-03-11T04:53:29.801
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 03/10/2026,   21:07:44 to 06:39:14
+timezone ET: America/New_YorkET  -14 deg twilight: 03/10/2026,   20:07:44 to 05:39:14
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 03/10/2026,   17:07:44 to 02:39:14
+CLT middle of the night: 01:53:29
+ET  middle of the night: 00:53:29
+PT  middle of the night: 21:53:29
+
+
+UT -14 deg twilight: 2026-03-11T00:07:44.729 2026-03-11T09:39:14.872
+UT middle of the night: 2026-03-11T04:53:29.801
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 03/10/2026,   21:07:44 to 06:39:14
+timezone ET: America/New_YorkET  -14 deg twilight: 03/10/2026,   20:07:44 to 05:39:14
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 03/10/2026,   17:07:44 to 02:39:14
+CLT middle of the night: 01:53:29
+ET  middle of the night: 00:53:29
+PT  middle of the night: 21:53:29
+
+
+
+#####################
+### OBSPLAN:
+#####################
+ jsonID program  priority  order airmass sep_moon                             json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     14  debass         0     10    2.09    133.5                        2026ejr_P1.json 121.21   8.19 2026-03-11T04:53:29.801 01:53 00:53    0.00      0.0      0.00     3.00     3.00
+     13  debass         0     20    1.78    112.3                        2026efx_P1.json 152.36  22.49 2026-03-11T04:56:29.801 01:56 00:56   33.15      0.0      1.22     3.00     4.22
+      8     yse         0     30    1.29    105.6                              XCOS.json 150.11   2.27 2026-03-11T05:00:42.736 02:00 01:00   20.34      0.0      0.75    10.67    11.41
+      9     eta         0     40    1.19     69.8           etale.ec0814.griz.11min.json 158.03 -60.69 2026-03-11T05:12:07.479 02:12 01:12   63.26      1.0      5.32    10.33    15.65
+     10     eta         0     50    1.18     68.7           etale.ec0915.griz.11min.json 161.26 -59.68 2026-03-11T05:27:46.648 02:27 01:27    1.89      0.0      0.07    10.33    10.40
+     12  debass         0     60    1.27     93.3                        2026dgp_P1.json 136.65 -38.23 2026-03-11T05:38:10.816 02:38 01:38   26.54      0.0      0.97     3.00     3.97
+     15  debass         0     70    1.04     79.3                        2026etq_P1.json 167.56 -22.22 2026-03-11T05:42:09.194 02:42 01:42   30.92      1.0      4.13     3.00     7.13
+     11  debass         0     80    1.09     83.0                        2026ckh_P1.json 167.48 -14.13 2026-03-11T05:49:17.221 02:49 01:49    8.09      0.0      0.30     3.00     3.30
+      7     yse         0     90    1.33     78.2                               525.json 186.99  11.09 2026-03-11T05:52:35.014 02:52 01:52   31.78      0.0      1.17    32.00    33.17
+     18  shadow         0    100    1.29     76.6             Shadow_Virgo_Field8_g.json 187.60   8.44 2026-03-11T06:25:44.941 03:25 02:25    2.72      0.0      0.10     2.00     2.10
+     19  shadow         0    110    1.29     76.6             Shadow_Virgo_Field8_r.json 187.60   8.44 2026-03-11T06:27:50.920 03:27 02:27    0.00      0.0      0.00     2.00     2.00
+     21  shadow         0    120    1.28     77.3             Shadow_Virgo_Field9_r.json 186.01   7.17 2026-03-11T06:29:50.920 03:29 02:29    2.02      0.0      0.07     2.00     2.07
+     20  shadow         0    130    1.28     77.3             Shadow_Virgo_Field9_g.json 186.01   7.17 2026-03-11T06:31:55.372 03:31 02:31    0.00      0.0      0.00     2.00     2.00
+     17  shadow         0    140    1.26     77.6            Shadow_Virgo_Field10_r.json 184.81   5.76 2026-03-11T06:33:55.372 03:33 02:33    1.85      0.0      0.07     2.00     2.07
+     16  shadow         0    150    1.26     77.6            Shadow_Virgo_Field10_g.json 184.81   5.76 2026-03-11T06:35:59.433 03:35 02:35    0.00      0.0      0.00     2.00     2.00
+      5     yse         0    160    1.17     38.2                               376.json 222.21  -9.14 2026-03-11T06:37:59.433 03:37 02:37   40.15      0.0      1.47    16.00    17.47
+      6     yse         0    170    1.26     38.8                               428.json 228.14  -1.49 2026-03-11T06:55:27.753 03:55 02:55    9.66      0.0      0.35    16.00    16.35
+      4     yse         0    180    1.18     14.8                           2026cmv.json 241.99 -23.92 2026-03-11T07:11:49.001 04:11 03:11   26.13      0.0      0.96     2.33     3.29
+      0    dosc         0    190    1.01     38.4  1_ShallowApex.260310_g_5-dithpos.json 213.20 -33.90 2026-03-11T07:15:06.487 04:15 03:15   27.00      1.0      3.99    12.50    16.49
+      1    dosc         0    200    1.00     38.5  2_ShallowApex.260310_r_5-dithpos.json 213.20 -33.90 2026-03-11T07:31:35.877 04:31 03:31    0.00      0.0      0.00    12.50    12.50
+      2    dosc         0    210    1.00     38.6  3_ShallowApex.260310_i_5-dithpos.json 213.20 -33.90 2026-03-11T07:44:05.877 04:44 03:44    0.00      0.0      0.00    12.50    12.50
+      3    dosc         0    220    1.00     38.7 4_ShallowApex.260310_z_11-dithpos.json 213.20 -33.90 2026-03-11T07:56:35.877 04:56 03:56    0.00      0.0      0.00    27.50    27.50
+
+#####################
+### EXTRA TARGETS:
+#####################
+ jsonID program  priority  order airmass sep_moon         json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     23     eta         1     -1     NaN      NaN etale.r.17min.json 161.26 -59.68 NaN NaN NaN     NaN      0.0       NaN    17.33      NaN
+     22     eta         1     -1     NaN      NaN etale.i.15min.json 161.26 -59.68 NaN NaN NaN     NaN      0.0       NaN    15.17      NaN

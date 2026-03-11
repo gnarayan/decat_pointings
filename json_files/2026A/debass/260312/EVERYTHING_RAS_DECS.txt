@@ -1,0 +1,15 @@
+debass2603122026ejr_P1 [121 8]
+debass2603122026dgp_P1 [136 -38]
+debass2603122026efq_P1 [139 9]
+debass2603122026efx_P1 [152 22]
+debass2603122026exe_P1 [160 0]
+debass2603122026etq_P1 [167 -22]
+debass2603122026ckh_P1 [167 -14]
+debass2603122026egq_P1 [170 0]
+debass2603122026drr_P1 [168 3]
+debass2603122026egw_P1 [185 11]
+
+
+
+EVERYTHING	34.5 minutes
+EVERYTHING_P1	34.5 minutes

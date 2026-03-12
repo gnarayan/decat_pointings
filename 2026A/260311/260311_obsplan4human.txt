@@ -61,7 +61,10 @@ PT  middle of the night: 21:53:13
 #####################
 ### EXTRA TARGETS:
 #####################
- jsonID program  priority  order airmass sep_moon               json_short     ra   dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
-     37  desirt         2     -1     NaN      NaN DESIRT_G15-1_2026_z.json 225.08 -5.70 NaN NaN NaN     NaN      0.0       NaN    13.00      NaN
-     29  desirt         2     -1     NaN      NaN DESIRT_G15-2_2026_z.json 225.61 -1.68 NaN NaN NaN     NaN      0.0       NaN    21.67      NaN
-     31  desirt         2     -1     NaN      NaN DESIRT_G15-3_2026_z.json 226.79 -0.72 NaN NaN NaN     NaN      0.0       NaN    10.83      NaN
+ jsonID program  priority  order airmass sep_moon                        json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     38     yse         1     -1     NaN      NaN               muryelJ1421m29.json 215.41 -29.80 NaN NaN NaN     NaN      0.0       NaN     9.00      NaN
+     37  desirt         2     -1     NaN      NaN          DESIRT_G15-1_2026_z.json 225.08  -5.70 NaN NaN NaN     NaN      0.0       NaN    13.00      NaN
+     29  desirt         2     -1     NaN      NaN          DESIRT_G15-2_2026_z.json 225.61  -1.68 NaN NaN NaN     NaN      0.0       NaN    21.67      NaN
+     31  desirt         2     -1     NaN      NaN          DESIRT_G15-3_2026_z.json 226.79  -0.72 NaN NaN NaN     NaN      0.0       NaN    10.83      NaN
+     39     yse         1     -1     NaN      NaN               muryelJ1615p19.json 243.89  19.54 NaN NaN NaN     NaN      0.0       NaN     9.00      NaN
+     40     twi         0     -1     NaN      NaN SheppardTwilightMar12morning.json 315.25 -24.00 NaN NaN NaN     NaN      0.0       NaN    12.78      NaN

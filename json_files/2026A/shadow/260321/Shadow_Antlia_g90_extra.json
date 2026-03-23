@@ -1,0 +1,16 @@
+[
+    {
+        "object": "Field1",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Antlia pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "g",
+        "exptime": 90,
+        "RA": 157.3975,
+        "dec": -35.3325
+    }
+]

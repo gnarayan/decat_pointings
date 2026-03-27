@@ -3,8 +3,8 @@
 "count": 1,
 "expType": "object",
 "object": "2025advo",
-"filter": "i",
-"expTime": 70,
+"filter": "r",
+"expTime": 100,
 "RA": "124.4140",
 "dec": "4.7018",
 "propid": "2026A-625308"
@@ -14,17 +14,7 @@
 "expType": "object",
 "object": "2025advo",
 "filter": "i",
-"expTime": 70,
-"deltaDEC": "S60.000000",
-"deltaRA": "E60.000000",
-"propid": "2026A-625308"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "2025advo",
-"filter": "z",
-"expTime": 70,
+"expTime": 100,
 "RA": "124.4140",
 "dec": "4.7018",
 "propid": "2026A-625308"
@@ -34,9 +24,9 @@
 "expType": "object",
 "object": "2025advo",
 "filter": "z",
-"expTime": 70,
-"deltaDEC": "S60.000000",
-"deltaRA": "E60.000000",
+"expTime": 100,
+"RA": "124.4140",
+"dec": "4.7018",
 "propid": "2026A-625308"
 }
 ]

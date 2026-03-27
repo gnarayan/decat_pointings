@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "ec1014",
+"filter": "r",
+"expTime": 100,
+"RA": "164.4938",
+"dec": "-60.6890",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ec1015",
+"filter": "r",
+"expTime": 100,
+"RA": "164.3057",
+"dec": "-58.6799",
+"propid": "2024B-441839"
+}
+]

@@ -1,6 +1,6 @@
 [
     {
-        "object": "Field8",
+        "object": "Field10",
         "program": "shadow",
         "expType": "object",
         "note": "None",
@@ -8,9 +8,9 @@
         "wait": "False",
         "proposer": "Sand, David",
         "propid": "2025B-589422",
-        "filter": "g",
+        "filter": "r",
         "exptime": 90,
-        "RA": 187.6007,
-        "dec": 8.4389
+        "RA": 184.8111,
+        "dec": 5.7578
     }
 ]

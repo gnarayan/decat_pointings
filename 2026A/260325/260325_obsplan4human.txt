@@ -43,6 +43,7 @@ PT  middle of the night: 21:49:11
       6  desirt         0     -1     NaN      NaN      DESIRT_80_2025_r_2.json  70.62 -20.89 NaN NaN NaN     NaN      0.0       NaN     8.33      NaN
       4  desirt         0     -1     NaN      NaN      DESIRT_80_2025_i_3.json  75.06 -21.09 NaN NaN NaN     NaN      0.0       NaN     9.17      NaN
       7  desirt         0     -1     NaN      NaN      DESIRT_80_2025_r_3.json  75.06 -21.09 NaN NaN NaN     NaN      0.0       NaN     8.33      NaN
+     18  desirt         0     -1     NaN      NaN        DESIRT_EP260321a.json 149.85   0.42 NaN NaN NaN     NaN      0.0       NaN     8.00      NaN
      10     eta         0     -1     NaN      NaN etale.ec0814.griz.11min.json 158.03 -60.69 NaN NaN NaN     NaN      0.0       NaN    10.33      NaN
       1  desirt         0     -1     NaN      NaN       DESIRT_165_2026_r.json 162.17  -3.50 NaN NaN NaN     NaN      1.0       NaN    15.00      NaN
       0  desirt         0     -1     NaN      NaN       DESIRT_165_2026_g.json 162.17  -3.50 NaN NaN NaN     NaN      0.0       NaN    12.00      NaN

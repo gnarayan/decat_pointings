@@ -1,9 +1,9 @@
 [
     {
-        "object": "DESIRT 66240",
+        "object": "DESIRT 1186",
         "expTime": 50,
-        "RA": "159.663",
-        "dec": "-3.15",
+        "RA": "224.153",
+        "dec": "-0.00089",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -11,13 +11,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 27863",
+        "object": "DESIRT 1188",
         "expTime": 50,
-        "RA": "160.846",
-        "dec": "0.0",
+        "RA": "226.02108",
+        "dec": "-0.07339",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -25,13 +25,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 7150",
+        "object": "DESIRT 1189",
         "expTime": 50,
-        "RA": "160.777",
-        "dec": "-6.009",
+        "RA": "227.92196",
+        "dec": "-0.084",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -39,13 +39,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 7139",
+        "object": "DESIRT 1183",
         "expTime": 50,
-        "RA": "162.550999",
-        "dec": "-5.962",
+        "RA": "227.141",
+        "dec": "-1.721",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -53,13 +53,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 7125",
+        "object": "DESIRT 1184",
         "expTime": 50,
-        "RA": "161.69575",
-        "dec": "-4.494694",
+        "RA": "228.72879",
+        "dec": " -1.7225",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -67,13 +67,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 7127",
+        "object": "DESIRT 1181",
         "expTime": 50,
-        "RA": "162.599",
-        "dec": "-2.982",
+        "RA": "226.4045",
+        "dec": " -3.34319",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -81,13 +81,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 7127",
+        "object": "DESIRT 1180",
         "expTime": 50,
-        "RA": "161.723",
-        "dec": "-1.498",
+        "RA": "224.507",
+        "dec": " -3.306",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -95,13 +95,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 7137",
+        "object": "DESIRT 1187",
         "expTime": 50,
-        "RA": "164.3805833",
-        "dec": "-2.951889",
+        "RA": "222.608",
+        "dec": "-3.24",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -109,13 +109,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
     },
     {
-        "object": "DESIRT 7109",
+        "object": "DESIRT 1170",
         "expTime": 50,
-        "RA": "165.2641249",
-        "dec": "-4.412722",
+        "RA": "223.367",
+        "dec": "-1.624",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -123,6 +123,20 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 165_2026"
+        "comment": "DESI Transients Survey G15-2_2026"
+    },
+    {
+        "object": "DESIRT 1182",
+        "expTime": 50,
+        "RA": "225.255",
+        "dec": " -1.686",
+        "filter": "g",
+        "count": 1,
+        "expType": "object",
+        "program": "DESI Transients Survey",
+        "wait": "False",
+        "propid": "2025A-729671",
+        "proposer": "Palmese",
+        "comment": "DESI Transients Survey G15-2_2026"
     }
 ]

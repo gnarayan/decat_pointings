@@ -2,41 +2,41 @@
 {
 "count": 1,
 "expType": "object",
-"object": "2026gvk",
+"object": "2025ahkt",
 "filter": "g",
-"expTime": 5,
-"RA": "169.9588",
-"dec": "-27.7767",
+"expTime": 10,
+"RA": "141.4245",
+"dec": "22.4219",
 "propid": "2024B-763968"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2026gvk",
+"object": "2025ahkt",
 "filter": "r",
-"expTime": 5,
-"RA": "169.9588",
-"dec": "-27.7767",
+"expTime": 10,
+"RA": "141.4245",
+"dec": "22.4219",
 "propid": "2024B-763968"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2026gvk",
+"object": "2025ahkt",
 "filter": "i",
-"expTime": 5,
-"RA": "169.9588",
-"dec": "-27.7767",
+"expTime": 10,
+"RA": "141.4245",
+"dec": "22.4219",
 "propid": "2024B-763968"
 },
 {
 "count": 1,
 "expType": "object",
-"object": "2026gvk",
+"object": "2025ahkt",
 "filter": "z",
-"expTime": 5,
-"RA": "169.9588",
-"dec": "-27.7767",
+"expTime": 10,
+"RA": "141.4245",
+"dec": "22.4219",
 "propid": "2024B-763968"
 }
 ]

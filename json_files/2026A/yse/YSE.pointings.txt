@@ -1021,3 +1021,4 @@ A11pl3Z_250705_UTC4am    NaN 269.77824 -18.55298     0       NaN                
              2025advo    NaN 124.41403   4.70176     0       NaN                    NaN              2025advo      N4          35
               2026gzx    NaN 178.48487 -23.07566     0       NaN                    NaN               2026gzx      N4          35
               2026gvk    NaN 169.95880 -27.77669     0       NaN                    NaN               2026gvk      N4          35
+              2026hkg    NaN 135.89480 -67.88338     0       NaN                    NaN               2026hkg      N4          35

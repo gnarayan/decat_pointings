@@ -2,6 +2,26 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.A.a",
+"filter": "r",
+"expTime": 50,
+"RA": "225.3541",
+"dec": "-3.7835",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "428.B.a",
+"filter": "r",
+"expTime": 50,
+"RA": "223.4401",
+"dec": "3.7706",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.C.a",
 "filter": "r",
 "expTime": 50,

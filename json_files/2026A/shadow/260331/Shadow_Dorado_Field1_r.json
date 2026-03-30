@@ -1,0 +1,16 @@
+[
+    {
+        "object": "Field1",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Dorado pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "r",
+        "exptime": 90,
+        "RA": 71.4476,
+        "dec": -59.2477
+    }
+]

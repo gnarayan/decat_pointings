@@ -48,5 +48,55 @@
 "deltaDEC": "N60.000000",
 "deltaRA": "W20.000000",
 "propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "muryelJ1615p19",
+"filter": "i",
+"expTime": 150,
+"RA": "243.8907",
+"dec": "19.5392",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "muryelJ1615p19",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "muryelJ1615p19",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "muryelJ1615p19",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "N100.000000",
+"deltaRA": "W80.000000",
+"propid": "2024B-441839"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "muryelJ1615p19",
+"filter": "i",
+"expTime": 150,
+"deltaDEC": "N60.000000",
+"deltaRA": "W20.000000",
+"propid": "2024B-441839"
 }
 ]

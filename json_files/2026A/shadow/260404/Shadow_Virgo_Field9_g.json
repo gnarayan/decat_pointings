@@ -1,6 +1,6 @@
 [
     {
-        "object": "Field8",
+        "object": "Field9",
         "program": "shadow",
         "expType": "object",
         "note": "None",
@@ -10,7 +10,7 @@
         "propid": "2025B-589422",
         "filter": "g",
         "exptime": 90,
-        "RA": 187.6007,
-        "dec": 8.4389
+        "RA": 186.0131,
+        "dec": 7.1655
     }
 ]

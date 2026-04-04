@@ -22,6 +22,16 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.A.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.B.a",
 "filter": "z",
 "expTime": 20,
@@ -37,6 +47,16 @@
 "expTime": 20,
 "deltaDEC": "S60.000000",
 "deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "428.B.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
 "propid": "2024B-763968"
 },
 {
@@ -62,6 +82,16 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.C.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.D.a",
 "filter": "z",
 "expTime": 20,
@@ -77,6 +107,16 @@
 "expTime": 20,
 "deltaDEC": "S60.000000",
 "deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "428.D.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
 "propid": "2024B-763968"
 },
 {
@@ -102,6 +142,16 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.E.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.F.a",
 "filter": "z",
 "expTime": 20,
@@ -117,6 +167,16 @@
 "expTime": 20,
 "deltaDEC": "S60.000000",
 "deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "428.F.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S20.000000",
+"deltaRA": "W40.000000",
 "propid": "2024B-763968"
 }
 ]

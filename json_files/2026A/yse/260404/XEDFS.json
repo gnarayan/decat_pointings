@@ -1,0 +1,162 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_aa",
+"filter": "g",
+"expTime": 50,
+"RA": "58.9000",
+"dec": "-48.3400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ab",
+"filter": "g",
+"expTime": 50,
+"RA": "56.7522",
+"dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ac",
+"filter": "g",
+"expTime": 50,
+"RA": "58.9000",
+"dec": "-50.1400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ad",
+"filter": "g",
+"expTime": 50,
+"RA": "61.0478",
+"dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ba",
+"filter": "g",
+"expTime": 50,
+"RA": "63.6000",
+"dec": "-46.6200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bb",
+"filter": "g",
+"expTime": 50,
+"RA": "61.5238",
+"dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bc",
+"filter": "g",
+"expTime": 50,
+"RA": "63.6000",
+"dec": "-48.4200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bd",
+"filter": "g",
+"expTime": 50,
+"RA": "65.6762",
+"dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_aa",
+"filter": "i",
+"expTime": 50,
+"RA": "58.9000",
+"dec": "-48.3400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ab",
+"filter": "i",
+"expTime": 50,
+"RA": "56.7522",
+"dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ac",
+"filter": "i",
+"expTime": 50,
+"RA": "58.9000",
+"dec": "-50.1400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ad",
+"filter": "i",
+"expTime": 50,
+"RA": "61.0478",
+"dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ba",
+"filter": "i",
+"expTime": 50,
+"RA": "63.6000",
+"dec": "-46.6200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bb",
+"filter": "i",
+"expTime": 50,
+"RA": "61.5238",
+"dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bc",
+"filter": "i",
+"expTime": 50,
+"RA": "63.6000",
+"dec": "-48.4200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bd",
+"filter": "i",
+"expTime": 50,
+"RA": "65.6762",
+"dec": "-47.6000",
+"propid": "2024B-763968"
+}
+]

@@ -4,7 +4,7 @@
 "expType": "object",
 "object": "428.A.a",
 "filter": "z",
-"expTime": 50,
+"expTime": 20,
 "RA": "225.3541",
 "dec": "-3.7835",
 "propid": "2024B-763968"
@@ -12,9 +12,19 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.A.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.B.a",
 "filter": "z",
-"expTime": 50,
+"expTime": 20,
 "RA": "223.4401",
 "dec": "3.7706",
 "propid": "2024B-763968"
@@ -22,9 +32,19 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.B.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.C.a",
 "filter": "z",
-"expTime": 50,
+"expTime": 20,
 "RA": "228.4574",
 "dec": "-3.7835",
 "propid": "2024B-763968"
@@ -32,9 +52,19 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.C.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.D.a",
 "filter": "z",
-"expTime": 50,
+"expTime": 20,
 "RA": "228.4585",
 "dec": "-0.6847",
 "propid": "2024B-763968"
@@ -42,9 +72,19 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.D.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.E.a",
 "filter": "z",
-"expTime": 50,
+"expTime": 20,
 "RA": "231.5607",
 "dec": "-3.7835",
 "propid": "2024B-763968"
@@ -52,11 +92,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "428.E.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "428.F.a",
 "filter": "z",
-"expTime": 50,
+"expTime": 20,
 "RA": "231.5619",
 "dec": "-0.6847",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "428.F.a",
+"filter": "z",
+"expTime": 20,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 }
 ]

@@ -1,0 +1,83 @@
+UT -14 deg twilight: 2026-04-08T23:32:26.165 2026-04-09T09:57:41.863
+UT middle of the night: 2026-04-09T04:45:04.014
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 04/08/2026,   19:32:26 to 05:57:41
+timezone ET: America/New_YorkET  -14 deg twilight: 04/08/2026,   19:32:26 to 05:57:41
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 04/08/2026,   16:32:26 to 02:57:41
+CLT middle of the night: 00:45:04
+ET  middle of the night: 00:45:04
+PT  middle of the night: 21:45:04
+
+
+UT -14 deg twilight: 2026-04-08T23:32:26.165 2026-04-09T09:57:41.863
+UT middle of the night: 2026-04-09T04:45:04.014
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 04/08/2026,   19:32:26 to 05:57:41
+timezone ET: America/New_YorkET  -14 deg twilight: 04/08/2026,   19:32:26 to 05:57:41
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 04/08/2026,   16:32:26 to 02:57:41
+CLT middle of the night: 00:45:04
+ET  middle of the night: 00:45:04
+PT  middle of the night: 21:45:04
+
+
+
+#####################
+### OBSPLAN:
+#####################
+ jsonID program  priority  order airmass sep_moon                            json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     27     yse         0     10    1.77    124.9                             XCOS.json 150.11   2.27 2026-04-09T04:45:04.014 00:45 00:45    0.00        0      0.00     5.33     5.33
+     35  debass         0     20    1.87    119.5                       2026idz_P1.json 163.89  16.74 2026-04-09T04:50:24.014 00:50 00:50   19.82        0      0.73     3.00     3.73
+     24     yse         0     30    1.64     80.6                          2026hkg.json 135.89 -67.88 2026-04-09T04:54:07.628 00:54 00:54   87.05        1      6.19     2.67     8.86
+     19     yse         0     40    1.59    107.8                          2026ayt.json 141.84 -31.92 2026-04-09T05:02:59.132 01:02 01:02   36.13        0      1.32     2.67     3.99
+     30     eta         0     50    1.36     79.6          etale.ec0814.griz.11min.json 158.03 -60.69 2026-04-09T05:06:58.617 01:06 01:06   30.67        0      1.12    10.33    11.46
+     31     eta         0     60    1.35     79.0          etale.ec0915.griz.11min.json 161.26 -59.68 2026-04-09T05:18:26.093 01:18 01:18    1.89        0      0.07    10.33    10.40
+     20     yse         0     70    1.36     98.7                          2026ayz.json 158.46 -30.93 2026-04-09T05:28:50.261 01:28 01:28   28.82        1      4.06     2.67     6.72
+     22     yse         0     80    1.22     92.6                          2026gvk.json 169.96 -27.78 2026-04-09T05:35:33.661 01:35 01:35   10.50        0      0.39     2.33     2.72
+     33  debass         0     90    1.22     92.0                       2026gvk_P1.json 170.82 -27.61 2026-04-09T05:38:16.767 01:38 01:38    0.78        0      0.03     3.00     3.03
+     23     yse         0    100    1.16     88.5                          2026gzx.json 178.48 -23.08 2026-04-09T05:41:18.489 01:41 01:41    8.27        0      0.30     2.33     2.64
+     38  shadow         0    110    1.40     96.8           Shadow_Virgo_Field10_r.json 184.81   5.76 2026-04-09T05:43:56.689 01:43 01:43   29.49        0      1.08     2.00     3.08
+     40  shadow         0    120    1.39     93.8           Shadow_Virgo_Field18_r.json 188.78   6.90 2026-04-09T05:47:01.565 01:47 01:47    4.11        0      0.15     2.00     2.15
+     42  shadow         0    130    1.48     97.5           Shadow_Virgo_Field20_r.json 185.65   8.95 2026-04-09T05:49:10.597 01:49 01:49    3.71        0      0.14     2.00     2.14
+     44  shadow         0    140    1.68    102.5           Shadow_Virgo_Field21_r.json 182.42  13.73 2026-04-09T05:51:18.769 01:51 01:51    5.74        0      0.21     2.00     2.21
+     46  shadow         0    150    1.38     90.5           Shadow_Virgo_Field22_r.json 193.27   8.25 2026-04-09T05:53:31.393 01:53 01:53   11.97        0      0.44     2.00     2.44
+     48  shadow         0    160    1.46     95.6            Shadow_Virgo_Field8_r.json 187.60   8.44 2026-04-09T05:55:57.736 01:55 01:55    5.61        0      0.21     2.00     2.21
+     26     yse         0    180    1.55     97.4                              525.json 186.99  11.09 2026-04-09T05:58:10.075 01:58 01:58    2.72        0      0.10    16.00    16.10
+     37  shadow         0    190    1.53     97.0           Shadow_Virgo_Field10_g.json 184.81   5.76 2026-04-09T06:14:16.054 02:14 02:14    5.75        0      0.21     2.00     2.21
+     39  shadow         0    200    1.49     94.0           Shadow_Virgo_Field18_g.json 188.78   6.90 2026-04-09T06:16:28.705 02:16 02:16    4.11        0      0.15     2.00     2.15
+     41  shadow         0    210    1.62     97.8           Shadow_Virgo_Field20_g.json 185.65   8.95 2026-04-09T06:18:37.737 02:18 02:18    3.71        0      0.14     2.00     2.14
+     43  shadow         0    220    1.88    102.7           Shadow_Virgo_Field21_g.json 182.42  13.73 2026-04-09T06:20:45.909 02:20 02:20    5.74        0      0.21     2.00     2.21
+     45  shadow         0    230    1.48     90.8           Shadow_Virgo_Field22_g.json 193.27   8.25 2026-04-09T06:22:58.533 02:22 02:22   11.97        0      0.44     2.00     2.44
+     47  shadow         0    240    1.60     95.9            Shadow_Virgo_Field8_g.json 187.60   8.44 2026-04-09T06:25:24.876 02:25 02:25    5.61        0      0.21     2.00     2.21
+      6  desirt         0    260    1.43     78.8                  DESIRT_210_14_r.json 210.63  13.94 2026-04-09T06:27:37.215 02:27 02:27   23.24        0      0.85    10.00    10.85
+      5  desirt         0    270    1.45     78.9                  DESIRT_210_14_i.json 210.63  13.94 2026-04-09T06:38:28.333 02:38 02:38    0.00        0      0.00    11.00    11.00
+     34  debass         0    280    1.71     61.2                       2026hkq_P1.json 243.60  22.46 2026-04-09T06:49:28.333 02:49 02:49   32.38        0      1.19     3.00     4.19
+     29     yse         1    290    1.14     56.1                              428.json 228.14  -1.49 2026-04-09T06:53:39.569 02:53 02:53   28.30        0      1.04    16.00    17.04
+      8  desirt         0    300    1.11     56.6              DESIRT_G15-1_2026_r.json 225.08  -5.70 2026-04-09T07:10:41.838 03:10 03:10    5.20        0      0.19    10.00    10.19
+     10  desirt         0    310    1.16     58.3              DESIRT_G15-2_2026_r.json 225.61  -1.68 2026-04-09T07:20:53.285 03:20 03:20    4.06        0      0.15    16.67    16.82
+     12  desirt         0    320    1.18     57.9              DESIRT_G15-3_2026_r.json 226.79  -0.72 2026-04-09T07:37:42.215 03:37 03:37    1.52        0      0.06     8.33     8.39
+      7  desirt         0    330    1.15     56.9              DESIRT_G15-1_2026_i.json 225.08  -5.70 2026-04-09T07:46:05.565 03:46 03:46    5.27        0      0.19    11.00    11.19
+      9  desirt         0    340    1.21     58.6              DESIRT_G15-2_2026_i.json 225.61  -1.68 2026-04-09T07:57:17.158 03:57 03:57    4.06        0      0.15    18.33    18.48
+     28     yse         1    350    1.20     58.1                              376.json 222.21  -9.14 2026-04-09T08:15:46.088 04:15 04:15    8.19        0      0.30    16.00    16.30
+      1    dosc         0    360    1.22     57.6 1_ShallowApex.260408_g_7-dithpos.json 213.20 -33.90 2026-04-09T08:32:04.109 04:32 04:32   26.11        1      3.96    17.50    21.46
+      2    dosc         0    370    1.30     57.8 2_ShallowApex.260408_r_9-dithpos.json 213.20 -33.90 2026-04-09T08:53:31.548 04:53 04:53    0.00        0      0.00    22.50    22.50
+      3    dosc         0    380    1.39     58.0 3_ShallowApex.260408_i_9-dithpos.json 213.20 -33.90 2026-04-09T09:16:01.548 05:16 05:16    0.00        0      0.00    22.50    22.50
+      4    dosc         0    390    1.51     58.2 4_ShallowApex.260408_z_6-dithpos.json 213.20 -33.90 2026-04-09T09:38:31.548 05:38 05:38    0.00        0      0.00    15.00    15.00
+     25     yse         0    400    1.17     35.4                          2026icy.json 266.54 -61.24 2026-04-09T09:53:31.548 05:53 05:53   43.33        0      1.59     2.67     4.26
+      0     twi         0    410    2.16     57.3     SheppardTwilightApr09morning.json 337.92  -6.00 2026-04-09T09:57:41.863 05:57 05:57   75.85        1      5.78    12.78    18.56
+
+#####################
+### EXTRA TARGETS:
+#####################
+ jsonID program  priority  order airmass sep_moon                 json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     32  debass         0     -1     NaN      NaN            2026ejr_P1.json 121.21   8.19 NaN NaN NaN     NaN        0       NaN     3.00      NaN
+     21     yse         0     -1     NaN      NaN               2026efq.json 138.98  10.22 NaN NaN NaN     NaN        0       NaN     2.67      NaN
+     36  debass         1     -1     NaN      NaN            2026fsw_P2.json 157.34   0.03 NaN NaN NaN     NaN        0       NaN     3.00      NaN
+     50  shadow         0     -1     NaN      NaN Shadow_Virgo_Field9_r.json 186.01   7.17 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     49  shadow         0     -1     NaN      NaN Shadow_Virgo_Field9_g.json 186.01   7.17 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     13  desirt         1     -1     NaN      NaN       DESIRT_210_14_z.json 210.63  13.94 NaN NaN NaN     NaN        0       NaN    13.00      NaN
+     16  desirt         2     -1     NaN      NaN   DESIRT_G15-1_2026_z.json 225.08  -5.70 NaN NaN NaN     NaN        0       NaN    13.00      NaN
+     17  desirt         2     -1     NaN      NaN   DESIRT_G15-2_2026_z.json 225.61  -1.68 NaN NaN NaN     NaN        0       NaN    21.67      NaN
+     11  desirt         0     -1     NaN      NaN   DESIRT_G15-3_2026_i.json 226.79  -0.72 NaN NaN NaN     NaN        0       NaN     9.17      NaN
+     18  desirt         2     -1     NaN      NaN   DESIRT_G15-3_2026_z.json 226.79  -0.72 NaN NaN NaN     NaN        0       NaN    10.83      NaN
+     14  desirt         1     -1     NaN      NaN     DESIRT_315_2026_i.json 319.10 -11.09 NaN NaN NaN     NaN        0       NaN    20.17      NaN
+     15  desirt         1     -1     NaN      NaN     DESIRT_315_2026_r.json 319.10 -11.09 NaN NaN NaN     NaN        0       NaN    18.33      NaN

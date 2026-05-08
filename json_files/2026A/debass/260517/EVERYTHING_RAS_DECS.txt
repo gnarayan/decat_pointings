@@ -1,0 +1,17 @@
+debass2605172026kuh_P1 [134 -13]
+debass2605172026kzy_P1 [147 8]
+debass2605172026lel_P1 [149 8]
+debass2605172026lau_P1 [164 -10]
+debass2605172026lky_P1 [190 -35]
+debass2605172026ljy_P1 [189 -4]
+debass2605172026lhu_P1 [216 26]
+debass2605172026lav_P1 [246 20]
+debass2605172026jqg_P1 [257 21]
+debass2605172026kzu_P1 [322 15]
+debass2605172026lda_P1 [334 5]
+debass2605172026ljl_P1 [336 -19]
+
+
+
+EVERYTHING	41.9 minutes
+EVERYTHING_P1	41.9 minutes

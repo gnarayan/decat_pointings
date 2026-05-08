@@ -1,0 +1,22 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2025advo",
+"filter": "g",
+"expTime": 140,
+"RA": "124.4140",
+"dec": "4.7018",
+"propid": "2026A-625308"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2025advo",
+"filter": "g",
+"expTime": 140,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2026A-625308"
+}
+]

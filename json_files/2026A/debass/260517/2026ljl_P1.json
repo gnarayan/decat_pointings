@@ -40,5 +40,19 @@
         "comment": "2026ljl",
         "wait": "False",
         "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 336.68274,
+        "dec": -19.17889,
+        "object": "2026ljl_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2026ljl",
+        "wait": "False",
+        "propid": "2020B-0053"
     }
 ]

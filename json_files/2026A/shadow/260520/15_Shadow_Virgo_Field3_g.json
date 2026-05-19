@@ -1,0 +1,16 @@
+[
+    {
+        "object": "Field3",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "g",
+        "exptime": 90,
+        "RA": 187.9486,
+        "dec": 14.307
+    }
+]

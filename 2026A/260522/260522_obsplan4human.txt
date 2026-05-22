@@ -74,8 +74,8 @@ PT  middle of the night: 21:40:05
      72  shadow         0     -1     NaN      NaN  3_Shadow_Virgo_Field20_g.json 185.65   8.95 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      85  shadow         0     -1     NaN      NaN   9_Shadow_Virgo_Field7_r.json 185.96  11.65 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      84  shadow         0     -1     NaN      NaN   9_Shadow_Virgo_Field7_g.json 185.96  11.65 NaN NaN NaN     NaN        0       NaN     2.00      NaN
-     74  shadow         0     -1     NaN      NaN   4_Shadow_Virgo_Field9_g.json 186.01   7.17 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      75  shadow         0     -1     NaN      NaN   4_Shadow_Virgo_Field9_r.json 186.01   7.17 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     74  shadow         0     -1     NaN      NaN   4_Shadow_Virgo_Field9_g.json 186.01   7.17 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      64  shadow         0     -1     NaN      NaN 28_Shadow_Virgo_Field19_g.json 186.64   5.34 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      65  shadow         0     -1     NaN      NaN 28_Shadow_Virgo_Field19_r.json 186.64   5.34 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      82  shadow         0     -1     NaN      NaN   8_Shadow_Virgo_Field6_g.json 187.48  10.45 NaN NaN NaN     NaN        0       NaN     2.00      NaN
@@ -88,8 +88,8 @@ PT  middle of the night: 21:40:05
      55  shadow         0     -1     NaN      NaN 23_Shadow_Virgo_Field28_r.json 188.06   0.20 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      57  shadow         0     -1     NaN      NaN 24_Shadow_Virgo_Field26_r.json 188.26   2.36 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      56  shadow         0     -1     NaN      NaN 24_Shadow_Virgo_Field26_g.json 188.26   2.36 NaN NaN NaN     NaN        0       NaN     2.00      NaN
-     47  shadow         0     -1     NaN      NaN  1_Shadow_Virgo_Field18_r.json 188.78   6.90 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      46  shadow         0     -1     NaN      NaN  1_Shadow_VIrgo_Field18_g.json 188.78   6.90 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     47  shadow         0     -1     NaN      NaN  1_Shadow_Virgo_Field18_r.json 188.78   6.90 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      80  shadow         0     -1     NaN      NaN   7_Shadow_Virgo_Field5_g.json 189.12  11.29 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      81  shadow         0     -1     NaN      NaN   7_Shadow_Virgo_Field5_r.json 189.12  11.29 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      62  shadow         0     -1     NaN      NaN 27_Shadow_Virgo_Field17_g.json 189.15   8.94 NaN NaN NaN     NaN        0       NaN     2.00      NaN
@@ -100,10 +100,10 @@ PT  middle of the night: 21:40:05
      60  shadow         0     -1     NaN      NaN 26_Shadow_Virgo_Field23_g.json 189.54   4.84 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      42  shadow         0     -1     NaN      NaN 18_Shadow_Virgo_Field16_g.json 190.56  10.04 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      43  shadow         0     -1     NaN      NaN 18_Shadow_Virgo_Field16_r.json 190.56  10.04 NaN NaN NaN     NaN        0       NaN     2.00      NaN
-     59  shadow         0     -1     NaN      NaN 25_Shadow_Virgo_Field24_r.json 190.66   2.88 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      58  shadow         0     -1     NaN      NaN 25_Shadow_Virgo_Field24_g.json 190.66   2.88 NaN NaN NaN     NaN        0       NaN     2.00      NaN
-     41  shadow         0     -1     NaN      NaN 17_Shadow_Virgo_Field15_r.json 191.07  12.05 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     59  shadow         0     -1     NaN      NaN 25_Shadow_Virgo_Field24_r.json 190.66   2.88 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      40  shadow         0     -1     NaN      NaN 17_Shadow_Virgo_Field15_g.json 191.07  12.05 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     41  shadow         0     -1     NaN      NaN 17_Shadow_Virgo_Field15_r.json 191.07  12.05 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      52  shadow         0     -1     NaN      NaN 22_Shadow_Virgo_Field30_g.json 191.09  -0.04 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      53  shadow         0     -1     NaN      NaN 22_Shadow_Virgo_Field30_r.json 191.09  -0.04 NaN NaN NaN     NaN        0       NaN     2.00      NaN
      50  shadow         0     -1     NaN      NaN 21_Shadow_Virgo_Field29_g.json 193.09  -1.15 NaN NaN NaN     NaN        0       NaN     2.00      NaN

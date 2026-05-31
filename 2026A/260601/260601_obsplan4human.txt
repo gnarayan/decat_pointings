@@ -1,0 +1,136 @@
+UT -14 deg twilight: 2026-06-01T22:56:10.145 2026-06-02T10:26:23.061
+UT middle of the night: 2026-06-02T04:41:16.603
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 06/01/2026,   18:56:10 to 06:26:23
+timezone ET: America/New_YorkET  -14 deg twilight: 06/01/2026,   18:56:10 to 06:26:23
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 06/01/2026,   15:56:10 to 03:26:23
+CLT middle of the night: 00:41:16
+ET  middle of the night: 00:41:16
+PT  middle of the night: 21:41:16
+
+
+UT -14 deg twilight: 2026-06-01T22:56:10.145 2026-06-02T10:26:23.061
+UT middle of the night: 2026-06-02T04:41:16.603
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 06/01/2026,   18:56:10 to 06:26:23
+timezone ET: America/New_YorkET  -14 deg twilight: 06/01/2026,   18:56:10 to 06:26:23
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 06/01/2026,   15:56:10 to 03:26:23
+CLT middle of the night: 00:41:16
+ET  middle of the night: 00:41:16
+PT  middle of the night: 21:41:16
+
+
+
+#####################
+### OBSPLAN:
+#####################
+ jsonID program  priority  order airmass sep_moon                             json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+      0     twi         0     10    1.87    149.7      SheppardTwilightJun01evening.json 108.71   4.92 2026-06-01T22:29:28.145 18:29 18:29    0.00        0      0.00    26.70    26.70
+     23     yse         0     20    1.22    115.8                              XCOS.json 150.11   2.27 2026-06-01T22:56:10.145 18:56 18:56   41.39        0      1.52     5.33     6.85
+     34  debass         0     30    1.34    119.6                        2026lel_P1.json 149.34   8.74 2026-06-01T23:03:01.214 19:03 19:03    6.51        0      0.24     3.00     3.24
+     30  debass         0     40    1.36    121.0                        2026kzy_P1.json 147.79   8.70 2026-06-01T23:06:15.547 19:06 19:06    1.53        0      0.06     3.00     3.06
+     29  debass         0     50    1.21    119.2                        2026kuh_P1.json 134.16 -13.61 2026-06-01T23:09:18.911 19:09 19:09   26.09        0      0.96     3.00     3.96
+     13     yse         0     60    1.00     84.1                           2026gvk.json 169.96 -27.78 2026-06-01T23:13:16.304 19:13 19:13   36.19        0      1.33     2.33     3.66
+     14     yse         0     70    1.02     79.4                           2026gzx.json 178.48 -23.08 2026-06-01T23:16:55.912 19:16 19:16    9.02        0      0.33     2.33     2.66
+      2    dosc         0     80    1.00     88.0     1_OMLApex.260601_r_11-dithpos.json 166.68 -24.98 2026-06-01T23:19:35.751 19:19 19:19   10.94        0      0.40    27.50    27.90
+      3    dosc         0     90    1.02     88.2     2_OMLApex.260601_i_15-dithpos.json 166.68 -24.98 2026-06-01T23:47:29.830 19:47 19:47    0.00        0      0.00    37.50    37.50
+      4    dosc         0    100    1.05     88.5     3_OMLApex.260601_z_20-dithpos.json 166.68 -24.98 2026-06-02T00:24:59.830 20:24 20:24    0.00        0      0.00    50.00    50.00
+     26     eta         0    110    1.31     75.5           etale.ec0814.griz.11min.json 158.03 -60.69 2026-06-02T01:14:59.830 21:14 21:14   36.20        1      4.33    10.33    14.66
+     27     eta         0    120    1.31     74.7           etale.ec0915.griz.11min.json 161.26 -59.68 2026-06-02T01:29:39.473 21:29 21:29    1.89        0      0.07    10.33    10.40
+     28     eta         0    130    1.32     74.6                     etale.r.17min.json 161.91 -59.48 2026-06-02T01:40:03.641 21:40 21:40    0.38        0      0.01    10.83    10.85
+     31  debass         0    140    1.40     98.6                        2026lau_P1.json 164.38 -10.27 2026-06-02T01:50:54.486 21:50 21:50   49.25        1      4.81     3.00     7.81
+     45  shadow         0    150    1.52     91.0          10_Shadow_Virgo_Field2_r.json 186.08  13.50 2026-06-02T01:58:42.836 21:58 21:58   32.07        0      1.18     2.00     3.18
+     53  shadow         0    160    1.59     91.7         14_Shadow_Virgo_Field14_r.json 186.30  15.36 2026-06-02T02:01:53.382 22:01 22:01    1.88        0      0.07     2.00     2.07
+     55  shadow         0    170    1.54     89.8          15_Shadow_Virgo_Field3_r.json 187.95  14.31 2026-06-02T02:03:57.518 22:03 22:03    1.91        0      0.07     2.00     2.07
+     57  shadow         0    180    1.50     88.1          16_Shadow_Virgo_Field4_r.json 189.43  13.30 2026-06-02T02:06:01.724 22:06 22:06    1.75        0      0.06     2.00     2.06
+     59  shadow         0    190    1.45     86.1         17_Shadow_Virgo_Field15_r.json 191.07  12.05 2026-06-02T02:08:05.576 22:08 22:08    2.04        0      0.07     2.00     2.07
+     61  shadow         0    200    1.42     85.6         18_Shadow_Virgo_Field16_r.json 190.56  10.04 2026-06-02T02:10:10.064 22:10 22:10    2.07        0      0.08     2.00     2.08
+     63  shadow         0    210    1.36     82.4         19_Shadow_Virgo_Field22_r.json 193.27   8.25 2026-06-02T02:12:14.621 22:12 22:12    3.21        0      0.12     2.00     2.12
+     65  shadow         0    220    1.39     85.6          1_Shadow_Virgo_Field18_r.json 188.78   6.90 2026-06-02T02:14:21.682 22:14 22:14    4.65        0      0.17     2.00     2.17
+     67  shadow         0    230    1.26     79.2         20_Shadow_Virgo_Field25_r.json 193.43   1.88 2026-06-02T02:16:31.911 22:16 22:16    6.83        0      0.25     2.00     2.25
+     69  shadow         0    240    1.22     78.0         21_Shadow_Virgo_Field29_r.json 193.09  -1.15 2026-06-02T02:18:46.943 22:18 22:18    3.05        0      0.11     2.00     2.11
+     73  shadow         0    250    1.30     83.1         23_Shadow_Virgo_Field28_r.json 188.06   0.20 2026-06-02T02:20:53.645 22:20 22:20    5.20        0      0.19     2.00     2.19
+     75  shadow         0    260    1.34     84.0         24_Shadow_Virgo_Field26_r.json 188.26   2.36 2026-06-02T02:23:05.094 22:23 22:23    2.17        0      0.08     2.00     2.08
+     77  shadow         0    270    1.32     82.1         25_Shadow_Virgo_Field24_r.json 190.66   2.88 2026-06-02T02:25:09.868 22:25 22:25    2.45        0      0.09     2.00     2.09
+     79  shadow         0    280    1.38     84.1         26_Shadow_Virgo_Field23_r.json 189.54   4.84 2026-06-02T02:27:15.268 22:27 22:27    2.25        0      0.08     2.00     2.08
+     81  shadow         0    290    1.47     86.4         27_Shadow_Virgo_Field17_r.json 189.15   8.94 2026-06-02T02:29:20.225 22:29 22:29    4.13        0      0.15     2.00     2.15
+     83  shadow         0    300    1.44     86.9         28_Shadow_Virgo_Field19_r.json 186.64   5.34 2026-06-02T02:31:29.304 22:31 22:31    4.39        0      0.16     2.00     2.16
+     85  shadow         0    310    1.44     87.4         29_Shadow_Virgo_Field27_r.json 185.25   3.78 2026-06-02T02:33:38.955 22:33 22:33    2.08        0      0.08     2.00     2.08
+     71  shadow         0    320    1.30     80.4         22_Shadow_Virgo_Field30_r.json 191.09  -0.04 2026-06-02T02:35:43.537 22:35 22:35    6.97        0      0.26     2.00     2.26
+     21     yse         0    330    1.60     89.4                               525.json 186.99  11.09 2026-06-02T02:37:58.881 22:37 22:37   11.85        0      0.43    16.00    16.43
+     44  shadow         0    340    1.80     91.4          10_Shadow_Virgo_Field2_g.json 186.08  13.50 2026-06-02T02:54:24.958 22:54 22:54    2.57        0      0.09     2.00     2.09
+     52  shadow         0    350    1.89     92.1         14_Shadow_Virgo_Field14_g.json 186.30  15.36 2026-06-02T02:56:30.607 22:56 22:56    1.88        0      0.07     2.00     2.07
+     54  shadow         0    360    1.81     90.3          15_Shadow_Virgo_Field3_g.json 187.95  14.31 2026-06-02T02:58:34.743 22:58 22:58    1.91        0      0.07     2.00     2.07
+     56  shadow         0    370    1.75     88.5          16_Shadow_Virgo_Field4_g.json 189.43  13.30 2026-06-02T03:00:38.949 23:00 23:00    1.75        0      0.06     2.00     2.06
+     58  shadow         0    380    1.68     86.5         17_Shadow_Virgo_Field15_g.json 191.07  12.05 2026-06-02T03:02:42.801 23:02 23:02    2.04        0      0.07     2.00     2.07
+     60  shadow         0    390    1.64     86.0         18_Shadow_Virgo_Field16_g.json 190.56  10.04 2026-06-02T03:04:47.289 23:04 23:04    2.07        0      0.08     2.00     2.08
+     62  shadow         0    400    1.55     82.8         19_Shadow_Virgo_Field22_g.json 193.27   8.25 2026-06-02T03:06:51.846 23:06 23:06    3.21        0      0.12     2.00     2.12
+     64  shadow         0    410    1.62     86.1          1_Shadow_Virgo_Field18_g.json 188.78   6.90 2026-06-02T03:08:58.907 23:08 23:08    4.65        0      0.17     2.00     2.17
+     80  shadow         0    420    1.68     86.7         27_Shadow_Virgo_Field17_g.json 189.15   8.94 2026-06-02T03:11:09.136 23:11 23:11    2.08        0      0.08     2.00     2.08
+     82  shadow         0    430    1.66     87.2         28_Shadow_Virgo_Field19_g.json 186.64   5.34 2026-06-02T03:13:13.709 23:13 23:13    4.39        0      0.16     2.00     2.16
+     84  shadow         0    440    1.68     87.7         29_Shadow_Virgo_Field27_g.json 185.25   3.78 2026-06-02T03:15:23.360 23:15 23:15    2.08        0      0.08     2.00     2.08
+     66  shadow         0    450    1.45     79.6         20_Shadow_Virgo_Field25_g.json 193.43   1.88 2026-06-02T03:17:27.942 23:17 23:17    8.38        0      0.31     2.00     2.31
+     68  shadow         0    460    1.42     78.5         21_Shadow_Virgo_Field29_g.json 193.09  -1.15 2026-06-02T03:19:46.386 23:19 23:19    3.05        0      0.11     2.00     2.11
+     70  shadow         0    470    1.48     80.8         22_Shadow_Virgo_Field30_g.json 191.09  -0.04 2026-06-02T03:21:53.088 23:21 23:21    2.28        0      0.08     2.00     2.08
+     72  shadow         0    480    1.57     83.6         23_Shadow_Virgo_Field28_g.json 188.06   0.20 2026-06-02T03:23:58.106 23:23 23:23    3.04        0      0.11     2.00     2.11
+     74  shadow         0    490    1.63     84.5         24_Shadow_Virgo_Field26_g.json 188.26   2.36 2026-06-02T03:26:04.802 23:26 23:26    2.17        0      0.08     2.00     2.08
+     76  shadow         0    500    1.59     82.6         25_Shadow_Virgo_Field24_g.json 190.66   2.88 2026-06-02T03:28:09.576 23:28 23:28    2.45        0      0.09     2.00     2.09
+     78  shadow         0    510    1.69     84.6         26_Shadow_Virgo_Field23_g.json 189.54   4.84 2026-06-02T03:30:14.976 23:30 23:30    2.25        0      0.08     2.00     2.08
+     36  debass         0    520    1.51     80.6                        2026ljy_P1.json 189.09  -4.48 2026-06-02T03:32:19.933 23:32 23:32    9.33        0      0.34     3.00     3.34
+     41  debass         0    530    1.48     63.8                        2026mrf_P1.json 223.32  16.27 2026-06-02T03:35:40.458 23:35 23:35   39.70        0      1.46     3.00     4.46
+     32  debass         0    540    1.62     53.9                        2026lav_P1.json 246.46  20.60 2026-06-02T03:40:07.807 23:40 23:40   22.36        0      0.82     3.00     3.82
+     38  debass         0    550    1.17     48.6                        2026mgp_P1.json 230.22   1.13 2026-06-02T03:43:56.997 23:43 23:43   25.11        0      0.92     3.00     3.92
+     17     yse         0    560    1.10     49.5                               376.json 222.21  -9.14 2026-06-02T03:47:52.246 23:47 23:47   13.01        0      0.48    16.00    16.48
+     18     yse         0    570    1.17     48.8                               428.json 228.14  -1.49 2026-06-02T04:04:20.859 00:04 00:04    9.66        0      0.35    16.00    16.35
+     39  debass         0    580    1.07     37.0                        2026mko_P1.json 236.75 -10.00 2026-06-02T04:20:42.107 00:20 00:20   12.07        0      0.44     3.00     3.44
+     40  debass         0    590    1.26     59.6                        2026mqo_P1.json 203.02 -27.45 2026-06-02T04:24:08.664 00:24 00:24   36.21        0      1.33     3.00     4.33
+     37  debass         0    600    1.46     67.1                        2026lky_P1.json 190.93 -35.16 2026-06-02T04:28:28.322 00:28 00:28   12.88        1      3.47     3.00     6.47
+     11     yse         0    610    1.31     58.1                           2026bgd.json 200.24 -43.59 2026-06-02T04:34:56.656 00:34 00:34   11.07        0      0.41     3.33     3.74
+      8     yse         0    620    1.18     51.3                          2025ajmj.json 211.30 -33.68 2026-06-02T04:38:41.014 00:38 00:38   13.12        0      0.48     3.00     3.48
+      5    dosc         0    630    1.17     49.7  4_ShallowApex.260601_i_6-dithpos.json 213.20 -33.90 2026-06-02T04:42:09.881 00:42 00:42    1.59        0      0.06    15.00    15.06
+      6    dosc         0    640    1.21     49.8 5_ShallowApex.260601_z_10-dithpos.json 213.20 -33.90 2026-06-02T04:57:13.387 00:57 00:57    0.00        0      0.00    25.00    25.00
+     12     yse         0    650    1.86     60.4                           2026fhx.json 215.54 -86.75 2026-06-02T05:22:13.387 01:22 01:22   52.85        0      1.94     3.33     5.27
+     35  debass         0    660    2.62     59.4                        2026ljl_P1.json 336.68 -19.18 2026-06-02T05:27:29.664 01:27 01:27   72.52        1      5.66     3.00     8.66
+     19     yse         0    670    1.74     47.7                               440.json 314.29  -2.48 2026-06-02T05:36:09.218 01:36 01:36   27.54        0      1.01    16.00    17.01
+     42  debass         0    680    2.12     58.0                        2026neh_P1.json 323.50   2.69 2026-06-02T05:53:09.812 01:53 01:53   10.56        0      0.39     3.00     3.39
+     22     yse         0    690    2.39     61.9                               544.json 321.80  11.20 2026-06-02T05:56:33.049 01:56 01:56    8.68        0      0.32    16.00    16.32
+     20     yse         0    700    2.53     66.8                               494.json 332.94   4.77 2026-06-02T06:12:52.135 02:12 02:12   12.77        0      0.47    16.00    16.47
+     33  debass         0    710    2.34     68.0                        2026lda_P1.json 334.21   5.31 2026-06-02T06:29:20.218 02:29 02:29    1.38        0      0.05     3.00     3.05
+     25     yse         1    720    2.60     71.5                               495.json 338.75   4.55 2026-06-02T06:32:23.246 02:32 02:32    4.59        0      0.17    16.00    16.17
+     43  debass         0    730    8.05     89.1                        2026npf_P1.json 348.26  23.59 2026-06-02T06:48:33.346 02:48 02:48   21.14        0      0.77     3.00     3.77
+     24     yse         1    740    2.08     70.4                               393.json 345.62  -9.85 2026-06-02T06:52:19.844 02:52 02:52   33.54        0      1.23    16.00    17.23
+     16     yse         0    750     NaN     97.9                           2026nur.json  35.28 -33.61 2026-06-02T07:09:33.621 03:09 03:09   51.26        1      4.88     2.33     7.21
+      1     twi         0    760    2.15    116.0      SheppardTwilightJun02morning.json  33.75   1.00 2026-06-02T10:26:23.061 06:26 06:26   34.64        1      4.27    12.78    17.05
+
+#####################
+### EXTRA TARGETS:
+#####################
+ jsonID program  priority  order airmass sep_moon                     json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     15     yse         0     -1     NaN      NaN                   2026hkg.json 135.89 -67.88 NaN NaN NaN     NaN        1       NaN     2.67      NaN
+      7     yse         0     -1     NaN      NaN                  2025ahkt.json 141.42  22.42 NaN NaN NaN     NaN        0       NaN     3.00      NaN
+      9     yse         0     -1     NaN      NaN                   2026ayt.json 141.84 -31.92 NaN NaN NaN     NaN        1       NaN     2.00      NaN
+     10     yse         0     -1     NaN      NaN                   2026ayz.json 158.46 -30.93 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     49  shadow         0     -1     NaN      NaN 12_Shadow_Virgo_Field21_r.json 182.42  13.73 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     48  shadow         0     -1     NaN      NaN 12_Shadow_Virgo_Field21_g.json 182.42  13.73 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     89  shadow         0     -1     NaN      NaN 30_Shadow_Virgo_Field12_r.json 183.99   7.64 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     88  shadow         0     -1     NaN      NaN 30_Shadow_Virgo_Field12_g.json 183.99   7.64 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     47  shadow         0     -1     NaN      NaN 11_Shadow_Virgo_Field11_r.json 184.35  12.80 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     46  shadow         0     -1     NaN      NaN 11_Shadow_Virgo_Field11_g.json 184.35  12.80 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     51  shadow         0     -1     NaN      NaN 13_Shadow_Virgo_Field13_r.json 184.47  14.66 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     50  shadow         0     -1     NaN      NaN 13_Shadow_Virgo_Field13_g.json 184.47  14.66 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     95  shadow         0     -1     NaN      NaN  5_Shadow_Virgo_Field10_r.json 184.81   5.76 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     94  shadow         0     -1     NaN      NaN  5_Shadow_Virgo_Field10_g.json 184.81   5.76 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     90  shadow         0     -1     NaN      NaN  3_Shadow_Virgo_Field20_g.json 185.65   8.95 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     91  shadow         0     -1     NaN      NaN  3_Shadow_Virgo_Field20_r.json 185.65   8.95 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+    103  shadow         0     -1     NaN      NaN   9_Shadow_Virgo_Field7_r.json 185.96  11.65 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+    102  shadow         0     -1     NaN      NaN   9_Shadow_Virgo_Field7_g.json 185.96  11.65 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     93  shadow         0     -1     NaN      NaN   4_Shadow_Virgo_Field9_r.json 186.01   7.17 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     92  shadow         0     -1     NaN      NaN   4_Shadow_Virgo_Field9_g.json 186.01   7.17 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+    100  shadow         0     -1     NaN      NaN   8_Shadow_Virgo_Field6_g.json 187.48  10.45 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+    101  shadow         0     -1     NaN      NaN   8_Shadow_Virgo_Field6_r.json 187.48  10.45 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     87  shadow         0     -1     NaN      NaN   2_Shadow_Virgo_Field8_r.json 187.60   8.44 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     86  shadow         0     -1     NaN      NaN   2_Shadow_Virgo_Field8_g.json 187.60   8.44 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     96  shadow         0     -1     NaN      NaN   6_Shadow_Virgo_Field1_g.json 187.70  12.40 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     97  shadow         0     -1     NaN      NaN   6_Shadow_Virgo_Field1_r.json 187.70  12.46 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     98  shadow         0     -1     NaN      NaN   7_Shadow_Virgo_Field5_g.json 189.12  11.29 NaN NaN NaN     NaN        0       NaN     2.00      NaN
+     99  shadow         0     -1     NaN      NaN   7_Shadow_Virgo_Field5_r.json 189.12  11.29 NaN NaN NaN     NaN        0       NaN     2.00      NaN

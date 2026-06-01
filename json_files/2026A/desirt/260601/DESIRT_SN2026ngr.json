@@ -10,9 +10,9 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "g",
-        "exptime": 70,
-        "ra": 209.601319,
-        "dec": -3.046944
+        "exptime": 50,
+        "ra": 209.2889,
+        "dec": -2.9644
     },
     {
         "count": 1,
@@ -25,9 +25,9 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "r",
-        "exptime": 80,
-        "ra": 209.601319,
-        "dec": -3.046944
+        "exptime": 70,
+        "ra": 209.6013,
+        "dec": -2.9644
     },
     {
         "count": 1,
@@ -40,9 +40,9 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "i",
-        "exptime": 100,
-        "ra": 209.601319,
-        "dec": -3.046944
+        "exptime": 90,
+        "ra": 209.9138,
+        "dec": -3.1294
     },
     {
         "count": 1,
@@ -55,8 +55,8 @@
         "proposer": "Palmese",
         "propid": "2025A-729671",
         "filter": "z",
-        "exptime": 120,
-        "ra": 209.601319,
-        "dec": -3.046944
+        "exptime": 100,
+        "ra": 209.2889,
+        "dec": -3.1294
     }
 ]

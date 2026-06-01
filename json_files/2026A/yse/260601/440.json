@@ -178,5 +178,25 @@
 "RA": "317.8593",
 "dec": "-0.8995",
 "propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "440.E.a",
+"filter": "z",
+"expTime": 50,
+"RA": "317.1580",
+"dec": "-4.1982",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "440.F.a",
+"filter": "z",
+"expTime": 50,
+"RA": "317.8593",
+"dec": "-0.8995",
+"propid": "2024B-763968"
 }
 ]

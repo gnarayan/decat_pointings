@@ -1,0 +1,30 @@
+[
+    {
+        "object": "Field13",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "g",
+        "exptime": 90,
+        "RA": 184.4658,
+        "dec": 14.6628
+    },
+    {
+        "object": "Field13",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Virgo pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "r",
+        "exptime": 90,
+        "RA": 184.4658,
+        "dec": 14.6628
+    }
+]

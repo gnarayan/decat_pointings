@@ -6,13 +6,9 @@ debass2606072026lky_P1 [190 -35]
 debass2606072026ljy_P1 [189 -4]
 debass2606072026mqo_P1 [203 -27]
 debass2606072026nzw_P1 [212 -20]
-debass2606072026nyq_P1 [208 17]
 debass2606072026nkc_P1 [216 9]
 debass2606072026mrf_P1 [223 16]
-debass2606072026ocz_P1 [230 -25]
-debass2606072026ofw_P1 [226 -23]
 debass2606072026mko_P1 [236 -10]
-debass2606072026nyg_P1 [245 -4]
 debass2606072026lav_P1 [246 20]
 debass2606072026neh_P1 [323 2]
 debass2606072026ljl_P1 [336 -19]
@@ -20,5 +16,5 @@ debass2606072026npf_P1 [348 23]
 
 
 
-EVERYTHING	66.8 minutes
-EVERYTHING_P1	66.8 minutes
+EVERYTHING	53.7 minutes
+EVERYTHING_P1	53.7 minutes

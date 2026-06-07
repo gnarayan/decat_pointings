@@ -1,0 +1,58 @@
+[
+	{
+		"count": 1,
+		"filter": "g",
+		"exptime": 15.0,
+		"RA": 230.126730,
+		"dec": -25.016670,
+		"object": "2026ocz_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2026ocz",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "r",
+		"exptime": 15.0,
+		"RA": 230.126730,
+		"dec": -25.016670,
+		"object": "2026ocz_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2026ocz",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "i",
+		"exptime": 15.0,
+		"RA": 230.126730,
+		"dec": -25.016670,
+		"object": "2026ocz_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2026ocz",
+		"wait": "False",
+		"propid": "2020B-0053"
+	},
+	{
+		"count": 1,
+		"filter": "z",
+		"exptime": 15.0,
+		"RA": 230.126730,
+		"dec": -25.016670,
+		"object": "2026ocz_P1",
+		"program": "DECAT",
+		"expType": "object",
+		"note": "None",
+		"comment": "2026ocz",
+		"wait": "False",
+		"propid": "2020B-0053"
+	}
+]

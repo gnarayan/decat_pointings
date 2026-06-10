@@ -83,18 +83,4 @@
         "RA": 187.7014,
         "dec": 12.3963
     },
-    {
-        "object": "Field5",
-        "program": "shadow",
-        "expType": "object",
-        "note": "None",
-        "comment": "2025B-589422, Virgo pointings",
-        "wait": "False",
-        "proposer": "Sand, David",
-        "propid": "2025B-589422",
-        "filter": "g",
-        "exptime": 90,
-        "RA": 189.1219,
-        "dec": 11.295
-    }
 ]

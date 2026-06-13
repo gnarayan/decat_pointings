@@ -1,6 +1,6 @@
 [
     {
-        "object": "Field18",
+        "object": "Field5",
         "program": "shadow",
         "expType": "object",
         "note": "None",
@@ -8,13 +8,13 @@
         "wait": "False",
         "proposer": "Sand, David",
         "propid": "2025B-589422",
-        "filter": "r",
+        "filter": "g",
         "exptime": 90,
-        "RA": 188.7788,
-        "dec": 6.8992
+        "RA": 189.1219,
+        "dec": 11.295
     },
     {
-        "object": "Field8",
+        "object": "Field14",
         "program": "shadow",
         "expType": "object",
         "note": "None",
@@ -22,13 +22,13 @@
         "wait": "False",
         "proposer": "Sand, David",
         "propid": "2025B-589422",
-        "filter": "r",
+        "filter": "g",
         "exptime": 90,
-        "RA": 187.6007,
-        "dec": 8.4389
+        "RA": 186.3005,
+        "dec": 15.364
     },
     {
-        "object": "Field20",
+        "object": "Field15",
         "program": "shadow",
         "expType": "object",
         "note": "None",
@@ -36,13 +36,13 @@
         "wait": "False",
         "proposer": "Sand, David",
         "propid": "2025B-589422",
-        "filter": "r",
+        "filter": "g",
         "exptime": 90,
-        "RA": 185.6507,
-        "dec": 8.9489
+        "RA": 191.0718,
+        "dec": 12.0456
     },
     {
-        "object": "Field9",
+        "object": "Field16",
         "program": "shadow",
         "expType": "object",
         "note": "None",
@@ -50,13 +50,13 @@
         "wait": "False",
         "proposer": "Sand, David",
         "propid": "2025B-589422",
-        "filter": "r",
+        "filter": "g",
         "exptime": 90,
-        "RA": 186.0131,
-        "dec": 7.1655
+        "RA": 190.5631,
+        "dec": 10.0351
     },
     {
-        "object": "Field10",
+        "object": "Field22",
         "program": "shadow",
         "expType": "object",
         "note": "None",
@@ -64,23 +64,9 @@
         "wait": "False",
         "proposer": "Sand, David",
         "propid": "2025B-589422",
-        "filter": "r",
+        "filter": "g",
         "exptime": 90,
-        "RA": 184.8111,
-        "dec": 5.7578
-    },
-    {
-        "object": "Field1",
-        "program": "shadow",
-        "expType": "object",
-        "note": "None",
-        "comment": "2025B-589422, Virgo pointings",
-        "wait": "False",
-        "proposer": "Sand, David",
-        "propid": "2025B-589422",
-        "filter": "r",
-        "exptime": 90,
-        "RA": 187.7014,
-        "dec": 12.46
+        "RA": 193.2665,
+        "dec": 8.2527
     }
 ]

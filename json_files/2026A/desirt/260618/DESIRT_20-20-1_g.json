@@ -1,9 +1,9 @@
 [
     {
-        "object": "DESIRT 391508",
+        "object": "DESIRT 20-20-1",
         "expTime": 50,
-        "RA": "210.76125",
-        "dec": "15.497583",
+        "RA": "20.2294583",
+        "dec": "-22.4306389",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -11,13 +11,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 210_14"
+        "comment": "DESI Transients Survey 20-20-1"
     },
     {
-        "object": "DESIRT 264914",
+        "object": "DESIRT 20-20-1",
         "expTime": 50,
-        "RA": "209.01846",
-        "dec": "15.420389",
+        "RA": "20.1287083",
+        "dec": " -20.4076389",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -25,13 +25,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 210_14"
+        "comment": "DESI Transients Survey 20-20-1"
     },
     {
-        "object": "DESIRT 89913",
+        "object": "DESIRT 20-20-1",
         "expTime": 50,
-        "RA": "209.766",
-        "dec": "13.907",
+        "RA": "20.0326667",
+        "dec": "-18.370861",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -39,13 +39,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 210_14"
+        "comment": "DESI Transients Survey 20-20-1"
     },
     {
-        "object": "DESIRT 230898",
+        "object": "DESIRT 20-20-1",
         "expTime": 50,
-        "RA": "211.493375",
-        "dec": "13.9791389",
+        "RA": "21.6662375",
+        "dec": " -17.3587638",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -53,13 +53,13 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 210_14"
+        "comment": "DESI Transients Survey 20-20-1"
     },
     {
-        "object": "DESIRT 42667",
+        "object": "DESIRT 20-20-1",
         "expTime": 50,
-        "RA": "212.2235",
-        "dec": "12.452555",
+        "RA": "21.7774167",
+        "dec": " -19.392527",
         "filter": "g",
         "count": 1,
         "expType": "object",
@@ -67,20 +67,6 @@
         "wait": "False",
         "propid": "2025A-729671",
         "proposer": "Palmese",
-        "comment": "DESI Transients Survey 210_14"
-    },
-    {
-        "object": "DESIRT 54554",
-        "expTime": 50,
-        "RA": "210.509583",
-        "dec": "12.386972",
-        "filter": "g",
-        "count": 1,
-        "expType": "object",
-        "program": "DESI Transients Survey",
-        "wait": "False",
-        "propid": "2025A-729671",
-        "proposer": "Palmese",
-        "comment": "DESI Transients Survey 210_14"
+        "comment": "DESI Transients Survey 20-20-1"
     }
 ]

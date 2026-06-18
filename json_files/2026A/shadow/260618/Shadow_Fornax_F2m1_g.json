@@ -1,0 +1,16 @@
+[
+    {
+        "object": "F2m1",
+        "program": "shadow",
+        "expType": "object",
+        "note": "None",
+        "comment": "2025B-589422, Fornax pointings",
+        "wait": "False",
+        "proposer": "Sand, David",
+        "propid": "2025B-589422",
+        "filter": "g",
+        "exptime": 90,
+        "RA": 54.1654861111111,
+        "dec": -33.7261111111111
+    }
+]

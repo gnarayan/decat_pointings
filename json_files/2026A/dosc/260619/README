@@ -1,9 +1,6 @@
 json files to run on June 19, 2026.
 
-1_OMLApex.260619_r_11-dithpos.json     27.5 minutes
-2_OMLApex.260619_i_11-dithpos.json     27.5 minutes
-3_ShallowApex.260619_g_3-dithpos.json   7.5 minutes
-4_ShallowApex.260619_r_3-dithpos.json   7.5 minutes
-5_ShallowApex.260619_i_3-dithpos.json   7.5 minutes
+1_OMLApex.260619_r_6-dithpos.json      15.0 minutes
+2_OMLApex.260619_i_10-dithpos.json     25.0 minutes  (priority=1)
 
 The preferred observation order follows the list.

@@ -15,16 +15,6 @@
 "object": "ShallowApex",
 "filter": "g",
 "expTime": 120,
-"deltaDEC": "N10",
-"deltaRA": "E0",
-"propid": "2026A-718962"
-},
-{
-"count": 1,
-"expType": "object",
-"object": "ShallowApex",
-"filter": "g",
-"expTime": 120,
 "deltaDEC": "S20",
 "deltaRA": "W0",
 "propid": "2026A-718962"

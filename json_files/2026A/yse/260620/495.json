@@ -1,0 +1,62 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "495.A.a",
+"filter": "g",
+"expTime": 50,
+"RA": "335.6416",
+"dec": "2.9991",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "495.B.a",
+"filter": "g",
+"expTime": 50,
+"RA": "335.6428",
+"dec": "6.0979",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "495.C.a",
+"filter": "g",
+"expTime": 50,
+"RA": "338.7514",
+"dec": "2.9991",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "495.D.a",
+"filter": "g",
+"expTime": 50,
+"RA": "338.7526",
+"dec": "6.0979",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "495.E.a",
+"filter": "g",
+"expTime": 50,
+"RA": "341.8612",
+"dec": "2.9991",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "495.F.a",
+"filter": "g",
+"expTime": 50,
+"RA": "341.8624",
+"dec": "6.0979",
+"propid": "2024B-763968"
+}
+]

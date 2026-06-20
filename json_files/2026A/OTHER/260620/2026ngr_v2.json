@@ -1,0 +1,149 @@
+[
+ {
+  "expType": "object",
+  "RA": 209.601329,
+  "dec": -3.129093,
+  "filter": "r",
+  "expTime": 10,
+  "object": "ZTF26aaxhpdm focus",
+  "propid": "2026A-186064"
+ },
+ {
+  "SCRIPT_COMMENT": "YES",
+  "ditherPattern": "line",
+  "SEQ_LEN": 3,
+  "RA_offset": 10,
+  "dec_offset": 10,
+  "num": 3,
+  "expType": "object",
+  "RA": 209.6013293,
+  "dec": -3.0469423,
+  "filter": "r",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.601329,
+  "dec": -3.129093,
+  "filter": "r",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.604111,
+  "dec": -3.126316,
+  "filter": "r",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.606893,
+  "dec": -3.123538,
+  "filter": "r",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "SCRIPT_COMMENT": "YES",
+  "ditherPattern": "line",
+  "SEQ_LEN": 3,
+  "RA_offset": 10,
+  "dec_offset": 10,
+  "num": 3,
+  "expType": "object",
+  "RA": 209.6013293,
+  "dec": -3.0469423,
+  "filter": "z",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.601329,
+  "dec": -3.129093,
+  "filter": "z",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.604111,
+  "dec": -3.126316,
+  "filter": "z",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.606893,
+  "dec": -3.123538,
+  "filter": "z",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "SCRIPT_COMMENT": "YES",
+  "ditherPattern": "line",
+  "SEQ_LEN": 3,
+  "RA_offset": 10,
+  "dec_offset": 10,
+  "num": 3,
+  "expType": "object",
+  "RA": 209.6013293,
+  "dec": -3.0469423,
+  "filter": "i",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.601329,
+  "dec": -3.129093,
+  "filter": "i",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.604111,
+  "dec": -3.126316,
+  "filter": "i",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ },
+ {
+  "expType": "object",
+  "RA": 209.606893,
+  "dec": -3.123538,
+  "filter": "i",
+  "expTime": 100,
+  "object": "ZTF26aaxhpdm",
+  "propid": "2026A-186064",
+  "centerCcd": "[S4;absolute;209.6013293;-3.0469423]"
+ }
+]

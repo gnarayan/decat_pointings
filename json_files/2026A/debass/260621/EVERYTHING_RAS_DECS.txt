@@ -1,0 +1,16 @@
+debass2606202026odz_P1 [191 -13]
+debass2606202026mqo_P1 [203 -27]
+debass2606202026ono_P1 [200 6]
+debass2606202026ozp_P1 [221 -5]
+debass2606202026mrf_P1 [223 16]
+debass2606202026pad_P1 [227 -11]
+debass2606202026osf_P1 [226 -4]
+debass2606202026pem_P1 [228 3]
+debass2606202026mko_P1 [236 -10]
+debass2606202026ovn_P1 [257 5]
+debass2606202026npf_P1 [348 23]
+
+
+
+EVERYTHING	37.7 minutes
+EVERYTHING_P1	37.7 minutes

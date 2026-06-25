@@ -1,0 +1,42 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2026ngr",
+"filter": "z",
+"expTime": 100,
+"RA": "209.5991",
+"dec": "-2.9600",
+"propid": "2026A-625308"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2026ngr",
+"filter": "z",
+"expTime": 100,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2026A-625308"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2026ngr",
+"filter": "z",
+"expTime": 100,
+"deltaDEC": "N30.000000",
+"deltaRA": "E30.000000",
+"propid": "2026A-625308"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2026ngr",
+"filter": "z",
+"expTime": 100,
+"deltaDEC": "S10.000000",
+"deltaRA": "W20.000000",
+"propid": "2026A-625308"
+}
+]

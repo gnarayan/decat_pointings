@@ -1,0 +1,13 @@
+debass2607072026pmo_P1 [159 14]
+debass2607072026odz_P1 [191 -13]
+debass2607072026pjy_P1 [203 -6]
+debass2607072026ono_P1 [200 6]
+debass2607072026qbu_P1 [211 8]
+debass2607072026rhk_P1 [251 14]
+debass2607072026pir_P1 [264 4]
+debass2607072026ovn_P1 [257 5]
+
+
+
+EVERYTHING	26.7 minutes
+EVERYTHING_P1	26.7 minutes

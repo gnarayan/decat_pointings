@@ -1,0 +1,17 @@
+debass2608242026ymi_P1 [11 22]
+debass2608242026zaz_P1 [16 -4]
+debass2608242026xrg_P1 [30 -5]
+debass2608242026ymb_P1 [46 12]
+debass2608242026ywa_P1 [303 -52]
+debass2608242026yxq_P1 [310 0]
+debass2608242026ypl_P1 [313 11]
+debass2608242026ymk_P1 [310 22]
+debass2608242026zel_P1 [316 -13]
+debass2608242026yzk_P1 [324 0]
+debass2608242026zbo_P1 [321 5]
+debass2608242026yxx_P1 [329 -1]
+
+
+
+EVERYTHING	42.1 minutes
+EVERYTHING_P1	42.1 minutes

@@ -1,9 +1,9 @@
 [
     {
-        "object": "FAR 335",
+        "object": "FAR ELIASS",
         "expTime": 80,
-        "RA": "332.90337499",
-        "dec": "-7.749222",
+        "RA": "10.16795833",
+        "dec": "-41.5175833",
         "filter": "i",
         "count": 1,
         "expType": "object",
@@ -11,13 +11,13 @@
         "wait": "False",
         "propid": "2026B-483149",
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare 335"
+        "comment": "Fast and Rare ELIASS"
     },
     {
-        "object": "FAR 335",
+        "object": "FAR ELIASS",
         "expTime": 80,
-        "RA": "334.9169583",
-        "dec": "-7.6195",
+        "RA": "7.93664166",
+        "dec": "-42.53477611",
         "filter": "i",
         "count": 1,
         "expType": "object",
@@ -25,13 +25,13 @@
         "wait": "False",
         "propid": "2026B-483149",
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare 335"
+        "comment": "Fast and Rare ELIASS"
     },
     {
-        "object": "FAR 335",
+        "object": "FAR ELIASS",
         "expTime": 80,
-        "RA": "336.94300416",
-        "dec": "-7.519",
+        "RA": "10.075795833",
+        "dec": " -43.54917611",
         "filter": "i",
         "count": 1,
         "expType": "object",
@@ -39,13 +39,13 @@
         "wait": "False",
         "propid": "2026B-483149",
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare 335"
+        "comment": "Fast and Rare ELIASS"
     },
     {
-        "object": "FAR 335",
+        "object": "FAR ELIASS",
         "expTime": 80,
-        "RA": "337.45454166",
-        "dec": "-9.066027",
+        "RA": "5.633195833",
+        "dec": "-43.5491761",
         "filter": "i",
         "count": 1,
         "expType": "object",
@@ -53,13 +53,13 @@
         "wait": "False",
         "propid": "2026B-483149",
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare 335"
+        "comment": "Fast and Rare ELIASS"
     },
     {
-        "object": "FAR 335",
+        "object": "FAR ELIASS",
         "expTime": 80,
-        "RA": "335.71670833",
-        "dec": "-9.123638",
+        "RA": "12.28925",
+        "dec": "-44.5625277",
         "filter": "i",
         "count": 1,
         "expType": "object",
@@ -67,13 +67,13 @@
         "wait": "False",
         "propid": "2026B-483149",
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare 335"
+        "comment": "Fast and Rare ELIASS"
     },
     {
-        "object": "FAR 335",
+        "object": "FAR ELIASS",
         "expTime": 80,
-        "RA": "333.69029166",
-        "dec": "-9.265583",
+        "RA": "7.7679125",
+        "dec": "-44.56367611",
         "filter": "i",
         "count": 1,
         "expType": "object",
@@ -81,6 +81,20 @@
         "wait": "False",
         "propid": "2026B-483149",
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare 335"
+        "comment": "Fast and Rare ELIASS"
+    },
+    {
+        "object": "FAR ELIASS",
+        "expTime": 80,
+        "RA": "9.979166",
+        "dec": "-45.58025",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "Fast and Rare Transients Survey",
+        "wait": "False",
+        "propid": "2026B-483149",
+        "proposer": "Palmese Andreoni",
+        "comment": "Fast and Rare ELIASS"
     }
 ]

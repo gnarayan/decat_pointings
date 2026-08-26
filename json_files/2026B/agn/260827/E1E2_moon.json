@@ -1,0 +1,62 @@
+[
+ {
+  "comment": "DECam Long-term Monitoring",
+  "count": 1,
+  "propid": "2026B-382994",
+  "proposer": "Stone",
+  "program": "Monitoring LSST Deep-Drilling Fields with DECam for AGN Reverberation Mapping",
+  "expType": "object",
+  "object": "SN-E1",
+  "filter": "r",
+  "RA": 7.874583,
+  "dec": -43.009611,
+  "seqid": "SN-E1 from script E1E2.json",
+  "expTime": 150,
+  "wait": "False"
+ },
+ {
+  "comment": "DECam Long-term Monitoring",
+  "count": 1,
+  "propid": "2026B-382994",
+  "proposer": "Stone",
+  "program": "Monitoring LSST Deep-Drilling Fields with DECam for AGN Reverberation Mapping",
+  "expType": "object",
+  "object": "SN-E1",
+  "filter": "i",
+  "RA": 7.874583,
+  "dec": -43.009611,
+  "seqid": "SN-E1 from script E1E2.json",
+  "expTime": 200,
+  "wait": "False"
+ },
+ {
+  "comment": "DECam Long-term Monitoring",
+  "count": 1,
+  "propid": "2026B-382994",
+  "proposer": "Stone",
+  "program": "Monitoring LSST Deep-Drilling Fields with DECam for AGN Reverberation Mapping",
+  "expType": "object",
+  "object": "SN-E2",
+  "filter": "r",
+  "RA": 9.5,
+  "dec": -43.998,
+  "seqid": "SN-E2 from script E1E2.json",
+  "expTime": 150,
+  "wait": "False"
+ },
+ {
+  "comment": "DECam Long-term Monitoring",
+  "count": 1,
+  "propid": "2026B-382994",
+  "proposer": "Stone",
+  "program": "Monitoring LSST Deep-Drilling Fields with DECam for AGN Reverberation Mapping",
+  "expType": "object",
+  "object": "SN-E2",
+  "filter": "i",
+  "RA": 9.5,
+  "dec": -43.998,
+  "seqid": "SN-E2 from script E1E2.json",
+  "expTime": 200,
+  "wait": "False"
+ }
+]

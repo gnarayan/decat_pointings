@@ -9,8 +9,10 @@ from astropy.time import Time
 from astroplan import Observer,moon
 from astropy import units as u
 from pytz import timezone
+#from astropy.coordinates import (EarthLocation, SkyCoord, AltAz, get_sun,
+ #                                get_moon, Angle, Longitude)
 from astropy.coordinates import (EarthLocation, SkyCoord, AltAz, get_sun,
-                                 get_moon, Angle, Longitude)
+                                 get_body, Angle, Longitude)
 ctio = Observer.at_site("CTIO",timezone='America/Santiago')
 #ctio = Observer.at_site("CTIO",timezone='UTC')
 
@@ -442,7 +444,8 @@ if __name__=='__main__':
         date = f'20{outdate[:2]}-{outdate[2:4]}-{outdate[4:6]}T06:00:00'
         t = Time(date)+1
         print(f'Setting Moon to UT date {t}')
-        mkjson.moon = get_moon(t,ctio.location)
+#        mkjson.moon = get_moon(t,ctio.location)
+        mkjson.moon = get_body("moon",t,ctio.location)
         mkjson.illum = moon.moon_illumination(t)
         print(f'MOON ILLUMINATION: {mkjson.illum:.2f}')
         mkjson.twi={}

@@ -1436,19 +1436,6 @@ mkjson_yse_nofilterswitch.py  -f r,i  2026ngr -e 120 -n 5 -d 260824  --propid 20
 mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026bgd 2026cmv -e 50 -d 260824
 git add 260824
 
-<<<<<<< HEAD
-new_obsplan.py -d 260828  -v  
-modify_obsplan.py -d 260828 -v  -s
-subl 260828/260828_obsplan.txt
-./mkjson_yse_nofilterswitch.py  -f g,i  428  -d 260828 
-./mkjson_yse_nofilterswitch.py  -f g,i 376   -d 260828 
-./mkjson_yse_nofilterswitch.py  -f z  440 -d 260828 
-./mkjson_yse_nofilterswitch.py  -f i,z  544  -d 260828 
-./mkjson_yse_nofilterswitch.py  -f r,i,z 494 -d 260828 
-./mkjson_yse_nofilterswitch.py  -f g,r,i,z  495 393 -d 260828 
-./mkjson_yse_nofilterswitch.py  -f g,r,i,z  296 448 -d 260828 
-./mkjson_yse_nofilterswitch.py  -f i,z  ELA XMM -d 260828 -n 2
-=======
 ./new_obsplan.py -d 260828  -v  
 ./modify_obsplan.py -d 260828 -v  -s
 open 260828/260828_obsplan.txt
@@ -1461,13 +1448,30 @@ open 260828/260828_obsplan.txt
 ./mkjson_yse_nofilterswitch.py  -f z  296 448 -d 260828 
 ./mkjson_yse_nofilterswitch.py  -f i,z  ELA XMM -d 260828 -n 2
 ./mkjson_yse_nofilterswitch.py  -f r,i,z  XEDFS XECDFS -d 260828 -n 2
->>>>>>> 1bdaa58d9a7443705978a271e0909e588d54df97
 ./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026nur -e 5 -d 260828  --propid 2026A-625308
 ./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026fhx -e 40 -d 260828  --propid 2026A-625308
 ./mkjson_yse_nofilterswitch.py  -f r,i  2026ngr -e 120 -n 5 -d 260828  --propid 2026A-625308
 ./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026bgd 2026cmv -e 50 -d 260828
 git add 260828
 
+
+./new_obsplan.py -d 260829  -v  -2
+./modify_obsplan.py -d 260829 -v  -s -2
+open 260829/260829_obsplan.txt
+./mkjson_yse_nofilterswitch.py  -f g,r,i  428  -d 260829 
+./mkjson_yse_nofilterswitch.py  -f g,r,i 376   -d 260829 
+./mkjson_yse_nofilterswitch.py  -f i,z  440 -d 260829 
+./mkjson_yse_nofilterswitch.py  -f i,z  544  -d 260829 
+#./mkjson_yse_nofilterswitch.py  -f r,i,z 494 -d 260829 
+#./mkjson_yse_nofilterswitch.py  -f g,r,i,z  495 393 -d 260829 
+./mkjson_yse_nofilterswitch.py  -f z  296 448 -d 260829 
+./mkjson_yse_nofilterswitch.py  -f r,i,z  ELA XMM -d 260829 
+./mkjson_yse_nofilterswitch.py  -f r,i,z  XEDFS XECDFS -d 260829 
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026nur -e 5 -d 260829  --propid 2026A-625308
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026fhx -e 40 -d 260829  --propid 2026A-625308
+./mkjson_yse_nofilterswitch.py  -f r,i  2026ngr -e 120 -n 5 -d 260829  --propid 2026A-625308
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026bgd 2026cmv -e 50 -d 260829
+git add 260829
 
 June 18: last 45 min
 June 19: first 1h, and last 45 min

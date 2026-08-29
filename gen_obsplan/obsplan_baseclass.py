@@ -29,7 +29,7 @@ from airmass import AirmassCalculator,ctio_location
 from moon import MoonCalculator
 
 from astropy.coordinates import (EarthLocation, SkyCoord, AltAz, get_sun,
-                                 get_moon, Angle, Longitude)
+                                 Angle, Longitude)
 
 
 def calc_slewtimes_2arrays(coord1,coord2,decflip_time=180.0):
@@ -442,7 +442,17 @@ class obsplan_baseclass:
                         print(f'{programname}: {len(newfiles)} new json files, {len(files_do_not_exist)} json files that don\'t exist anymore')
                         
                     for filename in newfiles:
-                        ix_tmp = int(tmp.t[tmp.t['json_short']==filename].index.values)
+                        print('vvvvvv',tmp.t)
+                        print('jjjj',filename)
+                        print('HHHH',tmp.t['json_short'])
+                        print('bbb',tmp.t['json_short']==filename)
+                        print('xxxxxx0',tmp.t[tmp.t['json_short']==filename])
+                        print('xxxxxx1',tmp.t[tmp.t['json_short']==filename].index)
+                        #print('xxxxxx2',tmp.t[tmp.t['json_short']==filename].index.values)
+                        bla = tmp.t[tmp.t['json_short']==filename].index
+                        ix_tmp = int(bla[0]) 
+                        print('FIX ME!')
+                        #ix_tmp = int(tmp.t[tmp.t['json_short']==filename].index.values)
                         ix = self.jsontable.newrow({'program':programname,
                                                     'priority':priority,
                                                     'json_short':filename,
@@ -580,8 +590,8 @@ class obsplan_baseclass:
         self.jsontable.write(indices=ixs,columns=cols)
         
         
-        self.programtable.t['t_prio0[m]']=np.NaN 
-        self.programtable.t['t_prioX[m]']=np.NaN 
+        self.programtable.t['t_prio0[m]']=np.nan 
+        self.programtable.t['t_prioX[m]']=np.nan 
         
         programs=unique(self.jsontable.t.loc[ixs_ordered,'program'])
         

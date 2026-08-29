@@ -1,0 +1,12 @@
+debass2608292026zfw_P1 [11 -25]
+debass2608292026zec_P1 [40 8]
+debass2608292026zhe_P1 [50 -13]
+debass2608292026zji_P1 [301 62]
+debass2608292026znw_P1 [324 -11]
+debass2608292026yzi_P1 [324 0]
+debass2608292026zvb_P1 [337 4]
+
+
+
+EVERYTHING	34.6 minutes
+EVERYTHING_P1	34.6 minutes

@@ -1477,8 +1477,8 @@ git push temp-push
 ./new_obsplan.py -d 260830  -v  
 ./modify_obsplan.py -d 260830 -v  -s 
 open 260830/260830_obsplan.txt
-./mkjson_yse_nofilterswitch.py  -f g,r  428  -d 260830 
-./mkjson_yse_nofilterswitch.py  -f g,r 376   -d 260830 
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  428  -d 260830 
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z 376   -d 260830 
 ./mkjson_yse_nofilterswitch.py  -f r,i,z  440 -d 260830 
 ./mkjson_yse_nofilterswitch.py  -f r,i,z  544  -d 260830 
 ./mkjson_yse_nofilterswitch.py  -f i,z 494 -d 260830 
@@ -1486,7 +1486,7 @@ open 260830/260830_obsplan.txt
 ./mkjson_yse_nofilterswitch.py  -f z  296 448 -d 260830 
 ./mkjson_yse_nofilterswitch.py  -f r,i,z  ELA -d 260830 
 ./mkjson_yse_nofilterswitch.py  -f i,z  XMM -d 260830 
-./mkjson_yse_nofilterswitch.py  -f r,i,z  XEDFS XECDFS -d 260830 
+./mkjson_yse_nofilterswitch.py  -f r,i,z  XEDFS XECDFS -d 260830 -n 2
 ./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026nur -e 5 -d 260830  --propid 2026A-625308
 ./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026fhx -e 40 -d 260830  --propid 2026A-625308
 ./mkjson_yse_nofilterswitch.py  -f r,i  2026ngr -e 120 -n 5 -d 260830  --propid 2026A-625308

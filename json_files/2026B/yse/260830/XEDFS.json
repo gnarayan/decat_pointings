@@ -12,11 +12,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_aa",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_ab",
 "filter": "r",
 "expTime": 50,
 "RA": "56.7522",
 "dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ab",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -32,11 +52,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_ac",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_ad",
 "filter": "r",
 "expTime": 50,
 "RA": "61.0478",
 "dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ad",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -52,11 +92,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_ba",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_bb",
 "filter": "r",
 "expTime": 50,
 "RA": "61.5238",
 "dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bb",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -72,11 +132,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_bc",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_bd",
 "filter": "r",
 "expTime": 50,
 "RA": "65.6762",
 "dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bd",
+"filter": "r",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -92,11 +172,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_aa",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_ab",
 "filter": "i",
 "expTime": 50,
 "RA": "56.7522",
 "dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ab",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -112,11 +212,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_ac",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_ad",
 "filter": "i",
 "expTime": 50,
 "RA": "61.0478",
 "dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ad",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -132,11 +252,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_ba",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_bb",
 "filter": "i",
 "expTime": 50,
 "RA": "61.5238",
 "dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bb",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -152,11 +292,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_bc",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_bd",
 "filter": "i",
 "expTime": 50,
 "RA": "65.6762",
 "dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bd",
+"filter": "i",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -172,11 +332,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_aa",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_ab",
 "filter": "z",
 "expTime": 50,
 "RA": "56.7522",
 "dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ab",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -192,11 +372,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_ac",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_ad",
 "filter": "z",
 "expTime": 50,
 "RA": "61.0478",
 "dec": "-49.3200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_ad",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -212,11 +412,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_ba",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_bb",
 "filter": "z",
 "expTime": 50,
 "RA": "61.5238",
 "dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bb",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 },
 {
@@ -232,11 +452,31 @@
 {
 "count": 1,
 "expType": "object",
+"object": "EDFS_bc",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
 "object": "EDFS_bd",
 "filter": "z",
 "expTime": 50,
 "RA": "65.6762",
 "dec": "-47.6000",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "EDFS_bd",
+"filter": "z",
+"expTime": 50,
+"deltaDEC": "S60.000000",
+"deltaRA": "E60.000000",
 "propid": "2024B-763968"
 }
 ]

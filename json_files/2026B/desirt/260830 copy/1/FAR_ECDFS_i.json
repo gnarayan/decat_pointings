@@ -1,128 +1,100 @@
 [
     {
-        "object": "FAR ELIASS",
+        "object": "FAR ECDFS",
         "expTime": 80,
-        "RA": "10.16795833",
-        "dec": "-41.5175833",
+        "RA": "51.4904166",
+        "dec": "-26.296888",
         "filter": "i",
         "count": 1,
         "expType": "object",
         "program": "Fast and Rare Transients Survey",
         "wait": "False",
-<<<<<<< HEAD
         "propid": "2026B-483149",
-=======
-        "propid": "2025A-729671",
->>>>>>> a2a68fbee55bbfc3302b5c1049dd7049015fe095
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare ELIASS"
+        "comment": "Fast and Rare ECDFS"
     },
     {
-        "object": "FAR ELIASS",
+        "object": "FAR ECDFS",
         "expTime": 80,
-        "RA": "7.93664166",
-        "dec": "-42.53477611",
+        "RA": "53.363874999",
+        "dec": "-27.3167777",
         "filter": "i",
         "count": 1,
         "expType": "object",
         "program": "Fast and Rare Transients Survey",
         "wait": "False",
-<<<<<<< HEAD
         "propid": "2026B-483149",
-=======
-        "propid": "2025A-729671",
->>>>>>> a2a68fbee55bbfc3302b5c1049dd7049015fe095
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare ELIASS"
+        "comment": "Fast and Rare ECDFS"
     },
     {
-        "object": "FAR ELIASS",
+        "object": "FAR ECDFS",
         "expTime": 80,
-        "RA": "10.075795833",
-        "dec": " -43.54917611",
+        "RA": "49.7501666",
+        "dec": "-27.31477777",
         "filter": "i",
         "count": 1,
         "expType": "object",
         "program": "Fast and Rare Transients Survey",
         "wait": "False",
-<<<<<<< HEAD
         "propid": "2026B-483149",
-=======
-        "propid": "2025A-729671",
->>>>>>> a2a68fbee55bbfc3302b5c1049dd7049015fe095
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare ELIASS"
+        "comment": "Fast and Rare ECDFS"
     },
     {
-        "object": "FAR ELIASS",
+        "object": "FAR ECDFS",
         "expTime": 80,
-        "RA": "5.633195833",
-        "dec": "-43.5491761",
+        "RA": "51.62048333",
+        "dec": "-28.33197611",
         "filter": "i",
         "count": 1,
         "expType": "object",
         "program": "Fast and Rare Transients Survey",
         "wait": "False",
-<<<<<<< HEAD
         "propid": "2026B-483149",
-=======
-        "propid": "2025A-729671",
->>>>>>> a2a68fbee55bbfc3302b5c1049dd7049015fe095
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare ELIASS"
+        "comment": "Fast and Rare ECDFS"
     },
     {
-        "object": "FAR ELIASS",
+        "object": "FAR ECDFS",
         "expTime": 80,
-        "RA": "12.28925",
-        "dec": "-44.5625277",
+        "RA": "55.265083333",
+        "dec": "-28.332888",
         "filter": "i",
         "count": 1,
         "expType": "object",
         "program": "Fast and Rare Transients Survey",
         "wait": "False",
-<<<<<<< HEAD
         "propid": "2026B-483149",
-=======
-        "propid": "2025A-729671",
->>>>>>> a2a68fbee55bbfc3302b5c1049dd7049015fe095
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare ELIASS"
+        "comment": "Fast and Rare ECDFS"
     },
     {
-        "object": "FAR ELIASS",
+        "object": "FAR ECDFS",
         "expTime": 80,
-        "RA": "7.7679125",
-        "dec": "-44.56367611",
+        "RA": "53.52795833",
+        "dec": "-29.347555",
         "filter": "i",
         "count": 1,
         "expType": "object",
         "program": "Fast and Rare Transients Survey",
         "wait": "False",
-<<<<<<< HEAD
         "propid": "2026B-483149",
-=======
-        "propid": "2025A-729671",
->>>>>>> a2a68fbee55bbfc3302b5c1049dd7049015fe095
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare ELIASS"
+        "comment": "Fast and Rare ECDFS"
     },
     {
-        "object": "FAR ELIASS",
+        "object": "FAR ECDFS",
         "expTime": 80,
-        "RA": "9.979166",
-        "dec": "-45.58025",
+        "RA": "51.761916666",
+        "dec": "-30.35813888",
         "filter": "i",
         "count": 1,
         "expType": "object",
         "program": "Fast and Rare Transients Survey",
         "wait": "False",
-<<<<<<< HEAD
         "propid": "2026B-483149",
-=======
-        "propid": "2025A-729671",
->>>>>>> a2a68fbee55bbfc3302b5c1049dd7049015fe095
         "proposer": "Palmese Andreoni",
-        "comment": "Fast and Rare ELIASS"
+        "comment": "Fast and Rare ECDFS"
     }
 ]

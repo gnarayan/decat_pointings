@@ -117,3 +117,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+json_files/2026B/desirt/choose_pointing.ipynb

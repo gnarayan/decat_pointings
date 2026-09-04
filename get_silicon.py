@@ -1,8 +1,10 @@
 import numpy as np
 import pandas as pd
 from copy import copy
+from pathlib import Path
 
-c1_corners = pd.read_csv('cornerCoords_SN-C1.dat',delim_whitespace=True)
+_CORNER_FILE = Path(__file__).resolve().with_name('cornerCoords_SN-C1.dat')
+c1_corners = pd.read_csv(_CORNER_FILE, sep=r'\s+')
 c1_field_center_ra = 54.2743
 c1_field_center_dec = -27.1116
 
@@ -18,13 +20,63 @@ def get_ccd_deg_offsets(df):
 raoff,decoff = get_ccd_deg_offsets(c1_corners)
 
 
-def get_field_center_for_target_on_specific_ccd(ras,decs,ccds,extra_offset_in_arcsec=50):
-    field_cen_ras = []
-    field_cen_decs = []
-    for ra,dec,ccd in zip(ras,decs,ccds):
-        field_cen_ras.append(ra+raoff[int(ccd)]+(np.random.randint(2)-.5)*2*extra_offset_in_arcsec*0.000277778)
-        field_cen_decs.append(dec+decoff[int(ccd)]+(np.random.randint(2)-.5)*2*extra_offset_in_arcsec*0.000277778)
-    return np.array(field_cen_ras),np.array(field_cen_decs)
+def get_field_center_for_target_on_specific_ccd(
+    ras,
+    decs,
+    ccds,
+    extra_offset_in_arcsec=50,
+    seed=None,
+):
+    """Return field centers that place each target near its requested CCD center.
+
+    The extra displacement is sampled uniformly by area inside a circle with
+    radius ``extra_offset_in_arcsec``.  The previous implementation selected
+    only +/- the requested offset on each axis, which restricted targets to
+    four corners of a square.
+
+    Parameters
+    ----------
+    ras, decs : array-like
+        Target sky coordinates in degrees.
+    ccds : array-like
+        Requested DECam CCD numbers (1--62).
+    extra_offset_in_arcsec : float, optional
+        Radius of the circular displacement region, in arcseconds.
+    seed : int or None, optional
+        Seed for reproducible pointings.  With ``None``, fresh random offsets
+        are generated on each call.
+    """
+    ras = np.asarray(ras, dtype=float)
+    decs = np.asarray(decs, dtype=float)
+    ccds = np.asarray(ccds, dtype=int)
+
+    if not (ras.ndim == decs.ndim == ccds.ndim == 1):
+        raise ValueError('ras, decs, and ccds must be one-dimensional')
+    if not (len(ras) == len(decs) == len(ccds)):
+        raise ValueError('ras, decs, and ccds must have the same length')
+    if not np.isfinite(extra_offset_in_arcsec) or extra_offset_in_arcsec < 0:
+        raise ValueError('extra_offset_in_arcsec must be a finite non-negative value')
+
+    invalid_ccds = sorted(set(ccds) - set(raoff))
+    if invalid_ccds:
+        raise ValueError(f'CCD numbers must be between 1 and 62; got {invalid_ccds}')
+
+    nominal_field_ras = ras + np.array([raoff[ccd] for ccd in ccds])
+    nominal_field_decs = decs + np.array([decoff[ccd] for ccd in ccds])
+
+    rng = np.random.default_rng(seed)
+    radii_arcsec = extra_offset_in_arcsec * np.sqrt(rng.random(len(ras)))
+    position_angles = rng.uniform(0.0, 2.0 * np.pi, len(ras))
+    east_offsets_arcsec = radii_arcsec * np.cos(position_angles)
+    north_offsets_arcsec = radii_arcsec * np.sin(position_angles)
+
+    cos_dec = np.cos(np.deg2rad(nominal_field_decs))
+    if np.any(np.isclose(cos_dec, 0.0)):
+        raise ValueError('cannot convert an east-west offset at a celestial pole')
+
+    field_cen_ras = nominal_field_ras + east_offsets_arcsec / (3600.0 * cos_dec)
+    field_cen_decs = nominal_field_decs + north_offsets_arcsec / 3600.0
+    return field_cen_ras, field_cen_decs
         
 
 def is_on_silicon(RApoints,DECpoints,RAcands,DECcands):
@@ -50,4 +102,3 @@ def is_on_silicon(RApoints,DECpoints,RAcands,DECcands):
         raminarcsecs.append(raminarcsec)
         decminarcsecs.append(decminarcsec)
     return np.array(ccds),np.array(raminarcsecs),np.array(decminarcsecs)
-

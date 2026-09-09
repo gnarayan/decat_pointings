@@ -1581,6 +1581,27 @@ git add 260906
 git push temp-push
 
 
+./new_obsplan.py -d 260909  -v  
+./modify_obsplan.py -d 260909 -v  -s 
+open 260909/260909_obsplan.txt
+./mkjson_yse_nofilterswitch.py  -f z 428  440 376 544 494 495 393 296 448 ELA XMM XEDFS XECDFS -s extra.z  -d 260909 
+## ./mkjson_yse_nofilterswitch.py  -f g  440 -d 260909 
+## ./mkjson_yse_nofilterswitch.py  -f g  544  -d 260909 
+./mkjson_yse_nofilterswitch.py  -f g,r 494 -d 260909 
+## ./mkjson_yse_nofilterswitch.py  -f g  495 393 -d 260909 
+./mkjson_yse_nofilterswitch.py  -f g,i  296 -d 260909 
+./mkjson_yse_nofilterswitch.py  -f g,i  448 -d 260909 
+./mkjson_yse_nofilterswitch.py  -f g,i  ELA -d 260909 
+./mkjson_yse_nofilterswitch.py  -f g,i  XMM -d 260909 
+./mkjson_yse_nofilterswitch.py  -f g,i  XEDFS XECDFS -d 260909 -n 2
+./mkjson_yse_nofilterswitch.py  -f g,r,i  2026nur -e 5 -d 260909  --propid 2026A-625308
+./mkjson_yse_nofilterswitch.py  -f g,r,i 2026fhx -e 40 -d 260909  --propid 2026A-625308
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026bgd 2026cmv -e 50 -d 260909
+./mkjson_yse_nofilterswitch.py  -f g,r,i  2023swf 2020jfv 2017hcc 2023swf 2020izc -e 50 -d 260909
+git add 260909
+git push temp-push
+
+
 
 git remote add temp-push https://arminrest:<token>@github.com/gnarayan/decat_pointings
 
@@ -1594,7 +1615,20 @@ June 20: full night, but 2h of engineering at the beginning of the night, and 0.
 
 Schm!dt4Grades+4
 
-cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2026A/yse
+cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2026B/yse
+
+Yize:
+YSE_pointings2fieldcenters.py --addSN 2023swf 316.493875 -14.841761 -vv --overwr
+YSE_pointings2fieldcenters.py --addSN 2020jfv 346.648958 +0.612111 -vv --overwr
+YSE_pointings2fieldcenters.py --addSN 2017hcc 0.960792 -11.474611  -vv --overwr
+YSE_pointings2fieldcenters.py --addSN 2023swf 316.493875 -14.841761  -vv --overwr
+
+YSE_pointings2fieldcenters.py --addSN 2020izc 1.260458 -7.100839  -vv --overwr
+
+
+#YSE_pointings2fieldcenters.py --addSN 2024lwa 338.19607392848 -9.4470094371233  -vv --overwr
+#YSE_pointings2fieldcenters.py --addSN 2026muw 320.874838 -7.680289  -vv --overwr
+
 
 Justin:
 YSE_pointings2fieldcenters.py --addSN 2026ngr 209.6012563 -3.0470256 -vv --overwr

@@ -1026,3 +1026,9 @@ A11pl3Z_250705_UTC4am    NaN 269.77824 -18.55298     0       NaN                
               2026fhx    NaN 215.53759 -86.75033     0       NaN                    NaN               2026fhx      N4          35
               2026nur    NaN  35.28462 -33.61473     0       NaN                    NaN               2026nur      N4          35
               2026ngr    NaN 209.59911  -2.96003     0       NaN                    NaN               2026ngr      N4          35
+              2020jfv    NaN 346.64682   0.69910     0       NaN                    NaN               2020jfv      N4          35
+              2017hcc    NaN   0.95861 -11.38762     0       NaN                    NaN               2017hcc      N4          35
+              2023swf    NaN 316.49166 -14.75477     0       NaN                    NaN               2023swf      N4          35
+              2020izc    NaN   1.25830  -7.01385     0       NaN                    NaN               2020izc      N4          35
+              2023xbg    NaN 311.44500 -29.43236     0       NaN                    NaN               2023xbg      N4          35
+              2021zon    NaN   7.46006  -6.38647     0       NaN                    NaN               2021zon      N4          35

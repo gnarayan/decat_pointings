@@ -1,33 +1,32 @@
 program                            json_short     ra    dec
     twi               SheppardTwilight.*eve.*   0.00   0.00 
+    yse                         2026bgd\.json 200.24 -43.59
+    yse                         2026fhx\.json 215.54 -86.75
+    yse                         2026cmv\.json 241.99 -23.92
+ defsus                  DEFSuS_GBTDS.*\.json 268.21 -29.49
+    yse                         2023xbg\.json 311.44 -29.43
+ desirt                         FAR_310.*json 310.41 -14.53
+ desirt                         FAR_316.*json 316.96 -15.68
+ desirt                         FAR_330.*json 328.05 -16.78
+ desirt                         FAR_350.*json 348.97  -9.70
+ desirt                         FAR_357.*json 357.79  -0.23
+    yse                             ELA\.json   9.45 -43.98
+    agn                            E1E2\.json   8.69 -43.50
+    yse                         2026nur\.json  35.28 -33.61
     yse                             253.*json  61.28 -24.71
     yse                           XEDFS\.json  61.25 -48.42
-    yse                         2026hkg\.json 135.89 -67.88
-    yse                         2026ayt\.json 141.84 -31.92
     eta                               etale.* 158.03 -60.69
     yse                            XCOS\.json 150.11   2.27
-    yse                         2026efq\.json 138.98  10.22
-    yse                        2025ahkt\.json 141.42  22.42
- desirt                          DESIRT_165.* 162.17  -3.50
- shadow               Shadow_Hydra_.*_g\.json 157.70 -29.14
- shadow               Shadow_Hydra_.*_r\.json 157.70 -29.14
-    yse                         2026ayz\.json 158.46 -30.93
-    yse                         2026gvk\.json 169.96 -27.78
-    yse                         2026gzx\.json 178.48 -23.08
+ shadow                   \d+_Shadow_Fornax.*  53.80 -35.64     
    dosc                         \d+_OMLApex.* 166.68 -24.98
- shadow               Shadow_Virgo_.*_r\.json 186.64   5.34
+    agn                              C3\.json  52.65 -28.10
+    yse                          XECDFS\.json  52.98 -28.08
+    agn                            X123\.json  35.53  -5.31
+    yse                             XMM\.json  35.57  -4.78
+ shadow           \d+_Shadow_Virgo_.*_r\.json 186.64   5.34
     yse                             525\.json 186.99  11.09
- shadow               Shadow_Virgo_.*_g\.json 186.64   5.34
- desirt                          DESIRT_200.* 209.93  -3.30
- desirt                 DESIRT_G15.*_g\.json 217.71  -0.86
- desirt                 DESIRT_G15.*_r\.json 217.71  -0.86
- desirt                 DESIRT_G15.*_i\.json 217.71  -0.86
- desirt                 DESIRT_G15.*_z\.json 217.71  -0.86
+ shadow           \d+_Shadow_Virgo_.*_g\.json 186.64   5.34
     yse                             376\.json 222.21  -9.14
     yse                             428\.json 228.14  -1.49
-    yse                         2026cmv\.json 241.99 -23.92
-    yse                         2026bgd\.json 200.24 -43.59
-    yse                        2025ajmj\.json 211.30 -33.68
-   dosc                     \d+_ShallowApex.* 213.20 -33.90
-    yse                         2026icy\.json 266.54 -61.24
-    twi               SheppardTwilight.*mor.*   0.00   0.00 
+   dosc                     \d+_ShallowApex.* 213.20 -33.90   
+   twi                SheppardTwilight.*mor.*   0.00   0.00 

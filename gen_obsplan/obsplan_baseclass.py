@@ -442,16 +442,9 @@ class obsplan_baseclass:
                         print(f'{programname}: {len(newfiles)} new json files, {len(files_do_not_exist)} json files that don\'t exist anymore')
                         
                     for filename in newfiles:
-                        print('vvvvvv',tmp.t)
-                        print('jjjj',filename)
-                        print('HHHH',tmp.t['json_short'])
-                        print('bbb',tmp.t['json_short']==filename)
-                        print('xxxxxx0',tmp.t[tmp.t['json_short']==filename])
-                        print('xxxxxx1',tmp.t[tmp.t['json_short']==filename].index)
-                        #print('xxxxxx2',tmp.t[tmp.t['json_short']==filename].index.values)
                         bla = tmp.t[tmp.t['json_short']==filename].index
                         ix_tmp = int(bla[0]) 
-                        print('FIX ME!')
+                        #print('FIX ME!')
                         #ix_tmp = int(tmp.t[tmp.t['json_short']==filename].index.values)
                         ix = self.jsontable.newrow({'program':programname,
                                                     'priority':priority,
@@ -1237,8 +1230,8 @@ class obsplan_baseclass:
         datetime_date = datetime.strptime(self.YYMMDD, "%y%m%d")
         print('GGGG',self.YYMMDD,datetime_date)
         print('GGGGg',self.observer.timezone)
-        #self.observer_shift = self.observer.timezone.utcoffset(datetime_date).total_seconds() * u.s
-        self.observer_shift = -10800.0
+        self.observer_shift = self.observer.timezone.utcoffset(datetime_date).total_seconds() * u.s
+        #self.observer_shift = -10800.0
         #print('FIX ME!!!! bbbbbb',self.observer_shift)
         #sys.exit(0)
         print('observer UT shift:',self.observer_shift)

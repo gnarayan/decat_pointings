@@ -1,0 +1,7 @@
+debass2609062026yzi_P1 [324.50535 -0.80081]
+debass2609062026znw_P1 [324.36263 -11.83330]
+debass2609062026zfw_P1 [11.59616 -25.35908]
+debass2609062026zec_P1 [40.45937 8.47274]
+
+EXPOSURE_ONLY	4.0 minutes
+EXPOSURE_PLUS_29S_READOUT	11.7 minutes (excludes slews, filter changes and acquisition)

@@ -1,0 +1,17 @@
+[ 
+ {
+  "comment": "DECam 1-hour back-to-back exposures",
+  "count": 45,
+  "propid": "2026B-322794",
+  "proposer": "Kilic",
+  "program": "The Minute-Cadence DECam Survey of the ULTRASAT Southern High-Cadence Field",
+  "expType": "object",
+  "object": "F1",
+  "filter": "g",
+  "RA": 55.3,
+  "dec": -59.0,
+  "seqid": "F1 from script kilicF.json",
+  "expTime": 60,
+  "wait": "False" 
+ }
+]

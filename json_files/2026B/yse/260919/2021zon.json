@@ -1,0 +1,32 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "2021zon",
+"filter": "g",
+"expTime": 50,
+"RA": "7.4601",
+"dec": "-6.3865",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2021zon",
+"filter": "r",
+"expTime": 50,
+"RA": "7.4601",
+"dec": "-6.3865",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "2021zon",
+"filter": "i",
+"expTime": 50,
+"RA": "7.4601",
+"dec": "-6.3865",
+"propid": "2024B-763968"
+}
+]

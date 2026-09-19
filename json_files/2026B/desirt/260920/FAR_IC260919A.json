@@ -1,0 +1,30 @@
+[
+    {
+        "object": "FAR IC260919A",
+        "expTime": 80,
+        "RA": "111.4",
+        "dec": "6.4",
+        "filter": "r",
+        "count": 1,
+        "expType": "object",
+        "program": "Fast and Rare Transients Survey",
+        "wait": "False",
+        "propid": "2026B-483149",
+        "proposer": "Palmese Andreoni",
+        "comment": "Fast and Rare IC260919A"
+    },
+    {
+        "object": "FAR IC260919A",
+        "expTime": 100,
+        "RA": "111.4",
+        "dec": "6.4",
+        "filter": "i",
+        "count": 1,
+        "expType": "object",
+        "program": "Fast and Rare Transients Survey",
+        "wait": "False",
+        "propid": "2026B-483149",
+        "proposer": "Palmese Andreoni",
+        "comment": "Fast and Rare IC260919A"
+    }
+]

@@ -1754,18 +1754,29 @@ subl 260923/260923_obsplan.txt
 #./mkjson_yse_nofilterswitch.py  -f g,r,i   2024lwa 2026muw -e 30 -d 260923 -p 1
 git add 260923
 
+./new_obsplan.py -d 260926  -v -2
+./modify_obsplan.py -d 260926 -v  -s -2
+subl 260926/260926_obsplan.txt
+## ./mkjson_yse_nofilterswitch.py  -f r,i  440 -d 260926 -p 1
+## ./mkjson_yse_nofilterswitch.py  -f r,i  544  -d 260926  -p 1
+./mkjson_yse_nofilterswitch.py  -f i,z 494 -d 260926 
+## ./mkjson_yse_nofilterswitch.py  -f i  495 393 -d 260926  -p 1
+./mkjson_yse_nofilterswitch.py  -f z  296 -d 260926 -p 1
+./mkjson_yse_nofilterswitch.py  -f z 448 -d 260926 -p 1
+./mkjson_yse_nofilterswitch.py  -f r,i  ELA -d 260926 
+./mkjson_yse_nofilterswitch.py  -f z  XMM -d 260926 
+./mkjson_yse_nofilterswitch.py  -f g,r,i XEDFS  -d 260926
+./mkjson_yse_nofilterswitch.py  -f g,i  XECDFS -d 260926
+./mkjson_yse_nofilterswitch.py  -f g,r,i  2026nur -e 40 -d 260926  --propid 2026A-625308
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2026cmv -e 50 -d 260926
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025rbs -e 2 -d 260926 -n 2
+#./mkjson_yse_nofilterswitch.py  -f z  2023swf 2020jfv 2017hcc 2023xbg  -e 50 -d 260926 -p 1
+#./mkjson_yse_nofilterswitch.py  -f g,r,i   2020izc 2021zon 2025uue 2023rkg -e 50 -d 260926 -p 1
+#./mkjson_yse_nofilterswitch.py  -f g,r,i   2024lwa 2026muw -e 30 -d 260926 -p 1
+git add 260926
+
 
 git remote add temp-push https://arminrest:<token>@github.com/gnarayan/decat_pointings
-
-
-June 18: last 45 min
-June 19: first 1h, and last 45 min
-June 20: full night, but 2h of engineering at the beginning of the night, and 0.5h ToO
-
-
-
-
-Schm!dt4Grades+4
 
 cp /Users/arest/pipes/v20.0/photpipe/config/DECAMNOAO/YSE/YSE.pointings.txt /Users/arest/observing/decat_pointings/json_files/2026B/yse
 

@@ -1,0 +1,16 @@
+debass2609262026aagh_P1 [320 3]
+debass2609262026abfj_P1 [324 0]
+debass2609262026yzi_P1 [324 0]
+debass2609262026aajs_P1 [353 -20]
+debass2609262026zfw_P1 [11 -25]
+debass2609262026zec_P1 [40 8]
+debass2609262026acow_P2 [41 8] OPTIONAL
+
+Conservative total including acquisition: 26.304 minutes
+Execution order above is deliberate. Do not re-sort around RA=0.
+Preferred block: 2026-09-27 04:35-05:05 UTC (01:35-02:05 Chile local, UTC-3).
+Observing-night label: 2026-09-26. Allocation: 30 minutes.
+Expected finish: 05:01:18 UTC, including 120 seconds initial acquisition allowance.
+For a fixed 05:05 UTC deadline, start the complete list by 04:38 UTC.
+Later placement requires rechecking the setting targets, especially 2026aagh.
+September 25 qcinv was pending at preparation; reconcile actual visits before execution.

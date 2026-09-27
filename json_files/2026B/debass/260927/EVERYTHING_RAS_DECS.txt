@@ -1,0 +1,14 @@
+debass2609272026aagh_P1 [320 3]
+debass2609272026abfj_P1 [324 0]
+debass2609272026yzi_P1 [324 0]
+debass2609272026aajs_P1 [353 -20]
+debass2609272026zfw_P1 [11 -25]
+
+Estimated total including 120 seconds acquisition: 18.784 minutes
+Repeat of September 26 JSONs, with identical coordinates, priorities, filters and exposure times.
+Observing-night label: 2026-09-27.
+Checked execution example: 2026-09-28 04:35 UTC; expected finish 2026-09-28T04:53:47.010773+00:00.
+Execution order above is deliberate. Do not re-sort around RA=0.
+Actual placement is at the scheduler's discretion; later placement requires renewed airmass checks.
+2026zec and optional 2026acow deferred: approximately 20-22 degrees from the Moon tonight (30-degree limit).
+September 26 qcinv is not yet present; this is a requested repeat, not confirmation of yesterday's observations.

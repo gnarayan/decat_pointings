@@ -1,0 +1,82 @@
+[
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_a",
+"filter": "g",
+"expTime": 50,
+"RA": "9.4500",
+"dec": "-43.0400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_b",
+"filter": "g",
+"expTime": 50,
+"RA": "7.5030",
+"dec": "-44.0200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_c",
+"filter": "g",
+"expTime": 50,
+"RA": "9.4500",
+"dec": "-44.8400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_d",
+"filter": "g",
+"expTime": 50,
+"RA": "11.3900",
+"dec": "-44.0200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_a",
+"filter": "r",
+"expTime": 50,
+"RA": "9.4500",
+"dec": "-43.0400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_b",
+"filter": "r",
+"expTime": 50,
+"RA": "7.5030",
+"dec": "-44.0200",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_c",
+"filter": "r",
+"expTime": 50,
+"RA": "9.4500",
+"dec": "-44.8400",
+"propid": "2024B-763968"
+},
+{
+"count": 1,
+"expType": "object",
+"object": "ELAISS1_d",
+"filter": "r",
+"expTime": 50,
+"RA": "11.3900",
+"dec": "-44.0200",
+"propid": "2024B-763968"
+}
+]

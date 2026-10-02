@@ -1,10 +1,11 @@
 debass2610032026abfj_P1 [324 0]
-debass2610032026zec_P1 [40 8]
-debass2610032026aacj_P1 [28 10]
-debass2610032026abbr_P1 [31 -10]
-debass2610032026zhu_P1 [17 -15]
 debass2610032026aajs_P1 [353 -20]
-debass2610032026acna_P2 [26 10] OPTIONAL
+debass2610032026zhu_P1 [17 -15]
+debass2610032026abbr_P1 [31 -10]
+debass2610032026aacj_P1 [28 10]
+debass2610032026acna_P2 [26 10]
+debass2610032026zec_P1 [40 8]
 
-Conservative total including acquisition: 23.350 minutes
-Execution order above is deliberate. Do not re-sort around RA=0.
+Total including initial setup: 23.350 minutes
+All seven listed targets are scheduled in the combined Oct 3 plan, including P2 acna.
+This is the DEBASS subsequence; other programs are interleaved. Execute the combined obsplan, not this list as a contiguous block.

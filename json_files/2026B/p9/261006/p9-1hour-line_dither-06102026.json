@@ -1,10 +1,11 @@
 [
  {
   "SCRIPT_COMMENT": "YES",
-  "ditherPattern": "Rectangle",
+  "ditherPattern": "line",
   "SEQ_LEN": 4,
-  "RA_offset": 20,
-  "dec_offset": 20,
+  "RA_offset": 40,
+  "dec_offset": 40,
+  "num": 4,
   "expType": "object",
   "RA": 35.18379,
   "dec": -49.2135,
@@ -34,8 +35,8 @@
  },
  {
   "expType": "object",
-  "RA": 35.192295,
-  "dec": -49.2135,
+  "RA": 35.200801,
+  "dec": -49.202389,
   "filter": "r",
   "expTime": 900,
   "epoch": 2000.0,
@@ -48,8 +49,8 @@
  },
  {
   "expType": "object",
-  "RA": 35.192295,
-  "dec": -49.207944,
+  "RA": 35.217812,
+  "dec": -49.191278,
   "filter": "r",
   "expTime": 900,
   "epoch": 2000.0,
@@ -62,8 +63,8 @@
  },
  {
   "expType": "object",
-  "RA": 35.18379,
-  "dec": -49.207944,
+  "RA": 35.234823,
+  "dec": -49.180167,
   "filter": "r",
   "expTime": 900,
   "epoch": 2000.0,

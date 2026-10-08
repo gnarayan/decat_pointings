@@ -1038,3 +1038,4 @@ A11pl3Z_250705_UTC4am    NaN 269.77824 -18.55298     0       NaN                
               2024lwa    NaN 338.19390  -9.36002     0       NaN                    NaN               2024lwa      N4          35
               2026muw    NaN 320.87268  -7.59330     0       NaN                    NaN               2026muw      N4          35
              2026acxa    NaN 315.62383 -19.37465     0       NaN                    NaN              2026acxa      N4          35
+               jetsii    NaN  53.16096 -27.69654     0       NaN                    NaN                jetsii      N4          35

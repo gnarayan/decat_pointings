@@ -1899,6 +1899,32 @@ git add 261003
 ##./mkjson_yse_nofilterswitch.py  -f g,r,i,z   2017hcc 2020izc 2020jfv 2021zon 2024lwa 2025uue -e 50 -d 261003 
 git add 261003
 
+./new_obsplan.py -d 261006  -v -2
+./modify_obsplan.py -d 261006 -v  -s  -2
+subl 261006/261006_obsplan.txt
+## ./mkjson_yse_nofilterswitch.py  -f r,i  440 -d 261006 -p 1
+## ./mkjson_yse_nofilterswitch.py  -f r,i  544  -d 261006  -p 1
+./mkjson_yse_nofilterswitch.py  -f g,i 494 -d 261006 
+## ./mkjson_yse_nofilterswitch.py  -f i  495 393 -d 261006  -p 1
+./mkjson_yse_nofilterswitch.py  -f g,i  296 -d 261006 
+./mkjson_yse_nofilterswitch.py  -f g,i 448 -d 261006 
+./mkjson_yse_nofilterswitch.py  -f g,i  ELA -d 261006 
+./mkjson_yse_nofilterswitch.py  -f g,i  XMM -d 261006 
+./mkjson_yse_nofilterswitch.py  -f g,r XEDFS  -d 261006
+./mkjson_yse_nofilterswitch.py  -f g,i  XECDFS -d 261006
+./mkjson_yse_nofilterswitch.py  -f g,r,i  2026nur -e 40 -d 261006  --propid 2026A-625308
+./mkjson_yse_nofilterswitch.py  -f g,r,i  2026cmv -e 50 -d 261006
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2025rbs -e 2 -d 261006 -n 2
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z   2020jfv 2017hcc   -e 50 -d 261006 -p 1
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z  2023swf   2023xbg  -e 50 -d 261006 -p 1
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z   2020izc 2021zon  -e 50 -d 261006 -p 1
+##./mkjson_yse_nofilterswitch.py  -f g,r,i,z   2025uue  -e 50 -d 261006 -p 1
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z   2023rkg -e 50 -d 261006 -p 1
+./mkjson_yse_nofilterswitch.py  -f g,r,i,z   2024lwa 2026muw -e 30 -d 261006 -p 1
+git add 261006
+##./mkjson_yse_nofilterswitch.py  -f g,r,i,z   2017hcc 2020izc 2020jfv 2021zon 2024lwa 2025uue -e 50 -d 261006 
+git add 261006
+
 
 
 git remote add temp-push https://arminrest:<token>@github.com/gnarayan/decat_pointings

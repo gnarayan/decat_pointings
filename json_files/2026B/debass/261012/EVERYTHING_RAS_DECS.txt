@@ -1,0 +1,16 @@
+debass2610122026aagh_P1 [320 3]
+debass2610122026abfj_P1 [324 0]
+debass2610122026aebj_P2 [327 -6] OPTIONAL
+debass2610122026aajs_P1 [353 -20]
+debass2610122026abbr_P1 [31 -10]
+debass2610122026aacj_P1 [28 10]
+debass2610122026adix_P2 [39 -21] OPTIONAL
+debass2610122026acna_P2 [26 10] OPTIONAL
+debass2610122026acow_P2 [41 8] OPTIONAL
+debass2610122026adff_P2 [17 9] OPTIONAL
+debass2610122026abex_P2 [1 8] OPTIONAL
+debass2610122026aaxq_P2 [37 -24] OPTIONAL
+debass2610122026aedv_P2 [35 21] OPTIONAL
+
+Conservative total including acquisition: 42.950 minutes
+Execution order above is deliberate. Do not re-sort around RA=0.

@@ -1,0 +1,10 @@
+debass2610152026aajs_P1 [353 -20]
+debass2610152026abbr_P1 [31 -10]
+debass2610152026aacj_P1 [28 10]
+debass2610152026aedv_P2 [35 21] OPTIONAL
+debass2610152026adix_P2 [39 -21] OPTIONAL
+debass2610152026adfr_P2 [69 0] OPTIONAL
+debass2610152026adhl_P2 [67 -13] OPTIONAL
+
+Conservative total including acquisition: 23.350 minutes
+Execution order above is deliberate. Do not re-sort around RA=0.

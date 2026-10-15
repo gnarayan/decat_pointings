@@ -38,12 +38,12 @@ PT  middle of the night: 21:28:42
      13     yse         0    110    1.05    100.5                        XEDFS.json  61.25 -48.42 2026-10-16T07:20:34.552 04:20 03:20   16.87      0.0      0.62    10.67    11.29
      23  shadow         0    120    1.02    109.4       1_Shadow_Fornax_g_1of3.json  53.80 -35.64 2026-10-16T07:31:51.665 04:31 03:31   13.91      0.0      0.51    10.00    10.51
      24  shadow         0    130    1.03    109.3     2_Shadow_Fornax_g90_2of3.json  53.34 -35.47 2026-10-16T07:42:22.274 04:42 03:42    0.41      0.0      0.02    10.00    10.02
-     25  shadow         0    140    1.03    113.1     3_Shadow_Fornax_g90_3of3.json  56.49 -32.55 2026-10-16T07:52:23.182 04:52 03:52    3.91      0.0      0.14    10.00    10.14
-     26  shadow         0    150    1.05    109.3     4_Shadow_Fornax_r90_1of3.json  53.80 -35.64 2026-10-16T08:02:31.795 05:02 04:02    3.80      0.0      0.14    10.00    10.14
-     12     yse         0    160    1.07    115.3                       XECDFS.json  52.98 -28.08 2026-10-16T08:12:40.152 05:12 04:12    7.59      1.0      3.28    10.67    13.94
-      4  desirt         0    170    1.10    114.9                  FAR_ECDFS_r.json  52.40 -28.19 2026-10-16T08:26:36.846 05:26 04:26    0.52      0.0      0.02    11.67    11.69
-      3  desirt         0    180    1.12    114.8                  FAR_ECDFS_g.json  52.40 -28.19 2026-10-16T08:38:17.999 05:38 04:38    0.00      0.0      0.00     9.33     9.33
-     15     yse         0    190    1.14    115.6                       jetsii.json  53.16 -27.70 2026-10-16T08:47:37.999 05:47 04:47    0.83      0.0      0.03    12.00    12.03
+     26  shadow         0    140    1.04    109.3     4_Shadow_Fornax_r90_1of3.json  53.80 -35.64 2026-10-16T07:52:23.182 04:52 03:52    0.41      0.0      0.02    10.00    10.02
+     27  shadow         0    150    1.05    109.2     5_Shadow_Fornax_r90_2of3.json  53.34 -35.47 2026-10-16T08:02:24.090 05:02 04:02    0.41      0.0      0.02    10.00    10.02
+     12     yse         0    160    1.07    115.3                       XECDFS.json  52.98 -28.08 2026-10-16T08:12:24.998 05:12 04:12    7.40      1.0      3.27    10.67    13.94
+      4  desirt         0    170    1.10    114.9                  FAR_ECDFS_r.json  52.40 -28.19 2026-10-16T08:26:21.276 05:26 04:26    0.52      0.0      0.02    11.67    11.69
+      3  desirt         0    180    1.12    114.8                  FAR_ECDFS_g.json  52.40 -28.19 2026-10-16T08:38:02.429 05:38 04:38    0.00      0.0      0.00     9.33     9.33
+     15     yse         0    190    1.14    115.6                       jetsii.json  53.16 -27.70 2026-10-16T08:47:22.429 05:47 04:47    0.83      0.0      0.03    12.00    12.03
      33     twi         0    200    2.15    114.3 SheppardTwilightOct16morning.json 148.46  -2.00 2026-10-16T09:00:48.839 06:00 05:00   93.75      0.0      3.44    12.78    16.22
 
 #####################
@@ -56,7 +56,7 @@ PT  middle of the night: 21:28:42
      21  debass         1     -1     NaN      NaN              2026adix_P2.json  39.57 -21.06 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
       8  desirt         1     -1     NaN      NaN              FAR_ECDFS_i.json  52.40 -28.19 NaN NaN NaN     NaN      0.0       NaN    12.83      NaN
      30     agn         0     -1     NaN      NaN                       C3.json  52.65 -28.10 NaN NaN NaN     NaN      1.0       NaN    11.00      NaN
-     27  shadow         0     -1     NaN      NaN 5_Shadow_Fornax_r90_2of3.json  53.34 -35.47 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
+     25  shadow         0     -1     NaN      NaN 3_Shadow_Fornax_g90_3of3.json  56.49 -32.55 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
      28  shadow         0     -1     NaN      NaN 6_Shadow_Fornax_r90_3of3.json  56.49 -32.55 NaN NaN NaN     NaN      0.0       NaN    10.00      NaN
      20  debass         1     -1     NaN      NaN              2026adhl_P2.json  67.82 -13.42 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
      19  debass         1     -1     NaN      NaN              2026adfr_P2.json  69.39  -0.75 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN

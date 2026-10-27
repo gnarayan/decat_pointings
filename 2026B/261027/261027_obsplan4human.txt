@@ -1,0 +1,89 @@
+UT -14 deg twilight: 2026-10-28T00:06:54.178 2026-10-28T08:46:52.196
+UT middle of the night: 2026-10-28T04:26:53.187
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 10/27/2026,   21:06:54 to 05:46:52
+timezone ET: America/New_YorkET  -14 deg twilight: 10/27/2026,   20:06:54 to 04:46:52
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 10/27/2026,   17:06:54 to 01:46:52
+CLT middle of the night: 01:26:53
+ET  middle of the night: 00:26:53
+PT  middle of the night: 21:26:53
+
+
+UT -14 deg twilight: 2026-10-28T00:06:54.178 2026-10-28T08:46:52.196
+UT middle of the night: 2026-10-28T04:26:53.187
+
+timezone CLT: America/SantiagoCLT -14 deg twilight: 10/27/2026,   21:06:54 to 05:46:52
+timezone ET: America/New_YorkET  -14 deg twilight: 10/27/2026,   20:06:54 to 04:46:52
+timezone PT: America/Los_AngelesPT  -14 deg twilight: 10/27/2026,   17:06:54 to 01:46:52
+CLT middle of the night: 01:26:53
+ET  middle of the night: 00:26:53
+PT  middle of the night: 21:26:53
+
+
+
+#####################
+### OBSPLAN:
+#####################
+ jsonID program  priority  order airmass sep_moon                         json_short     ra    dec                      UT   CLT    ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     49  defsus         0     10    1.57    150.8                DEFSuS_GBTDS_z.json 268.21 -29.49 2026-10-28T00:06:54.178 21:06 20:06    0.00      0.0      0.00    57.00    57.00
+      0  desirt         0     20    1.05     95.4                     FAR_330_g.json 328.05 -16.78 2026-10-28T01:03:54.178 22:03 21:03   55.89      0.0      2.05     8.00    10.05
+      1  desirt         0     30    1.06     95.5                     FAR_330_r.json 328.05 -16.78 2026-10-28T01:13:57.129 22:13 21:13    0.00      0.0      0.00    10.00    10.00
+     28  debass         0     40    1.25     91.8                   2026abfj_P1.json 324.32   0.44 2026-10-28T01:23:57.129 22:23 21:23   17.61      0.0      0.65     3.00     3.65
+      2  desirt         0     50    1.10     85.7                     FAR_335_g.json 335.27  -8.39 2026-10-28T01:27:35.870 22:27 21:27   14.04      0.0      0.51     8.00     8.51
+      3  desirt         0     60    1.11     85.8                     FAR_335_r.json 335.27  -8.39 2026-10-28T01:36:06.753 22:36 21:36    0.00      0.0      0.00     9.00     9.00
+      4  desirt         0     70    1.07     74.5                     FAR_350_i.json 348.97  -9.70 2026-10-28T01:45:06.753 22:45 21:45   13.59      0.0      0.50    11.00    11.50
+      5  desirt         0     80    1.07     74.6                     FAR_350_r.json 348.97  -9.70 2026-10-28T01:56:36.645 22:56 21:56    0.00      0.0      0.00     9.00     9.00
+      6  desirt         0     90    1.15     62.4                     FAR_357_i.json 357.79  -0.23 2026-10-28T02:05:36.645 23:05 22:05   12.92      0.0      0.47    11.00    11.47
+      7  desirt         0    100    1.15     62.6                     FAR_357_r.json 357.79  -0.23 2026-10-28T02:17:05.062 23:17 22:17    0.00      0.0      0.00     9.00     9.00
+     31  debass         1    110    1.12     57.5                   2026aett_P2.json   5.51  -3.09 2026-10-28T02:26:05.062 23:26 22:26    8.23      0.0      0.30     3.00     3.30
+     22     yse         0    120    1.23     45.5                           448.json  15.67   3.34 2026-10-28T02:29:23.175 23:29 22:29   12.02      0.0      0.44    16.00    16.44
+     21     yse         0    130    1.04     57.2                           296.json  18.11 -17.41 2026-10-28T02:45:49.621 23:45 22:45   20.89      0.0      0.77    13.33    14.10
+     23     yse         0    140    1.03     82.0                           ELA.json   9.45 -43.98 2026-10-28T02:59:55.586 23:59 22:59   27.55      1.0      4.01    10.67    14.68
+     53     agn         0    150    1.03     82.2                          E1E2.json   8.69 -43.50 2026-10-28T03:14:36.205 00:14 23:14    0.73      0.0      0.03    20.50    20.53
+     51      p9         0    160    1.08     77.2 p9-1hour-line_dither-27102026.json  35.20 -49.20 2026-10-28T03:35:07.805 00:35 23:35   19.06      0.0      0.70    77.50    78.20
+     50   ultra         0    170    1.29     91.3                    kilicoct27.json  67.00 -65.60 2026-10-28T04:53:19.727 01:53 00:53   23.25      0.0      0.85    63.00    63.85
+     48  shadow         0    180    1.13     82.7       Shadow_Dorado_r90_extra.json  66.09 -56.96 2026-10-28T05:57:10.872 02:57 01:57    8.65      0.0      0.32    10.00    10.32
+     47  shadow         0    190    1.13     82.8       Shadow_Dorado_g90_extra.json  66.09 -56.96 2026-10-28T06:07:29.906 03:07 02:07    0.00      0.0      0.00    10.00    10.00
+     41  shadow         0    200    1.01     61.5        1_Shadow_Fornax_g_1of3.json  53.80 -35.64 2026-10-28T06:17:29.906 03:17 02:17   22.87      0.0      0.84    10.00    10.84
+     42  shadow         0    210    1.01     61.4      2_Shadow_Fornax_g90_2of3.json  53.34 -35.47 2026-10-28T06:28:20.217 03:28 02:28    0.41      0.0      0.02    10.00    10.02
+     43  shadow         0    220    1.01     58.3      3_Shadow_Fornax_g90_3of3.json  56.49 -32.55 2026-10-28T06:38:21.125 03:38 02:38    3.91      0.0      0.14    10.00    10.14
+     44  shadow         0    230    1.03     61.6      4_Shadow_Fornax_r90_1of3.json  53.80 -35.64 2026-10-28T06:48:29.738 03:48 02:48    3.80      0.0      0.14    10.00    10.14
+     45  shadow         0    240    1.04     61.5      5_Shadow_Fornax_r90_2of3.json  53.34 -35.47 2026-10-28T06:58:38.095 03:58 02:58    0.41      0.0      0.02    10.00    10.02
+     46  shadow         0    250    1.03     58.4      6_Shadow_Fornax_r90_3of3.json  56.49 -32.55 2026-10-28T07:08:39.003 04:08 03:08    3.91      0.0      0.14    10.00    10.14
+     25     yse         0    260    1.06     53.9                        jetsii.json  53.16 -27.70 2026-10-28T07:18:47.616 04:18 03:18    5.64      1.0      3.21    12.00    15.21
+     52     agn         0    270    1.09     54.4                            C3.json  52.65 -28.10 2026-10-28T07:34:00.033 04:34 03:34    0.61      0.0      0.02    11.00    11.02
+     54     agn         0    280    1.56     39.5                     X123_moon.json  35.53  -5.31 2026-10-28T07:45:01.365 04:45 03:45   27.99      0.0      1.03    22.00    23.03
+     24     yse         0    290    1.74     39.3                           XMM.json  35.57  -4.78 2026-10-28T08:08:02.941 05:08 04:08    0.54      0.0      0.02    10.67    10.69
+     26     eta         0    300    1.66    115.7       etale.ec0814.griz.11min.json 158.03 -60.69 2026-10-28T08:18:44.119 05:18 04:18  100.90      1.0      6.70    10.33    17.03
+     27     eta         0    310    1.64    117.1       etale.ec0915.griz.11min.json 161.26 -59.68 2026-10-28T08:35:46.110 05:35 04:35    1.89      0.0      0.07    10.33    10.40
+
+#####################
+### EXTRA TARGETS:
+#####################
+ jsonID program  priority  order airmass sep_moon         json_short     ra    dec  UT CLT  ET sep_deg  decflip t_slew[m] t_exp[m] t_tot[m]
+     12  desirt         1     -1     NaN      NaN  FAR_ELIASS_i.json   9.12 -43.69 NaN NaN NaN     NaN      0.0       NaN    12.83      NaN
+     13  desirt         1     -1     NaN      NaN  FAR_ELIASS_r.json   9.12 -43.69 NaN NaN NaN     NaN      0.0       NaN    10.50      NaN
+     20  desirt         2     -1     NaN      NaN  FAR_ELIASS_z.json   9.12 -43.69 NaN NaN NaN     NaN      0.0       NaN    15.17      NaN
+     37  debass         1     -1     NaN      NaN   2026afsw_P2.json  15.50 -22.29 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     30  debass         1     -1     NaN      NaN   2026aerw_P2.json  17.96  10.31 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     32  debass         1     -1     NaN      NaN   2026aeva_P2.json  40.98  -6.91 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     38  debass         1     -1     NaN      NaN   2026afxk_P2.json  49.45 -64.91 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+      9  desirt         0     -1     NaN      NaN   FAR_ECDFS_r.json  52.40 -28.19 NaN NaN NaN     NaN      0.0       NaN    11.67      NaN
+      8  desirt         0     -1     NaN      NaN   FAR_ECDFS_i.json  52.40 -28.19 NaN NaN NaN     NaN      0.0       NaN    12.83      NaN
+     19  desirt         2     -1     NaN      NaN   FAR_ECDFS_z.json  52.40 -28.19 NaN NaN NaN     NaN      0.0       NaN    15.17      NaN
+     55     yse         0     -1     NaN      NaN        XECDFS.json  52.98 -28.08 NaN NaN NaN     NaN      0.0       NaN    10.67      NaN
+     56     yse         0     -1     NaN      NaN         XEDFS.json  61.25 -48.42 NaN NaN NaN     NaN      0.0       NaN    21.33      NaN
+     29  debass         1     -1     NaN      NaN   2026adhl_P2.json  67.82 -13.42 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     36  debass         1     -1     NaN      NaN   2026afrp_P2.json  72.00  -4.31 NaN NaN NaN     NaN      0.0       NaN     2.53      NaN
+     14  desirt         1     -1     NaN      NaN FAR_IC260919A.json 111.40   6.40 NaN NaN NaN     NaN      0.0       NaN     4.00      NaN
+     39  debass         1     -1     NaN      NaN   2026agsu_P2.json 320.99 -18.50 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     10  desirt         1     -1     NaN      NaN     FAR_330_i.json 328.05 -16.78 NaN NaN NaN     NaN      0.0       NaN    11.00      NaN
+     15  desirt         2     -1     NaN      NaN     FAR_330_z.json 328.05 -16.78 NaN NaN NaN     NaN      0.0       NaN    13.00      NaN
+     33  debass         1     -1     NaN      NaN   2026afgd_P2.json 328.77   3.36 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     16  desirt         2     -1     NaN      NaN     FAR_335_z.json 335.27  -8.39 NaN NaN NaN     NaN      0.0       NaN    13.00      NaN
+     11  desirt         1     -1     NaN      NaN     FAR_335_i.json 335.27  -8.39 NaN NaN NaN     NaN      0.0       NaN    11.00      NaN
+     40  debass         1     -1     NaN      NaN   2026agvr_P2.json 335.43  -0.47 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     35  debass         1     -1     NaN      NaN   2026afkh_P2.json 348.61   7.67 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     17  desirt         2     -1     NaN      NaN     FAR_350_z.json 348.97  -9.70 NaN NaN NaN     NaN      0.0       NaN    13.00      NaN
+     34  debass         1     -1     NaN      NaN   2026afjj_P2.json 351.55 -10.95 NaN NaN NaN     NaN      0.0       NaN     3.00      NaN
+     18  desirt         2     -1     NaN      NaN     FAR_357_z.json 357.79  -0.23 NaN NaN NaN     NaN      0.0       NaN    13.00      NaN

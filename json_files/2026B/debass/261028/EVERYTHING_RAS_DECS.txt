@@ -1,10 +1,10 @@
-debass2610282026afco_P2 [53 5] OPTIONAL
-debass2610282026afnj_P2 [42 15] OPTIONAL
-debass2610282026afrp_P2 [72 -4] OPTIONAL
-debass2610282026aett_P2 [5 -3] OPTIONAL
-debass2610282026afjj_P2 [351 -10] OPTIONAL
-debass2610282026aedl_P2 [29 -33] OPTIONAL
-debass2610282026afxk_P2 [49 -64] OPTIONAL
+debass2610282026afco_P1 [53 5]
+debass2610282026afnj_P1 [42 15]
+debass2610282026afrp_P1 [72 -4]
+debass2610282026aett_P1 [5 -3]
+debass2610282026afjj_P1 [351 -10]
+debass2610282026aedl_P1 [29 -33]
+debass2610282026afxk_P1 [49 -64]
 
 Conservative total including acquisition: 25.883 minutes
 Execution order above is deliberate. Do not re-sort around RA=0.

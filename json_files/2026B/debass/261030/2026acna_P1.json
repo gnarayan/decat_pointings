@@ -1,0 +1,58 @@
+[
+  {
+    "count": 1,
+    "filter": "g",
+    "exptime": 15.0,
+    "RA": 26.50771,
+    "dec": 10.02384,
+    "object": "2026acna_P1",
+    "program": "DECAT",
+    "expType": "object",
+    "note": "None",
+    "comment": "2026acna | Review override: Recover the first missed DECam griz epoch for the user's explicitly approved first-epoch programme. October 1 WiFeS says a few days after maximum, yielding only an approximate lower age constraint near the +30-day boundary (frame assumption retained); SALT peak timing is weak, not a precise fitted cutoff. No actual DEBASS qcinv is established; previous dated JSONs preserve the separate +7-day planned-target eligibility. A single epoch anchors late-time flux and checks the classification/phase interpretation. Do not mislabel detection age as phase or bypass a newly reliable expiry/subtype/terminal decision.",
+    "wait": "False",
+    "propid": "2020B-0053"
+  },
+  {
+    "count": 1,
+    "filter": "r",
+    "exptime": 15.0,
+    "RA": 26.50771,
+    "dec": 10.02384,
+    "object": "2026acna_P1",
+    "program": "DECAT",
+    "expType": "object",
+    "note": "None",
+    "comment": "2026acna | Review override: Recover the first missed DECam griz epoch for the user's explicitly approved first-epoch programme. October 1 WiFeS says a few days after maximum, yielding only an approximate lower age constraint near the +30-day boundary (frame assumption retained); SALT peak timing is weak, not a precise fitted cutoff. No actual DEBASS qcinv is established; previous dated JSONs preserve the separate +7-day planned-target eligibility. A single epoch anchors late-time flux and checks the classification/phase interpretation. Do not mislabel detection age as phase or bypass a newly reliable expiry/subtype/terminal decision.",
+    "wait": "False",
+    "propid": "2020B-0053"
+  },
+  {
+    "count": 1,
+    "filter": "i",
+    "exptime": 15.0,
+    "RA": 26.50771,
+    "dec": 10.02384,
+    "object": "2026acna_P1",
+    "program": "DECAT",
+    "expType": "object",
+    "note": "None",
+    "comment": "2026acna | Review override: Recover the first missed DECam griz epoch for the user's explicitly approved first-epoch programme. October 1 WiFeS says a few days after maximum, yielding only an approximate lower age constraint near the +30-day boundary (frame assumption retained); SALT peak timing is weak, not a precise fitted cutoff. No actual DEBASS qcinv is established; previous dated JSONs preserve the separate +7-day planned-target eligibility. A single epoch anchors late-time flux and checks the classification/phase interpretation. Do not mislabel detection age as phase or bypass a newly reliable expiry/subtype/terminal decision.",
+    "wait": "False",
+    "propid": "2020B-0053"
+  },
+  {
+    "count": 1,
+    "filter": "z",
+    "exptime": 15.0,
+    "RA": 26.50771,
+    "dec": 10.02384,
+    "object": "2026acna_P1",
+    "program": "DECAT",
+    "expType": "object",
+    "note": "None",
+    "comment": "2026acna | Review override: Recover the first missed DECam griz epoch for the user's explicitly approved first-epoch programme. October 1 WiFeS says a few days after maximum, yielding only an approximate lower age constraint near the +30-day boundary (frame assumption retained); SALT peak timing is weak, not a precise fitted cutoff. No actual DEBASS qcinv is established; previous dated JSONs preserve the separate +7-day planned-target eligibility. A single epoch anchors late-time flux and checks the classification/phase interpretation. Do not mislabel detection age as phase or bypass a newly reliable expiry/subtype/terminal decision.",
+    "wait": "False",
+    "propid": "2020B-0053"
+  }
+]

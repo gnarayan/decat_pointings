@@ -39,12 +39,12 @@
         "wait": "False",
         "proposer": "Palmese",
         "propid": "2025A-729671",
-        "filter": "i",
-        "exptime": 70,
-        "ra": 22.1118,
+        "filter": "z",
+        "exptime": 50,
+        "ra": 21.4717,
         "dec": 12.8083
     },
-    {
+        {
         "count": 1,
         "object": "EP261006a",
         "program": "DESI Transients Survey",
@@ -54,9 +54,9 @@
         "wait": "False",
         "proposer": "Palmese",
         "propid": "2025A-729671",
-        "filter": "z",
+        "filter": "u",
         "exptime": 50,
         "ra": 21.4717,
-        "dec": 12.8083
+        "dec": 12.9733
     }
 ]

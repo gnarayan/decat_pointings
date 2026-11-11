@@ -2,7 +2,7 @@
     {
         "count": 1,
         "filter": "g",
-        "exptime": 8.0,
+        "exptime": 1.0,
         "RA": 55.14524,
         "dec": -47.15906,
         "object": "2026ahvu_P1",
@@ -16,7 +16,7 @@
     {
         "count": 1,
         "filter": "r",
-        "exptime": 8.0,
+        "exptime": 1.0,
         "RA": 55.14524,
         "dec": -47.15906,
         "object": "2026ahvu_P1",
@@ -30,7 +30,7 @@
     {
         "count": 1,
         "filter": "i",
-        "exptime": 8.0,
+        "exptime": 1.0,
         "RA": 55.14524,
         "dec": -47.15906,
         "object": "2026ahvu_P1",
@@ -44,7 +44,7 @@
     {
         "count": 1,
         "filter": "z",
-        "exptime": 8.0,
+        "exptime": 1.0,
         "RA": 55.14524,
         "dec": -47.15906,
         "object": "2026ahvu_P1",

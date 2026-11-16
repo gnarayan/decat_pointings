@@ -10,7 +10,8 @@ debass2611162026afco_P1 [53 5] LCO requestgroup 2742824
 debass2611162026aedl_P1 [29 -33] LCO requestgroup 2742825
 debass2611162026aicd_P1 [359 11] LCO requestgroup 2742826
 debass2611162026aici_P1 [359 -27] LCO requestgroup 2742827
+debass2611162026afsw_P1 [15 -22] LCO requestgroup 2742882
 
 Window: 2026-11-17T00:49:08.351265+00:00 to 2026-11-17T04:27:59.097576+00:00 (UTC)
-LCO-charged total if all complete: 43.7 minutes
+LCO-charged total if all complete: 48.2 minutes
 LCO schedules the order and night; completion is tracked with aeon-sync.

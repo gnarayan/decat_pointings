@@ -1,0 +1,58 @@
+[
+    {
+        "count": 1,
+        "filter": "g",
+        "exptime": 15.0,
+        "RA": 108.81782,
+        "dec": 11.897,
+        "object": "2026aisi_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2026aisi",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "r",
+        "exptime": 15.0,
+        "RA": 108.81782,
+        "dec": 11.897,
+        "object": "2026aisi_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2026aisi",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "i",
+        "exptime": 15.0,
+        "RA": 108.81782,
+        "dec": 11.897,
+        "object": "2026aisi_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2026aisi",
+        "wait": "False",
+        "propid": "2020B-0053"
+    },
+    {
+        "count": 1,
+        "filter": "z",
+        "exptime": 15.0,
+        "RA": 108.81782,
+        "dec": 11.897,
+        "object": "2026aisi_P1",
+        "program": "DECAT",
+        "expType": "object",
+        "note": "None",
+        "comment": "2026aisi",
+        "wait": "False",
+        "propid": "2020B-0053"
+    }
+]

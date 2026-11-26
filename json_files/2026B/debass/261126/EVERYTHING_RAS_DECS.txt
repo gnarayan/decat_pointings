@@ -1,0 +1,16 @@
+AEON queue submission (LCO Observation Portal); record only, not for manual execution.
+
+debass2611262026afco_P1 [53 5] LCO requestgroup 2751230
+debass2611262026afnj_P1 [42 15] LCO requestgroup 2751231
+debass2611262026afjj_P1 [351 -10] LCO requestgroup 2751232
+debass2611262026afgd_P1 [328 3] LCO requestgroup 2751233
+debass2611262026ahvu_P1 [55 -47] LCO requestgroup 2751234
+debass2611262026afxk_P1 [49 -64] LCO requestgroup 2751235
+debass2611262026afkh_P1 [348 7] LCO requestgroup 2751236
+debass2611262026aedl_P1 [29 -33] LCO requestgroup 2751237
+debass2611262026aiop_P1 [55 22] LCO requestgroup 2751238
+debass2611262026aici_P1 [359 -27] LCO requestgroup 2751239
+
+Window: 2026-11-27T01:00:14.548026+00:00 to 2026-11-27T08:00:59.423614+00:00 (UTC)
+LCO-charged total if all complete: 43.7 minutes
+LCO schedules the order and night; completion is tracked with aeon-sync.
